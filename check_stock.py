@@ -11,8 +11,6 @@ from playwright.async_api import async_playwright
 
 STORE_URL = (
     "https://www.amazon.es/stores/page/70E78EA6-79CB-4678-9249-717F2A13EB77"
-    "?ingress=2&lp_context_asin=B0GZKZ1FL9&lp_context_query=pokemon"
-    "&store_ref=bl_ast_dp_brandlogo_sto&ref_=ast_bln"
 )
 AFFILIATE_TAG = "enkairito-21"
 STATE_FILE = Path(__file__).parent / "state.json"
