@@ -12,6 +12,14 @@ from playwright.async_api import async_playwright
 STORE_URL = "https://www.amazon.es/stores/page/70E78EA6-79CB-4678-9249-717F2A13EB77"
 AFFILIATE_TAG = "enkairito-21"
 STATE_FILE = Path(__file__).parent / "state.json"
+DEBUG_DIR = Path(__file__).parent / "debug"
+
+CAPTCHA_MARKERS = [
+    "introduzca los caracteres",
+    "enter the characters you see below",
+    "api-services-support@amazon.com",
+    "robot check",
+]
 
 TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 TELEGRAM_CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
@@ -84,17 +92,38 @@ async def discover_products(browser):
         await page.mouse.wheel(0, 2000)
         await page.wait_for_timeout(800)
 
+    title = await page.title()
+    print(f"ℹ️ Título de la página cargada: {title!r}")
+    print(f"ℹ️ URL final tras la carga: {page.url}")
+
+    body_text = (await page.inner_text("body")).lower()
+    if any(marker in body_text for marker in CAPTCHA_MARKERS):
+        print("❌ Amazon devolvió una verificación anti-bot (captcha) en vez de la tienda.")
+
+    DEBUG_DIR.mkdir(exist_ok=True)
+    await page.screenshot(path=str(DEBUG_DIR / "store_page.png"), full_page=True)
+    (DEBUG_DIR / "store_page.html").write_text(await page.content(), encoding="utf-8")
+
     anchors = await page.eval_on_selector_all(
-        "a[href*='/dp/'], a[href*='/gp/product/']",
-        "els => els.map(e => ({href: e.href, text: e.innerText}))",
+        "a[href*='/dp/'], a[href*='/gp/product/'], [data-asin]",
+        """els => els.map(e => ({
+            href: e.href || null,
+            asin: e.getAttribute('data-asin'),
+            text: e.innerText
+        }))""",
     )
 
     products = {}
     for a in anchors:
-        match = ASIN_RE.search(a["href"])
-        if not match:
+        asin = None
+        if a.get("href"):
+            match = ASIN_RE.search(a["href"])
+            if match:
+                asin = match.group(1)
+        if not asin and a.get("asin"):
+            asin = a["asin"]
+        if not asin:
             continue
-        asin = match.group(1)
         name = (a["text"] or "").strip()
         if asin not in products or (name and not products[asin]["name"]):
             products[asin] = {"name": name or products.get(asin, {}).get("name", asin)}
