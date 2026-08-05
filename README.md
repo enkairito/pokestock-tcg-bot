@@ -55,6 +55,15 @@ set -a; source .env; set +a
 python check_stock.py
 ```
 
+Para probar cambios sin enviar mensajes reales al grupo, usa `DRY_RUN=1`:
+
+```bash
+DRY_RUN=1 python check_stock.py
+```
+
+Con `DRY_RUN=1` el script imprime en consola qué mensaje habría enviado en
+lugar de llamar a la API de Telegram.
+
 ## Riesgos conocidos
 
 - **Bloqueo por IP**: los runners de GitHub Actions usan IPs de datacenter,

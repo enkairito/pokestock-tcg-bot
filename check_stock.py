@@ -9,7 +9,11 @@ from pathlib import Path
 import requests
 from playwright.async_api import async_playwright
 
-STORE_URL = "https://www.amazon.es/stores/page/70E78EA6-79CB-4678-9249-717F2A13EB77"
+STORE_URL = (
+    "https://www.amazon.es/stores/page/70E78EA6-79CB-4678-9249-717F2A13EB77"
+    "?ingress=2&lp_context_asin=B0GZKZ1FL9&lp_context_query=pokemon"
+    "&store_ref=bl_ast_dp_brandlogo_sto&ref_=ast_bln"
+)
 AFFILIATE_TAG = "enkairito-21"
 STATE_FILE = Path(__file__).parent / "state.json"
 DEBUG_DIR = Path(__file__).parent / "debug"
@@ -23,6 +27,7 @@ CAPTCHA_MARKERS = [
 
 TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 TELEGRAM_CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
+DRY_RUN = os.environ.get("DRY_RUN") == "1"
 
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -42,11 +47,19 @@ UNAVAILABLE_PHRASES = [
     "no está disponible",
 ]
 
+INVITATION_MARKER = "invitaci"
+
+MAX_QTY_RE = re.compile(r"m[aá]x(?:imo)?\.?\s*(\d+)\s*unidad", re.IGNORECASE)
+
 
 def load_state():
-    if STATE_FILE.exists():
-        return json.loads(STATE_FILE.read_text(encoding="utf-8"))
-    return {}
+    if not STATE_FILE.exists():
+        return {}
+    state = json.loads(STATE_FILE.read_text(encoding="utf-8"))
+    for info in state.values():
+        if "status" not in info and "available" in info:
+            info["status"] = "compra_directa" if info["available"] else "no_disponible"
+    return state
 
 
 def save_state(state):
@@ -78,6 +91,9 @@ async def new_context(browser):
     await context.route(
         re.compile(r"\.(png|jpg|jpeg|gif|webp|woff2?|ttf)(\?.*)?$"),
         lambda route: route.abort(),
+    )
+    await context.add_init_script(
+        "Object.defineProperty(navigator, 'webdriver', {get: () => undefined});"
     )
     return context
 
@@ -132,6 +148,27 @@ async def discover_products(browser):
     return products
 
 
+async def extract_price_info(page):
+    current = await page.eval_on_selector(
+        "span.priceToPay .a-offscreen, #corePriceDisplay_desktop_feature_div .a-price .a-offscreen, "
+        "#priceblock_dealprice, #priceblock_ourprice, .a-price .a-offscreen",
+        "el => el.textContent.trim()",
+    ) if await page.query_selector(
+        "span.priceToPay .a-offscreen, #corePriceDisplay_desktop_feature_div .a-price .a-offscreen, "
+        "#priceblock_dealprice, #priceblock_ourprice, .a-price .a-offscreen"
+    ) else None
+
+    original = await page.eval_on_selector(
+        "span.basisPrice .a-offscreen, .a-price.a-text-price .a-offscreen",
+        "el => el.textContent.trim()",
+    ) if await page.query_selector("span.basisPrice .a-offscreen, .a-price.a-text-price .a-offscreen") else None
+
+    discount_el = await page.query_selector(".savingsPercentage")
+    discount_pct = ((await discount_el.inner_text()).strip()) if discount_el else None
+
+    return current, original, discount_pct
+
+
 async def check_product_stock(browser, asin):
     context = await new_context(browser)
     page = await context.new_page()
@@ -147,14 +184,38 @@ async def check_product_stock(browser, asin):
         availability_text = ((await availability_el.inner_text()) if availability_el else "").strip().lower()
 
         buy_button = await page.query_selector("#add-to-cart-button, #buy-now-button")
+        invitation_button = await page.query_selector("text=/solicitar invitaci[oó]n/i")
+        body_text = (await page.inner_text("body")).lower()
 
         unavailable = any(phrase in availability_text for phrase in UNAVAILABLE_PHRASES)
-        available = bool(buy_button) and not unavailable
 
-        return available, title
+        if unavailable:
+            status = "no_disponible"
+        elif buy_button:
+            status = "compra_directa"
+        elif invitation_button or INVITATION_MARKER in body_text:
+            status = "invitacion"
+        else:
+            status = "no_disponible"
+
+        current, original, discount_pct = await extract_price_info(page)
+
+        max_qty = None
+        qty_match = MAX_QTY_RE.search(body_text)
+        if qty_match:
+            max_qty = qty_match.group(1)
+
+        return {
+            "status": status,
+            "title": title,
+            "price": current,
+            "original_price": original,
+            "discount_pct": discount_pct,
+            "max_qty": max_qty,
+        }
     except Exception as e:
         print(f"⚠️ Error comprobando {asin}: {e!r}")
-        return None, None
+        return None
     finally:
         await context.close()
 
@@ -177,29 +238,47 @@ async def main():
 
         for asin, info in products.items():
             await asyncio.sleep(random.uniform(2, 5))
-            available, title = await check_product_stock(browser, asin)
-            if available is None:
+            result = await check_product_stock(browser, asin)
+            if result is None:
                 continue
 
-            name = title or info["name"] or asin
+            name = result["title"] or info["name"] or asin
+            status = result["status"]
             prev = state.get(asin, {})
-            was_available = prev.get("available", False)
+            prev_status = prev.get("status")
 
-            if available and not was_available:
+            if status in ("compra_directa", "invitacion") and status != prev_status:
                 link = f"https://www.amazon.es/dp/{asin}?tag={AFFILIATE_TAG}"
-                message = (
-                    "🔥 <b>¡Disponible de nuevo!</b>\n\n"
-                    f"<b>{name}</b>\n\n"
-                    f'👉 <a href="{link}">Comprar en Amazon</a>\n\n'
-                    "#PokeStockTCG"
-                )
-                try:
-                    send_telegram_message(message)
-                    print(f"✅ Alerta enviada: {name}")
-                except Exception as e:
-                    print(f"❌ Error enviando Telegram para {name}: {e!r}")
 
-            state[asin] = {"name": name, "available": available}
+                if result["price"] and result["original_price"] and result["discount_pct"]:
+                    price_line = f"💰 <s>{result['original_price']}</s> <b>{result['price']}</b> ({result['discount_pct']})"
+                elif result["price"]:
+                    price_line = f"💰 <b>{result['price']}</b>"
+                else:
+                    price_line = ""
+
+                max_qty_line = f" (máx. {result['max_qty']} unidades)" if result["max_qty"] else ""
+
+                if status == "compra_directa":
+                    header = f"🟢 <b>¡Disponible ahora! #CompraDirecta</b>{max_qty_line}"
+                    cta = f'📦 <a href="{link}">Comprar en Amazon</a>'
+                else:
+                    header = "🎟️ <b>¡Disponible por invitación! #Invitación</b>"
+                    cta = f'📦 <a href="{link}">Solicitar invitación en Amazon</a>'
+
+                message = "\n\n".join(
+                    part for part in [f"<b>{name}</b>", header, price_line, cta, "#PokeStockTCG"] if part
+                )
+                if DRY_RUN:
+                    print(f"🧪 [DRY_RUN] Se habría enviado ({status}): {name}")
+                else:
+                    try:
+                        send_telegram_message(message)
+                        print(f"✅ Alerta enviada ({status}): {name}")
+                    except Exception as e:
+                        print(f"❌ Error enviando Telegram para {name}: {e!r}")
+
+            state[asin] = {"name": name, "status": status}
 
         await browser.close()
 
