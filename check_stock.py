@@ -187,6 +187,20 @@ async def check_product_stock(browser, asin):
         invitation_button = await page.query_selector("text=/solicitar invitaci[oó]n/i")
         body_text = (await page.inner_text("body")).lower()
 
+        if any(marker in body_text for marker in CAPTCHA_MARKERS):
+            print(f"❌ Amazon devolvió una verificación anti-bot (captcha) al comprobar {asin}.")
+            DEBUG_DIR.mkdir(exist_ok=True)
+            await page.screenshot(path=str(DEBUG_DIR / f"product_{asin}.png"), full_page=True)
+            (DEBUG_DIR / f"product_{asin}.html").write_text(await page.content(), encoding="utf-8")
+            return None
+
+        if title_el is None:
+            print(f"⚠️ No se encontró #productTitle para {asin}: posible bloqueo o página distinta a la esperada.")
+            DEBUG_DIR.mkdir(exist_ok=True)
+            await page.screenshot(path=str(DEBUG_DIR / f"product_{asin}.png"), full_page=True)
+            (DEBUG_DIR / f"product_{asin}.html").write_text(await page.content(), encoding="utf-8")
+            return None
+
         unavailable = any(phrase in availability_text for phrase in UNAVAILABLE_PHRASES)
 
         if unavailable:
