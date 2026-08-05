@@ -19,8 +19,12 @@ de Telegram **PokéStock TCG** con el enlace de afiliado insertado.
    el workflow).
 
 Un [GitHub Actions workflow](.github/workflows/check_stock.yml) ejecuta el
-script cada 15 minutos (cron `*/15 * * * *`), y también se puede lanzar a
-mano desde la pestaña **Actions** → **Run workflow**.
+script cada hora, pausado entre las 2:00 y las 7:00 (hora de España) —
+cron `0 5-23 * * *` en UTC —, y también se puede lanzar a mano desde la
+pestaña **Actions** → **Run workflow**. GitHub Actions no soporta zonas
+horarias ni DST en cron, así que este horario está calculado para CEST
+(UTC+2, horario de verano) y hay que ajustarlo manualmente (restar 1 hora)
+cuando España pase a CET en octubre.
 
 ## Configuración
 
@@ -37,9 +41,9 @@ mano desde la pestaña **Actions** → **Run workflow**.
 
 Este repo debería estar en **privado** (`Settings` → visibilidad) — contiene
 la lógica del scraper y el estado de negocio; no hay motivo para tenerlo público.
-Nota: si el repo es privado, el cron cada 15 min consume minutos de Actions
-del plan gratuito (2.000 min/mes); si se agotan, ajustar la frecuencia del
-cron en `.github/workflows/check_stock.yml`.
+Nota: si el repo es privado, el cron consume minutos de Actions del plan
+gratuito (2.000 min/mes); si se agotan, ajustar la frecuencia del cron en
+`.github/workflows/check_stock.yml`.
 
 ### 3. Tag de afiliado
 
