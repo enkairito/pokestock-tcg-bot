@@ -96,17 +96,25 @@ async def new_context(browser):
     return context
 
 
+async def try_click_continue(page, label):
+    try:
+        continue_button = await page.query_selector("text=/seguir comprando/i")
+        if not continue_button:
+            return
+        print(f"↪️ Interstitial 'seguir comprando' detectado en {label}, haciendo clic para continuar.")
+        await continue_button.click(timeout=5000)
+        await page.wait_for_timeout(random.uniform(1500, 3000))
+    except Exception as e:
+        print(f"⚠️ No se pudo hacer clic en 'seguir comprando' para {label}: {e!r}")
+
+
 async def discover_products(browser):
     context = await new_context(browser)
     page = await context.new_page()
     await page.goto(STORE_URL, wait_until="domcontentloaded", timeout=60000)
     await page.wait_for_timeout(3000)
 
-    continue_button = await page.query_selector("text=/seguir comprando/i")
-    if continue_button:
-        print("↪️ Interstitial 'seguir comprando' detectado en la tienda, haciendo clic para continuar.")
-        await continue_button.click()
-        await page.wait_for_timeout(random.uniform(1500, 3000))
+    await try_click_continue(page, "la tienda")
 
     for _ in range(6):
         await page.mouse.wheel(0, 2000)
@@ -181,11 +189,7 @@ async def check_product_stock(browser, asin):
         await page.goto(url, wait_until="domcontentloaded", timeout=45000)
         await page.wait_for_timeout(random.uniform(1200, 2500))
 
-        continue_button = await page.query_selector("text=/seguir comprando/i")
-        if continue_button:
-            print(f"↪️ Interstitial 'seguir comprando' detectado para {asin}, haciendo clic para continuar.")
-            await continue_button.click()
-            await page.wait_for_timeout(random.uniform(1500, 3000))
+        await try_click_continue(page, asin)
 
         title_el = await page.query_selector("#productTitle")
         title = (await title_el.inner_text()).strip() if title_el else None
