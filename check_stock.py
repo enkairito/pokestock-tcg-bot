@@ -102,6 +102,12 @@ async def discover_products(browser):
     await page.goto(STORE_URL, wait_until="domcontentloaded", timeout=60000)
     await page.wait_for_timeout(3000)
 
+    continue_button = await page.query_selector("text=/seguir comprando/i")
+    if continue_button:
+        print("↪️ Interstitial 'seguir comprando' detectado en la tienda, haciendo clic para continuar.")
+        await continue_button.click()
+        await page.wait_for_timeout(random.uniform(1500, 3000))
+
     for _ in range(6):
         await page.mouse.wheel(0, 2000)
         await page.wait_for_timeout(800)
@@ -174,6 +180,12 @@ async def check_product_stock(browser, asin):
     try:
         await page.goto(url, wait_until="domcontentloaded", timeout=45000)
         await page.wait_for_timeout(random.uniform(1200, 2500))
+
+        continue_button = await page.query_selector("text=/seguir comprando/i")
+        if continue_button:
+            print(f"↪️ Interstitial 'seguir comprando' detectado para {asin}, haciendo clic para continuar.")
+            await continue_button.click()
+            await page.wait_for_timeout(random.uniform(1500, 3000))
 
         title_el = await page.query_selector("#productTitle")
         title = (await title_el.inner_text()).strip() if title_el else None
