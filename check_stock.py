@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 
 import requests
-from playwright.async_api import async_playwright
+from patchright.async_api import async_playwright
 
 STORE_URL = (
     "https://www.amazon.es/stores/page/70E78EA6-79CB-4678-9249-717F2A13EB77"
