@@ -27,13 +27,24 @@ Este enfoque (una sola carga de página en vez de una por producto) reduce
 mucho el riesgo de bloqueo por parte de Amazon frente al enfoque anterior de
 visitar cada ficha individual.
 
-La automatización en producción corre vía **crontab en un servidor propio**
-(ver sección "Producción" abajo), no en GitHub Actions — Amazon bloquea las
-IPs de datacenter de GitHub con bastante consistencia, mientras que una IP
-residencial/de servidor propio funciona de forma fiable. El
-[workflow de GitHub Actions](.github/workflows/check_stock.yml) se mantiene
-solo con `workflow_dispatch` para pruebas manuales puntuales, sin cron
-automático.
+La automatización en producción corre en
+[GitHub Actions](.github/workflows/check_stock.yml), cada 30 minutos,
+pausado entre las 2:00 y las 6:00 (hora de España) — cron `*/30 4-23 * * *`
+en UTC. GitHub Actions no soporta zonas horarias ni DST en cron, así que
+este horario está calculado para CEST (UTC+2, horario de verano) y hay que
+ajustarlo manualmente cuando España pase a CET en octubre (ver comentario en
+el workflow). También se puede lanzar a mano desde **Actions** →
+**Run workflow**.
+
+El extraer todo directamente de las tarjetas de la tienda (en vez de
+visitar cada ficha de producto) combinado con
+[patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright-python),
+modo no-headless (vía `xvfb-run` en el runner) y cookies de una sesión real
+(ver sección "Cookies de Amazon" abajo) hace que esto funcione de forma
+fiable desde las IPs de datacenter de GitHub Actions — confirmado en
+pruebas reales. El servidor propio con crontab (sección "Producción
+alternativa" abajo) queda como alternativa/respaldo si Amazon vuelve a
+bloquear GitHub Actions en el futuro.
 
 ## Configuración
 
@@ -45,6 +56,7 @@ automático.
 |---|---|
 | `TELEGRAM_BOT_TOKEN` | Token del bot (revocar y sustituir el que quedó expuesto en el chat original antes de usarlo) |
 | `TELEGRAM_CHAT_ID` | `-1004397926701` |
+| `AMAZON_COOKIES_JSON` | Contenido completo de `amazon_cookies.json` (ver sección "Cookies de Amazon" abajo) |
 
 ### 2. Repo privado
 
@@ -55,7 +67,25 @@ la lógica del scraper y el estado de negocio; no hay motivo para tenerlo públi
 
 Definido directamente en `check_stock.py` como `AFFILIATE_TAG = "enkairito-21"`.
 
-## Producción (servidor con crontab)
+### 4. Cookies de Amazon
+
+El bot carga cookies de una sesión real de Amazon.es para parecer una
+navegación humana. Para generarlas (o renovarlas si dejan de funcionar):
+
+```bash
+python bootstrap_cookies.py
+```
+
+Esto abre un Chrome visible: navega normalmente por amazon.es (acepta
+cookies, inicia sesión si quieres), pulsa Enter en la terminal cuando
+termines, y se guarda `amazon_cookies.json` en el proyecto (nunca se sube a
+git, está en `.gitignore`). Copia su contenido completo al secret
+`AMAZON_COOKIES_JSON` en GitHub para que el workflow lo use.
+
+⚠️ Este archivo contiene tokens de sesión reales de tu cuenta de Amazon
+(`session-token`, `at-acbes`, etc.) — trátalo como una contraseña.
+
+## Producción alternativa (servidor con crontab)
 
 ```bash
 git clone https://github.com/enkairito/pokestock-tcg-bot.git
@@ -73,13 +103,13 @@ chmod +x run_local.sh
 ./run_local.sh   # prueba manual antes de automatizar
 ```
 
-`crontab -e`, cada hora pausado entre las 2:00 y las 7:00 (hora local del
-servidor — confirma que el servidor tenga la zona horaria en `Europe/Madrid`
-con `timedatectl`, ya que a diferencia del cron de GitHub Actions, crontab sí
-respeta zonas horarias y DST):
+`crontab -e`, cada 30 minutos pausado entre las 2:00 y las 6:00 (hora local
+del servidor — confirma que el servidor tenga la zona horaria en
+`Europe/Madrid` con `timedatectl`, ya que a diferencia del cron de GitHub
+Actions, crontab sí respeta zonas horarias y DST):
 
 ```
-0 0-1,7-23 * * * cd /ruta/completa/a/pokestock-tcg-bot && ./run_local.sh >> cron.log 2>&1
+*/30 0-1,6-23 * * * cd /ruta/completa/a/pokestock-tcg-bot && ./run_local.sh >> cron.log 2>&1
 ```
 
 `state.json` se actualiza localmente en el servidor en cada ejecución; si se

@@ -1,9 +1,12 @@
 name: Check Pokémon TCG Stock
 
 on:
-  # Scheduled cron disabled: a server with a residential IP now runs
-  # check_stock.py via crontab, since Amazon blocks GitHub Actions'
-  # datacenter IPs. Kept as workflow_dispatch for manual testing only.
+  schedule:
+    # Every 30 min, paused 2:00-6:00 Spain time (CEST, UTC+2). GitHub
+    # Actions cron has no timezone/DST support, so this needs manual
+    # adjustment when Spain switches to CET in late October: change
+    # '4-23' to '0,5-23' (2:00-6:00 CET = 1:00-4:59 UTC).
+    - cron: '*/30 4-23 * * *'
   workflow_dispatch: {}
 
 permissions:
