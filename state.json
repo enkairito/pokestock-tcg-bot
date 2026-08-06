@@ -137,10 +137,14 @@
   },
   "B0GGHP4ZQN": {
     "name": "Pokémon: Lote de latas Poké Ball de JCC Pokémon: Poké, Super y Ultra (9 Sobres de Mejora de JCC Pokémon y 6 Hojas con Pegatinas)",
-    "status": "no_disponible"
+    "status": "invitacion"
   },
   "B0GGJ1QQNZ": {
     "name": "Pokémon: Lote de latas Poké Ball de JCC Pokémon: Poké, Honor y Acopio (9 Sobres de Mejora de JCC Pokémon y 6 Hojas con Pegatinas)",
     "status": "compra_directa"
+  },
+  "B0FPMXHZLT": {
+    "name": "Pokémon: Colección Especial Snorlax ex y Blissey ex de JCC Pokémon (2 Cartas holográficas de promoción, 1 Carta holográfica de Gran tamaño y 8 Sobres de Mejora)",
+    "status": "invitacion"
   }
 }
