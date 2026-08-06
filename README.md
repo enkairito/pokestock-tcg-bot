@@ -18,13 +18,13 @@ de Telegram **PokéStock TCG** con el enlace de afiliado insertado.
 4. Guarda el nuevo estado en `state.json` (se commitea automáticamente desde
    el workflow).
 
-Un [GitHub Actions workflow](.github/workflows/check_stock.yml) ejecuta el
-script cada hora, pausado entre las 2:00 y las 7:00 (hora de España) —
-cron `0 5-23 * * *` en UTC —, y también se puede lanzar a mano desde la
-pestaña **Actions** → **Run workflow**. GitHub Actions no soporta zonas
-horarias ni DST en cron, así que este horario está calculado para CEST
-(UTC+2, horario de verano) y hay que ajustarlo manualmente (restar 1 hora)
-cuando España pase a CET en octubre.
+La automatización en producción corre vía **crontab en un servidor propio**
+(ver sección "Producción" abajo), no en GitHub Actions — Amazon bloquea las
+IPs de datacenter de GitHub con bastante consistencia, mientras que una IP
+residencial/de servidor propio funciona de forma fiable. El
+[workflow de GitHub Actions](.github/workflows/check_stock.yml) se mantiene
+solo con `workflow_dispatch` para pruebas manuales puntuales, sin cron
+automático.
 
 ## Configuración
 
@@ -41,19 +41,47 @@ cuando España pase a CET en octubre.
 
 Este repo debería estar en **privado** (`Settings` → visibilidad) — contiene
 la lógica del scraper y el estado de negocio; no hay motivo para tenerlo público.
-Nota: si el repo es privado, el cron consume minutos de Actions del plan
-gratuito (2.000 min/mes); si se agotan, ajustar la frecuencia del cron en
-`.github/workflows/check_stock.yml`.
 
 ### 3. Tag de afiliado
 
 Definido directamente en `check_stock.py` como `AFFILIATE_TAG = "enkairito-21"`.
 
+## Producción (servidor con crontab)
+
+```bash
+git clone https://github.com/enkairito/pokestock-tcg-bot.git
+cd pokestock-tcg-bot
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+.venv/bin/python -m patchright install --with-deps chromium
+
+cat > .env <<'EOF'
+TELEGRAM_BOT_TOKEN=tu_token_aqui
+TELEGRAM_CHAT_ID=-1004397926701
+EOF
+
+chmod +x run_local.sh
+./run_local.sh   # prueba manual antes de automatizar
+```
+
+`crontab -e`, cada hora pausado entre las 2:00 y las 7:00 (hora local del
+servidor — confirma que el servidor tenga la zona horaria en `Europe/Madrid`
+con `timedatectl`, ya que a diferencia del cron de GitHub Actions, crontab sí
+respeta zonas horarias y DST):
+
+```
+0 0-1,7-23 * * * cd /ruta/completa/a/pokestock-tcg-bot && ./run_local.sh >> cron.log 2>&1
+```
+
+`state.json` se actualiza localmente en el servidor en cada ejecución; si se
+quiere mantener sincronizado con git, hay que añadir un `git add/commit/push`
+al final de `run_local.sh` (no incluido por defecto).
+
 ## Desarrollo local
 
 ```bash
 pip install -r requirements.txt
-playwright install chromium
+python -m patchright install chromium
 cp .env.example .env   # rellenar TELEGRAM_BOT_TOKEN
 set -a; source .env; set +a
 python check_stock.py
@@ -70,13 +98,20 @@ lugar de llamar a la API de Telegram.
 
 ## Riesgos conocidos
 
-- **Bloqueo por IP**: los runners de GitHub Actions usan IPs de datacenter,
-  que Amazon suele bloquear/CAPTCHAr con más agresividad que las IPs
-  residenciales. El script mitiga esto con rotación de user-agent, locale
-  `es-ES` y pausas aleatorias entre peticiones, pero no lo elimina del todo.
-  Si el scraping falla de forma persistente, la alternativa es migrar a la
-  [Keepa API](https://keepa.com/#!api) (soporte para Amazon.es, datos de
-  stock/precio vía JSON, planes desde ~49€/mes).
+- **Bloqueo por IP en datacenters**: confirmado en la práctica — los runners
+  de GitHub Actions (IPs de datacenter, normalmente en EE.UU.) reciben de
+  Amazon.es un 404 genérico ("Documento no encontrado") o un interstitial
+  "Haz clic en el botón de abajo para seguir comprando" en vez del contenido
+  real, mientras que la misma URL funciona sin problema desde una IP
+  residencial. Por eso la automatización en producción corre desde un
+  servidor propio (ver "Producción" arriba) en vez de GitHub Actions.
+  El script usa [patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright-python)
+  (fork de Playwright con parches anti-detección) y hace clic automático en
+  el interstitial "seguir comprando" cuando aparece, pero ninguna de las dos
+  cosas evita el bloqueo específico de las IPs de GitHub Actions.
+  Si el scraping falla de forma persistente incluso desde IP residencial, la
+  alternativa es migrar a la [Keepa API](https://keepa.com/#!api) (soporte
+  para Amazon.es, datos de stock/precio vía JSON, planes desde ~49€/mes).
 - **Cambios de estructura HTML**: si Amazon cambia los selectores
   (`#productTitle`, `#availability`, `#add-to-cart-button`), el script deja
   de detectar stock correctamente hasta que se actualicen.
