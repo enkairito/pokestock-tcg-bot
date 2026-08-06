@@ -301,7 +301,7 @@ async def main():
                 cta = f"📦 Solicitar invitación en Amazon:\n{link}"
 
             message = "\n\n".join(
-                part for part in [f"<b>{name}</b>", header, price_line, cta, "#PokeStockTCG"] if part
+                part for part in [f"<b>{name}</b>", header, price_line, cta] if part
             )
             if DRY_RUN:
                 print(f"🧪 [DRY_RUN] Se habría enviado ({status}): {name}")
