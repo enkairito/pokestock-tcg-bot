@@ -31,6 +31,14 @@ jobs:
           pip install -r requirements.txt
           patchright install --with-deps chromium
 
+      - name: Restore Amazon cookies
+        env:
+          AMAZON_COOKIES_JSON: ${{ secrets.AMAZON_COOKIES_JSON }}
+        run: |
+          if [ -n "$AMAZON_COOKIES_JSON" ]; then
+            echo "$AMAZON_COOKIES_JSON" > amazon_cookies.json
+          fi
+
       - name: Run stock check
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
