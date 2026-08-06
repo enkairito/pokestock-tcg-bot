@@ -6,17 +6,26 @@ de Telegram **PokéStock TCG** con el enlace de afiliado insertado.
 
 ## Cómo funciona
 
-1. `check_stock.py` abre la página de la tienda con un navegador headless
-   (Playwright + Chromium) y descubre automáticamente todos los productos
-   listados (no hace falta mantener una lista manual de URLs).
-2. Para cada producto encontrado, abre su ficha individual y comprueba si
-   está disponible (botón "Añadir a la cesta" / "Comprar ahora" presente y
-   ausencia de frases tipo "no disponible").
+1. `check_stock.py` abre la página de la tienda con un navegador (Playwright
+   + patchright/Chromium) y lee **directamente de las tarjetas de producto
+   del listado** el nombre, el precio y el estado de disponibilidad de cada
+   producto (no hace falta mantener una lista manual de URLs, ni visitar cada
+   ficha de producto individual — todo está ya en la propia tarjeta).
+2. El estado se determina así:
+   - `compra_directa`: la tarjeta tiene un botón funcional de "Añadir a la
+     cesta" (`data-cy="add-to-cart"`).
+   - `invitacion`: la tarjeta muestra el texto "Disponible por invitación".
+   - `no_disponible`: la tarjeta muestra "No disponible." (sin precio).
 3. Compara el resultado con `state.json` (estado de la ejecución anterior).
-   Si un producto pasa de no-disponible a disponible, envía un mensaje al
-   grupo de Telegram con el enlace `https://www.amazon.es/dp/<ASIN>?tag=enkairito-21`.
+   Si un producto pasa a `compra_directa` o `invitacion` desde un estado
+   distinto, envía un mensaje al grupo de Telegram con el enlace
+   `https://www.amazon.es/dp/<ASIN>?tag=enkairito-21`.
 4. Guarda el nuevo estado en `state.json` (se commitea automáticamente desde
    el workflow).
+
+Este enfoque (una sola carga de página en vez de una por producto) reduce
+mucho el riesgo de bloqueo por parte de Amazon frente al enfoque anterior de
+visitar cada ficha individual.
 
 La automatización en producción corre vía **crontab en un servidor propio**
 (ver sección "Producción" abajo), no en GitHub Actions — Amazon bloquea las
@@ -112,6 +121,7 @@ lugar de llamar a la API de Telegram.
   Si el scraping falla de forma persistente incluso desde IP residencial, la
   alternativa es migrar a la [Keepa API](https://keepa.com/#!api) (soporte
   para Amazon.es, datos de stock/precio vía JSON, planes desde ~49€/mes).
-- **Cambios de estructura HTML**: si Amazon cambia los selectores
-  (`#productTitle`, `#availability`, `#add-to-cart-button`), el script deja
-  de detectar stock correctamente hasta que se actualicen.
+- **Cambios de estructura HTML**: si Amazon cambia los atributos de las
+  tarjetas de producto (`data-asin`, `data-cy="add-to-cart"`, el texto
+  "Disponible por invitación"/"No disponible."), el script deja de detectar
+  el estado correctamente hasta que se actualicen los selectores.
