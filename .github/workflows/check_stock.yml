@@ -3,7 +3,7 @@ name: Check Pokémon TCG Stock
 on:
   schedule:
     # Every 30 min, all day (no overnight pause).
-    - cron: '*/30 * * * *'
+    - cron: '0 * * * *'
   workflow_dispatch: {}
 
 permissions:
