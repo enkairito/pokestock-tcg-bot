@@ -15,6 +15,7 @@ STORE_URL = (
 AFFILIATE_TAG = "enkairito-21"
 STATE_FILE = Path(__file__).parent / "state.json"
 DEBUG_DIR = Path(__file__).parent / "debug"
+COOKIES_FILE = Path(__file__).parent / "amazon_cookies.json"
 
 CAPTCHA_MARKERS = [
     "introduzca los caracteres",
@@ -79,6 +80,34 @@ def send_telegram_message(text):
     resp.raise_for_status()
 
 
+SAMESITE_MAP = {
+    "strict": "Strict",
+    "lax": "Lax",
+    "no_restriction": "None",
+    "none": "None",
+}
+
+
+def normalize_cookies(raw_cookies):
+    normalized = []
+    for c in raw_cookies:
+        cookie = {
+            "name": c["name"],
+            "value": c["value"],
+            "domain": c["domain"],
+            "path": c.get("path", "/"),
+            "sameSite": SAMESITE_MAP.get(str(c.get("sameSite")).lower(), "Lax"),
+        }
+        if c.get("expirationDate") is not None:
+            cookie["expires"] = c["expirationDate"]
+        if "httpOnly" in c:
+            cookie["httpOnly"] = c["httpOnly"]
+        if "secure" in c:
+            cookie["secure"] = c["secure"]
+        normalized.append(cookie)
+    return normalized
+
+
 async def new_context(browser):
     context = await browser.new_context(
         user_agent=random.choice(USER_AGENTS),
@@ -93,6 +122,9 @@ async def new_context(browser):
     await context.add_init_script(
         "Object.defineProperty(navigator, 'webdriver', {get: () => undefined});"
     )
+    if COOKIES_FILE.exists():
+        raw_cookies = json.loads(COOKIES_FILE.read_text(encoding="utf-8"))
+        await context.add_cookies(normalize_cookies(raw_cookies))
     return context
 
 
@@ -252,7 +284,7 @@ async def main():
     state = load_state()
 
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True, args=["--no-sandbox", "--disable-gpu"])
+        browser = await p.chromium.launch(headless=False, args=["--no-sandbox"])
 
         print("🔍 Descubriendo productos en la tienda...")
         try:

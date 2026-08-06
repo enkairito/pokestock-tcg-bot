@@ -35,7 +35,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python check_stock.py
+        run: xvfb-run -a python check_stock.py
 
       - name: Upload debug artifacts
         if: always()
