@@ -80,6 +80,21 @@ def send_telegram_message(text):
     resp.raise_for_status()
 
 
+def send_telegram_photo(photo_url, caption):
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
+    resp = requests.post(
+        url,
+        data={
+            "chat_id": TELEGRAM_CHAT_ID,
+            "photo": photo_url,
+            "caption": caption,
+            "parse_mode": "HTML",
+        },
+        timeout=15,
+    )
+    resp.raise_for_status()
+
+
 def normalize_cookies(raw_cookies):
     normalized = []
     for c in raw_cookies:
@@ -169,8 +184,10 @@ async def discover_products(page, label, url):
             const originalPriceEl = el.querySelector('[data-cy="price-recipe"] .a-text-price .a-offscreen');
             const originalPrice = originalPriceEl ? originalPriceEl.textContent.trim() : null;
             const hasAddToCart = !!el.querySelector('[data-cy="add-to-cart"]');
+            const imageEl = el.querySelector('img.s-image');
+            const image = imageEl ? imageEl.src : null;
             const text = el.innerText || '';
-            return { asin, name, price, originalPrice, hasAddToCart, text };
+            return { asin, name, price, originalPrice, hasAddToCart, image, text };
         })""",
     )
 
@@ -192,6 +209,7 @@ async def discover_products(page, label, url):
             "name": t.get("name") or asin,
             "price": t.get("price"),
             "original_price": t.get("originalPrice"),
+            "image": t.get("image"),
             "status": status,
         }
 
@@ -234,7 +252,10 @@ async def check_single_product(page, asin):
         price_el = await page.query_selector(".a-price .a-offscreen")
         price = (await price_el.inner_text()).strip() if price_el else None
 
-        return {"name": name, "price": price, "original_price": None, "status": status}
+        image_el = await page.query_selector("#landingImage, #imgTagWrapperId img")
+        image = (await image_el.get_attribute("src")) if image_el else None
+
+        return {"name": name, "price": price, "original_price": None, "image": image, "status": status}
     except Exception as e:
         print(f"⚠️ Error comprobando {asin} individualmente: {e!r}")
         return None
@@ -295,10 +316,10 @@ async def main():
 
             if status == "compra_directa":
                 header = "🟢 <b>¡Disponible ahora! #CompraDirecta</b>"
-                cta = f"📦 Comprar en Amazon:\n{link}"
+                cta = f'📦 <a href="{link}">Comprar en Amazon</a>'
             else:
                 header = "🎟️ <b>¡Disponible por invitación! #Invitación</b>"
-                cta = f"📦 Solicitar invitación en Amazon:\n{link}"
+                cta = f'📦 <a href="{link}">Solicitar invitación en Amazon</a>'
 
             message = "\n\n".join(
                 part for part in [f"<b>{name}</b>", header, price_line, cta] if part
@@ -307,7 +328,10 @@ async def main():
                 print(f"🧪 [DRY_RUN] Se habría enviado ({status}): {name}")
             else:
                 try:
-                    send_telegram_message(message)
+                    if info.get("image"):
+                        send_telegram_photo(info["image"], message)
+                    else:
+                        send_telegram_message(message)
                     print(f"✅ Alerta enviada ({status}): {name}")
                 except Exception as e:
                     print(f"❌ Error enviando Telegram para {name}: {e!r}")
