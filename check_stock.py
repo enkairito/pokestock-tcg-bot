@@ -240,11 +240,10 @@ async def check_single_product(page, asin):
 
         buy_button = await page.query_selector("#add-to-cart-button, #buy-now-button")
         invitation_button = await page.query_selector("text=/solicitar invitaci[oó]n/i")
-        body_text = (await page.inner_text("body")).lower()
 
         if buy_button:
             status = "compra_directa"
-        elif invitation_button or INVITATION_MARKER in body_text:
+        elif invitation_button:
             status = "invitacion"
         else:
             status = "no_disponible"
