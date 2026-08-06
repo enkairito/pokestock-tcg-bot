@@ -1,31 +1,36 @@
 # pokestock-tcg-bot
 
-Bot que vigila la [tienda Pokémon TCG en Amazon.es](https://www.amazon.es/stores/page/70E78EA6-79CB-4678-9249-717F2A13EB77)
-y, cuando un producto pasa de "sin stock" a "disponible", envía un mensaje al grupo
-de Telegram **PokéStock TCG** con el enlace de afiliado insertado.
+Bot que vigila las páginas de la [tienda Pokémon TCG en Amazon.es](https://www.amazon.es/stores/page/70E78EA6-79CB-4678-9249-717F2A13EB77)
+("Novedades" y "Exclusivos de Amazon") y, cuando un producto pasa de "sin
+stock" a "disponible", envía un mensaje al grupo de Telegram
+**PokéStock TCG** con el enlace de afiliado insertado.
 
 ## Cómo funciona
 
-1. `check_stock.py` abre la página de la tienda con un navegador (Playwright
-   + patchright/Chromium) y lee **directamente de las tarjetas de producto
-   del listado** el nombre, el precio y el estado de disponibilidad de cada
-   producto (no hace falta mantener una lista manual de URLs, ni visitar cada
-   ficha de producto individual — todo está ya en la propia tarjeta).
+1. `check_stock.py` abre cada página listada en `STORE_PAGES` (dentro del
+   propio script) con un navegador (Playwright + patchright/Chromium) y lee
+   **directamente de las tarjetas de producto del listado** el nombre, el
+   precio y el estado de disponibilidad de cada producto (no hace falta
+   mantener una lista manual de URLs, ni visitar cada ficha de producto
+   individual — todo está ya en la propia tarjeta).
 2. El estado se determina así:
    - `compra_directa`: la tarjeta tiene un botón funcional de "Añadir a la
      cesta" (`data-cy="add-to-cart"`).
    - `invitacion`: la tarjeta muestra el texto "Disponible por invitación".
    - `no_disponible`: la tarjeta muestra "No disponible." (sin precio).
-3. Compara el resultado con `state.json` (estado de la ejecución anterior).
+3. Algunos widgets de tienda (ej. el carrusel "Exclusivos de Amazon") no
+   incluyen precio/disponibilidad en la tarjeta, solo un enlace al
+   producto — para esos casos concretos, el script visita la ficha
+   individual como respaldo.
+4. Compara el resultado con `state.json` (estado de la ejecución anterior).
    Si un producto pasa a `compra_directa` o `invitacion` desde un estado
    distinto, envía un mensaje al grupo de Telegram con el enlace
    `https://www.amazon.es/dp/<ASIN>?tag=enkairito-21`.
-4. Guarda el nuevo estado en `state.json` (se commitea automáticamente desde
+5. Guarda el nuevo estado en `state.json` (se commitea automáticamente desde
    el workflow).
 
-Este enfoque (una sola carga de página en vez de una por producto) reduce
-mucho el riesgo de bloqueo por parte de Amazon frente al enfoque anterior de
-visitar cada ficha individual.
+Este enfoque (leer las tarjetas de la tienda en vez de visitar cada ficha
+individual) reduce mucho el riesgo de bloqueo por parte de Amazon.
 
 La automatización en producción corre en
 [GitHub Actions](.github/workflows/check_stock.yml), cada 30 minutos,

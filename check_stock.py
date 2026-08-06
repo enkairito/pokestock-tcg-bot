@@ -9,11 +9,11 @@ from pathlib import Path
 import requests
 from patchright.async_api import async_playwright
 
-STORE_URL = (
-    "https://www.amazon.es/stores/page/70E78EA6-79CB-4678-9249-717F2A13EB77"
-)
+STORE_PAGES = [
+    ("Novedades", "https://www.amazon.es/stores/page/70E78EA6-79CB-4678-9249-717F2A13EB77"),
+    ("Exclusivos de Amazon", "https://www.amazon.es/stores/page/12FB1998-C022-4398-A645-CC847F8D41BE"),
+]
 AFFILIATE_TAG = "enkairito-21"
-MAX_PRODUCTS = 25
 STATE_FILE = Path(__file__).parent / "state.json"
 DEBUG_DIR = Path(__file__).parent / "debug"
 COOKIES_FILE = Path(__file__).parent / "amazon_cookies.json"
@@ -39,6 +39,7 @@ USER_AGENTS = [
 ]
 
 ASIN_VALID_RE = re.compile(r"^[A-Z0-9]{10}$")
+ASIN_HREF_RE = re.compile(r"/dp/([A-Z0-9]{10})")
 INVITATION_MARKER = "invitaci"
 INTERSTITIAL_MARKER = "haz clic en el botón de abajo"
 
@@ -131,30 +132,31 @@ async def try_click_continue(page, label):
         print(f"⚠️ No se pudo hacer clic en 'seguir comprando' para {label}: {e!r}")
 
 
-async def discover_products(page):
+async def discover_products(page, label, url):
     """Descubre todos los productos y su estado (nombre, precio, disponibilidad)
     directamente desde las tarjetas de la página de la tienda, sin necesidad de
     visitar cada ficha de producto individual."""
-    await page.goto(STORE_URL, wait_until="domcontentloaded", timeout=60000)
+    await page.goto(url, wait_until="domcontentloaded", timeout=60000)
     await page.wait_for_timeout(3000)
 
-    await try_click_continue(page, "la tienda")
+    await try_click_continue(page, label)
 
     for _ in range(6):
         await page.mouse.wheel(0, 2000)
         await page.wait_for_timeout(800)
 
     title = await page.title()
-    print(f"ℹ️ Título de la página cargada: {title!r}")
-    print(f"ℹ️ URL final tras la carga: {page.url}")
+    print(f"ℹ️ [{label}] Título de la página cargada: {title!r}")
+    print(f"ℹ️ [{label}] URL final tras la carga: {page.url}")
 
     body_text = (await page.inner_text("body")).lower()
     if any(marker in body_text for marker in CAPTCHA_MARKERS):
-        print("❌ Amazon devolvió una verificación anti-bot (captcha) en vez de la tienda.")
+        print(f"❌ Amazon devolvió una verificación anti-bot (captcha) en vez de la tienda ({label}).")
 
+    slug = re.sub(r"[^a-z0-9]+", "_", label.lower()).strip("_")
     DEBUG_DIR.mkdir(exist_ok=True)
-    await page.screenshot(path=str(DEBUG_DIR / "store_page.png"), full_page=True)
-    (DEBUG_DIR / "store_page.html").write_text(await page.content(), encoding="utf-8")
+    await page.screenshot(path=str(DEBUG_DIR / f"store_page_{slug}.png"), full_page=True)
+    (DEBUG_DIR / f"store_page_{slug}.html").write_text(await page.content(), encoding="utf-8")
 
     tiles = await page.eval_on_selector_all(
         "[data-asin]",
@@ -193,32 +195,87 @@ async def discover_products(page):
             "status": status,
         }
 
-    return products
+    # Algunos widgets de la tienda (ej. carruseles "ProductShowcase") no
+    # incluyen precio/disponibilidad en la tarjeta, solo un enlace al
+    # producto. Esos ASIN se devuelven aparte para comprobarlos a mano.
+    hrefs = await page.eval_on_selector_all("a[href*='/dp/']", "els => els.map(e => e.href)")
+    fallback_asins = set()
+    for href in hrefs:
+        match = ASIN_HREF_RE.search(href)
+        if match and match.group(1) not in products:
+            fallback_asins.add(match.group(1))
+
+    return products, fallback_asins
+
+
+async def check_single_product(page, asin):
+    """Comprobación individual de respaldo para productos cuya tarjeta de
+    tienda no expone precio/disponibilidad directamente."""
+    url = f"https://www.amazon.es/dp/{asin}"
+    try:
+        await page.goto(url, wait_until="domcontentloaded", timeout=45000)
+        await page.wait_for_timeout(random.uniform(1200, 2500))
+        await try_click_continue(page, asin)
+
+        title_el = await page.query_selector("#productTitle")
+        name = (await title_el.inner_text()).strip() if title_el else asin
+
+        buy_button = await page.query_selector("#add-to-cart-button, #buy-now-button")
+        invitation_button = await page.query_selector("text=/solicitar invitaci[oó]n/i")
+        body_text = (await page.inner_text("body")).lower()
+
+        if buy_button:
+            status = "compra_directa"
+        elif invitation_button or INVITATION_MARKER in body_text:
+            status = "invitacion"
+        else:
+            status = "no_disponible"
+
+        price_el = await page.query_selector(".a-price .a-offscreen")
+        price = (await price_el.inner_text()).strip() if price_el else None
+
+        return {"name": name, "price": price, "original_price": None, "status": status}
+    except Exception as e:
+        print(f"⚠️ Error comprobando {asin} individualmente: {e!r}")
+        return None
 
 
 async def main():
     state = load_state()
+    products = {}
+    fallback_asins = set()
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False, args=["--no-sandbox"])
         context = await new_context(browser)
         page = await context.new_page()
 
-        print("🔍 Descubriendo productos en la tienda...")
-        try:
-            products = await discover_products(page)
-        except Exception as e:
-            print(f"❌ No se pudo cargar la página de la tienda: {e!r}")
-            await browser.close()
-            sys.exit(1)
+        for label, url in STORE_PAGES:
+            print(f"🔍 Descubriendo productos en la tienda ({label})...")
+            try:
+                page_products, page_fallback = await discover_products(page, label, url)
+                print(f"📦 [{label}] {len(page_products)} productos encontrados")
+                products.update(page_products)
+                fallback_asins.update(page_fallback)
+            except Exception as e:
+                print(f"❌ No se pudo cargar la página de la tienda ({label}): {e!r}")
 
-        print(f"📦 {len(products)} productos encontrados")
-
-        if len(products) > MAX_PRODUCTS:
-            print(f"⚠️ Limitando a los primeros {MAX_PRODUCTS} productos (de {len(products)} encontrados).")
-            products = dict(list(products.items())[:MAX_PRODUCTS])
+        fallback_asins -= products.keys()
+        if fallback_asins:
+            print(f"🔎 Comprobando individualmente {len(fallback_asins)} productos sin datos en la tarjeta...")
+            for asin in fallback_asins:
+                await asyncio.sleep(random.uniform(2, 5))
+                result = await check_single_product(page, asin)
+                if result:
+                    products[asin] = result
 
         await browser.close()
+
+    if not products:
+        print("❌ No se encontró ningún producto en ninguna página.")
+        sys.exit(1)
+
+    print(f"📦 Total combinado: {len(products)} productos únicos")
 
     for asin, info in products.items():
         status = info["status"]
