@@ -33,13 +33,9 @@ Este enfoque (leer las tarjetas de la tienda en vez de visitar cada ficha
 individual) reduce mucho el riesgo de bloqueo por parte de Amazon.
 
 La automatización en producción corre en
-[GitHub Actions](.github/workflows/check_stock.yml), cada 30 minutos,
-pausado entre las 2:00 y las 6:00 (hora de España) — cron `*/30 4-23 * * *`
-en UTC. GitHub Actions no soporta zonas horarias ni DST en cron, así que
-este horario está calculado para CEST (UTC+2, horario de verano) y hay que
-ajustarlo manualmente cuando España pase a CET en octubre (ver comentario en
-el workflow). También se puede lanzar a mano desde **Actions** →
-**Run workflow**.
+[GitHub Actions](.github/workflows/check_stock.yml), cada 30 minutos, todo
+el día (sin pausa nocturna) — cron `*/30 * * * *`. También se puede lanzar
+a mano desde **Actions** → **Run workflow**.
 
 El extraer todo directamente de las tarjetas de la tienda (en vez de
 visitar cada ficha de producto) combinado con

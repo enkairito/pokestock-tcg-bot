@@ -2,10 +2,7 @@ name: Check Pokémon TCG Stock
 
 on:
   schedule:
-    # Every 30 min, paused 2:00-6:00 Spain time (CEST, UTC+2). GitHub
-    # Actions cron has no timezone/DST support, so this needs manual
-    # adjustment when Spain switches to CET in late October: change
-    # '4-23' to '0,5-23' (2:00-6:00 CET = 1:00-4:59 UTC).
+    # Every 30 min, all day (no overnight pause).
     - cron: '*/30 * * * *'
   workflow_dispatch: {}
 
