@@ -6,7 +6,7 @@ on:
     # Actions cron has no timezone/DST support, so this needs manual
     # adjustment when Spain switches to CET in late October: change
     # '4-23' to '0,5-23' (2:00-6:00 CET = 1:00-4:59 UTC).
-    - cron: '*/30 4-23 * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch: {}
 
 permissions:
