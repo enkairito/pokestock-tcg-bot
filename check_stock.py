@@ -295,10 +295,10 @@ async def main():
 
             if status == "compra_directa":
                 header = "🟢 <b>¡Disponible ahora! #CompraDirecta</b>"
-                cta = f'📦 <a href="{link}">Comprar en Amazon</a>'
+                cta = f"📦 Comprar en Amazon:\n{link}"
             else:
                 header = "🎟️ <b>¡Disponible por invitación! #Invitación</b>"
-                cta = f'📦 <a href="{link}">Solicitar invitación en Amazon</a>'
+                cta = f"📦 Solicitar invitación en Amazon:\n{link}"
 
             message = "\n\n".join(
                 part for part in [f"<b>{name}</b>", header, price_line, cta, "#PokeStockTCG"] if part
