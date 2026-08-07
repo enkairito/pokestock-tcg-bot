@@ -332,7 +332,7 @@ async def main():
             else:
                 price_line = ""
 
-            stock_line = f"📊 Sólo queda(n) {info['stock']} en stock" if info.get("stock") else ""
+            stock_line = f"📊 <b>SÓLO QUEDA(N) {info['stock']} EN STOCK</b>" if info.get("stock") else ""
 
             if status == "compra_directa":
                 header = "🟢 <b>¡Disponible de nuevo! #CompraDirecta</b>"
