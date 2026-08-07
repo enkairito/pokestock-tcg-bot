@@ -312,8 +312,17 @@ async def main():
         name = info["name"]
         prev = state.get(asin, {})
         prev_status = prev.get("status")
+        prev_stock = prev.get("stock")
 
-        if status in ("compra_directa", "invitacion") and status != prev_status:
+        status_changed = status in ("compra_directa", "invitacion") and status != prev_status
+        stock_decreased = (
+            status in ("compra_directa", "invitacion")
+            and info.get("stock") is not None
+            and prev_stock is not None
+            and int(info["stock"]) < int(prev_stock)
+        )
+
+        if status_changed or stock_decreased:
             link = f"https://www.amazon.es/dp/{asin}?tag={AFFILIATE_TAG}"
 
             if info["price"] and info["original_price"] and info["original_price"] != info["price"]:
@@ -323,13 +332,18 @@ async def main():
             else:
                 price_line = ""
 
-            stock_line = f"📊 Quedan {info['stock']} unidades" if info.get("stock") else ""
+            stock_line = f"📊 Sólo queda(n) {info['stock']} en stock" if info.get("stock") else ""
 
-            if status == "compra_directa":
+            if not status_changed and stock_decreased:
+                header = "⚠️ <b>¡Quedan pocas unidades!</b>"
+            elif status == "compra_directa":
                 header = "🟢 <b>¡Disponible de nuevo! #CompraDirecta</b>"
-                cta = f'📦 <a href="{link}">Comprar en Amazon</a>'
             else:
                 header = "🎟️ <b>¡Disponible por invitación! #Invitación</b>"
+
+            if status == "compra_directa":
+                cta = f'📦 <a href="{link}">Comprar en Amazon</a>'
+            else:
                 cta = f'📦 <a href="{link}">Solicitar invitación en Amazon</a>'
 
             message = "\n\n".join(
