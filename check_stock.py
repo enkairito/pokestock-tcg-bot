@@ -10,8 +10,8 @@ import requests
 from patchright.async_api import async_playwright
 
 STORE_PAGES = [
-    ("Novedades", "https://www.amazon.es/stores/page/70E78EA6-79CB-4678-9249-717F2A13EB77"),
-    ("Exclusivos de Amazon", "https://www.amazon.es/stores/page/12FB1998-C022-4398-A645-CC847F8D41BE"),
+    ("Todos los productos", "https://www.amazon.es/stores/page/4CC86B6A-CAD9-4B47-A949-86C99C87A382"),
+    ("Disponible de nuevo", "https://www.amazon.es/stores/page/41180886-559D-47A1-9CEB-5BF332812A91"),
 ]
 AFFILIATE_TAG = "enkairito-21"
 STATE_FILE = Path(__file__).parent / "state.json"
@@ -42,6 +42,7 @@ ASIN_VALID_RE = re.compile(r"^[A-Z0-9]{10}$")
 ASIN_HREF_RE = re.compile(r"/dp/([A-Z0-9]{10})")
 INVITATION_MARKER = "invitaci"
 INTERSTITIAL_MARKER = "haz clic en el botón de abajo"
+STOCK_COUNT_RE = re.compile(r"queda\(?n?\)?\s+(\d+)\s+en stock", re.IGNORECASE)
 
 SAMESITE_MAP = {
     "strict": "Strict",
@@ -197,7 +198,8 @@ async def discover_products(page, label, url):
         if not asin or not ASIN_VALID_RE.match(asin) or asin in products:
             continue
 
-        text_lower = (t.get("text") or "").lower()
+        text = t.get("text") or ""
+        text_lower = text.lower()
         if t.get("hasAddToCart"):
             status = "compra_directa"
         elif INVITATION_MARKER in text_lower:
@@ -205,11 +207,14 @@ async def discover_products(page, label, url):
         else:
             status = "no_disponible"
 
+        stock_match = STOCK_COUNT_RE.search(text)
+
         products[asin] = {
             "name": t.get("name") or asin,
             "price": t.get("price"),
             "original_price": t.get("originalPrice"),
             "image": t.get("image"),
+            "stock": stock_match.group(1) if stock_match else None,
             "status": status,
         }
 
@@ -254,7 +259,12 @@ async def check_single_product(page, asin):
         image_el = await page.query_selector("#landingImage, #imgTagWrapperId img")
         image = (await image_el.get_attribute("src")) if image_el else None
 
-        return {"name": name, "price": price, "original_price": None, "image": image, "status": status}
+        availability_el = await page.query_selector("#availability")
+        availability_text = (await availability_el.inner_text()) if availability_el else ""
+        stock_match = STOCK_COUNT_RE.search(availability_text)
+        stock = stock_match.group(1) if stock_match else None
+
+        return {"name": name, "price": price, "original_price": None, "image": image, "stock": stock, "status": status}
     except Exception as e:
         print(f"⚠️ Error comprobando {asin} individualmente: {e!r}")
         return None
@@ -313,15 +323,17 @@ async def main():
             else:
                 price_line = ""
 
+            stock_line = f"📊 Quedan {info['stock']} unidades" if info.get("stock") else ""
+
             if status == "compra_directa":
-                header = "🟢 <b>¡Disponible ahora! #CompraDirecta</b>"
+                header = "🟢 <b>¡Disponible de nuevo! #CompraDirecta</b>"
                 cta = f'📦 <a href="{link}">Comprar en Amazon</a>'
             else:
                 header = "🎟️ <b>¡Disponible por invitación! #Invitación</b>"
                 cta = f'📦 <a href="{link}">Solicitar invitación en Amazon</a>'
 
             message = "\n\n".join(
-                part for part in [f"<b>{name}</b>", header, price_line, cta] if part
+                part for part in [f"<b>{name}</b>", header, price_line, stock_line, cta] if part
             )
             if DRY_RUN:
                 print(f"🧪 [DRY_RUN] Se habría enviado ({status}): {name}")
@@ -335,7 +347,7 @@ async def main():
                 except Exception as e:
                     print(f"❌ Error enviando Telegram para {name}: {e!r}")
 
-        state[asin] = {"name": name, "status": status}
+        state[asin] = {"name": name, "status": status, "stock": info.get("stock")}
 
     save_state(state)
     print("✅ Comprobación completada.")
