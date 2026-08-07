@@ -334,9 +334,7 @@ async def main():
 
             stock_line = f"📊 Sólo queda(n) {info['stock']} en stock" if info.get("stock") else ""
 
-            if not status_changed and stock_decreased:
-                header = "⚠️ <b>¡Quedan pocas unidades!</b>"
-            elif status == "compra_directa":
+            if status == "compra_directa":
                 header = "🟢 <b>¡Disponible de nuevo! #CompraDirecta</b>"
             else:
                 header = "🎟️ <b>¡Disponible por invitación! #Invitación</b>"
