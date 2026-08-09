@@ -45,6 +45,25 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: xvfb-run -a python check_stock.py
 
+      - name: Publish products snapshot to Where's That Stock
+        env:
+          WHERESTHATSTOCK_TOKEN: ${{ secrets.WHERESTHATSTOCK_TOKEN }}
+        run: |
+          if [ -f products_snapshot.json ]; then
+            git clone https://x-access-token:${WHERESTHATSTOCK_TOKEN}@github.com/enkairito/wheresthatstock.git /tmp/wheresthatstock
+            cp products_snapshot.json /tmp/wheresthatstock/products.json
+            cd /tmp/wheresthatstock
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add products.json
+            if git diff --cached --quiet; then
+              echo "No changes to publish"
+            else
+              git commit -m "chore: update products snapshot"
+              git push
+            fi
+          fi
+
       - name: Upload debug artifacts
         if: always()
         uses: actions/upload-artifact@v4
