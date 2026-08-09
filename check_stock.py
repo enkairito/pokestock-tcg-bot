@@ -344,8 +344,10 @@ async def main():
             else:
                 cta = f'📦 <a href="{link}">Solicitar invitación en Amazon</a>'
 
+            store_line = "<b>Amazon ES 🇪🇸</b>"
+
             message = "\n\n".join(
-                part for part in [f"<b>{name}</b>", header, price_line, stock_line, cta] if part
+                part for part in [f"<b>{name}</b>", store_line, header, price_line, stock_line, cta] if part
             )
             if DRY_RUN:
                 print(f"🧪 [DRY_RUN] Se habría enviado ({status}): {name}")
