@@ -56,6 +56,9 @@ MARKETPLACES = [
         # tras ver redirecciones inesperadas (a Barclays) al comprobar
         # productos individuales de Amazon.co.uk.
         "allow_individual_fallback": False,
+        # Solicitado explícitamente: no incluir productos agotados de este
+        # marketplace ni en el snapshot de la web ni en el estado/avisos.
+        "exclude_out_of_stock": True,
     },
 ]
 
@@ -379,6 +382,13 @@ async def main():
                     result = await check_single_product(page, asin, marketplace)
                     if result:
                         marketplace_products[asin] = result
+
+            if marketplace.get("exclude_out_of_stock"):
+                out_of_stock = {a for a, i in marketplace_products.items() if i["status"] == "no_disponible"}
+                if out_of_stock:
+                    print(f"⏭️ [{marketplace['code']}] Omitiendo {len(out_of_stock)} productos agotados (no se añaden ni a la web ni al estado).")
+                    for asin in out_of_stock:
+                        del marketplace_products[asin]
 
             for asin, info in marketplace_products.items():
                 info["asin"] = asin
