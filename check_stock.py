@@ -234,7 +234,8 @@ def watermark_product_image(image_bytes, marketplace_code):
         flag = flag_builder(flag_w, flag_h).convert("RGBA")
         flag_bordered = Image.new("RGBA", (flag_w + 4, flag_h + 4), (255, 255, 255, 255))
         flag_bordered.paste(flag, (2, 2))
-        photo.alpha_composite(flag_bordered, (margin, margin))
+        flag_x = photo.width - margin - flag_bordered.width
+        photo.alpha_composite(flag_bordered, (flag_x, margin))
 
     output = BytesIO()
     photo.convert("RGB").save(output, format="JPEG", quality=90)
