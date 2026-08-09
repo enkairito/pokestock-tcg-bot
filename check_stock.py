@@ -92,6 +92,18 @@ USER_AGENTS = [
 ASIN_VALID_RE = re.compile(r"^[A-Z0-9]{10}$")
 ASIN_HREF_RE = re.compile(r"/dp/([A-Z0-9]{10})")
 
+
+def clean_price(value):
+    """Amazon a veces renderiza el precio tachado como el texto literal
+    'null' cuando el producto no tiene precio de referencia (visto en
+    Amazon.co.uk). Lo tratamos como si no hubiera precio."""
+    if not value:
+        return None
+    value = value.strip()
+    if not value or value.lower() == "null":
+        return None
+    return value
+
 SAMESITE_MAP = {
     "strict": "Strict",
     "lax": "Lax",
@@ -362,8 +374,8 @@ async def discover_products(page, label, url, marketplace):
 
         products[asin] = {
             "name": t.get("name") or asin,
-            "price": t.get("price"),
-            "original_price": t.get("originalPrice"),
+            "price": clean_price(t.get("price")),
+            "original_price": clean_price(t.get("originalPrice")),
             "image": t.get("image"),
             "stock": stock_match.group(1) if stock_match else None,
             "status": status,
@@ -405,7 +417,7 @@ async def check_single_product(page, asin, marketplace):
             status = "no_disponible"
 
         price_el = await page.query_selector(".a-price .a-offscreen")
-        price = (await price_el.inner_text()).strip() if price_el else None
+        price = clean_price((await price_el.inner_text()) if price_el else None)
 
         image_el = await page.query_selector("#landingImage, #imgTagWrapperId img")
         image = (await image_el.get_attribute("src")) if image_el else None
