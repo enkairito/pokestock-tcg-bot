@@ -10,16 +10,59 @@ from pathlib import Path
 import requests
 from patchright.async_api import async_playwright
 
-STORE_PAGES = [
-    ("Todos los productos", "https://www.amazon.es/stores/page/4CC86B6A-CAD9-4B47-A949-86C99C87A382"),
-    ("Disponible de nuevo", "https://www.amazon.es/stores/page/41180886-559D-47A1-9CEB-5BF332812A91"),
+MARKETPLACES = [
+    {
+        "code": "ES",
+        "domain": "amazon.es",
+        "flag": "🇪🇸",
+        "store_label": "Amazon ES",
+        "tag": "enkairito-21",
+        "cookies_file": Path(__file__).parent / "amazon_cookies.json",
+        "locale": "es-ES",
+        "accept_language": "es-ES,es;q=0.9",
+        "invitation_marker": "invitaci",
+        "invitation_button_pattern": "text=/solicitar invitaci[oó]n/i",
+        "interstitial_marker": "haz clic en el botón de abajo",
+        "continue_button_pattern": "text=/seguir comprando/i",
+        "stock_count_re": re.compile(r"queda\(?n?\)?\s+(\d+)\s+en stock", re.IGNORECASE),
+        "pages": [
+            ("Todos los productos", "https://www.amazon.es/stores/page/4CC86B6A-CAD9-4B47-A949-86C99C87A382"),
+            ("Disponible de nuevo", "https://www.amazon.es/stores/page/41180886-559D-47A1-9CEB-5BF332812A91"),
+        ],
+        "allow_individual_fallback": True,
+    },
+    {
+        "code": "UK",
+        "domain": "amazon.co.uk",
+        "flag": "🇬🇧",
+        "store_label": "Amazon UK",
+        "tag": "wtsuk-21",
+        "cookies_file": Path(__file__).parent / "amazon_cookies_uk.json",
+        "locale": "en-GB",
+        "accept_language": "en-GB,en;q=0.9",
+        # NOTA: patrones en inglés sin verificar contra una página real de
+        # invitación/bajo stock de Amazon.co.uk todavía — revisar con datos
+        # reales la primera vez que aparezca un producto en ese estado.
+        "invitation_marker": "invit",
+        "invitation_button_pattern": "text=/request.*invit/i",
+        "interstitial_marker": "click the button below",
+        "continue_button_pattern": "text=/continue shopping/i",
+        "stock_count_re": re.compile(r"only\s+(\d+)\s+left in stock", re.IGNORECASE),
+        "pages": [
+            ("All products", "https://www.amazon.co.uk/stores/page/0C27883C-C67C-4CB1-B1DC-2F5ACDBEC0C6"),
+        ],
+        # No visitar fichas de producto individuales en este marketplace —
+        # solo la página de tienda indicada arriba. Solicitado explícitamente
+        # tras ver redirecciones inesperadas (a Barclays) al comprobar
+        # productos individuales de Amazon.co.uk.
+        "allow_individual_fallback": False,
+    },
 ]
-AFFILIATE_TAG = "enkairito-21"
+
 WEBSITE_URL = "https://enkairito.github.io/wheresthatstock/"
 STATE_FILE = Path(__file__).parent / "state.json"
 SNAPSHOT_FILE = Path(__file__).parent / "products_snapshot.json"
 DEBUG_DIR = Path(__file__).parent / "debug"
-COOKIES_FILE = Path(__file__).parent / "amazon_cookies.json"
 
 CAPTCHA_MARKERS = [
     "introduzca los caracteres",
@@ -43,9 +86,6 @@ USER_AGENTS = [
 
 ASIN_VALID_RE = re.compile(r"^[A-Z0-9]{10}$")
 ASIN_HREF_RE = re.compile(r"/dp/([A-Z0-9]{10})")
-INVITATION_MARKER = "invitaci"
-INTERSTITIAL_MARKER = "haz clic en el botón de abajo"
-STOCK_COUNT_RE = re.compile(r"queda\(?n?\)?\s+(\d+)\s+en stock", re.IGNORECASE)
 
 SAMESITE_MAP = {
     "strict": "Strict",
@@ -59,10 +99,15 @@ def load_state():
     if not STATE_FILE.exists():
         return {}
     state = json.loads(STATE_FILE.read_text(encoding="utf-8"))
-    for info in state.values():
+    migrated = {}
+    for key, info in state.items():
         if "status" not in info and "available" in info:
             info["status"] = "compra_directa" if info["available"] else "no_disponible"
-    return state
+        # Claves antiguas eran solo el ASIN (implícitamente Amazon ES).
+        # Migramos a "MARKETPLACE:ASIN" para evitar choques entre tiendas.
+        key = key if ":" in key else f"ES:{key}"
+        migrated[key] = info
+    return migrated
 
 
 def save_state(state):
@@ -74,16 +119,19 @@ def save_products_snapshot(products):
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "products": [
             {
-                "asin": asin,
+                "asin": info["asin"],
+                "marketplace": info["marketplace_code"],
+                "store_label": info["store_label"],
+                "flag": info["flag"],
                 "name": info["name"],
                 "image": info.get("image"),
                 "price": info.get("price"),
                 "original_price": info.get("original_price"),
                 "status": info["status"],
                 "stock": info.get("stock"),
-                "link": f"https://www.amazon.es/dp/{asin}?tag={AFFILIATE_TAG}",
+                "link": info["link"],
             }
-            for asin, info in products.items()
+            for info in products.values()
         ],
     }
     SNAPSHOT_FILE.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -140,62 +188,67 @@ def normalize_cookies(raw_cookies):
 
 
 async def new_context(browser):
+    """Un único contexto para toda la ejecución. Las cookies de cada
+    marketplace están limitadas a su propio dominio (atributo `domain` de
+    cada cookie), así que el navegador solo las envía cuando corresponde —
+    no hace falta un contexto por tienda."""
     context = await browser.new_context(
         user_agent=random.choice(USER_AGENTS),
         locale="es-ES",
         viewport={"width": 1366, "height": 900},
-        extra_http_headers={"Accept-Language": "es-ES,es;q=0.9"},
     )
     await context.add_init_script(
         "Object.defineProperty(navigator, 'webdriver', {get: () => undefined});"
     )
-    if COOKIES_FILE.exists():
-        raw_cookies = json.loads(COOKIES_FILE.read_text(encoding="utf-8"))
-        await context.add_cookies(normalize_cookies(raw_cookies))
+    for marketplace in MARKETPLACES:
+        cookies_file = marketplace["cookies_file"]
+        if cookies_file.exists():
+            raw_cookies = json.loads(cookies_file.read_text(encoding="utf-8"))
+            await context.add_cookies(normalize_cookies(raw_cookies))
     return context
 
 
-async def try_click_continue(page, label):
+async def try_click_continue(page, label, marketplace):
     try:
         body_text = (await page.inner_text("body")).lower()
-        if INTERSTITIAL_MARKER not in body_text:
+        if marketplace["interstitial_marker"] not in body_text:
             return
 
-        continue_button = await page.query_selector("text=/seguir comprando/i")
+        continue_button = await page.query_selector(marketplace["continue_button_pattern"])
         if not continue_button:
             return
-        print(f"↪️ Interstitial 'seguir comprando' detectado en {label}, haciendo clic para continuar.")
+        print(f"↪️ Interstitial detectado en {label} ({marketplace['code']}), haciendo clic para continuar.")
         await continue_button.click(timeout=5000)
         await page.wait_for_timeout(random.uniform(1500, 3000))
     except Exception as e:
-        print(f"⚠️ No se pudo hacer clic en 'seguir comprando' para {label}: {e!r}")
+        print(f"⚠️ No se pudo hacer clic en el interstitial para {label} ({marketplace['code']}): {e!r}")
 
 
-async def discover_products(page, label, url):
+async def discover_products(page, label, url, marketplace):
     """Descubre todos los productos y su estado (nombre, precio, disponibilidad)
     directamente desde las tarjetas de la página de la tienda, sin necesidad de
     visitar cada ficha de producto individual."""
     await page.goto(url, wait_until="domcontentloaded", timeout=60000)
     await page.wait_for_timeout(3000)
 
-    await try_click_continue(page, label)
+    await try_click_continue(page, label, marketplace)
 
     for _ in range(6):
         await page.mouse.wheel(0, 2000)
         await page.wait_for_timeout(800)
 
     title = await page.title()
-    print(f"ℹ️ [{label}] Título de la página cargada: {title!r}")
-    print(f"ℹ️ [{label}] URL final tras la carga: {page.url}")
+    print(f"ℹ️ [{marketplace['code']}/{label}] Título de la página cargada: {title!r}")
+    print(f"ℹ️ [{marketplace['code']}/{label}] URL final tras la carga: {page.url}")
 
     body_text = (await page.inner_text("body")).lower()
     if any(marker in body_text for marker in CAPTCHA_MARKERS):
-        print(f"❌ Amazon devolvió una verificación anti-bot (captcha) en vez de la tienda ({label}).")
+        print(f"❌ Amazon devolvió una verificación anti-bot (captcha) en vez de la tienda ({marketplace['code']}/{label}).")
 
     slug = re.sub(r"[^a-z0-9]+", "_", label.lower()).strip("_")
     DEBUG_DIR.mkdir(exist_ok=True)
-    await page.screenshot(path=str(DEBUG_DIR / f"store_page_{slug}.png"), full_page=True)
-    (DEBUG_DIR / f"store_page_{slug}.html").write_text(await page.content(), encoding="utf-8")
+    await page.screenshot(path=str(DEBUG_DIR / f"store_page_{marketplace['code']}_{slug}.png"), full_page=True)
+    (DEBUG_DIR / f"store_page_{marketplace['code']}_{slug}.html").write_text(await page.content(), encoding="utf-8")
 
     tiles = await page.eval_on_selector_all(
         "[data-asin]",
@@ -225,12 +278,12 @@ async def discover_products(page, label, url):
         text_lower = text.lower()
         if t.get("hasAddToCart"):
             status = "compra_directa"
-        elif INVITATION_MARKER in text_lower:
+        elif marketplace["invitation_marker"] in text_lower:
             status = "invitacion"
         else:
             status = "no_disponible"
 
-        stock_match = STOCK_COUNT_RE.search(text)
+        stock_match = marketplace["stock_count_re"].search(text)
 
         products[asin] = {
             "name": t.get("name") or asin,
@@ -254,20 +307,20 @@ async def discover_products(page, label, url):
     return products, fallback_asins
 
 
-async def check_single_product(page, asin):
+async def check_single_product(page, asin, marketplace):
     """Comprobación individual de respaldo para productos cuya tarjeta de
     tienda no expone precio/disponibilidad directamente."""
-    url = f"https://www.amazon.es/dp/{asin}"
+    url = f"https://www.{marketplace['domain']}/dp/{asin}"
     try:
         await page.goto(url, wait_until="domcontentloaded", timeout=45000)
         await page.wait_for_timeout(random.uniform(1200, 2500))
-        await try_click_continue(page, asin)
+        await try_click_continue(page, asin, marketplace)
 
         title_el = await page.query_selector("#productTitle")
         name = (await title_el.inner_text()).strip() if title_el else asin
 
         buy_button = await page.query_selector("#add-to-cart-button, #buy-now-button")
-        invitation_button = await page.query_selector("text=/solicitar invitaci[oó]n/i")
+        invitation_button = await page.query_selector(marketplace["invitation_button_pattern"])
 
         if buy_button:
             status = "compra_directa"
@@ -284,56 +337,69 @@ async def check_single_product(page, asin):
 
         availability_el = await page.query_selector("#availability")
         availability_text = (await availability_el.inner_text()) if availability_el else ""
-        stock_match = STOCK_COUNT_RE.search(availability_text)
+        stock_match = marketplace["stock_count_re"].search(availability_text)
         stock = stock_match.group(1) if stock_match else None
 
         return {"name": name, "price": price, "original_price": None, "image": image, "stock": stock, "status": status}
     except Exception as e:
-        print(f"⚠️ Error comprobando {asin} individualmente: {e!r}")
+        print(f"⚠️ Error comprobando {asin} ({marketplace['code']}) individualmente: {e!r}")
         return None
 
 
 async def main():
     state = load_state()
     products = {}
-    fallback_asins = set()
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False, args=["--no-sandbox"])
         context = await new_context(browser)
         page = await context.new_page()
 
-        for label, url in STORE_PAGES:
-            print(f"🔍 Descubriendo productos en la tienda ({label})...")
-            try:
-                page_products, page_fallback = await discover_products(page, label, url)
-                print(f"📦 [{label}] {len(page_products)} productos encontrados")
-                products.update(page_products)
-                fallback_asins.update(page_fallback)
-            except Exception as e:
-                print(f"❌ No se pudo cargar la página de la tienda ({label}): {e!r}")
+        for marketplace in MARKETPLACES:
+            marketplace_products = {}
+            fallback_asins = set()
 
-        fallback_asins -= products.keys()
-        if fallback_asins:
-            print(f"🔎 Comprobando individualmente {len(fallback_asins)} productos sin datos en la tarjeta...")
-            for asin in fallback_asins:
-                await asyncio.sleep(random.uniform(2, 5))
-                result = await check_single_product(page, asin)
-                if result:
-                    products[asin] = result
+            for label, url in marketplace["pages"]:
+                print(f"🔍 Descubriendo productos en la tienda ({marketplace['code']}/{label})...")
+                try:
+                    page_products, page_fallback = await discover_products(page, label, url, marketplace)
+                    print(f"📦 [{marketplace['code']}/{label}] {len(page_products)} productos encontrados")
+                    marketplace_products.update(page_products)
+                    fallback_asins.update(page_fallback)
+                except Exception as e:
+                    print(f"❌ No se pudo cargar la página de la tienda ({marketplace['code']}/{label}): {e!r}")
+
+            fallback_asins -= marketplace_products.keys()
+            if fallback_asins and not marketplace.get("allow_individual_fallback", True):
+                print(f"⏭️ [{marketplace['code']}] Omitiendo {len(fallback_asins)} productos sin datos en la tarjeta (fallback individual desactivado para este marketplace).")
+            elif fallback_asins:
+                print(f"🔎 [{marketplace['code']}] Comprobando individualmente {len(fallback_asins)} productos sin datos en la tarjeta...")
+                for asin in fallback_asins:
+                    await asyncio.sleep(random.uniform(2, 5))
+                    result = await check_single_product(page, asin, marketplace)
+                    if result:
+                        marketplace_products[asin] = result
+
+            for asin, info in marketplace_products.items():
+                info["asin"] = asin
+                info["marketplace_code"] = marketplace["code"]
+                info["store_label"] = marketplace["store_label"]
+                info["flag"] = marketplace["flag"]
+                info["link"] = f"https://www.{marketplace['domain']}/dp/{asin}?tag={marketplace['tag']}"
+                products[f"{marketplace['code']}:{asin}"] = info
 
         await browser.close()
 
     if not products:
-        print("❌ No se encontró ningún producto en ninguna página.")
+        print("❌ No se encontró ningún producto en ninguna tienda.")
         sys.exit(1)
 
     print(f"📦 Total combinado: {len(products)} productos únicos")
 
-    for asin, info in products.items():
+    for key, info in products.items():
         status = info["status"]
         name = info["name"]
-        prev = state.get(asin, {})
+        prev = state.get(key, {})
         prev_status = prev.get("status")
         prev_stock = prev.get("stock")
 
@@ -346,7 +412,7 @@ async def main():
         )
 
         if status_changed or stock_decreased:
-            link = f"https://www.amazon.es/dp/{asin}?tag={AFFILIATE_TAG}"
+            link = info["link"]
 
             if info["price"] and info["original_price"] and info["original_price"] != info["price"]:
                 price_line = f"💰 <s>{info['original_price']}</s> <b>{info['price']}</b>"
@@ -367,7 +433,7 @@ async def main():
             else:
                 cta = f'📦 <a href="{link}">Solicitar invitación</a>'
 
-            store_line = "<b>Amazon ES 🇪🇸</b>"
+            store_line = f"<b>{info['store_label']} {info['flag']}</b>"
             website_line = f'🌐 <a href="{WEBSITE_URL}">Ver todos los productos disponibles</a>'
 
             message = "\n\n".join(
@@ -375,18 +441,18 @@ async def main():
             )
             message += f"\n\n\n{website_line}"
             if DRY_RUN:
-                print(f"🧪 [DRY_RUN] Se habría enviado ({status}): {name}")
+                print(f"🧪 [DRY_RUN] Se habría enviado ({info['marketplace_code']}/{status}): {name}")
             else:
                 try:
                     if info.get("image"):
                         send_telegram_photo(info["image"], message)
                     else:
                         send_telegram_message(message)
-                    print(f"✅ Alerta enviada ({status}): {name}")
+                    print(f"✅ Alerta enviada ({info['marketplace_code']}/{status}): {name}")
                 except Exception as e:
                     print(f"❌ Error enviando Telegram para {name}: {e!r}")
 
-        state[asin] = {"name": name, "status": status, "stock": info.get("stock")}
+        state[key] = {"name": name, "status": status, "stock": info.get("stock")}
 
     save_state(state)
     save_products_snapshot(products)

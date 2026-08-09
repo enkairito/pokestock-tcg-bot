@@ -5,4 +5,5 @@ __pycache__/
 venv/
 debug/
 amazon_cookies.json
+amazon_cookies_uk.json
 products_snapshot.json
