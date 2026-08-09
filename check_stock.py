@@ -15,6 +15,7 @@ STORE_PAGES = [
     ("Disponible de nuevo", "https://www.amazon.es/stores/page/41180886-559D-47A1-9CEB-5BF332812A91"),
 ]
 AFFILIATE_TAG = "enkairito-21"
+WEBSITE_URL = "https://enkairito.github.io/wheresthatstock/"
 STATE_FILE = Path(__file__).parent / "state.json"
 SNAPSHOT_FILE = Path(__file__).parent / "products_snapshot.json"
 DEBUG_DIR = Path(__file__).parent / "debug"
@@ -362,15 +363,17 @@ async def main():
                 header = "🎟️ <b>¡Disponible por invitación! #Invitación</b>"
 
             if status == "compra_directa":
-                cta = f'📦 <a href="{link}">Comprar en Amazon</a>'
+                cta = f'📦 <a href="{link}">Cómpralo ya</a>'
             else:
-                cta = f'📦 <a href="{link}">Solicitar invitación en Amazon</a>'
+                cta = f'📦 <a href="{link}">Solicitar invitación</a>'
 
             store_line = "<b>Amazon ES 🇪🇸</b>"
+            website_line = f'🌐 <a href="{WEBSITE_URL}">Ver todos los productos disponibles</a>'
 
             message = "\n\n".join(
                 part for part in [f"<b>{name}</b>", store_line, header, price_line, stock_line, cta] if part
             )
+            message += f"\n\n\n{website_line}"
             if DRY_RUN:
                 print(f"🧪 [DRY_RUN] Se habría enviado ({status}): {name}")
             else:
