@@ -68,7 +68,6 @@ WEBSITE_URL = "https://enkairito.github.io/wheresthatstock/"
 STATE_FILE = Path(__file__).parent / "state.json"
 SNAPSHOT_FILE = Path(__file__).parent / "products_snapshot.json"
 DEBUG_DIR = Path(__file__).parent / "debug"
-LOGO_FILE = Path(__file__).parent / "assets" / "logo.jpg"
 
 CAPTCHA_MARKERS = [
     "introduzca los caracteres",
@@ -227,26 +226,15 @@ def watermark_product_image(image_bytes, marketplace_code):
     photo = Image.open(BytesIO(image_bytes)).convert("RGBA")
 
     margin = int(photo.width * 0.035)
-    logo_size = int(photo.width * 0.16)
-
-    logo = Image.open(LOGO_FILE).convert("RGBA").resize((logo_size, logo_size))
-    mask = Image.new("L", (logo_size, logo_size), 0)
-    ImageDraw.Draw(mask).ellipse([0, 0, logo_size, logo_size], fill=255)
-    ring = Image.new("RGBA", (logo_size + 6, logo_size + 6), (0, 0, 0, 0))
-    ImageDraw.Draw(ring).ellipse([0, 0, logo_size + 6, logo_size + 6], fill=(255, 255, 255, 255))
-    ring.paste(logo, (3, 3), mask)
-    photo.alpha_composite(ring, (margin, margin))
 
     flag_builder = FLAG_BUILDERS.get(marketplace_code)
     if flag_builder:
-        flag_w = int(logo_size * 0.85)
+        flag_w = int(photo.width * 0.16)
         flag_h = int(flag_w * 0.66)
         flag = flag_builder(flag_w, flag_h).convert("RGBA")
         flag_bordered = Image.new("RGBA", (flag_w + 4, flag_h + 4), (255, 255, 255, 255))
         flag_bordered.paste(flag, (2, 2))
-        flag_x = margin + logo_size + 8
-        flag_y = margin + (logo_size + 6 - flag_h - 4) // 2
-        photo.alpha_composite(flag_bordered, (flag_x, flag_y))
+        photo.alpha_composite(flag_bordered, (margin, margin))
 
     output = BytesIO()
     photo.convert("RGB").save(output, format="JPEG", quality=90)
