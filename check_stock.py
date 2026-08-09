@@ -4,6 +4,7 @@ import os
 import random
 import re
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
@@ -15,6 +16,7 @@ STORE_PAGES = [
 ]
 AFFILIATE_TAG = "enkairito-21"
 STATE_FILE = Path(__file__).parent / "state.json"
+SNAPSHOT_FILE = Path(__file__).parent / "products_snapshot.json"
 DEBUG_DIR = Path(__file__).parent / "debug"
 COOKIES_FILE = Path(__file__).parent / "amazon_cookies.json"
 
@@ -64,6 +66,26 @@ def load_state():
 
 def save_state(state):
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def save_products_snapshot(products):
+    snapshot = {
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "products": [
+            {
+                "asin": asin,
+                "name": info["name"],
+                "image": info.get("image"),
+                "price": info.get("price"),
+                "original_price": info.get("original_price"),
+                "status": info["status"],
+                "stock": info.get("stock"),
+                "link": f"https://www.amazon.es/dp/{asin}?tag={AFFILIATE_TAG}",
+            }
+            for asin, info in products.items()
+        ],
+    }
+    SNAPSHOT_FILE.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def send_telegram_message(text):
@@ -364,6 +386,7 @@ async def main():
         state[asin] = {"name": name, "status": status, "stock": info.get("stock")}
 
     save_state(state)
+    save_products_snapshot(products)
     print("✅ Comprobación completada.")
 
 
