@@ -5,10 +5,12 @@ import random
 import re
 import sys
 from datetime import datetime, timezone
+from io import BytesIO
 from pathlib import Path
 
 import requests
 from patchright.async_api import async_playwright
+from PIL import Image, ImageDraw
 
 MARKETPLACES = [
     {
@@ -66,6 +68,7 @@ WEBSITE_URL = "https://enkairito.github.io/wheresthatstock/"
 STATE_FILE = Path(__file__).parent / "state.json"
 SNAPSHOT_FILE = Path(__file__).parent / "products_snapshot.json"
 DEBUG_DIR = Path(__file__).parent / "debug"
+LOGO_FILE = Path(__file__).parent / "assets" / "logo.jpg"
 
 CAPTCHA_MARKERS = [
     "introduzca los caracteres",
@@ -168,6 +171,86 @@ def send_telegram_photo(photo_url, caption):
         timeout=15,
     )
     resp.raise_for_status()
+
+
+def send_telegram_photo_bytes(image_bytes, caption):
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
+    resp = requests.post(
+        url,
+        data={
+            "chat_id": TELEGRAM_CHAT_ID,
+            "caption": caption,
+            "parse_mode": "HTML",
+        },
+        files={"photo": ("product.jpg", image_bytes, "image/jpeg")},
+        timeout=15,
+    )
+    resp.raise_for_status()
+
+
+def _flag_es(w, h):
+    img = Image.new("RGB", (w, h))
+    draw = ImageDraw.Draw(img)
+    red = (170, 21, 27)
+    yellow = (241, 191, 0)
+    band = h // 4
+    draw.rectangle([0, 0, w, band], fill=red)
+    draw.rectangle([0, band, w, h - band], fill=yellow)
+    draw.rectangle([0, h - band, w, h], fill=red)
+    return img
+
+
+def _flag_uk(w, h):
+    img = Image.new("RGB", (w, h), (1, 33, 105))
+    draw = ImageDraw.Draw(img)
+    white = (255, 255, 255)
+    red = (200, 16, 46)
+    diag_w = max(2, h // 5)
+    draw.line([(0, 0), (w, h)], fill=white, width=diag_w)
+    draw.line([(0, h), (w, 0)], fill=white, width=diag_w)
+    diag_w2 = max(1, diag_w // 2)
+    draw.line([(0, 0), (w, h)], fill=red, width=diag_w2)
+    draw.line([(0, h), (w, 0)], fill=red, width=diag_w2)
+    cross_w = max(3, h // 3)
+    draw.rectangle([w // 2 - cross_w // 2, 0, w // 2 + cross_w // 2, h], fill=white)
+    draw.rectangle([0, h // 2 - cross_w // 2, w, h // 2 + cross_w // 2], fill=white)
+    cross_r = max(2, cross_w // 2)
+    draw.rectangle([w // 2 - cross_r // 2, 0, w // 2 + cross_r // 2, h], fill=red)
+    draw.rectangle([0, h // 2 - cross_r // 2, w, h // 2 + cross_r // 2], fill=red)
+    return img
+
+
+FLAG_BUILDERS = {"ES": _flag_es, "UK": _flag_uk}
+
+
+def watermark_product_image(image_bytes, marketplace_code):
+    photo = Image.open(BytesIO(image_bytes)).convert("RGBA")
+
+    margin = int(photo.width * 0.035)
+    logo_size = int(photo.width * 0.16)
+
+    logo = Image.open(LOGO_FILE).convert("RGBA").resize((logo_size, logo_size))
+    mask = Image.new("L", (logo_size, logo_size), 0)
+    ImageDraw.Draw(mask).ellipse([0, 0, logo_size, logo_size], fill=255)
+    ring = Image.new("RGBA", (logo_size + 6, logo_size + 6), (0, 0, 0, 0))
+    ImageDraw.Draw(ring).ellipse([0, 0, logo_size + 6, logo_size + 6], fill=(255, 255, 255, 255))
+    ring.paste(logo, (3, 3), mask)
+    photo.alpha_composite(ring, (margin, margin))
+
+    flag_builder = FLAG_BUILDERS.get(marketplace_code)
+    if flag_builder:
+        flag_w = int(logo_size * 0.85)
+        flag_h = int(flag_w * 0.66)
+        flag = flag_builder(flag_w, flag_h).convert("RGBA")
+        flag_bordered = Image.new("RGBA", (flag_w + 4, flag_h + 4), (255, 255, 255, 255))
+        flag_bordered.paste(flag, (2, 2))
+        flag_x = margin + logo_size + 8
+        flag_y = margin + (logo_size + 6 - flag_h - 4) // 2
+        photo.alpha_composite(flag_bordered, (flag_x, flag_y))
+
+    output = BytesIO()
+    photo.convert("RGB").save(output, format="JPEG", quality=90)
+    return output.getvalue()
 
 
 def normalize_cookies(raw_cookies):
@@ -455,7 +538,14 @@ async def main():
             else:
                 try:
                     if info.get("image"):
-                        send_telegram_photo(info["image"], message)
+                        try:
+                            image_resp = requests.get(info["image"], timeout=15)
+                            image_resp.raise_for_status()
+                            watermarked = watermark_product_image(image_resp.content, info["marketplace_code"])
+                            send_telegram_photo_bytes(watermarked, message)
+                        except Exception as watermark_error:
+                            print(f"⚠️ No se pudo generar la marca de agua para {name}: {watermark_error!r}")
+                            send_telegram_photo(info["image"], message)
                     else:
                         send_telegram_message(message)
                     print(f"✅ Alerta enviada ({info['marketplace_code']}/{status}): {name}")
