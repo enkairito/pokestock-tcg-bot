@@ -62,6 +62,31 @@ MARKETPLACES = [
         # marketplace ni en el snapshot de la web ni en el estado/avisos.
         "exclude_out_of_stock": True,
     },
+    {
+        "code": "US",
+        "domain": "amazon.com",
+        "flag": "🇺🇸",
+        "store_label": "Amazon USA",
+        "tag": "wtsus-20",
+        "cookies_file": Path(__file__).parent / "amazon_cookies_us.json",
+        "locale": "en-US",
+        "accept_language": "en-US,en;q=0.9",
+        # NOTA: patrones en inglés sin verificar contra una página real de
+        # invitación/bajo stock de Amazon.com todavía — revisar con datos
+        # reales la primera vez que aparezca un producto en ese estado.
+        "invitation_marker": "invit",
+        "invitation_button_pattern": "text=/request.*invit/i",
+        "interstitial_marker": "click the button below",
+        "continue_button_pattern": "text=/continue shopping/i",
+        "stock_count_re": re.compile(r"only\s+(\d+)\s+left in stock", re.IGNORECASE),
+        "pages": [
+            ("TCG search", "https://www.amazon.com/stores/page/DC6D208A-8D81-4AFA-90C5-616473E94ECA/search?terms=tcg"),
+        ],
+        # Mismo criterio de precaución que UK: no visitar fichas de producto
+        # individuales ni incluir agotados en la web/estado.
+        "allow_individual_fallback": False,
+        "exclude_out_of_stock": True,
+    },
 ]
 
 WEBSITE_URL = "https://enkairito.github.io/wheresthatstock/"
@@ -231,7 +256,21 @@ def _flag_uk(w, h):
     return img
 
 
-FLAG_BUILDERS = {"ES": _flag_es, "UK": _flag_uk}
+def _flag_us(w, h):
+    img = Image.new("RGB", (w, h), (178, 34, 52))
+    draw = ImageDraw.Draw(img)
+    white = (255, 255, 255)
+    blue = (60, 59, 110)
+    stripe_h = max(1, h // 13)
+    for i in range(1, 13, 2):
+        draw.rectangle([0, i * stripe_h, w, (i + 1) * stripe_h], fill=white)
+    canton_w = int(w * 0.4)
+    canton_h = stripe_h * 7
+    draw.rectangle([0, 0, canton_w, canton_h], fill=blue)
+    return img
+
+
+FLAG_BUILDERS = {"ES": _flag_es, "UK": _flag_uk, "US": _flag_us}
 
 
 def watermark_product_image(image_bytes, marketplace_code):

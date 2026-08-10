@@ -1,7 +1,7 @@
 # pokestock-tcg-bot
 
-Bot que vigila páginas de tienda de Pokémon TCG en **Amazon España** y
-**Amazon Reino Unido** y, cuando un producto pasa a estar disponible (o baja
+Bot que vigila páginas de tienda de Pokémon TCG en **Amazon España**,
+**Amazon Reino Unido** y **Amazon USA** y, cuando un producto pasa a estar disponible (o baja
 su stock), envía un aviso al grupo de Telegram **PokéStockTCG** con foto,
 precio, stock y enlace de afiliado. También publica un snapshot de todos los
 productos rastreados para la web pública
@@ -14,7 +14,7 @@ para retomar el trabajo desde otro ordenador), ver [`CONTEXT.md`](CONTEXT.md).
 ## Cómo funciona
 
 1. `check_stock.py` recorre cada tienda configurada en `MARKETPLACES`
-   (Amazon.es y Amazon.co.uk, cada una con su propio dominio, idioma, tag de
+   (Amazon.es, Amazon.co.uk y Amazon.com, cada una con su propio dominio, idioma, tag de
    afiliado y cookies) y, dentro de cada una, cada página de tienda listada.
    Lee **directamente de las tarjetas de producto** (`[data-asin]`) el
    nombre, precio, imagen y estado de disponibilidad — no hace falta
@@ -28,13 +28,14 @@ para retomar el trabajo desde otro ordenador), ver [`CONTEXT.md`](CONTEXT.md).
    - `no_disponible`: ninguna de las anteriores.
 3. Algunos widgets de tienda no incluyen precio/disponibilidad en la
    tarjeta, solo un enlace al producto — esos ASIN se comprueban a mano
-   visitando la ficha individual, **salvo en Amazon UK**, donde está
-   desactivado explícitamente (`allow_individual_fallback: False`) para no
-   generar tráfico raro hacia fichas individuales en ese dominio.
-4. En Amazon UK, además, los productos que salen agotados en el scrape se
-   descartan del todo (`exclude_out_of_stock: True`): no se guardan en
-   `state.json` ni se publican en la web. En Amazon ES sí se mantienen,
-   para poder filtrarlos en la web.
+   visitando la ficha individual, **salvo en Amazon UK y Amazon USA**,
+   donde está desactivado explícitamente (`allow_individual_fallback:
+   False`) para no generar tráfico raro hacia fichas individuales en esos
+   dominios.
+4. En Amazon UK y Amazon USA, además, los productos que salen agotados en
+   el scrape se descartan del todo (`exclude_out_of_stock: True`): no se
+   guardan en `state.json` ni se publican en la web. En Amazon ES sí se
+   mantienen, para poder filtrarlos en la web.
 5. Compara el resultado con `state.json` (estado de la ejecución anterior).
    Si un producto pasa a `compra_directa`/`invitacion` desde otro estado, o
    si su stock baja, envía un aviso al grupo de Telegram con foto (marca de
@@ -74,6 +75,7 @@ vuelve a bloquear GitHub Actions en el futuro.
 | `TELEGRAM_CHAT_ID` | ID del grupo de Telegram |
 | `AMAZON_COOKIES_JSON` | Contenido completo de `amazon_cookies.json` (sesión de Amazon.es) |
 | `AMAZON_UK_COOKIES_JSON` | Contenido completo de `amazon_cookies_uk.json` (sesión de Amazon.co.uk) |
+| `AMAZON_US_COOKIES_JSON` | Contenido completo de `amazon_cookies_us.json` (sesión de Amazon.com) |
 | `WHERESTHATSTOCK_TOKEN` | Personal Access Token (fine-grained, permiso de escritura solo sobre el repo `wheresthatstock`) usado para publicar `products.json` |
 
 ### 2. Repo privado
@@ -86,7 +88,7 @@ no sensibles (stock/precio de Amazon).
 ### 3. Tags de afiliado y tiendas
 
 Definidos en `MARKETPLACES` dentro de `check_stock.py` (uno por tienda:
-`enkairito-21` para ES, `wtsuk-21` para UK). Añadir una tienda nueva es
+`enkairito-21` para ES, `wtsuk-21` para UK, `wtsus-20` para USA). Añadir una tienda nueva es
 añadir una entrada más a esa lista con su dominio, cookies, patrones de
 idioma y páginas de tienda a vigilar.
 

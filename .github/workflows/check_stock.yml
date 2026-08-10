@@ -35,12 +35,16 @@ jobs:
         env:
           AMAZON_COOKIES_JSON: ${{ secrets.AMAZON_COOKIES_JSON }}
           AMAZON_UK_COOKIES_JSON: ${{ secrets.AMAZON_UK_COOKIES_JSON }}
+          AMAZON_US_COOKIES_JSON: ${{ secrets.AMAZON_US_COOKIES_JSON }}
         run: |
           if [ -n "$AMAZON_COOKIES_JSON" ]; then
             echo "$AMAZON_COOKIES_JSON" > amazon_cookies.json
           fi
           if [ -n "$AMAZON_UK_COOKIES_JSON" ]; then
             echo "$AMAZON_UK_COOKIES_JSON" > amazon_cookies_uk.json
+          fi
+          if [ -n "$AMAZON_US_COOKIES_JSON" ]; then
+            echo "$AMAZON_US_COOKIES_JSON" > amazon_cookies_us.json
           fi
 
       - name: Run stock check
