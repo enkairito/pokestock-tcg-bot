@@ -81,6 +81,7 @@ MARKETPLACES = [
         "stock_count_re": re.compile(r"only\s+(\d+)\s+left in stock", re.IGNORECASE),
         "pages": [
             ("TCG search", "https://www.amazon.com/stores/page/DC6D208A-8D81-4AFA-90C5-616473E94ECA/search?terms=tcg"),
+            ("ETB search", "https://www.amazon.com/stores/page/DC6D208A-8D81-4AFA-90C5-616473E94ECA/search?terms=etb"),
         ],
         # Mismo criterio de precaución que UK: no visitar fichas de producto
         # individuales ni incluir agotados en la web/estado.
@@ -116,6 +117,16 @@ USER_AGENTS = [
 
 ASIN_VALID_RE = re.compile(r"^[A-Z0-9]{10}$")
 ASIN_HREF_RE = re.compile(r"/dp/([A-Z0-9]{10})")
+
+
+EXCLUDED_NAME_KEYWORDS = ["funda"]
+
+
+def is_excluded_by_name(name):
+    """Filtra accesorios (ej. fundas de cartas) que aparecen en los
+    resultados de búsqueda de la tienda pero no son el producto en sí."""
+    name_lower = (name or "").lower()
+    return any(keyword in name_lower for keyword in EXCLUDED_NAME_KEYWORDS)
 
 
 def clean_price(value):
@@ -512,6 +523,14 @@ async def main():
                     print(f"⏭️ [{marketplace['code']}] Omitiendo {len(out_of_stock)} productos agotados (no se añaden ni a la web ni al estado).")
                     for asin in out_of_stock:
                         del marketplace_products[asin]
+
+            excluded_by_name = {
+                a for a, i in marketplace_products.items() if is_excluded_by_name(i["name"])
+            }
+            if excluded_by_name:
+                print(f"⏭️ [{marketplace['code']}] Omitiendo {len(excluded_by_name)} productos no relevantes por nombre (fundas/accesorios).")
+                for asin in excluded_by_name:
+                    del marketplace_products[asin]
 
             for asin, info in marketplace_products.items():
                 info["asin"] = asin
