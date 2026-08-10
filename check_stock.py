@@ -10,7 +10,7 @@ from pathlib import Path
 
 import requests
 from patchright.async_api import async_playwright
-from PIL import Image, ImageDraw
+from PIL import Image
 
 MARKETPLACES = [
     {
@@ -235,53 +235,11 @@ def send_telegram_photo_bytes(image_bytes, caption):
     resp.raise_for_status()
 
 
-def _flag_es(w, h):
-    img = Image.new("RGB", (w, h))
-    draw = ImageDraw.Draw(img)
-    red = (170, 21, 27)
-    yellow = (241, 191, 0)
-    band = h // 4
-    draw.rectangle([0, 0, w, band], fill=red)
-    draw.rectangle([0, band, w, h - band], fill=yellow)
-    draw.rectangle([0, h - band, w, h], fill=red)
-    return img
-
-
-def _flag_uk(w, h):
-    img = Image.new("RGB", (w, h), (1, 33, 105))
-    draw = ImageDraw.Draw(img)
-    white = (255, 255, 255)
-    red = (200, 16, 46)
-    diag_w = max(2, h // 5)
-    draw.line([(0, 0), (w, h)], fill=white, width=diag_w)
-    draw.line([(0, h), (w, 0)], fill=white, width=diag_w)
-    diag_w2 = max(1, diag_w // 2)
-    draw.line([(0, 0), (w, h)], fill=red, width=diag_w2)
-    draw.line([(0, h), (w, 0)], fill=red, width=diag_w2)
-    cross_w = max(3, h // 3)
-    draw.rectangle([w // 2 - cross_w // 2, 0, w // 2 + cross_w // 2, h], fill=white)
-    draw.rectangle([0, h // 2 - cross_w // 2, w, h // 2 + cross_w // 2], fill=white)
-    cross_r = max(2, cross_w // 2)
-    draw.rectangle([w // 2 - cross_r // 2, 0, w // 2 + cross_r // 2, h], fill=red)
-    draw.rectangle([0, h // 2 - cross_r // 2, w, h // 2 + cross_r // 2], fill=red)
-    return img
-
-
-def _flag_us(w, h):
-    img = Image.new("RGB", (w, h), (178, 34, 52))
-    draw = ImageDraw.Draw(img)
-    white = (255, 255, 255)
-    blue = (60, 59, 110)
-    stripe_h = max(1, h // 13)
-    for i in range(1, 13, 2):
-        draw.rectangle([0, i * stripe_h, w, (i + 1) * stripe_h], fill=white)
-    canton_w = int(w * 0.4)
-    canton_h = stripe_h * 7
-    draw.rectangle([0, 0, canton_w, canton_h], fill=blue)
-    return img
-
-
-FLAG_BUILDERS = {"ES": _flag_es, "UK": _flag_uk, "US": _flag_us}
+FLAG_FILES = {
+    "ES": Path(__file__).parent / "assets" / "flags" / "es.png",
+    "UK": Path(__file__).parent / "assets" / "flags" / "gb.png",
+    "US": Path(__file__).parent / "assets" / "flags" / "us.png",
+}
 
 
 def watermark_product_image(image_bytes, marketplace_code):
@@ -289,11 +247,12 @@ def watermark_product_image(image_bytes, marketplace_code):
 
     margin = int(photo.width * 0.035)
 
-    flag_builder = FLAG_BUILDERS.get(marketplace_code)
-    if flag_builder:
+    flag_file = FLAG_FILES.get(marketplace_code)
+    if flag_file and flag_file.exists():
         flag_w = int(photo.width * 0.16)
-        flag_h = int(flag_w * 0.66)
-        flag = flag_builder(flag_w, flag_h).convert("RGBA")
+        flag_icon = Image.open(flag_file).convert("RGBA")
+        flag_h = int(flag_w * flag_icon.height / flag_icon.width)
+        flag = flag_icon.resize((flag_w, flag_h))
         flag_bordered = Image.new("RGBA", (flag_w + 4, flag_h + 4), (255, 255, 255, 255))
         flag_bordered.paste(flag, (2, 2))
         flag_x = photo.width - margin - flag_bordered.width
