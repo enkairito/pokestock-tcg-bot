@@ -401,5 +401,15 @@
     "name": "Pokémon TCG: Caja de entrenamiento de élite de héroes ascendidos de Mega Evolution",
     "status": "compra_directa",
     "stock": null
+  },
+  "US:B0GR6N18F6": {
+    "name": "Pokémon TCG: Caja de entrenamiento de élite Mega Evolution—Chaos Rising",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GRCDKMSW": {
+    "name": "Pokémon TCG: MegaLucario ex League Battle Deck",
+    "status": "compra_directa",
+    "stock": null
   }
 }
