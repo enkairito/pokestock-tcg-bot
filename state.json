@@ -113,8 +113,8 @@
   },
   "ES:B0GGJ1QQNZ": {
     "name": "Pokémon: Lote de latas Poké Ball de JCC Pokémon: Poké, Honor y Acopio (9 Sobres de Mejora de JCC Pokémon y 6 Hojas con Pegatinas)",
-    "status": "no_disponible",
-    "stock": null
+    "status": "compra_directa",
+    "stock": "1"
   },
   "ES:B0H9SQ7SQH": {
     "name": "Pokémon: Blíster de 2 Sobres de Mejora de JCC Pokémon (2 Sobres de Mejora y 1 Carta holográfica de promoción)",
@@ -205,7 +205,7 @@
   "UK:B0GRCDKMSW": {
     "name": "Pokémon TCG: Mega Lucario ex League Battle Deck (1 Ready-to-Play 60-Card Deck Including Mega Lucario ex)",
     "status": "compra_directa",
-    "stock": "1"
+    "stock": null
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolución — Paquete de refuerzo del aumento del caos",
