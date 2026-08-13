@@ -1,22 +1,22 @@
 {
   "ES:B0GZL7PBX1": {
     "name": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Oscuridad Absoluta (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null
   },
   "ES:B0GZL2WPMF": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Oscuridad Absoluta (6 Sobres de Mejora)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null
   },
   "ES:B0GZL8WKB6": {
     "name": "Pokémon: Expositor de Sobres de Mejora de Megaevolución-Oscuridad Absoluta (18 Sobres de Mejora)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null
   },
   "ES:B0GZKZ1FL9": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Oscuridad Absoluta (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null
   },
   "ES:B0H5KLFD8M": {
@@ -25,12 +25,12 @@
   },
   "ES:B0H3LQY1Q7": {
     "name": "Pokémon: Colección prémium Mega-Greninja ex (1 Carta holográfica de promoción, 1 Carta de promoción de Gran tamaño con Efecto 3D y 8 Sobres de Mejora)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null
   },
   "ES:B0H1HDKXGH": {
     "name": "Pokémon: Lata Megaluz Lunar: Mega-Clefable ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null
   },
   "ES:B0H1HJGYVV": {
@@ -55,7 +55,7 @@
   },
   "ES:B0GSSQYPK3": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null
   },
   "ES:B0GSSJ9RB1": {
@@ -65,32 +65,32 @@
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null
   },
   "ES:B0GYSJDWDS": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Salamence y Litleo de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null
   },
   "ES:B0GYSDGPBH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Emboar e Inkay de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null
   },
   "ES:B0GYSKFHBY": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Feraligatr y Budew de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null
   },
   "ES:B0GYSGQ9R8": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Gallade y Goomy de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null
   },
   "ES:B0G4NVYMTH": {
@@ -105,7 +105,8 @@
   },
   "ES:B0FPMXHZLT": {
     "name": "Pokémon: Colección Especial Snorlax ex y Blissey ex de JCC Pokémon (2 Cartas holográficas de promoción, 1 Carta holográfica de Gran tamaño y 8 Sobres de Mejora)",
-    "status": "invitacion"
+    "status": "invitacion",
+    "stock": null
   },
   "ES:B0GGHP4ZQN": {
     "name": "Pokémon: Lote de latas Poké Ball de JCC Pokémon: Poké, Super y Ultra (9 Sobres de Mejora de JCC Pokémon y 6 Hojas con Pegatinas)",
@@ -122,7 +123,7 @@
   },
   "ES:B0G7HYD9WC": {
     "name": "Pokémon: Colección Mega-Feraligatr ex de Megaevolución-Héroes Ascendentes (1 Carta holográfica de promoción, 1 Carta de Gran tamaño con Efecto 3D y 4 Sobres de Mejora)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null
   },
   "ES:B0GMR6QZV6": {
@@ -132,11 +133,13 @@
   },
   "ES:B0GMRC58KQ": {
     "name": "Pokémon: Lata Mega-Charizard de JCC Pokémon: Mega-Charizard X ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
-    "status": "invitacion"
+    "status": "invitacion",
+    "stock": null
   },
   "ES:B0GMR6ZK3R": {
     "name": "Pokémon: Lata Mega-Charizard de JCC Pokémon: Mega-Charizard Y ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
-    "status": "invitacion"
+    "status": "invitacion",
+    "stock": null
   },
   "ES:B0G4NS7XT2": {
     "name": "Pokémon: Colección con Pegatinas Especiales de Megaevolución-Héroes Ascendentes: Charmander (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
@@ -501,5 +504,80 @@
     "name": "Official Pokemon TCG Card Sleeves - Destined Rivals ETB (Mewtwo) 65 Count - Card Protectors - Tournament Legal",
     "status": "compra_directa",
     "stock": "4"
+  },
+  "ES:B0G4NQK15P": {
+    "name": "Pokémon: Minilata Megaevolución-Héroes Ascendentes: Clefairy y Chikorita (1 Pegatina, 1 Tarjeta Pokémon ilustrada y 2 Sobres de Mejora)",
+    "status": "invitacion",
+    "stock": null
+  },
+  "ES:B0G4NS6SJY": {
+    "name": "Pokémon: Minilata Megaevolución-Héroes Ascendentes: Togepi y Totodile (1 Pegatina, 1 Tarjeta Pokémon ilustrada y 2 Sobres de Mejora)",
+    "status": "invitacion",
+    "stock": null
+  },
+  "ES:B0GGHXWSDC": {
+    "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Equilibrio JCC Pokémon (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
+    "status": "invitacion",
+    "stock": null
+  },
+  "ES:B0GGJ2YJQ5": {
+    "name": "Pokémon: Expositor de Sobres de Mejora de Megaevolución-Equilibrio JCC Pokémon (18 Sobres de Mejora)",
+    "status": "invitacion",
+    "stock": null
+  },
+  "ES:B0GGJ74MWD": {
+    "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Equilibrio JCC Pokémon (6 Sobres de Mejora)",
+    "status": "invitacion",
+    "stock": null
+  },
+  "ES:B0GGHZTKP4": {
+    "name": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Equilibrio JCC Pokémon (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0G3XHTC4T": {
+    "name": "Pokémon: Colección Día de Pokémon 2026 (1 Carta holográfica de promoción, 1 Moneda y 3 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0G5YX5XVQ": {
+    "name": "Pokémon: Baraja Combate de Liga de Mewtwo ex del Team Rocket (1 baraja de 60 Cartas Lista para Jugar)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ES:B0G3QSF626": {
+    "name": "Pokémon: Maletín de Coleccionistas de Mega-Gardevoir y Mega-Lucario de JCC Pokémon (3 Cartas holográficas, 6 Sobres de Mejora y Mucho más)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0FY3165VP": {
+    "name": "Pokémon: Colección ultraprémium Mega-Charizard X ex (2 Cartas holográficas de promoción, 18 Sobres de Mejora y Accesorios prémium)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0FTCXPDCH": {
+    "name": "Pokémon: Colección con Figura Mega-Lucario ex de JCC Pokémon (1 Carta holográfica de promoción grabada en Relieve, 1 Carta de promoción de Gran tamaño, 5 Sobres de Mejora y 1 Figura de Mega-Lucario)",
+    "status": "invitacion",
+    "stock": null
+  },
+  "ES:B0FZKWZ5YP": {
+    "name": "Pokémon: Colección prémium Mega-Venusaur ex (1 Carta holográfica de promoción, 1 Carta de promoción de Gran tamaño con Efecto 3D y 8 Sobres de Mejora)",
+    "status": "invitacion",
+    "stock": null
+  },
+  "ES:B0DT7D8W4N": {
+    "name": "Pokémon Colección Especial Charizard ex (1 Carta holográfica de promoción, 2 Cartas holográficas, 1 Carta lenticular de Gran tamaño con Efecto 3D y 5 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0DG2XTYDP": {
+    "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ES:B0FY2WF14K": {
+    "name": "Pokémon: Herramientas de Entrenador de JCC Pokémon (más de 50 valiosas Cartas, 4 Sobres de Mejora y Mucho más)",
+    "status": "no_disponible",
+    "stock": null
   }
 }
