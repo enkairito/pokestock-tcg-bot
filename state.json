@@ -30,7 +30,7 @@
   },
   "ES:B0H1HDKXGH": {
     "name": "Pokémon: Lata Megaluz Lunar: Mega-Clefable ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
-    "status": "invitacion",
+    "status": "compra_directa",
     "stock": null
   },
   "ES:B0H1HJGYVV": {
@@ -194,7 +194,7 @@
   },
   "ES:B0DT7D5K1X": {
     "name": "Pokémon Colección prémium Bellibolt ex de e-Nigma de JCC Pokémon (1 Carta holográfica con ilustración expandida, 6 Sobres de Mejora y Figuras acrílicas)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null
   },
   "ES:B0C4V8F77B": {
@@ -434,6 +434,51 @@
   },
   "US:B0G78HDPPR": {
     "name": "Pokémon TCG: Mega Evolución: Héroes Ascendidos Mega Meganio/Emboar/Feraligatr ex Box",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "UK:B0GYVHLP4L": {
+    "name": "Pokémon TCG: Mega Evolution—Pitch Black Elite Trainer Box (1 Full-Art Promo Card, 9 Booster Packs & Premium Accessories)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "UK:B0GYTRYV7P": {
+    "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle (6 Booster Packs)",
+    "status": "compra_directa",
+    "stock": "3"
+  },
+  "UK:B0GZL89K79": {
+    "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Display (18 Booster Packs)",
+    "status": "compra_directa",
+    "stock": "3"
+  },
+  "UK:B0GWKBRM8D": {
+    "name": "Pokémon TCG: Lumiose City Mini Tin: Emboar & Inkay (2 booster packs, 1 art card and 1 sticker sheet)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "UK:B0GWK2GJ8Y": {
+    "name": "Pokémon TCG: Lumiose City Mini Tin: Gallade & Goomy (2 booster packs, 1 art card and 1 sticker sheet)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "UK:B0GR6N18F6": {
+    "name": "Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box (1 Full-Art Promo Card, 9 Booster Packs & Premium Accessories)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "UK:B0GR6Q72ND": {
+    "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle (6 Booster Packs)",
+    "status": "compra_directa",
+    "stock": "4"
+  },
+  "UK:B0GSS7D8RN": {
+    "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Display (18 Booster Packs)",
+    "status": "compra_directa",
+    "stock": "1"
+  },
+  "UK:B0GG11K25W": {
+    "name": "Pokémon TCG: Mega Evolution—Perfect Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
     "stock": null
   }
