@@ -35,7 +35,7 @@
   },
   "ES:B0H1HJGYVV": {
     "name": "Pokémon: Colección Ilustración Primer Compañero de JCC Pokémon (Serie 2) (3 Cartas de promoción, 2 Sobres de Mejora y 1 Hoja con Pegatinas)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null
   },
   "ES:B0GWDS3WTY": {
@@ -164,7 +164,8 @@
   },
   "ES:B0C648988J": {
     "name": "Pokémon: Colección Cyclizar ex",
-    "status": "no_disponible"
+    "status": "no_disponible",
+    "stock": null
   },
   "ES:B0CT5T766W": {
     "name": "Pokémon: Cofre de Coleccionista - 2022",
@@ -603,6 +604,11 @@
   "US:B0C6D9LWCQ": {
     "name": "Pokemon Scarlet & Violet 3 Obsidian Flames Caja de Entrenador Élite",
     "status": "compra_directa",
+    "stock": null
+  },
+  "ES:B0DNN99WQV": {
+    "name": "Pokémon Lote de Paquetes de Mejora de Escarlata y Púrpura-Chispas Fulgurantes de JCC Pokémon (6 Paquetes de Mejora)",
+    "status": "no_disponible",
     "stock": null
   }
 }
