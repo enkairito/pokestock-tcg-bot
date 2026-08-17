@@ -522,7 +522,10 @@ async def main():
             and int(info["stock"]) < int(prev_stock)
         )
 
-        if status_changed or stock_decreased:
+        # Solo se envían alertas de Telegram para España. El resto de
+        # marketplaces (UK, US) se siguen detectando y guardando en el
+        # estado/snapshot para la web, pero no generan mensajes.
+        if (status_changed or stock_decreased) and info["marketplace_code"] == "ES":
             link = info["link"]
 
             if info["price"] and info["original_price"] and info["original_price"] != info["price"]:
