@@ -72,14 +72,14 @@ jobs:
             fi
           fi
 
-      - name: Upload debug artifacts
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: debug-store-page
-          path: debug/
-          retention-days: 3
-          if-no-files-found: ignore
+#      - name: Upload debug artifacts
+ #       if: always()
+        #uses: actions/upload-artifact@v4
+        #with:
+          #name: debug-store-page
+          #path: debug/
+          #retention-days: 3
+          #if-no-files-found: ignore
 
       - name: Commit updated state
         run: |
