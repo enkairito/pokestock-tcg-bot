@@ -41,7 +41,7 @@
   "ES:B0GWDS3WTY": {
     "name": "Pokémon: Colección prémium Mega-Zygarde ex (1 Carta de promoción, 1 Carta de Gran tamaño con Efecto 3D, 1 Pegatina Especial y 8 Sobres de Mejora)",
     "status": "compra_directa",
-    "stock": "5"
+    "stock": "4"
   },
   "ES:B0GVKFS7KT": {
     "name": "Pokémon: Baraja Combate de Liga de Mega-Lucario ex de JCC Pokémon (1 baraja de 60 Cartas Lista para Jugar con Mega-Lucario ex)",
@@ -623,6 +623,11 @@
   },
   "US:B0G2FVLXVL": {
     "name": "Pokémon TCG: Colección del Día de Pokémon 2026",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GV1JQFWC": {
+    "name": "Pokemon TCG: Mega Evolución-Pedido Perfecto Pokemon Center Elite Trainer Box | PO PKC ETB | Promo exclusivo de Tyrunt | 11 paquetes de refuerzo",
     "status": "compra_directa",
     "stock": null
   }
