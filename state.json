@@ -528,7 +528,7 @@
   },
   "ES:B0GGJ74MWD": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Equilibrio JCC Pokémon (6 Sobres de Mejora)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null
   },
   "ES:B0GGHZTKP4": {
@@ -634,6 +634,16 @@
   "US:B0D9PX5VDC": {
     "name": "Colección Pokémon TCG Charizard ex Super Premium",
     "status": "compra_directa",
+    "stock": null
+  },
+  "ES:B0G4NT35J8": {
+    "name": "Pokémon: Minilata Megaevolución-Héroes Ascendentes: Riolu y Darumaka (1 Pegatina, 1 Tarjeta Pokémon ilustrada y 2 Sobres de Mejora)",
+    "status": "invitacion",
+    "stock": null
+  },
+  "ES:B0FX19JX78": {
+    "name": "Pokémon: Colección con póster prémium Mega-Gardevoir de Megaevolución-Héroes Ascendentes (1 Carta holográfica de promoción, 1 póster Impreso por ambas Caras y 10 Sobres de Mejora)",
+    "status": "invitacion",
     "stock": null
   }
 }
