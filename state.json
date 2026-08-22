@@ -645,5 +645,10 @@
     "name": "Pokémon: Colección con póster prémium Mega-Gardevoir de Megaevolución-Héroes Ascendentes (1 Carta holográfica de promoción, 1 póster Impreso por ambas Caras y 10 Sobres de Mejora)",
     "status": "invitacion",
     "stock": null
+  },
+  "UK:B0G72SPRP6": {
+    "name": "Pokémon TCG: Mega Evolution—Ascended Heroes - Mega Meganium ex Box (1 Foil Promo Card, 1 Oversize Lenticular Card and 4 Booster Packs)",
+    "status": "compra_directa",
+    "stock": "1"
   }
 }
