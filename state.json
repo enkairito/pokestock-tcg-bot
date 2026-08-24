@@ -547,5 +547,20 @@
     "name": "Pokémon: Baraja Combate De Liga De Mew VMAX (1 baraja de 60 Cartas Completa, 6 2 Cartas holográficas)",
     "status": "compra_directa",
     "stock": null
+  },
+  "ES:B0H5KLFD8M": {
+    "name": "Pokémon: Colección Ilustración Primer Compañero Serie 3 (3 Cartas de promoción, 2 Sobres de Mejora y 1 Hoja con Pegatinas)",
+    "status": "invitacion",
+    "stock": null
+  },
+  "ES:B0GYSGQ9R8": {
+    "name": "Pokémon: Minilata Ciudad Luminalia: Gallade y Goomy de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
+    "status": "invitacion",
+    "stock": null
+  },
+  "ES:B0G7HYD9WC": {
+    "name": "Pokémon: Colección Mega-Feraligatr ex de Megaevolución-Héroes Ascendentes (1 Carta holográfica de promoción, 1 Carta de Gran tamaño con Efecto 3D y 4 Sobres de Mejora)",
+    "status": "invitacion",
+    "stock": null
   }
 }
