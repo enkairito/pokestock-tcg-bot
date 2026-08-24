@@ -129,6 +129,24 @@ texto literal `"null"` cuando el producto no tiene precio de referencia
   Telegram al grupo real) siempre se confirman con el usuario antes de
   ejecutarlas de verdad — se prueba primero con `DRY_RUN=1` o generando
   una imagen de ejemplo cuando aplica.
+- **Las cookies de Amazon caducan de forma silenciosa** (2026-08-24): las
+  de ES llevaban 18 días puestas (desde el 6 de agosto) y dejaron de
+  detectar bien el estado `invitacion` — no por expiración técnica de la
+  cookie (`session-token`/`at-acbes` seguían "vigentes" hasta 2027/2028),
+  sino porque Amazon dejó de mostrarle la personalización a esa sesión
+  (probablemente por falta de actividad "humana" real, al correr solo
+  desde IPs de datacenter de GitHub Actions). El fallo no genera ningún
+  error ni traza en los logs — simplemente empieza a devolver falsos
+  `no_disponible`. Se confirmó comparando la detección del bot (con las
+  cookies del secret) contra un scrape local con cookies recién
+  exportadas del navegador real del usuario, que sí detectaba bien. Sin
+  más datos históricos para fijar una cadencia exacta, se adopta como
+  norma provisional: **refrescar las cookies de las 3 tiendas cada 2-3
+  semanas** de forma proactiva (vía export manual de una extensión tipo
+  Cookie-Editor, en formato `chrome.cookies` — `normalize_cookies()` en
+  `check_stock.py` ya lo admite tal cual, sin conversión), en vez de
+  esperar a que se note el fallo. Revisar si conviene ajustar esta
+  cadencia según se acumulen más datos.
 
 ## Issues abiertas (revisar con `gh issue list`)
 
