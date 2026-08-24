@@ -429,11 +429,19 @@ async def check_single_product(page, asin, marketplace):
         name = (await title_el.inner_text()).strip() if title_el else asin
 
         buy_button = await page.query_selector("#add-to-cart-button, #buy-now-button")
-        invitation_button = await page.query_selector(marketplace["invitation_button_pattern"])
+
+        # Igual que discover_products: buscar el marcador de invitación en
+        # todo el texto de la buybox, no solo el botón "solicitar invitación"
+        # — esa fase concreta no tiene botón cuando ya se solicitó antes
+        # ("Invitación solicitada, ¡gracias!"), pero sigue siendo estado de
+        # invitación real.
+        buybox_el = await page.query_selector("#buybox, #desktop_buybox")
+        buybox_text = (await buybox_el.inner_text()) if buybox_el else ""
+        buybox_text_lower = buybox_text.lower()
 
         if buy_button:
             status = "compra_directa"
-        elif invitation_button:
+        elif marketplace["invitation_marker"] in buybox_text_lower:
             status = "invitacion"
         else:
             status = "no_disponible"
@@ -446,7 +454,7 @@ async def check_single_product(page, asin, marketplace):
 
         availability_el = await page.query_selector("#availability")
         availability_text = (await availability_el.inner_text()) if availability_el else ""
-        stock_match = marketplace["stock_count_re"].search(availability_text)
+        stock_match = marketplace["stock_count_re"].search(availability_text or buybox_text)
         stock = stock_match.group(1) if stock_match else None
 
         return {"name": name, "price": price, "original_price": None, "image": image, "stock": stock, "status": status}
