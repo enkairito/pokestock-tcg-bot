@@ -501,8 +501,13 @@ async def main():
             if marketplace.get("exclude_out_of_stock"):
                 out_of_stock = {a for a, i in marketplace_products.items() if i["status"] == "no_disponible"}
                 if out_of_stock:
-                    print(f"⏭️ [{marketplace['code']}] Omitiendo {len(out_of_stock)} productos agotados (no se añaden ni a la web ni al estado).")
+                    print(f"⏭️ [{marketplace['code']}] Omitiendo {len(out_of_stock)} productos agotados de la web (pero sí se actualiza su estado, para poder detectar el próximo restock).")
                     for asin in out_of_stock:
+                        state[f"{marketplace['code']}:{asin}"] = {
+                            "name": marketplace_products[asin]["name"],
+                            "status": "no_disponible",
+                            "stock": None,
+                        }
                         del marketplace_products[asin]
 
             excluded_by_name = {
@@ -543,6 +548,8 @@ async def main():
             and prev_stock is not None
             and int(info["stock"]) < int(prev_stock)
         )
+
+        send_failed = False
 
         # Solo se envían alertas de Telegram para España. El resto de
         # marketplaces (UK, US) se siguen detectando y guardando en el
@@ -594,8 +601,12 @@ async def main():
                     print(f"✅ Alerta enviada ({info['marketplace_code']}/{status}): {name}")
                 except Exception as e:
                     print(f"❌ Error enviando Telegram para {name}: {e!r}")
+                    send_failed = True
 
-        state[key] = {"name": name, "status": status, "stock": info.get("stock")}
+        if send_failed:
+            print(f"⚠️ No se actualiza el estado de '{name}' — se reintentará el aviso en la próxima ejecución.")
+        else:
+            state[key] = {"name": name, "status": status, "stock": info.get("stock")}
 
     save_state(state)
     save_products_snapshot(products)
