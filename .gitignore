@@ -1,2 +1,10 @@
-config.py
 __pycache__/
+*.pyc
+.env
+.venv/
+venv/
+debug/
+amazon_cookies.json
+amazon_cookies_uk.json
+amazon_cookies_us.json
+products_snapshot.json

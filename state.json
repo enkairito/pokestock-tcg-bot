@@ -1,0 +1,680 @@
+{
+  "ES:B0GZL7PBX1": {
+    "name": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Oscuridad Absoluta (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0GZL2WPMF": {
+    "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Oscuridad Absoluta (6 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0GZL8WKB6": {
+    "name": "Pokémon: Expositor de Sobres de Mejora de Megaevolución-Oscuridad Absoluta (18 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0GZKZ1FL9": {
+    "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Oscuridad Absoluta (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0H5KLFD8M": {
+    "name": "Pokémon: Colección Ilustración Primer Compañero Serie 3 (3 Cartas de promoción, 2 Sobres de Mejora y 1 Hoja con Pegatinas)",
+    "status": "invitacion"
+  },
+  "ES:B0H3LQY1Q7": {
+    "name": "Pokémon: Colección prémium Mega-Greninja ex (1 Carta holográfica de promoción, 1 Carta de promoción de Gran tamaño con Efecto 3D y 8 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0H1HDKXGH": {
+    "name": "Pokémon: Lata Megaluz Lunar: Mega-Clefable ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0H1HJGYVV": {
+    "name": "Pokémon: Colección Ilustración Primer Compañero de JCC Pokémon (Serie 2) (3 Cartas de promoción, 2 Sobres de Mejora y 1 Hoja con Pegatinas)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0GWDS3WTY": {
+    "name": "Pokémon: Colección prémium Mega-Zygarde ex (1 Carta de promoción, 1 Carta de Gran tamaño con Efecto 3D, 1 Pegatina Especial y 8 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0GVKFS7KT": {
+    "name": "Pokémon: Baraja Combate de Liga de Mega-Lucario ex de JCC Pokémon (1 baraja de 60 Cartas Lista para Jugar con Mega-Lucario ex)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ES:B0FXTY9D99": {
+    "name": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Caos Creciente (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0GSSQYPK3": {
+    "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0GSSJ9RB1": {
+    "name": "Pokémon: Expositor de Sobres de Mejora de Megaevolución-Caos Creciente (18 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0GSSR9ZNS": {
+    "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0GYSJDWDS": {
+    "name": "Pokémon: Minilata Ciudad Luminalia: Salamence y Litleo de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0GYSKSSTH": {
+    "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0GYSDGPBH": {
+    "name": "Pokémon: Minilata Ciudad Luminalia: Emboar e Inkay de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0GYSKFHBY": {
+    "name": "Pokémon: Minilata Ciudad Luminalia: Feraligatr y Budew de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0GYSGQ9R8": {
+    "name": "Pokémon: Minilata Ciudad Luminalia: Gallade y Goomy de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0G4NVYMTH": {
+    "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Héroes Ascendentes (6 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0G7JDFL9J": {
+    "name": "Pokémon: Colección Mega-Emboar ex de Megaevolución-Héroes Ascendentes (1 Carta holográfica de promoción, 1 Carta de Gran tamaño con Efecto 3D y 4 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0FPMXHZLT": {
+    "name": "Pokémon: Colección Especial Snorlax ex y Blissey ex de JCC Pokémon (2 Cartas holográficas de promoción, 1 Carta holográfica de Gran tamaño y 8 Sobres de Mejora)",
+    "status": "invitacion",
+    "stock": null
+  },
+  "ES:B0GGHP4ZQN": {
+    "name": "Pokémon: Lote de latas Poké Ball de JCC Pokémon: Poké, Super y Ultra (9 Sobres de Mejora de JCC Pokémon y 6 Hojas con Pegatinas)",
+    "status": "no_disponible"
+  },
+  "ES:B0GGJ1QQNZ": {
+    "name": "Pokémon: Lote de latas Poké Ball de JCC Pokémon: Poké, Honor y Acopio (9 Sobres de Mejora de JCC Pokémon y 6 Hojas con Pegatinas)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0H9SQ7SQH": {
+    "name": "Pokémon: Blíster de 2 Sobres de Mejora de JCC Pokémon (2 Sobres de Mejora y 1 Carta holográfica de promoción)",
+    "status": "no_disponible"
+  },
+  "ES:B0G7HYD9WC": {
+    "name": "Pokémon: Colección Mega-Feraligatr ex de Megaevolución-Héroes Ascendentes (1 Carta holográfica de promoción, 1 Carta de Gran tamaño con Efecto 3D y 4 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0GMR6QZV6": {
+    "name": "Pokémon: Colección Ilustración Primer Compañero de JCC Pokémon (Serie 1) (3 Cartas de promoción, 2 Sobres de Mejora y 1 Hoja con Pegatinas)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0GMRC58KQ": {
+    "name": "Pokémon: Lata Mega-Charizard de JCC Pokémon: Mega-Charizard X ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
+    "status": "invitacion",
+    "stock": null
+  },
+  "ES:B0GMR6ZK3R": {
+    "name": "Pokémon: Lata Mega-Charizard de JCC Pokémon: Mega-Charizard Y ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
+    "status": "invitacion",
+    "stock": null
+  },
+  "ES:B0G4NS7XT2": {
+    "name": "Pokémon: Colección con Pegatinas Especiales de Megaevolución-Héroes Ascendentes: Charmander (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
+    "status": "no_disponible"
+  },
+  "ES:B0G4NSB2J1": {
+    "name": "Pokémon: Colección con Pegatinas Especiales de Megaevolución-Héroes Ascendentes: Gastly (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
+    "status": "invitacion"
+  },
+  "ES:B0BMGR3QZW": {
+    "name": "Pokémon: Baraja Combate De Liga De Mew VMAX (1 baraja de 60 Cartas Completa, 6 2 Cartas holográficas)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0G7JFFSF4": {
+    "name": "Pokémon: Colección Erika de Megaevolución-Héroes Ascendentes (1 Carta holográfica de promoción, 1 Moneda y 2 Sobres de Mejora)",
+    "status": "no_disponible"
+  },
+  "ES:B0G7JRZNBY": {
+    "name": "Pokémon: Colección Laureano de Megaevolución-Héroes Ascendentes (1 Carta holográfica de promoción, 1 Moneda y 2 Sobres de Mejora)",
+    "status": "no_disponible"
+  },
+  "ES:B0C648988J": {
+    "name": "Pokémon: Colección Cyclizar ex",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ES:B0CT5T766W": {
+    "name": "Pokémon: Cofre de Coleccionista - 2022",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0CJYK29Y9": {
+    "name": "Pokémon: Baraja Combate de Liga de Miraidon ex",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ES:B0C643MGKG": {
+    "name": "Pokémon: Palkia Forma Origen de la Liga VSTAR",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0C64LR9BS": {
+    "name": "Pokémon: Estadio Combina y Combate de Escarlata y Púrpura-Evoluciones en Paldea (2 Barajas, 11 Paquetes de Mejora y más)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ES:B0D6WJH3SN": {
+    "name": "Pokémon Academia de Combate del Juego de Cartas Coleccionables Pokémon de JCC Pokémon 2024 (Pikachu, Armarouge y Darkrai)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ES:B0C64J197W": {
+    "name": "Pokémon: Herramientas de Entrenador de 2023 (más de 150 valiosas Cartas, 4 Paquetes de Mejora y más)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ES:B0DT7D5K1X": {
+    "name": "Pokémon Colección prémium Bellibolt ex de e-Nigma de JCC Pokémon (1 Carta holográfica con ilustración expandida, 6 Sobres de Mejora y Figuras acrílicas)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ES:B0C4V8F77B": {
+    "name": "Pokémon: Estadio Combina y Combate de Escarlata y Púrpura (2 Barajas, 11 Paquetes de Mejora y más)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "UK:B0GRCDKMSW": {
+    "name": "Pokémon TCG: Mega Lucario ex League Battle Deck (1 Ready-to-Play 60-Card Deck Including Mega Lucario ex)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GR6Q72ND": {
+    "name": "Pokémon TCG: Mega Evolución — Paquete de refuerzo del aumento del caos",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GYVHLP4L": {
+    "name": "Pokémon TCG: Mega Evolution—Caja de entrenador Elite Pitch Black",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GYTRYV7P": {
+    "name": "Pokémon TCG: Mega Evolution—Paquete de refuerzo de tono negro",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0G3CV6Z9D": {
+    "name": "Pokémon TCG: Mega Evolución: Paquete de refuerzo de héroes ascendidos",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GW2DK37Q": {
+    "name": "Pokémon TCG: Colección de Ilustraciones de Primera Partner —Serie 2",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GG11K25W": {
+    "name": "Pokémon TCG: Mega Evolution—Perfect Order Booster Bundle",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0DYR8D7YC": {
+    "name": "Pokémon TCG: Colección Súper Premium de Evoluciones Prismáticas Escarlata y Violeta",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GV6WRPRV": {
+    "name": "Pokémon TCG: Lata Mega Moonlit",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GXJ8CSTY": {
+    "name": "Pokémon TCG: Mega Greninja ex Colección Premium",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GG16Q4X1": {
+    "name": "Pokémon TCG: Mega Evolution: caja de presentación de refuerzo de pedido perfecto",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0DN98RVZM": {
+    "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GFZV1ZVV": {
+    "name": "Pokémon TCG: Caja de Entrenador Élite de Mega Evolución—Orden Perfecta",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B09YS3LL3N": {
+    "name": "Pokémon TCG: 3 paquetes de refuerzo y 1 lámina aleatoria | Incluye 3 paquetes blíster de cartas aleatorias y 1 tarjeta promocional holofoil empaquetada individualmente, 097712556710",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0BKGX74WP": {
+    "name": "Juego de cartas coleccionables Pokemon sellado aleatorio, 3 paquetes de refuerzo 100% auténticos",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0FQP3YQ47": {
+    "name": "Pokémon TCG: Latas de Bola de Poké Q4",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0DDYZX1TB": {
+    "name": "Pokémon TCG: Escarlata y Violeta - Paquete de refuerzo de Surging Sparks",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B001DIJ48C": {
+    "name": "Pokémon TCG 3 paquetes de refuerzo, 30 cartas en total, 100% auténticas, raras aleatorias y holofoils, 3 paquetes de ampollas",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0FLCWJ1VK": {
+    "name": "Juego de cartas Pokemon MEGA High Class Pack Mega Dream ex Box",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0C6B6V2VK": {
+    "name": "Pokémon TCG: Paquete Potenciador Sellado de Fábrica Auténtico (¡Incluye Paquete de Tarjetas Misterio - V/VMAX 1 en 3 - ¡Soporte de Tarjeta Protector Gratis como Bonificación!)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0F2GZJ3TZ": {
+    "name": "Pokemon TCG: Scarlet & Violet - Destined Rivals Caja Expositora de Sobres - 36 Paquetes",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0829FT44S": {
+    "name": "Colección de más de 50 cartas oficiales de Pokémon con 5 holográficas en cualquier combinación y al menos 1 carta rara, GX, EX, FA, Tag Team o Secret Rare",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GNCGT9KK": {
+    "name": "Pokemon TCG: Mega Zygarde ex colección Premium con 8 paquetes de refuerzo | 8 paquetes de refuerzo",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0DLPL7LC5": {
+    "name": "Pokemon TCG: Caja de entrenador élite de evoluciones prismáticas escarlata y violeta",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0F2BDXW4J": {
+    "name": "Pokemon TCG: Scarlet & Violet - Caja de Entrenador Élite Destined Rivals - 9 Paquetes, Accesorios, Promo",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0H2N248WM": {
+    "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promo exclusivo de Fennekin | 11 paquetes de refuerzo",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0FH6KRSX8": {
+    "name": "Pokemon TCG Mega Evolutions 1 Caja de Entrenador Élite",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0DSLY7DZZ": {
+    "name": "Pokemon TCG: Caja de entrenador de élite Viaje Juntos Escarlata y Violeta",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0CGCVT5RR": {
+    "name": "Pokémon TCG: Caja de entrenador élite de escarlata y violeta Paradox Rift",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0BCN6HZR3": {
+    "name": "Pokémon TCG: Caja de entrenador de élite Espada y Escudo Tempestad Plateada",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0DFBGYFD3": {
+    "name": "Pokémon TCG: Escarlata y Violeta - Caja de Exhibición de Booster Surging Sparks",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B09CLGX546": {
+    "name": "Juego de cartas coleccionables de Pokémon: SAS8- Caja para entrenador élite Golpe Fusión",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0BSNXK3H7": {
+    "name": "Pokémon TCG: Estuche de Entrenador Élite Scarlet & Violet (Miraidon Púrpura o Koraidon Rojo, Color Aleatorio)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B09PQBM615": {
+    "name": "Una tarjeta de Pokémon encapsulada y autenticada con calificación PSA al azar (perfecta para exhibición)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0CNFSY3Y3": {
+    "name": "POKEMON TCG: ESCARLATA Y VIOLETA: DESTINOS PALDEOS: CAJA DE ENTRENADOR DE ÉLITE",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B08DN23BSM": {
+    "name": "Pokemon TCG: Caja Entrenador Élite Camino de Campeones, multicolor",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GWKCLH6G": {
+    "name": "Pokémon TCG: Mega Moonlit Tin Mega Clefable",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0DLQJ613B": {
+    "name": "Pokémon TCG: Scarlet & Violet—Colección de Pósters de Prismatic Evolutions",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0F2BCG1Y5": {
+    "name": "Pokémon TCG: Scarlet & Violet - Paquete de refuerzo Destined Rivals - 6 paquetes",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0G3CY83L5": {
+    "name": "Pokémon TCG: Caja de entrenamiento de élite de héroes ascendidos de Mega Evolution",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GR6N18F6": {
+    "name": "Pokémon TCG: Caja de entrenamiento de élite Mega Evolution—Chaos Rising",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GRCDKMSW": {
+    "name": "Pokémon TCG: MegaLucario ex League Battle Deck",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "UK:B0G72PSB7D": {
+    "name": "Pokémon TCG, Mega Evolution, Ascended Heroes Feraligatr ex Box, 1 Foil Promo Card, 1 Oversize Lenticular Card and 4 Booster Packs",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "UK:B0G72QBTBJ": {
+    "name": "Pokémon TCG, Mega Evolution, Ascended Heroes Emboar ex Box, 1 Foil Promo Card, 1 Oversize Lenticular Card and 4 Booster Packs",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0H2JVZYZZ": {
+    "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GGCCLCJM": {
+    "name": "Pokemon TCG: Mega Evolutions - Blister de 3 Paquetes Orden Perfecta (Chikorita)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0G78HDPPR": {
+    "name": "Pokémon TCG: Mega Evolución: Héroes Ascendidos Mega Meganio/Emboar/Feraligatr ex Box",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "UK:B0GYVHLP4L": {
+    "name": "Pokémon TCG: Mega Evolution—Pitch Black Elite Trainer Box (1 Full-Art Promo Card, 9 Booster Packs & Premium Accessories)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "UK:B0GYTRYV7P": {
+    "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle (6 Booster Packs)",
+    "status": "compra_directa",
+    "stock": "3"
+  },
+  "UK:B0GZL89K79": {
+    "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Display (18 Booster Packs)",
+    "status": "compra_directa",
+    "stock": "3"
+  },
+  "UK:B0GWKBRM8D": {
+    "name": "Pokémon TCG: Lumiose City Mini Tin: Emboar & Inkay (2 booster packs, 1 art card and 1 sticker sheet)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "UK:B0GWK2GJ8Y": {
+    "name": "Pokémon TCG: Lumiose City Mini Tin: Gallade & Goomy (2 booster packs, 1 art card and 1 sticker sheet)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "UK:B0GR6N18F6": {
+    "name": "Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box (1 Full-Art Promo Card, 9 Booster Packs & Premium Accessories)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "UK:B0GR6Q72ND": {
+    "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle (6 Booster Packs)",
+    "status": "compra_directa",
+    "stock": "4"
+  },
+  "UK:B0GSS7D8RN": {
+    "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Display (18 Booster Packs)",
+    "status": "compra_directa",
+    "stock": "1"
+  },
+  "UK:B0GG11K25W": {
+    "name": "Pokémon TCG: Mega Evolution—Perfect Order Booster Bundle (6 Booster Packs)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GC7KFMF8": {
+    "name": "Offical Pokemon TCG Sleeves - 1x Random Pack of 65 Count Sleeves (ETB, Trainer Toolkit, Collection Box, etc.) Styles May Vary!",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GC7J2NG2": {
+    "name": "Official Pokemon TCG Sleeves - Black Bolt & White Flare ETB Exclusive! (Reshiram/Zekrom Design) [Styles May Vary!] 65 Count - Card Protectors - Tournament Legal",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GC7JN4H3": {
+    "name": "Official Pokemon TCG Sleeves - Phantasmal Flames ETB Exclusive! (Charizard Design) 65 Count - Card Protectors - Tournament Legal",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GC7MXCNJ": {
+    "name": "Official Pokemon TCG Card Sleeves - Destined Rivals ETB (Mewtwo) 65 Count - Card Protectors - Tournament Legal",
+    "status": "compra_directa",
+    "stock": "4"
+  },
+  "ES:B0G4NQK15P": {
+    "name": "Pokémon: Minilata Megaevolución-Héroes Ascendentes: Clefairy y Chikorita (1 Pegatina, 1 Tarjeta Pokémon ilustrada y 2 Sobres de Mejora)",
+    "status": "invitacion",
+    "stock": null
+  },
+  "ES:B0G4NS6SJY": {
+    "name": "Pokémon: Minilata Megaevolución-Héroes Ascendentes: Togepi y Totodile (1 Pegatina, 1 Tarjeta Pokémon ilustrada y 2 Sobres de Mejora)",
+    "status": "invitacion",
+    "stock": null
+  },
+  "ES:B0GGHXWSDC": {
+    "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Equilibrio JCC Pokémon (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
+    "status": "invitacion",
+    "stock": null
+  },
+  "ES:B0GGJ2YJQ5": {
+    "name": "Pokémon: Expositor de Sobres de Mejora de Megaevolución-Equilibrio JCC Pokémon (18 Sobres de Mejora)",
+    "status": "invitacion",
+    "stock": null
+  },
+  "ES:B0GGJ74MWD": {
+    "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Equilibrio JCC Pokémon (6 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0GGHZTKP4": {
+    "name": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Equilibrio JCC Pokémon (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0G3XHTC4T": {
+    "name": "Pokémon: Colección Día de Pokémon 2026 (1 Carta holográfica de promoción, 1 Moneda y 3 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0G5YX5XVQ": {
+    "name": "Pokémon: Baraja Combate de Liga de Mewtwo ex del Team Rocket (1 baraja de 60 Cartas Lista para Jugar)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ES:B0G3QSF626": {
+    "name": "Pokémon: Maletín de Coleccionistas de Mega-Gardevoir y Mega-Lucario de JCC Pokémon (3 Cartas holográficas, 6 Sobres de Mejora y Mucho más)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0FY3165VP": {
+    "name": "Pokémon: Colección ultraprémium Mega-Charizard X ex (2 Cartas holográficas de promoción, 18 Sobres de Mejora y Accesorios prémium)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0FTCXPDCH": {
+    "name": "Pokémon: Colección con Figura Mega-Lucario ex de JCC Pokémon (1 Carta holográfica de promoción grabada en Relieve, 1 Carta de promoción de Gran tamaño, 5 Sobres de Mejora y 1 Figura de Mega-Lucario)",
+    "status": "invitacion",
+    "stock": null
+  },
+  "ES:B0FZKWZ5YP": {
+    "name": "Pokémon: Colección prémium Mega-Venusaur ex (1 Carta holográfica de promoción, 1 Carta de promoción de Gran tamaño con Efecto 3D y 8 Sobres de Mejora)",
+    "status": "invitacion",
+    "stock": null
+  },
+  "ES:B0DT7D8W4N": {
+    "name": "Pokémon Colección Especial Charizard ex (1 Carta holográfica de promoción, 2 Cartas holográficas, 1 Carta lenticular de Gran tamaño con Efecto 3D y 5 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0DG2XTYDP": {
+    "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "ES:B0FY2WF14K": {
+    "name": "Pokémon: Herramientas de Entrenador de JCC Pokémon (más de 50 valiosas Cartas, 4 Sobres de Mejora y Mucho más)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "US:B0H9D7RQTC": {
+    "name": "Pokemon TCG: Mega Evolution Pitch Black Pokemon Center Elite Trainer Box | PB PKC ETB | Promo exclusivo de Zarude | 11 paquetes de refuerzo",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GSJMQ3QQ": {
+    "name": "Pokémon TCG: Mega Evolución — Pantalla de refuerzo de aumento del caos",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ES:B0DSGB5Q6B": {
+    "name": "Pokémon Colección Ursaluna Luna Carmesí (4 Cartas holográficas y 4 Paquetes de Mejora)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "US:B0F5YRVNZX": {
+    "name": "Lote de 3 paquetes de refuerzo japoneses de Pokémon aleatorios",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0C6D9LWCQ": {
+    "name": "Pokemon Scarlet & Violet 3 Obsidian Flames Caja de Entrenador Élite",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ES:B0DNN99WQV": {
+    "name": "Pokémon Lote de Paquetes de Mejora de Escarlata y Púrpura-Chispas Fulgurantes de JCC Pokémon (6 Paquetes de Mejora)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "US:B0GP8HSDCJ": {
+    "name": "Pokemon TCG: Mega Evolution Ascended Heroes Pokemon Center Elite Trainer Box | AH PKC ETB | Promo exclusivo de N's Zekrom | 11 paquetes de refuerzo",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GZ9S9KDR": {
+    "name": "Pokémon TCG: Mega Evolution—Caja de presentación de refuerzo negro de tono",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0G2FVLXVL": {
+    "name": "Pokémon TCG: Colección del Día de Pokémon 2026",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GV1JQFWC": {
+    "name": "Pokemon TCG: Mega Evolución-Pedido Perfecto Pokemon Center Elite Trainer Box | PO PKC ETB | Promo exclusivo de Tyrunt | 11 paquetes de refuerzo",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0D9PX5VDC": {
+    "name": "Colección Pokémon TCG Charizard ex Super Premium",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ES:B0G4NT35J8": {
+    "name": "Pokémon: Minilata Megaevolución-Héroes Ascendentes: Riolu y Darumaka (1 Pegatina, 1 Tarjeta Pokémon ilustrada y 2 Sobres de Mejora)",
+    "status": "invitacion",
+    "stock": null
+  },
+  "ES:B0FX19JX78": {
+    "name": "Pokémon: Colección con póster prémium Mega-Gardevoir de Megaevolución-Héroes Ascendentes (1 Carta holográfica de promoción, 1 póster Impreso por ambas Caras y 10 Sobres de Mejora)",
+    "status": "invitacion",
+    "stock": null
+  },
+  "UK:B0G72SPRP6": {
+    "name": "Pokémon TCG: Mega Evolution—Ascended Heroes - Mega Meganium ex Box (1 Foil Promo Card, 1 Oversize Lenticular Card and 4 Booster Packs)",
+    "status": "compra_directa",
+    "stock": "1"
+  },
+  "US:B0CDXKC4WS": {
+    "name": "Pokémon - Charmander SVP044 - Obsidian Flames ETB Black Star Promo - Arte completo",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B07GQB37YY": {
+    "name": "Pokemon Elite Trainer Box Sun & Moon (Lunala)",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0GYTWKXTR": {
+    "name": "Pokemon TCG: Mega Evolution - Paquete de 3 Booster Blister negro",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0CXY99B6D": {
+    "name": "Pokémon TCG: Scarlet & Violet—Máscara de la Oscuridad Élite Caja de Entrenador",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "US:B0F2ZMNCPM": {
+    "name": "Pokemon Viaje juntos - Juego de dados y contador de daños - Exclusivo de ETB",
+    "status": "compra_directa",
+    "stock": null
+  }
+}

@@ -1,16 +1,22 @@
-name: Check Amazon Stock
+name: Check Pokémon TCG Stock
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
-  workflow_dispatch:
+    # Every 30 min, all day (no overnight pause).
+    - cron: '0 * * * *'
+  workflow_dispatch: {}
 
 permissions:
   contents: write
 
+concurrency:
+  group: check-stock
+  cancel-in-progress: false
+
 jobs:
   check-stock:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -18,21 +24,71 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          patchright install --with-deps chromium
+
+      - name: Restore Amazon cookies
+        env:
+          AMAZON_COOKIES_JSON: ${{ secrets.AMAZON_COOKIES_JSON }}
+          AMAZON_UK_COOKIES_JSON: ${{ secrets.AMAZON_UK_COOKIES_JSON }}
+          AMAZON_US_COOKIES_JSON: ${{ secrets.AMAZON_US_COOKIES_JSON }}
+        run: |
+          if [ -n "$AMAZON_COOKIES_JSON" ]; then
+            echo "$AMAZON_COOKIES_JSON" > amazon_cookies.json
+          fi
+          if [ -n "$AMAZON_UK_COOKIES_JSON" ]; then
+            echo "$AMAZON_UK_COOKIES_JSON" > amazon_cookies_uk.json
+          fi
+          if [ -n "$AMAZON_US_COOKIES_JSON" ]; then
+            echo "$AMAZON_US_COOKIES_JSON" > amazon_cookies_us.json
+          fi
 
       - name: Run stock check
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python check_stock.py
+        run: xvfb-run -a python check_stock.py
+
+      - name: Publish products snapshot to Where's That Stock
+        env:
+          WHERESTHATSTOCK_TOKEN: ${{ secrets.WHERESTHATSTOCK_TOKEN }}
+        run: |
+          if [ -f products_snapshot.json ]; then
+            git clone https://x-access-token:${WHERESTHATSTOCK_TOKEN}@github.com/enkairito/wheresthatstock.git /tmp/wheresthatstock
+            cp products_snapshot.json /tmp/wheresthatstock/products.json
+            cd /tmp/wheresthatstock
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add products.json
+            if git diff --cached --quiet; then
+              echo "No changes to publish"
+            else
+              git commit -m "chore: update products snapshot"
+              git push
+            fi
+          fi
+
+#      - name: Upload debug artifacts
+ #       if: always()
+        #uses: actions/upload-artifact@v4
+        #with:
+          #name: debug-store-page
+          #path: debug/
+          #retention-days: 3
+          #if-no-files-found: ignore
 
       - name: Commit updated state
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add state.json
-          git diff --staged --quiet || git commit -m "Update stock state"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update stock state"
+            git push
+          fi
