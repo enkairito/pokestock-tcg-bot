@@ -124,12 +124,6 @@ ASIN_HREF_RE = re.compile(r"/dp/([A-Z0-9]{10})")
 
 EXCLUDED_NAME_KEYWORDS = ["funda"]
 
-# ASINs concretos excluidos a petición explícita del usuario (no son
-# accesorios genéricos, son productos puntuales que no quiere trackear).
-EXCLUDED_ASINS = {
-    "B0H5KLFD8M",  # Colección Ilustración Primer Compañero Serie 3 (ES)
-}
-
 
 def is_excluded_by_name(name):
     """Filtra accesorios (ej. fundas de cartas) que aparecen en los
@@ -508,12 +502,6 @@ async def main():
             if excluded_by_name:
                 print(f"⏭️ [{marketplace['code']}] Omitiendo {len(excluded_by_name)} productos no relevantes por nombre (fundas/accesorios).")
                 for asin in excluded_by_name:
-                    del marketplace_products[asin]
-
-            excluded_by_asin = set(marketplace_products.keys()) & EXCLUDED_ASINS
-            if excluded_by_asin:
-                print(f"⏭️ [{marketplace['code']}] Omitiendo {len(excluded_by_asin)} productos excluidos manualmente por ASIN.")
-                for asin in excluded_by_asin:
                     del marketplace_products[asin]
 
             for asin, info in marketplace_products.items():
