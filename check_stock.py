@@ -30,6 +30,7 @@ MARKETPLACES = [
         "pages": [
             ("Todos los productos", "https://www.amazon.es/stores/page/4CC86B6A-CAD9-4B47-A949-86C99C87A382"),
             ("Disponible de nuevo", "https://www.amazon.es/stores/page/41180886-559D-47A1-9CEB-5BF332812A91"),
+            ("Novedades", "https://www.amazon.es/stores/page/70E78EA6-79CB-4678-9249-717F2A13EB77"),
         ],
         "allow_individual_fallback": True,
         # Solicitado explícitamente: no interesa mantener productos agotados
