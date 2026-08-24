@@ -692,5 +692,60 @@
     "name": "Pokémon | Colección Celebraciones Dragapult Prime | Juego de cartas | A partir de 6 años | 2 jugadores | Más de 10 minutos de tiempo de juego",
     "status": "no_disponible",
     "stock": null
+  },
+  "ECI:A201235759": {
+    "name": "Lata Pokémon Jcc Bandai Modelos Surtidos",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ECI:A201235763": {
+    "name": "Sobre de mejora Megaevolucion Oscuridad Absoluta Pokémon JCC Bandai Modelos surtidos",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ECI:A201235760": {
+    "name": "Caja de entrenador Elite Oscuridad Absoluta Pokemon JCC Bandai",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ECI:A200971037": {
+    "name": "Caja Pokémon Mega-Greninja ex . JCC Pokémon Bandai",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ECI:A201235761": {
+    "name": "Pack de tres sobres Megaevolucion Oscuridad Absoluta Pokémon JCC Bandai",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ECI:A200971013": {
+    "name": "Sobre cartas Pokémon Expansion Juntos de Aventuras Pokémon Bandai Modelos surtidos",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ECI:A200804711": {
+    "name": "LATA MEGA EX JCC Pokémon Bandai Modelos surtidos",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ECI:A200278977": {
+    "name": "Juego de cartas Caja de Entrenador Élite Pokémon",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ECI:A200066781": {
+    "name": "Baraja Combate de Liga Pokémon Bandai",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ECI:A200805922": {
+    "name": "Caja Colección Premium Mega-Zygarde EX JCC Pokémon Bandai",
+    "status": "compra_directa",
+    "stock": null
+  },
+  "ECI:A200971009": {
+    "name": "Sobres Cartas Pokémon. Expansión Evoluciones En Paldea Pokémon Bandai modelos surtidos",
+    "status": "compra_directa",
+    "stock": null
   }
 }
