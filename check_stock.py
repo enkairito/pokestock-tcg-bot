@@ -20,10 +20,7 @@ MARKETPLACES = [
         "store_label": "Amazon ES",
         "tag": "enkairito-21",
         "cookies_file": Path(__file__).parent / "amazon_cookies.json",
-        "locale": "es-ES",
-        "accept_language": "es-ES,es;q=0.9",
         "invitation_marker": "invitaci",
-        "invitation_button_pattern": "text=/solicitar invitaci[oó]n/i",
         "interstitial_marker": "haz clic en el botón de abajo",
         "continue_button_pattern": "text=/seguir comprando/i",
         "stock_count_re": re.compile(r"queda\(?n?\)?\s+(\d+)\s+en stock", re.IGNORECASE),
@@ -44,13 +41,10 @@ MARKETPLACES = [
         "store_label": "Amazon UK",
         "tag": "wtsuk-21",
         "cookies_file": Path(__file__).parent / "amazon_cookies_uk.json",
-        "locale": "en-GB",
-        "accept_language": "en-GB,en;q=0.9",
         # NOTA: patrones en inglés sin verificar contra una página real de
         # invitación/bajo stock de Amazon.co.uk todavía — revisar con datos
         # reales la primera vez que aparezca un producto en ese estado.
         "invitation_marker": "invit",
-        "invitation_button_pattern": "text=/request.*invit/i",
         "interstitial_marker": "click the button below",
         "continue_button_pattern": "text=/continue shopping/i",
         "stock_count_re": re.compile(r"only\s+(\d+)\s+left in stock", re.IGNORECASE),
@@ -73,13 +67,10 @@ MARKETPLACES = [
         "store_label": "Amazon USA",
         "tag": "wtsus-20",
         "cookies_file": Path(__file__).parent / "amazon_cookies_us.json",
-        "locale": "en-US",
-        "accept_language": "en-US,en;q=0.9",
         # NOTA: patrones en inglés sin verificar contra una página real de
         # invitación/bajo stock de Amazon.com todavía — revisar con datos
         # reales la primera vez que aparezca un producto en ese estado.
         "invitation_marker": "invit",
-        "invitation_button_pattern": "text=/request.*invit/i",
         "interstitial_marker": "click the button below",
         "continue_button_pattern": "text=/continue shopping/i",
         "stock_count_re": re.compile(r"only\s+(\d+)\s+left in stock", re.IGNORECASE),
@@ -93,6 +84,11 @@ MARKETPLACES = [
         "exclude_out_of_stock": True,
     },
 ]
+
+STATUS_COPY = {
+    "compra_directa": ("🟢 <b>¡Disponible de nuevo! #CompraDirecta</b>", "Cómpralo ya"),
+    "invitacion": ("🎟️ <b>¡Disponible por invitación! #Invitación</b>", "Solicitar invitación"),
+}
 
 WEBSITE_URL = "https://enkairito.github.io/wheresthatstock/"
 STATE_FILE = Path(__file__).parent / "state.json"
@@ -123,14 +119,28 @@ ASIN_VALID_RE = re.compile(r"^[A-Z0-9]{10}$")
 ASIN_HREF_RE = re.compile(r"/dp/([A-Z0-9]{10})")
 
 
-EXCLUDED_NAME_KEYWORDS = ["funda"]
+EXCLUDED_NAME_KEYWORDS = ["funda", "sleeve", "sleeves"]
 
 
 def is_excluded_by_name(name):
     """Filtra accesorios (ej. fundas de cartas) que aparecen en los
-    resultados de búsqueda de la tienda pero no son el producto en sí."""
+    resultados de búsqueda de la tienda pero no son el producto en sí.
+    Cubre ES ("funda") e inglés ("sleeve"/"sleeves") ya que el filtro se
+    aplica por igual a ES/UK/US."""
     name_lower = (name or "").lower()
     return any(keyword in name_lower for keyword in EXCLUDED_NAME_KEYWORDS)
+
+
+def determine_status(has_buy_signal, text_lower, marketplace):
+    """Regla de estado compartida entre discover_products (tarjetas de
+    tienda) y check_single_product (ficha individual): botón de compra
+    encontrado -> compra_directa; si no, marcador de invitación presente
+    en el texto -> invitacion; si no, no_disponible."""
+    if has_buy_signal:
+        return "compra_directa"
+    if marketplace["invitation_marker"] in text_lower:
+        return "invitacion"
+    return "no_disponible"
 
 
 def clean_price(value):
@@ -194,49 +204,46 @@ def save_products_snapshot(products):
     SNAPSHOT_FILE.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def _telegram_post(method, data, files=None):
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/{method}"
+    resp = requests.post(url, data=data, files=files, timeout=15)
+    resp.raise_for_status()
+
+
 def send_telegram_message(text):
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-    resp = requests.post(
-        url,
-        data={
+    _telegram_post(
+        "sendMessage",
+        {
             "chat_id": TELEGRAM_CHAT_ID,
             "text": text,
             "parse_mode": "HTML",
             "disable_web_page_preview": "false",
         },
-        timeout=15,
     )
-    resp.raise_for_status()
 
 
 def send_telegram_photo(photo_url, caption):
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
-    resp = requests.post(
-        url,
-        data={
+    _telegram_post(
+        "sendPhoto",
+        {
             "chat_id": TELEGRAM_CHAT_ID,
             "photo": photo_url,
             "caption": caption,
             "parse_mode": "HTML",
         },
-        timeout=15,
     )
-    resp.raise_for_status()
 
 
 def send_telegram_photo_bytes(image_bytes, caption):
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendPhoto"
-    resp = requests.post(
-        url,
-        data={
+    _telegram_post(
+        "sendPhoto",
+        {
             "chat_id": TELEGRAM_CHAT_ID,
             "caption": caption,
             "parse_mode": "HTML",
         },
         files={"photo": ("product.jpg", image_bytes, "image/jpeg")},
-        timeout=15,
     )
-    resp.raise_for_status()
 
 
 FLAG_FILES = {
@@ -342,13 +349,18 @@ async def discover_products(page, label, url, marketplace):
     print(f"ℹ️ [{marketplace['code']}/{label}] URL final tras la carga: {page.url}")
 
     body_text = (await page.inner_text("body")).lower()
-    if any(marker in body_text for marker in CAPTCHA_MARKERS):
+    is_captcha = any(marker in body_text for marker in CAPTCHA_MARKERS)
+    if is_captcha:
         print(f"❌ Amazon devolvió una verificación anti-bot (captcha) en vez de la tienda ({marketplace['code']}/{label}).")
 
-    slug = re.sub(r"[^a-z0-9]+", "_", label.lower()).strip("_")
-    DEBUG_DIR.mkdir(exist_ok=True)
-    await page.screenshot(path=str(DEBUG_DIR / f"store_page_{marketplace['code']}_{slug}.png"), full_page=True)
-    (DEBUG_DIR / f"store_page_{marketplace['code']}_{slug}.html").write_text(await page.content(), encoding="utf-8")
+    # Volcado de captura/HTML solo cuando hace falta depurar (DEBUG=1) o
+    # cuando hay un captcha real que investigar — evita escribir 6 capturas +
+    # 6 HTMLs en cada ejecución de producción sin que nadie los consuma.
+    if is_captcha or os.environ.get("DEBUG") == "1":
+        slug = re.sub(r"[^a-z0-9]+", "_", label.lower()).strip("_")
+        DEBUG_DIR.mkdir(exist_ok=True)
+        await page.screenshot(path=str(DEBUG_DIR / f"store_page_{marketplace['code']}_{slug}.png"), full_page=True)
+        (DEBUG_DIR / f"store_page_{marketplace['code']}_{slug}.html").write_text(await page.content(), encoding="utf-8")
 
     tiles = await page.eval_on_selector_all(
         "[data-asin]",
@@ -380,12 +392,7 @@ async def discover_products(page, label, url, marketplace):
 
         text = t.get("text") or ""
         text_lower = text.lower()
-        if t.get("hasAddToCart"):
-            status = "compra_directa"
-        elif marketplace["invitation_marker"] in text_lower:
-            status = "invitacion"
-        else:
-            status = "no_disponible"
+        status = determine_status(t.get("hasAddToCart"), text_lower, marketplace)
 
         if debug_asin and asin == debug_asin:
             print(f"🐛 DEBUG [{marketplace['code']}/{label}] {asin}: computed status={status}")
@@ -438,14 +445,7 @@ async def check_single_product(page, asin, marketplace):
         # invitación real.
         buybox_el = await page.query_selector("#buybox, #desktop_buybox")
         buybox_text = (await buybox_el.inner_text()) if buybox_el else ""
-        buybox_text_lower = buybox_text.lower()
-
-        if buy_button:
-            status = "compra_directa"
-        elif marketplace["invitation_marker"] in buybox_text_lower:
-            status = "invitacion"
-        else:
-            status = "no_disponible"
+        status = determine_status(buy_button, buybox_text.lower(), marketplace)
 
         price_el = await page.query_selector(".a-price .a-offscreen")
         price = clean_price((await price_el.inner_text()) if price_el else None)
@@ -492,8 +492,9 @@ async def main():
                 print(f"⏭️ [{marketplace['code']}] Omitiendo {len(fallback_asins)} productos sin datos en la tarjeta (fallback individual desactivado para este marketplace).")
             elif fallback_asins:
                 print(f"🔎 [{marketplace['code']}] Comprobando individualmente {len(fallback_asins)} productos sin datos en la tarjeta...")
-                for asin in fallback_asins:
-                    await asyncio.sleep(random.uniform(2, 5))
+                for i, asin in enumerate(fallback_asins):
+                    if i > 0:
+                        await asyncio.sleep(random.uniform(2, 5))
                     result = await check_single_product(page, asin, marketplace)
                     if result:
                         marketplace_products[asin] = result
@@ -566,15 +567,8 @@ async def main():
 
             stock_line = f"📊 <b>SÓLO QUEDA(N) {info['stock']} EN STOCK</b>" if info.get("stock") else ""
 
-            if status == "compra_directa":
-                header = "🟢 <b>¡Disponible de nuevo! #CompraDirecta</b>"
-            else:
-                header = "🎟️ <b>¡Disponible por invitación! #Invitación</b>"
-
-            if status == "compra_directa":
-                cta = f'📦 <a href="{link}">Cómpralo ya</a>'
-            else:
-                cta = f'📦 <a href="{link}">Solicitar invitación</a>'
+            header, cta_label = STATUS_COPY[status]
+            cta = f'📦 <a href="{link}">{cta_label}</a>'
 
             store_line = f"<b>{info['store_label']} {info['flag']}</b>"
             website_line = f'🌐 <a href="{WEBSITE_URL}">Ver todos los productos disponibles</a>'
