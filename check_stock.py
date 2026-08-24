@@ -32,6 +32,9 @@ MARKETPLACES = [
             ("Disponible de nuevo", "https://www.amazon.es/stores/page/41180886-559D-47A1-9CEB-5BF332812A91"),
         ],
         "allow_individual_fallback": True,
+        # Solicitado explícitamente: no interesa mantener productos agotados
+        # en el estado/web para ES tampoco (mismo criterio que UK/US).
+        "exclude_out_of_stock": True,
     },
     {
         "code": "UK",
