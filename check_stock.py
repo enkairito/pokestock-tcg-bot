@@ -367,9 +367,13 @@ async def discover_products(page, label, url, marketplace):
         })""",
     )
 
+    debug_asin = os.environ.get("DEBUG_ASIN")
+
     products = {}
     for t in tiles:
         asin = t.get("asin")
+        if debug_asin and asin == debug_asin:
+            print(f"🐛 DEBUG [{marketplace['code']}/{label}] tile raw: {t}")
         if not asin or not ASIN_VALID_RE.match(asin) or asin in products:
             continue
 
@@ -382,6 +386,9 @@ async def discover_products(page, label, url, marketplace):
         else:
             status = "no_disponible"
 
+        if debug_asin and asin == debug_asin:
+            print(f"🐛 DEBUG [{marketplace['code']}/{label}] {asin}: computed status={status}")
+
         stock_match = marketplace["stock_count_re"].search(text)
 
         products[asin] = {
@@ -392,6 +399,9 @@ async def discover_products(page, label, url, marketplace):
             "stock": stock_match.group(1) if stock_match else None,
             "status": status,
         }
+
+    if debug_asin and debug_asin not in {t.get("asin") for t in tiles}:
+        print(f"🐛 DEBUG [{marketplace['code']}/{label}] {debug_asin} NO aparece entre las {len(tiles)} tarjetas encontradas en esta página.")
 
     # Algunos widgets de la tienda (ej. carruseles "ProductShowcase") no
     # incluyen precio/disponibilidad en la tarjeta, solo un enlace al

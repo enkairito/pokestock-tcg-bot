@@ -45,10 +45,13 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           DRY_RUN: "1"
+          # Poner aquí un ASIN puntual para depurar su detección en los logs:
+          # DEBUG_ASIN: "B0XXXXXXXX"
         run: xvfb-run -a python check_stock.py
 
       - name: Upload debug artifacts
         if: always()
+        continue-on-error: true
         uses: actions/upload-artifact@v4
         with:
           name: debug-store-pages
