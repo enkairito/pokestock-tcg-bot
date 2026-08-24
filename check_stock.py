@@ -85,6 +85,29 @@ MARKETPLACES = [
     },
 ]
 
+# El Corte Inglés no es Amazon (sin ASIN, sin flujo de invitación, sin
+# cookies de sesión necesarias — la búsqueda es pública) así que tiene su
+# propia configuración y su propio discover, en vez de encajarlo en
+# MARKETPLACES. Usamos la URL ya filtrada a la categoría "Juguetes" en vez
+# de "Todo" (la que da el buscador por defecto) porque "Todo" mezcla
+# resultados de Libros/Videojuegos/etc. que no son el producto en sí.
+#
+# NOTA: la solicitud de afiliación vía Awin sigue pendiente de aprobación
+# (issue #2) — "tag" queda vacío y el link es directo al producto sin
+# tracking. En cuanto se apruebe, construir aquí el enlace de afiliado
+# (deep link de Awin) en vez de la URL directa.
+ECI_STORE = {
+    "code": "ECI",
+    "flag": "🇪🇸",
+    "store_label": "El Corte Inglés",
+    "tag": None,
+    "pages": [
+        ("JCC Pokémon", "https://www.elcorteingles.es/juguetes/search-nwx/?s=pokemon+jcc&stype=text_box_multi"),
+    ],
+}
+ECI_ID_RE = re.compile(r"^product-([A-Za-z0-9]+)$")
+ECI_PRICE_RE = re.compile(r"(\d{1,3}(?:\.\d{3})*,\d{2})\s*€")
+
 STATUS_COPY = {
     "compra_directa": ("🟢 <b>¡Disponible de nuevo! #CompraDirecta</b>", "Cómpralo ya"),
     "invitacion": ("🎟️ <b>¡Disponible por invitación! #Invitación</b>", "Solicitar invitación"),
@@ -248,6 +271,7 @@ def send_telegram_photo_bytes(image_bytes, caption):
 
 FLAG_FILES = {
     "ES": Path(__file__).parent / "assets" / "flags" / "es.png",
+    "ECI": Path(__file__).parent / "assets" / "flags" / "es.png",
     "UK": Path(__file__).parent / "assets" / "flags" / "gb.png",
     "US": Path(__file__).parent / "assets" / "flags" / "us.png",
 }
@@ -424,6 +448,74 @@ async def discover_products(page, label, url, marketplace):
     return products, fallback_asins
 
 
+async def discover_eci_products(page, label, url):
+    """Descubre productos de El Corte Inglés desde una página de búsqueda.
+    Sin cookies/sesión (búsqueda pública) y sin flujo de invitación —
+    solo compra_directa (botón "Añadir" presente) o no_disponible."""
+    await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+    await page.wait_for_timeout(2500)
+
+    prev_count = -1
+    for _ in range(15):
+        await page.mouse.wheel(0, 3000)
+        await page.wait_for_timeout(700)
+        count = await page.eval_on_selector_all("article[id^='product-']", "els => els.length")
+        if count == prev_count:
+            break
+        prev_count = count
+
+    title = await page.title()
+    print(f"ℹ️ [ECI/{label}] Título de la página cargada: {title!r}")
+
+    body_text = (await page.inner_text("body")).lower()
+    if any(marker in body_text for marker in CAPTCHA_MARKERS):
+        print(f"❌ El Corte Inglés devolvió una verificación anti-bot (captcha) en vez de la búsqueda ({label}).")
+
+    tiles = await page.eval_on_selector_all(
+        "article[id^='product-']",
+        """els => els.map(el => {
+            const name = el.getAttribute('aria-label');
+            const linkEl = el.querySelector('[data-url]');
+            const relUrl = linkEl ? linkEl.getAttribute('data-url') : null;
+            const priceEl = el.querySelector('[class*="price"]');
+            const priceText = priceEl ? priceEl.textContent.trim() : null;
+            const imageEl = el.querySelector('img');
+            const image = imageEl ? imageEl.src : null;
+            const buttons = Array.from(el.querySelectorAll('button')).map(b => (b.textContent || '').trim());
+            const hasAddButton = buttons.some(t => t.toLowerCase() === 'añadir');
+            return { id: el.id, name, relUrl, priceText, image, hasAddButton };
+        })""",
+    )
+
+    products = {}
+    for t in tiles:
+        match = ECI_ID_RE.match(t.get("id") or "")
+        if not match:
+            continue
+        product_id = match.group(1)
+        if product_id in products:
+            continue
+
+        price_match = ECI_PRICE_RE.search(t.get("priceText") or "")
+        rel_url = t.get("relUrl")
+
+        products[product_id] = {
+            "name": t.get("name") or product_id,
+            "price": f"{price_match.group(1)} €" if price_match else None,
+            "original_price": None,
+            "image": t.get("image"),
+            "stock": None,
+            # NOTA: solo hemos visto productos con stock hasta ahora — el
+            # patrón de "no_disponible" (botón "Añadir" ausente) es
+            # best-guess sin verificar todavía contra un producto agotado
+            # real. Revisar la primera vez que aparezca uno.
+            "status": "compra_directa" if t.get("hasAddButton") else "no_disponible",
+            "url": f"https://www.elcorteingles.es{rel_url}" if rel_url else None,
+        }
+
+    return products
+
+
 async def check_single_product(page, asin, marketplace):
     """Comprobación individual de respaldo para productos cuya tarjeta de
     tienda no expone precio/disponibilidad directamente."""
@@ -527,6 +619,43 @@ async def main():
                 info["link"] = f"https://www.{marketplace['domain']}/dp/{asin}?tag={marketplace['tag']}"
                 products[f"{marketplace['code']}:{asin}"] = info
 
+        eci_products = {}
+        for label, url in ECI_STORE["pages"]:
+            print(f"🔍 Descubriendo productos en la tienda (ECI/{label})...")
+            try:
+                page_products = await discover_eci_products(page, label, url)
+                print(f"📦 [ECI/{label}] {len(page_products)} productos encontrados")
+                eci_products.update(page_products)
+            except Exception as e:
+                print(f"❌ No se pudo cargar la página de El Corte Inglés ({label}): {e!r}")
+
+        eci_out_of_stock = {a for a, i in eci_products.items() if i["status"] == "no_disponible"}
+        if eci_out_of_stock:
+            print(f"⏭️ [ECI] Omitiendo {len(eci_out_of_stock)} productos agotados de la web (pero sí se actualiza su estado, para poder detectar el próximo restock).")
+            for product_id in eci_out_of_stock:
+                state[f"ECI:{product_id}"] = {
+                    "name": eci_products[product_id]["name"],
+                    "status": "no_disponible",
+                    "stock": None,
+                }
+                del eci_products[product_id]
+
+        eci_excluded_by_name = {
+            a for a, i in eci_products.items() if is_excluded_by_name(i["name"])
+        }
+        if eci_excluded_by_name:
+            print(f"⏭️ [ECI] Omitiendo {len(eci_excluded_by_name)} productos no relevantes por nombre (fundas/accesorios).")
+            for product_id in eci_excluded_by_name:
+                del eci_products[product_id]
+
+        for product_id, info in eci_products.items():
+            info["asin"] = product_id
+            info["marketplace_code"] = ECI_STORE["code"]
+            info["store_label"] = ECI_STORE["store_label"]
+            info["flag"] = ECI_STORE["flag"]
+            info["link"] = info["url"]
+            products[f"ECI:{product_id}"] = info
+
         await browser.close()
 
     if not products:
@@ -552,10 +681,11 @@ async def main():
 
         send_failed = False
 
-        # Solo se envían alertas de Telegram para España. El resto de
-        # marketplaces (UK, US) se siguen detectando y guardando en el
-        # estado/snapshot para la web, pero no generan mensajes.
-        if (status_changed or stock_decreased) and info["marketplace_code"] == "ES":
+        # Solo se envían alertas de Telegram para tiendas españolas (Amazon
+        # ES y El Corte Inglés). El resto de marketplaces (UK, US) se
+        # siguen detectando y guardando en el estado/snapshot para la web,
+        # pero no generan mensajes.
+        if (status_changed or stock_decreased) and info["marketplace_code"] in ("ES", "ECI"):
             link = info["link"]
 
             if info["price"] and info["original_price"] and info["original_price"] != info["price"]:
