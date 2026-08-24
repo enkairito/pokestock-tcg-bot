@@ -11,7 +11,7 @@ Dos repos conectados:
 
 - **`pokestock-tcg-bot`** (privado, este repo): scraper Python/Playwright
   (`check_stock.py`) que vigila tiendas de Amazon (España, Reino Unido y
-  USA) y avisa por Telegram al grupo
+  USA) y de El Corte Inglés (España) y avisa por Telegram al grupo
   [PokéStockTCG](https://t.me/PokeStockTCG) cuando un producto pasa a
   disponible o baja el stock.
 - **[`wheresthatstock`](https://github.com/enkairito/wheresthatstock)**
@@ -39,19 +39,50 @@ Marca: ambos forman parte del ecosistema **"Where's That Shiny"**
   - `allow_individual_fallback: False` — nunca visitan fichas de producto
     individuales (en UK causaron redirecciones raras a páginas de
     Barclays durante pruebas).
-  - `exclude_out_of_stock: True` — los productos agotados ni siquiera se
-    guardan en `state.json` ni se publican en la web (a diferencia de ES,
-    donde sí se mantienen y son filtrables).
   - Amazon USA usa páginas de tienda con parámetro de búsqueda dentro del
     mismo store ID (`search?terms=tcg` y `search?terms=etb`, URLs directas
     proporcionadas por el usuario), no el formato `stores/page/<ID>`
     simple de ES/UK.
-- **Filtro por nombre**: `EXCLUDED_NAME_KEYWORDS` (actualmente solo
-  `"funda"`) descarta productos cuyo título contenga esas palabras,
+- `exclude_out_of_stock: True` en las tres tiendas Amazon (ES se sumó el
+  2026-08-24, antes solo aplicaba a UK/US) — los productos agotados no se
+  publican en la web. **Importante**: al excluir un agotado se escribe
+  explícitamente `no_disponible` en `state.json` en vez de simplemente no
+  tocarlo — antes de este fix (2026-08-24) el estado se quedaba congelado
+  en su último valor real y el bot nunca detectaba el siguiente restock
+  (confirmado con datos reales: 24 productos UK/US llevaban así desde que
+  se lanzaron esas tiendas). Ver commit `bc8c49b`.
+- **Filtro por nombre**: `EXCLUDED_NAME_KEYWORDS` (`"funda"`, `"sleeve"`,
+  `"sleeves"`) descarta productos cuyo título contenga esas palabras,
   aplicado a todas las tiendas — necesario porque las páginas de búsqueda
   de USA (a diferencia de las páginas de tienda "normales" de ES/UK)
   devuelven accesorios (fundas/protectores de cartas) mezclados con los
   productos reales.
+
+### El Corte Inglés (ES)
+
+Añadido el 2026-08-24, no es Amazon — tiene su propia config (`ECI_STORE`)
+y su propio discover (`discover_eci_products`) en vez de encajarlo en
+`MARKETPLACES`:
+- Búsqueda pública, sin cookies/sesión necesarias.
+- Sin ASIN — el ID de producto sale del atributo `id="product-<ID>"` de
+  cada `<article>`.
+- Sin flujo de invitación — solo `compra_directa` (botón "Añadir"
+  presente) o `no_disponible`. La detección de "no_disponible" es
+  **best-guess sin verificar** contra un producto agotado real todavía
+  (no hemos visto ninguno en las pruebas) — revisar la primera vez que
+  aparezca un caso así, igual que con los patrones de UK/US.
+- URL usada: la página de categoría **"Juguetes"**
+  (`/juguetes/search-nwx/?s=pokemon+jcc&stype=text_box_multi`), no la
+  búsqueda general "Todo" — esta última mezcla resultados de
+  Libros/Videojuegos/etc. que no son el producto en sí.
+- **Afiliación pendiente**: la solicitud vía Awin sigue sin respuesta
+  (issue #2) — de momento el link es la URL directa del producto, sin
+  tracking. Cuando se apruebe, añadir el parámetro/deep-link de Awin en
+  `ECI_STORE["tag"]` y en la construcción del link.
+- Reutiliza el pipeline entero (estado, exclusión de agotados, filtro por
+  nombre, alertas de Telegram, snapshot web) — solo cambian el discover y
+  el bloque de fusión en `main()`. Sí genera alertas de Telegram (igual
+  que Amazon ES, a diferencia de UK/US que solo alimentan la web).
 - Estado en `state.json` (claves `MARKETPLACE:ASIN`), snapshot completo
   para la web en `products_snapshot.json`.
 - `patchright` (fork de Playwright anti-detección) + modo no-headless vía
@@ -86,12 +117,17 @@ texto literal `"null"` cuando el producto no tiene precio de referencia
 - Cabecera: avatar circular (`assets/logo.jpg`) + `@wheresthatshiny` +
   logo "Where's That Stock".
 - Filtros en desplegable (mismo patrón para ambos, vía helper JS
-  `setupFilterGroup`): **Disponibilidad** (Cómpralo ya / Con invitación /
-  No disponible) y **Tienda** (Amazon ES 🇪🇸 / Amazon UK 🇬🇧 / Amazon USA 🇺🇸).
+  `setupFilterGroup`): **Disponibilidad** (Cómpralo ya / Con invitación —
+  se quitó la opción "No disponible" el 2026-08-24, ya no puede aparecer
+  en los datos porque `exclude_out_of_stock` es universal ahora) y
+  **Tienda** (Amazon ES 🇪🇸 / Amazon UK 🇬🇧 / Amazon USA 🇺🇸 / El Corte
+  Inglés 🇪🇸).
 - Cada tarjeta de producto: la esquina superior izquierda de la imagen
-  lleva la bandera de la tienda + la etiqueta de disponibilidad, pegadas
-  a la foto (sin logo — se quitó a petición del usuario, a diferencia de
-  Telegram donde tampoco lo lleva).
+  lleva, uno junto a otro, el logo de la tienda (`STORE_ICONS` — solo
+  Amazon por ahora, El Corte Inglés no tiene logo propio todavía) + la
+  bandera PNG real del país (`FLAG_ICONS`, mismos ficheros que usa el bot
+  para las marcas de agua de Telegram — antes era un emoji) + la etiqueta
+  de disponibilidad.
 - El repo es público porque los datos (stock/precio de Amazon) no son
   sensibles; lo que sí es privado es la lógica del scraper.
 
@@ -109,7 +145,9 @@ texto literal `"null"` cuando el producto no tiene precio de referencia
   primera vez que aparezca un caso así.
 - Tags de afiliado: `enkairito-21` (ES), `wtsuk-21` (UK), `wtsus-20` (USA),
   `wheresthatsto-21` (DE, pendiente de aprobación, no implementado en el
-  scraper todavía).
+  scraper todavía). El Corte Inglés (issue #2, vía Awin) también pendiente
+  de aprobación — el scraper de ECI sí está implementado, pero con link
+  directo sin tracking hasta que se apruebe.
 - **Amazon USA: lanzada y en producción desde el 2026-08-10.** Anuncio
   enviado al grupo de Telegram, y el `workflow_dispatch` manual del mismo
   día (10:50 UTC) completó con éxito y ya mandó los avisos reales de los
