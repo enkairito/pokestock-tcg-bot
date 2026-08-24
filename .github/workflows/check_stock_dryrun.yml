@@ -1,0 +1,48 @@
+name: Check Pokémon TCG Stock (Dry Run)
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  check-stock-dryrun:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          patchright install --with-deps chromium
+
+      - name: Restore Amazon cookies
+        env:
+          AMAZON_COOKIES_JSON: ${{ secrets.AMAZON_COOKIES_JSON }}
+          AMAZON_UK_COOKIES_JSON: ${{ secrets.AMAZON_UK_COOKIES_JSON }}
+          AMAZON_US_COOKIES_JSON: ${{ secrets.AMAZON_US_COOKIES_JSON }}
+        run: |
+          if [ -n "$AMAZON_COOKIES_JSON" ]; then
+            echo "$AMAZON_COOKIES_JSON" > amazon_cookies.json
+          fi
+          if [ -n "$AMAZON_UK_COOKIES_JSON" ]; then
+            echo "$AMAZON_UK_COOKIES_JSON" > amazon_cookies_uk.json
+          fi
+          if [ -n "$AMAZON_US_COOKIES_JSON" ]; then
+            echo "$AMAZON_US_COOKIES_JSON" > amazon_cookies_us.json
+          fi
+
+      - name: Run stock check (dry run, no Telegram, no commit)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DRY_RUN: "1"
+        run: xvfb-run -a python check_stock.py
