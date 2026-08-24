@@ -46,3 +46,12 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           DRY_RUN: "1"
         run: xvfb-run -a python check_stock.py
+
+      - name: Upload debug artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-store-pages
+          path: debug/
+          retention-days: 3
+          if-no-files-found: ignore
