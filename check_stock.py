@@ -154,16 +154,26 @@ def is_excluded_by_name(name):
     return any(keyword in name_lower for keyword in EXCLUDED_NAME_KEYWORDS)
 
 
+STATUS_PRIORITY = {"compra_directa": 2, "invitacion": 1, "no_disponible": 0}
+
+
 def merge_product_record(existing, new):
     """Cuando el mismo producto aparece en varias páginas de la tienda,
     Amazon a veces muestra precio/estado distintos según el widget (visto
     con Colección Primer Compañero Serie 3: 17,99€ invitación en la ficha
     individual vs 28,98€ compra directa en la tarjeta de "Novedades").
-    Nos quedamos con el registro completo (precio+estado+stock) de la
-    página con el precio más bajo, para no mezclar campos de fuentes
-    distintas."""
+    Nos quedamos con el registro completo (precio+estado+stock) de una
+    sola página, para no mezclar campos de fuentes distintas:
+    1. Preferimos compra_directa sobre invitacion sobre no_disponible —
+       es la opción más ventajosa/accionable para el usuario.
+    2. A igualdad de estado, nos quedamos con el precio más bajo."""
     if existing is None:
         return new
+    existing_priority = STATUS_PRIORITY.get(existing.get("status"), 0)
+    new_priority = STATUS_PRIORITY.get(new.get("status"), 0)
+    if new_priority != existing_priority:
+        return new if new_priority > existing_priority else existing
+
     existing_price = price_to_float(existing.get("price"))
     new_price = price_to_float(new.get("price"))
     if new_price is not None and (existing_price is None or new_price < existing_price):
