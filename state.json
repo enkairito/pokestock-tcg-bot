@@ -757,5 +757,10 @@
     "name": "Caja Primer Compañero Colección Ilustración Serie 2 Pokémon Bandai",
     "status": "no_disponible",
     "stock": null
+  },
+  "ECI:A52662336": {
+    "name": "Baraja combate Deluxe Pokémon Bandai modelos surtidos",
+    "status": "compra_directa",
+    "stock": null
   }
 }
