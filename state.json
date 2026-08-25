@@ -160,7 +160,7 @@
   },
   "US:B0F2GZJ3TZ": {
     "name": "Pokemon TCG: Scarlet & Violet - Destined Rivals Caja Expositora de Sobres - 36 Paquetes",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null
   },
   "US:B0829FT44S": {
@@ -255,7 +255,7 @@
   },
   "US:B0G3CY83L5": {
     "name": "Pokémon TCG: Caja de entrenamiento de élite de héroes ascendidos de Mega Evolution",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null
   },
   "US:B0GR6N18F6": {
@@ -551,7 +551,7 @@
   "ES:B0H5KLFD8M": {
     "name": "Pokémon: Colección Ilustración Primer Compañero Serie 3 (3 Cartas de promoción, 2 Sobres de Mejora y 1 Hoja con Pegatinas)",
     "status": "compra_directa",
-    "stock": null
+    "stock": "5"
   },
   "ES:B0GYSGQ9R8": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Gallade y Goomy de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
