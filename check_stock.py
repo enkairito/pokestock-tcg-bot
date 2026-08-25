@@ -215,7 +215,9 @@ def clean_price(value):
     if eur_match:
         integer_part = eur_match.group(1).replace(",", "")
         return f"{integer_part},{eur_match.group(2)} €"
-    return value
+    # Normaliza "24,99€" (sin espacio, visto en el span visible de
+    # "Precio mediano") a "24,99 €" para que sea consistente con el resto.
+    return re.sub(r"(\d)€$", r"\1 €", value)
 
 PRICE_NUMBER_RE = re.compile(r"(\d+(?:\.\d{3})*),(\d{2})")
 
@@ -448,8 +450,21 @@ async def discover_products(page, label, url, marketplace):
             const name = titleEl ? titleEl.getAttribute('aria-label') : null;
             const priceEl = el.querySelector('[data-cy="price-recipe"] .a-price .a-offscreen');
             const price = priceEl ? priceEl.textContent.trim() : null;
-            const originalPriceEl = el.querySelector('[data-cy="price-recipe"] .a-text-price .a-offscreen');
-            const originalPrice = originalPriceEl ? originalPriceEl.textContent.trim() : null;
+            // El precio tachado ("Precio mediano") a veces trae "null" en el
+            // span accesible (.a-offscreen) y el valor real solo está en el
+            // span visible (aria-hidden) hermano — probar ambos.
+            const originalPriceBox = el.querySelector('[data-cy="price-recipe"] .a-text-price');
+            let originalPrice = null;
+            if (originalPriceBox) {
+                const offscreen = originalPriceBox.querySelector('.a-offscreen');
+                const offscreenText = offscreen ? offscreen.textContent.trim() : null;
+                if (offscreenText && offscreenText.toLowerCase() !== 'null') {
+                    originalPrice = offscreenText;
+                } else {
+                    const visible = originalPriceBox.querySelector('[aria-hidden="true"]');
+                    originalPrice = visible ? visible.textContent.trim() : null;
+                }
+            }
             const hasAddToCart = !!el.querySelector('[data-cy="add-to-cart"]');
             const imageEl = el.querySelector('img.s-image');
             const image = imageEl ? imageEl.src : null;
