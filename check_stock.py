@@ -713,8 +713,11 @@ async def main():
         )
         current_price_num = price_to_float(info.get("price"))
         prev_price_num = price_to_float(prev_price)
+        # Solo compra_directa: si está "por invitación" no tiene sentido
+        # avisar de una bajada de precio, ya que no se puede comprar
+        # directamente aunque baje.
         price_decreased = (
-            status in ("compra_directa", "invitacion")
+            status == "compra_directa"
             and current_price_num is not None
             and prev_price_num is not None
             and current_price_num < prev_price_num
