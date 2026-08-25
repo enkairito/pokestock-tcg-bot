@@ -177,6 +177,20 @@ def clean_price(value):
         return None
     return value
 
+PRICE_NUMBER_RE = re.compile(r"(\d+(?:\.\d{3})*),(\d{2})")
+
+
+def price_to_float(price_str):
+    """Convierte '17,99 €' / '1.234,56 €' a 17.99 / 1234.56. None si no
+    se puede parsear (para poder comparar precios y detectar bajadas)."""
+    if not price_str:
+        return None
+    match = PRICE_NUMBER_RE.search(price_str)
+    if not match:
+        return None
+    return float(f"{match.group(1).replace('.', '')}.{match.group(2)}")
+
+
 SAMESITE_MAP = {
     "strict": "Strict",
     "lax": "Lax",
@@ -670,6 +684,7 @@ async def main():
         prev = state.get(key, {})
         prev_status = prev.get("status")
         prev_stock = prev.get("stock")
+        prev_price = prev.get("price")
 
         status_changed = status in ("compra_directa", "invitacion") and status != prev_status
         stock_decreased = (
@@ -678,6 +693,14 @@ async def main():
             and prev_stock is not None
             and int(info["stock"]) < int(prev_stock)
         )
+        current_price_num = price_to_float(info.get("price"))
+        prev_price_num = price_to_float(prev_price)
+        price_decreased = (
+            status in ("compra_directa", "invitacion")
+            and current_price_num is not None
+            and prev_price_num is not None
+            and current_price_num < prev_price_num
+        )
 
         send_failed = False
 
@@ -685,10 +708,12 @@ async def main():
         # ES y El Corte Inglés). El resto de marketplaces (UK, US) se
         # siguen detectando y guardando en el estado/snapshot para la web,
         # pero no generan mensajes.
-        if (status_changed or stock_decreased) and info["marketplace_code"] in ("ES", "ECI"):
+        if (status_changed or stock_decreased or price_decreased) and info["marketplace_code"] in ("ES", "ECI"):
             link = info["link"]
 
-            if info["price"] and info["original_price"] and info["original_price"] != info["price"]:
+            if price_decreased:
+                price_line = f"💰 <s>{prev_price}</s> <b>{info['price']}</b>"
+            elif info["price"] and info["original_price"] and info["original_price"] != info["price"]:
                 price_line = f"💰 <s>{info['original_price']}</s> <b>{info['price']}</b>"
             elif info["price"]:
                 price_line = f"💰 <b>{info['price']}</b>"
@@ -697,7 +722,13 @@ async def main():
 
             stock_line = f"📊 <b>SÓLO QUEDA(N) {info['stock']} EN STOCK</b>" if info.get("stock") else ""
 
-            header, cta_label = STATUS_COPY[status]
+            if status_changed:
+                header, cta_label = STATUS_COPY[status]
+            elif price_decreased:
+                header = "💸 <b>¡Bajada de precio!</b>"
+                cta_label = STATUS_COPY[status][1]
+            else:
+                header, cta_label = STATUS_COPY[status]
             cta = f'📦 <a href="{link}">{cta_label}</a>'
 
             store_line = f"<b>{info['store_label']} {info['flag']}</b>"
@@ -730,7 +761,7 @@ async def main():
         if send_failed:
             print(f"⚠️ No se actualiza el estado de '{name}' — se reintentará el aviso en la próxima ejecución.")
         else:
-            state[key] = {"name": name, "status": status, "stock": info.get("stock")}
+            state[key] = {"name": name, "status": status, "stock": info.get("stock"), "price": info.get("price")}
 
     save_state(state)
     save_products_snapshot(products)
