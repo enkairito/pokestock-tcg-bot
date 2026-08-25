@@ -15,8 +15,10 @@ Dos repos conectados:
   [PokéStockTCG](https://t.me/PokeStockTCG) cuando un producto pasa a
   disponible o baja el stock.
 - **[`wheresthatstock`](https://github.com/enkairito/wheresthatstock)**
-  (público): web estática en GitHub Pages
-  (https://wheresthatstock.com/) que muestra todos los
+  (privado desde el 2026-08-25 — antes público, ver nota abajo): web
+  estática desplegada en Cloudflare Workers/Pages
+  (https://wheresthatstock.com/, dominio propio comprado vía Cloudflare
+  Registrar) que muestra todos los
   productos rastreados. Se alimenta de `products.json`, que este repo
   publica automáticamente en cada ejecución del workflow (vía un PAT de
   ámbito reducido, secret `WHERESTHATSTOCK_TOKEN`).
@@ -128,8 +130,16 @@ texto literal `"null"` cuando el producto no tiene precio de referencia
   bandera PNG real del país (`FLAG_ICONS`, mismos ficheros que usa el bot
   para las marcas de agua de Telegram — antes era un emoji) + la etiqueta
   de disponibilidad.
-- El repo es público porque los datos (stock/precio de Amazon) no son
-  sensibles; lo que sí es privado es la lógica del scraper.
+- **2026-08-25: desplegado en Cloudflare Workers/Pages con dominio propio
+  (`wheresthatstock.com`, comprado vía Cloudflare Registrar) en vez de
+  GitHub Pages.** Como consecuencia, el repo `wheresthatstock` ya no
+  necesita ser público (esa era la única razón — GitHub Pages exige repo
+  público en el plan gratuito). Se puso en **privado** el mismo día; la
+  web sigue siendo pública igualmente, Cloudflare despliega desde el
+  repo sin que este necesite visibilidad pública. `wrangler.toml` en la
+  raíz de `wheresthatstock` (`[assets] directory = "./"`) es lo que le
+  dice a Cloudflare que sirva los ficheros estáticos tal cual, sin
+  tratarlo como un Worker con código.
 
 ## Decisiones/aprendizajes importantes
 

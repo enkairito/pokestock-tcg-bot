@@ -82,8 +82,9 @@ vuelve a bloquear GitHub Actions en el futuro.
 
 Este repo debería estar en **privado** (`Settings` → visibilidad) — contiene
 la lógica del scraper y el estado de negocio; no hay motivo para tenerlo
-público. La web (`wheresthatstock`) sí es pública porque solo expone datos
-no sensibles (stock/precio de Amazon).
+público. El repo `wheresthatstock` también está en privado (desde que se
+desplegó en Cloudflare en vez de GitHub Pages, ya no hace falta que sea
+público) — la web en sí sigue siendo pública en https://wheresthatstock.com/.
 
 ### 3. Tags de afiliado y tiendas
 
