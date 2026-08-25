@@ -3,7 +3,8 @@
     "name": "Pokémon: Baraja Combate de Liga de Mega-Lucario ex de JCC Pokémon (1 baraja de 60 Cartas Lista para Jugar con Mega-Lucario ex)",
     "status": "compra_directa",
     "stock": null,
-    "price": "34,99 €"
+    "price": "34,99 €",
+    "first_seen": "2026-08-25T20:27:54.285134+00:00"
   },
   "ES:B0FPMXHZLT": {
     "name": "Pokémon: Colección Especial Snorlax ex y Blissey ex de JCC Pokémon (2 Cartas holográficas de promoción, 1 Carta holográfica de Gran tamaño y 8 Sobres de Mejora)",
@@ -14,13 +15,15 @@
     "name": "Pokémon: Lata Mega-Charizard de JCC Pokémon: Mega-Charizard X ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
     "status": "invitacion",
     "stock": null,
-    "price": "24,99 €"
+    "price": "24,99 €",
+    "first_seen": "2026-08-25T20:27:54.285198+00:00"
   },
   "ES:B0GMR6ZK3R": {
     "name": "Pokémon: Lata Mega-Charizard de JCC Pokémon: Mega-Charizard Y ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
     "status": "invitacion",
     "stock": null,
-    "price": "24,99 €"
+    "price": "24,99 €",
+    "first_seen": "2026-08-25T20:27:54.285202+00:00"
   },
   "ES:B0G4NSB2J1": {
     "name": "Pokémon: Colección con Pegatinas Especiales de Megaevolución-Héroes Ascendentes: Gastly (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
@@ -29,96 +32,114 @@
   "ES:B0C648988J": {
     "name": "Pokémon: Colección Cyclizar ex",
     "status": "compra_directa",
-    "stock": null
+    "stock": null,
+    "price": "23,33 €",
+    "first_seen": "2026-08-25T20:27:54.285127+00:00"
   },
   "ES:B0CJYK29Y9": {
     "name": "Pokémon: Baraja Combate de Liga de Miraidon ex",
     "status": "compra_directa",
     "stock": null,
-    "price": "28,50 €"
+    "price": "28,50 €",
+    "first_seen": "2026-08-25T20:27:54.285168+00:00"
   },
   "ES:B0C64LR9BS": {
     "name": "Pokémon: Estadio Combina y Combate de Escarlata y Púrpura-Evoluciones en Paldea (2 Barajas, 11 Paquetes de Mejora y más)",
     "status": "compra_directa",
     "stock": null,
-    "price": "69,99 €"
+    "price": "69,99 €",
+    "first_seen": "2026-08-25T20:27:54.285158+00:00"
   },
   "ES:B0D6WJH3SN": {
     "name": "Pokémon Academia de Combate del Juego de Cartas Coleccionables Pokémon de JCC Pokémon 2024 (Pikachu, Armarouge y Darkrai)",
     "status": "compra_directa",
     "stock": null,
-    "price": "29,99 €"
+    "price": "29,99 €",
+    "first_seen": "2026-08-25T20:27:54.285163+00:00"
   },
   "ES:B0C64J197W": {
     "name": "Pokémon: Herramientas de Entrenador de 2023 (más de 150 valiosas Cartas, 4 Paquetes de Mejora y más)",
     "status": "compra_directa",
     "stock": null,
-    "price": "34,99 €"
+    "price": "34,99 €",
+    "first_seen": "2026-08-25T20:27:54.284983+00:00"
   },
   "ES:B0DT7D5K1X": {
     "name": "Pokémon Colección prémium Bellibolt ex de e-Nigma de JCC Pokémon (1 Carta holográfica con ilustración expandida, 6 Sobres de Mejora y Figuras acrílicas)",
     "status": "compra_directa",
     "stock": null,
-    "price": "47,63 €"
+    "price": "47,63 €",
+    "first_seen": "2026-08-25T20:27:54.285177+00:00"
   },
   "ES:B0C4V8F77B": {
     "name": "Pokémon: Estadio Combina y Combate de Escarlata y Púrpura (2 Barajas, 11 Paquetes de Mejora y más)",
     "status": "compra_directa",
     "stock": null,
-    "price": "64,98 €"
+    "price": "64,98 €",
+    "first_seen": "2026-08-25T20:27:54.285181+00:00"
   },
   "UK:B0GRCDKMSW": {
     "name": "Pokémon TCG: Mega Lucario ex League Battle Deck (1 Ready-to-Play 60-Card Deck Including Mega Lucario ex)",
     "status": "compra_directa",
     "stock": null,
-    "price": "31,51 €"
+    "price": "31,51 €",
+    "first_seen": "2026-08-25T20:27:54.285206+00:00"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolución — Paquete de refuerzo del aumento del caos",
     "status": "compra_directa",
     "stock": null,
-    "price": "40,76 €"
+    "price": "42,00 €",
+    "first_seen": "2026-08-25T20:27:54.285216+00:00"
   },
   "US:B0GYVHLP4L": {
     "name": "Pokémon TCG: Mega Evolution—Caja de entrenador Elite Pitch Black",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992518+00:00"
   },
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Paquete de refuerzo de tono negro",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992525+00:00"
   },
   "US:B0G3CV6Z9D": {
     "name": "Pokémon TCG: Mega Evolución: Paquete de refuerzo de héroes ascendidos",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992513+00:00"
   },
   "US:B0GW2DK37Q": {
     "name": "Pokémon TCG: Colección de Ilustraciones de Primera Partner —Serie 2",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992532+00:00"
   },
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution—Perfect Order Booster Bundle",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992534+00:00"
   },
   "US:B0DYR8D7YC": {
     "name": "Pokémon TCG: Colección Súper Premium de Evoluciones Prismáticas Escarlata y Violeta",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992510+00:00"
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
     "status": "compra_directa",
     "stock": null,
-    "price": "32,53 €"
+    "price": "32,53 €",
+    "first_seen": "2026-08-25T20:27:54.285245+00:00"
   },
   "US:B0GXJ8CSTY": {
     "name": "Pokémon TCG: Mega Greninja ex Colección Premium",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992540+00:00"
   },
   "US:B0GG16Q4X1": {
     "name": "Pokémon TCG: Mega Evolution: caja de presentación de refuerzo de pedido perfecto",
@@ -129,12 +150,14 @@
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
     "status": "compra_directa",
     "stock": null,
-    "price": "96,77 €"
+    "price": "96,77 €",
+    "first_seen": "2026-08-25T20:27:54.285226+00:00"
   },
   "US:B0GFZV1ZVV": {
     "name": "Pokémon TCG: Caja de Entrenador Élite de Mega Evolución—Orden Perfecta",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992530+00:00"
   },
   "US:B09YS3LL3N": {
     "name": "Pokémon TCG: 3 paquetes de refuerzo y 1 lámina aleatoria | Incluye 3 paquetes blíster de cartas aleatorias y 1 tarjeta promocional holofoil empaquetada individualmente, 097712556710",
@@ -151,17 +174,20 @@
     "name": "Pokémon TCG: Latas de Bola de Poké Q4",
     "status": "compra_directa",
     "stock": null,
-    "price": "25,68 €"
+    "price": "25,68 €",
+    "first_seen": "2026-08-25T20:27:54.285231+00:00"
   },
   "US:B0DDYZX1TB": {
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de refuerzo de Surging Sparks",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992499+00:00"
   },
   "US:B001DIJ48C": {
     "name": "Pokémon TCG 3 paquetes de refuerzo, 30 cartas en total, 100% auténticas, raras aleatorias y holofoils, 3 paquetes de ampollas",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992522+00:00"
   },
   "US:B0FLCWJ1VK": {
     "name": "Juego de cartas Pokemon MEGA High Class Pack Mega Dream ex Box",
@@ -178,7 +204,8 @@
     "name": "Pokemon TCG: Scarlet & Violet - Destined Rivals Caja Expositora de Sobres - 36 Paquetes",
     "status": "compra_directa",
     "stock": null,
-    "price": "426,82 €"
+    "price": "426,82 €",
+    "first_seen": "2026-08-25T20:27:54.285221+00:00"
   },
   "US:B0829FT44S": {
     "name": "Colección de más de 50 cartas oficiales de Pokémon con 5 holográficas en cualquier combinación y al menos 1 carta rara, GX, EX, FA, Tag Team o Secret Rare",
@@ -194,36 +221,42 @@
     "name": "Pokemon TCG: Caja de entrenador élite de evoluciones prismáticas escarlata y violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "158,55 €"
+    "price": "158,55 €",
+    "first_seen": "2026-08-25T20:27:54.285241+00:00"
   },
   "US:B0F2BDXW4J": {
     "name": "Pokemon TCG: Scarlet & Violet - Caja de Entrenador Élite Destined Rivals - 9 Paquetes, Accesorios, Promo",
     "status": "compra_directa",
     "stock": null,
-    "price": "118,73 €"
+    "price": "118,73 €",
+    "first_seen": "2026-08-25T20:27:54.285212+00:00"
   },
   "US:B0H2N248WM": {
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promo exclusivo de Fennekin | 11 paquetes de refuerzo",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992536+00:00"
   },
   "US:B0FH6KRSX8": {
     "name": "Pokemon TCG Mega Evolutions 1 Caja de Entrenador Élite",
     "status": "compra_directa",
     "stock": null,
-    "price": "125,14 €"
+    "price": "US$145.98",
+    "first_seen": "2026-08-25T20:27:54.285293+00:00"
   },
   "US:B0DSLY7DZZ": {
     "name": "Pokemon TCG: Caja de entrenador de élite Viaje Juntos Escarlata y Violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "145,63 €"
+    "price": "US$169.88",
+    "first_seen": "2026-08-25T20:27:54.285269+00:00"
   },
   "US:B0CGCVT5RR": {
     "name": "Pokémon TCG: Caja de entrenador élite de escarlata y violeta Paradox Rift",
     "status": "compra_directa",
     "stock": null,
-    "price": "171,45 €"
+    "price": "US$199.99",
+    "first_seen": "2026-08-25T20:27:54.285264+00:00"
   },
   "US:B0BCN6HZR3": {
     "name": "Pokémon TCG: Caja de entrenador de élite Espada y Escudo Tempestad Plateada",
@@ -235,12 +268,14 @@
     "name": "Pokémon TCG: Escarlata y Violeta - Caja de Exhibición de Booster Surging Sparks",
     "status": "compra_directa",
     "stock": null,
-    "price": "277,76 €"
+    "price": "US$324.00",
+    "first_seen": "2026-08-25T20:27:54.285277+00:00"
   },
   "US:B09CLGX546": {
     "name": "Juego de cartas coleccionables de Pokémon: SAS8- Caja para entrenador élite Golpe Fusión",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992508+00:00"
   },
   "US:B0BSNXK3H7": {
     "name": "Pokémon TCG: Estuche de Entrenador Élite Scarlet & Violet (Miraidon Púrpura o Koraidon Rojo, Color Aleatorio)",
@@ -251,7 +286,8 @@
     "name": "Una tarjeta de Pokémon encapsulada y autenticada con calificación PSA al azar (perfecta para exhibición)",
     "status": "compra_directa",
     "stock": null,
-    "price": "27,10 €"
+    "price": "US$31.61",
+    "first_seen": "2026-08-25T20:27:54.285281+00:00"
   },
   "US:B0CNFSY3Y3": {
     "name": "POKEMON TCG: ESCARLATA Y VIOLETA: DESTINOS PALDEOS: CAJA DE ENTRENADOR DE ÉLITE",
@@ -261,7 +297,8 @@
   "US:B08DN23BSM": {
     "name": "Pokemon TCG: Caja Entrenador Élite Camino de Campeones, multicolor",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992507+00:00"
   },
   "US:B0GWKCLH6G": {
     "name": "Pokémon TCG: Mega Moonlit Tin Mega Clefable",
@@ -277,17 +314,20 @@
     "name": "Pokémon TCG: Scarlet & Violet - Paquete de refuerzo Destined Rivals - 6 paquetes",
     "status": "compra_directa",
     "stock": null,
-    "price": "74,48 €"
+    "price": "74,48 €",
+    "first_seen": "2026-08-25T20:27:54.285254+00:00"
   },
   "US:B0G3CY83L5": {
     "name": "Pokémon TCG: Caja de entrenamiento de élite de héroes ascendidos de Mega Evolution",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992515+00:00"
   },
   "US:B0GR6N18F6": {
     "name": "Pokémon TCG: Caja de entrenamiento de élite Mega Evolution—Chaos Rising",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992502+00:00"
   },
   "US:B0GRCDKMSW": {
     "name": "Pokémon TCG: MegaLucario ex League Battle Deck",
@@ -297,17 +337,20 @@
   "UK:B0G72PSB7D": {
     "name": "Pokémon TCG, Mega Evolution, Ascended Heroes Feraligatr ex Box, 1 Foil Promo Card, 1 Oversize Lenticular Card and 4 Booster Packs",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254899+00:00"
   },
   "UK:B0G72QBTBJ": {
     "name": "Pokémon TCG, Mega Evolution, Ascended Heroes Emboar ex Box, 1 Foil Promo Card, 1 Oversize Lenticular Card and 4 Booster Packs",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254875+00:00"
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992523+00:00"
   },
   "US:B0GGCCLCJM": {
     "name": "Pokemon TCG: Mega Evolutions - Blister de 3 Paquetes Orden Perfecta (Chikorita)",
@@ -318,47 +361,56 @@
     "name": "Pokémon TCG: Mega Evolución: Héroes Ascendidos Mega Meganio/Emboar/Feraligatr ex Box",
     "status": "compra_directa",
     "stock": null,
-    "price": "59,92 €"
+    "price": "59,92 €",
+    "first_seen": "2026-08-25T20:27:54.285250+00:00"
   },
   "UK:B0GYVHLP4L": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Elite Trainer Box (1 Full-Art Promo Card, 9 Booster Packs & Premium Accessories)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254882+00:00"
   },
   "UK:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle (6 Booster Packs)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254892+00:00"
   },
   "UK:B0GZL89K79": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Display (18 Booster Packs)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254868+00:00"
   },
   "UK:B0GWKBRM8D": {
     "name": "Pokémon TCG: Lumiose City Mini Tin: Emboar & Inkay (2 booster packs, 1 art card and 1 sticker sheet)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254872+00:00"
   },
   "UK:B0GWK2GJ8Y": {
     "name": "Pokémon TCG: Lumiose City Mini Tin: Gallade & Goomy (2 booster packs, 1 art card and 1 sticker sheet)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254885+00:00"
   },
   "UK:B0GR6N18F6": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box (1 Full-Art Promo Card, 9 Booster Packs & Premium Accessories)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254866+00:00"
   },
   "UK:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle (6 Booster Packs)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254863+00:00"
   },
   "UK:B0GSS7D8RN": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Display (18 Booster Packs)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254890+00:00"
   },
   "UK:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution—Perfect Order Booster Bundle (6 Booster Packs)",
@@ -423,7 +475,8 @@
   "US:B0H9D7RQTC": {
     "name": "Pokemon TCG: Mega Evolution Pitch Black Pokemon Center Elite Trainer Box | PB PKC ETB | Promo exclusivo de Zarude | 11 paquetes de refuerzo",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992542+00:00"
   },
   "US:B0GSJMQ3QQ": {
     "name": "Pokémon TCG: Mega Evolución — Pantalla de refuerzo de aumento del caos",
@@ -439,7 +492,8 @@
     "name": "Pokemon Scarlet & Violet 3 Obsidian Flames Caja de Entrenador Élite",
     "status": "compra_directa",
     "stock": null,
-    "price": "317,08 €"
+    "price": "US$369.87",
+    "first_seen": "2026-08-25T20:27:54.285273+00:00"
   },
   "US:B0GP8HSDCJ": {
     "name": "Pokemon TCG: Mega Evolution Ascended Heroes Pokemon Center Elite Trainer Box | AH PKC ETB | Promo exclusivo de N's Zekrom | 11 paquetes de refuerzo",
@@ -455,12 +509,14 @@
     "name": "Pokémon TCG: Colección del Día de Pokémon 2026",
     "status": "compra_directa",
     "stock": null,
-    "price": "45,01 €"
+    "price": "45,01 €",
+    "first_seen": "2026-08-25T20:27:54.285236+00:00"
   },
   "US:B0GV1JQFWC": {
     "name": "Pokemon TCG: Mega Evolución-Pedido Perfecto Pokemon Center Elite Trainer Box | PO PKC ETB | Promo exclusivo de Tyrunt | 11 paquetes de refuerzo",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992538+00:00"
   },
   "US:B0D9PX5VDC": {
     "name": "Colección Pokémon TCG Charizard ex Super Premium",
@@ -487,13 +543,15 @@
     "name": "Pokémon - Charmander SVP044 - Obsidian Flames ETB Black Star Promo - Arte completo",
     "status": "compra_directa",
     "stock": null,
-    "price": "90,01 €"
+    "price": "US$105.00",
+    "first_seen": "2026-08-25T20:27:54.285289+00:00"
   },
   "US:B07GQB37YY": {
     "name": "Pokemon Elite Trainer Box Sun & Moon (Lunala)",
     "status": "compra_directa",
     "stock": null,
-    "price": "261,45 €"
+    "price": "US$304.98",
+    "first_seen": "2026-08-25T20:27:54.285285+00:00"
   },
   "US:B0GYTWKXTR": {
     "name": "Pokemon TCG: Mega Evolution - Paquete de 3 Booster Blister negro",
@@ -504,7 +562,8 @@
     "name": "Pokémon TCG: Scarlet & Violet—Máscara de la Oscuridad Élite Caja de Entrenador",
     "status": "compra_directa",
     "stock": null,
-    "price": "117,34 €"
+    "price": "US$136.88",
+    "first_seen": "2026-08-25T20:27:54.285259+00:00"
   },
   "US:B0F2ZMNCPM": {
     "name": "Pokemon Viaje juntos - Juego de dados y contador de daños - Exclusivo de ETB",
@@ -515,103 +574,120 @@
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Oscuridad Absoluta (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
     "status": "invitacion",
     "stock": null,
-    "price": "52,99 €"
+    "price": "52,99 €",
+    "first_seen": "2026-08-25T20:27:53.163217+00:00"
   },
   "ES:B0GZL8WKB6": {
     "name": "Pokémon: Expositor de Sobres de Mejora de Megaevolución-Oscuridad Absoluta (18 Sobres de Mejora)",
     "status": "invitacion",
     "stock": null,
-    "price": "89,82 €"
+    "price": "89,82 €",
+    "first_seen": "2026-08-25T20:27:53.163248+00:00"
   },
   "ES:B0GZL2WPMF": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Oscuridad Absoluta (6 Sobres de Mejora)",
     "status": "invitacion",
     "stock": null,
-    "price": "29,94 €"
+    "price": "29,94 €",
+    "first_seen": "2026-08-25T20:27:53.163255+00:00"
   },
   "ES:B0GZL7PBX1": {
     "name": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Oscuridad Absoluta (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
     "status": "invitacion",
     "stock": null,
-    "price": "15,99 €"
+    "price": "15,99 €",
+    "first_seen": "2026-08-25T20:27:53.163260+00:00"
   },
   "ES:B0H3LQY1Q7": {
     "name": "Pokémon: Colección prémium Mega-Greninja ex (1 Carta holográfica de promoción, 1 Carta de promoción de Gran tamaño con Efecto 3D y 8 Sobres de Mejora)",
     "status": "invitacion",
     "stock": null,
-    "price": "46,99 €"
+    "price": "46,99 €",
+    "first_seen": "2026-08-25T20:27:53.163265+00:00"
   },
   "ES:B0H1HDKXGH": {
     "name": "Pokémon: Lata Megaluz Lunar: Mega-Clefable ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
     "status": "invitacion",
     "stock": null,
-    "price": "24,99 €"
+    "price": "24,99 €",
+    "first_seen": "2026-08-25T20:27:53.163270+00:00"
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
     "status": "invitacion",
     "stock": null,
-    "price": "52,99 €"
+    "price": "52,99 €",
+    "first_seen": "2026-08-25T20:27:53.163274+00:00"
   },
   "ES:B0GSSQYPK3": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
     "status": "invitacion",
     "stock": null,
-    "price": "29,94 €"
+    "price": "29,94 €",
+    "first_seen": "2026-08-25T20:27:53.163279+00:00"
   },
   "ES:B0GSSJ9RB1": {
     "name": "Pokémon: Expositor de Sobres de Mejora de Megaevolución-Caos Creciente (18 Sobres de Mejora)",
     "status": "invitacion",
     "stock": null,
-    "price": "89,82 €"
+    "price": "89,82 €",
+    "first_seen": "2026-08-25T20:27:53.163283+00:00"
   },
   "ES:B0GYSJDWDS": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Salamence y Litleo de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
     "status": "invitacion",
     "stock": null,
-    "price": "10,99 €"
+    "price": "10,99 €",
+    "first_seen": "2026-08-25T20:27:54.285139+00:00"
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
     "status": "invitacion",
     "stock": null,
-    "price": "10,99 €"
+    "price": "10,99 €",
+    "first_seen": "2026-08-25T20:27:54.285145+00:00"
   },
   "ES:B0GYSDGPBH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Emboar e Inkay de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
     "status": "invitacion",
     "stock": null,
-    "price": "10,99 €"
+    "price": "10,99 €",
+    "first_seen": "2026-08-25T20:27:54.285149+00:00"
   },
   "ES:B0GYSKFHBY": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Feraligatr y Budew de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
     "status": "invitacion",
     "stock": null,
-    "price": "10,99 €"
+    "price": "10,99 €",
+    "first_seen": "2026-08-25T20:27:54.285153+00:00"
   },
   "ES:B0BMGR3QZW": {
     "name": "Pokémon: Baraja Combate De Liga De Mew VMAX (1 baraja de 60 Cartas Completa, 6 2 Cartas holográficas)",
     "status": "compra_directa",
     "stock": null,
-    "price": "34,99 €"
+    "price": "34,99 €",
+    "first_seen": "2026-08-25T20:27:54.285172+00:00"
   },
   "ES:B0H5KLFD8M": {
     "name": "Pokémon: Colección Ilustración Primer Compañero Serie 3 (3 Cartas de promoción, 2 Sobres de Mejora y 1 Hoja con Pegatinas)",
     "status": "invitacion",
     "stock": null,
-    "price": "17,99 €"
+    "price": "17,99 €",
+    "first_seen": "2026-08-25T20:27:54.285185+00:00"
   },
   "ES:B0GYSGQ9R8": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Gallade y Goomy de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
     "status": "invitacion",
     "stock": null,
-    "price": "10,99 €"
+    "price": "10,99 €",
+    "first_seen": "2026-08-25T20:27:54.285189+00:00"
   },
   "ES:B0G7HYD9WC": {
     "name": "Pokémon: Colección Mega-Feraligatr ex de Megaevolución-Héroes Ascendentes (1 Carta holográfica de promoción, 1 Carta de Gran tamaño con Efecto 3D y 4 Sobres de Mejora)",
     "status": "invitacion",
     "stock": null,
-    "price": "24,99 €"
+    "price": "24,99 €",
+    "first_seen": "2026-08-25T20:27:54.285193+00:00"
   },
   "ES:B0H9SQ7SQH": {
     "name": "Pokémon: Blíster de 2 Sobres de Mejora de JCC Pokémon (2 Sobres de Mejora y 1 Carta holográfica de promoción)",
@@ -621,47 +697,57 @@
   "ES:B0GWDS3WTY": {
     "name": "Pokémon: Colección prémium Mega-Zygarde ex (1 Carta de promoción, 1 Carta de Gran tamaño con Efecto 3D, 1 Pegatina Especial y 8 Sobres de Mejora)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:15.542174+00:00"
   },
   "ES:B0GGJ1QQNZ": {
     "name": "Pokémon: Lote de latas Poké Ball de JCC Pokémon: Poké, Honor y Acopio (9 Sobres de Mejora de JCC Pokémon y 6 Hojas con Pegatinas)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:15.542168+00:00"
   },
   "ES:B0DSGB5Q6B": {
     "name": "Pokémon Colección Ursaluna Luna Carmesí (4 Cartas holográficas y 4 Paquetes de Mejora)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:15.542170+00:00"
   },
   "ES:B0FXTY9D99": {
     "name": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Caos Creciente (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:15.542164+00:00"
   },
   "ES:B0CT5T766W": {
     "name": "Pokémon: Cofre de Coleccionista - 2022",
-    "status": "no_disponible",
-    "stock": null
+    "status": "compra_directa",
+    "stock": null,
+    "price": "34,99 €",
+    "first_seen": "2026-08-25T20:27:53.163288+00:00"
   },
   "UK:B0G3CV6Z9D": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Booster Bundle (6 Booster Packs)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254877+00:00"
   },
   "UK:B0GR6M4JV3": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Triple Pack (1 Foil Promo Card & 3 Booster Packs)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254906+00:00"
   },
   "UK:B0GYTWKXTR": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Triple Pack (1 Foil Promo Card & 3 Booster Packs)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254860+00:00"
   },
   "UK:B0H2JVZYZZ": {
     "name": "Pokémon TCG: First Partner Illustration Collection—Series 3 (3 Promo Cards, 2 Booster Packs & 1 Sticker Sheet)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254887+00:00"
   },
   "UK:B0GG2BM9YQ": {
     "name": "Pokémon TCG: First Partner Illustration Collection—Series 1 (3 Promo Cards, 2 Booster Packs & 1 Sticker Sheet)",
@@ -671,22 +757,26 @@
   "UK:B0GWKCLH6G": {
     "name": "Pokémon TCG: Mega Moonlit Tin - Mega Clefable ex (4 boosters & 1 foil promo card)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254903+00:00"
   },
   "UK:B0GW2DK37Q": {
     "name": "Pokémon TCG: First Partner Illustration Collection—Series 2 (3 Promo Cards, 2 Booster Packs & 1 Sticker Sheet)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254897+00:00"
   },
   "UK:B0GWK8FS18": {
     "name": "Pokémon TCG: Lumiose City Mini Tin: Feraligatr & Budew (2 booster packs, 1 art card and 1 sticker sheet)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254901+00:00"
   },
   "UK:B0GXJ8CSTY": {
     "name": "Pokémon TCG: Mega Greninja ex Premium Collection (1 Foil Promo Card, 1 Oversize Lenticular Card & 8 Booster Packs)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254910+00:00"
   },
   "UK:B0GFZV1ZVV": {
     "name": "Pokémon TCG: Mega Evolution—Perfect Order Elite Trainer Box (1 Full-Art Promo Card, 9 Booster Packs & Premium Accessories)",
@@ -696,112 +786,132 @@
   "UK:B0GWK2Z6QJ": {
     "name": "Pokémon TCG: Lumiose City Mini Tin: Salamence & Litleo (2 booster packs, 1 art card and 1 sticker sheet)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254880+00:00"
   },
   "UK:B0GWK55V53": {
     "name": "Pokémon TCG: Lumiose City Mini Tin: Meganium & Meowstic (2 booster packs, 1 art card and 1 sticker sheet)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254870+00:00"
   },
   "US:B08PS2F9RD": {
     "name": "Pokemon TCG: Caja de Entrenador Élite Destinos Brillantes",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992520+00:00"
   },
   "US:B0BZTL5393": {
     "name": "Pokémon TCG: Scarlet & Violet - Caja de entrenamiento de élite Paldea Evolved",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992505+00:00"
   },
   "US:B0H78BB9TY": {
     "name": "Pokémon TCG: Caja de Entrenador Elite 30th Celebration",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992485+00:00"
   },
   "US:B0BWYJNVMS": {
     "name": "Colección de figuras prémium de Pokemon Crown Zenith Shiny Zacian",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992497+00:00"
   },
   "US:B0BSR8VZCC": {
     "name": "Pokemon TCG: SAS 12.5 Corona Zenith Regidrago V Caja",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992517+00:00"
   },
   "US:B091JWBJ8G": {
     "name": "Juego de cartas coleccionables de Pokémon: Caja entrenador élite Espada y Escudo Reinado Escalofriante.",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992529+00:00"
   },
   "US:B093TLXQ9X": {
     "name": "Pokemon Sword & Shield Chilling Reign - Caja de construcción y batalla",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992501+00:00"
   },
   "US:B0981C6N34": {
     "name": "Pokémon | Colección Celebraciones Dragapult Prime | Juego de cartas | A partir de 6 años | 2 jugadores | Más de 10 minutos de tiempo de juego",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992527+00:00"
   },
   "ECI:A201235759": {
     "name": "Lata Pokémon Jcc Bandai Modelos Surtidos",
     "status": "compra_directa",
     "stock": null,
-    "price": "34,99 €"
+    "price": "34,99 €",
+    "first_seen": "2026-08-25T20:27:54.285297+00:00"
   },
   "ECI:A201235763": {
     "name": "Sobre de mejora Megaevolucion Oscuridad Absoluta Pokémon JCC Bandai Modelos surtidos",
     "status": "compra_directa",
     "stock": null,
-    "price": "5,99 €"
+    "price": "5,99 €",
+    "first_seen": "2026-08-25T20:27:54.285302+00:00"
   },
   "ECI:A201235760": {
     "name": "Caja de entrenador Elite Oscuridad Absoluta Pokemon JCC Bandai",
     "status": "compra_directa",
     "stock": null,
-    "price": "69,99 €"
+    "price": "69,99 €",
+    "first_seen": "2026-08-25T20:27:54.285306+00:00"
   },
   "ECI:A200971037": {
     "name": "Caja Pokémon Mega-Greninja ex . JCC Pokémon Bandai",
     "status": "compra_directa",
     "stock": null,
-    "price": "59,99 €"
+    "price": "59,99 €",
+    "first_seen": "2026-08-25T20:27:54.285310+00:00"
   },
   "ECI:A201235761": {
     "name": "Pack de tres sobres Megaevolucion Oscuridad Absoluta Pokémon JCC Bandai",
     "status": "compra_directa",
     "stock": null,
-    "price": "19,99 €"
+    "price": "19,99 €",
+    "first_seen": "2026-08-25T20:27:54.285314+00:00"
   },
   "ECI:A200971013": {
     "name": "Sobre cartas Pokémon Expansion Juntos de Aventuras Pokémon Bandai Modelos surtidos",
     "status": "compra_directa",
     "stock": null,
-    "price": "5,99 €"
+    "price": "5,99 €",
+    "first_seen": "2026-08-25T20:27:54.285317+00:00"
   },
   "ECI:A200804711": {
     "name": "LATA MEGA EX JCC Pokémon Bandai Modelos surtidos",
     "status": "compra_directa",
     "stock": null,
-    "price": "34,99 €"
+    "price": "34,99 €",
+    "first_seen": "2026-08-25T20:27:54.285331+00:00"
   },
   "ECI:A200278977": {
     "name": "Juego de cartas Caja de Entrenador Élite Pokémon",
     "status": "compra_directa",
     "stock": null,
-    "price": "69,99 €"
+    "price": "69,99 €",
+    "first_seen": "2026-08-25T20:27:54.285320+00:00"
   },
   "ECI:A200066781": {
     "name": "Baraja Combate de Liga Pokémon Bandai",
     "status": "compra_directa",
     "stock": null,
-    "price": "49,99 €"
+    "price": "49,99 €",
+    "first_seen": "2026-08-25T20:27:54.285324+00:00"
   },
   "ECI:A200805922": {
     "name": "Caja Colección Premium Mega-Zygarde EX JCC Pokémon Bandai",
     "status": "compra_directa",
     "stock": null,
-    "price": "59,99 €"
+    "price": "59,99 €",
+    "first_seen": "2026-08-25T20:27:54.285327+00:00"
   },
   "ECI:A200971009": {
     "name": "Sobres Cartas Pokémon. Expansión Evoluciones En Paldea Pokémon Bandai modelos surtidos",
@@ -817,37 +927,74 @@
   "ECI:A200971012": {
     "name": "Caja Primer Compañero Colección Ilustración Serie 2 Pokémon Bandai",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:52.784354+00:00"
   },
   "ECI:A52662336": {
     "name": "Baraja combate Deluxe Pokémon Bandai modelos surtidos",
     "status": "compra_directa",
     "stock": null,
-    "price": "31,99 €"
+    "price": "31,99 €",
+    "first_seen": "2026-08-25T20:27:54.285334+00:00"
   },
   "UK:B0HBWQGBJ4": {
     "name": "Pokémon TCG: 2-Pack Blister (2 Boosters & Foil Promo Card)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254894+00:00"
   },
   "UK:B0H5KSR4MS": {
     "name": "Pokémon TCG: Mega Forces Tin - Mega Zeraora ex (4 boosters & 1 foil promo card)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254912+00:00"
   },
   "UK:B0H5KP51PK": {
     "name": "Pokémon TCG: Mega Forces Tin - Mega Darkrai ex (4 boosters & 1 foil promo card)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254908+00:00"
   },
   "UK:B0H5KK39B3": {
     "name": "Pokémon TCG: Mega Forces Tin - Mega Dragonite ex (4 boosters & 1 foil promo card)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:25.254845+00:00"
   },
   "US:B0H77W4411": {
     "name": "Pokémon TCG: Colección de carteles de celebración 30",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:44.992512+00:00"
+  },
+  "ES:B0H1HJGYVV": {
+    "name": "Pokémon: Colección Ilustración Primer Compañero de JCC Pokémon (Serie 2) (3 Cartas de promoción, 2 Sobres de Mejora y 1 Hoja con Pegatinas)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:15.542140+00:00"
+  },
+  "ES:B0H9S8GX7L": {
+    "name": "Pokémon: Lata Megapotencia: Mega-Darkrai ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:15.542158+00:00"
+  },
+  "ES:B0H9SKZKGV": {
+    "name": "Pokémon: Lata Megapotencia: Mega-Dragonite ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:15.542162+00:00"
+  },
+  "ES:B0H9SB97F7": {
+    "name": "Pokémon: Lata Megapotencia: Mega-Zeraora ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:15.542166+00:00"
+  },
+  "ES:B0DNN99WQV": {
+    "name": "Pokémon Lote de Paquetes de Mejora de Escarlata y Púrpura-Chispas Fulgurantes de JCC Pokémon (6 Paquetes de Mejora)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-25T20:27:15.542172+00:00"
   }
 }
