@@ -1,0 +1,81 @@
+name: Check TCG Accessories Stock
+
+on:
+  schedule:
+    # Una vez al día — a diferencia del stock de TCG, los accesorios no
+    # generan avisos de Telegram, así que no hace falta más frecuencia.
+    - cron: '0 6 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: check-accessories
+  cancel-in-progress: false
+
+jobs:
+  check-accessories:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          patchright install --with-deps chromium
+
+      - name: Restore Amazon cookies
+        env:
+          AMAZON_COOKIES_JSON: ${{ secrets.AMAZON_COOKIES_JSON }}
+        run: |
+          if [ -n "$AMAZON_COOKIES_JSON" ]; then
+            echo "$AMAZON_COOKIES_JSON" > amazon_cookies.json
+          fi
+
+      - name: Run accessories check
+        env:
+          # check_stock.py (importado por check_accessories.py) requiere
+          # estas variables al cargarse, aunque este script nunca envía
+          # nada a Telegram.
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: xvfb-run -a python check_accessories.py
+
+      - name: Publish accessories snapshot to Where's That Stock
+        env:
+          WHERESTHATSTOCK_TOKEN: ${{ secrets.WHERESTHATSTOCK_TOKEN }}
+        run: |
+          if [ -f accesorios_snapshot.json ]; then
+            git clone https://x-access-token:${WHERESTHATSTOCK_TOKEN}@github.com/enkairito/wheresthatstock.git /tmp/wheresthatstock
+            cp accesorios_snapshot.json /tmp/wheresthatstock/accesorios.json
+            cd /tmp/wheresthatstock
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add accesorios.json
+            if git diff --cached --quiet; then
+              echo "No changes to publish"
+            else
+              git commit -m "chore: update accessories snapshot"
+              git push
+            fi
+          fi
+
+      - name: Commit updated state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state_accesorios.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update accessories state"
+            git push
+          fi
