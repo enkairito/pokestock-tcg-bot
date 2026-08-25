@@ -160,7 +160,7 @@
   },
   "US:B0F2GZJ3TZ": {
     "name": "Pokemon TCG: Scarlet & Violet - Destined Rivals Caja Expositora de Sobres - 36 Paquetes",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null
   },
   "US:B0829FT44S": {
@@ -260,7 +260,7 @@
   },
   "US:B0GR6N18F6": {
     "name": "Pokémon TCG: Caja de entrenamiento de élite Mega Evolution—Chaos Rising",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null
   },
   "US:B0GRCDKMSW": {
@@ -550,7 +550,7 @@
   },
   "ES:B0H5KLFD8M": {
     "name": "Pokémon: Colección Ilustración Primer Compañero Serie 3 (3 Cartas de promoción, 2 Sobres de Mejora y 1 Hoja con Pegatinas)",
-    "status": "invitacion",
+    "status": "compra_directa",
     "stock": null
   },
   "ES:B0GYSGQ9R8": {
