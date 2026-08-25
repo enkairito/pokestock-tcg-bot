@@ -454,7 +454,11 @@ async def discover_products(page, label, url, marketplace):
             // El precio tachado ("Precio mediano") a veces trae "null" en el
             // span accesible (.a-offscreen) y el valor real solo está en el
             // span visible (aria-hidden) hermano — probar ambos.
-            const originalPriceBox = el.querySelector('[data-cy="price-recipe"] .a-text-price');
+            // OJO: no basta con ".a-text-price" — el precio por unidad
+            // ("0,04 €/unidad" en packs grandes) usa esa misma clase, y sin
+            // este filtro se colaba como si fuera el precio anterior. El
+            // precio tachado real siempre lleva data-a-strike="true".
+            const originalPriceBox = el.querySelector('[data-cy="price-recipe"] .a-text-price[data-a-strike="true"]');
             let originalPrice = null;
             if (originalPriceBox) {
                 const offscreen = originalPriceBox.querySelector('.a-offscreen');
