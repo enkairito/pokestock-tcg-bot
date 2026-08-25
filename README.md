@@ -6,7 +6,7 @@ su stock), envía un aviso al grupo de Telegram **PokéStockTCG** con foto,
 precio, stock y enlace de afiliado. También publica un snapshot de todos los
 productos rastreados para la web pública
 [**Where's That Stock**](https://github.com/enkairito/wheresthatstock)
-(https://enkairito.github.io/wheresthatstock/).
+(https://wheresthatstock.com/).
 
 Para el contexto completo de decisiones/arquitectura/issues abiertas (útil
 para retomar el trabajo desde otro ordenador), ver [`CONTEXT.md`](CONTEXT.md).

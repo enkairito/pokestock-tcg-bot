@@ -16,7 +16,7 @@ Dos repos conectados:
   disponible o baja el stock.
 - **[`wheresthatstock`](https://github.com/enkairito/wheresthatstock)**
   (público): web estática en GitHub Pages
-  (https://enkairito.github.io/wheresthatstock/) que muestra todos los
+  (https://wheresthatstock.com/) que muestra todos los
   productos rastreados. Se alimenta de `products.json`, que este repo
   publica automáticamente en cada ejecución del workflow (vía un PAT de
   ámbito reducido, secret `WHERESTHATSTOCK_TOKEN`).

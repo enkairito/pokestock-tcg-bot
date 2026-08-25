@@ -113,7 +113,7 @@ STATUS_COPY = {
     "invitacion": ("🎟️ <b>¡Disponible por invitación! #Invitación</b>", "Solicitar invitación"),
 }
 
-WEBSITE_URL = "https://enkairito.github.io/wheresthatstock/"
+WEBSITE_URL = "https://wheresthatstock.com/"
 STATE_FILE = Path(__file__).parent / "state.json"
 SNAPSHOT_FILE = Path(__file__).parent / "products_snapshot.json"
 DEBUG_DIR = Path(__file__).parent / "debug"
