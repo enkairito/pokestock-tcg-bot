@@ -89,7 +89,7 @@
     "name": "Pokémon TCG: Mega Evolución — Paquete de refuerzo del aumento del caos",
     "status": "compra_directa",
     "stock": null,
-    "price": "40,92 €",
+    "price": "38,53 €",
     "first_seen": "2026-08-25T20:27:54.285216+00:00"
   },
   "US:B0GYVHLP4L": {
@@ -196,9 +196,8 @@
   },
   "US:B0C6B6V2VK": {
     "name": "Pokémon TCG: Paquete Potenciador Sellado de Fábrica Auténtico (¡Incluye Paquete de Tarjetas Misterio - V/VMAX 1 en 3 - ¡Soporte de Tarjeta Protector Gratis como Bonificación!)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "10,96 €",
     "first_seen": "2026-08-25T22:26:23.259713+00:00"
   },
   "US:B0F2GZJ3TZ": {
@@ -804,8 +803,9 @@
   },
   "US:B0BZTL5393": {
     "name": "Pokémon TCG: Scarlet & Violet - Caja de entrenamiento de élite Paldea Evolved",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "235,05 €",
     "first_seen": "2026-08-25T20:27:44.992505+00:00"
   },
   "US:B0H78BB9TY": {
