@@ -95,7 +95,7 @@
   },
   "US:B0DYR8D7YC": {
     "name": "Pokémon TCG: Colección Súper Premium de Evoluciones Prismáticas Escarlata y Violeta",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null
   },
   "US:B0GV6WRPRV": {
@@ -515,7 +515,7 @@
   },
   "ES:B0GSSQYPK3": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
-    "status": "no_disponible",
+    "status": "invitacion",
     "stock": null
   },
   "ES:B0GSSJ9RB1": {
@@ -550,8 +550,8 @@
   },
   "ES:B0H5KLFD8M": {
     "name": "Pokémon: Colección Ilustración Primer Compañero Serie 3 (3 Cartas de promoción, 2 Sobres de Mejora y 1 Hoja con Pegatinas)",
-    "status": "compra_directa",
-    "stock": "5"
+    "status": "invitacion",
+    "stock": null
   },
   "ES:B0GYSGQ9R8": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Gallade y Goomy de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
