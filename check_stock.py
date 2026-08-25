@@ -276,6 +276,7 @@ def save_products_snapshot(products):
                 "status": info["status"],
                 "stock": info.get("stock"),
                 "link": info["link"],
+                "first_seen": info.get("first_seen"),
             }
             for info in products.values()
         ],
@@ -666,10 +667,13 @@ async def main():
                 if out_of_stock:
                     print(f"⏭️ [{marketplace['code']}] Omitiendo {len(out_of_stock)} productos agotados de la web (pero sí se actualiza su estado, para poder detectar el próximo restock).")
                     for asin in out_of_stock:
-                        state[f"{marketplace['code']}:{asin}"] = {
+                        key = f"{marketplace['code']}:{asin}"
+                        prev_first_seen = state.get(key, {}).get("first_seen")
+                        state[key] = {
                             "name": marketplace_products[asin]["name"],
                             "status": "no_disponible",
                             "stock": None,
+                            "first_seen": prev_first_seen or datetime.now(timezone.utc).isoformat(),
                         }
                         del marketplace_products[asin]
 
@@ -703,10 +707,13 @@ async def main():
         if eci_out_of_stock:
             print(f"⏭️ [ECI] Omitiendo {len(eci_out_of_stock)} productos agotados de la web (pero sí se actualiza su estado, para poder detectar el próximo restock).")
             for product_id in eci_out_of_stock:
-                state[f"ECI:{product_id}"] = {
+                key = f"ECI:{product_id}"
+                prev_first_seen = state.get(key, {}).get("first_seen")
+                state[key] = {
                     "name": eci_products[product_id]["name"],
                     "status": "no_disponible",
                     "stock": None,
+                    "first_seen": prev_first_seen or datetime.now(timezone.utc).isoformat(),
                 }
                 del eci_products[product_id]
 
@@ -741,6 +748,8 @@ async def main():
         prev_status = prev.get("status")
         prev_stock = prev.get("stock")
         prev_price = prev.get("price")
+        first_seen = prev.get("first_seen") or datetime.now(timezone.utc).isoformat()
+        info["first_seen"] = first_seen
 
         status_changed = status in ("compra_directa", "invitacion") and status != prev_status
         stock_decreased = (
@@ -820,7 +829,13 @@ async def main():
         if send_failed:
             print(f"⚠️ No se actualiza el estado de '{name}' — se reintentará el aviso en la próxima ejecución.")
         else:
-            state[key] = {"name": name, "status": status, "stock": info.get("stock"), "price": info.get("price")}
+            state[key] = {
+                "name": name,
+                "status": status,
+                "stock": info.get("stock"),
+                "price": info.get("price"),
+                "first_seen": first_seen,
+            }
 
     save_state(state)
     save_products_snapshot(products)
