@@ -129,7 +129,7 @@
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
     "status": "compra_directa",
     "stock": null,
-    "price": "93,78 €"
+    "price": "96,73 €"
   },
   "US:B0GFZV1ZVV": {
     "name": "Pokémon TCG: Caja de Entrenador Élite de Mega Evolución—Orden Perfecta",
@@ -209,7 +209,8 @@
   "US:B0FH6KRSX8": {
     "name": "Pokemon TCG Mega Evolutions 1 Caja de Entrenador Élite",
     "status": "compra_directa",
-    "stock": null
+    "stock": null,
+    "price": "125,11 €"
   },
   "US:B0DSLY7DZZ": {
     "name": "Pokemon TCG: Caja de entrenador de élite Viaje Juntos Escarlata y Violeta",
@@ -307,7 +308,7 @@
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
     "status": "compra_directa",
     "stock": null,
-    "price": "35,88 €"
+    "price": "35,66 €"
   },
   "US:B0GGCCLCJM": {
     "name": "Pokemon TCG: Mega Evolutions - Blister de 3 Paquetes Orden Perfecta (Chikorita)",
@@ -595,9 +596,9 @@
   },
   "ES:B0H5KLFD8M": {
     "name": "Pokémon: Colección Ilustración Primer Compañero Serie 3 (3 Cartas de promoción, 2 Sobres de Mejora y 1 Hoja con Pegatinas)",
-    "status": "compra_directa",
+    "status": "invitacion",
     "stock": null,
-    "price": "28,98 €"
+    "price": "17,99 €"
   },
   "ES:B0GYSGQ9R8": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Gallade y Goomy de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -821,5 +822,25 @@
     "status": "compra_directa",
     "stock": null,
     "price": "31,99 €"
+  },
+  "UK:B0HBWQGBJ4": {
+    "name": "Pokémon TCG: 2-Pack Blister (2 Boosters & Foil Promo Card)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "UK:B0H5KSR4MS": {
+    "name": "Pokémon TCG: Mega Forces Tin - Mega Zeraora ex (4 boosters & 1 foil promo card)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "UK:B0H5KP51PK": {
+    "name": "Pokémon TCG: Mega Forces Tin - Mega Darkrai ex (4 boosters & 1 foil promo card)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "UK:B0H5KK39B3": {
+    "name": "Pokémon TCG: Mega Forces Tin - Mega Dragonite ex (4 boosters & 1 foil promo card)",
+    "status": "no_disponible",
+    "stock": null
   }
 }
