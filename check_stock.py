@@ -154,6 +154,23 @@ def is_excluded_by_name(name):
     return any(keyword in name_lower for keyword in EXCLUDED_NAME_KEYWORDS)
 
 
+def merge_product_record(existing, new):
+    """Cuando el mismo producto aparece en varias páginas de la tienda,
+    Amazon a veces muestra precio/estado distintos según el widget (visto
+    con Colección Primer Compañero Serie 3: 17,99€ invitación en la ficha
+    individual vs 28,98€ compra directa en la tarjeta de "Novedades").
+    Nos quedamos con el registro completo (precio+estado+stock) de la
+    página con el precio más bajo, para no mezclar campos de fuentes
+    distintas."""
+    if existing is None:
+        return new
+    existing_price = price_to_float(existing.get("price"))
+    new_price = price_to_float(new.get("price"))
+    if new_price is not None and (existing_price is None or new_price < existing_price):
+        return new
+    return existing if existing_price is not None else new
+
+
 def determine_status(has_buy_signal, text_lower, marketplace):
     """Regla de estado compartida entre discover_products (tarjetas de
     tienda) y check_single_product (ficha individual): botón de compra
@@ -588,7 +605,8 @@ async def main():
                 try:
                     page_products, page_fallback = await discover_products(page, label, url, marketplace)
                     print(f"📦 [{marketplace['code']}/{label}] {len(page_products)} productos encontrados")
-                    marketplace_products.update(page_products)
+                    for asin, info in page_products.items():
+                        marketplace_products[asin] = merge_product_record(marketplace_products.get(asin), info)
                     fallback_asins.update(page_fallback)
                 except Exception as e:
                     print(f"❌ No se pudo cargar la página de la tienda ({marketplace['code']}/{label}): {e!r}")
