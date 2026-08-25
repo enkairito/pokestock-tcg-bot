@@ -193,15 +193,28 @@ def determine_status(has_buy_signal, text_lower, marketplace):
     return "no_disponible"
 
 
+EUR_PREFIX_RE = re.compile(r"^EUR\s*([\d,]+)\.(\d{2})$")
+
+
 def clean_price(value):
     """Amazon a veces renderiza el precio tachado como el texto literal
     'null' cuando el producto no tiene precio de referencia (visto en
-    Amazon.co.uk). Lo tratamos como si no hubiera precio."""
+    Amazon.co.uk). Lo tratamos como si no hubiera precio.
+
+    Amazon UK/US a veces muestran el precio en euros con formato inglés
+    ("EUR 171.40", visto el 2026-08-25 — probablemente la sesión tiene
+    guardada esa preferencia de divisa) en vez del $/£ nativo. Lo
+    normalizamos al mismo formato "171,40 €" que usamos en el resto del
+    sitio, para que se vea consistente y price_to_float() lo pueda parsear."""
     if not value:
         return None
     value = value.strip()
     if not value or value.lower() == "null":
         return None
+    eur_match = EUR_PREFIX_RE.match(value)
+    if eur_match:
+        integer_part = eur_match.group(1).replace(",", "")
+        return f"{integer_part},{eur_match.group(2)} €"
     return value
 
 PRICE_NUMBER_RE = re.compile(r"(\d+(?:\.\d{3})*),(\d{2})")
