@@ -77,7 +77,7 @@
     "name": "Pokémon TCG: Mega Evolución — Paquete de refuerzo del aumento del caos",
     "status": "compra_directa",
     "stock": null,
-    "price": "42,82 €"
+    "price": "40,76 €"
   },
   "US:B0GYVHLP4L": {
     "name": "Pokémon TCG: Mega Evolution—Caja de entrenador Elite Pitch Black",
@@ -229,7 +229,7 @@
     "name": "Pokémon TCG: Caja de entrenador de élite Espada y Escudo Tempestad Plateada",
     "status": "compra_directa",
     "stock": null,
-    "price": "164,45 €"
+    "price": "164,50 €"
   },
   "US:B0DFBGYFD3": {
     "name": "Pokémon TCG: Escarlata y Violeta - Caja de Exhibición de Booster Surging Sparks",
@@ -239,9 +239,8 @@
   },
   "US:B09CLGX546": {
     "name": "Juego de cartas coleccionables de Pokémon: SAS8- Caja para entrenador élite Golpe Fusión",
-    "status": "compra_directa",
-    "stock": null,
-    "price": "317,09 €"
+    "status": "no_disponible",
+    "stock": null
   },
   "US:B0BSNXK3H7": {
     "name": "Pokémon TCG: Estuche de Entrenador Élite Scarlet & Violet (Miraidon Púrpura o Koraidon Rojo, Color Aleatorio)",
@@ -748,61 +747,61 @@
     "name": "Lata Pokémon Jcc Bandai Modelos Surtidos",
     "status": "compra_directa",
     "stock": null,
-    "price": null
+    "price": "34,99 €"
   },
   "ECI:A201235763": {
     "name": "Sobre de mejora Megaevolucion Oscuridad Absoluta Pokémon JCC Bandai Modelos surtidos",
     "status": "compra_directa",
     "stock": null,
-    "price": null
+    "price": "5,99 €"
   },
   "ECI:A201235760": {
     "name": "Caja de entrenador Elite Oscuridad Absoluta Pokemon JCC Bandai",
     "status": "compra_directa",
     "stock": null,
-    "price": null
+    "price": "69,99 €"
   },
   "ECI:A200971037": {
     "name": "Caja Pokémon Mega-Greninja ex . JCC Pokémon Bandai",
     "status": "compra_directa",
     "stock": null,
-    "price": null
+    "price": "59,99 €"
   },
   "ECI:A201235761": {
     "name": "Pack de tres sobres Megaevolucion Oscuridad Absoluta Pokémon JCC Bandai",
     "status": "compra_directa",
     "stock": null,
-    "price": null
+    "price": "19,99 €"
   },
   "ECI:A200971013": {
     "name": "Sobre cartas Pokémon Expansion Juntos de Aventuras Pokémon Bandai Modelos surtidos",
     "status": "compra_directa",
     "stock": null,
-    "price": null
+    "price": "5,99 €"
   },
   "ECI:A200804711": {
     "name": "LATA MEGA EX JCC Pokémon Bandai Modelos surtidos",
     "status": "compra_directa",
     "stock": null,
-    "price": null
+    "price": "34,99 €"
   },
   "ECI:A200278977": {
     "name": "Juego de cartas Caja de Entrenador Élite Pokémon",
     "status": "compra_directa",
     "stock": null,
-    "price": null
+    "price": "69,99 €"
   },
   "ECI:A200066781": {
     "name": "Baraja Combate de Liga Pokémon Bandai",
     "status": "compra_directa",
     "stock": null,
-    "price": null
+    "price": "49,99 €"
   },
   "ECI:A200805922": {
     "name": "Caja Colección Premium Mega-Zygarde EX JCC Pokémon Bandai",
     "status": "compra_directa",
     "stock": null,
-    "price": null
+    "price": "59,99 €"
   },
   "ECI:A200971009": {
     "name": "Sobres Cartas Pokémon. Expansión Evoluciones En Paldea Pokémon Bandai modelos surtidos",
@@ -824,7 +823,7 @@
     "name": "Baraja combate Deluxe Pokémon Bandai modelos surtidos",
     "status": "compra_directa",
     "stock": null,
-    "price": null
+    "price": "31,99 €"
   },
   "UK:B0HBWQGBJ4": {
     "name": "Pokémon TCG: 2-Pack Blister (2 Boosters & Foil Promo Card)",
