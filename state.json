@@ -71,13 +71,13 @@
     "name": "Pokémon TCG: Mega Lucario ex League Battle Deck (1 Ready-to-Play 60-Card Deck Including Mega Lucario ex)",
     "status": "compra_directa",
     "stock": null,
-    "price": "32,68 €"
+    "price": "31,51 €"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolución — Paquete de refuerzo del aumento del caos",
     "status": "compra_directa",
     "stock": null,
-    "price": "37,54 €"
+    "price": "38,78 €"
   },
   "US:B0GYVHLP4L": {
     "name": "Pokémon TCG: Mega Evolution—Caja de entrenador Elite Pitch Black",
@@ -258,9 +258,8 @@
   },
   "US:B08DN23BSM": {
     "name": "Pokemon TCG: Caja Entrenador Élite Camino de Campeones, multicolor",
-    "status": "compra_directa",
-    "stock": null,
-    "price": "252,80 €"
+    "status": "no_disponible",
+    "stock": null
   },
   "US:B0GWKCLH6G": {
     "name": "Pokémon TCG: Mega Moonlit Tin Mega Clefable",
@@ -455,7 +454,8 @@
   "US:B0G2FVLXVL": {
     "name": "Pokémon TCG: Colección del Día de Pokémon 2026",
     "status": "compra_directa",
-    "stock": null
+    "stock": null,
+    "price": "44,99 €"
   },
   "US:B0GV1JQFWC": {
     "name": "Pokemon TCG: Mega Evolución-Pedido Perfecto Pokemon Center Elite Trainer Box | PO PKC ETB | Promo exclusivo de Tyrunt | 11 paquetes de refuerzo",
