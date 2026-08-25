@@ -77,7 +77,7 @@
     "name": "Pokémon TCG: Mega Evolución — Paquete de refuerzo del aumento del caos",
     "status": "compra_directa",
     "stock": null,
-    "price": "40,82 €"
+    "price": "41,95 €"
   },
   "US:B0GYVHLP4L": {
     "name": "Pokémon TCG: Mega Evolution—Caja de entrenador Elite Pitch Black",
@@ -217,7 +217,7 @@
     "name": "Pokemon TCG: Caja de entrenador de élite Viaje Juntos Escarlata y Violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "143,16 €"
+    "price": "145,63 €"
   },
   "US:B0CGCVT5RR": {
     "name": "Pokémon TCG: Caja de entrenador élite de escarlata y violeta Paradox Rift",
@@ -811,8 +811,9 @@
   },
   "US:B0GG2BM9YQ": {
     "name": "Pokémon TCG: Primera Colección de Ilustraciones de Socios—Serie 1",
-    "status": "no_disponible",
-    "stock": null
+    "status": "compra_directa",
+    "stock": null,
+    "price": "60,99 €"
   },
   "ECI:A200971012": {
     "name": "Caja Primer Compañero Colección Ilustración Serie 2 Pokémon Bandai",
@@ -842,6 +843,11 @@
   },
   "UK:B0H5KK39B3": {
     "name": "Pokémon TCG: Mega Forces Tin - Mega Dragonite ex (4 boosters & 1 foil promo card)",
+    "status": "no_disponible",
+    "stock": null
+  },
+  "US:B0H77W4411": {
+    "name": "Pokémon TCG: Colección de carteles de celebración 30",
     "status": "no_disponible",
     "stock": null
   }
