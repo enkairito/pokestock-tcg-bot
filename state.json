@@ -89,7 +89,7 @@
     "name": "Pokémon TCG: Mega Evolución — Paquete de refuerzo del aumento del caos",
     "status": "compra_directa",
     "stock": null,
-    "price": "38,53 €",
+    "price": "37,93 €",
     "first_seen": "2026-08-25T20:27:54.285216+00:00"
   },
   "US:B0GYVHLP4L": {
@@ -101,8 +101,9 @@
   },
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Paquete de refuerzo de tono negro",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "42,82 €",
     "first_seen": "2026-08-25T20:27:44.992525+00:00"
   },
   "US:B0G3CV6Z9D": {
@@ -999,5 +1000,11 @@
     "status": "no_disponible",
     "stock": null,
     "first_seen": "2026-08-25T20:27:15.542172+00:00"
+  },
+  "US:B0B511GSJV": {
+    "name": "Pokemon TCG: SAS11 — Caja de Entrenador Élite Origen Perdido",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-26T05:34:08.543645+00:00"
   }
 }
