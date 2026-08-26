@@ -167,7 +167,8 @@
     "name": "Pokémon TCG: 3 paquetes de refuerzo y 1 lámina aleatoria | Incluye 3 paquetes blíster de cartas aleatorias y 1 tarjeta promocional holofoil empaquetada individualmente, 097712556710",
     "status": "compra_directa",
     "stock": null,
-    "price": "21,83 €"
+    "price": "21,83 €",
+    "first_seen": "2026-08-26T09:40:03.627551+00:00"
   },
   "US:B0BKGX74WP": {
     "name": "Juego de cartas coleccionables Pokemon sellado aleatorio, 3 paquetes de refuerzo 100% auténticos",
@@ -232,7 +233,7 @@
     "name": "Pokemon TCG: Scarlet & Violet - Caja de Entrenador Élite Destined Rivals - 9 Paquetes, Accesorios, Promo",
     "status": "compra_directa",
     "stock": null,
-    "price": "117,78 €",
+    "price": "117,87 €",
     "first_seen": "2026-08-25T20:27:54.285212+00:00"
   },
   "US:B0H2N248WM": {
@@ -330,9 +331,8 @@
   },
   "US:B0GR6N18F6": {
     "name": "Pokémon TCG: Caja de entrenamiento de élite Mega Evolution—Chaos Rising",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "77,06 €",
     "first_seen": "2026-08-25T20:27:44.992502+00:00"
   },
   "US:B0GRCDKMSW": {
@@ -356,8 +356,9 @@
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "36,82 €",
     "first_seen": "2026-08-25T20:27:44.992523+00:00"
   },
   "US:B0GGCCLCJM": {
