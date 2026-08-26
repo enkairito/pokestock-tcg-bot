@@ -233,7 +233,7 @@
     "name": "Pokemon TCG: Scarlet & Violet - Caja de Entrenador Élite Destined Rivals - 9 Paquetes, Accesorios, Promo",
     "status": "compra_directa",
     "stock": null,
-    "price": "117,73 €",
+    "price": "117,69 €",
     "first_seen": "2026-08-25T20:27:54.285212+00:00"
   },
   "US:B0H2N248WM": {
@@ -253,7 +253,7 @@
     "name": "Pokemon TCG: Caja de entrenador de élite Viaje Juntos Escarlata y Violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "145,63 €",
+    "price": "143,16 €",
     "first_seen": "2026-08-25T20:27:54.285269+00:00"
   },
   "US:B0CGCVT5RR": {
@@ -332,9 +332,8 @@
   },
   "US:B0GR6N18F6": {
     "name": "Pokémon TCG: Caja de entrenamiento de élite Mega Evolution—Chaos Rising",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "77,06 €",
     "first_seen": "2026-08-25T20:27:44.992502+00:00"
   },
   "US:B0GRCDKMSW": {
@@ -358,9 +357,8 @@
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "36,82 €",
     "first_seen": "2026-08-25T20:27:44.992523+00:00"
   },
   "US:B0GGCCLCJM": {
@@ -548,7 +546,8 @@
   "UK:B0G72SPRP6": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes - Mega Meganium ex Box (1 Foil Promo Card, 1 Oversize Lenticular Card and 4 Booster Packs)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-26T12:48:53.358741+00:00"
   },
   "US:B0CDXKC4WS": {
     "name": "Pokémon - Charmander SVP044 - Obsidian Flames ETB Black Star Promo - Arte completo",
@@ -762,7 +761,8 @@
   "UK:B0GG2BM9YQ": {
     "name": "Pokémon TCG: First Partner Illustration Collection—Series 1 (3 Promo Cards, 2 Booster Packs & 1 Sticker Sheet)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-26T12:48:53.358783+00:00"
   },
   "UK:B0GWKCLH6G": {
     "name": "Pokémon TCG: Mega Moonlit Tin - Mega Clefable ex (4 boosters & 1 foil promo card)",
@@ -791,7 +791,8 @@
   "UK:B0GFZV1ZVV": {
     "name": "Pokémon TCG: Mega Evolution—Perfect Order Elite Trainer Box (1 Full-Art Promo Card, 9 Booster Packs & Premium Accessories)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-26T12:48:53.358777+00:00"
   },
   "UK:B0GWK2Z6QJ": {
     "name": "Pokémon TCG: Lumiose City Mini Tin: Salamence & Litleo (2 booster packs, 1 art card and 1 sticker sheet)",
@@ -815,7 +816,7 @@
     "name": "Pokémon TCG: Scarlet & Violet - Caja de entrenamiento de élite Paldea Evolved",
     "status": "compra_directa",
     "stock": null,
-    "price": "235,73 €",
+    "price": "235,05 €",
     "first_seen": "2026-08-25T20:27:44.992505+00:00"
   },
   "US:B0H78BB9TY": {
