@@ -96,7 +96,7 @@
     "name": "Pokémon TCG: Mega Evolution—Caja de entrenador Elite Pitch Black",
     "status": "compra_directa",
     "stock": null,
-    "price": "70,31 €",
+    "price": "72,85 €",
     "first_seen": "2026-08-25T20:27:44.992518+00:00"
   },
   "US:B0GYTRYV7P": {
@@ -117,7 +117,7 @@
     "name": "Pokémon TCG: Colección de Ilustraciones de Primera Partner —Serie 2",
     "status": "compra_directa",
     "stock": null,
-    "price": "35,93 €",
+    "price": "32,13 €",
     "first_seen": "2026-08-25T20:27:44.992532+00:00"
   },
   "US:B0GG11K25W": {
@@ -233,7 +233,7 @@
     "name": "Pokemon TCG: Scarlet & Violet - Caja de Entrenador Élite Destined Rivals - 9 Paquetes, Accesorios, Promo",
     "status": "compra_directa",
     "stock": null,
-    "price": "117,77 €",
+    "price": "117,75 €",
     "first_seen": "2026-08-25T20:27:54.285212+00:00"
   },
   "US:B0H2N248WM": {
@@ -321,7 +321,7 @@
     "name": "Pokémon TCG: Scarlet & Violet - Paquete de refuerzo Destined Rivals - 6 paquetes",
     "status": "compra_directa",
     "stock": null,
-    "price": "76,26 €",
+    "price": "77,13 €",
     "first_seen": "2026-08-25T20:27:54.285254+00:00"
   },
   "US:B0G3CY83L5": {
@@ -332,15 +332,16 @@
   },
   "US:B0GR6N18F6": {
     "name": "Pokémon TCG: Caja de entrenamiento de élite Mega Evolution—Chaos Rising",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "77,21 €",
     "first_seen": "2026-08-25T20:27:44.992502+00:00"
   },
   "US:B0GRCDKMSW": {
     "name": "Pokémon TCG: MegaLucario ex League Battle Deck",
     "status": "compra_directa",
     "stock": null,
-    "price": "18,40 €",
+    "price": "19,17 €",
     "first_seen": "2026-08-26T06:45:55.328155+00:00"
   },
   "UK:B0G72PSB7D": {
@@ -370,7 +371,7 @@
     "name": "Pokémon TCG: Mega Evolución: Héroes Ascendidos Mega Meganio/Emboar/Feraligatr ex Box",
     "status": "compra_directa",
     "stock": null,
-    "price": "63,44 €",
+    "price": "63,49 €",
     "first_seen": "2026-08-25T20:27:54.285250+00:00"
   },
   "UK:B0GYVHLP4L": {
@@ -1026,5 +1027,11 @@
     "status": "no_disponible",
     "stock": null,
     "first_seen": "2026-08-26T11:29:24.180808+00:00"
+  },
+  "US:B0DNVHPWTF": {
+    "name": "Pokemon TCG: colección Blooming Waters 151 Premium - 12 paquetes, promociones",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-26T14:43:23.760513+00:00"
   }
 }
