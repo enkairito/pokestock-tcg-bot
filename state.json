@@ -89,7 +89,7 @@
     "name": "Pokémon TCG: Mega Evolución — Paquete de refuerzo del aumento del caos",
     "status": "compra_directa",
     "stock": null,
-    "price": "37,93 €",
+    "price": "37,74 €",
     "first_seen": "2026-08-25T20:27:54.285216+00:00"
   },
   "US:B0GYVHLP4L": {
@@ -103,7 +103,7 @@
     "name": "Pokémon TCG: Mega Evolution—Paquete de refuerzo de tono negro",
     "status": "compra_directa",
     "stock": null,
-    "price": "42,82 €",
+    "price": "42,85 €",
     "first_seen": "2026-08-25T20:27:44.992525+00:00"
   },
   "US:B0G3CV6Z9D": {
@@ -147,7 +147,8 @@
   "US:B0GG16Q4X1": {
     "name": "Pokémon TCG: Mega Evolution: caja de presentación de refuerzo de pedido perfecto",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-26T07:45:04.138084+00:00"
   },
   "US:B0DN98RVZM": {
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
@@ -231,7 +232,7 @@
     "name": "Pokemon TCG: Scarlet & Violet - Caja de Entrenador Élite Destined Rivals - 9 Paquetes, Accesorios, Promo",
     "status": "compra_directa",
     "stock": null,
-    "price": "117,87 €",
+    "price": "117,81 €",
     "first_seen": "2026-08-25T20:27:54.285212+00:00"
   },
   "US:B0H2N248WM": {
@@ -329,8 +330,9 @@
   },
   "US:B0GR6N18F6": {
     "name": "Pokémon TCG: Caja de entrenamiento de élite Mega Evolution—Chaos Rising",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "77,06 €",
     "first_seen": "2026-08-25T20:27:44.992502+00:00"
   },
   "US:B0GRCDKMSW": {
@@ -367,7 +369,7 @@
     "name": "Pokémon TCG: Mega Evolución: Héroes Ascendidos Mega Meganio/Emboar/Feraligatr ex Box",
     "status": "compra_directa",
     "stock": null,
-    "price": "63,64 €",
+    "price": "63,44 €",
     "first_seen": "2026-08-25T20:27:54.285250+00:00"
   },
   "UK:B0GYVHLP4L": {
