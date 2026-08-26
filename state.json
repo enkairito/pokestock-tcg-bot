@@ -27,13 +27,14 @@
   },
   "ES:B0G4NSB2J1": {
     "name": "Pokémon: Colección con Pegatinas Especiales de Megaevolución-Héroes Ascendentes: Gastly (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
-    "status": "invitacion"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-26T19:00:11.480927+00:00"
   },
   "ES:B0C648988J": {
     "name": "Pokémon: Colección Cyclizar ex",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "23,33 €",
     "first_seen": "2026-08-25T20:27:54.285127+00:00"
   },
   "ES:B0CJYK29Y9": {
@@ -192,14 +193,17 @@
   },
   "US:B001DIJ48C": {
     "name": "Pokémon TCG 3 paquetes de refuerzo, 30 cartas en total, 100% auténticas, raras aleatorias y holofoils, 3 paquetes de ampollas",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "23,15 €",
     "first_seen": "2026-08-25T20:27:44.992522+00:00"
   },
   "US:B0FLCWJ1VK": {
     "name": "Juego de cartas Pokemon MEGA High Class Pack Mega Dream ex Box",
     "status": "compra_directa",
-    "stock": null
+    "stock": null,
+    "price": "125,86 €",
+    "first_seen": "2026-08-26T19:00:55.275338+00:00"
   },
   "US:B0C6B6V2VK": {
     "name": "Pokémon TCG: Paquete Potenciador Sellado de Fábrica Auténtico (¡Incluye Paquete de Tarjetas Misterio - V/VMAX 1 en 3 - ¡Soporte de Tarjeta Protector Gratis como Bonificación!)",
@@ -234,7 +238,7 @@
     "name": "Pokemon TCG: Scarlet & Violet - Caja de Entrenador Élite Destined Rivals - 9 Paquetes, Accesorios, Promo",
     "status": "compra_directa",
     "stock": null,
-    "price": "117,69 €",
+    "price": "117,61 €",
     "first_seen": "2026-08-25T20:27:54.285212+00:00"
   },
   "US:B0H2N248WM": {
@@ -336,7 +340,7 @@
     "name": "Pokémon TCG: Caja de entrenamiento de élite Mega Evolution—Chaos Rising",
     "status": "compra_directa",
     "stock": null,
-    "price": "77,21 €",
+    "price": "75,07 €",
     "first_seen": "2026-08-25T20:27:44.992502+00:00"
   },
   "US:B0GRCDKMSW": {
@@ -704,7 +708,8 @@
   "ES:B0H9SQ7SQH": {
     "name": "Pokémon: Blíster de 2 Sobres de Mejora de JCC Pokémon (2 Sobres de Mejora y 1 Carta holográfica de promoción)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-26T19:00:11.480929+00:00"
   },
   "ES:B0GWDS3WTY": {
     "name": "Pokémon: Colección prémium Mega-Zygarde ex (1 Carta de promoción, 1 Carta de Gran tamaño con Efecto 3D, 1 Pegatina Especial y 8 Sobres de Mejora)",
@@ -817,9 +822,8 @@
   },
   "US:B0BZTL5393": {
     "name": "Pokémon TCG: Scarlet & Violet - Caja de entrenamiento de élite Paldea Evolved",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "235,25 €",
     "first_seen": "2026-08-25T20:27:44.992505+00:00"
   },
   "US:B0H78BB9TY": {
@@ -990,20 +994,23 @@
   },
   "ES:B0H9S8GX7L": {
     "name": "Pokémon: Lata Megapotencia: Mega-Darkrai ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
-    "status": "no_disponible",
+    "status": "invitacion",
     "stock": null,
+    "price": "24,99 €",
     "first_seen": "2026-08-25T20:27:15.542158+00:00"
   },
   "ES:B0H9SKZKGV": {
     "name": "Pokémon: Lata Megapotencia: Mega-Dragonite ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
-    "status": "no_disponible",
+    "status": "invitacion",
     "stock": null,
+    "price": "24,99 €",
     "first_seen": "2026-08-25T20:27:15.542162+00:00"
   },
   "ES:B0H9SB97F7": {
     "name": "Pokémon: Lata Megapotencia: Mega-Zeraora ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
-    "status": "no_disponible",
+    "status": "invitacion",
     "stock": null,
+    "price": "24,99 €",
     "first_seen": "2026-08-25T20:27:15.542166+00:00"
   },
   "ES:B0DNN99WQV": {
@@ -1035,5 +1042,41 @@
     "status": "no_disponible",
     "stock": null,
     "first_seen": "2026-08-26T14:43:23.760513+00:00"
+  },
+  "ES:B0G7JDFL9J": {
+    "name": "Pokémon: Colección Mega-Emboar ex de Megaevolución-Héroes Ascendentes (1 Carta holográfica de promoción, 1 Carta de Gran tamaño con Efecto 3D y 4 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-26T19:00:11.480898+00:00"
+  },
+  "ES:B0GMR6QZV6": {
+    "name": "Pokémon: Colección Ilustración Primer Compañero de JCC Pokémon (Serie 1) (3 Cartas de promoción, 2 Sobres de Mejora y 1 Hoja con Pegatinas)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-26T19:00:11.480924+00:00"
+  },
+  "ES:B0G7JFFSF4": {
+    "name": "Pokémon: Colección Erika de Megaevolución-Héroes Ascendentes (1 Carta holográfica de promoción, 1 Moneda y 2 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-26T19:00:11.480934+00:00"
+  },
+  "ES:B0G4NVYMTH": {
+    "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Héroes Ascendentes (6 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-26T19:00:11.480939+00:00"
+  },
+  "ES:B0G7JRZNBY": {
+    "name": "Pokémon: Colección Laureano de Megaevolución-Héroes Ascendentes (1 Carta holográfica de promoción, 1 Moneda y 2 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-26T19:00:11.480944+00:00"
+  },
+  "ES:B0G4NS7XT2": {
+    "name": "Pokémon: Colección con Pegatinas Especiales de Megaevolución-Héroes Ascendentes: Charmander (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-26T19:00:11.480946+00:00"
   }
 }
