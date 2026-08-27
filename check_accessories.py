@@ -14,6 +14,19 @@ from check_stock import (
     new_context,
 )
 
+# A diferencia de check_stock.py, aquí no podemos exigir "Pokémon" en el
+# nombre (is_relevant_by_name) — la mayoría de accesorios reales (fundas,
+# deck boxes...) son de marcas genéricas que nunca lo mencionan; ese filtro
+# borraría el catálogo entero. En su lugar, solo excluimos por marca/tipo de
+# producto obviamente ajeno, visto colándose en check_stock.py por el mismo
+# fallback de enlaces sueltos.
+IRRELEVANT_NAME_KEYWORDS = ["lego"]
+
+
+def is_excluded_irrelevant_by_name(name):
+    name_lower = (name or "").lower()
+    return any(keyword in name_lower for keyword in IRRELEVANT_NAME_KEYWORDS)
+
 # Reutiliza las mismas cookies de Amazon ES que check_stock.py — no hace
 # falta un fichero de cookies aparte, es la misma cuenta/dominio.
 ACCESORIOS_MARKETPLACE = {
@@ -102,12 +115,26 @@ async def main():
         fallback_asins -= marketplace_products.keys()
         if fallback_asins:
             print(f"🔎 Comprobando individualmente {len(fallback_asins)} accesorios sin datos en la tarjeta...")
+            skipped_irrelevant = 0
             for i, asin in enumerate(fallback_asins):
                 if i > 0:
                     await asyncio.sleep(2)
                 result = await check_single_product(page, asin, marketplace)
-                if result:
-                    marketplace_products[asin] = result
+                if not result:
+                    continue
+                # Mismo problema que en check_stock.py: estos ASIN vienen de
+                # un enlace suelto en la página (no de una tarjeta real), así
+                # que es el punto donde se cuelan widgets de "también te
+                # puede interesar" con productos totalmente ajenos. OJO: a
+                # diferencia de check_stock.py, aquí NO exigimos "Pokémon"
+                # en el nombre — la mayoría de accesorios reales (fundas,
+                # deck boxes...) son de marcas genéricas que no lo mencionan.
+                if is_excluded_irrelevant_by_name(result["name"]):
+                    skipped_irrelevant += 1
+                    continue
+                marketplace_products[asin] = result
+            if skipped_irrelevant:
+                print(f"⏭️ Omitiendo {skipped_irrelevant} accesorios ajenos encontrados por enlace suelto.")
 
         out_of_stock = {a for a, i in marketplace_products.items() if i["status"] == "no_disponible"}
         if out_of_stock:

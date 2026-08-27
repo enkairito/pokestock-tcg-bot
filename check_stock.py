@@ -1,4 +1,5 @@
 import asyncio
+import html
 import json
 import os
 import random
@@ -887,29 +888,35 @@ async def main():
         # siguen detectando y guardando en el estado/snapshot para la web,
         # pero no generan mensajes.
         if (status_changed or stock_decreased or price_decreased) and info["marketplace_code"] in ("ES", "ECI"):
-            link = info["link"]
+            # El nombre, el precio y (para ECI) el link vienen del scraping
+            # de Amazon/El Corte Inglés — datos externos que no controlamos
+            # — y el mensaje se manda con parse_mode: HTML, así que hay que
+            # escaparlos o un título de producto con '<'/'>'/'&' rompería el
+            # parseo (o, peor, colaría markup/enlaces falsos en el mensaje).
+            safe_name = html.escape(name)
+            link = html.escape(info["link"])
 
             hashtag, cta_emoji, cta_label = STATUS_COPY[status]
 
             price_change_line = "💸 <b>¡Bajada de precio!</b>" if price_decreased else ""
 
             if price_decreased:
-                price_line = f"💰 <s>{prev_price}</s> <b>{info['price']}</b>"
+                price_line = f"💰 <s>{html.escape(prev_price)}</s> <b>{html.escape(info['price'])}</b>"
             elif info["price"] and info["original_price"] and info["original_price"] != info["price"]:
-                price_line = f"💰 <s>{info['original_price']}</s> <b>{info['price']}</b>"
+                price_line = f"💰 <s>{html.escape(info['original_price'])}</s> <b>{html.escape(info['price'])}</b>"
             elif info["price"]:
-                price_line = f"💰 <b>{info['price']}</b>"
+                price_line = f"💰 <b>{html.escape(info['price'])}</b>"
             else:
                 price_line = ""
 
-            stock_line = f"📊 <b>SÓLO QUEDA(N) {info['stock']} EN STOCK</b>" if info.get("stock") else ""
+            stock_line = f"📊 <b>SÓLO QUEDA(N) {html.escape(str(info['stock']))} EN STOCK</b>" if info.get("stock") else ""
             cta = f'{cta_emoji} <b><a href="{link}">{cta_label}</a></b>'
 
             store_line = f"<b>{info['store_label']} {info['flag']} {hashtag}</b>"
             website_line = f'🌐 <a href="{WEBSITE_URL}">Ver todos los productos disponibles</a>'
 
             message = "\n\n".join(
-                part for part in [f"<b>{name}</b>", store_line, price_change_line, price_line, stock_line, cta] if part
+                part for part in [f"<b>{safe_name}</b>", store_line, price_change_line, price_line, stock_line, cta] if part
             )
             message += f"\n\n{website_line}"
             if DRY_RUN:
