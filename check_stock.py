@@ -33,7 +33,7 @@ MARKETPLACES = [
             ("Latas", "https://www.amazon.es/stores/page/3B2D9610-364D-4EDB-B35C-6B6886294B25"),
             ("Sobres", "https://www.amazon.es/stores/page/53D7A570-688A-4BE3-A88E-A2B3B4366336"),
             ("Cajas ETB", "https://www.amazon.es/stores/page/B6BBCF35-68EA-4F2C-8440-227644DCBAF1"),
-            ("Cajas de coleccionista", "https://www.amazon.es/stores/page/90B837D1-73B6-42CD-9DAF-8B2B12B49901"),
+            ("Cajas de Colección", "https://www.amazon.es/stores/page/90B837D1-73B6-42CD-9DAF-8B2B12B49901"),
             ("Otros", "https://www.amazon.es/stores/page/9DAE367E-008E-4F93-8D0A-6F556F2F77A0"),
             ("Colecciones premium", "https://www.amazon.es/stores/page/F25CACFF-2F58-430E-A6FF-0606896DD0FA"),
         ],
@@ -43,7 +43,7 @@ MARKETPLACES = [
         # Se usa para etiquetar cada producto con en qué categoría(s) de
         # Amazon aparece, para poder filtrar por ello en la web.
         "category_pages": {
-            "Latas", "Sobres", "Cajas ETB", "Cajas de coleccionista",
+            "Latas", "Sobres", "Cajas ETB", "Cajas de Colección",
             "Otros", "Colecciones premium",
         },
         "allow_individual_fallback": True,
@@ -935,6 +935,10 @@ async def main():
                 except Exception as e:
                     print(f"❌ Error enviando Telegram para {name}: {e!r}")
                     send_failed = True
+                # Espaciamos los envíos para no toparnos con el límite de
+                # velocidad de la API de Telegram cuando cambian de golpe
+                # muchos productos (visto con el lanzamiento de un set nuevo).
+                await asyncio.sleep(5)
 
         if send_failed:
             print(f"⚠️ No se actualiza el estado de '{name}' — se reintentará el aviso en la próxima ejecución.")
