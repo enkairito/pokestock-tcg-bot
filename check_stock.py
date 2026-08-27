@@ -4,6 +4,7 @@ import os
 import random
 import re
 import sys
+import unicodedata
 from collections import defaultdict
 from datetime import datetime, timezone
 from io import BytesIO
@@ -168,6 +169,38 @@ def is_excluded_by_name(name):
     aplica por igual a ES/UK/US."""
     name_lower = (name or "").lower()
     return any(keyword in name_lower for keyword in EXCLUDED_NAME_KEYWORDS)
+
+
+def _strip_accents(text):
+    return "".join(c for c in unicodedata.normalize("NFD", text) if unicodedata.category(c) != "Mn")
+
+
+# Pistas de categoría por nombre de producto, aplicadas a todas las tiendas
+# (a diferencia de "category_pages", que solo cubre lo que Amazon ES lista
+# en sus páginas de categoría). Se van añadiendo patrones a medida que se
+# detectan casos reales; cada patrón ya va sin acentos y en minúsculas.
+CATEGORY_NAME_HINTS = {
+    "Cajas ETB": ["caja entrenador elite", "elite trainer box"],
+}
+
+
+def categorize_by_name(name):
+    if not name:
+        return set()
+    text = _strip_accents(name.lower())
+    return {
+        category
+        for category, patterns in CATEGORY_NAME_HINTS.items()
+        if any(pattern in text for pattern in patterns)
+    }
+
+
+def assign_categories(name, page_categories=()):
+    """Combina las categorías detectadas por página de Amazon con las
+    detectadas por nombre. Si un producto no encaja en ninguna, se marca
+    como "Otros" en vez de dejarlo sin categoría."""
+    categories = set(page_categories) | categorize_by_name(name)
+    return sorted(categories) if categories else ["Otros"]
 
 
 STATUS_PRIORITY = {"compra_directa": 2, "invitacion": 1, "no_disponible": 0}
@@ -716,7 +749,7 @@ async def main():
                 info["store_label"] = marketplace["store_label"]
                 info["flag"] = marketplace["flag"]
                 info["link"] = f"https://www.{marketplace['domain']}/dp/{asin}?tag={marketplace['tag']}"
-                info["categories"] = sorted(asin_categories.get(asin, ()))
+                info["categories"] = assign_categories(info["name"], asin_categories.get(asin, ()))
                 products[f"{marketplace['code']}:{asin}"] = info
 
         eci_products = {}
@@ -757,6 +790,7 @@ async def main():
             info["store_label"] = ECI_STORE["store_label"]
             info["flag"] = ECI_STORE["flag"]
             info["link"] = info["url"]
+            info["categories"] = assign_categories(info["name"])
             products[f"ECI:{product_id}"] = info
 
         await browser.close()
