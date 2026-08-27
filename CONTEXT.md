@@ -158,6 +158,13 @@ texto literal `"null"` cuando el producto no tiene precio de referencia
   scraper todavía). El Corte Inglés (issue #2, vía Awin) también pendiente
   de aprobación — el scraper de ECI sí está implementado, pero con link
   directo sin tracking hasta que se apruebe.
+  - **Comprobado en Awin (2026-08-27):** sigue en estado "Pending Approval"
+    (ID de programa 13075). Aviso a tener en cuenta para cuando se apruebe:
+    "Payment Level: Exposure Level 2" — señal de que El Corte Inglés ha
+    superado su límite de crédito con Awin o no paga por domiciliación.
+    Tiempo medio de pago 88 días + validación de ventas a 60 días desde
+    el registro = ~4-5 meses hasta cobrar una venta real. No es motivo
+    para descartar el programa, pero no contar con él como ingreso rápido.
 - **Amazon USA: lanzada y en producción desde el 2026-08-10.** Anuncio
   enviado al grupo de Telegram, y el `workflow_dispatch` manual del mismo
   día (10:50 UTC) completó con éxito y ya mandó los avisos reales de los
