@@ -159,7 +159,7 @@ ASIN_VALID_RE = re.compile(r"^[A-Z0-9]{10}$")
 ASIN_HREF_RE = re.compile(r"/dp/([A-Z0-9]{10})")
 
 
-EXCLUDED_NAME_KEYWORDS = ["funda", "sleeve", "sleeves"]
+EXCLUDED_NAME_KEYWORDS = ["funda", "sleeve", "sleeves", "lego"]
 
 
 def is_excluded_by_name(name):
@@ -175,23 +175,43 @@ def _strip_accents(text):
     return "".join(c for c in unicodedata.normalize("NFD", text) if unicodedata.category(c) != "Mn")
 
 
+def is_relevant_by_name(name):
+    """Algunas páginas de la tienda (sobre todo las más pequeñas, con pocos
+    productos reales) traen widgets de Amazon tipo "también te puede
+    interesar" con productos totalmente ajenos (cargadores, LEGO, fundas de
+    cartas de otros juegos...). Esos ASIN sueltos se cuelan por el fallback
+    de enlaces /dp/ de discover_products() y, si tienen botón de compra, se
+    tratarían como stock nuevo real. Exigimos que el nombre mencione
+    "Pokémon" antes de aceptar cualquier producto, en vez de solo excluir
+    palabras concretas."""
+    return "pokemon" in _strip_accents((name or "").lower())
+
+
 # Pistas de categoría por nombre de producto, aplicadas a todas las tiendas
 # (a diferencia de "category_pages", que solo cubre lo que Amazon ES lista
 # en sus páginas de categoría). Se van añadiendo patrones a medida que se
-# detectan casos reales; cada patrón ya va sin acentos y en minúsculas.
+# detectan casos reales; son regex (sin distinguir mayúsculas/acentos, ya
+# que se comparan sobre el nombre sin acentos y con re.IGNORECASE).
 CATEGORY_NAME_HINTS = {
-    "Cajas ETB": ["caja entrenador elite", "elite trainer box"],
+    "Cajas ETB": [r"caja de entre\w*", r"caja entrenador elite", r"elite trainer box"],
+    "Latas": [r"\blatas?\b"],
+    "Colecciones premium": [r"colecci\w*\s+premiu\w*", r"premium collection"],
+}
+
+CATEGORY_NAME_PATTERNS = {
+    category: [re.compile(pattern, re.IGNORECASE) for pattern in patterns]
+    for category, patterns in CATEGORY_NAME_HINTS.items()
 }
 
 
 def categorize_by_name(name):
     if not name:
         return set()
-    text = _strip_accents(name.lower())
+    text = _strip_accents(name)
     return {
         category
-        for category, patterns in CATEGORY_NAME_HINTS.items()
-        if any(pattern in text for pattern in patterns)
+        for category, patterns in CATEGORY_NAME_PATTERNS.items()
+        if any(pattern.search(text) for pattern in patterns)
     }
 
 
@@ -713,12 +733,26 @@ async def main():
                 print(f"⏭️ [{marketplace['code']}] Omitiendo {len(fallback_asins)} productos sin datos en la tarjeta (fallback individual desactivado para este marketplace).")
             elif fallback_asins:
                 print(f"🔎 [{marketplace['code']}] Comprobando individualmente {len(fallback_asins)} productos sin datos en la tarjeta...")
+                skipped_irrelevant = 0
                 for i, asin in enumerate(fallback_asins):
                     if i > 0:
                         await asyncio.sleep(random.uniform(2, 5))
                     result = await check_single_product(page, asin, marketplace)
-                    if result:
-                        marketplace_products[asin] = result
+                    if not result:
+                        continue
+                    # Este ASIN viene de un enlace suelto en la página (no de
+                    # una tarjeta de producto real), así que es el punto donde
+                    # se cuelan widgets de "también te puede interesar" con
+                    # productos totalmente ajenos (visto con un cargador
+                    # Anker, un set de LEGO...). Filtramos aquí mismo, antes
+                    # de darlo por bueno, en vez de confiar solo en el filtro
+                    # general de más abajo.
+                    if not is_relevant_by_name(result["name"]) or is_excluded_by_name(result["name"]):
+                        skipped_irrelevant += 1
+                        continue
+                    marketplace_products[asin] = result
+                if skipped_irrelevant:
+                    print(f"⏭️ [{marketplace['code']}] Omitiendo {skipped_irrelevant} productos ajenos encontrados por enlace suelto (no son Pokémon o son accesorios).")
 
             if marketplace.get("exclude_out_of_stock"):
                 out_of_stock = {a for a, i in marketplace_products.items() if i["status"] == "no_disponible"}
@@ -741,6 +775,14 @@ async def main():
             if excluded_by_name:
                 print(f"⏭️ [{marketplace['code']}] Omitiendo {len(excluded_by_name)} productos no relevantes por nombre (fundas/accesorios).")
                 for asin in excluded_by_name:
+                    del marketplace_products[asin]
+
+            not_pokemon = {
+                a for a, i in marketplace_products.items() if not is_relevant_by_name(i["name"])
+            }
+            if not_pokemon:
+                print(f"⏭️ [{marketplace['code']}] Omitiendo {len(not_pokemon)} productos ajenos a Pokémon (colados por el fallback de enlaces sueltos).")
+                for asin in not_pokemon:
                     del marketplace_products[asin]
 
             for asin, info in marketplace_products.items():
@@ -782,6 +824,14 @@ async def main():
         if eci_excluded_by_name:
             print(f"⏭️ [ECI] Omitiendo {len(eci_excluded_by_name)} productos no relevantes por nombre (fundas/accesorios).")
             for product_id in eci_excluded_by_name:
+                del eci_products[product_id]
+
+        eci_not_pokemon = {
+            a for a, i in eci_products.items() if not is_relevant_by_name(i["name"])
+        }
+        if eci_not_pokemon:
+            print(f"⏭️ [ECI] Omitiendo {len(eci_not_pokemon)} productos ajenos a Pokémon.")
+            for product_id in eci_not_pokemon:
                 del eci_products[product_id]
 
         for product_id, info in eci_products.items():
