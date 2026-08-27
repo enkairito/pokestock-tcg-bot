@@ -155,7 +155,10 @@ texto literal `"null"` cuando el producto no tiene precio de referencia
   primera vez que aparezca un caso así.
 - Tags de afiliado: `enkairito-21` (ES), `wtsuk-21` (UK), `wtsus-20` (USA),
   `wheresthatsto-21` (DE, pendiente de aprobación, no implementado en el
-  scraper todavía). El Corte Inglés (issue #2, vía Awin) también pendiente
+  scraper todavía), `wtsjp-22` (Japón, alta 2026-08-27, pendiente de
+  aprobación, no implementado en el scraper todavía — Amazon.co.jp
+  necesitaría su propio marketplace en `check_stock.py` si se activa).
+  El Corte Inglés (issue #2, vía Awin) también pendiente
   de aprobación — el scraper de ECI sí está implementado, pero con link
   directo sin tracking hasta que se apruebe.
   - **Comprobado en Awin (2026-08-27):** sigue en estado "Pending Approval"
