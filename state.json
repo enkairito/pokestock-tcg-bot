@@ -81,7 +81,7 @@
     "name": "Pokémon TCG: Mega Lucario ex League Battle Deck (1 Ready-to-Play 60-Card Deck Including Mega Lucario ex)",
     "status": "compra_directa",
     "stock": null,
-    "price": "31,51 €",
+    "price": "31,43 €",
     "first_seen": "2026-08-25T20:27:54.285206+00:00"
   },
   "US:B0GR6Q72ND": {
@@ -116,21 +116,21 @@
     "name": "Pokémon TCG: Colección de Ilustraciones de Primera Partner —Serie 2",
     "status": "compra_directa",
     "stock": null,
-    "price": "32,60 €",
+    "price": "32,13 €",
     "first_seen": "2026-08-25T20:27:44.992532+00:00"
   },
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution—Perfect Order Booster Bundle",
     "status": "compra_directa",
     "stock": null,
-    "price": "42,89 €",
+    "price": "38,59 €",
     "first_seen": "2026-08-25T20:27:44.992534+00:00"
   },
   "US:B0DYR8D7YC": {
     "name": "Pokémon TCG: Colección Súper Premium de Evoluciones Prismáticas Escarlata y Violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "242,18 €",
+    "price": "241,95 €",
     "first_seen": "2026-08-25T20:27:44.992510+00:00"
   },
   "US:B0GV6WRPRV": {
@@ -216,7 +216,7 @@
     "name": "Pokemon TCG: Scarlet & Violet - Destined Rivals Caja Expositora de Sobres - 36 Paquetes",
     "status": "compra_directa",
     "stock": null,
-    "price": "471,91 €",
+    "price": "429,00 €",
     "first_seen": "2026-08-25T20:27:54.285221+00:00"
   },
   "US:B0829FT44S": {
@@ -225,9 +225,11 @@
     "stock": null
   },
   "US:B0GNCGT9KK": {
-    "name": "Pokemon TCG: Mega Zygarde ex colección Premium con 8 paquetes de refuerzo | 8 paquetes de refuerzo",
+    "name": "Pokémon TCG: Colección Mega Zygarde ex Premium | 8 Booster Packs",
     "status": "compra_directa",
-    "stock": null
+    "stock": null,
+    "price": "51,99 €",
+    "first_seen": "2026-08-27T09:32:05.144549+00:00"
   },
   "US:B0DLPL7LC5": {
     "name": "Pokemon TCG: Caja de entrenador élite de evoluciones prismáticas escarlata y violeta",
@@ -246,7 +248,7 @@
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promo exclusivo de Fennekin | 11 paquetes de refuerzo",
     "status": "compra_directa",
     "stock": null,
-    "price": "143,84 €",
+    "price": "143,51 €",
     "first_seen": "2026-08-25T20:27:44.992536+00:00"
   },
   "US:B0FH6KRSX8": {
@@ -300,7 +302,7 @@
     "name": "Una tarjeta de Pokémon encapsulada y autenticada con calificación PSA al azar (perfecta para exhibición)",
     "status": "compra_directa",
     "stock": null,
-    "price": "27,12 €",
+    "price": "23,84 €",
     "first_seen": "2026-08-25T20:27:54.285281+00:00"
   },
   "US:B0CNFSY3Y3": {
@@ -333,8 +335,9 @@
   },
   "US:B0G3CY83L5": {
     "name": "Pokémon TCG: Caja de entrenamiento de élite de héroes ascendidos de Mega Evolution",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "169,87 €",
     "first_seen": "2026-08-25T20:27:44.992515+00:00"
   },
   "US:B0GR6N18F6": {
@@ -379,7 +382,7 @@
     "name": "Pokémon TCG: Mega Evolución: Héroes Ascendidos Mega Meganio/Emboar/Feraligatr ex Box",
     "status": "compra_directa",
     "stock": null,
-    "price": "64,29 €",
+    "price": "64,26 €",
     "first_seen": "2026-08-25T20:27:54.285250+00:00"
   },
   "UK:B0GYVHLP4L": {
@@ -1071,5 +1074,11 @@
     "status": "no_disponible",
     "stock": null,
     "first_seen": "2026-08-26T21:38:56.444904+00:00"
+  },
+  "US:B0H6DTXPK1": {
+    "name": "Pokémon TCG: Mega Evolución: lata de héroes ascendidos",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-27T09:31:56.959803+00:00"
   }
 }
