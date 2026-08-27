@@ -64,7 +64,11 @@ jobs:
               echo "No changes to publish"
             else
               git commit -m "chore: update accessories snapshot"
-              git push
+              for i in 1 2 3; do
+                git push && break
+                echo "Push rejected, pulling and retrying ($i/3)..."
+                git pull --rebase
+              done
             fi
           fi
 
@@ -77,5 +81,9 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore: update accessories state"
-            git push
+            for i in 1 2 3; do
+              git push && break
+              echo "Push rejected, pulling and retrying ($i/3)..."
+              git pull --rebase
+            done
           fi
