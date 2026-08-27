@@ -4,6 +4,7 @@ import os
 import random
 import re
 import sys
+from collections import defaultdict
 from datetime import datetime, timezone
 from io import BytesIO
 from pathlib import Path
@@ -28,7 +29,22 @@ MARKETPLACES = [
             ("Todos los productos", "https://www.amazon.es/stores/page/4CC86B6A-CAD9-4B47-A949-86C99C87A382"),
             ("Disponible de nuevo", "https://www.amazon.es/stores/page/41180886-559D-47A1-9CEB-5BF332812A91"),
             ("Novedades", "https://www.amazon.es/stores/page/70E78EA6-79CB-4678-9249-717F2A13EB77"),
+            ("Latas", "https://www.amazon.es/stores/page/3B2D9610-364D-4EDB-B35C-6B6886294B25"),
+            ("Sobres", "https://www.amazon.es/stores/page/53D7A570-688A-4BE3-A88E-A2B3B4366336"),
+            ("Cajas ETB", "https://www.amazon.es/stores/page/B6BBCF35-68EA-4F2C-8440-227644DCBAF1"),
+            ("Cajas de coleccionista", "https://www.amazon.es/stores/page/90B837D1-73B6-42CD-9DAF-8B2B12B49901"),
+            ("Otros", "https://www.amazon.es/stores/page/9DAE367E-008E-4F93-8D0A-6F556F2F77A0"),
+            ("Colecciones premium", "https://www.amazon.es/stores/page/F25CACFF-2F58-430E-A6FF-0606896DD0FA"),
         ],
+        # Subconjunto de "pages" que representa categorías de producto reales
+        # (a diferencia de "Todos los productos"/"Disponible de nuevo"/
+        # "Novedades", que son vistas transversales del mismo catálogo).
+        # Se usa para etiquetar cada producto con en qué categoría(s) de
+        # Amazon aparece, para poder filtrar por ello en la web.
+        "category_pages": {
+            "Latas", "Sobres", "Cajas ETB", "Cajas de coleccionista",
+            "Otros", "Colecciones premium",
+        },
         "allow_individual_fallback": True,
         # Solicitado explícitamente: no interesa mantener productos agotados
         # en el estado/web para ES tampoco (mismo criterio que UK/US).
@@ -277,6 +293,7 @@ def save_products_snapshot(products):
                 "stock": info.get("stock"),
                 "link": info["link"],
                 "first_seen": info.get("first_seen"),
+                "categories": info.get("categories", []),
             }
             for info in products.values()
         ],
@@ -642,6 +659,8 @@ async def main():
         for marketplace in MARKETPLACES:
             marketplace_products = {}
             fallback_asins = set()
+            category_pages = marketplace.get("category_pages", set())
+            asin_categories = defaultdict(set)
 
             for label, url in marketplace["pages"]:
                 print(f"🔍 Descubriendo productos en la tienda ({marketplace['code']}/{label})...")
@@ -650,6 +669,8 @@ async def main():
                     print(f"📦 [{marketplace['code']}/{label}] {len(page_products)} productos encontrados")
                     for asin, info in page_products.items():
                         marketplace_products[asin] = merge_product_record(marketplace_products.get(asin), info)
+                        if label in category_pages:
+                            asin_categories[asin].add(label)
                     fallback_asins.update(page_fallback)
                 except Exception as e:
                     print(f"❌ No se pudo cargar la página de la tienda ({marketplace['code']}/{label}): {e!r}")
@@ -695,6 +716,7 @@ async def main():
                 info["store_label"] = marketplace["store_label"]
                 info["flag"] = marketplace["flag"]
                 info["link"] = f"https://www.{marketplace['domain']}/dp/{asin}?tag={marketplace['tag']}"
+                info["categories"] = sorted(asin_categories.get(asin, ()))
                 products[f"{marketplace['code']}:{asin}"] = info
 
         eci_products = {}

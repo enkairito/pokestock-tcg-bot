@@ -7,9 +7,10 @@
     "first_seen": "2026-08-25T20:27:54.285134+00:00"
   },
   "ES:B0FPMXHZLT": {
-    "name": "Pokémon: Colección Especial Snorlax ex y Blissey ex de JCC Pokémon (2 Cartas holográficas de promoción, 1 Carta holográfica de Gran tamaño y 8 Sobres de Mejora)",
-    "status": "invitacion",
-    "stock": null
+    "name": "Pokémon: JCC Pokémon Snorlax ex and Blissey ex Special Collection (2 Holographic Promo Cards, 1 Oversized Holographic Card and 8 Upgrade Envelopes)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-27T14:04:09.217413+00:00"
   },
   "ES:B0GMRC58KQ": {
     "name": "Pokémon: Pokemon TCG: Mega-Charizard X EX TCG Pokémon Tin (4 Upgrade Envelopes & 1 Holographic Promo Card)",
@@ -95,7 +96,7 @@
     "name": "Pokémon TCG: Mega Evolution—Caja de entrenador Elite Pitch Black",
     "status": "compra_directa",
     "stock": null,
-    "price": "70,31 €",
+    "price": "72,85 €",
     "first_seen": "2026-08-25T20:27:44.992518+00:00"
   },
   "US:B0GYTRYV7P": {
@@ -116,21 +117,21 @@
     "name": "Pokémon TCG: Colección de Ilustraciones de Primera Partner —Serie 2",
     "status": "compra_directa",
     "stock": null,
-    "price": "32,13 €",
+    "price": "32,60 €",
     "first_seen": "2026-08-25T20:27:44.992532+00:00"
   },
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution—Perfect Order Booster Bundle",
     "status": "compra_directa",
     "stock": null,
-    "price": "38,59 €",
+    "price": "42,89 €",
     "first_seen": "2026-08-25T20:27:44.992534+00:00"
   },
   "US:B0DYR8D7YC": {
     "name": "Pokémon TCG: Colección Súper Premium de Evoluciones Prismáticas Escarlata y Violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "241,95 €",
+    "price": "245,03 €",
     "first_seen": "2026-08-25T20:27:44.992510+00:00"
   },
   "US:B0GV6WRPRV": {
@@ -162,8 +163,9 @@
   },
   "US:B0GFZV1ZVV": {
     "name": "Pokémon TCG: Caja de Entrenador Élite de Mega Evolución—Orden Perfecta",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "78,89 €",
     "first_seen": "2026-08-25T20:27:44.992530+00:00"
   },
   "US:B09YS3LL3N": {
@@ -214,9 +216,8 @@
   },
   "US:B0F2GZJ3TZ": {
     "name": "Pokemon TCG: Scarlet & Violet - Destined Rivals Caja Expositora de Sobres - 36 Paquetes",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "429,00 €",
     "first_seen": "2026-08-25T20:27:54.285221+00:00"
   },
   "US:B0829FT44S": {
@@ -225,7 +226,7 @@
     "stock": null
   },
   "US:B0GNCGT9KK": {
-    "name": "Pokémon TCG: Colección Mega Zygarde ex Premium | 8 Booster Packs",
+    "name": "Pokemon TCG: Mega Zygarde ex colección Premium con 8 paquetes de refuerzo | 8 paquetes de refuerzo",
     "status": "compra_directa",
     "stock": null,
     "price": "51,99 €",
@@ -241,14 +242,14 @@
     "name": "Pokemon TCG: Scarlet & Violet - Caja de Entrenador Élite Destined Rivals - 9 Paquetes, Accesorios, Promo",
     "status": "compra_directa",
     "stock": null,
-    "price": "117,98 €",
+    "price": "115,83 €",
     "first_seen": "2026-08-25T20:27:54.285212+00:00"
   },
   "US:B0H2N248WM": {
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promo exclusivo de Fennekin | 11 paquetes de refuerzo",
     "status": "compra_directa",
     "stock": null,
-    "price": "143,51 €",
+    "price": "144,02 €",
     "first_seen": "2026-08-25T20:27:44.992536+00:00"
   },
   "US:B0FH6KRSX8": {
@@ -302,7 +303,7 @@
     "name": "Una tarjeta de Pokémon encapsulada y autenticada con calificación PSA al azar (perfecta para exhibición)",
     "status": "compra_directa",
     "stock": null,
-    "price": "23,84 €",
+    "price": "23,92 €",
     "first_seen": "2026-08-25T20:27:54.285281+00:00"
   },
   "US:B0CNFSY3Y3": {
@@ -312,8 +313,9 @@
   },
   "US:B08DN23BSM": {
     "name": "Pokemon TCG: Caja Entrenador Élite Camino de Campeones, multicolor",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "244,53 €",
     "first_seen": "2026-08-25T20:27:44.992507+00:00"
   },
   "US:B0GWKCLH6G": {
@@ -337,7 +339,7 @@
     "name": "Pokémon TCG: Caja de entrenamiento de élite de héroes ascendidos de Mega Evolution",
     "status": "compra_directa",
     "stock": null,
-    "price": "169,87 €",
+    "price": "169,89 €",
     "first_seen": "2026-08-25T20:27:44.992515+00:00"
   },
   "US:B0GR6N18F6": {
@@ -436,7 +438,8 @@
   "UK:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution—Perfect Order Booster Bundle (6 Booster Packs)",
     "status": "no_disponible",
-    "stock": null
+    "stock": null,
+    "first_seen": "2026-08-27T13:59:34.191178+00:00"
   },
   "US:B0GC7KFMF8": {
     "name": "Offical Pokemon TCG Sleeves - 1x Random Pack of 65 Count Sleeves (ETB, Trainer Toolkit, Collection Box, etc.) Styles May Vary!",
@@ -464,19 +467,22 @@
     "stock": null
   },
   "ES:B0G4NS6SJY": {
-    "name": "Pokémon: Minilata Megaevolución-Héroes Ascendentes: Togepi y Totodile (1 Pegatina, 1 Tarjeta Pokémon ilustrada y 2 Sobres de Mejora)",
-    "status": "invitacion",
-    "stock": null
+    "name": "Pokémon: Megaevolution-Ascendant Heroes: Togepi and Totodile Minilata (1 Sticker, 1 Illustrated Pokémon Card and 2 Upgrade Envelopes)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-27T13:59:24.683445+00:00"
   },
   "ES:B0GGHXWSDC": {
-    "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Equilibrio JCC Pokémon (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
-    "status": "invitacion",
-    "stock": null
+    "name": "Pokémon: JCC Pokémon Megaevolution-Balance Elite Trainer Box (1 Promo Card with Expanded Illustration, 9 Upgrade Envelopes and Premium Accessories)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-27T14:04:09.217402+00:00"
   },
   "ES:B0GGJ2YJQ5": {
-    "name": "Pokémon: Expositor de Sobres de Mejora de Megaevolución-Equilibrio JCC Pokémon (18 Sobres de Mejora)",
-    "status": "invitacion",
-    "stock": null
+    "name": "Pokémon: JCC Pokémon Megaevolution-Balance Enhancement Envelope Display (18 Upgrade Envelopes)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-27T14:04:09.217406+00:00"
   },
   "ES:B0G5YX5XVQ": {
     "name": "Pokémon: Baraja Combate de Liga de Mewtwo ex del Team Rocket (1 baraja de 60 Cartas Lista para Jugar)",
@@ -484,14 +490,16 @@
     "stock": null
   },
   "ES:B0FTCXPDCH": {
-    "name": "Pokémon: Colección con Figura Mega-Lucario ex de JCC Pokémon (1 Carta holográfica de promoción grabada en Relieve, 1 Carta de promoción de Gran tamaño, 5 Sobres de Mejora y 1 Figura de Mega-Lucario)",
-    "status": "invitacion",
-    "stock": null
+    "name": "Pokémon: JCC Pokémon Mega-Lucario ex Figure Collection (1 Holographic Embossed Promo Card, 1 Oversized Promo Card, 5 Upgrade Envelopes and 1 Mega-Lucario Figure)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-27T14:04:09.217371+00:00"
   },
   "ES:B0FZKWZ5YP": {
-    "name": "Pokémon: Colección prémium Mega-Venusaur ex (1 Carta holográfica de promoción, 1 Carta de promoción de Gran tamaño con Efecto 3D y 8 Sobres de Mejora)",
-    "status": "invitacion",
-    "stock": null
+    "name": "Pokémon: Mega-Venusaur ex Premium Collection (1 Holographic Promotion Card, 1 Oversized 3D Effect Promo Card and 8 Upgrade Envelopes)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-27T14:04:09.217404+00:00"
   },
   "US:B0H9D7RQTC": {
     "name": "Pokemon TCG: Mega Evolution Pitch Black Pokemon Center Elite Trainer Box | PB PKC ETB | Promo exclusivo de Zarude | 11 paquetes de refuerzo",
@@ -513,7 +521,7 @@
     "name": "Pokemon Scarlet & Violet 3 Obsidian Flames Caja de Entrenador Élite",
     "status": "compra_directa",
     "stock": null,
-    "price": "317,36 €",
+    "price": "317,29 €",
     "first_seen": "2026-08-25T20:27:54.285273+00:00"
   },
   "US:B0GP8HSDCJ": {
@@ -530,13 +538,14 @@
     "name": "Pokémon TCG: Colección del Día de Pokémon 2026",
     "status": "compra_directa",
     "stock": null,
-    "price": "46,25 €",
+    "price": "45,05 €",
     "first_seen": "2026-08-25T20:27:54.285236+00:00"
   },
   "US:B0GV1JQFWC": {
     "name": "Pokemon TCG: Mega Evolución-Pedido Perfecto Pokemon Center Elite Trainer Box | PO PKC ETB | Promo exclusivo de Tyrunt | 11 paquetes de refuerzo",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "128,21 €",
     "first_seen": "2026-08-25T20:27:44.992538+00:00"
   },
   "US:B0D9PX5VDC": {
@@ -546,14 +555,16 @@
     "price": "154,22 €"
   },
   "ES:B0G4NT35J8": {
-    "name": "Pokémon: Minilata Megaevolución-Héroes Ascendentes: Riolu y Darumaka (1 Pegatina, 1 Tarjeta Pokémon ilustrada y 2 Sobres de Mejora)",
-    "status": "invitacion",
-    "stock": null
+    "name": "Pokémon: Megaevolution-Ascendant Heroes Minilata: Riolu and Darumaka (1 Sticker, 1 Illustrated Pokémon Card and 2 Upgrade Envelopes)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-27T13:59:24.683469+00:00"
   },
   "ES:B0FX19JX78": {
-    "name": "Pokémon: Colección con póster prémium Mega-Gardevoir de Megaevolución-Héroes Ascendentes (1 Carta holográfica de promoción, 1 póster Impreso por ambas Caras y 10 Sobres de Mejora)",
-    "status": "invitacion",
-    "stock": null
+    "name": "Pokémon: Mega-Gardevoir Premium Poster Collection - Mega-Gardevoir - Ascendant Heroes (1 Holographic Promotion Card, 1 Double-Sided Printed Poster and 10 Upgrade Envelopes)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-27T14:04:09.217392+00:00"
   },
   "UK:B0G72SPRP6": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes - Mega Meganium ex Box (1 Foil Promo Card, 1 Oversize Lenticular Card and 4 Booster Packs)",
@@ -1080,5 +1091,137 @@
     "status": "no_disponible",
     "stock": null,
     "first_seen": "2026-08-27T09:31:56.959803+00:00"
+  },
+  "UK:B0DYR8D7YC": {
+    "name": "Pokémon TCG: Scarlet & Violet—Prismatic Evolutions Super-Premium Collection (1 Full-Art Foil Promo Card, a Fuzzy Eevee Deck Box & 15 Booster Packs)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-27T13:59:34.191188+00:00"
+  },
+  "UK:B0F2BDXW4J": {
+    "name": "Pokémon TCG: Scarlet & Violet—Destined Rivals Elite Trainer Box (1 Full-Art Promo Card, 9 Boosters & Premium Accessories)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-27T13:59:34.191192+00:00"
+  },
+  "UK:B0FPMT3SWJ": {
+    "name": "Pokémon TCG: Snorlax ex & Blissey ex Special Collection (2 Foil Promo Cards, 1 Oversize Card & 8 Booster Packs)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-27T13:59:34.191194+00:00"
+  },
+  "UK:B0CYT9TPN4": {
+    "name": "Pokémon TCG Battle Academy, Lycanroc V Battle Deck & Corviknight V Battle Deck Bundle",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-27T13:59:34.191197+00:00"
+  },
+  "UK:B0GGHH3XHL": {
+    "name": "Pokémon TCG: Mega Evolution—Perfect Order Booster Display (18 Booster Packs)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-27T13:59:34.191198+00:00"
+  },
+  "UK:B0F8QT6TPJ": {
+    "name": "Pokémon TCG: 2024 World Championships Deck (Jesse Parker)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-27T13:59:34.191200+00:00"
+  },
+  "US:B09HNZ7RYV": {
+    "name": "Pokemon TCG: Sword & Shield Fusion Strike Elite Trainer Box: 8 paquetes de refuerzo +más!",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-27T13:59:53.865071+00:00"
+  },
+  "US:B071NG5QWV": {
+    "name": "Pokemon TCG Sun & Moon Burning Shadows Elite Trainer Box",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-27T13:59:53.865082+00:00"
+  },
+  "ES:B0DQWLDH65": {
+    "name": "Pokémon TCG Pokémon Collectors Case (3 Holographic Cards, 6 Upgrade Packs and More)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "€60.92",
+    "first_seen": "2026-08-27T14:00:00.193382+00:00"
+  },
+  "UK:B0GGCCLCJM": {
+    "name": "Pokémon TCG: Mega Evolution—Perfect Order Triple Pack (1 Foil Promo Card & 3 Booster Packs)",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "40,79 €",
+    "first_seen": "2026-08-27T14:00:00.910580+00:00"
+  },
+  "UK:B0F8QY2C1M": {
+    "name": "Pokémon TCG: 2024 World Championships Deck (Sakuya Ota)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "19,69 €",
+    "first_seen": "2026-08-27T14:00:00.910592+00:00"
+  },
+  "UK:B0F8QVRPHY": {
+    "name": "Pokémon TCG: 2024 World Championships Deck (Fernando Cifuentes)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "23,31 €",
+    "first_seen": "2026-08-27T14:00:00.910596+00:00"
+  },
+  "UK:B0D31X4GWY": {
+    "name": "Pokemon Trading Card Game Battle Academy Set",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "29,14 €",
+    "first_seen": "2026-08-27T14:00:00.910599+00:00"
+  },
+  "UK:B09PYPMHT3": {
+    "name": "Pokémon TCG: Pokémon Trading Card Game Classic",
+    "status": "compra_directa",
+    "stock": "11",
+    "price": "466,46 €",
+    "first_seen": "2026-08-27T14:00:00.910601+00:00"
+  },
+  "UK:B0CTTYRPSN": {
+    "name": "Pokémon TCG: World Championships Deck – Shao Tong Yen (2023)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "17,48 €",
+    "first_seen": "2026-08-27T14:00:00.910605+00:00"
+  },
+  "US:B0B9M6N4F1": {
+    "name": "Pokemon TCG: Colección Ultra-Premium Espada y Escudo Charizard",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "609,19 €",
+    "first_seen": "2026-08-27T14:00:00.910681+00:00"
+  },
+  "ES:B0D6WLBJKX": {
+    "name": "Pokémon: JCC Scarlet & Purple Elite Trainer Box-Shadow Fable Pokémon",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "€84.75",
+    "first_seen": "2026-08-27T14:04:43.687882+00:00"
+  },
+  "ES:B0C643MGKG": {
+    "name": "Pokémon: Palkia Form Origin of the VSTAR League",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "€51.07",
+    "first_seen": "2026-08-27T14:04:49.802902+00:00"
+  },
+  "ES:B0FY3165VP": {
+    "name": "Pokémon: Ultra Premium Mega-Charizard X ex Collection (2 Holographic Promo Cards, 18 Upgrade Envelopes and Premium Accessories)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "€257.95",
+    "first_seen": "2026-08-27T14:04:50.620189+00:00"
+  },
+  "ES:B0DT7D8W4N": {
+    "name": "Pokémon Charizard ex Special Collection (1 Holographic Promotion Card, 2 Holographic Cards, 1 Oversized Lenticular Card with 3D Effect and 5 Upgrade Envelopes)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "€62.90",
+    "first_seen": "2026-08-27T14:04:51.386716+00:00"
   }
 }
