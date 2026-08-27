@@ -126,8 +126,8 @@ ECI_ID_RE = re.compile(r"^product-([A-Za-z0-9]+)$")
 ECI_PRICE_RE = re.compile(r"(\d{1,3}(?:\.\d{3})*,\d{2})\s*€")
 
 STATUS_COPY = {
-    "compra_directa": ("🟢 <b>¡Disponible de nuevo! #CompraDirecta</b>", "Cómpralo ya"),
-    "invitacion": ("🎟️ <b>¡Disponible por invitación! #Invitación</b>", "Solicitar invitación"),
+    "compra_directa": ("#COMPRADIRECTA", "📦", "CÓMPRALO YA"),
+    "invitacion": ("#INVITACIÓN", "🎟️", "SOLICITAR INVITACIÓN"),
 }
 
 WEBSITE_URL = "https://wheresthatstock.com/"
@@ -889,6 +889,10 @@ async def main():
         if (status_changed or stock_decreased or price_decreased) and info["marketplace_code"] in ("ES", "ECI"):
             link = info["link"]
 
+            hashtag, cta_emoji, cta_label = STATUS_COPY[status]
+
+            price_change_line = "💸 <b>¡Bajada de precio!</b>" if price_decreased else ""
+
             if price_decreased:
                 price_line = f"💰 <s>{prev_price}</s> <b>{info['price']}</b>"
             elif info["price"] and info["original_price"] and info["original_price"] != info["price"]:
@@ -899,23 +903,15 @@ async def main():
                 price_line = ""
 
             stock_line = f"📊 <b>SÓLO QUEDA(N) {info['stock']} EN STOCK</b>" if info.get("stock") else ""
+            cta = f'{cta_emoji} <b><a href="{link}">{cta_label}</a></b>'
 
-            if status_changed:
-                header, cta_label = STATUS_COPY[status]
-            elif price_decreased:
-                header = "💸 <b>¡Bajada de precio!</b>"
-                cta_label = STATUS_COPY[status][1]
-            else:
-                header, cta_label = STATUS_COPY[status]
-            cta = f'📦 <a href="{link}">{cta_label}</a>'
-
-            store_line = f"<b>{info['store_label']} {info['flag']}</b>"
+            store_line = f"<b>{info['store_label']} {info['flag']} {hashtag}</b>"
             website_line = f'🌐 <a href="{WEBSITE_URL}">Ver todos los productos disponibles</a>'
 
             message = "\n\n".join(
-                part for part in [f"<b>{name}</b>", store_line, header, price_line, stock_line, cta] if part
+                part for part in [f"<b>{name}</b>", store_line, price_change_line, price_line, stock_line, cta] if part
             )
-            message += f"\n\n\n{website_line}"
+            message += f"\n\n{website_line}"
             if DRY_RUN:
                 print(f"🧪 [DRY_RUN] Se habría enviado ({info['marketplace_code']}/{status}): {name}")
             else:
