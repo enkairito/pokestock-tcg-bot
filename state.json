@@ -118,9 +118,8 @@
   },
   "US:B0GW2DK37Q": {
     "name": "Pokémon TCG: Colección de Ilustraciones de Primera Partner —Serie 2",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "32,65 €",
     "first_seen": "2026-08-25T20:27:44.992532+00:00"
   },
   "US:B0GG11K25W": {
@@ -134,21 +133,21 @@
     "name": "Pokémon TCG: Colección Súper Premium de Evoluciones Prismáticas Escarlata y Violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "242,43 €",
+    "price": "245,24 €",
     "first_seen": "2026-08-25T20:27:44.992510+00:00"
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
     "status": "compra_directa",
     "stock": null,
-    "price": "32,56 €",
+    "price": "32,61 €",
     "first_seen": "2026-08-25T20:27:54.285245+00:00"
   },
   "US:B0GXJ8CSTY": {
     "name": "Pokémon TCG: Mega Greninja ex Colección Premium",
     "status": "compra_directa",
     "stock": null,
-    "price": "54,12 €",
+    "price": "54,16 €",
     "first_seen": "2026-08-25T20:27:44.992540+00:00"
   },
   "US:B0GG16Q4X1": {
@@ -201,7 +200,7 @@
     "name": "Pokémon TCG 3 paquetes de refuerzo, 30 cartas en total, 100% auténticas, raras aleatorias y holofoils, 3 paquetes de ampollas",
     "status": "compra_directa",
     "stock": null,
-    "price": "22,12 €",
+    "price": "22,20 €",
     "first_seen": "2026-08-25T20:27:44.992522+00:00"
   },
   "US:B0FLCWJ1VK": {
@@ -219,8 +218,9 @@
   },
   "US:B0F2GZJ3TZ": {
     "name": "Pokemon TCG: Scarlet & Violet - Destined Rivals Caja Expositora de Sobres - 36 Paquetes",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "429,59 €",
     "first_seen": "2026-08-25T20:27:54.285221+00:00"
   },
   "US:B0829FT44S": {
@@ -232,7 +232,7 @@
     "name": "Pokemon TCG: Mega Zygarde ex colección Premium con 8 paquetes de refuerzo | 8 paquetes de refuerzo",
     "status": "compra_directa",
     "stock": null,
-    "price": "52,06 €",
+    "price": "51,54 €",
     "first_seen": "2026-08-27T09:32:05.144549+00:00"
   },
   "US:B0DLPL7LC5": {
@@ -252,7 +252,7 @@
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promo exclusivo de Fennekin | 11 paquetes de refuerzo",
     "status": "compra_directa",
     "stock": null,
-    "price": "143,51 €",
+    "price": "143,63 €",
     "first_seen": "2026-08-25T20:27:44.992536+00:00"
   },
   "US:B0FH6KRSX8": {
@@ -270,9 +270,8 @@
   },
   "US:B0CGCVT5RR": {
     "name": "Pokémon TCG: Caja de entrenador élite de escarlata y violeta Paradox Rift",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "163,40 €",
     "first_seen": "2026-08-25T20:27:54.285264+00:00"
   },
   "US:B0BCN6HZR3": {
@@ -341,7 +340,7 @@
     "name": "Pokémon TCG: Caja de entrenamiento de élite de héroes ascendidos de Mega Evolution",
     "status": "compra_directa",
     "stock": null,
-    "price": "170,12 €",
+    "price": "159,79 €",
     "first_seen": "2026-08-25T20:27:44.992515+00:00"
   },
   "US:B0GR6N18F6": {
@@ -1172,15 +1171,14 @@
   "ES:B0DQWLDH65": {
     "name": "Pokémon Maletín de Coleccionistas de JCC Pokémon (3 Cartas holográficas, 6 Paquetes de Mejora y Mucho más)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "1",
     "price": "59,99 €",
     "first_seen": "2026-08-27T14:00:00.193382+00:00"
   },
   "UK:B0GGCCLCJM": {
     "name": "Pokémon TCG: Mega Evolution—Perfect Order Triple Pack (1 Foil Promo Card & 3 Booster Packs)",
-    "status": "compra_directa",
-    "stock": "2",
-    "price": "40,82 €",
+    "status": "no_disponible",
+    "stock": null,
     "first_seen": "2026-08-27T14:00:00.910580+00:00"
   },
   "UK:B0F8QY2C1M": {
@@ -1285,5 +1283,12 @@
     "stock": null,
     "price": "180,43 €",
     "first_seen": "2026-08-28T09:37:28.942888+00:00"
+  },
+  "US:B0B4PRYJ6T": {
+    "name": "Pokemon GO Paquete: Baraja de Batalla Mewtwo V VS Melmetal V + 2 Paquetes de Expansión y Entrenadores!",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "47,18 €",
+    "first_seen": "2026-08-28T13:00:26.596905+00:00"
   }
 }
