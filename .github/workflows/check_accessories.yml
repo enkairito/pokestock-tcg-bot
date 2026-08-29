@@ -55,7 +55,13 @@ jobs:
         run: |
           if [ -f accesorios_snapshot.json ]; then
             git clone https://x-access-token:${WHERESTHATSTOCK_TOKEN}@github.com/enkairito/wheresthatstock.git /tmp/wheresthatstock
-            cp accesorios_snapshot.json /tmp/wheresthatstock/accesorios.json
+
+            # Fusiona en vez de sobrescribir: check_stock.yml también publica
+            # accesorios de One Piece en este mismo archivo (etiquetados
+            # categories=["One Piece"]) — sin este merge, cualquiera de los
+            # dos workflows borraría lo que haya publicado el otro.
+            python merge_accesorios.py --base /tmp/wheresthatstock/accesorios.json --new accesorios_snapshot.json --out /tmp/wheresthatstock/accesorios.json --tag ""
+
             cd /tmp/wheresthatstock
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"

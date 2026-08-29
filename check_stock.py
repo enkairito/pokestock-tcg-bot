@@ -348,6 +348,7 @@ def save_products_snapshot(products):
                 "link": info["link"],
                 "first_seen": info.get("first_seen"),
                 "categories": info.get("categories", []),
+                "game": "Pokémon",
             }
             for info in products.values()
         ],

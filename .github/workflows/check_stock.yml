@@ -53,17 +53,33 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: xvfb-run -a python check_stock.py
 
+      - name: Run One Piece TCG check
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: xvfb-run -a python check_onepiece.py
+
       - name: Publish products snapshot to Where's That Stock
         env:
           WHERESTHATSTOCK_TOKEN: ${{ secrets.WHERESTHATSTOCK_TOKEN }}
         run: |
           if [ -f products_snapshot.json ]; then
             git clone https://x-access-token:${WHERESTHATSTOCK_TOKEN}@github.com/enkairito/wheresthatstock.git /tmp/wheresthatstock
+
             cp products_snapshot.json /tmp/wheresthatstock/products.json
+
+            if [ -f onepiece_snapshot.json ]; then
+              cp onepiece_snapshot.json /tmp/wheresthatstock/onepiece.json
+            fi
+
+            if [ -f accesorios_onepiece_snapshot.json ]; then
+              python merge_accesorios.py --base /tmp/wheresthatstock/accesorios.json --new accesorios_onepiece_snapshot.json --out /tmp/wheresthatstock/accesorios.json --tag "One Piece"
+            fi
+
             cd /tmp/wheresthatstock
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add products.json
+            git add products.json onepiece.json accesorios.json
             if git diff --cached --quiet; then
               echo "No changes to publish"
             else
@@ -89,7 +105,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add state.json
+          git add state.json state_onepiece.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
