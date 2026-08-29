@@ -130,14 +130,14 @@
     "name": "Pokémon TCG: Colección Súper Premium de Evoluciones Prismáticas Escarlata y Violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "242,56 €",
+    "price": "244,01 €",
     "first_seen": "2026-08-25T20:27:44.992510+00:00"
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
     "status": "compra_directa",
     "stock": null,
-    "price": "31,67 €",
+    "price": "34,52 €",
     "first_seen": "2026-08-25T20:27:54.285245+00:00"
   },
   "US:B0GXJ8CSTY": {
@@ -252,7 +252,7 @@
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promo exclusivo de Fennekin | 11 paquetes de refuerzo",
     "status": "compra_directa",
     "stock": null,
-    "price": "144,14 €",
+    "price": "143,98 €",
     "first_seen": "2026-08-25T20:27:44.992536+00:00"
   },
   "US:B0FH6KRSX8": {
@@ -272,7 +272,7 @@
     "name": "Pokémon TCG: Caja de entrenador élite de escarlata y violeta Paradox Rift",
     "status": "compra_directa",
     "stock": null,
-    "price": "162,27 €",
+    "price": "162,20 €",
     "first_seen": "2026-08-25T20:27:54.285264+00:00"
   },
   "US:B0BCN6HZR3": {
@@ -317,7 +317,7 @@
     "name": "Pokemon TCG: Caja Entrenador Élite Camino de Campeones, multicolor",
     "status": "compra_directa",
     "stock": null,
-    "price": "240,73 €",
+    "price": "246,02 €",
     "first_seen": "2026-08-25T20:27:44.992507+00:00"
   },
   "US:B0GWKCLH6G": {
@@ -339,23 +339,22 @@
   },
   "US:B0G3CY83L5": {
     "name": "Pokémon TCG: Caja de entrenamiento de élite de héroes ascendidos de Mega Evolution",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "168,56 €",
     "first_seen": "2026-08-25T20:27:44.992515+00:00"
   },
   "US:B0GR6N18F6": {
     "name": "Pokémon TCG: Caja de entrenamiento de élite Mega Evolution—Chaos Rising",
     "status": "compra_directa",
     "stock": null,
-    "price": "77,76 €",
+    "price": "77,68 €",
     "first_seen": "2026-08-25T20:27:44.992502+00:00"
   },
   "US:B0GRCDKMSW": {
     "name": "Pokémon TCG: MegaLucario ex League Battle Deck",
     "status": "compra_directa",
     "stock": null,
-    "price": "18,05 €",
+    "price": "18,52 €",
     "first_seen": "2026-08-26T06:45:55.328155+00:00"
   },
   "UK:B0G72PSB7D": {
@@ -372,8 +371,9 @@
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "23,52 €",
     "first_seen": "2026-08-25T20:27:44.992523+00:00"
   },
   "US:B0GGCCLCJM": {
@@ -600,7 +600,7 @@
     "name": "Pokémon TCG: Scarlet & Violet—Máscara de la Oscuridad Élite Caja de Entrenador",
     "status": "compra_directa",
     "stock": null,
-    "price": "111,62 €",
+    "price": "111,50 €",
     "first_seen": "2026-08-25T20:27:54.285259+00:00"
   },
   "US:B0F2ZMNCPM": {
@@ -830,7 +830,7 @@
     "name": "Pokémon TCG: Scarlet & Violet - Caja de entrenamiento de élite Paldea Evolved",
     "status": "compra_directa",
     "stock": null,
-    "price": "235,82 €",
+    "price": "235,74 €",
     "first_seen": "2026-08-25T20:27:44.992505+00:00"
   },
   "US:B0H78BB9TY": {
@@ -1293,5 +1293,12 @@
     "status": "no_disponible",
     "stock": null,
     "first_seen": "2026-08-29T10:04:05.933305+00:00"
+  },
+  "US:B0FPM3LQJ4": {
+    "name": "Pokémon TCG: Mega Evolution - Caja de entrenador Elite de Llamas Fantasmales",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "153,66 €",
+    "first_seen": "2026-08-29T22:23:55.287871+00:00"
   }
 }
