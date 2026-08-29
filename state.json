@@ -78,7 +78,7 @@
     "name": "Pokémon: Estadio Combina y Combate de Escarlata y Púrpura (2 Barajas, 11 Paquetes de Mejora y más)",
     "status": "compra_directa",
     "stock": null,
-    "price": "65,98 €",
+    "price": "64,98 €",
     "first_seen": "2026-08-25T20:27:54.285181+00:00"
   },
   "UK:B0GRCDKMSW": {
@@ -92,7 +92,7 @@
     "name": "Pokémon TCG: Mega Evolución — Paquete de refuerzo del aumento del caos",
     "status": "compra_directa",
     "stock": null,
-    "price": "37,65 €",
+    "price": "39,11 €",
     "first_seen": "2026-08-25T20:27:54.285216+00:00"
   },
   "US:B0GYVHLP4L": {
@@ -113,7 +113,7 @@
     "name": "Pokémon TCG: Mega Evolución: Paquete de refuerzo de héroes ascendidos",
     "status": "compra_directa",
     "stock": null,
-    "price": "79,29 €",
+    "price": "78,94 €",
     "first_seen": "2026-08-25T20:27:44.992513+00:00"
   },
   "US:B0GW2DK37Q": {
@@ -134,14 +134,14 @@
     "name": "Pokémon TCG: Colección Súper Premium de Evoluciones Prismáticas Escarlata y Violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "243,35 €",
+    "price": "241,94 €",
     "first_seen": "2026-08-25T20:27:44.992510+00:00"
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
     "status": "compra_directa",
     "stock": null,
-    "price": "32,58 €",
+    "price": "33,47 €",
     "first_seen": "2026-08-25T20:27:54.285245+00:00"
   },
   "US:B0GXJ8CSTY": {
@@ -194,7 +194,7 @@
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de refuerzo de Surging Sparks",
     "status": "compra_directa",
     "stock": null,
-    "price": "77,17 €",
+    "price": "76,40 €",
     "first_seen": "2026-08-25T20:27:44.992499+00:00"
   },
   "US:B001DIJ48C": {
@@ -221,13 +221,15 @@
     "name": "Pokemon TCG: Scarlet & Violet - Destined Rivals Caja Expositora de Sobres - 36 Paquetes",
     "status": "compra_directa",
     "stock": null,
-    "price": "403,73 €",
+    "price": "342,99 €",
     "first_seen": "2026-08-25T20:27:54.285221+00:00"
   },
   "US:B0829FT44S": {
     "name": "Colección de más de 50 cartas oficiales de Pokémon con 5 holográficas en cualquier combinación y al menos 1 carta rara, GX, EX, FA, Tag Team o Secret Rare",
     "status": "compra_directa",
-    "stock": null
+    "stock": null,
+    "price": "6,95 €",
+    "first_seen": "2026-08-29T00:04:13.422014+00:00"
   },
   "US:B0GNCGT9KK": {
     "name": "Pokemon TCG: Mega Zygarde ex colección Premium con 8 paquetes de refuerzo | 8 paquetes de refuerzo",
@@ -272,8 +274,9 @@
   },
   "US:B0CGCVT5RR": {
     "name": "Pokémon TCG: Caja de entrenador élite de escarlata y violeta Paradox Rift",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "163,08 €",
     "first_seen": "2026-08-25T20:27:54.285264+00:00"
   },
   "US:B0BCN6HZR3": {
@@ -354,7 +357,7 @@
     "name": "Pokémon TCG: MegaLucario ex League Battle Deck",
     "status": "compra_directa",
     "stock": null,
-    "price": "16,71 €",
+    "price": "18,05 €",
     "first_seen": "2026-08-26T06:45:55.328155+00:00"
   },
   "UK:B0G72PSB7D": {
@@ -540,7 +543,7 @@
     "name": "Pokémon TCG: Mega Evolution—Caja de presentación de refuerzo negro de tono",
     "status": "compra_directa",
     "stock": null,
-    "price": "166,43 €",
+    "price": "167,42 €",
     "first_seen": "2026-08-27T21:01:09.203717+00:00"
   },
   "US:B0G2FVLXVL": {
@@ -554,7 +557,7 @@
     "name": "Pokemon TCG: Mega Evolución-Pedido Perfecto Pokemon Center Elite Trainer Box | PO PKC ETB | Promo exclusivo de Tyrunt | 11 paquetes de refuerzo",
     "status": "compra_directa",
     "stock": null,
-    "price": "116,84 €",
+    "price": "126,28 €",
     "first_seen": "2026-08-25T20:27:44.992538+00:00"
   },
   "US:B0D9PX5VDC": {
@@ -848,8 +851,9 @@
   },
   "US:B0BZTL5393": {
     "name": "Pokémon TCG: Scarlet & Violet - Caja de entrenamiento de élite Paldea Evolved",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "234,54 €",
     "first_seen": "2026-08-25T20:27:44.992505+00:00"
   },
   "US:B0H78BB9TY": {
