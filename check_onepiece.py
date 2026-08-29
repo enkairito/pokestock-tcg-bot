@@ -59,9 +59,15 @@ SNAPSHOT_FILE = Path(__file__).parent / "onepiece_snapshot.json"
 ACCESORIOS_SNAPSHOT_FILE = Path(__file__).parent / "accesorios_onepiece_snapshot.json"
 
 
+ACCESSORY_NAME_KEYWORDS = ["funda", "estuche", "sleeve", "case"]
+
+
 def is_accessory(name):
+    # Amazon a veces devuelve los nombres en inglés en vez de español según
+    # la sesión (visto el 29/08/2026) — sin las palabras en inglés, fundas
+    # y estuches se colaban como productos de juego normales.
     text = _strip_accents((name or "").lower())
-    return "funda" in text or "estuche" in text
+    return any(keyword in text for keyword in ACCESSORY_NAME_KEYWORDS)
 
 
 def categorize_onepiece(name):
