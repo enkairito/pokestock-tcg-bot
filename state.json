@@ -85,14 +85,14 @@
     "name": "Pokémon TCG: Mega Lucario ex League Battle Deck (1 Ready-to-Play 60-Card Deck Including Mega Lucario ex)",
     "status": "compra_directa",
     "stock": null,
-    "price": "31,45 €",
+    "price": "31,50 €",
     "first_seen": "2026-08-25T20:27:54.285206+00:00"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolución — Paquete de refuerzo del aumento del caos",
     "status": "compra_directa",
     "stock": null,
-    "price": "39,11 €",
+    "price": "37,60 €",
     "first_seen": "2026-08-25T20:27:54.285216+00:00"
   },
   "US:B0GYVHLP4L": {
@@ -134,7 +134,7 @@
     "name": "Pokémon TCG: Colección Súper Premium de Evoluciones Prismáticas Escarlata y Violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "241,95 €",
+    "price": "241,68 €",
     "first_seen": "2026-08-25T20:27:44.992510+00:00"
   },
   "US:B0GV6WRPRV": {
@@ -148,7 +148,7 @@
     "name": "Pokémon TCG: Mega Greninja ex Colección Premium",
     "status": "compra_directa",
     "stock": null,
-    "price": "54,11 €",
+    "price": "47,88 €",
     "first_seen": "2026-08-25T20:27:44.992540+00:00"
   },
   "US:B0GG16Q4X1": {
@@ -161,7 +161,7 @@
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
     "status": "compra_directa",
     "stock": null,
-    "price": "96,80 €",
+    "price": "97,61 €",
     "first_seen": "2026-08-25T20:27:54.285226+00:00"
   },
   "US:B0GFZV1ZVV": {
@@ -249,14 +249,14 @@
     "name": "Pokemon TCG: Scarlet & Violet - Caja de Entrenador Élite Destined Rivals - 9 Paquetes, Accesorios, Promo",
     "status": "compra_directa",
     "stock": null,
-    "price": "118,05 €",
+    "price": "115,90 €",
     "first_seen": "2026-08-25T20:27:54.285212+00:00"
   },
   "US:B0H2N248WM": {
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promo exclusivo de Fennekin | 11 paquetes de refuerzo",
     "status": "compra_directa",
     "stock": null,
-    "price": "143,29 €",
+    "price": "142,96 €",
     "first_seen": "2026-08-25T20:27:44.992536+00:00"
   },
   "US:B0FH6KRSX8": {
@@ -349,8 +349,9 @@
   },
   "US:B0GR6N18F6": {
     "name": "Pokémon TCG: Caja de entrenamiento de élite Mega Evolution—Chaos Rising",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "77,26 €",
     "first_seen": "2026-08-25T20:27:44.992502+00:00"
   },
   "US:B0GRCDKMSW": {
@@ -374,8 +375,9 @@
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "32,19 €",
     "first_seen": "2026-08-25T20:27:44.992523+00:00"
   },
   "US:B0GGCCLCJM": {
@@ -609,7 +611,7 @@
     "name": "Pokémon TCG: Scarlet & Violet—Máscara de la Oscuridad Élite Caja de Entrenador",
     "status": "compra_directa",
     "stock": null,
-    "price": "111,22 €",
+    "price": "110,85 €",
     "first_seen": "2026-08-25T20:27:54.285259+00:00"
   },
   "US:B0F2ZMNCPM": {
@@ -1191,35 +1193,35 @@
     "name": "Pokémon TCG: 2024 World Championships Deck (Sakuya Ota)",
     "status": "compra_directa",
     "stock": null,
-    "price": "19,70 €",
+    "price": "19,73 €",
     "first_seen": "2026-08-27T14:00:00.910592+00:00"
   },
   "UK:B0F8QVRPHY": {
     "name": "Pokémon TCG: 2024 World Championships Deck (Fernando Cifuentes)",
     "status": "compra_directa",
     "stock": null,
-    "price": "23,33 €",
+    "price": "23,36 €",
     "first_seen": "2026-08-27T14:00:00.910596+00:00"
   },
   "UK:B0D31X4GWY": {
     "name": "Pokemon Trading Card Game Battle Academy Set",
     "status": "compra_directa",
     "stock": null,
-    "price": "29,17 €",
+    "price": "29,20 €",
     "first_seen": "2026-08-27T14:00:00.910599+00:00"
   },
   "UK:B09PYPMHT3": {
     "name": "Pokémon TCG: Pokémon Trading Card Game Classic",
     "status": "compra_directa",
     "stock": "11",
-    "price": "466,82 €",
+    "price": "467,45 €",
     "first_seen": "2026-08-27T14:00:00.910601+00:00"
   },
   "UK:B0CTTYRPSN": {
     "name": "Pokémon TCG: World Championships Deck – Shao Tong Yen (2023)",
     "status": "compra_directa",
     "stock": null,
-    "price": "17,49 €",
+    "price": "17,52 €",
     "first_seen": "2026-08-27T14:00:00.910605+00:00"
   },
   "US:B0B9M6N4F1": {
@@ -1315,5 +1317,11 @@
     "status": "no_disponible",
     "stock": null,
     "first_seen": "2026-08-29T03:32:11.425756+00:00"
+  },
+  "US:B0H4Y35H1J": {
+    "name": "Pokémon TCG: Lata Mega Fuerzas",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-29T10:04:05.933305+00:00"
   }
 }
