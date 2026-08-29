@@ -1,19 +1,33 @@
 import asyncio
+import html
 import json
+import os
 import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+import requests
 from patchright.async_api import async_playwright
 
 from check_stock import (
+    DRY_RUN,
+    STATUS_COPY,
     _strip_accents,
     check_single_product,
     discover_products,
     merge_product_record,
     new_context,
+    price_to_float,
+    watermark_product_image,
 )
+
+# Bot y canal propios (@OPStockTCG_bot / "OnePiece Stock ESP TCG") —
+# separados del canal principal de Pokémon a propósito: la gente que solo
+# quiere avisos de Pokémon no debería recibir ruido de One Piece.
+TELEGRAM_ONEPIECE_BOT_TOKEN = os.environ["TELEGRAM_ONEPIECE_BOT_TOKEN"]
+TELEGRAM_ONEPIECE_CHAT_ID = os.environ["TELEGRAM_ONEPIECE_CHAT_ID"]
+ONEPIECE_WEBSITE_URL = "https://wheresthatstock.com/onepiece"
 
 # Tienda oficial de Bandai en Amazon ES, filtrada a "one piece tcg" — mismo
 # patrón que ACCESORIOS_MARKETPLACE en check_accessories.py, pero para el
@@ -85,6 +99,34 @@ def load_state():
 
 def save_state(state):
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def _telegram_post(method, data, files=None):
+    url = f"https://api.telegram.org/bot{TELEGRAM_ONEPIECE_BOT_TOKEN}/{method}"
+    resp = requests.post(url, data=data, files=files, timeout=15)
+    resp.raise_for_status()
+
+
+def send_telegram_message(text):
+    _telegram_post(
+        "sendMessage",
+        {"chat_id": TELEGRAM_ONEPIECE_CHAT_ID, "text": text, "parse_mode": "HTML", "disable_web_page_preview": "false"},
+    )
+
+
+def send_telegram_photo(photo_url, caption):
+    _telegram_post(
+        "sendPhoto",
+        {"chat_id": TELEGRAM_ONEPIECE_CHAT_ID, "photo": photo_url, "caption": caption, "parse_mode": "HTML"},
+    )
+
+
+def send_telegram_photo_bytes(image_bytes, caption):
+    _telegram_post(
+        "sendPhoto",
+        {"chat_id": TELEGRAM_ONEPIECE_CHAT_ID, "caption": caption, "parse_mode": "HTML"},
+        files={"photo": ("product.jpg", image_bytes, "image/jpeg")},
+    )
 
 
 def _snapshot_entry(info, game=None):
@@ -197,16 +239,96 @@ async def main():
     print(f"📦 Total combinado: {len(onepiece_products)} productos TCG + {len(accessory_products)} accesorios")
 
     for key, info in all_products.items():
+        status = info["status"]
+        name = info["name"]
         prev = state.get(key, {})
+        prev_status = prev.get("status")
+        prev_stock = prev.get("stock")
+        prev_price = prev.get("price")
         first_seen = prev.get("first_seen") or datetime.now(timezone.utc).isoformat()
         info["first_seen"] = first_seen
-        state[key] = {
-            "name": info["name"],
-            "status": info["status"],
-            "stock": info.get("stock"),
-            "price": info.get("price"),
-            "first_seen": first_seen,
-        }
+
+        # Los accesorios (fundas/estuches) no generan avisos — igual que
+        # check_accessories.py, solo alimentan la web.
+        is_tcg_card = key in onepiece_products
+
+        status_changed = is_tcg_card and status in ("compra_directa", "invitacion") and status != prev_status
+        stock_decreased = (
+            is_tcg_card
+            and status in ("compra_directa", "invitacion")
+            and info.get("stock") is not None
+            and prev_stock is not None
+            and int(info["stock"]) < int(prev_stock)
+        )
+        current_price_num = price_to_float(info.get("price"))
+        prev_price_num = price_to_float(prev_price)
+        price_decreased = (
+            is_tcg_card
+            and status == "compra_directa"
+            and current_price_num is not None
+            and prev_price_num is not None
+            and current_price_num < prev_price_num
+        )
+
+        send_failed = False
+
+        if status_changed or stock_decreased or price_decreased:
+            safe_name = html.escape(name)
+            link = html.escape(info["link"])
+            hashtag, cta_emoji, cta_label = STATUS_COPY[status]
+
+            price_change_line = "💸 <b>¡Bajada de precio!</b>" if price_decreased else ""
+
+            if price_decreased:
+                price_line = f"💰 <s>{html.escape(prev_price)}</s> <b>{html.escape(info['price'])}</b>"
+            elif info["price"] and info["original_price"] and info["original_price"] != info["price"]:
+                price_line = f"💰 <s>{html.escape(info['original_price'])}</s> <b>{html.escape(info['price'])}</b>"
+            elif info["price"]:
+                price_line = f"💰 <b>{html.escape(info['price'])}</b>"
+            else:
+                price_line = ""
+
+            stock_line = f"📊 <b>SÓLO QUEDA(N) {html.escape(str(info['stock']))} EN STOCK</b>" if info.get("stock") else ""
+            cta = f'{cta_emoji} <b><a href="{link}">{cta_label}</a></b>'
+            store_line = f"<b>{info['store_label']} {info['flag']} {hashtag}</b>"
+            website_line = f'🌐 <a href="{ONEPIECE_WEBSITE_URL}">Ver todo el stock de One Piece TCG</a>'
+
+            message = "\n\n".join(
+                part for part in [f"<b>{safe_name}</b>", store_line, price_change_line, price_line, stock_line, cta] if part
+            )
+            message += f"\n\n{website_line}"
+
+            if DRY_RUN:
+                print(f"🧪 [DRY_RUN] Se habría enviado ({status}): {name}")
+            else:
+                try:
+                    if info.get("image"):
+                        try:
+                            image_resp = requests.get(info["image"], timeout=15)
+                            image_resp.raise_for_status()
+                            watermarked = watermark_product_image(image_resp.content, info["marketplace_code"])
+                            send_telegram_photo_bytes(watermarked, message)
+                        except Exception as watermark_error:
+                            print(f"⚠️ No se pudo generar la marca de agua para {name}: {watermark_error!r}")
+                            send_telegram_photo(info["image"], message)
+                    else:
+                        send_telegram_message(message)
+                    print(f"✅ Alerta enviada ({status}): {name}")
+                except Exception as e:
+                    print(f"❌ Error enviando Telegram para {name}: {e!r}")
+                    send_failed = True
+                await asyncio.sleep(5)
+
+        if send_failed:
+            print(f"⚠️ No se actualiza el estado de '{name}' — se reintentará el aviso en la próxima ejecución.")
+        else:
+            state[key] = {
+                "name": name,
+                "status": status,
+                "stock": info.get("stock"),
+                "price": info.get("price"),
+                "first_seen": first_seen,
+            }
 
     save_state(state)
     save_snapshot(SNAPSHOT_FILE, onepiece_products, game="One Piece")

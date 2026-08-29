@@ -55,8 +55,13 @@ jobs:
 
       - name: Run One Piece TCG check
         env:
+          # check_stock.py (importado por check_onepiece.py) requiere estas
+          # dos al cargarse, aunque los avisos reales de One Piece usan las
+          # otras dos de abajo (bot y canal propios).
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_ONEPIECE_BOT_TOKEN: ${{ secrets.TELEGRAM_ONEPIECE_BOT_TOKEN }}
+          TELEGRAM_ONEPIECE_CHAT_ID: ${{ secrets.TELEGRAM_ONEPIECE_CHAT_ID }}
         run: xvfb-run -a python check_onepiece.py
 
       - name: Publish products snapshot to Where's That Stock
