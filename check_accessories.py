@@ -8,6 +8,7 @@ from pathlib import Path
 from patchright.async_api import async_playwright
 
 from check_stock import (
+    _strip_accents,
     check_single_product,
     discover_products,
     merge_product_record,
@@ -26,6 +27,20 @@ IRRELEVANT_NAME_KEYWORDS = ["lego"]
 def is_excluded_irrelevant_by_name(name):
     name_lower = (name or "").lower()
     return any(keyword in name_lower for keyword in IRRELEVANT_NAME_KEYWORDS)
+
+
+def categorize_by_game(name):
+    """Igual que en el resto del sitio, la web quiere poder filtrar
+    accesorios por "Juego" (Pokémon / One Piece / Sin asociar). La mayoría
+    de accesorios reales son de marcas genéricas sin mencionar ningún
+    juego — para esos usamos "Sin asociar" en vez de dejarlos sin
+    categoría, así el filtro cubre el 100% del catálogo."""
+    text = _strip_accents((name or "").lower())
+    if "pokemon" in text:
+        return "Pokémon"
+    if "one piece" in text or "una pieza" in text:
+        return "One Piece"
+    return "Sin asociar"
 
 # Reutiliza las mismas cookies de Amazon ES que check_stock.py — no hace
 # falta un fichero de cookies aparte, es la misma cuenta/dominio.
@@ -81,6 +96,7 @@ def save_snapshot(products):
                 "stock": info.get("stock"),
                 "link": info["link"],
                 "first_seen": info.get("first_seen"),
+                "categories": [categorize_by_game(info["name"])],
             }
             for info in products.values()
         ],
