@@ -172,7 +172,7 @@ CAPTCHA_MARKERS = [
 
 TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 TELEGRAM_CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
-DRY_RUN = os.environ.get("DRY_RUN") == "1"
+DRY_RUN = True  # Forzado a propósito solo para esta ejecución puntual 2026-08-31 (ver git log) — revertir después.
 
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -904,40 +904,6 @@ async def main():
         print("❌ No se encontró ningún producto en ninguna tienda.")
         sys.exit(1)
 
-    # Válvulas manuales temporales para casos puntuales, no para el flujo
-    # normal (pensadas para usarse desde local vía variable de entorno):
-    # - HOLD_ASINS: retiene productos enteros de esta ejecución (ni web ni
-    #   Telegram ni estado), para revisarlos a mano antes de dejarlos pasar.
-    # - MUTE_TELEGRAM_ASINS: sí actualiza web/estado con normalidad, pero no
-    #   manda el aviso de Telegram para esos ASIN en concreto — para
-    #   backlog que no es stock nuevo real (ej. corrección de un bug de
-    #   detección que dejó productos "atascados" con el estado equivocado).
-    # Valor por defecto puesto a propósito solo para esta ejecución puntual
-    # 2026-08-31 (revisión manual de los 9 compra_directa nuevos tras el
-    # arreglo del idioma) — quitar después de usarlo.
-    hold_asins = {a for a in os.environ.get(
-        "HOLD_ASINS",
-        "B09NR4WRD1,B0GZVJD13H,B0CB4HYYT4,B0CRVJCWF4,B0D6WLV3QH,B0DFWY44GH,B0D6WLDCZF,B0GWCSP6MR,B0GYTRYV7P",
-    ).split(",") if a}
-    if hold_asins:
-        held_keys = [k for k, i in products.items() if i.get("asin") in hold_asins]
-        for k in held_keys:
-            del products[k]
-        print(f"⏸️ Reteniendo {len(held_keys)} productos para revisión manual (HOLD_ASINS).")
-
-    # Idem: valor por defecto puntual para esta ejecución (los 33
-    # "invitación" atascados por el bug de idioma) — quitar después.
-    mute_telegram_asins = {a for a in os.environ.get(
-        "MUTE_TELEGRAM_ASINS",
-        "B0GZKZ1FL9,B0GZL8WKB6,B0GZL2WPMF,B0GZL7PBX1,B0H3LQY1Q7,B0H1HDKXGH,B0H9SKZKGV,B0H9S8GX7L,"
-        "B0H9SB97F7,B0GSSR9ZNS,B0GSSJ9RB1,B0GYSJDWDS,B0GYSKSSTH,B0GYSDGPBH,B0GYSKFHBY,B0H5KLFD8M,"
-        "B0GYSGQ9R8,B0G7HYD9WC,B0GMRC58KQ,B0GMR6ZK3R,B0G4NS6SJY,B0G4NT35J8,B0GGJ2YJQ5,B0GGHXWSDC,"
-        "B0FPMXHZLT,B0FX19JX78,B0FZKWZ5YP,B0FTCXPDCH,B0FTG3C43P,B0FTG4DGK7,B0FTFZXNBX,B0FTG2HV37,"
-        "B0FB3YHTBL",
-    ).split(",") if a}
-    if mute_telegram_asins:
-        print(f"🔇 Silenciando Telegram para {len(mute_telegram_asins)} productos (MUTE_TELEGRAM_ASINS) — solo se actualiza web/estado.")
-
     print(f"📦 Total combinado: {len(products)} productos únicos")
 
     for key, info in products.items():
@@ -975,11 +941,7 @@ async def main():
         # ES y El Corte Inglés). El resto de marketplaces (UK, US) se
         # siguen detectando y guardando en el estado/snapshot para la web,
         # pero no generan mensajes.
-        if (
-            (status_changed or stock_decreased or price_decreased)
-            and info["marketplace_code"] in ("ES", "ECI")
-            and info["asin"] not in mute_telegram_asins
-        ):
+        if (status_changed or stock_decreased or price_decreased) and info["marketplace_code"] in ("ES", "ECI"):
             # El nombre, el precio y (para ECI) el link vienen del scraping
             # de Amazon/El Corte Inglés — datos externos que no controlamos
             # — y el mensaje se manda con parse_mode: HTML, así que hay que
