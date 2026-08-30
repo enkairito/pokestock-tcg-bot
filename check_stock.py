@@ -38,6 +38,17 @@ MARKETPLACES = [
             ("Cajas de Colección", "https://www.amazon.es/stores/page/90B837D1-73B6-42CD-9DAF-8B2B12B49901"),
             ("Otros", "https://www.amazon.es/stores/page/9DAE367E-008E-4F93-8D0A-6F556F2F77A0"),
             ("Colecciones premium", "https://www.amazon.es/stores/page/F25CACFF-2F58-430E-A6FF-0606896DD0FA"),
+            # Búsqueda en todo Amazon.es (no solo nuestra tienda) filtrada a
+            # "vendido por Amazon España" (p_6) + departamento Juguetes
+            # (p_72), para pillar stock que la tienda propia no cubre.
+            # Solicitado explícitamente 2026-08-30/31, tras revertir una
+            # primera versión sin filtro de vendedor que coló productos de
+            # terceros y disparó avisos de Telegram no deseados — ver
+            # commits 437f1f3/3f14760. Sin filtro de categoría Pokémon
+            # (p_123): probado con y sin él, y sin él encuentra más stock
+            # real sin colar ruido (ver FRENCH_EDITION_RE / is_relevant_by_name
+            # para las redes de seguridad que sí se mantienen).
+            ("Búsqueda general", "https://www.amazon.es/s?k=pokemon+JCC&rh=p_72%3A831280031%2Cp_6%3AA1AT7YVPFBWXBL"),
         ],
         # Subconjunto de "pages" que representa categorías de producto reales
         # (a diferencia de "Todos los productos"/"Disponible de nuevo"/
@@ -171,14 +182,25 @@ ASIN_HREF_RE = re.compile(r"/dp/([A-Z0-9]{10})")
 
 EXCLUDED_NAME_KEYWORDS = ["funda", "sleeve", "sleeves", "lego"]
 
+# Pokémon marca el idioma de la edición en el propio título entre dos puntos,
+# ej. "(290-55964 : C : FR : 10 :)" — "FR" ahí es la edición francesa
+# colándose vía cross-border en Amazon.es. Pedido explícitamente descartarla
+# (2026-08-31, tras verla aparecer tanto en UK/US como en la búsqueda general
+# de ES). No usar un simple "in" como con EXCLUDED_NAME_KEYWORDS: "fr" suelto
+# aparecería dentro de palabras normales.
+FRENCH_EDITION_RE = re.compile(r":\s*FR\s*:")
+
 
 def is_excluded_by_name(name):
     """Filtra accesorios (ej. fundas de cartas) que aparecen en los
     resultados de búsqueda de la tienda pero no son el producto en sí.
     Cubre ES ("funda") e inglés ("sleeve"/"sleeves") ya que el filtro se
-    aplica por igual a ES/UK/US."""
+    aplica por igual a ES/UK/US. También filtra ediciones en francés
+    coladas cross-border (ver FRENCH_EDITION_RE)."""
     name_lower = (name or "").lower()
-    return any(keyword in name_lower for keyword in EXCLUDED_NAME_KEYWORDS)
+    if any(keyword in name_lower for keyword in EXCLUDED_NAME_KEYWORDS):
+        return True
+    return bool(FRENCH_EDITION_RE.search(name or ""))
 
 
 def _strip_accents(text):
@@ -571,6 +593,14 @@ async def discover_products(page, label, url, marketplace):
 
         text = t.get("text") or ""
         text_lower = text.lower()
+
+        # Las páginas de búsqueda (a diferencia de las páginas de tienda
+        # propias) mezclan resultados patrocinados con los orgánicos —
+        # pedido explícitamente que se descarten, ya que no son hallazgos
+        # reales de stock sino colocaciones pagadas de terceros.
+        if "patrocinado" in text_lower or "sponsored" in text_lower:
+            continue
+
         status = determine_status(t.get("hasAddToCart"), text_lower, marketplace)
 
         if debug_asin and asin == debug_asin:
