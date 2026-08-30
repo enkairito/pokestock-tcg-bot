@@ -172,7 +172,7 @@ CAPTCHA_MARKERS = [
 
 TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 TELEGRAM_CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
-DRY_RUN = True  # Forzado a propósito solo para esta ejecución puntual 2026-08-31 (ver git log) — revertir después.
+DRY_RUN = os.environ.get("DRY_RUN") == "1"
 
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
