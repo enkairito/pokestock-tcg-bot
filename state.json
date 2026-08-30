@@ -102,9 +102,11 @@
     "first_seen": "2026-08-27T14:04:09.217406+00:00"
   },
   "ES:B0G5YX5XVQ": {
-    "name": "Pokémon: Baraja Combate de Liga de Mewtwo ex del Team Rocket (1 baraja de 60 Cartas Lista para Jugar)",
+    "name": "Pokémon: Mewtwo Ex Team Rocket League Battle Deck (1 Deck of 60 Cards Ready to Play)",
     "status": "compra_directa",
-    "stock": null
+    "stock": null,
+    "price": "€49.99",
+    "first_seen": "2026-08-30T23:03:33.935582+00:00"
   },
   "ES:B0FTCXPDCH": {
     "name": "Pokémon: JCC Pokémon Mega-Lucario ex Figure Collection (1 Holographic Embossed Promo Card, 1 Oversized Promo Card, 5 Upgrade Envelopes and 1 Mega-Lucario Figure)",
@@ -675,7 +677,7 @@
     "name": "Pokemon TCG: Scarlet & Violet - Caja de Entrenador Élite Destined Rivals - 9 Paquetes, Accesorios, Promo",
     "status": "compra_directa",
     "stock": null,
-    "price": "116,54 €",
+    "price": "118,70 €",
     "first_seen": "2026-08-30T20:46:19.644824+00:00"
   },
   "US:B0GYVHLP4L": {
@@ -689,7 +691,7 @@
     "name": "Pokémon TCG: Mega Evolution—Paquete de refuerzo de tono negro",
     "status": "compra_directa",
     "stock": null,
-    "price": "42,72 €",
+    "price": "40,53 €",
     "first_seen": "2026-08-30T20:46:19.644833+00:00"
   },
   "US:B0GR6Q72ND": {
@@ -710,14 +712,14 @@
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
     "status": "compra_directa",
     "stock": null,
-    "price": "34,52 €",
+    "price": "23,52 €",
     "first_seen": "2026-08-30T20:46:19.644844+00:00"
   },
   "US:B0DYR8D7YC": {
     "name": "Pokémon TCG: Colección Súper Premium de Evoluciones Prismáticas Escarlata y Violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "243,60 €",
+    "price": "242,08 €",
     "first_seen": "2026-08-30T20:46:19.644847+00:00"
   },
   "US:B0GW2DK37Q": {
@@ -773,7 +775,7 @@
     "name": "Pokémon TCG: Mega Evolution—Perfect Order Booster Bundle",
     "status": "compra_directa",
     "stock": null,
-    "price": "43,16 €",
+    "price": "43,15 €",
     "first_seen": "2026-08-30T20:46:19.644876+00:00"
   },
   "US:B0GV6WRPRV": {
@@ -815,7 +817,7 @@
     "name": "Pokémon TCG 3 paquetes de refuerzo, 30 cartas en total, 100% auténticas, raras aleatorias y holofoils, 3 paquetes de ampollas",
     "status": "compra_directa",
     "stock": null,
-    "price": "22,31 €",
+    "price": "22,40 €",
     "first_seen": "2026-08-30T20:46:19.644937+00:00"
   },
   "US:B0GSJMQ3QQ": {
@@ -850,7 +852,7 @@
     "name": "Pokémon TCG: Scarlet & Violet—Máscara de la Oscuridad Élite Caja de Entrenador",
     "status": "compra_directa",
     "stock": null,
-    "price": "111,60 €",
+    "price": "111,46 €",
     "first_seen": "2026-08-30T20:46:19.644956+00:00"
   },
   "US:B0CGCVT5RR": {
@@ -864,7 +866,7 @@
     "name": "Pokemon TCG: Mega Evolución-Pedido Perfecto Pokemon Center Elite Trainer Box | PO PKC ETB | Promo exclusivo de Tyrunt | 11 paquetes de refuerzo",
     "status": "compra_directa",
     "stock": null,
-    "price": "129,48 €",
+    "price": "127,12 €",
     "first_seen": "2026-08-30T20:46:19.644963+00:00"
   },
   "US:B0DSLY7DZZ": {
@@ -950,5 +952,55 @@
     "stock": null,
     "price": "155,80 €",
     "first_seen": "2026-08-30T20:46:19.645004+00:00"
+  },
+  "ES:B0FTG4DGK7": {
+    "name": "Pokémon: JCC Pokémon Megaevolution Elite Trainer Box-Ghost Fires (1 Promo Card with Expanded Illustration, 9 Upgrade Envelopes and Premium Accessories)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-30T23:02:53.911679+00:00"
+  },
+  "ES:B0FTG3C43P": {
+    "name": "Pokémon: JCC Pokémon Megaevolution Enhancement Packs-Ghost Fires (6 Upgrade Envelopes)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-30T23:02:53.911699+00:00"
+  },
+  "ES:B0FTFZXNBX": {
+    "name": "Pokémon: JCC Pokémon Megaevolution Enhancement Envelope Display - Ghost Fire, 18 Upgrade Envelopes",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-30T23:02:53.911723+00:00"
+  },
+  "ES:B0FTG2HV37": {
+    "name": "Pokémon: Blister Pack of 3 Megaevolution-Ghost Fireworks Enhancement: Weavile by JCC Pokémon (1 Holographic Promotion Card and 3 Upgrade Envelopes)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-30T23:02:53.911730+00:00"
+  },
+  "ES:B0FB3YHTBL": {
+    "name": "Pokémon Collection with Special Scarlet and Purple-Black Fulgor Stickers, Reuniclus by JCC Pokémon (1 Holographic Promotion Card and 3 Upgrade Envelopes)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-30T23:02:53.911735+00:00"
+  },
+  "US:B0H6DTXPK1": {
+    "name": "Pokémon TCG: Mega Evolución: lata de héroes ascendidos",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-30T23:03:24.893535+00:00"
+  },
+  "ES:B0D6WLDCZF": {
+    "name": "BANDAI PC50533 Pokémon TCG: Back to School Collector's Chest, Multicolor, Collectible for Anime Lovers, Spanish Version",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "€37.99",
+    "first_seen": "2026-08-30T23:03:33.935596+00:00"
+  },
+  "US:B0829FT44S": {
+    "name": "Colección de más de 50 cartas oficiales de Pokémon con 5 holográficas en cualquier combinación y al menos 1 carta rara, GX, EX, FA, Tag Team o Secret Rare",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "6,98 €",
+    "first_seen": "2026-08-30T23:03:39.880953+00:00"
   }
 }
