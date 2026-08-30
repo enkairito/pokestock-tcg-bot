@@ -48,14 +48,11 @@ MARKETPLACES = [
             # Búsqueda en todo Amazon.es (no solo nuestra tienda) filtrada a
             # "vendido por Amazon España" (p_6) + departamento Juguetes
             # (p_72), para pillar stock que la tienda propia no cubre.
-            # Solicitado explícitamente 2026-08-30/31, tras revertir una
-            # primera versión sin filtro de vendedor que coló productos de
-            # terceros y disparó avisos de Telegram no deseados — ver
-            # commits 437f1f3/3f14760. Sin filtro de categoría Pokémon
-            # (p_123): probado con y sin él, y sin él encuentra más stock
-            # real sin colar ruido (ver FRENCH_EDITION_RE / is_relevant_by_name
-            # para las redes de seguridad que sí se mantienen).
-            ("Búsqueda general", "https://www.amazon.es/s?k=pokemon+JCC&rh=p_72%3A831280031%2Cp_6%3AA1AT7YVPFBWXBL"),
+            # Desactivada a propósito 2026-08-31: el link todavía no está
+            # bien ajustado (coló cosas como juegos de mesa/Scrabble ajenos
+            # al TCG). Retomar mañana con el filtro de categoría Pokémon
+            # (p_123) puesto — ver commits 437f1f3/3f14760/dbbf967.
+            # ("Búsqueda general", "https://www.amazon.es/s?k=pokemon+JCC&rh=p_72%3A831280031%2Cp_6%3AA1AT7YVPFBWXBL"),
         ],
         # Subconjunto de "pages" que representa categorías de producto reales
         # (a diferencia de "Todos los productos"/"Disponible de nuevo"/
