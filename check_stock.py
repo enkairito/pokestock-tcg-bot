@@ -904,6 +904,21 @@ async def main():
         print("❌ No se encontró ningún producto en ninguna tienda.")
         sys.exit(1)
 
+    # Retenidos a la espera de revisión manual del dueño (2026-08-31): 9
+    # productos de compra_directa descubiertos por primera vez vía la nueva
+    # página "Búsqueda general" de ES. Ni web ni Telegram ni estado hasta
+    # que se apruebe uno por uno — quitar cada ASIN de aquí (o la lista
+    # entera) según se vayan revisando.
+    HELD_FOR_REVIEW_ASINS = {
+        "B09NR4WRD1", "B0GZVJD13H", "B0CB4HYYT4", "B0CRVJCWF4", "B0D6WLV3QH",
+        "B0DFWY44GH", "B0D6WLDCZF", "B0GWCSP6MR", "B0GYTRYV7P",
+    }
+    held_keys = [k for k, i in products.items() if i.get("asin") in HELD_FOR_REVIEW_ASINS]
+    if held_keys:
+        for k in held_keys:
+            del products[k]
+        print(f"⏸️ Reteniendo {len(held_keys)} productos para revisión manual del dueño.")
+
     print(f"📦 Total combinado: {len(products)} productos únicos")
 
     for key, info in products.items():
