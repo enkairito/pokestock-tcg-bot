@@ -103,7 +103,7 @@
     "name": "Pokémon TCG: Mega Evolution—Paquete de refuerzo de tono negro",
     "status": "compra_directa",
     "stock": null,
-    "price": "40,53 €",
+    "price": "42,72 €",
     "first_seen": "2026-08-25T20:27:44.992525+00:00"
   },
   "US:B0G3CV6Z9D": {
@@ -117,21 +117,21 @@
     "name": "Pokémon TCG: Colección de Ilustraciones de Primera Partner —Serie 2",
     "status": "compra_directa",
     "stock": null,
-    "price": "32,33 €",
+    "price": "36,17 €",
     "first_seen": "2026-08-25T20:27:44.992532+00:00"
   },
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution—Perfect Order Booster Bundle",
     "status": "compra_directa",
     "stock": null,
-    "price": "43,15 €",
+    "price": "43,16 €",
     "first_seen": "2026-08-25T20:27:44.992534+00:00"
   },
   "US:B0DYR8D7YC": {
     "name": "Pokémon TCG: Colección Súper Premium de Evoluciones Prismáticas Escarlata y Violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "243,66 €",
+    "price": "242,17 €",
     "first_seen": "2026-08-25T20:27:44.992510+00:00"
   },
   "US:B0GV6WRPRV": {
@@ -165,7 +165,7 @@
     "name": "Pokémon TCG: Caja de Entrenador Élite de Mega Evolución—Orden Perfecta",
     "status": "compra_directa",
     "stock": null,
-    "price": "77,60 €",
+    "price": "77,61 €",
     "first_seen": "2026-08-25T20:27:44.992530+00:00"
   },
   "US:B09YS3LL3N": {
@@ -305,7 +305,7 @@
     "name": "Una tarjeta de Pokémon encapsulada y autenticada con calificación PSA al azar (perfecta para exhibición)",
     "status": "compra_directa",
     "stock": null,
-    "price": "24,07 €",
+    "price": "27,29 €",
     "first_seen": "2026-08-25T20:27:54.285281+00:00"
   },
   "US:B0CNFSY3Y3": {
@@ -323,7 +323,9 @@
   "US:B0GWKCLH6G": {
     "name": "Pokémon TCG: Mega Moonlit Tin Mega Clefable",
     "status": "compra_directa",
-    "stock": null
+    "stock": null,
+    "price": "31,94 €",
+    "first_seen": "2026-08-30T20:23:12.835085+00:00"
   },
   "US:B0DLQJ613B": {
     "name": "Pokémon TCG: Scarlet & Violet—Colección de Pósters de Prismatic Evolutions",
@@ -600,7 +602,7 @@
     "name": "Pokémon TCG: Scarlet & Violet—Máscara de la Oscuridad Élite Caja de Entrenador",
     "status": "compra_directa",
     "stock": null,
-    "price": "111,76 €",
+    "price": "111,62 €",
     "first_seen": "2026-08-25T20:27:54.285259+00:00"
   },
   "US:B0F2ZMNCPM": {
