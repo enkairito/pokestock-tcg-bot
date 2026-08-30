@@ -131,14 +131,14 @@
     "name": "Pokémon TCG: Colección Súper Premium de Evoluciones Prismáticas Escarlata y Violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "242,17 €",
+    "price": "242,16 €",
     "first_seen": "2026-08-25T20:27:44.992510+00:00"
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
     "status": "compra_directa",
     "stock": null,
-    "price": "31,67 €",
+    "price": "25,85 €",
     "first_seen": "2026-08-25T20:27:54.285245+00:00"
   },
   "US:B0GXJ8CSTY": {
@@ -252,7 +252,7 @@
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promo exclusivo de Fennekin | 11 paquetes de refuerzo",
     "status": "compra_directa",
     "stock": null,
-    "price": "144,15 €",
+    "price": "US$166.99",
     "first_seen": "2026-08-25T20:27:44.992536+00:00"
   },
   "US:B0FH6KRSX8": {
@@ -265,14 +265,14 @@
     "name": "Pokemon TCG: Caja de entrenador de élite Viaje Juntos Escarlata y Violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "164,88 €",
+    "price": "US$191.00",
     "first_seen": "2026-08-25T20:27:54.285269+00:00"
   },
   "US:B0CGCVT5RR": {
     "name": "Pokémon TCG: Caja de entrenador élite de escarlata y violeta Paradox Rift",
     "status": "compra_directa",
     "stock": null,
-    "price": "162,20 €",
+    "price": "US$187.89",
     "first_seen": "2026-08-25T20:27:54.285264+00:00"
   },
   "US:B0BCN6HZR3": {
@@ -286,14 +286,14 @@
     "name": "Pokémon TCG: Escarlata y Violeta - Caja de Exhibición de Booster Surging Sparks",
     "status": "compra_directa",
     "stock": null,
-    "price": "279,69 €",
+    "price": "US$324.00",
     "first_seen": "2026-08-25T20:27:54.285277+00:00"
   },
   "US:B09CLGX546": {
     "name": "Juego de cartas coleccionables de Pokémon: SAS8- Caja para entrenador élite Golpe Fusión",
     "status": "compra_directa",
     "stock": null,
-    "price": "310,76 €",
+    "price": "US$359.99",
     "first_seen": "2026-08-25T20:27:44.992508+00:00"
   },
   "US:B0BSNXK3H7": {
@@ -305,7 +305,7 @@
     "name": "Una tarjeta de Pokémon encapsulada y autenticada con calificación PSA al azar (perfecta para exhibición)",
     "status": "compra_directa",
     "stock": null,
-    "price": "27,29 €",
+    "price": "US$31.61",
     "first_seen": "2026-08-25T20:27:54.285281+00:00"
   },
   "US:B0CNFSY3Y3": {
@@ -317,14 +317,14 @@
     "name": "Pokemon TCG: Caja Entrenador Élite Camino de Campeones, multicolor",
     "status": "compra_directa",
     "stock": null,
-    "price": "246,02 €",
+    "price": "US$284.99",
     "first_seen": "2026-08-25T20:27:44.992507+00:00"
   },
   "US:B0GWKCLH6G": {
     "name": "Pokémon TCG: Mega Moonlit Tin Mega Clefable",
     "status": "compra_directa",
     "stock": null,
-    "price": "31,94 €",
+    "price": "31,91 €",
     "first_seen": "2026-08-30T20:23:12.835085+00:00"
   },
   "US:B0DLQJ613B": {
@@ -341,8 +341,9 @@
   },
   "US:B0G3CY83L5": {
     "name": "Pokémon TCG: Caja de entrenamiento de élite de héroes ascendidos de Mega Evolution",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "166,15 €",
     "first_seen": "2026-08-25T20:27:44.992515+00:00"
   },
   "US:B0GR6N18F6": {
@@ -526,7 +527,7 @@
     "name": "Pokemon Scarlet & Violet 3 Obsidian Flames Caja de Entrenador Élite",
     "status": "compra_directa",
     "stock": null,
-    "price": "316,80 €",
+    "price": "US$366.98",
     "first_seen": "2026-08-25T20:27:54.285273+00:00"
   },
   "US:B0GP8HSDCJ": {
@@ -552,7 +553,7 @@
     "name": "Pokemon TCG: Mega Evolución-Pedido Perfecto Pokemon Center Elite Trainer Box | PO PKC ETB | Promo exclusivo de Tyrunt | 11 paquetes de refuerzo",
     "status": "compra_directa",
     "stock": null,
-    "price": "129,48 €",
+    "price": "US$149.99",
     "first_seen": "2026-08-25T20:27:44.992538+00:00"
   },
   "US:B0D9PX5VDC": {
@@ -602,7 +603,7 @@
     "name": "Pokémon TCG: Scarlet & Violet—Máscara de la Oscuridad Élite Caja de Entrenador",
     "status": "compra_directa",
     "stock": null,
-    "price": "111,62 €",
+    "price": "US$129.28",
     "first_seen": "2026-08-25T20:27:54.285259+00:00"
   },
   "US:B0F2ZMNCPM": {
@@ -1043,7 +1044,7 @@
     "name": "Cartas Pokémon: Caja Entrenador Élite Espada y Escudo 4 Voltaje Vívido Pikachu multicolor.",
     "status": "compra_directa",
     "stock": null,
-    "price": "172,60 €",
+    "price": "US$199.94",
     "first_seen": "2026-08-26T11:29:24.180808+00:00"
   },
   "US:B0DNVHPWTF": {
@@ -1200,7 +1201,7 @@
     "name": "Pokemon TCG: Colección Ultra-Premium Espada y Escudo Charizard",
     "status": "compra_directa",
     "stock": null,
-    "price": "612,90 €",
+    "price": "US$709.99",
     "first_seen": "2026-08-27T14:00:00.910681+00:00"
   },
   "ES:B0D6WLBJKX": {
@@ -1235,7 +1236,7 @@
     "name": "Pokemon JCC: Caja de entrenamiento Elite SAS5 Battle Style Urshifu ataque rápido versión Gigamax",
     "status": "compra_directa",
     "stock": null,
-    "price": "120,85 €",
+    "price": "US$139.99",
     "first_seen": "2026-08-27T15:29:17.714833+00:00"
   },
   "US:B092GQYF63": {
@@ -1248,7 +1249,7 @@
     "name": "Pokemon Caja de Entrenamiento de Elite para Celebraciones del 25 Aniversario",
     "status": "compra_directa",
     "stock": null,
-    "price": "395,72 €",
+    "price": "US$458.41",
     "first_seen": "2026-08-28T07:53:32.720677+00:00"
   },
   "ECI:A200971014": {
@@ -1261,7 +1262,7 @@
     "name": "Pokemon Escarlata y Púrpura Set de Entrenador Élite - Evoluciones Prismáticas del TCG de Pokemon (1 Tarjeta Promo Ilustrada Completa, 9 Paquetes de Mejora y Accesorios de Juego Premium)",
     "status": "compra_directa",
     "stock": null,
-    "price": "185,51 €",
+    "price": "US$214.90",
     "first_seen": "2026-08-28T09:37:28.942888+00:00"
   },
   "US:B0B4PRYJ6T": {
@@ -1281,7 +1282,7 @@
     "name": "Pokemon Sword & Shield Vivid Voltage Elite Trainer Box",
     "status": "compra_directa",
     "stock": null,
-    "price": "155,80 €",
+    "price": "US$180.48",
     "first_seen": "2026-08-28T16:49:19.419229+00:00"
   },
   "US:B07R2BTTS7": {
