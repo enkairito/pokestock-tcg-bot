@@ -38,6 +38,14 @@ MARKETPLACES = [
             ("Cajas de Colección", "https://www.amazon.es/stores/page/90B837D1-73B6-42CD-9DAF-8B2B12B49901"),
             ("Otros", "https://www.amazon.es/stores/page/9DAE367E-008E-4F93-8D0A-6F556F2F77A0"),
             ("Colecciones premium", "https://www.amazon.es/stores/page/F25CACFF-2F58-430E-A6FF-0606896DD0FA"),
+            # Búsqueda general en todo Amazon.es (no solo nuestra tienda),
+            # para pillar stock de otros vendedores que la tienda propia no
+            # cubre. Solicitado explícitamente 2026-08-30. Filtrada a
+            # "Pokémon TCG" (p_123) + condición "Nuevo" (p_n_condition-type);
+            # sin p_6 de vendedor, a diferencia de las de UK/US, porque aquí
+            # queremos cualquier vendedor. Los patrocinados se descartan en
+            # discover_products.
+            ("Búsqueda general", "https://www.amazon.es/s?k=pokemon+tcg&rh=p_123%3A325733%2Cp_n_condition-type%3A15144009031&s=relevanceblender"),
         ],
         # Subconjunto de "pages" que representa categorías de producto reales
         # (a diferencia de "Todos los productos"/"Disponible de nuevo"/
@@ -571,6 +579,14 @@ async def discover_products(page, label, url, marketplace):
 
         text = t.get("text") or ""
         text_lower = text.lower()
+
+        # Las páginas de búsqueda (a diferencia de las páginas de tienda
+        # propias) mezclan resultados patrocinados con los orgánicos —
+        # solicitado explícitamente no incluirlos, ya que no son hallazgos
+        # reales de stock sino colocaciones pagadas de terceros.
+        if "patrocinado" in text_lower or "sponsored" in text_lower:
+            continue
+
         status = determine_status(t.get("hasAddToCart"), text_lower, marketplace)
 
         if debug_asin and asin == debug_asin:
