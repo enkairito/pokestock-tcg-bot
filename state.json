@@ -691,7 +691,7 @@
     "name": "Pokémon TCG: Mega Evolution—Paquete de refuerzo de tono negro",
     "status": "compra_directa",
     "stock": null,
-    "price": "40,53 €",
+    "price": "40,56 €",
     "first_seen": "2026-08-30T20:46:19.644833+00:00"
   },
   "US:B0GR6Q72ND": {
@@ -761,7 +761,7 @@
     "name": "Pokémon TCG: Mega Evolution - Caja de entrenador Elite de Llamas Fantasmales",
     "status": "compra_directa",
     "stock": null,
-    "price": "153,66 €",
+    "price": "109,57 €",
     "first_seen": "2026-08-30T20:46:19.644869+00:00"
   },
   "US:B0FQP3YQ47": {
@@ -852,7 +852,7 @@
     "name": "Pokémon TCG: Scarlet & Violet—Máscara de la Oscuridad Élite Caja de Entrenador",
     "status": "compra_directa",
     "stock": null,
-    "price": "111,46 €",
+    "price": "111,45 €",
     "first_seen": "2026-08-30T20:46:19.644956+00:00"
   },
   "US:B0CGCVT5RR": {
@@ -887,7 +887,7 @@
     "name": "Pokemon Scarlet & Violet 3 Obsidian Flames Caja de Entrenador Élite",
     "status": "compra_directa",
     "stock": null,
-    "price": "316,80 €",
+    "price": "319,29 €",
     "first_seen": "2026-08-30T20:46:19.644974+00:00"
   },
   "US:B0DFBGYFD3": {
@@ -1002,5 +1002,40 @@
     "stock": null,
     "price": "6,98 €",
     "first_seen": "2026-08-30T23:03:39.880953+00:00"
+  },
+  "ES:B0DFWY44GH": {
+    "name": "Pokémon TCG: Holiday Calendar (8 Aluminum Promo Cards, 5 Booster Packs, and more)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "€92.07",
+    "first_seen": "2026-08-30T23:13:54.651149+00:00"
+  },
+  "ES:B0GWCSP6MR": {
+    "name": "Pokémon TCG: Mega Evolution Chaos Rising 1 x Booster Pack, Trading Card Game",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "€22.31",
+    "first_seen": "2026-08-30T23:14:00.491708+00:00"
+  },
+  "ES:B0FZBM1JBH": {
+    "name": "Pokémon Day 2026 GCC Pokémon Collection (One Holographic Promotional Card, One Coin and Three Expansion Envelopes)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "€51.25",
+    "first_seen": "2026-08-30T23:14:06.286954+00:00"
+  },
+  "ES:B07PG9HB8C": {
+    "name": "Pokemon Friends of Kanto Minilata - Spanish (One Supplied at Random) (The Company POMT1901)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "€22.76",
+    "first_seen": "2026-08-30T23:14:12.215150+00:00"
+  },
+  "ES:B0GYTRYV7P": {
+    "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "€55.79",
+    "first_seen": "2026-08-30T23:14:18.027988+00:00"
   }
 }
