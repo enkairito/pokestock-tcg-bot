@@ -649,8 +649,9 @@
   },
   "US:B0DLPL7LC5": {
     "name": "Pokemon TCG: Caja de entrenador élite de evoluciones prismáticas escarlata y violeta",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "168,33 €",
     "first_seen": "2026-08-30T20:46:10.703761+00:00"
   },
   "US:B09HNZ7RYV": {
@@ -705,7 +706,7 @@
     "name": "Pokemon TCG: Scarlet & Violet - Caja de Entrenador Élite Destined Rivals - 9 Paquetes, Accesorios, Promo",
     "status": "compra_directa",
     "stock": null,
-    "price": "118,70 €",
+    "price": "116,54 €",
     "first_seen": "2026-08-30T20:46:19.644824+00:00"
   },
   "US:B0GYVHLP4L": {
@@ -726,7 +727,7 @@
     "name": "Pokémon TCG: Mega Evolución — Paquete de refuerzo del aumento del caos",
     "status": "compra_directa",
     "stock": null,
-    "price": "38,11 €",
+    "price": "37,51 €",
     "first_seen": "2026-08-30T20:46:19.644837+00:00"
   },
   "US:B0GZ9S9KDR": {
@@ -746,7 +747,7 @@
     "name": "Pokémon TCG: Colección Súper Premium de Evoluciones Prismáticas Escarlata y Violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "243,05 €",
+    "price": "242,75 €",
     "first_seen": "2026-08-30T20:46:19.644847+00:00"
   },
   "US:B0GW2DK37Q": {
@@ -774,7 +775,7 @@
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
     "status": "compra_directa",
     "stock": null,
-    "price": "98,14 €",
+    "price": "94,46 €",
     "first_seen": "2026-08-30T20:46:19.644862+00:00"
   },
   "US:B0F2GZJ3TZ": {
@@ -802,27 +803,28 @@
     "name": "Pokémon TCG: Mega Evolution—Perfect Order Booster Bundle",
     "status": "compra_directa",
     "stock": null,
-    "price": "43,15 €",
+    "price": "42,29 €",
     "first_seen": "2026-08-30T20:46:19.644876+00:00"
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
     "status": "compra_directa",
     "stock": null,
-    "price": "31,67 €",
+    "price": "34,52 €",
     "first_seen": "2026-08-30T20:46:19.644879+00:00"
   },
   "US:B0GFZV1ZVV": {
     "name": "Pokémon TCG: Caja de Entrenador Élite de Mega Evolución—Orden Perfecta",
     "status": "compra_directa",
     "stock": null,
-    "price": "77,61 €",
+    "price": "80,28 €",
     "first_seen": "2026-08-30T20:46:19.644915+00:00"
   },
   "US:B0G3CY83L5": {
     "name": "Pokémon TCG: Caja de entrenamiento de élite de héroes ascendidos de Mega Evolution",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "165,23 €",
     "first_seen": "2026-08-30T20:46:19.644924+00:00"
   },
   "US:B0FLCWJ1VK": {
@@ -843,7 +845,7 @@
     "name": "Pokémon TCG 3 paquetes de refuerzo, 30 cartas en total, 100% auténticas, raras aleatorias y holofoils, 3 paquetes de ampollas",
     "status": "compra_directa",
     "stock": null,
-    "price": "22,40 €",
+    "price": "22,31 €",
     "first_seen": "2026-08-30T20:46:19.644937+00:00"
   },
   "US:B0GSJMQ3QQ": {
@@ -878,21 +880,21 @@
     "name": "Pokémon TCG: Scarlet & Violet—Máscara de la Oscuridad Élite Caja de Entrenador",
     "status": "compra_directa",
     "stock": null,
-    "price": "111,41 €",
+    "price": "111,79 €",
     "first_seen": "2026-08-30T20:46:19.644956+00:00"
   },
   "US:B0CGCVT5RR": {
     "name": "Pokémon TCG: Caja de entrenador élite de escarlata y violeta Paradox Rift",
     "status": "compra_directa",
     "stock": null,
-    "price": "162,20 €",
+    "price": "162,27 €",
     "first_seen": "2026-08-30T20:46:19.644959+00:00"
   },
   "US:B0GV1JQFWC": {
     "name": "Pokemon TCG: Mega Evolución-Pedido Perfecto Pokemon Center Elite Trainer Box | PO PKC ETB | Promo exclusivo de Tyrunt | 11 paquetes de refuerzo",
     "status": "compra_directa",
     "stock": null,
-    "price": "127,12 €",
+    "price": "129,48 €",
     "first_seen": "2026-08-30T20:46:19.644963+00:00"
   },
   "US:B0DSLY7DZZ": {
@@ -969,7 +971,7 @@
     "name": "Pokemon Caja de Entrenamiento de Elite para Celebraciones del 25 Aniversario",
     "status": "compra_directa",
     "stock": null,
-    "price": "395,72 €",
+    "price": "414,14 €",
     "first_seen": "2026-08-30T20:46:19.645001+00:00"
   },
   "US:B08JC3MX6C": {
@@ -1096,5 +1098,12 @@
     "stock": null,
     "price": "30,97 €",
     "first_seen": "2026-08-30T23:38:55.902251+00:00"
+  },
+  "US:B0B4PRYJ6T": {
+    "name": "Pokemon GO Paquete: Baraja de Batalla Mewtwo V VS Melmetal V + 2 Paquetes de Expansión y Entrenadores!",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "47,44 €",
+    "first_seen": "2026-08-31T03:44:31.022403+00:00"
   }
 }
