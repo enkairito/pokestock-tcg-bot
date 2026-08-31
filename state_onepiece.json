@@ -16,21 +16,21 @@
     "name": "Juego de cartas de una pieza ST-35 rojo y negro Sabo | Baraja de inicio, ST-35, rojo y negro, Sabo, juego de cartas coleccionables",
     "status": "compra_directa",
     "stock": null,
-    "price": "22,48 €",
+    "price": "22,47 €",
     "first_seen": "2026-08-29T18:08:37.714905+00:00"
   },
   "ES:B0HC7FPQJM": {
     "name": "Juego de cartas de una pieza ST-31 Red Monkey.D.Luffy",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "39,33 €",
+    "stock": null,
+    "price": "29,90 €",
     "first_seen": "2026-08-29T18:08:43.440854+00:00"
   },
   "ES:B0HC746FKY": {
     "name": "Juego de cartas de una pieza ST-34 Purple Charlotte Katakuri | Baraja de inicio, ST-34, Charlotte Katakuri, morado, juego de cartas coleccionables",
     "status": "compra_directa",
     "stock": null,
-    "price": "33,16 €",
+    "price": "33,23 €",
     "first_seen": "2026-08-29T18:08:49.282666+00:00"
   },
   "ES:B0CRKK3D43": {
@@ -58,14 +58,13 @@
     "name": "Juego de cartas de una pieza ST-32 verde Roronoa Zoro | Baraja de inicio, ST-32, juego de cartas coleccionables, Roronoa Zoro, mazo verde",
     "status": "compra_directa",
     "stock": "4",
-    "price": "36,46 €",
+    "price": "36,73 €",
     "first_seen": "2026-08-29T18:09:16.260611+00:00"
   },
   "ES:B0HC79T34C": {
     "name": "Juego de cartas de una pieza ST-33 Blue Kuzan | Baraja de inicio, ST-33, Blue Kuzan, juego de cartas coleccionables",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "33,07 €",
     "first_seen": "2026-08-29T18:09:23.560405+00:00"
   },
   "ES:B0FL83L295": {
@@ -92,7 +91,7 @@
   "ES:B0CGR4P859": {
     "name": "Awakening of the New Era Booster Pack OP-05 - One Piece Juego de Cartas - JP",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "price": "38,99 €",
     "first_seen": "2026-08-29T18:09:47.272890+00:00"
   },
@@ -174,10 +173,10 @@
     "first_seen": "2026-08-30T13:35:31.696707+00:00"
   },
   "ES:B0GX2Y7SN8": {
-    "name": "One Piece TCG: Adventure on Kami's Island - Booster Pack with Sleeves (OP-15 - EB-04) - 12 Cards",
+    "name": "One Piece TCG: Adventure on Kami's Island - Paquete de refuerzo con mangas (OP-15 - EB-04) - 12 cartas",
     "status": "compra_directa",
     "stock": null,
-    "price": "€27.64",
+    "price": "27,65 €",
     "first_seen": "2026-08-30T17:57:46.158159+00:00"
   },
   "ES:B0D6BC4TJ3": {
