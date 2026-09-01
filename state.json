@@ -281,7 +281,7 @@
   "ES:B0DSGB5Q6B": {
     "name": "Pokémon Colección Ursaluna Luna Carmesí (4 Cartas holográficas y 4 Paquetes de Mejora)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "4",
     "price": "45,09 €",
     "first_seen": "2026-08-25T20:27:15.542170+00:00"
   },
@@ -746,7 +746,7 @@
     "name": "Pokémon TCG: Colección Súper Premium de Evoluciones Prismáticas Escarlata y Violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "239,83 €",
+    "price": "241,43 €",
     "first_seen": "2026-08-30T20:46:19.644847+00:00"
   },
   "US:B0GW2DK37Q": {
@@ -802,7 +802,7 @@
     "name": "Pokémon TCG: Mega Evolution—Perfect Order Booster Bundle",
     "status": "compra_directa",
     "stock": null,
-    "price": "40,38 €",
+    "price": "43,13 €",
     "first_seen": "2026-08-30T20:46:19.644876+00:00"
   },
   "US:B0GV6WRPRV": {
@@ -827,9 +827,8 @@
   },
   "US:B0FLCWJ1VK": {
     "name": "Juego de cartas Pokemon MEGA High Class Pack Mega Dream ex Box",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "120,77 €",
     "first_seen": "2026-08-30T20:46:19.644930+00:00"
   },
   "US:B0DDYZX1TB": {
@@ -906,7 +905,7 @@
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promo exclusivo de Fennekin | 11 paquetes de refuerzo",
     "status": "compra_directa",
     "stock": null,
-    "price": "142,90 €",
+    "price": "142,78 €",
     "first_seen": "2026-08-30T20:46:19.644970+00:00"
   },
   "US:B0C6D9LWCQ": {
@@ -948,7 +947,7 @@
     "name": "Juego de cartas coleccionables de Pokémon: SAS8- Caja para entrenador élite Golpe Fusión",
     "status": "compra_directa",
     "stock": null,
-    "price": "310,58 €",
+    "price": "310,48 €",
     "first_seen": "2026-08-30T20:46:19.644991+00:00"
   },
   "US:B08DN23BSM": {
@@ -1192,5 +1191,12 @@
     "stock": null,
     "price": "11,99 €",
     "first_seen": "2026-09-01T20:37:37.560282+00:00"
+  },
+  "US:B0GR6M4JV3": {
+    "name": "Pokémon TCG: Mega Evolution—Chaos Rising Triple Pack (1 Tarjeta promocional Foil y 3 paquetes de refuerzo)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "22,42 €",
+    "first_seen": "2026-09-01T23:03:03.055730+00:00"
   }
 }
