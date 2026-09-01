@@ -62,8 +62,9 @@
   },
   "ES:B0C64J197W": {
     "name": "Pokémon: Herramientas de Entrenador de 2023 (más de 150 valiosas Cartas, 4 Paquetes de Mejora y más)",
-    "status": "no_disponible",
-    "stock": null,
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "34,99 €",
     "first_seen": "2026-08-25T20:27:54.284983+00:00"
   },
   "ES:B0DT7D5K1X": {
@@ -702,7 +703,7 @@
     "name": "Pokemon TCG: Scarlet & Violet - Caja de Entrenador Élite Destined Rivals - 9 Paquetes, Accesorios, Promo",
     "status": "compra_directa",
     "stock": null,
-    "price": "118,59 €",
+    "price": "116,44 €",
     "first_seen": "2026-08-30T20:46:19.644824+00:00"
   },
   "US:B0GYVHLP4L": {
@@ -735,22 +736,23 @@
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "34,49 €",
     "first_seen": "2026-08-30T20:46:19.644844+00:00"
   },
   "US:B0DYR8D7YC": {
     "name": "Pokémon TCG: Colección Súper Premium de Evoluciones Prismáticas Escarlata y Violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "244,49 €",
+    "price": "244,44 €",
     "first_seen": "2026-08-30T20:46:19.644847+00:00"
   },
   "US:B0GW2DK37Q": {
     "name": "Pokémon TCG: Colección de Ilustraciones de Primera Partner —Serie 2",
     "status": "compra_directa",
     "stock": null,
-    "price": "34,49 €",
+    "price": "34,63 €",
     "first_seen": "2026-08-30T20:46:19.644851+00:00"
   },
   "US:B0G2FVLXVL": {
@@ -764,7 +766,7 @@
     "name": "Pokémon TCG: Mega Greninja ex Colección Premium",
     "status": "compra_directa",
     "stock": null,
-    "price": "54,36 €",
+    "price": "54,33 €",
     "first_seen": "2026-08-30T20:46:19.644858+00:00"
   },
   "US:B0DN98RVZM": {
@@ -813,7 +815,7 @@
     "name": "Pokémon TCG: Caja de Entrenador Élite de Mega Evolución—Orden Perfecta",
     "status": "compra_directa",
     "stock": null,
-    "price": "80,21 €",
+    "price": "78,38 €",
     "first_seen": "2026-08-30T20:46:19.644915+00:00"
   },
   "US:B0G3CY83L5": {
@@ -855,7 +857,7 @@
     "name": "Pokémon TCG: MegaLucario ex League Battle Deck",
     "status": "compra_directa",
     "stock": null,
-    "price": "19,37 €",
+    "price": "19,18 €",
     "first_seen": "2026-08-30T20:46:19.644945+00:00"
   },
   "US:B0GWKCLH6G": {
@@ -904,7 +906,7 @@
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promo exclusivo de Fennekin | 11 paquetes de refuerzo",
     "status": "compra_directa",
     "stock": null,
-    "price": "142,98 €",
+    "price": "142,69 €",
     "first_seen": "2026-08-30T20:46:19.644970+00:00"
   },
   "US:B0C6D9LWCQ": {
@@ -932,7 +934,7 @@
     "name": "Una tarjeta de Pokémon encapsulada y autenticada con calificación PSA al azar (perfecta para exhibición)",
     "status": "compra_directa",
     "stock": null,
-    "price": "24,05 €",
+    "price": "24,13 €",
     "first_seen": "2026-08-30T20:46:19.644985+00:00"
   },
   "US:B08GZ7XP18": {
@@ -1099,7 +1101,7 @@
     "name": "Pokemon GO Paquete: Baraja de Batalla Mewtwo V VS Melmetal V + 2 Paquetes de Expansión y Entrenadores!",
     "status": "compra_directa",
     "stock": null,
-    "price": "47,44 €",
+    "price": "47,39 €",
     "first_seen": "2026-08-31T03:44:31.022403+00:00"
   },
   "US:B08PS2F9RD": {
@@ -1112,7 +1114,7 @@
     "name": "Pokémon TCG: 3 paquetes de refuerzo y 1 lámina aleatoria | Incluye 3 paquetes blíster de cartas aleatorias y 1 tarjeta promocional holofoil empaquetada individualmente, 097712556710",
     "status": "compra_directa",
     "stock": null,
-    "price": "21,95 €",
+    "price": "21,97 €",
     "first_seen": "2026-08-31T10:34:52.373453+00:00"
   },
   "US:B07GQB37YY": {
@@ -1133,7 +1135,7 @@
     "name": "Pokémon TCG: Caja de entrenamiento de élite Mega Evolution—Chaos Rising",
     "status": "compra_directa",
     "stock": null,
-    "price": "77,62 €",
+    "price": "79,34 €",
     "first_seen": "2026-08-31T17:55:22.065539+00:00"
   },
   "US:B09CQJ564T": {
