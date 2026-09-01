@@ -9,14 +9,14 @@
     "name": "The Best Vol. 2 Premium Booster Box PRB-02 (10) – Juego de cartas de One Piece – JP",
     "status": "compra_directa",
     "stock": "1",
-    "price": "115,77 €",
+    "price": "127,57 €",
     "first_seen": "2026-08-29T18:08:32.013738+00:00"
   },
   "ES:B0HC7Q9P41": {
     "name": "Juego de cartas de una pieza ST-35 rojo y negro Sabo | Baraja de inicio, ST-35, rojo y negro, Sabo, juego de cartas coleccionables",
     "status": "compra_directa",
-    "stock": "5",
-    "price": "22,27 €",
+    "stock": "3",
+    "price": "22,06 €",
     "first_seen": "2026-08-29T18:08:37.714905+00:00"
   },
   "ES:B0HC7FPQJM": {
@@ -29,8 +29,8 @@
   "ES:B0HC746FKY": {
     "name": "Juego de cartas de una pieza ST-34 Purple Charlotte Katakuri | Baraja de inicio, ST-34, Charlotte Katakuri, morado, juego de cartas coleccionables",
     "status": "compra_directa",
-    "stock": null,
-    "price": "32,92 €",
+    "stock": "4",
+    "price": "32,96 €",
     "first_seen": "2026-08-29T18:08:49.282666+00:00"
   },
   "ES:B0CRKK3D43": {
@@ -57,7 +57,7 @@
   "ES:B0HC7LPXB4": {
     "name": "Juego de cartas de una pieza ST-32 verde Roronoa Zoro | Baraja de inicio, ST-32, juego de cartas coleccionables, Roronoa Zoro, mazo verde",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "price": "33,00 €",
     "first_seen": "2026-08-29T18:09:16.260611+00:00"
   },
@@ -65,7 +65,7 @@
     "name": "Juego de cartas de una pieza ST-33 Blue Kuzan | Baraja de inicio, ST-33, Blue Kuzan, juego de cartas coleccionables",
     "status": "compra_directa",
     "stock": null,
-    "price": "32,98 €",
+    "price": "32,94 €",
     "first_seen": "2026-08-29T18:09:23.560405+00:00"
   },
   "ES:B0FL83L295": {
@@ -177,7 +177,7 @@
     "name": "One Piece TCG: Adventure on Kami's Island - Paquete de refuerzo con mangas (OP-15 - EB-04) - 12 cartas",
     "status": "compra_directa",
     "stock": null,
-    "price": "27,65 €",
+    "price": "27,64 €",
     "first_seen": "2026-08-30T17:57:46.158159+00:00"
   },
   "ES:B0D6BC4TJ3": {
@@ -203,8 +203,15 @@
   "ES:B0GDHHS7CR": {
     "name": "One Piece TCG - Juego de Lata Vol. 2-2 Paquetes (Arte al Azar)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "price": "98,92 €",
     "first_seen": "2026-08-31T22:30:46.273546+00:00"
+  },
+  "ES:B0HDTCPRQN": {
+    "name": "One Piece Card Game Illustration Box Vol. 7 (IB-07) - 4 paquetes, promociones",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "107,72 €",
+    "first_seen": "2026-09-01T13:08:56.491122+00:00"
   }
 }
