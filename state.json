@@ -280,8 +280,9 @@
   },
   "ES:B0DSGB5Q6B": {
     "name": "Pokémon Colección Ursaluna Luna Carmesí (4 Cartas holográficas y 4 Paquetes de Mejora)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "45,40 €",
     "first_seen": "2026-08-25T20:27:15.542170+00:00"
   },
   "ES:B0FXTY9D99": {
@@ -725,7 +726,7 @@
     "name": "Pokémon TCG: Mega Evolución — Paquete de refuerzo del aumento del caos",
     "status": "compra_directa",
     "stock": null,
-    "price": "37,79 €",
+    "price": "36,89 €",
     "first_seen": "2026-08-30T20:46:19.644837+00:00"
   },
   "US:B0GZ9S9KDR": {
@@ -746,35 +747,35 @@
     "name": "Pokémon TCG: Colección Súper Premium de Evoluciones Prismáticas Escarlata y Violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "241,43 €",
+    "price": "241,59 €",
     "first_seen": "2026-08-30T20:46:19.644847+00:00"
   },
   "US:B0GW2DK37Q": {
     "name": "Pokémon TCG: Colección de Ilustraciones de Primera Partner —Serie 2",
     "status": "compra_directa",
     "stock": null,
-    "price": "35,03 €",
+    "price": "34,50 €",
     "first_seen": "2026-08-30T20:46:19.644851+00:00"
   },
   "US:B0G2FVLXVL": {
     "name": "Pokémon TCG: Colección del Día de Pokémon 2026",
     "status": "compra_directa",
     "stock": null,
-    "price": "46,50 €",
+    "price": "47,44 €",
     "first_seen": "2026-08-30T20:46:19.644854+00:00"
   },
   "US:B0GXJ8CSTY": {
     "name": "Pokémon TCG: Mega Greninja ex Colección Premium",
     "status": "compra_directa",
     "stock": null,
-    "price": "54,34 €",
+    "price": "54,38 €",
     "first_seen": "2026-08-30T20:46:19.644858+00:00"
   },
   "US:B0DN98RVZM": {
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
     "status": "compra_directa",
     "stock": null,
-    "price": "98,13 €",
+    "price": "99,15 €",
     "first_seen": "2026-08-30T20:46:19.644862+00:00"
   },
   "US:B0F2GZJ3TZ": {
@@ -906,7 +907,7 @@
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promo exclusivo de Fennekin | 11 paquetes de refuerzo",
     "status": "compra_directa",
     "stock": null,
-    "price": "142,35 €",
+    "price": "143,07 €",
     "first_seen": "2026-08-30T20:46:19.644970+00:00"
   },
   "US:B0C6D9LWCQ": {
@@ -1135,7 +1136,7 @@
     "name": "Pokémon TCG: Caja de entrenamiento de élite Mega Evolution—Chaos Rising",
     "status": "compra_directa",
     "stock": null,
-    "price": "79,36 €",
+    "price": "77,60 €",
     "first_seen": "2026-08-31T17:55:22.065539+00:00"
   },
   "US:B09CQJ564T": {
