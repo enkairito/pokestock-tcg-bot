@@ -69,7 +69,7 @@
   "ES:B0DT7D5K1X": {
     "name": "Pokémon Colección prémium Bellibolt ex de e-Nigma de JCC Pokémon (1 Carta holográfica con ilustración expandida, 6 Sobres de Mejora y Figuras acrílicas)",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "5",
     "price": "47,63 €",
     "first_seen": "2026-08-25T20:27:54.285177+00:00"
   },
@@ -455,7 +455,7 @@
   "ES:B0DQWLDH65": {
     "name": "Pokémon Maletín de Coleccionistas de JCC Pokémon (3 Cartas holográficas, 6 Paquetes de Mejora y Mucho más)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "price": "57,00 €",
     "first_seen": "2026-08-27T14:00:00.193382+00:00"
   },
@@ -695,7 +695,7 @@
     "name": "Pokémon TCG: World Championships Deck – Shao Tong Yen (2023)",
     "status": "compra_directa",
     "stock": null,
-    "price": "17,52 €",
+    "price": "16,34 €",
     "first_seen": "2026-08-30T20:46:19.644820+00:00"
   },
   "US:B0F2BDXW4J": {
@@ -709,7 +709,7 @@
     "name": "Pokémon TCG: Mega Evolution—Caja de entrenador Elite Pitch Black",
     "status": "compra_directa",
     "stock": null,
-    "price": "73,91 €",
+    "price": "76,76 €",
     "first_seen": "2026-08-30T20:46:19.644828+00:00"
   },
   "US:B0GYTRYV7P": {
@@ -743,7 +743,7 @@
     "name": "Pokémon TCG: Colección Súper Premium de Evoluciones Prismáticas Escarlata y Violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "245,94 €",
+    "price": "244,49 €",
     "first_seen": "2026-08-30T20:46:19.644847+00:00"
   },
   "US:B0GW2DK37Q": {
@@ -757,7 +757,7 @@
     "name": "Pokémon TCG: Colección del Día de Pokémon 2026",
     "status": "compra_directa",
     "stock": null,
-    "price": "44,79 €",
+    "price": "45,28 €",
     "first_seen": "2026-08-30T20:46:19.644854+00:00"
   },
   "US:B0GXJ8CSTY": {
@@ -771,7 +771,7 @@
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
     "status": "compra_directa",
     "stock": null,
-    "price": "98,06 €",
+    "price": "98,13 €",
     "first_seen": "2026-08-30T20:46:19.644862+00:00"
   },
   "US:B0F2GZJ3TZ": {
@@ -799,7 +799,7 @@
     "name": "Pokémon TCG: Mega Evolution—Perfect Order Booster Bundle",
     "status": "compra_directa",
     "stock": null,
-    "price": "41,33 €",
+    "price": "40,36 €",
     "first_seen": "2026-08-30T20:46:19.644876+00:00"
   },
   "US:B0GV6WRPRV": {
@@ -818,8 +818,9 @@
   },
   "US:B0G3CY83L5": {
     "name": "Pokémon TCG: Caja de entrenamiento de élite de héroes ascendidos de Mega Evolution",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "177,67 €",
     "first_seen": "2026-08-30T20:46:19.644924+00:00"
   },
   "US:B0FLCWJ1VK": {
@@ -903,7 +904,7 @@
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promo exclusivo de Fennekin | 11 paquetes de refuerzo",
     "status": "compra_directa",
     "stock": null,
-    "price": "143,14 €",
+    "price": "142,98 €",
     "first_seen": "2026-08-30T20:46:19.644970+00:00"
   },
   "US:B0C6D9LWCQ": {
@@ -973,7 +974,7 @@
     "name": "Pokemon Sword & Shield Vivid Voltage Elite Trainer Box",
     "status": "compra_directa",
     "stock": null,
-    "price": "155,80 €",
+    "price": "155,66 €",
     "first_seen": "2026-08-30T20:46:19.645004+00:00"
   },
   "ES:B0FTG4DGK7": {
@@ -1132,7 +1133,7 @@
     "name": "Pokémon TCG: Caja de entrenamiento de élite Mega Evolution—Chaos Rising",
     "status": "compra_directa",
     "stock": null,
-    "price": "79,34 €",
+    "price": "77,62 €",
     "first_seen": "2026-08-31T17:55:22.065539+00:00"
   },
   "US:B09CQJ564T": {
@@ -1162,5 +1163,11 @@
     "stock": null,
     "price": "61,36 €",
     "first_seen": "2026-08-31T22:30:05.839826+00:00"
+  },
+  "US:B0BTJ9SHRY": {
+    "name": "Pokemon TCG: Caja de entrenamiento élite escarlata y violeta, rojo Koraidon (1 tarjeta promocional de arte completo, 9 refuerzos y accesorios premium)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-01T01:40:35.211917+00:00"
   }
 }
