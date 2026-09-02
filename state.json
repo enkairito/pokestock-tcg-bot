@@ -704,7 +704,7 @@
     "name": "Pokemon TCG: Scarlet & Violet - Caja de Entrenador Élite Destined Rivals - 9 Paquetes, Accesorios, Promo",
     "status": "compra_directa",
     "stock": null,
-    "price": "116,54 €",
+    "price": "116,59 €",
     "first_seen": "2026-08-30T20:46:19.644824+00:00"
   },
   "US:B0GYVHLP4L": {
@@ -745,7 +745,7 @@
     "name": "Pokémon TCG: Colección Súper Premium de Evoluciones Prismáticas Escarlata y Violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "242,04 €",
+    "price": "232,05 €",
     "first_seen": "2026-08-30T20:46:19.644847+00:00"
   },
   "US:B0GW2DK37Q": {
@@ -780,7 +780,7 @@
     "name": "Pokemon TCG: Scarlet & Violet - Destined Rivals Caja Expositora de Sobres - 36 Paquetes",
     "status": "compra_directa",
     "stock": null,
-    "price": "397,25 €",
+    "price": "405,79 €",
     "first_seen": "2026-08-30T20:46:19.644865+00:00"
   },
   "US:B0FPM3LQJ4": {
@@ -801,21 +801,21 @@
     "name": "Pokémon TCG: Mega Evolution—Perfect Order Booster Bundle",
     "status": "compra_directa",
     "stock": null,
-    "price": "42,31 €",
+    "price": "43,13 €",
     "first_seen": "2026-08-30T20:46:19.644876+00:00"
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
     "status": "compra_directa",
     "stock": null,
-    "price": "31,69 €",
+    "price": "33,66 €",
     "first_seen": "2026-08-30T20:46:19.644879+00:00"
   },
   "US:B0GFZV1ZVV": {
     "name": "Pokémon TCG: Caja de Entrenador Élite de Mega Evolución—Orden Perfecta",
     "status": "compra_directa",
     "stock": null,
-    "price": "78,08 €",
+    "price": "77,63 €",
     "first_seen": "2026-08-30T20:46:19.644915+00:00"
   },
   "US:B0G3CY83L5": {
@@ -903,7 +903,7 @@
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promo exclusivo de Fennekin | 11 paquetes de refuerzo",
     "status": "compra_directa",
     "stock": null,
-    "price": "142,75 €",
+    "price": "142,62 €",
     "first_seen": "2026-08-30T20:46:19.644970+00:00"
   },
   "US:B0C6D9LWCQ": {
@@ -966,7 +966,7 @@
     "name": "Pokemon Caja de Entrenamiento de Elite para Celebraciones del 25 Aniversario",
     "status": "compra_directa",
     "stock": null,
-    "price": "449,06 €",
+    "price": "449,03 €",
     "first_seen": "2026-08-30T20:46:19.645001+00:00"
   },
   "US:B08JC3MX6C": {
@@ -1172,7 +1172,7 @@
     "name": "Juego de cartas coleccionables Pokemon sellado aleatorio, 3 paquetes de refuerzo 100% auténticos",
     "status": "compra_directa",
     "stock": null,
-    "price": "21,20 €",
+    "price": "21,23 €",
     "first_seen": "2026-09-01T13:08:15.434683+00:00"
   },
   "ECI:A44248983": {
@@ -1207,7 +1207,14 @@
     "name": "Pokémon TCG: Scarlet & Violet—Colección de Pósters de Prismatic Evolutions",
     "status": "compra_directa",
     "stock": null,
-    "price": "47,49 €",
+    "price": "47,48 €",
     "first_seen": "2026-09-02T19:44:56.718266+00:00"
+  },
+  "US:B0CS7P4W8C": {
+    "name": "Pokemon TCG: Escarlata y Violeta: Fuerzas Temporales: Elite Trainer Box: Hojas de Hierro",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "137,30 €",
+    "first_seen": "2026-09-02T22:24:23.588723+00:00"
   }
 }
