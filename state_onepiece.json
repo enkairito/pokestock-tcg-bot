@@ -1,8 +1,9 @@
 {
   "ES:B0F864T1GL": {
     "name": "Juego de cartas de una pieza - ST-27 Marshall.D.Teach",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "43,72 €",
     "first_seen": "2026-08-29T18:08:31.866109+00:00"
   },
   "ES:B0F1SJY5S3": {
@@ -118,10 +119,10 @@
     "first_seen": "2026-08-29T18:10:08.864528+00:00"
   },
   "ES:B0GW8RGGGV": {
-    "name": "TCG Adventure on Kami's Island One Piece Card Game 12 Card Booster Pack - English Edition - OP15-EB04",
+    "name": "Juego de cartas de una pieza TCG Adventure on Kami's Island Paquete de refuerzo de 12 cartas - Edición en inglés - OP15-EB04",
     "status": "compra_directa",
-    "stock": null,
-    "price": "€16.85",
+    "stock": "5",
+    "price": "16,85 €",
     "first_seen": "2026-08-29T18:10:14.597320+00:00"
   },
   "ES:B0G2YV88DN": {
@@ -149,7 +150,7 @@
     "name": "BANDAI Juego de cartas de una pieza más antiguo (OP-13) (caja) de 24 unidades",
     "status": "compra_directa",
     "stock": "3",
-    "price": "276,73 €",
+    "price": "284,60 €",
     "first_seen": "2026-08-29T18:10:47.849793+00:00"
   },
   "ES:B0G2VKBZML": {
@@ -182,14 +183,15 @@
   },
   "ES:B0D6BC4TJ3": {
     "name": "ONE PIECE TCG: 500 YEARS IN THE FUTURE BOOSTER BOX (OP 07) - 24 Packs",
-    "status": "no_disponible",
-    "stock": null,
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "411,23 €",
     "first_seen": "2026-08-30T23:39:08.142925+00:00"
   },
   "ES:B0F85W59Y4": {
     "name": "One Piece TCG - Juego de cartas Vol. 1-2 (arte al azar)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "4",
     "price": "125,48 €",
     "first_seen": "2026-08-30T23:39:08.354427+00:00"
   },
