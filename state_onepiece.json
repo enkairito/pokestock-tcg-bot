@@ -2,7 +2,7 @@
   "ES:B0F864T1GL": {
     "name": "Juego de cartas de una pieza - ST-27 Marshall.D.Teach",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "4",
     "price": "43,72 €",
     "first_seen": "2026-08-29T18:08:31.866109+00:00"
   },
@@ -28,8 +28,9 @@
   },
   "ES:B0HC746FKY": {
     "name": "Juego de cartas de una pieza ST-34 Purple Charlotte Katakuri | Baraja de inicio, ST-34, Charlotte Katakuri, morado, juego de cartas coleccionables",
-    "status": "no_disponible",
-    "stock": null,
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "30,00 €",
     "first_seen": "2026-08-29T18:08:49.282666+00:00"
   },
   "ES:B0CRKK3D43": {
@@ -92,7 +93,7 @@
     "name": "Awakening of the New Era Booster Pack OP-05 - One Piece Juego de Cartas - JP",
     "status": "compra_directa",
     "stock": "1",
-    "price": "38,99 €",
+    "price": "39,05 €",
     "first_seen": "2026-08-29T18:09:47.272890+00:00"
   },
   "ES:B0D69TF558": {
@@ -106,7 +107,7 @@
     "name": "One Piece TCG A Fist of Divine Speed - Juego de 2 Unidades Vol.7 (DP-07)",
     "status": "compra_directa",
     "stock": "2",
-    "price": "173,57 €",
+    "price": "175,64 €",
     "first_seen": "2026-08-29T18:10:00.427373+00:00"
   },
   "ES:B0G6FJB5X8": {
@@ -203,7 +204,7 @@
   "ES:B0GDHHS7CR": {
     "name": "One Piece TCG - Juego de Lata Vol. 2-2 Paquetes (Arte al Azar)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "price": "98,92 €",
     "first_seen": "2026-08-31T22:30:46.273546+00:00"
   },
