@@ -8,16 +8,15 @@
   },
   "ES:B0F1SJY5S3": {
     "name": "The Best Vol. 2 Premium Booster Box PRB-02 (10) – Juego de cartas de One Piece – JP",
-    "status": "compra_directa",
-    "stock": "1",
-    "price": "127,57 €",
+    "status": "no_disponible",
+    "stock": null,
     "first_seen": "2026-08-29T18:08:32.013738+00:00"
   },
   "ES:B0HC7Q9P41": {
     "name": "Juego de cartas de una pieza ST-35 rojo y negro Sabo | Baraja de inicio, ST-35, rojo y negro, Sabo, juego de cartas coleccionables",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "20,00 €",
+    "stock": "3",
+    "price": "34,33 €",
     "first_seen": "2026-08-29T18:08:37.714905+00:00"
   },
   "ES:B0HC7FPQJM": {
@@ -29,9 +28,8 @@
   },
   "ES:B0HC746FKY": {
     "name": "Juego de cartas de una pieza ST-34 Purple Charlotte Katakuri | Baraja de inicio, ST-34, Charlotte Katakuri, morado, juego de cartas coleccionables",
-    "status": "compra_directa",
-    "stock": "1",
-    "price": "30,00 €",
+    "status": "no_disponible",
+    "stock": null,
     "first_seen": "2026-08-29T18:08:49.282666+00:00"
   },
   "ES:B0CRKK3D43": {
@@ -215,5 +213,12 @@
     "stock": null,
     "price": "107,72 €",
     "first_seen": "2026-09-01T13:08:56.491122+00:00"
+  },
+  "ES:B0GBY85556": {
+    "name": "One Piece TCG Japanese Carry On His Will Booster Pack - Juego de 2 (10 tarjetas en total)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "38,21 €",
+    "first_seen": "2026-09-02T17:02:35.147234+00:00"
   }
 }
