@@ -281,8 +281,8 @@
   "ES:B0DSGB5Q6B": {
     "name": "Pokémon Colección Ursaluna Luna Carmesí (4 Cartas holográficas y 4 Paquetes de Mejora)",
     "status": "compra_directa",
-    "stock": null,
-    "price": "38,00 €",
+    "stock": "4",
+    "price": "45,09 €",
     "first_seen": "2026-08-25T20:27:15.542170+00:00"
   },
   "ES:B0FXTY9D99": {
@@ -663,14 +663,14 @@
     "name": "Pokémon TCG: Mega Lucario ex League Battle Deck (1 Ready-to-Play 60-Card Deck Including Mega Lucario ex)",
     "status": "compra_directa",
     "stock": null,
-    "price": "31,42 €",
+    "price": "28,79 €",
     "first_seen": "2026-08-30T20:46:19.644780+00:00"
   },
   "UK:B0F8QY2C1M": {
     "name": "Pokémon TCG: 2024 World Championships Deck (Sakuya Ota)",
     "status": "compra_directa",
     "stock": null,
-    "price": "19,72 €",
+    "price": "19,65 €",
     "first_seen": "2026-08-30T20:46:19.644798+00:00"
   },
   "UK:B0F8QVRPHY": {
@@ -704,14 +704,14 @@
     "name": "Pokemon TCG: Scarlet & Violet - Caja de Entrenador Élite Destined Rivals - 9 Paquetes, Accesorios, Promo",
     "status": "compra_directa",
     "stock": null,
-    "price": "118,75 €",
+    "price": "116,54 €",
     "first_seen": "2026-08-30T20:46:19.644824+00:00"
   },
   "US:B0GYVHLP4L": {
     "name": "Pokémon TCG: Mega Evolution—Caja de entrenador Elite Pitch Black",
     "status": "compra_directa",
     "stock": null,
-    "price": "70,77 €",
+    "price": "70,78 €",
     "first_seen": "2026-08-30T20:46:19.644828+00:00"
   },
   "US:B0GYTRYV7P": {
@@ -725,7 +725,7 @@
     "name": "Pokémon TCG: Mega Evolución — Paquete de refuerzo del aumento del caos",
     "status": "compra_directa",
     "stock": null,
-    "price": "36,93 €",
+    "price": "37,46 €",
     "first_seen": "2026-08-30T20:46:19.644837+00:00"
   },
   "US:B0GZ9S9KDR": {
@@ -745,14 +745,14 @@
     "name": "Pokémon TCG: Colección Súper Premium de Evoluciones Prismáticas Escarlata y Violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "237,49 €",
+    "price": "237,59 €",
     "first_seen": "2026-08-30T20:46:19.644847+00:00"
   },
   "US:B0GW2DK37Q": {
     "name": "Pokémon TCG: Colección de Ilustraciones de Primera Partner —Serie 2",
     "status": "compra_directa",
     "stock": null,
-    "price": "32,82 €",
+    "price": "34,54 €",
     "first_seen": "2026-08-30T20:46:19.644851+00:00"
   },
   "US:B0G2FVLXVL": {
@@ -773,7 +773,7 @@
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
     "status": "compra_directa",
     "stock": null,
-    "price": "98,23 €",
+    "price": "96,91 €",
     "first_seen": "2026-08-30T20:46:19.644862+00:00"
   },
   "US:B0F2GZJ3TZ": {
@@ -801,7 +801,7 @@
     "name": "Pokémon TCG: Mega Evolution—Perfect Order Booster Bundle",
     "status": "compra_directa",
     "stock": null,
-    "price": "43,13 €",
+    "price": "43,17 €",
     "first_seen": "2026-08-30T20:46:19.644876+00:00"
   },
   "US:B0GV6WRPRV": {
@@ -889,7 +889,7 @@
     "name": "Pokemon TCG: Mega Evolución-Pedido Perfecto Pokemon Center Elite Trainer Box | PO PKC ETB | Promo exclusivo de Tyrunt | 11 paquetes de refuerzo",
     "status": "compra_directa",
     "stock": null,
-    "price": "128,84 €",
+    "price": "127,18 €",
     "first_seen": "2026-08-30T20:46:19.644963+00:00"
   },
   "US:B0DSLY7DZZ": {
@@ -910,7 +910,7 @@
     "name": "Pokemon Scarlet & Violet 3 Obsidian Flames Caja de Entrenador Élite",
     "status": "compra_directa",
     "stock": null,
-    "price": "355,32 €",
+    "price": "319,42 €",
     "first_seen": "2026-08-30T20:46:19.644974+00:00"
   },
   "US:B0DFBGYFD3": {
@@ -1098,7 +1098,7 @@
     "name": "Pokemon GO Paquete: Baraja de Batalla Mewtwo V VS Melmetal V + 2 Paquetes de Expansión y Entrenadores!",
     "status": "compra_directa",
     "stock": null,
-    "price": "47,42 €",
+    "price": "47,46 €",
     "first_seen": "2026-08-31T03:44:31.022403+00:00"
   },
   "US:B08PS2F9RD": {
@@ -1216,5 +1216,17 @@
     "stock": null,
     "price": "137,30 €",
     "first_seen": "2026-09-02T22:24:23.588723+00:00"
+  },
+  "US:B0GP8HSDCJ": {
+    "name": "Pokemon TCG: Mega Evolution Ascended Heroes Pokemon Center Elite Trainer Box | AH PKC ETB | Promo exclusivo de N's Zekrom | 11 paquetes de refuerzo",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-03T05:34:00.798848+00:00"
+  },
+  "US:B0B511GSJV": {
+    "name": "Pokemon TCG: SAS11 — Caja de Entrenador Élite Origen Perdido",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-03T05:34:00.798876+00:00"
   }
 }
