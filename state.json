@@ -70,7 +70,7 @@
   "ES:B0DT7D5K1X": {
     "name": "Pokémon Colección prémium Bellibolt ex de e-Nigma de JCC Pokémon (1 Carta holográfica con ilustración expandida, 6 Sobres de Mejora y Figuras acrílicas)",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": null,
     "price": "47,63 €",
     "first_seen": "2026-08-25T20:27:54.285177+00:00"
   },
@@ -703,7 +703,7 @@
     "name": "Pokemon TCG: Scarlet & Violet - Caja de Entrenador Élite Destined Rivals - 9 Paquetes, Accesorios, Promo",
     "status": "compra_directa",
     "stock": null,
-    "price": "103,18 €",
+    "price": "100,63 €",
     "first_seen": "2026-08-30T20:46:19.644824+00:00"
   },
   "US:B0GYVHLP4L": {
@@ -745,7 +745,7 @@
     "name": "Pokémon TCG: Colección Súper Premium de Evoluciones Prismáticas Escarlata y Violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "234,67 €",
+    "price": "238,15 €",
     "first_seen": "2026-08-30T20:46:19.644847+00:00"
   },
   "US:B0GW2DK37Q": {
@@ -966,7 +966,7 @@
     "name": "Pokemon Caja de Entrenamiento de Elite para Celebraciones del 25 Aniversario",
     "status": "compra_directa",
     "stock": null,
-    "price": "449,06 €",
+    "price": "447,31 €",
     "first_seen": "2026-08-30T20:46:19.645001+00:00"
   },
   "US:B08JC3MX6C": {
@@ -1172,7 +1172,7 @@
     "name": "Juego de cartas coleccionables Pokemon sellado aleatorio, 3 paquetes de refuerzo 100% auténticos",
     "status": "compra_directa",
     "stock": null,
-    "price": "20,21 €",
+    "price": "20,37 €",
     "first_seen": "2026-09-01T13:08:15.434683+00:00"
   },
   "ECI:A44248983": {
@@ -1234,7 +1234,21 @@
     "name": "Pokémon TCG: Mega Evolución: Héroes Ascendidos Mega Meganio/Emboar/Feraligatr ex Box",
     "status": "compra_directa",
     "stock": null,
-    "price": "57,80 €",
+    "price": "63,66 €",
     "first_seen": "2026-09-03T10:43:28.601918+00:00"
+  },
+  "US:B0DMNFRYVD": {
+    "name": "Pokemon TCG Scarlet & Violet 8.5 Evoluciones prismáticas Caja sorpresa",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "71,55 €",
+    "first_seen": "2026-09-03T23:49:31.338745+00:00"
+  },
+  "US:B0GNCGT9KK": {
+    "name": "Pokemon TCG: Mega Zygarde ex colección Premium con 8 paquetes de refuerzo | 8 paquetes de refuerzo",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "51,60 €",
+    "first_seen": "2026-09-03T23:49:31.338769+00:00"
   }
 }
