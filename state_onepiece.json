@@ -2,7 +2,7 @@
   "ES:B0F864T1GL": {
     "name": "Juego de cartas de una pieza - ST-27 Marshall.D.Teach",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "3",
     "price": "43,72 €",
     "first_seen": "2026-08-29T18:08:31.866109+00:00"
   },
@@ -148,8 +148,8 @@
   "ES:B0F8V1YTSP": {
     "name": "BANDAI Juego de cartas de una pieza más antiguo (OP-13) (caja) de 24 unidades",
     "status": "compra_directa",
-    "stock": "3",
-    "price": "305,73 €",
+    "stock": "4",
+    "price": "305,71 €",
     "first_seen": "2026-08-29T18:10:47.849793+00:00"
   },
   "ES:B0G2VKBZML": {
@@ -221,5 +221,12 @@
     "stock": null,
     "price": "38,21 €",
     "first_seen": "2026-09-02T17:02:35.147234+00:00"
+  },
+  "ES:B0DZ25YM9N": {
+    "name": "One Piece TCG Starter Deck EX: Gear 5 (ST21) - 51 Cartas, Mangas, Paquete de bonificación",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "58,04 €",
+    "first_seen": "2026-09-03T14:54:32.874380+00:00"
   }
 }
