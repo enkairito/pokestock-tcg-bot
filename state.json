@@ -70,7 +70,7 @@
   "ES:B0DT7D5K1X": {
     "name": "Pokémon Colección prémium Bellibolt ex de e-Nigma de JCC Pokémon (1 Carta holográfica con ilustración expandida, 6 Sobres de Mejora y Figuras acrílicas)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "price": "47,63 €",
     "first_seen": "2026-08-25T20:27:54.285177+00:00"
   },
@@ -486,9 +486,8 @@
   },
   "ES:B0DT7D8W4N": {
     "name": "Pokémon Colección Especial Charizard ex (1 Carta holográfica de promoción, 2 Cartas holográficas, 1 Carta lenticular de Gran tamaño con Efecto 3D y 5 Sobres de Mejora)",
-    "status": "compra_directa",
-    "stock": "1",
-    "price": "62,90 €",
+    "status": "no_disponible",
+    "stock": null,
     "first_seen": "2026-08-27T14:04:51.386716+00:00"
   },
   "ECI:A200971014": {
@@ -670,7 +669,7 @@
     "name": "Pokémon TCG: 2024 World Championships Deck (Sakuya Ota)",
     "status": "compra_directa",
     "stock": null,
-    "price": "19,60 €",
+    "price": "19,62 €",
     "first_seen": "2026-08-30T20:46:19.644798+00:00"
   },
   "UK:B0F8QVRPHY": {
@@ -711,7 +710,7 @@
     "name": "Pokémon TCG: Mega Evolution—Caja de entrenador Elite Pitch Black",
     "status": "compra_directa",
     "stock": null,
-    "price": "69,69 €",
+    "price": "70,77 €",
     "first_seen": "2026-08-30T20:46:19.644828+00:00"
   },
   "US:B0GYTRYV7P": {
@@ -739,7 +738,7 @@
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
     "status": "compra_directa",
     "stock": null,
-    "price": "33,94 €",
+    "price": "33,54 €",
     "first_seen": "2026-08-30T20:46:19.644844+00:00"
   },
   "US:B0DYR8D7YC": {
@@ -781,7 +780,7 @@
     "name": "Pokemon TCG: Scarlet & Violet - Destined Rivals Caja Expositora de Sobres - 36 Paquetes",
     "status": "compra_directa",
     "stock": null,
-    "price": "404,21 €",
+    "price": "400,00 €",
     "first_seen": "2026-08-30T20:46:19.644865+00:00"
   },
   "US:B0FPM3LQJ4": {
@@ -912,7 +911,7 @@
     "name": "Pokemon Scarlet & Violet 3 Obsidian Flames Caja de Entrenador Élite",
     "status": "compra_directa",
     "stock": null,
-    "price": "318,18 €",
+    "price": "318,15 €",
     "first_seen": "2026-08-30T20:46:19.644974+00:00"
   },
   "US:B0DFBGYFD3": {
@@ -1113,7 +1112,7 @@
     "name": "Pokémon TCG: 3 paquetes de refuerzo y 1 lámina aleatoria | Incluye 3 paquetes blíster de cartas aleatorias y 1 tarjeta promocional holofoil empaquetada individualmente, 097712556710",
     "status": "compra_directa",
     "stock": null,
-    "price": "21,91 €",
+    "price": "20,60 €",
     "first_seen": "2026-08-31T10:34:52.373453+00:00"
   },
   "US:B07GQB37YY": {
@@ -1161,7 +1160,7 @@
     "name": "Pokémon TCG: Primera Colección de Ilustraciones de Socios—Serie 1",
     "status": "compra_directa",
     "stock": null,
-    "price": "61,37 €",
+    "price": "60,99 €",
     "first_seen": "2026-08-31T22:30:05.839826+00:00"
   },
   "US:B0BTJ9SHRY": {
@@ -1227,8 +1226,9 @@
   },
   "US:B0B511GSJV": {
     "name": "Pokemon TCG: SAS11 — Caja de Entrenador Élite Origen Perdido",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "229,68 €",
     "first_seen": "2026-09-03T05:34:00.798876+00:00"
   },
   "US:B0G78HDPPR": {
