@@ -70,7 +70,7 @@
   "ES:B0DT7D5K1X": {
     "name": "Pokémon Colección prémium Bellibolt ex de e-Nigma de JCC Pokémon (1 Carta holográfica con ilustración expandida, 6 Sobres de Mejora y Figuras acrílicas)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "4",
     "price": "47,63 €",
     "first_seen": "2026-08-25T20:27:54.285177+00:00"
   },
@@ -738,14 +738,14 @@
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
     "status": "compra_directa",
     "stock": null,
-    "price": "33,54 €",
+    "price": "33,94 €",
     "first_seen": "2026-08-30T20:46:19.644844+00:00"
   },
   "US:B0DYR8D7YC": {
     "name": "Pokémon TCG: Colección Súper Premium de Evoluciones Prismáticas Escarlata y Violeta",
     "status": "compra_directa",
     "stock": null,
-    "price": "233,54 €",
+    "price": "234,67 €",
     "first_seen": "2026-08-30T20:46:19.644847+00:00"
   },
   "US:B0GW2DK37Q": {
@@ -764,9 +764,8 @@
   },
   "US:B0GXJ8CSTY": {
     "name": "Pokémon TCG: Mega Greninja ex Colección Premium",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "50,75 €",
     "first_seen": "2026-08-30T20:46:19.644858+00:00"
   },
   "US:B0DN98RVZM": {
@@ -780,7 +779,7 @@
     "name": "Pokemon TCG: Scarlet & Violet - Destined Rivals Caja Expositora de Sobres - 36 Paquetes",
     "status": "compra_directa",
     "stock": null,
-    "price": "400,00 €",
+    "price": "395,71 €",
     "first_seen": "2026-08-30T20:46:19.644865+00:00"
   },
   "US:B0FPM3LQJ4": {
@@ -808,7 +807,7 @@
     "name": "Pokémon TCG: Lata Mega Moonlit",
     "status": "compra_directa",
     "stock": null,
-    "price": "33,66 €",
+    "price": "34,40 €",
     "first_seen": "2026-08-30T20:46:19.644879+00:00"
   },
   "US:B0GFZV1ZVV": {
@@ -1112,7 +1111,7 @@
     "name": "Pokémon TCG: 3 paquetes de refuerzo y 1 lámina aleatoria | Incluye 3 paquetes blíster de cartas aleatorias y 1 tarjeta promocional holofoil empaquetada individualmente, 097712556710",
     "status": "compra_directa",
     "stock": null,
-    "price": "20,60 €",
+    "price": "21,49 €",
     "first_seen": "2026-08-31T10:34:52.373453+00:00"
   },
   "US:B07GQB37YY": {
