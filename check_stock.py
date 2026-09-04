@@ -83,15 +83,22 @@ MARKETPLACES = [
         "store_label": "Amazon UK",
         "tag": "wtsuk-21",
         "cookies_file": Path(__file__).parent / "amazon_cookies_uk.json",
-        # NOTA: patrones en inglés sin verificar contra una página real de
-        # invitación/bajo stock de Amazon.co.uk todavía — revisar con datos
-        # reales la primera vez que aparezca un producto en ese estado.
+        # Patrones en español, no en inglés: desde 2026-09-01 el
+        # descubrimiento para este marketplace pasa por búsquedas en
+        # amazon.es (no amazon.co.uk), así que la página siempre carga en
+        # español — ver nota de "pages" más abajo y el bug de idioma de ES
+        # (commit 628cad7) que ya nos enseñó esto por las malas.
         "invitation_marker": "invit",
-        "interstitial_marker": "click the button below",
-        "continue_button_pattern": "text=/continue shopping/i",
-        "stock_count_re": re.compile(r"only\s+(\d+)\s+left in stock", re.IGNORECASE),
+        "interstitial_marker": "haz clic en el botón de abajo",
+        "continue_button_pattern": "text=/seguir comprando/i",
+        "stock_count_re": re.compile(r"queda\(?n?\)?\s+(\d+)\s+en stock", re.IGNORECASE),
         "pages": [
-            ("All products", "https://www.amazon.co.uk/stores/page/0C27883C-C67C-4CB1-B1DC-2F5ACDBEC0C6"),
+            # Antes apuntaba a la propia tienda en amazon.co.uk; sustituida
+            # 2026-09-01 por una búsqueda en amazon.es filtrada al vendedor
+            # Amazon UK (p_6) + marca Pokémon (p_123) + ASIN de Global
+            # Store, ya que centralizamos todo el descubrimiento (no solo
+            # el link de compra) en amazon.es.
+            ("Global Store search (ES)", "https://www.amazon.es/s?k=Elite+Trainer+Box&i=toys&rh=n%3A20500119031%2Cp_123%3A325733%2Cp_n_is-global-store-asin%3A26402202031%2Cp_6%3AA2EL6K6KDM9FO1&s=relevancerank"),
         ],
         # No visitar fichas de producto individuales en este marketplace —
         # solo la página de tienda indicada arriba. Solicitado explícitamente
@@ -115,16 +122,20 @@ MARKETPLACES = [
         "store_label": "Amazon USA",
         "tag": "wtsus-20",
         "cookies_file": Path(__file__).parent / "amazon_cookies_us.json",
-        # NOTA: patrones en inglés sin verificar contra una página real de
-        # invitación/bajo stock de Amazon.com todavía — revisar con datos
-        # reales la primera vez que aparezca un producto en ese estado.
+        # Patrones en español, no en inglés: desde 2026-09-01 el
+        # descubrimiento pasa por búsquedas en amazon.es (no amazon.com),
+        # así que la página siempre carga en español.
         "invitation_marker": "invit",
-        "interstitial_marker": "click the button below",
-        "continue_button_pattern": "text=/continue shopping/i",
-        "stock_count_re": re.compile(r"only\s+(\d+)\s+left in stock", re.IGNORECASE),
+        "interstitial_marker": "haz clic en el botón de abajo",
+        "continue_button_pattern": "text=/seguir comprando/i",
+        "stock_count_re": re.compile(r"queda\(?n?\)?\s+(\d+)\s+en stock", re.IGNORECASE),
         "pages": [
-            ("TCG search", "https://www.amazon.com/stores/page/DC6D208A-8D81-4AFA-90C5-616473E94ECA/search?terms=tcg"),
-            ("ETB search", "https://www.amazon.com/stores/page/DC6D208A-8D81-4AFA-90C5-616473E94ECA/search?terms=etb"),
+            # Antes apuntaba a la propia tienda en amazon.com (2 páginas);
+            # sustituida 2026-09-01 por una búsqueda en amazon.es filtrada
+            # al vendedor Amazon US (p_6) + marca Pokémon (p_123) + ASIN de
+            # Global Store, ya que centralizamos todo el descubrimiento (no
+            # solo el link de compra) en amazon.es.
+            ("Global Store search (ES)", "https://www.amazon.es/s?k=Elite+Trainer+Box&rh=n%3A20500119031%2Cn%3A26907148031%2Cp_6%3AA8ZZTUQ8GZK8C%2Cp_123%3A325733%2Cp_n_is-global-store-asin%3A26402202031"),
         ],
         # Mismo criterio de precaución que UK: no visitar fichas de producto
         # individuales ni incluir agotados en la web/estado.
