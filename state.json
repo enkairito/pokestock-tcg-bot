@@ -1136,8 +1136,8 @@
   "US:B0GR6N18F6": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "98,98 €",
+    "stock": null,
+    "price": "100,97 €",
     "first_seen": "2026-08-31T17:55:22.065539+00:00"
   },
   "US:B09CQJ564T": {
@@ -1570,5 +1570,47 @@
     "stock": null,
     "price": "92,77 €",
     "first_seen": "2026-09-04T21:32:58.802947+00:00"
+  },
+  "UK:B0GTBMMGSR": {
+    "name": "Pokemon TCG | Regla de la llama negra | SV3 | coreano | Caja de refuerzo | Para coleccionistas de más de 15 años",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "101,33 €",
+    "first_seen": "2026-09-04T22:05:43.537121+00:00"
+  },
+  "UK:B0D9DLZ6DG": {
+    "name": "Pokémon TCG: Miraidon ex Battle Deck (Ready-to-Play 60-Card Deck)",
+    "status": "compra_directa",
+    "stock": "5",
+    "price": "42,12 €",
+    "first_seen": "2026-09-04T22:05:43.537193+00:00"
+  },
+  "UK:B0DH53TQCC": {
+    "name": "Pokemon Scarlet & Violet Stellar Crown Booster Pack",
+    "status": "compra_directa",
+    "stock": "4",
+    "price": "26,43 €",
+    "first_seen": "2026-09-04T22:05:43.537215+00:00"
+  },
+  "UK:B0DBHJPLVB": {
+    "name": "Pokémon TCG: Miraidon ex Deluxe Battle Deck (Ready-to-Play 60-Card Deck & Accessories)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "31,65 €",
+    "first_seen": "2026-09-04T22:05:43.537225+00:00"
+  },
+  "US:B0GM7H8GCW": {
+    "name": "Pokemon Blade Awakened CSV7C | Chino simplificado | Booster Box | Más de 15 años",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "70,56 €",
+    "first_seen": "2026-09-04T22:05:43.537321+00:00"
+  },
+  "US:B0FS98MMML": {
+    "name": "Pokémon TCG: Booster Pack de 10 Cartas Mega Evolution Flames Phantasmal Mangas",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "35,57 €",
+    "first_seen": "2026-09-04T22:05:43.537336+00:00"
   }
 }
