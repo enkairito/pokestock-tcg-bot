@@ -67,6 +67,14 @@ MARKETPLACES = [
         # Solicitado explícitamente: no interesa mantener productos agotados
         # en el estado/web para ES tampoco (mismo criterio que UK/US).
         "exclude_out_of_stock": True,
+        # Productos añadidos a mano uno por uno (encontrados por el dueño
+        # navegando, no por ninguna página de tienda ni búsqueda). Se
+        # comprueban visitando su ficha individual directamente, y se les
+        # suma el coste de entrega al precio (add_delivery_fee) porque
+        # suelen ser de vendedores terceros sin envío gratis. "max_price"
+        # opcional: si el precio final (con entrega incluida) lo supera, no
+        # se incluye esta vez — solicitado para no avisar de precios caros.
+        "extra_asins": {"B0FMYKCKK6": {"max_price": 150}},
     },
     {
         "code": "UK",
@@ -325,6 +333,27 @@ def clean_price(value):
     return re.sub(r"(\d)€$", r"\1 €", value)
 
 PRICE_NUMBER_RE = re.compile(r"(\d+(?:\.\d{3})*),(\d{2})")
+DELIVERY_FEE_RE = re.compile(r"Entrega por\s+(\d+(?:\.\d{3})*,\d{2})\s*€")
+
+
+def add_delivery_fee(price_str, buybox_text):
+    """Para productos de vendedores terceros sin envío gratis (ej.
+    'Entrega por 11,41 €'), suma el coste de entrega al precio para que el
+    precio trackeado sea el coste real total. Solo se usa para productos
+    añadidos individualmente (ver "extra_asins"); los de las páginas de
+    tienda son casi todos envío gratis Prime, así que no hace falta ahí."""
+    fee_match = DELIVERY_FEE_RE.search(buybox_text or "")
+    if not fee_match or not price_str:
+        return price_str
+    price_num = price_to_float(price_str)
+    fee_num = price_to_float(fee_match.group(1) + " €")
+    if price_num is None or fee_num is None:
+        return price_str
+    total = price_num + fee_num
+    integer_part, decimal_part = f"{total:.2f}".split(".")
+    # Separador de miles "." al estilo español, solo si hace falta.
+    integer_part = f"{int(integer_part):,}".replace(",", ".")
+    return f"{integer_part},{decimal_part} €"
 
 
 def price_to_float(price_str):
@@ -705,9 +734,14 @@ async def discover_eci_products(page, label, url):
     return products
 
 
-async def check_single_product(page, asin, marketplace):
+async def check_single_product(page, asin, marketplace, include_delivery=False):
     """Comprobación individual de respaldo para productos cuya tarjeta de
-    tienda no expone precio/disponibilidad directamente."""
+    tienda no expone precio/disponibilidad directamente.
+
+    include_delivery: suma el coste de entrega al precio (ver
+    add_delivery_fee) — solo para productos añadidos a mano vía
+    "extra_asins", donde a menudo son de vendedores terceros sin envío
+    gratis."""
     url = f"https://www.{marketplace['domain']}/dp/{asin}"
     try:
         await page.goto(url, wait_until="domcontentloaded", timeout=45000)
@@ -730,6 +764,8 @@ async def check_single_product(page, asin, marketplace):
 
         price_el = await page.query_selector(".a-price .a-offscreen")
         price = clean_price((await price_el.inner_text()) if price_el else None)
+        if include_delivery:
+            price = add_delivery_fee(price, buybox_text)
 
         image_el = await page.query_selector("#landingImage, #imgTagWrapperId img")
         image = (await image_el.get_attribute("src")) if image_el else None
@@ -798,6 +834,25 @@ async def main():
                     marketplace_products[asin] = result
                 if skipped_irrelevant:
                     print(f"⏭️ [{marketplace['code']}] Omitiendo {skipped_irrelevant} productos ajenos encontrados por enlace suelto (no son Pokémon o son accesorios).")
+
+            extra_asins = {
+                a: cfg for a, cfg in marketplace.get("extra_asins", {}).items()
+                if a not in marketplace_products
+            }
+            if extra_asins:
+                print(f"🔎 [{marketplace['code']}] Comprobando {len(extra_asins)} productos añadidos a mano...")
+                for i, (asin, cfg) in enumerate(extra_asins.items()):
+                    if i > 0:
+                        await asyncio.sleep(random.uniform(2, 5))
+                    result = await check_single_product(page, asin, marketplace, include_delivery=True)
+                    if not result:
+                        continue
+                    max_price = cfg.get("max_price")
+                    price_num = price_to_float(result.get("price"))
+                    if max_price is not None and price_num is not None and price_num > max_price:
+                        print(f"⏭️ [{marketplace['code']}] {asin} supera el precio máximo ({result['price']} > {max_price} €), no se incluye esta vez.")
+                        continue
+                    marketplace_products[asin] = result
 
             if marketplace.get("exclude_out_of_stock"):
                 out_of_stock = {a for a, i in marketplace_products.items() if i["status"] == "no_disponible"}
