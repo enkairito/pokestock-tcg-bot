@@ -10,7 +10,6 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from io import BytesIO
 from pathlib import Path
-from urllib.parse import quote_plus
 
 import requests
 from patchright.async_api import async_playwright
@@ -105,12 +104,12 @@ MARKETPLACES = [
         # tras ver redirecciones inesperadas (a Barclays) al comprobar
         # productos individuales de Amazon.co.uk.
         "allow_individual_fallback": False,
-        # Centralización de ventas en Amazon ES (decidido 2026-08-29): el link
-        # de compra no apunta a amazon.co.uk, sino a una búsqueda en amazon.es
-        # filtrada por este vendedor (Amazon UK vendiendo cross-border), para
-        # que la comisión de afiliado se cobre por la cuenta ES. `rh` capturado
-        # navegando amazon.es y filtrando por ese vendedor en un resultado real.
-        "es_search_rh": "p_123%3A325733%2Cp_72%3A831280031%2Cp_6%3AA2EL6K6KDM9FO1%2Cp_n_condition-type%3A15144009031",
+        # Centralización de ventas en Amazon ES (decidido 2026-08-29). Desde
+        # que el descubrimiento en sí pasa por amazon.es (2026-09-01), el
+        # ASIN capturado ya es el real de amazon.es, así que el link de
+        # compra enlaza directo a la ficha (visto en link_for_product) en
+        # vez de a una búsqueda por nombre como antes.
+        "asin_is_amazon_es": True,
         # Solicitado explícitamente: no incluir productos agotados de este
         # marketplace ni en el snapshot de la web ni en el estado/avisos.
         "exclude_out_of_stock": True,
@@ -141,8 +140,8 @@ MARKETPLACES = [
         # individuales ni incluir agotados en la web/estado.
         "allow_individual_fallback": False,
         "exclude_out_of_stock": True,
-        # Ver nota de "es_search_rh" en UK: mismo motivo, vendedor distinto.
-        "es_search_rh": "p_123%3A325733%2Cp_6%3AA8ZZTUQ8GZK8C%2Cp_72%3A831280031",
+        # Ver nota de "asin_is_amazon_es" en UK: mismo motivo.
+        "asin_is_amazon_es": True,
     },
 ]
 
@@ -901,12 +900,8 @@ async def main():
                 info["marketplace_code"] = marketplace["code"]
                 info["store_label"] = marketplace["store_label"]
                 info["flag"] = marketplace["flag"]
-                if marketplace.get("es_search_rh"):
-                    query = quote_plus(info["name"])
-                    info["link"] = (
-                        f"https://www.amazon.es/s?k={query}&rh={marketplace['es_search_rh']}"
-                        f"&s=relevanceblender&tag=enkairito-21"
-                    )
+                if marketplace.get("asin_is_amazon_es"):
+                    info["link"] = f"https://www.amazon.es/dp/{asin}?tag=enkairito-21"
                 else:
                     info["link"] = f"https://www.{marketplace['domain']}/dp/{asin}?tag={marketplace['tag']}"
                 info["categories"] = assign_categories(info["name"], asin_categories.get(asin, ()))
