@@ -15,7 +15,7 @@
   "ES:B0HC7Q9P41": {
     "name": "Juego de cartas de una pieza ST-35 rojo y negro Sabo | Baraja de inicio, ST-35, rojo y negro, Sabo, juego de cartas coleccionables",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "price": "34,33 €",
     "first_seen": "2026-08-29T18:08:37.714905+00:00"
   },
@@ -57,8 +57,8 @@
   "ES:B0HC7LPXB4": {
     "name": "Juego de cartas de una pieza ST-32 verde Roronoa Zoro | Baraja de inicio, ST-32, juego de cartas coleccionables, Roronoa Zoro, mazo verde",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "33,00 €",
+    "stock": null,
+    "price": "34,33 €",
     "first_seen": "2026-08-29T18:09:16.260611+00:00"
   },
   "ES:B0HC79T34C": {
@@ -100,7 +100,7 @@
     "name": "One Piece TCG: Two Legends - Booster Pack (OP-08) (JP) (TCG)",
     "status": "compra_directa",
     "stock": null,
-    "price": "14,86 €",
+    "price": "14,78 €",
     "first_seen": "2026-08-29T18:09:54.795240+00:00"
   },
   "ES:B0F85QRZP6": {
@@ -177,7 +177,7 @@
     "name": "One Piece TCG: Adventure on Kami's Island - Paquete de refuerzo con mangas (OP-15 - EB-04) - 12 cartas",
     "status": "compra_directa",
     "stock": null,
-    "price": "27,64 €",
+    "price": "27,65 €",
     "first_seen": "2026-08-30T17:57:46.158159+00:00"
   },
   "ES:B0D6BC4TJ3": {
@@ -203,8 +203,9 @@
   },
   "ES:B0GDHHS7CR": {
     "name": "One Piece TCG - Juego de Lata Vol. 2-2 Paquetes (Arte al Azar)",
-    "status": "no_disponible",
-    "stock": null,
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "62,46 €",
     "first_seen": "2026-08-31T22:30:46.273546+00:00"
   },
   "ES:B0HDTCPRQN": {

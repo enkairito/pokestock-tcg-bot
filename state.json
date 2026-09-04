@@ -723,17 +723,17 @@
     "first_seen": "2026-08-30T20:46:19.644833+00:00"
   },
   "US:B0GR6Q72ND": {
-    "name": "Pokémon TCG: Mega Evolución — Paquete de refuerzo del aumento del caos",
+    "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
     "status": "compra_directa",
     "stock": null,
-    "price": "33,58 €",
+    "price": "51,27 €",
     "first_seen": "2026-08-30T20:46:19.644837+00:00"
   },
   "US:B0GZ9S9KDR": {
-    "name": "Pokémon TCG: Mega Evolution—Caja de presentación de refuerzo negro de tono",
+    "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
     "stock": null,
-    "price": "167,13 €",
+    "price": "220,80 €",
     "first_seen": "2026-08-30T20:46:19.644840+00:00"
   },
   "US:B0H2JVZYZZ": {
@@ -765,9 +765,10 @@
     "first_seen": "2026-08-30T20:46:19.644854+00:00"
   },
   "US:B0GXJ8CSTY": {
-    "name": "Pokémon TCG: Mega Greninja ex Colección Premium",
-    "status": "no_disponible",
-    "stock": null,
+    "name": "Pokémon TCG: Colección Premium Mega Greninja ex (1 Tarjeta Promocional Brillante, 1 Tarjeta lenticular de Gran tamaño y 8 Paquetes de Refuerzo)",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "76,57 €",
     "first_seen": "2026-08-30T20:46:19.644858+00:00"
   },
   "US:B0DN98RVZM": {
@@ -813,10 +814,10 @@
     "first_seen": "2026-08-30T20:46:19.644879+00:00"
   },
   "US:B0GFZV1ZVV": {
-    "name": "Pokémon TCG: Caja de Entrenador Élite de Mega Evolución—Orden Perfecta",
+    "name": "Pokémon TCG: Mega Evolution Order Elite Trainer Box",
     "status": "compra_directa",
     "stock": null,
-    "price": "77,50 €",
+    "price": "102,18 €",
     "first_seen": "2026-08-30T20:46:19.644915+00:00"
   },
   "US:B0G3CY83L5": {
@@ -1133,9 +1134,10 @@
     "first_seen": "2026-08-31T17:55:22.065502+00:00"
   },
   "US:B0GR6N18F6": {
-    "name": "Pokémon TCG: Caja de entrenamiento de élite Mega Evolution—Chaos Rising",
-    "status": "no_disponible",
-    "stock": null,
+    "name": "Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "98,98 €",
     "first_seen": "2026-08-31T17:55:22.065539+00:00"
   },
   "US:B09CQJ564T": {
@@ -1215,10 +1217,10 @@
     "first_seen": "2026-09-02T19:44:56.718266+00:00"
   },
   "US:B0CS7P4W8C": {
-    "name": "Pokemon TCG: Escarlata y Violeta: Fuerzas Temporales: Elite Trainer Box: Hojas de Hierro",
+    "name": "Pokémon TCG: Scarlet & Violet—Temporal Forces Elite Trainer Box - Hojas de Hierro (1 Tarjeta Promocional de Espinas de Hierro de Arte Completo, 9 potenciadores y Accesorios Premium)",
     "status": "compra_directa",
     "stock": null,
-    "price": "136,76 €",
+    "price": "175,95 €",
     "first_seen": "2026-09-02T22:24:23.588723+00:00"
   },
   "US:B0GP8HSDCJ": {
@@ -1278,9 +1280,8 @@
   },
   "ES:B0FMYKCKK6": {
     "name": "Pokémon: Colección Poderes Supremos de JCC Pokémon: Terapagos ex (3 Cartas holográfica de promoción, 18 Paquetes de Mejora)",
-    "status": "compra_directa",
-    "stock": "3",
-    "price": "141,41 €",
+    "status": "no_disponible",
+    "stock": null,
     "first_seen": "2026-09-04T15:11:54.795786+00:00"
   },
   "US:B0BCN6HZR3": {
@@ -1289,5 +1290,285 @@
     "stock": null,
     "price": "161,08 €",
     "first_seen": "2026-09-04T15:12:00.789675+00:00"
+  },
+  "UK:B0DDYZX1TB": {
+    "name": "Pokemon TCG: Scarlet & Violet - Surging Sparks Booster Bundle",
+    "status": "compra_directa",
+    "stock": "3",
+    "price": "103,32 €",
+    "first_seen": "2026-09-04T21:32:58.802612+00:00"
+  },
+  "UK:B0DB7C1Z26": {
+    "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "119,77 €",
+    "first_seen": "2026-09-04T21:32:58.802636+00:00"
+  },
+  "UK:B0DC2BK8QG": {
+    "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "68,34 €",
+    "first_seen": "2026-09-04T21:32:58.802645+00:00"
+  },
+  "UK:B0FSJXSPPX": {
+    "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "94,94 €",
+    "first_seen": "2026-09-04T21:32:58.802653+00:00"
+  },
+  "UK:B0CMZS84KP": {
+    "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
+    "status": "compra_directa",
+    "stock": "5",
+    "price": "117,84 €",
+    "first_seen": "2026-09-04T21:32:58.802660+00:00"
+  },
+  "UK:B0GWK631XY": {
+    "name": "Pokémon TCG: Mega Moonlit Tin - Mega Gengar ex (4 potenciadores y 1 tarjeta promocional de aluminio)",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "76,46 €",
+    "first_seen": "2026-09-04T21:32:58.802667+00:00"
+  },
+  "UK:B0CT4HR8F9": {
+    "name": "Pokémon - Juego de cartas Scarlet & Violet Night Wanderer, caja de sobres de expansión, 30 sobres (versión japonesa)",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "121,63 €",
+    "first_seen": "2026-09-04T21:32:58.802713+00:00"
+  },
+  "UK:B0FJS1M1RD": {
+    "name": "Caja de Booster de Juez Cibernético Pokémon sv5M Coreano",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "77,26 €",
+    "first_seen": "2026-09-04T21:32:58.802724+00:00"
+  },
+  "UK:B0FNDK5FGK": {
+    "name": "Pokemon TCG Battle Partners sv9 Caja de refuerzo coreana",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "84,41 €",
+    "first_seen": "2026-09-04T21:32:58.802732+00:00"
+  },
+  "UK:B0B1HWM5LW": {
+    "name": "Pokemon Card Game Sword & Shield Enhanced Expansion Pack Incandescent Arcana Box",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "139,95 €",
+    "first_seen": "2026-09-04T21:32:58.802738+00:00"
+  },
+  "UK:B0FJS3KSJM": {
+    "name": "Pokemon Mask of Change sv6 Caja de refuerzo coreana",
+    "status": "compra_directa",
+    "stock": "5",
+    "price": "76,64 €",
+    "first_seen": "2026-09-04T21:32:58.802744+00:00"
+  },
+  "UK:B0F741W36F": {
+    "name": "Pokémon TCG: Slashing Legends Tin - Koraidon ex (1 Tarjeta Promocional de Aluminio y 4 Paquetes de Refuerzo)",
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "59,08 €",
+    "first_seen": "2026-09-04T21:32:58.802751+00:00"
+  },
+  "UK:B0FJS4DQFB": {
+    "name": "Pokemon Heatwave Arena sv9a Caja de refuerzo coreana",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "89,79 €",
+    "first_seen": "2026-09-04T21:32:58.802758+00:00"
+  },
+  "UK:B0GRWYWYFH": {
+    "name": "Pokemon - Juego de Cartas coleccionables TCG - Mega Evolution: Ascended Heroes Paquete de 10 Cartas (inglés)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "31,52 €",
+    "first_seen": "2026-09-04T21:32:58.802765+00:00"
+  },
+  "UK:B0H5RHR55T": {
+    "name": "Pokémon TCG: Mega Evolution - Chaos Rising Premium Checklane Blister Duo Pack | Flygon & Pawmot | 2 ampollas incluyendo 2 paquetes de refuerzo, 2 tarjetas promocionales y 2 monedas coleccionables |",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "32,66 €",
+    "first_seen": "2026-09-04T21:32:58.802771+00:00"
+  },
+  "UK:B0F634M6PY": {
+    "name": "Pokemon Juego de Cartas coleccionables - Scarlet & Violet 10 - Destined Rivals Booster",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "24,77 €",
+    "first_seen": "2026-09-04T21:32:58.802777+00:00"
+  },
+  "UK:B0F6PKT7RB": {
+    "name": "Pokémon TCG: Unova Mini Tin – Lilligant & Whimsicott (2 paquetes de refuerzo y 1 tarjeta adhesiva)",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "47,70 €",
+    "first_seen": "2026-09-04T21:32:58.802783+00:00"
+  },
+  "UK:B0CTKXY3Q4": {
+    "name": "Pokemon TCG Scarlet & Violet 5: Temporal Forces Booster Pack",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "24,07 €",
+    "first_seen": "2026-09-04T21:32:58.802789+00:00"
+  },
+  "UK:B0BCPRFMQH": {
+    "name": "Pokemon - Silver Tempest Booster Pack",
+    "status": "compra_directa",
+    "stock": "4",
+    "price": "31,52 €",
+    "first_seen": "2026-09-04T21:32:58.802795+00:00"
+  },
+  "UK:B0BXJT92PT": {
+    "name": "Pokémon- Origin Forme Palkia VSTAR Baraja de Batalla de la Liga, Multicolor (290-85236)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "47,14 €",
+    "first_seen": "2026-09-04T21:32:58.802801+00:00"
+  },
+  "UK:B0C7QXP3FH": {
+    "name": "Pokémon TCG: Tinkaton ex Battle Deck (Baraja de 60 Cartas Lista para Jugar)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "32,29 €",
+    "first_seen": "2026-09-04T21:32:58.802807+00:00"
+  },
+  "UK:B0BJ7F5RNY": {
+    "name": "Pokémon- Deoxys (60 Cards, Ready to Play) Baraja de Batalla V, Multicolor, zeraora (699-17149)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "24,79 €",
+    "first_seen": "2026-09-04T21:32:58.802813+00:00"
+  },
+  "UK:B0GZ9S9KDR": {
+    "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "297,75 €",
+    "first_seen": "2026-09-04T21:32:58.802818+00:00"
+  },
+  "US:B0F2BCG1Y5": {
+    "name": "Pokémon TCG: Scarlet & Violet—Destined Rivals Booster Bundle (6 Booster Packs)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "101,95 €",
+    "first_seen": "2026-09-04T21:32:58.802829+00:00"
+  },
+  "US:B0G3CS6XB9": {
+    "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Premium Poster Collection—Mega Lucario (1 Tarjeta Promocional de Aluminio, 1 póster de Doble Cara y 10 Paquetes de Refuerzo)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "221,82 €",
+    "first_seen": "2026-09-04T21:32:58.802847+00:00"
+  },
+  "US:B0DG6PSWN1": {
+    "name": "Pokemon TCG: Trick or Trade Booster Bundle (2024) - 35 Paquetes",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "134,99 €",
+    "first_seen": "2026-09-04T21:32:58.802853+00:00"
+  },
+  "US:B0G72SPRP6": {
+    "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "89,55 €",
+    "first_seen": "2026-09-04T21:32:58.802874+00:00"
+  },
+  "US:B0G72QBTBJ": {
+    "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Emboar ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
+    "status": "compra_directa",
+    "stock": "3",
+    "price": "83,48 €",
+    "first_seen": "2026-09-04T21:32:58.802880+00:00"
+  },
+  "US:B0D8R1LW3R": {
+    "name": "Pokémon TCG: Cofre de coleccionista - Scream Tail & Iron Valiant (2 Tarjetas promocionales de Aluminio, 6 Paquetes de Refuerzo y más)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "93,61 €",
+    "first_seen": "2026-09-04T21:32:58.802885+00:00"
+  },
+  "US:B0G5S61BHK": {
+    "name": "Pokémon TCG: Mega Charizard Tin - Mega Charizard X ex (4 potenciadores y 1 Tarjeta Promocional de Aluminio)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "79,69 €",
+    "first_seen": "2026-09-04T21:32:58.802892+00:00"
+  },
+  "US:B0F6PQLR16": {
+    "name": "Pokemon TCG Scarlet & Violet 10.5 White Flare Binder Collection Box - 5 Packs",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "105,22 €",
+    "first_seen": "2026-09-04T21:32:58.802898+00:00"
+  },
+  "US:B0C4D4R3H8": {
+    "name": "Pokémon JCC: Estuche Courrousinge-ex",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "88,71 €",
+    "first_seen": "2026-09-04T21:32:58.802903+00:00"
+  },
+  "US:B0FPNRG8GS": {
+    "name": "Pokémon TCG: Mega Evolution—Phantasmal Flames Triple Pack Sneasel (1 Carta Promocional holográfica y 3 Sobres potenciadores)",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "68,73 €",
+    "first_seen": "2026-09-04T21:32:58.802909+00:00"
+  },
+  "US:B0CQD9VBWS": {
+    "name": "Pokemon Scarlet & Violet 151 | Booster Pack",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "64,99 €",
+    "first_seen": "2026-09-04T21:32:58.802915+00:00"
+  },
+  "US:B0D1RKJM6K": {
+    "name": "Pokemon TCG: Scarlet & Violet - Paquete de refuerzo de destinos paldeanos",
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "337,03 €",
+    "first_seen": "2026-09-04T21:32:58.802920+00:00"
+  },
+  "US:B0DSLX39J1": {
+    "name": "Pokémon TCG: Scarlet & Violet - Journey Together - Paquete de 3 ampollas - Yanmega (3 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "49,10 €",
+    "first_seen": "2026-09-04T21:32:58.802925+00:00"
+  },
+  "US:B0DVC187SP": {
+    "name": "Pokemon TCG Scarlet & Violet Journey Together: Pack de 3 Booster Blister",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "49,37 €",
+    "first_seen": "2026-09-04T21:32:58.802930+00:00"
+  },
+  "US:B0G5FWJ8NL": {
+    "name": "Pokémon TCG: Mega Charizard Tin",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "78,32 €",
+    "first_seen": "2026-09-04T21:32:58.802936+00:00"
+  },
+  "US:B0F2BFSPBN": {
+    "name": "Pokémon TCG: Scarlet & Violet - Destined Rivals - Paquete de 3 blíster - Zebstrika (3 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "72,53 €",
+    "first_seen": "2026-09-04T21:32:58.802941+00:00"
+  },
+  "US:B0D92YXKBH": {
+    "name": "Pokemon TCG: Scarlet & Violet—151 Mini Tin – Electabuzz and Magnemite (2 Booster Packs, 1 Coin & 1 Art Card)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "92,77 €",
+    "first_seen": "2026-09-04T21:32:58.802947+00:00"
   }
 }
