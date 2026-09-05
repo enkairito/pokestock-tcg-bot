@@ -228,9 +228,8 @@
   },
   "ES:B0GYSKFHBY": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Feraligatr y Budew de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null,
-    "price": "10,99 €",
     "first_seen": "2026-08-25T20:27:54.285153+00:00"
   },
   "ES:B0BMGR3QZW": {
@@ -816,7 +815,7 @@
   "US:B0GFZV1ZVV": {
     "name": "Pokémon TCG: Mega Evolution Order Elite Trainer Box",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "price": "102,18 €",
     "first_seen": "2026-08-30T20:46:19.644915+00:00"
   },
@@ -1428,7 +1427,7 @@
     "name": "Pokémon- Origin Forme Palkia VSTAR Baraja de Batalla de la Liga, Multicolor (290-85236)",
     "status": "compra_directa",
     "stock": null,
-    "price": "47,14 €",
+    "price": "44,53 €",
     "first_seen": "2026-09-04T21:32:58.802801+00:00"
   },
   "UK:B0C7QXP3FH": {
@@ -1463,7 +1462,7 @@
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Premium Poster Collection—Mega Lucario (1 Tarjeta Promocional de Aluminio, 1 póster de Doble Cara y 10 Paquetes de Refuerzo)",
     "status": "compra_directa",
     "stock": null,
-    "price": "221,82 €",
+    "price": "221,83 €",
     "first_seen": "2026-09-04T21:32:58.802847+00:00"
   },
   "US:B0DG6PSWN1": {
@@ -1540,7 +1539,7 @@
     "name": "Pokémon TCG: Scarlet & Violet - Journey Together - Paquete de 3 ampollas - Yanmega (3 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
     "status": "compra_directa",
     "stock": null,
-    "price": "49,10 €",
+    "price": "49,20 €",
     "first_seen": "2026-09-04T21:32:58.802925+00:00"
   },
   "US:B0DVC187SP": {
@@ -1637,7 +1636,7 @@
   "UK:B0GDYP1LRF": {
     "name": "Pokemon TCG | Mega Brave | Caja de refuerzo japonesa (M1L) | Para coleccionistas de más de 15 años",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "3",
     "price": "111,04 €",
     "first_seen": "2026-09-05T05:18:07.280869+00:00"
   },
