@@ -733,7 +733,7 @@
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
     "stock": null,
-    "price": "219,75 €",
+    "price": "220,28 €",
     "first_seen": "2026-08-30T20:46:19.644840+00:00"
   },
   "US:B0H2JVZYZZ": {
@@ -1337,7 +1337,7 @@
     "name": "Pokémon - Juego de cartas Scarlet & Violet Night Wanderer, caja de sobres de expansión, 30 sobres (versión japonesa)",
     "status": "compra_directa",
     "stock": "1",
-    "price": "121,01 €",
+    "price": "119,26 €",
     "first_seen": "2026-09-04T21:32:58.802713+00:00"
   },
   "UK:B0FJS1M1RD": {
@@ -1442,7 +1442,7 @@
     "name": "Pokémon- Deoxys (60 Cards, Ready to Play) Baraja de Batalla V, Multicolor, zeraora (699-17149)",
     "status": "compra_directa",
     "stock": null,
-    "price": "24,79 €",
+    "price": "24,81 €",
     "first_seen": "2026-09-04T21:32:58.802813+00:00"
   },
   "UK:B0GZ9S9KDR": {
@@ -1455,7 +1455,7 @@
   "US:B0F2BCG1Y5": {
     "name": "Pokémon TCG: Scarlet & Violet—Destined Rivals Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "2",
     "price": "101,95 €",
     "first_seen": "2026-09-04T21:32:58.802829+00:00"
   },
@@ -1483,7 +1483,7 @@
   "US:B0G72QBTBJ": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Emboar ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "price": "83,30 €",
     "first_seen": "2026-09-04T21:32:58.802880+00:00"
   },
@@ -1554,7 +1554,7 @@
     "name": "Pokémon TCG: Mega Charizard Tin",
     "status": "compra_directa",
     "stock": null,
-    "price": "79,24 €",
+    "price": "79,71 €",
     "first_seen": "2026-09-04T21:32:58.802936+00:00"
   },
   "US:B0F2BFSPBN": {
@@ -1638,7 +1638,7 @@
     "name": "Pokemon TCG | Mega Brave | Caja de refuerzo japonesa (M1L) | Para coleccionistas de más de 15 años",
     "status": "compra_directa",
     "stock": "4",
-    "price": "111,11 €",
+    "price": "111,10 €",
     "first_seen": "2026-09-05T05:18:07.280869+00:00"
   },
   "UK:B0DG2XTYDP": {
@@ -1668,5 +1668,12 @@
     "stock": null,
     "price": "45,53 €",
     "first_seen": "2026-09-05T05:18:07.280980+00:00"
+  },
+  "UK:B0FTSVL3Z6": {
+    "name": "Pokemon Mega Brave m1L Caja Booster Coreana 30 Sobres Cartas Originales",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "82,72 €",
+    "first_seen": "2026-09-05T09:45:25.209821+00:00"
   }
 }
