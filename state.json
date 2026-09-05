@@ -733,7 +733,7 @@
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
     "stock": null,
-    "price": "220,28 €",
+    "price": "222,41 €",
     "first_seen": "2026-08-30T20:46:19.644840+00:00"
   },
   "US:B0H2JVZYZZ": {
@@ -816,7 +816,7 @@
   "US:B0GFZV1ZVV": {
     "name": "Pokémon TCG: Mega Evolution Order Elite Trainer Box",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "price": "102,18 €",
     "first_seen": "2026-08-30T20:46:19.644915+00:00"
   },
@@ -1491,7 +1491,7 @@
     "name": "Pokémon TCG: Cofre de coleccionista - Scream Tail & Iron Valiant (2 Tarjetas promocionales de Aluminio, 6 Paquetes de Refuerzo y más)",
     "status": "compra_directa",
     "stock": null,
-    "price": "93,61 €",
+    "price": "92,98 €",
     "first_seen": "2026-09-04T21:32:58.802885+00:00"
   },
   "US:B0G5S61BHK": {
@@ -1554,7 +1554,7 @@
     "name": "Pokémon TCG: Mega Charizard Tin",
     "status": "compra_directa",
     "stock": null,
-    "price": "79,71 €",
+    "price": "78,31 €",
     "first_seen": "2026-09-04T21:32:58.802936+00:00"
   },
   "US:B0F2BFSPBN": {
@@ -1638,7 +1638,7 @@
     "name": "Pokemon TCG | Mega Brave | Caja de refuerzo japonesa (M1L) | Para coleccionistas de más de 15 años",
     "status": "compra_directa",
     "stock": "4",
-    "price": "111,10 €",
+    "price": "111,07 €",
     "first_seen": "2026-09-05T05:18:07.280869+00:00"
   },
   "UK:B0DG2XTYDP": {
@@ -1675,5 +1675,12 @@
     "stock": null,
     "price": "82,72 €",
     "first_seen": "2026-09-05T09:45:25.209821+00:00"
+  },
+  "US:B0FB79QPR4": {
+    "name": "Pokemon TCG - Scarlet & Violet: Destined Rivals - Lote de 8 Paquetes de Refuerzo - 80 Cartas",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "146,22 €",
+    "first_seen": "2026-09-05T13:22:34.788481+00:00"
   }
 }
