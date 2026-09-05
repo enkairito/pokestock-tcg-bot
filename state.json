@@ -733,7 +733,7 @@
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
     "stock": null,
-    "price": "222,41 €",
+    "price": "221,58 €",
     "first_seen": "2026-08-30T20:46:19.644840+00:00"
   },
   "US:B0H2JVZYZZ": {
@@ -816,7 +816,7 @@
   "US:B0GFZV1ZVV": {
     "name": "Pokémon TCG: Mega Evolution Order Elite Trainer Box",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "2",
     "price": "102,18 €",
     "first_seen": "2026-08-30T20:46:19.644915+00:00"
   },
@@ -1295,7 +1295,7 @@
     "name": "Pokemon TCG: Scarlet & Violet - Surging Sparks Booster Bundle",
     "status": "compra_directa",
     "stock": "3",
-    "price": "103,15 €",
+    "price": "102,91 €",
     "first_seen": "2026-09-04T21:32:58.802612+00:00"
   },
   "UK:B0DB7C1Z26": {
@@ -1309,14 +1309,14 @@
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
     "status": "compra_directa",
     "stock": "2",
-    "price": "68,34 €",
+    "price": "82,10 €",
     "first_seen": "2026-09-04T21:32:58.802645+00:00"
   },
   "UK:B0FSJXSPPX": {
     "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
     "status": "compra_directa",
     "stock": null,
-    "price": "93,53 €",
+    "price": "93,52 €",
     "first_seen": "2026-09-04T21:32:58.802653+00:00"
   },
   "UK:B0CMZS84KP": {
@@ -1638,7 +1638,7 @@
     "name": "Pokemon TCG | Mega Brave | Caja de refuerzo japonesa (M1L) | Para coleccionistas de más de 15 años",
     "status": "compra_directa",
     "stock": "4",
-    "price": "111,05 €",
+    "price": "111,04 €",
     "first_seen": "2026-09-05T05:18:07.280869+00:00"
   },
   "UK:B0DG2XTYDP": {
@@ -1682,5 +1682,19 @@
     "stock": "1",
     "price": "146,22 €",
     "first_seen": "2026-09-05T13:22:34.788481+00:00"
+  },
+  "UK:B0DMDPGWWY": {
+    "name": "Pokemon TCG: Battle Deck Tapu Koko ex",
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "35,07 €",
+    "first_seen": "2026-09-05T18:46:43.703251+00:00"
+  },
+  "US:B0F6PGX3SQ": {
+    "name": "Pokémon TCG: Unova Mini Tin – Krookodile & Excadrill (2 Paquetes de Refuerzo y 1 Tarjeta Adhesiva)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "49,99 €",
+    "first_seen": "2026-09-05T18:46:43.703340+00:00"
   }
 }
