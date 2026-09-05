@@ -1519,7 +1519,7 @@
     "name": "Pokémon TCG: Mega Evolution—Phantasmal Flames Triple Pack Sneasel (1 Carta Promocional holográfica y 3 Sobres potenciadores)",
     "status": "compra_directa",
     "stock": "1",
-    "price": "68,73 €",
+    "price": "69,04 €",
     "first_seen": "2026-09-04T21:32:58.802909+00:00"
   },
   "US:B0CQD9VBWS": {
@@ -1696,5 +1696,12 @@
     "stock": null,
     "price": "49,99 €",
     "first_seen": "2026-09-05T18:46:43.703340+00:00"
+  },
+  "US:B0F2BDKJ9Q": {
+    "name": "Pokémon TCG: Scarlet & Violet - Destined Rivals - Paquete de 3 blíster - Kangaskhan (3 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "70,00 €",
+    "first_seen": "2026-09-05T20:58:26.290849+00:00"
   }
 }
