@@ -1295,7 +1295,7 @@
     "name": "Pokemon TCG: Scarlet & Violet - Surging Sparks Booster Bundle",
     "status": "compra_directa",
     "stock": "3",
-    "price": "103,32 €",
+    "price": "103,15 €",
     "first_seen": "2026-09-04T21:32:58.802612+00:00"
   },
   "UK:B0DB7C1Z26": {
@@ -1323,7 +1323,7 @@
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
     "status": "compra_directa",
     "stock": "5",
-    "price": "195,57 €",
+    "price": "117,84 €",
     "first_seen": "2026-09-04T21:32:58.802660+00:00"
   },
   "UK:B0GWK631XY": {
@@ -1337,7 +1337,7 @@
     "name": "Pokémon - Juego de cartas Scarlet & Violet Night Wanderer, caja de sobres de expansión, 30 sobres (versión japonesa)",
     "status": "compra_directa",
     "stock": "1",
-    "price": "176,13 €",
+    "price": "121,01 €",
     "first_seen": "2026-09-04T21:32:58.802713+00:00"
   },
   "UK:B0FJS1M1RD": {
@@ -1484,7 +1484,7 @@
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Emboar ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
     "status": "compra_directa",
     "stock": "3",
-    "price": "83,48 €",
+    "price": "83,30 €",
     "first_seen": "2026-09-04T21:32:58.802880+00:00"
   },
   "US:B0D8R1LW3R": {
@@ -1554,7 +1554,7 @@
     "name": "Pokémon TCG: Mega Charizard Tin",
     "status": "compra_directa",
     "stock": null,
-    "price": "79,71 €",
+    "price": "79,24 €",
     "first_seen": "2026-09-04T21:32:58.802936+00:00"
   },
   "US:B0F2BFSPBN": {
@@ -1617,7 +1617,7 @@
     "name": "Pokémon TCG: Scarlet & Violet—Prismatic Evolutions Poster Collection",
     "status": "compra_directa",
     "stock": "1",
-    "price": "144,85 €",
+    "price": "92,14 €",
     "first_seen": "2026-09-05T00:38:53.462546+00:00"
   },
   "UK:B0CJM4MQTT": {
@@ -1633,5 +1633,40 @@
     "stock": null,
     "price": "28,30 €",
     "first_seen": "2026-09-05T00:38:53.462677+00:00"
+  },
+  "UK:B0GDYP1LRF": {
+    "name": "Pokemon TCG | Mega Brave | Caja de refuerzo japonesa (M1L) | Para coleccionistas de más de 15 años",
+    "status": "compra_directa",
+    "stock": "4",
+    "price": "111,11 €",
+    "first_seen": "2026-09-05T05:18:07.280869+00:00"
+  },
+  "UK:B0DG2XTYDP": {
+    "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "107,24 €",
+    "first_seen": "2026-09-05T05:18:07.280897+00:00"
+  },
+  "UK:B0BJ7C2F88": {
+    "name": "Pokémon TCG: Zeraora V Battle Deck (60 Cartas, Listo para Jugar)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "24,96 €",
+    "first_seen": "2026-09-05T05:18:07.280932+00:00"
+  },
+  "UK:B0FVYJPBWW": {
+    "name": "Pokémon Chinese Dark Crystal Blaze CSV5C Slim Booster Box",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "86,25 €",
+    "first_seen": "2026-09-05T05:18:07.280940+00:00"
+  },
+  "US:B0DSLXC8J8": {
+    "name": "Pokémon TCG: Scarlet & Violet - Journey Together - Paquete de 3 blíster - Scrafty (3 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "45,53 €",
+    "first_seen": "2026-09-05T05:18:07.280980+00:00"
   }
 }
