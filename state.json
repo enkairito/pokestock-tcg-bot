@@ -733,7 +733,7 @@
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
     "stock": null,
-    "price": "220,80 €",
+    "price": "219,75 €",
     "first_seen": "2026-08-30T20:46:19.644840+00:00"
   },
   "US:B0H2JVZYZZ": {
@@ -1323,7 +1323,7 @@
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
     "status": "compra_directa",
     "stock": "5",
-    "price": "117,84 €",
+    "price": "195,57 €",
     "first_seen": "2026-09-04T21:32:58.802660+00:00"
   },
   "UK:B0GWK631XY": {
@@ -1337,7 +1337,7 @@
     "name": "Pokémon - Juego de cartas Scarlet & Violet Night Wanderer, caja de sobres de expansión, 30 sobres (versión japonesa)",
     "status": "compra_directa",
     "stock": "1",
-    "price": "121,63 €",
+    "price": "176,13 €",
     "first_seen": "2026-09-04T21:32:58.802713+00:00"
   },
   "UK:B0FJS1M1RD": {
@@ -1455,7 +1455,7 @@
   "US:B0F2BCG1Y5": {
     "name": "Pokémon TCG: Scarlet & Violet—Destined Rivals Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "4",
     "price": "101,95 €",
     "first_seen": "2026-09-04T21:32:58.802829+00:00"
   },
@@ -1554,7 +1554,7 @@
     "name": "Pokémon TCG: Mega Charizard Tin",
     "status": "compra_directa",
     "stock": null,
-    "price": "78,32 €",
+    "price": "79,71 €",
     "first_seen": "2026-09-04T21:32:58.802936+00:00"
   },
   "US:B0F2BFSPBN": {
@@ -1612,5 +1612,26 @@
     "stock": "1",
     "price": "35,57 €",
     "first_seen": "2026-09-04T22:05:43.537336+00:00"
+  },
+  "UK:B0DLQJ613B": {
+    "name": "Pokémon TCG: Scarlet & Violet—Prismatic Evolutions Poster Collection",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "144,85 €",
+    "first_seen": "2026-09-05T00:38:53.462546+00:00"
+  },
+  "UK:B0CJM4MQTT": {
+    "name": "Pokemon Scarlet EX Pantalla 30 coreana",
+    "status": "compra_directa",
+    "stock": "5",
+    "price": "76,94 €",
+    "first_seen": "2026-09-05T00:38:53.462595+00:00"
+  },
+  "US:B0FXN8JVMB": {
+    "name": "Pokémon Mega Evolution M2 – Inferno X Booster Pack – JPN",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "28,30 €",
+    "first_seen": "2026-09-05T00:38:53.462677+00:00"
   }
 }
