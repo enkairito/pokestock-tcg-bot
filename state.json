@@ -816,7 +816,7 @@
   "US:B0GFZV1ZVV": {
     "name": "Pokémon TCG: Mega Evolution Order Elite Trainer Box",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "price": "102,18 €",
     "first_seen": "2026-08-30T20:46:19.644915+00:00"
   },
@@ -1294,7 +1294,7 @@
   "UK:B0DDYZX1TB": {
     "name": "Pokemon TCG: Scarlet & Violet - Surging Sparks Booster Bundle",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "price": "102,91 €",
     "first_seen": "2026-09-04T21:32:58.802612+00:00"
   },
@@ -1309,7 +1309,7 @@
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
     "status": "compra_directa",
     "stock": "2",
-    "price": "82,10 €",
+    "price": "79,91 €",
     "first_seen": "2026-09-04T21:32:58.802645+00:00"
   },
   "UK:B0FSJXSPPX": {
@@ -1427,7 +1427,7 @@
   "UK:B0BXJT92PT": {
     "name": "Pokémon- Origin Forme Palkia VSTAR Baraja de Batalla de la Liga, Multicolor (290-85236)",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": null,
     "price": "47,14 €",
     "first_seen": "2026-09-04T21:32:58.802801+00:00"
   },
@@ -1455,7 +1455,7 @@
   "US:B0F2BCG1Y5": {
     "name": "Pokémon TCG: Scarlet & Violet—Destined Rivals Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "3",
     "price": "101,95 €",
     "first_seen": "2026-09-04T21:32:58.802829+00:00"
   },
@@ -1616,7 +1616,7 @@
   "UK:B0DLQJ613B": {
     "name": "Pokémon TCG: Scarlet & Violet—Prismatic Evolutions Poster Collection",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "price": "92,14 €",
     "first_seen": "2026-09-05T00:38:53.462546+00:00"
   },
