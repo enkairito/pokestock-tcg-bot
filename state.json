@@ -732,7 +732,7 @@
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
     "stock": null,
-    "price": "221,58 €",
+    "price": "219,76 €",
     "first_seen": "2026-08-30T20:46:19.644840+00:00"
   },
   "US:B0H2JVZYZZ": {
@@ -1328,7 +1328,7 @@
   "UK:B0GWK631XY": {
     "name": "Pokémon TCG: Mega Moonlit Tin - Mega Gengar ex (4 potenciadores y 1 tarjeta promocional de aluminio)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "5",
     "price": "76,46 €",
     "first_seen": "2026-09-04T21:32:58.802667+00:00"
   },
@@ -1454,7 +1454,7 @@
   "US:B0F2BCG1Y5": {
     "name": "Pokémon TCG: Scarlet & Violet—Destined Rivals Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": null,
     "price": "101,95 €",
     "first_seen": "2026-09-04T21:32:58.802829+00:00"
   },
@@ -1637,7 +1637,7 @@
     "name": "Pokemon TCG | Mega Brave | Caja de refuerzo japonesa (M1L) | Para coleccionistas de más de 15 años",
     "status": "compra_directa",
     "stock": "4",
-    "price": "114,27 €",
+    "price": "114,26 €",
     "first_seen": "2026-09-05T05:18:07.280869+00:00"
   },
   "UK:B0DG2XTYDP": {
@@ -1709,5 +1709,12 @@
     "stock": "1",
     "price": "773,05 €",
     "first_seen": "2026-09-06T01:04:10.485125+00:00"
+  },
+  "US:B0F6PMVQWQ": {
+    "name": "Pokémon TCG Scarlet & Violet 10.5 Black Bolt Booster Set",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "139,86 €",
+    "first_seen": "2026-09-06T10:19:00.889053+00:00"
   }
 }
