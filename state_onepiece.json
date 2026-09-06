@@ -100,7 +100,7 @@
     "name": "One Piece TCG: Two Legends - Booster Pack (OP-08) (JP) (TCG)",
     "status": "compra_directa",
     "stock": null,
-    "price": "14,08 €",
+    "price": "14,02 €",
     "first_seen": "2026-08-29T18:09:54.795240+00:00"
   },
   "ES:B0F85QRZP6": {
@@ -149,7 +149,7 @@
     "name": "BANDAI Juego de cartas de una pieza más antiguo (OP-13) (caja) de 24 unidades",
     "status": "compra_directa",
     "stock": "1",
-    "price": "288,91 €",
+    "price": "290,07 €",
     "first_seen": "2026-08-29T18:10:47.849793+00:00"
   },
   "ES:B0G2VKBZML": {
@@ -242,5 +242,12 @@
     "stock": "1",
     "price": "409,65 €",
     "first_seen": "2026-09-05T20:33:38.638411+00:00"
+  },
+  "ES:B0HFD53BDB": {
+    "name": "One Piece TCG: The World's Strongest Warriors - Juego de doble paquete Vol. 12 DP-12 (2 paquetes OP-17)",
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "35,37 €",
+    "first_seen": "2026-09-06T00:36:37.394759+00:00"
   }
 }
