@@ -69,6 +69,21 @@ jobs:
           TELEGRAM_ONEPIECE_CHAT_ID: ${{ secrets.TELEGRAM_ONEPIECE_CHAT_ID }}
         run: xvfb-run -a python check_onepiece.py
 
+      - name: Run Magic TCG check
+        env:
+          # Igual que One Piece: check_stock.py requiere estas dos al
+          # cargarse, aunque las alertas reales de Magic usan el bot/canal
+          # propio de abajo. TELEGRAM_MAGIC_BOT_TOKEN/CHAT_ID aún no existen
+          # como secrets (pendiente de crear el bot) — el scraping y la
+          # publicación a la web funcionan igual mientras tanto, las
+          # alertas de Telegram simplemente no harán nada hasta que se
+          # añadan.
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_MAGIC_BOT_TOKEN: ${{ secrets.TELEGRAM_MAGIC_BOT_TOKEN }}
+          TELEGRAM_MAGIC_CHAT_ID: ${{ secrets.TELEGRAM_MAGIC_CHAT_ID }}
+        run: xvfb-run -a python check_magic.py
+
       - name: Compute restock stats
         run: python restock_stats.py
 
@@ -89,6 +104,10 @@ jobs:
               cp restock_stats.json /tmp/wheresthatstock/restock_stats.json
             fi
 
+            if [ -f magic_snapshot.json ]; then
+              cp magic_snapshot.json /tmp/wheresthatstock/magic.json
+            fi
+
             if [ -f onepiece_snapshot.json ]; then
               cp onepiece_snapshot.json /tmp/wheresthatstock/onepiece.json
             fi
@@ -103,6 +122,13 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
             git add products.json onepiece.json accesorios.json sitemap.xml events.json restock_stats.json
+            # magic.json aparte (no incondicional): en la primerísima
+            # ejecución todavía no existe ni en el working tree ni en un
+            # commit anterior, y "git add" sobre una ruta que no existe en
+            # ningún sitio aborta TODO el comando (no solo esa ruta).
+            if [ -f magic.json ]; then
+              git add magic.json
+            fi
             if git diff --cached --quiet; then
               echo "No changes to publish"
             else
@@ -129,6 +155,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add state.json state_onepiece.json events.json
+          if [ -f state_magic.json ]; then
+            git add state_magic.json
+          fi
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
