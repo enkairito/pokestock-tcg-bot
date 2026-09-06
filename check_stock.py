@@ -176,7 +176,42 @@ STATUS_COPY = {
 WEBSITE_URL = "https://wheresthatstock.com/"
 STATE_FILE = Path(__file__).parent / "state.json"
 SNAPSHOT_FILE = Path(__file__).parent / "products_snapshot.json"
+EVENTS_FILE = Path(__file__).parent / "events.json"
 DEBUG_DIR = Path(__file__).parent / "debug"
+
+# Feed público de actividad de la web (distinto de los avisos de Telegram):
+# a diferencia de Telegram, que solo avisa de ES/ECI para no saturar, el
+# feed incluye las 4 tiendas (ES/UK/US/ECI) porque la web ya muestra el
+# stock de las 4 y un restock en UK/US es igual de relevante para quien la
+# visita. Se limita a los últimos N eventos (más reciente al final) para
+# que el JSON no crezca sin límite.
+MAX_EVENTS = 60
+
+
+def load_events():
+    if not EVENTS_FILE.exists():
+        return []
+    return json.loads(EVENTS_FILE.read_text(encoding="utf-8"))
+
+
+def save_events(events):
+    EVENTS_FILE.write_text(json.dumps(events[-MAX_EVENTS:], ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def build_event(info, event_type, prev_price=None):
+    return {
+        "ts": datetime.now(timezone.utc).isoformat(),
+        "type": event_type,
+        "asin": info["asin"],
+        "marketplace": info["marketplace_code"],
+        "store_label": info["store_label"],
+        "flag": info["flag"],
+        "name": info["name"],
+        "image": info.get("image"),
+        "price": info.get("price"),
+        "prev_price": prev_price,
+        "link": info["link"],
+    }
 
 CAPTCHA_MARKERS = [
     "introduzca los caracteres",
@@ -793,6 +828,7 @@ async def check_single_product(page, asin, marketplace, include_delivery=False):
 
 async def main():
     state = load_state()
+    events = load_events()
     products = {}
 
     async with async_playwright() as p:
@@ -993,6 +1029,16 @@ async def main():
             and current_price_num < prev_price_num
         )
 
+        # Feed público de la web: a diferencia de Telegram (solo ES/ECI),
+        # aquí registramos las 4 tiendas. Solo restock y bajada de precio —
+        # "stock_decreased" a solas es demasiado ruidoso/poco interesante
+        # para un timeline público (es solo el contador bajando, no un
+        # evento que alguien quiera leer).
+        if status_changed:
+            events.append(build_event(info, "restock"))
+        elif price_decreased:
+            events.append(build_event(info, "price_drop", prev_price=prev_price))
+
         send_failed = False
 
         # Solo se envían alertas de Telegram para tiendas españolas (Amazon
@@ -1068,6 +1114,7 @@ async def main():
 
     save_state(state)
     save_products_snapshot(products)
+    save_events(events)
     print("✅ Comprobación completada.")
 
 
