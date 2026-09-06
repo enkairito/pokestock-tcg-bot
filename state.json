@@ -1454,7 +1454,7 @@
   "US:B0F2BCG1Y5": {
     "name": "Pokémon TCG: Scarlet & Violet—Destined Rivals Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "price": "101,95 €",
     "first_seen": "2026-09-04T21:32:58.802829+00:00"
   },
@@ -1482,8 +1482,8 @@
   "US:B0G72QBTBJ": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Emboar ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": null,
-    "price": "75,33 €",
+    "stock": "1",
+    "price": "73,91 €",
     "first_seen": "2026-09-04T21:32:58.802880+00:00"
   },
   "US:B0D8R1LW3R": {
@@ -1553,7 +1553,7 @@
     "name": "Pokémon TCG: Mega Charizard Tin",
     "status": "compra_directa",
     "stock": null,
-    "price": "79,71 €",
+    "price": "79,24 €",
     "first_seen": "2026-09-04T21:32:58.802936+00:00"
   },
   "US:B0F2BFSPBN": {
@@ -1702,5 +1702,12 @@
     "stock": null,
     "price": "70,00 €",
     "first_seen": "2026-09-05T20:58:26.290849+00:00"
+  },
+  "UK:B0CGCYNCR5": {
+    "name": "Pokemon - SV Paradox Rift - Booster Box 36 pcs (POK85399)",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "773,05 €",
+    "first_seen": "2026-09-06T01:04:10.485125+00:00"
   }
 }
