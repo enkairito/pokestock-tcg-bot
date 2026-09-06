@@ -81,10 +81,12 @@ jobs:
               python merge_accesorios.py --base /tmp/wheresthatstock/accesorios.json --new accesorios_onepiece_snapshot.json --out /tmp/wheresthatstock/accesorios.json --tag "One Piece"
             fi
 
+            python update_sitemap_lastmod.py --sitemap /tmp/wheresthatstock/sitemap.xml
+
             cd /tmp/wheresthatstock
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add products.json onepiece.json accesorios.json
+            git add products.json onepiece.json accesorios.json sitemap.xml
             if git diff --cached --quiet; then
               echo "No changes to publish"
             else
