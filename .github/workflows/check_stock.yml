@@ -70,6 +70,10 @@ jobs:
         run: xvfb-run -a python check_onepiece.py
 
       - name: Run Magic TCG check
+        # Un fallo aquí (ej. Amazon reestructura la tienda otra vez y
+        # 0 productos encajan) no debe bloquear que Pokémon/One Piece se
+        # publiquen igualmente — ya pasó una vez (2026-09-06) sin esto.
+        continue-on-error: true
         env:
           # Igual que One Piece: check_stock.py requiere estas dos al
           # cargarse, aunque las alertas reales de Magic usan el bot/canal

@@ -32,9 +32,18 @@ MAGIC_WEBSITE_URL = "https://wheresthatstock.com/magic"
 
 # Solo la página de "Novedades" de la tienda de marca de Magic en Amazon ES,
 # sin filtrar por expansión concreta — pedido explícitamente 2026-09-06:
-# "las 4 últimas expansiones" se traduce en confiar en que Amazon ya muestra
-# lo reciente en esa página, igual que ya hace Pokémon ES, en vez de mantener
-# una lista de nombres de sets que se queda vieja con cada lanzamiento.
+# A diferencia de Pokémon ES, la tienda de Magic NO tiene una pestaña plana
+# "Novedades" con productos directamente — comprobado 2026-09-06:
+# https://www.amazon.es/stores/page/CB702A7F-.../ ("Expansiones") y su
+# pestaña "Productos" son ambas páginas-índice (banners/categorías que
+# enlazan a otras páginas, 0 elementos [data-asin]), no listados de
+# producto. La única estructura real son las páginas de cada expansión
+# individual, que sí tienen productos — así que "las 4 últimas expansiones"
+# se traduce en listar aquí, a mano, las 4 páginas de expansión más
+# recientes tal como las ordena la propia Amazon en su nav (más reciente
+# primero). A diferencia de Pokémon, esto SÍ requiere tocar código cuando
+# salga una expansión nueva (quitar la más antigua de las 4, añadir la
+# nueva) — no hay forma de evitarlo dada la estructura de esta tienda.
 MAGIC_MARKETPLACE = {
     "code": "ES",
     "domain": "amazon.es",
@@ -47,7 +56,10 @@ MAGIC_MARKETPLACE = {
     "continue_button_pattern": "text=/seguir comprando/i",
     "stock_count_re": re.compile(r"queda\(?n?\)?\s+(\d+)\s+en stock", re.IGNORECASE),
     "pages": [
-        ("Novedades", "https://www.amazon.es/stores/page/CB702A7F-E24E-45BA-9500-62E96992E321"),
+        ("Star Trek", "https://www.amazon.es/stores/page/31C78E94-28D4-45D7-987F-22BB35165EB1"),
+        ("The Hobbit", "https://www.amazon.es/stores/page/A132385E-4369-40F2-AC92-7CB2AD98C1B0"),
+        ("Reality Fracture", "https://www.amazon.es/stores/page/40942C9F-B68F-4F4D-A9A1-91B6C22A45A4"),
+        ("Secretos de Strixhaven", "https://www.amazon.es/stores/page/A970672B-E966-4459-B439-25F99A6D7660"),
     ],
     "allow_individual_fallback": True,
     "exclude_out_of_stock": True,
