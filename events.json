@@ -11,5 +11,31 @@
     "price": "22,12 €",
     "prev_price": "24,87 €",
     "link": "https://www.amazon.es/dp/B0GWCSP6MR?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-06T22:16:19.147252+00:00",
+    "type": "price_drop",
+    "asin": "B0C4V8F77B",
+    "marketplace": "ES",
+    "store_label": "Amazon ES",
+    "flag": "🇪🇸",
+    "name": "Pokémon: Estadio Combina y Combate de Escarlata y Púrpura (2 Barajas, 11 Paquetes de Mejora y más)",
+    "image": "https://m.media-amazon.com/images/I/81eF8wu4I1L._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "64,98 €",
+    "prev_price": "65,98 €",
+    "link": "https://www.amazon.es/dp/B0C4V8F77B?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-06T22:16:24.759525+00:00",
+    "type": "restock",
+    "asin": "B0F2BCG1Y5",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokémon TCG: Scarlet & Violet—Destined Rivals Booster Bundle (6 Booster Packs)",
+    "image": "https://m.media-amazon.com/images/I/81tegATYQrL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "101,95 €",
+    "prev_price": null,
+    "link": "https://www.amazon.es/dp/B0F2BCG1Y5?tag=enkairito-21"
   }
 ]

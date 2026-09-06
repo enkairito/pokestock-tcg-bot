@@ -70,7 +70,7 @@
   "ES:B0DT7D5K1X": {
     "name": "Pokémon Colección prémium Bellibolt ex de e-Nigma de JCC Pokémon (1 Carta holográfica con ilustración expandida, 6 Sobres de Mejora y Figuras acrílicas)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "price": "47,63 €",
     "first_seen": "2026-08-25T20:27:54.285177+00:00"
   },
@@ -78,7 +78,7 @@
     "name": "Pokémon: Estadio Combina y Combate de Escarlata y Púrpura (2 Barajas, 11 Paquetes de Mejora y más)",
     "status": "compra_directa",
     "stock": null,
-    "price": "65,98 €",
+    "price": "64,98 €",
     "first_seen": "2026-08-25T20:27:54.285181+00:00"
   },
   "ES:B0G4NQK15P": {
@@ -1327,7 +1327,7 @@
   "UK:B0GWK631XY": {
     "name": "Pokémon TCG: Mega Moonlit Tin - Mega Gengar ex (4 potenciadores y 1 tarjeta promocional de aluminio)",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "3",
     "price": "76,46 €",
     "first_seen": "2026-09-04T21:32:58.802667+00:00"
   },
@@ -1452,8 +1452,9 @@
   },
   "US:B0F2BCG1Y5": {
     "name": "Pokémon TCG: Scarlet & Violet—Destined Rivals Booster Bundle (6 Booster Packs)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "101,95 €",
     "first_seen": "2026-09-04T21:32:58.802829+00:00"
   },
   "US:B0G3CS6XB9": {
