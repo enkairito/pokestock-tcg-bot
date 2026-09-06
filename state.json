@@ -70,7 +70,7 @@
   "ES:B0DT7D5K1X": {
     "name": "Pokémon Colección prémium Bellibolt ex de e-Nigma de JCC Pokémon (1 Carta holográfica con ilustración expandida, 6 Sobres de Mejora y Figuras acrílicas)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "price": "47,63 €",
     "first_seen": "2026-08-25T20:27:54.285177+00:00"
   },
@@ -716,7 +716,7 @@
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "3",
     "price": "57,77 €",
     "first_seen": "2026-08-30T20:46:19.644833+00:00"
   },
@@ -1292,7 +1292,7 @@
   "UK:B0DDYZX1TB": {
     "name": "Pokemon TCG: Scarlet & Violet - Surging Sparks Booster Bundle",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "price": "102,80 €",
     "first_seen": "2026-09-04T21:32:58.802612+00:00"
   },
@@ -1327,7 +1327,7 @@
   "UK:B0GWK631XY": {
     "name": "Pokémon TCG: Mega Moonlit Tin - Mega Gengar ex (4 potenciadores y 1 tarjeta promocional de aluminio)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "price": "76,46 €",
     "first_seen": "2026-09-04T21:32:58.802667+00:00"
   },
@@ -1606,7 +1606,7 @@
   "US:B0FS98MMML": {
     "name": "Pokémon TCG: Booster Pack de 10 Cartas Mega Evolution Flames Phantasmal Mangas",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "price": "35,57 €",
     "first_seen": "2026-09-04T22:05:43.537336+00:00"
   },
@@ -1635,7 +1635,7 @@
     "name": "Pokemon TCG | Mega Brave | Caja de refuerzo japonesa (M1L) | Para coleccionistas de más de 15 años",
     "status": "compra_directa",
     "stock": "2",
-    "price": "114,21 €",
+    "price": "110,94 €",
     "first_seen": "2026-09-05T05:18:07.280869+00:00"
   },
   "UK:B0DG2XTYDP": {
@@ -1661,9 +1661,8 @@
   },
   "US:B0DSLXC8J8": {
     "name": "Pokémon TCG: Scarlet & Violet - Journey Together - Paquete de 3 blíster - Scrafty (3 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "48,61 €",
     "first_seen": "2026-09-05T05:18:07.280980+00:00"
   },
   "UK:B0FTSVL3Z6": {
