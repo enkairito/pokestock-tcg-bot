@@ -193,9 +193,8 @@
   },
   "ES:B0GSSQYPK3": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null,
-    "price": "29,94 €",
     "first_seen": "2026-08-25T20:27:53.163279+00:00"
   },
   "ES:B0GSSJ9RB1": {
@@ -660,10 +659,10 @@
     "first_seen": "2026-08-30T20:46:10.703763+00:00"
   },
   "UK:B0GRCDKMSW": {
-    "name": "Pokémon TCG: Mega Lucario ex League Battle Deck (1 Ready-to-Play 60-Card Deck Including Mega Lucario ex)",
+    "name": "Pokémon TCG: Mega Lucario ex League Battle Deck",
     "status": "compra_directa",
     "stock": null,
-    "price": "28,75 €",
+    "price": "46,43 €",
     "first_seen": "2026-08-30T20:46:19.644780+00:00"
   },
   "UK:B0F8QY2C1M": {
@@ -715,10 +714,10 @@
     "first_seen": "2026-08-30T20:46:19.644828+00:00"
   },
   "US:B0GYTRYV7P": {
-    "name": "Pokémon TCG: Mega Evolution—Paquete de refuerzo de tono negro",
+    "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
     "status": "compra_directa",
     "stock": null,
-    "price": "40,56 €",
+    "price": "57,09 €",
     "first_seen": "2026-08-30T20:46:19.644833+00:00"
   },
   "US:B0GR6Q72ND": {
@@ -732,7 +731,7 @@
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
     "stock": null,
-    "price": "219,76 €",
+    "price": "220,35 €",
     "first_seen": "2026-08-30T20:46:19.644840+00:00"
   },
   "US:B0H2JVZYZZ": {
@@ -1474,9 +1473,8 @@
   },
   "US:B0G72SPRP6": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
-    "status": "compra_directa",
-    "stock": "1",
-    "price": "82,98 €",
+    "status": "no_disponible",
+    "stock": null,
     "first_seen": "2026-09-04T21:32:58.802874+00:00"
   },
   "US:B0G72QBTBJ": {
@@ -1553,7 +1551,7 @@
     "name": "Pokémon TCG: Mega Charizard Tin",
     "status": "compra_directa",
     "stock": null,
-    "price": "79,24 €",
+    "price": "79,71 €",
     "first_seen": "2026-09-04T21:32:58.802936+00:00"
   },
   "US:B0F2BFSPBN": {
@@ -1637,7 +1635,7 @@
     "name": "Pokemon TCG | Mega Brave | Caja de refuerzo japonesa (M1L) | Para coleccionistas de más de 15 años",
     "status": "compra_directa",
     "stock": "4",
-    "price": "114,26 €",
+    "price": "110,98 €",
     "first_seen": "2026-09-05T05:18:07.280869+00:00"
   },
   "UK:B0DG2XTYDP": {
@@ -1716,5 +1714,19 @@
     "stock": null,
     "price": "139,86 €",
     "first_seen": "2026-09-06T10:19:00.889053+00:00"
+  },
+  "UK:B0GWCSP6MR": {
+    "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "24,87 €",
+    "first_seen": "2026-09-06T13:57:50.628764+00:00"
+  },
+  "UK:B0DLTZPNR2": {
+    "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "26,50 €",
+    "first_seen": "2026-09-06T13:57:50.628806+00:00"
   }
 }
