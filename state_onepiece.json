@@ -177,7 +177,7 @@
     "name": "One Piece TCG: Adventure on Kami's Island - Paquete de refuerzo con mangas (OP-15 - EB-04) - 12 cartas",
     "status": "compra_directa",
     "stock": null,
-    "price": "27,65 €",
+    "price": "27,64 €",
     "first_seen": "2026-08-30T17:57:46.158159+00:00"
   },
   "ES:B0D6BC4TJ3": {
@@ -246,8 +246,8 @@
   "ES:B0HFD53BDB": {
     "name": "One Piece TCG: The World's Strongest Warriors - Juego de doble paquete Vol. 12 DP-12 (2 paquetes OP-17)",
     "status": "compra_directa",
-    "stock": "2",
-    "price": "35,37 €",
+    "stock": null,
+    "price": "90,27 €",
     "first_seen": "2026-09-06T00:36:37.394759+00:00"
   }
 }
