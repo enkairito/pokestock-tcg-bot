@@ -1,30 +1,26 @@
-name: Check Pokémon TCG Stock
+name: Check Magic TCG Stock
 
 on:
   schedule:
-    # Every hour, all day (no overnight pause).
-    - cron: '0 * * * *'
+    # Cada 6 horas — pedido explícitamente (2026-09-07): Magic no necesita
+    # la misma cadencia horaria que Pokémon/One Piece.
+    - cron: '15 */6 * * *'
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
 concurrency:
-  group: check-stock
+  group: check-magic
   cancel-in-progress: false
 
 jobs:
-  check-stock:
+  check-magic:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          # Historial completo (no solo el último commit): restock_stats.py
-          # camina los commits recientes de state.json para reconstruir
-          # cuántas veces ha restockeado cada producto en la última semana.
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -39,55 +35,41 @@ jobs:
       - name: Restore Amazon cookies
         env:
           AMAZON_COOKIES_JSON: ${{ secrets.AMAZON_COOKIES_JSON }}
-          AMAZON_UK_COOKIES_JSON: ${{ secrets.AMAZON_UK_COOKIES_JSON }}
-          AMAZON_US_COOKIES_JSON: ${{ secrets.AMAZON_US_COOKIES_JSON }}
         run: |
           if [ -n "$AMAZON_COOKIES_JSON" ]; then
             echo "$AMAZON_COOKIES_JSON" > amazon_cookies.json
           fi
-          if [ -n "$AMAZON_UK_COOKIES_JSON" ]; then
-            echo "$AMAZON_UK_COOKIES_JSON" > amazon_cookies_uk.json
-          fi
-          if [ -n "$AMAZON_US_COOKIES_JSON" ]; then
-            echo "$AMAZON_US_COOKIES_JSON" > amazon_cookies_us.json
-          fi
 
-      - name: Run stock check
+      - name: Run Magic TCG check
         env:
+          # check_stock.py (importado por check_magic.py) requiere estas dos
+          # al cargarse, aunque los avisos reales de Magic usan el bot/canal
+          # propio de abajo.
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: xvfb-run -a python check_stock.py
-
-      - name: Compute restock stats
-        run: python restock_stats.py
+          TELEGRAM_MAGIC_BOT_TOKEN: ${{ secrets.TELEGRAM_MAGIC_BOT_TOKEN }}
+          TELEGRAM_MAGIC_CHAT_ID: ${{ secrets.TELEGRAM_MAGIC_CHAT_ID }}
+        run: xvfb-run -a python check_magic.py
 
       - name: Publish products snapshot to Where's That Stock
         env:
           WHERESTHATSTOCK_TOKEN: ${{ secrets.WHERESTHATSTOCK_TOKEN }}
         run: |
-          if [ -f products_snapshot.json ]; then
+          if [ -f magic_snapshot.json ]; then
             git clone https://x-access-token:${WHERESTHATSTOCK_TOKEN}@github.com/enkairito/wheresthatstock.git /tmp/wheresthatstock
 
-            cp products_snapshot.json /tmp/wheresthatstock/products.json
-
-            if [ -f events.json ]; then
-              cp events.json /tmp/wheresthatstock/events.json
-            fi
-
-            if [ -f restock_stats.json ]; then
-              cp restock_stats.json /tmp/wheresthatstock/restock_stats.json
-            fi
+            cp magic_snapshot.json /tmp/wheresthatstock/magic.json
 
             python update_sitemap_lastmod.py --sitemap /tmp/wheresthatstock/sitemap.xml
 
             cd /tmp/wheresthatstock
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add products.json sitemap.xml events.json restock_stats.json
+            git add magic.json sitemap.xml
             if git diff --cached --quiet; then
               echo "No changes to publish"
             else
-              git commit -m "chore: update products snapshot"
+              git commit -m "chore: update magic snapshot"
               for i in 1 2 3; do
                 git push && break
                 echo "Push rejected, pulling and retrying ($i/3)..."
@@ -100,11 +82,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add state.json events.json
+          git add state_magic.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: update stock state"
+            git commit -m "chore: update magic state"
             for i in 1 2 3; do
               git push && break
               echo "Push rejected, pulling and retrying ($i/3)..."

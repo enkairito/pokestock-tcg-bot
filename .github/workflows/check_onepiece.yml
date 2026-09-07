@@ -1,30 +1,26 @@
-name: Check Pokémon TCG Stock
+name: Check One Piece TCG Stock
 
 on:
   schedule:
-    # Every hour, all day (no overnight pause).
-    - cron: '0 * * * *'
+    # Every hour, 5 min offset from the Pokémon check to avoid hitting
+    # Amazon/GitHub runners at the exact same minute.
+    - cron: '5 * * * *'
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
 concurrency:
-  group: check-stock
+  group: check-onepiece
   cancel-in-progress: false
 
 jobs:
-  check-stock:
+  check-onepiece:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          # Historial completo (no solo el último commit): restock_stats.py
-          # camina los commits recientes de state.json para reconstruir
-          # cuántas veces ha restockeado cada producto en la última semana.
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -39,43 +35,33 @@ jobs:
       - name: Restore Amazon cookies
         env:
           AMAZON_COOKIES_JSON: ${{ secrets.AMAZON_COOKIES_JSON }}
-          AMAZON_UK_COOKIES_JSON: ${{ secrets.AMAZON_UK_COOKIES_JSON }}
-          AMAZON_US_COOKIES_JSON: ${{ secrets.AMAZON_US_COOKIES_JSON }}
         run: |
           if [ -n "$AMAZON_COOKIES_JSON" ]; then
             echo "$AMAZON_COOKIES_JSON" > amazon_cookies.json
           fi
-          if [ -n "$AMAZON_UK_COOKIES_JSON" ]; then
-            echo "$AMAZON_UK_COOKIES_JSON" > amazon_cookies_uk.json
-          fi
-          if [ -n "$AMAZON_US_COOKIES_JSON" ]; then
-            echo "$AMAZON_US_COOKIES_JSON" > amazon_cookies_us.json
-          fi
 
-      - name: Run stock check
+      - name: Run One Piece TCG check
         env:
+          # check_stock.py (importado por check_onepiece.py) requiere estas
+          # dos al cargarse, aunque los avisos reales de One Piece usan las
+          # otras dos de abajo (bot y canal propios).
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: xvfb-run -a python check_stock.py
-
-      - name: Compute restock stats
-        run: python restock_stats.py
+          TELEGRAM_ONEPIECE_BOT_TOKEN: ${{ secrets.TELEGRAM_ONEPIECE_BOT_TOKEN }}
+          TELEGRAM_ONEPIECE_CHAT_ID: ${{ secrets.TELEGRAM_ONEPIECE_CHAT_ID }}
+        run: xvfb-run -a python check_onepiece.py
 
       - name: Publish products snapshot to Where's That Stock
         env:
           WHERESTHATSTOCK_TOKEN: ${{ secrets.WHERESTHATSTOCK_TOKEN }}
         run: |
-          if [ -f products_snapshot.json ]; then
+          if [ -f onepiece_snapshot.json ]; then
             git clone https://x-access-token:${WHERESTHATSTOCK_TOKEN}@github.com/enkairito/wheresthatstock.git /tmp/wheresthatstock
 
-            cp products_snapshot.json /tmp/wheresthatstock/products.json
+            cp onepiece_snapshot.json /tmp/wheresthatstock/onepiece.json
 
-            if [ -f events.json ]; then
-              cp events.json /tmp/wheresthatstock/events.json
-            fi
-
-            if [ -f restock_stats.json ]; then
-              cp restock_stats.json /tmp/wheresthatstock/restock_stats.json
+            if [ -f accesorios_onepiece_snapshot.json ]; then
+              python merge_accesorios.py --base /tmp/wheresthatstock/accesorios.json --new accesorios_onepiece_snapshot.json --out /tmp/wheresthatstock/accesorios.json --tag "One Piece"
             fi
 
             python update_sitemap_lastmod.py --sitemap /tmp/wheresthatstock/sitemap.xml
@@ -83,11 +69,11 @@ jobs:
             cd /tmp/wheresthatstock
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add products.json sitemap.xml events.json restock_stats.json
+            git add onepiece.json accesorios.json sitemap.xml
             if git diff --cached --quiet; then
               echo "No changes to publish"
             else
-              git commit -m "chore: update products snapshot"
+              git commit -m "chore: update one piece snapshot"
               for i in 1 2 3; do
                 git push && break
                 echo "Push rejected, pulling and retrying ($i/3)..."
@@ -100,11 +86,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add state.json events.json
+          git add state_onepiece.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: update stock state"
+            git commit -m "chore: update one piece state"
             for i in 1 2 3; do
               git push && break
               echo "Push rejected, pulling and retrying ($i/3)..."
