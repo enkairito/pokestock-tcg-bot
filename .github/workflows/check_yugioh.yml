@@ -1,0 +1,94 @@
+name: Check Yu-Gi-Oh Stock
+
+on:
+  schedule:
+    # Cada 6 horas — pedido explícitamente (2026-09-07), igual que Magic.
+    - cron: '35 */6 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: check-yugioh
+  cancel-in-progress: false
+
+jobs:
+  check-yugioh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          patchright install --with-deps chromium
+
+      - name: Restore Amazon cookies
+        env:
+          AMAZON_COOKIES_JSON: ${{ secrets.AMAZON_COOKIES_JSON }}
+        run: |
+          if [ -n "$AMAZON_COOKIES_JSON" ]; then
+            echo "$AMAZON_COOKIES_JSON" > amazon_cookies.json
+          fi
+
+      - name: Run Yu-Gi-Oh check
+        env:
+          # check_stock.py (importado por check_yugioh.py) requiere estas
+          # dos al cargarse, aunque los avisos reales de Yu-Gi-Oh usan el
+          # bot/canal propio de abajo.
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_YUGIOH_BOT_TOKEN: ${{ secrets.TELEGRAM_YUGIOH_BOT_TOKEN }}
+          TELEGRAM_YUGIOH_CHAT_ID: ${{ secrets.TELEGRAM_YUGIOH_CHAT_ID }}
+        run: xvfb-run -a python check_yugioh.py
+
+      - name: Publish products snapshot to Where's That Stock
+        env:
+          WHERESTHATSTOCK_TOKEN: ${{ secrets.WHERESTHATSTOCK_TOKEN }}
+        run: |
+          if [ -f yugioh_snapshot.json ]; then
+            git clone https://x-access-token:${WHERESTHATSTOCK_TOKEN}@github.com/enkairito/wheresthatstock.git /tmp/wheresthatstock
+
+            cp yugioh_snapshot.json /tmp/wheresthatstock/yugioh.json
+
+            python update_sitemap_lastmod.py --sitemap /tmp/wheresthatstock/sitemap.xml
+
+            cd /tmp/wheresthatstock
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add yugioh.json sitemap.xml
+            if git diff --cached --quiet; then
+              echo "No changes to publish"
+            else
+              git commit -m "chore: update yugioh snapshot"
+              for i in 1 2 3; do
+                git push && break
+                echo "Push rejected, pulling and retrying ($i/3)..."
+                git pull --rebase
+              done
+            fi
+          fi
+
+      - name: Commit updated state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state_yugioh.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update yugioh state"
+            for i in 1 2 3; do
+              git push && break
+              echo "Push rejected, pulling and retrying ($i/3)..."
+              git pull --rebase
+            done
+          fi
