@@ -27,6 +27,8 @@ DYNAMIC_PAGES = {
     "https://wheresthatstock.com/latas",
     "https://wheresthatstock.com/onepiece",
     "https://wheresthatstock.com/magic",
+    "https://wheresthatstock.com/lorcana",
+    "https://wheresthatstock.com/yugioh",
 }
 
 
