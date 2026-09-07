@@ -297,5 +297,57 @@
     "price": "76,90 €",
     "prev_price": null,
     "link": "https://www.amazon.es/dp/B0F67M1VGX?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-07T22:00:25.505851+00:00",
+    "type": "price_drop",
+    "asin": "B0C4V8F77B",
+    "marketplace": "ES",
+    "store_label": "Amazon ES",
+    "flag": "🇪🇸",
+    "name": "Pokémon: Estadio Combina y Combate de Escarlata y Púrpura (2 Barajas, 11 Paquetes de Mejora y más)",
+    "image": "https://m.media-amazon.com/images/I/81eF8wu4I1L._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "64,98 €",
+    "prev_price": "65,98 €",
+    "link": "https://www.amazon.es/dp/B0C4V8F77B?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-07T22:00:31.129039+00:00",
+    "type": "price_drop",
+    "asin": "B0FSJXSPPX",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
+    "image": "https://m.media-amazon.com/images/I/61X4gWuo4BL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "93,40 €",
+    "prev_price": "93,46 €",
+    "link": "https://www.amazon.es/dp/B0FSJXSPPX?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-07T22:00:31.129093+00:00",
+    "type": "price_drop",
+    "asin": "B0DB7C1Z26",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
+    "image": "https://m.media-amazon.com/images/I/81TD+vNJcJL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "119,32 €",
+    "prev_price": "119,77 €",
+    "link": "https://www.amazon.es/dp/B0DB7C1Z26?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-07T22:00:31.129121+00:00",
+    "type": "price_drop",
+    "asin": "B0FNDK5FGK",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokemon TCG Battle Partners sv9 Caja de refuerzo coreana",
+    "image": "https://m.media-amazon.com/images/I/31B+DdfSy7L._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "80,84 €",
+    "prev_price": "84,41 €",
+    "link": "https://www.amazon.es/dp/B0FNDK5FGK?tag=enkairito-21"
   }
 ]

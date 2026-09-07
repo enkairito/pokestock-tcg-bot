@@ -78,7 +78,7 @@
     "name": "Pokémon: Estadio Combina y Combate de Escarlata y Púrpura (2 Barajas, 11 Paquetes de Mejora y más)",
     "status": "compra_directa",
     "stock": null,
-    "price": "65,98 €",
+    "price": "64,98 €",
     "first_seen": "2026-08-25T20:27:54.285181+00:00"
   },
   "ES:B0G4NQK15P": {
@@ -723,7 +723,7 @@
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": null,
     "price": "51,27 €",
     "first_seen": "2026-08-30T20:46:19.644837+00:00"
   },
@@ -800,7 +800,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "price": "71,38 €",
     "first_seen": "2026-08-30T20:46:19.644876+00:00"
   },
@@ -1300,7 +1300,7 @@
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
     "status": "compra_directa",
     "stock": "1",
-    "price": "119,77 €",
+    "price": "119,32 €",
     "first_seen": "2026-09-04T21:32:58.802636+00:00"
   },
   "UK:B0DC2BK8QG": {
@@ -1313,8 +1313,8 @@
   "UK:B0FSJXSPPX": {
     "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "93,46 €",
+    "stock": null,
+    "price": "93,40 €",
     "first_seen": "2026-09-04T21:32:58.802653+00:00"
   },
   "UK:B0CMZS84KP": {
@@ -1349,7 +1349,7 @@
     "name": "Pokemon TCG Battle Partners sv9 Caja de refuerzo coreana",
     "status": "compra_directa",
     "stock": null,
-    "price": "84,41 €",
+    "price": "80,84 €",
     "first_seen": "2026-09-04T21:32:58.802732+00:00"
   },
   "UK:B0B1HWM5LW": {
@@ -1446,7 +1446,7 @@
   "UK:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "price": "294,08 €",
     "first_seen": "2026-09-04T21:32:58.802818+00:00"
   },
@@ -1552,7 +1552,7 @@
     "name": "Pokémon TCG: Mega Charizard Tin",
     "status": "compra_directa",
     "stock": null,
-    "price": "79,71 €",
+    "price": "79,86 €",
     "first_seen": "2026-09-04T21:32:58.802936+00:00"
   },
   "US:B0F2BFSPBN": {
