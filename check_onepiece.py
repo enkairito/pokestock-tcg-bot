@@ -11,6 +11,7 @@ import requests
 from patchright.async_api import async_playwright
 
 from check_stock import (
+    ALERT_STATUSES,
     DRY_RUN,
     STATUS_COPY,
     _strip_accents,
@@ -258,10 +259,10 @@ async def main():
         # check_accessories.py, solo alimentan la web.
         is_tcg_card = key in onepiece_products
 
-        status_changed = is_tcg_card and status in ("compra_directa", "invitacion") and status != prev_status
+        status_changed = is_tcg_card and status in ALERT_STATUSES and status != prev_status
         stock_decreased = (
             is_tcg_card
-            and status in ("compra_directa", "invitacion")
+            and status in ALERT_STATUSES
             and info.get("stock") is not None
             and prev_stock is not None
             and int(info["stock"]) < int(prev_stock)

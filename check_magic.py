@@ -11,6 +11,7 @@ import requests
 from patchright.async_api import async_playwright
 
 from check_stock import (
+    ALERT_STATUSES,
     DRY_RUN,
     STATUS_COPY,
     _strip_accents,
@@ -241,9 +242,9 @@ async def main():
         first_seen = prev.get("first_seen") or datetime.now(timezone.utc).isoformat()
         info["first_seen"] = first_seen
 
-        status_changed = status in ("compra_directa", "invitacion") and status != prev_status
+        status_changed = status in ALERT_STATUSES and status != prev_status
         stock_decreased = (
-            status in ("compra_directa", "invitacion")
+            status in ALERT_STATUSES
             and info.get("stock") is not None
             and prev_stock is not None
             and int(info["stock"]) < int(prev_stock)

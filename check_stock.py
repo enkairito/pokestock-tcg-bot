@@ -171,7 +171,14 @@ ECI_PRICE_RE = re.compile(r"(\d{1,3}(?:\.\d{3})*,\d{2})\s*€")
 STATUS_COPY = {
     "compra_directa": ("#COMPRADIRECTA", "📦", "CÓMPRALO YA"),
     "invitacion": ("#INVITACIÓN", "🎟️", "SOLICITAR INVITACIÓN"),
+    "preventa": ("#PREVENTA", "🗓️", "RESERVAR AHORA"),
 }
+
+# Estados que merece la pena avisar cuando se alcanzan (status_changed) o
+# cuyo stock merece la pena vigilar (stock_decreased) — no_disponible queda
+# fuera a propósito. Import compartido por check_onepiece.py/check_magic.py
+# para no duplicar la tupla en cada sitio.
+ALERT_STATUSES = ("compra_directa", "invitacion", "preventa")
 
 WEBSITE_URL = "https://wheresthatstock.com/"
 STATE_FILE = Path(__file__).parent / "state.json"
@@ -312,7 +319,7 @@ def assign_categories(name, page_categories=()):
     return sorted(categories) if categories else ["Otros"]
 
 
-STATUS_PRIORITY = {"compra_directa": 2, "invitacion": 1, "no_disponible": 0}
+STATUS_PRIORITY = {"compra_directa": 3, "preventa": 2, "invitacion": 1, "no_disponible": 0}
 
 
 def merge_product_record(existing, new):
@@ -322,8 +329,9 @@ def merge_product_record(existing, new):
     individual vs 28,98€ compra directa en la tarjeta de "Novedades").
     Nos quedamos con el registro completo (precio+estado+stock) de una
     sola página, para no mezclar campos de fuentes distintas:
-    1. Preferimos compra_directa sobre invitacion sobre no_disponible —
-       es la opción más ventajosa/accionable para el usuario.
+    1. Preferimos compra_directa sobre preventa sobre invitacion sobre
+       no_disponible — es la opción más ventajosa/accionable para el
+       usuario (ver STATUS_PRIORITY).
     2. A igualdad de estado, nos quedamos con el precio más bajo."""
     if existing is None:
         return new
@@ -339,11 +347,20 @@ def merge_product_record(existing, new):
     return existing if existing_price is not None else new
 
 
+PREVENTA_MARKER = "preventa"
+
+
 def determine_status(has_buy_signal, text_lower, marketplace):
     """Regla de estado compartida entre discover_products (tarjetas de
-    tienda) y check_single_product (ficha individual): botón de compra
-    encontrado -> compra_directa; si no, marcador de invitación presente
-    en el texto -> invitacion; si no, no_disponible."""
+    tienda) y check_single_product (ficha individual). Preventa se mira
+    antes que el botón de compra a propósito: un producto en preventa
+    también tiene botón de compra/reserva (has_buy_signal=True), así que
+    sin este orden se clasificaría como compra_directa normal — visto en
+    B0H6H5C3ZL (Magic: Star Trek Draft Night), texto "Cómpralo en
+    preventa ya."/"Precio de Preventa Garantizado" tanto en la ficha
+    individual como en la tarjeta de tienda."""
+    if PREVENTA_MARKER in text_lower:
+        return "preventa"
     if has_buy_signal:
         return "compra_directa"
     if marketplace["invitation_marker"] in text_lower:
@@ -1010,9 +1027,9 @@ async def main():
         first_seen = prev.get("first_seen") or datetime.now(timezone.utc).isoformat()
         info["first_seen"] = first_seen
 
-        status_changed = status in ("compra_directa", "invitacion") and status != prev_status
+        status_changed = status in ALERT_STATUSES and status != prev_status
         stock_decreased = (
-            status in ("compra_directa", "invitacion")
+            status in ALERT_STATUSES
             and info.get("stock") is not None
             and prev_stock is not None
             and int(info["stock"]) < int(prev_stock)
