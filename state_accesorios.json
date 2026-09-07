@@ -45,14 +45,14 @@
     "name": "Mlikero 600 Paquete de Fundas Cartas, Perfect Fit Inner Card Sleeves, Funda Cartas para Cartas de Comercio, Cartas de Deportes",
     "status": "compra_directa",
     "stock": null,
-    "price": "14,24 €",
+    "price": "14,99 €",
     "first_seen": "2026-08-25T21:25:42.704532+00:00"
   },
   "ES:B0D6GBWKNJ": {
     "name": "Mlikero 1200 Paquete de Fundas Cartas, Perfect Fit Inner Card Sleeves, Funda Cartas para Cartas de Comercio, Cartas de Deportes",
     "status": "compra_directa",
     "stock": null,
-    "price": "29,44 €",
+    "price": "30,99 €",
     "first_seen": "2026-08-25T21:25:42.704534+00:00"
   },
   "ES:B0CLRTC5N8": {
@@ -213,7 +213,7 @@
     "name": "Caja de Cartas para MTG, Card Deck Box para 100+ Cartas sin Funda, Magnetic Flip Box con Cuero de PU para Cartas de Magic Commander TCG (Horizontal-Negro y azul)",
     "status": "compra_directa",
     "stock": null,
-    "price": "11,99 €",
+    "price": "10,79 €",
     "first_seen": "2026-08-25T21:25:42.704581+00:00"
   },
   "ES:B0BN3GFBG7": {
@@ -226,7 +226,7 @@
   "ES:B0CQNHTBT5": {
     "name": "Caja de Cartas para MTG, Caja de almacenamiento de tarjetas coleccionables de doble capa con capacidad para más de 200 tarjetas sin funda para MTG, Commander TCG - Negro",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "price": "17,09 €",
     "first_seen": "2026-08-25T21:25:42.704584+00:00"
   },
