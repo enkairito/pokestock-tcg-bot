@@ -219,5 +219,83 @@
     "price": "139,85 €",
     "prev_price": "139,86 €",
     "link": "https://www.amazon.es/dp/B0F6PMVQWQ?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-07T19:01:37.274228+00:00",
+    "type": "price_drop",
+    "asin": "B0DDYZX1TB",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokemon TCG: Scarlet & Violet - Surging Sparks Booster Bundle",
+    "image": "https://m.media-amazon.com/images/I/817ZQoBRA3L._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "103,21 €",
+    "prev_price": "103,26 €",
+    "link": "https://www.amazon.es/dp/B0DDYZX1TB?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-07T19:01:37.274282+00:00",
+    "type": "price_drop",
+    "asin": "B0GWCSP6MR",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
+    "image": "https://m.media-amazon.com/images/I/61fr9skKG-L._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "21,72 €",
+    "prev_price": "22,12 €",
+    "link": "https://www.amazon.es/dp/B0GWCSP6MR?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-07T19:01:37.274308+00:00",
+    "type": "price_drop",
+    "asin": "B0F634M6PY",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokemon Juego de Cartas coleccionables - Scarlet & Violet 10 - Destined Rivals Booster",
+    "image": "https://m.media-amazon.com/images/I/71aX5MmNCFL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "23,72 €",
+    "prev_price": "24,77 €",
+    "link": "https://www.amazon.es/dp/B0F634M6PY?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-07T19:01:37.274374+00:00",
+    "type": "restock",
+    "asin": "B0D8CRQXDJ",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokemon: Sword & Shield - Astral Radiance Premium Blister Pack Swampert",
+    "image": "https://m.media-amazon.com/images/I/61Md-tUmhuL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "35,32 €",
+    "prev_price": null,
+    "link": "https://www.amazon.es/dp/B0D8CRQXDJ?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-07T19:01:37.274381+00:00",
+    "type": "restock",
+    "asin": "B0CXTNNVHN",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokémon TCG: Mini Cartera (Cartera de 60 Tarjetas y 1 Paquete de Refuerzo)",
+    "image": "https://m.media-amazon.com/images/I/81myxu2isgL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "34,05 €",
+    "prev_price": null,
+    "link": "https://www.amazon.es/dp/B0CXTNNVHN?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-07T19:01:37.274386+00:00",
+    "type": "restock",
+    "asin": "B0F67M1VGX",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokemon TCG: Scarlet & Violet Azure Legends Tin - Dialga ex (5 Packs)",
+    "image": "https://m.media-amazon.com/images/I/61cS+ncUpWL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "76,90 €",
+    "prev_price": null,
+    "link": "https://www.amazon.es/dp/B0F67M1VGX?tag=enkairito-21"
   }
 ]

@@ -723,7 +723,7 @@
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "4",
     "price": "51,27 €",
     "first_seen": "2026-08-30T20:46:19.644837+00:00"
   },
@@ -1293,13 +1293,13 @@
     "name": "Pokemon TCG: Scarlet & Violet - Surging Sparks Booster Bundle",
     "status": "compra_directa",
     "stock": null,
-    "price": "103,26 €",
+    "price": "103,21 €",
     "first_seen": "2026-09-04T21:32:58.802612+00:00"
   },
   "UK:B0DB7C1Z26": {
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "price": "119,77 €",
     "first_seen": "2026-09-04T21:32:58.802636+00:00"
   },
@@ -1327,7 +1327,7 @@
   "UK:B0GWK631XY": {
     "name": "Pokémon TCG: Mega Moonlit Tin - Mega Gengar ex (4 potenciadores y 1 tarjeta promocional de aluminio)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": null,
     "price": "76,25 €",
     "first_seen": "2026-09-04T21:32:58.802667+00:00"
   },
@@ -1390,7 +1390,7 @@
   "UK:B0H5RHR55T": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising Premium Checklane Blister Duo Pack | Flygon & Pawmot | 2 ampollas incluyendo 2 paquetes de refuerzo, 2 tarjetas promocionales y 2 monedas coleccionables |",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "price": "32,66 €",
     "first_seen": "2026-09-04T21:32:58.802771+00:00"
   },
@@ -1398,7 +1398,7 @@
     "name": "Pokemon Juego de Cartas coleccionables - Scarlet & Violet 10 - Destined Rivals Booster",
     "status": "compra_directa",
     "stock": null,
-    "price": "24,77 €",
+    "price": "23,72 €",
     "first_seen": "2026-09-04T21:32:58.802777+00:00"
   },
   "UK:B0F6PKT7RB": {
@@ -1719,7 +1719,7 @@
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
     "status": "compra_directa",
     "stock": null,
-    "price": "22,12 €",
+    "price": "21,72 €",
     "first_seen": "2026-09-06T13:57:50.628764+00:00"
   },
   "UK:B0DLTZPNR2": {
@@ -1728,5 +1728,26 @@
     "stock": null,
     "price": "26,50 €",
     "first_seen": "2026-09-06T13:57:50.628806+00:00"
+  },
+  "US:B0D8CRQXDJ": {
+    "name": "Pokemon: Sword & Shield - Astral Radiance Premium Blister Pack Swampert",
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "35,32 €",
+    "first_seen": "2026-09-07T19:01:37.274370+00:00"
+  },
+  "US:B0CXTNNVHN": {
+    "name": "Pokémon TCG: Mini Cartera (Cartera de 60 Tarjetas y 1 Paquete de Refuerzo)",
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "34,05 €",
+    "first_seen": "2026-09-07T19:01:37.274378+00:00"
+  },
+  "US:B0F67M1VGX": {
+    "name": "Pokemon TCG: Scarlet & Violet Azure Legends Tin - Dialga ex (5 Packs)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "76,90 €",
+    "first_seen": "2026-09-07T19:01:37.274384+00:00"
   }
 }
