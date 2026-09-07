@@ -180,5 +180,44 @@
     "price": "74,66 €",
     "prev_price": "77,21 €",
     "link": "https://www.amazon.es/dp/B0GXJ8CSTY?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-07T14:14:28.152713+00:00",
+    "type": "price_drop",
+    "asin": "B0GDYP1LRF",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokemon TCG | Mega Brave | Caja de refuerzo japonesa (M1L) | Para coleccionistas de más de 15 años",
+    "image": "https://m.media-amazon.com/images/I/6146hWIRAXL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "111,27 €",
+    "prev_price": "111,30 €",
+    "link": "https://www.amazon.es/dp/B0GDYP1LRF?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-07T14:14:28.152756+00:00",
+    "type": "price_drop",
+    "asin": "B0GWK631XY",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon TCG: Mega Moonlit Tin - Mega Gengar ex (4 potenciadores y 1 tarjeta promocional de aluminio)",
+    "image": "https://m.media-amazon.com/images/I/81x6CkPqADL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "76,25 €",
+    "prev_price": "76,46 €",
+    "link": "https://www.amazon.es/dp/B0GWK631XY?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-07T14:14:28.152848+00:00",
+    "type": "price_drop",
+    "asin": "B0F6PMVQWQ",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokémon TCG Scarlet & Violet 10.5 Black Bolt Booster Set",
+    "image": "https://m.media-amazon.com/images/I/81UhwmFvHFL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "139,85 €",
+    "prev_price": "139,86 €",
+    "link": "https://www.amazon.es/dp/B0F6PMVQWQ?tag=enkairito-21"
   }
 ]
