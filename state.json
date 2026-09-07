@@ -37,7 +37,7 @@
     "name": "Pokémon: Colección Cyclizar ex",
     "status": "compra_directa",
     "stock": null,
-    "price": "24,99 €",
+    "price": "24,83 €",
     "first_seen": "2026-08-25T20:27:54.285127+00:00"
   },
   "ES:B0CJYK29Y9": {
@@ -281,7 +281,7 @@
     "name": "Pokémon Colección Ursaluna Luna Carmesí (4 Cartas holográficas y 4 Paquetes de Mejora)",
     "status": "compra_directa",
     "stock": null,
-    "price": "38,00 €",
+    "price": "45,09 €",
     "first_seen": "2026-08-25T20:27:15.542170+00:00"
   },
   "ES:B0FXTY9D99": {
@@ -765,7 +765,7 @@
   "US:B0GXJ8CSTY": {
     "name": "Pokémon TCG: Colección Premium Mega Greninja ex (1 Tarjeta Promocional Brillante, 1 Tarjeta lenticular de Gran tamaño y 8 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "price": "77,21 €",
     "first_seen": "2026-08-30T20:46:19.644858+00:00"
   },
@@ -1307,14 +1307,14 @@
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
     "status": "compra_directa",
     "stock": "2",
-    "price": "79,91 €",
+    "price": "79,87 €",
     "first_seen": "2026-09-04T21:32:58.802645+00:00"
   },
   "UK:B0FSJXSPPX": {
     "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "93,52 €",
+    "stock": null,
+    "price": "93,51 €",
     "first_seen": "2026-09-04T21:32:58.802653+00:00"
   },
   "UK:B0CMZS84KP": {
@@ -1459,8 +1459,9 @@
   },
   "US:B0G3CS6XB9": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Premium Poster Collection—Mega Lucario (1 Tarjeta Promocional de Aluminio, 1 póster de Doble Cara y 10 Paquetes de Refuerzo)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "221,83 €",
     "first_seen": "2026-09-04T21:32:58.802847+00:00"
   },
   "US:B0DG6PSWN1": {
@@ -1480,8 +1481,8 @@
   "US:B0G72QBTBJ": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Emboar ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": null,
-    "price": "75,33 €",
+    "stock": "1",
+    "price": "73,92 €",
     "first_seen": "2026-09-04T21:32:58.802880+00:00"
   },
   "US:B0D8R1LW3R": {
@@ -1613,7 +1614,7 @@
   "UK:B0DLQJ613B": {
     "name": "Pokémon TCG: Scarlet & Violet—Prismatic Evolutions Poster Collection",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "price": "92,14 €",
     "first_seen": "2026-09-05T00:38:53.462546+00:00"
   },
@@ -1635,7 +1636,7 @@
     "name": "Pokemon TCG | Mega Brave | Caja de refuerzo japonesa (M1L) | Para coleccionistas de más de 15 años",
     "status": "compra_directa",
     "stock": "2",
-    "price": "110,94 €",
+    "price": "114,59 €",
     "first_seen": "2026-09-05T05:18:07.280869+00:00"
   },
   "UK:B0DG2XTYDP": {

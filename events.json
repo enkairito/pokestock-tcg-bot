@@ -50,5 +50,70 @@
     "price": "110,94 €",
     "prev_price": "114,21 €",
     "link": "https://www.amazon.es/dp/B0GDYP1LRF?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-07T02:58:39.913311+00:00",
+    "type": "price_drop",
+    "asin": "B0C648988J",
+    "marketplace": "ES",
+    "store_label": "Amazon ES",
+    "flag": "🇪🇸",
+    "name": "Pokémon: Colección Cyclizar ex",
+    "image": "https://m.media-amazon.com/images/I/91QPuokK6qL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "24,83 €",
+    "prev_price": "24,99 €",
+    "link": "https://www.amazon.es/dp/B0C648988J?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-07T02:58:45.721279+00:00",
+    "type": "price_drop",
+    "asin": "B0DC2BK8QG",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
+    "image": "https://m.media-amazon.com/images/I/81j5Vv0oIEL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "79,87 €",
+    "prev_price": "79,91 €",
+    "link": "https://www.amazon.es/dp/B0DC2BK8QG?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-07T02:58:45.721308+00:00",
+    "type": "price_drop",
+    "asin": "B0FSJXSPPX",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
+    "image": "https://m.media-amazon.com/images/I/61X4gWuo4BL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "93,51 €",
+    "prev_price": "93,52 €",
+    "link": "https://www.amazon.es/dp/B0FSJXSPPX?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-07T02:58:45.721380+00:00",
+    "type": "restock",
+    "asin": "B0G3CS6XB9",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Premium Poster Collection—Mega Lucario (1 Tarjeta Promocional de Aluminio, 1 póster de Doble Cara y 10 Paquetes de Refuerzo)",
+    "image": "https://m.media-amazon.com/images/I/916-j-W5RTL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "221,83 €",
+    "prev_price": null,
+    "link": "https://www.amazon.es/dp/B0G3CS6XB9?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-07T02:58:45.721393+00:00",
+    "type": "price_drop",
+    "asin": "B0G72QBTBJ",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Emboar ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
+    "image": "https://m.media-amazon.com/images/I/91tnj2G0NxL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "73,92 €",
+    "prev_price": "75,33 €",
+    "link": "https://www.amazon.es/dp/B0G72QBTBJ?tag=enkairito-21"
   }
 ]
