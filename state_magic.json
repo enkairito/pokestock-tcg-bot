@@ -1,1 +1,366 @@
-{}
+{
+  "ES:B0GWS6HRS1": {
+    "name": "sobre de Juego de Magic: The Gathering | El Hobbit (Versión en Inglés)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-07T10:43:36.101467+00:00"
+  },
+  "ES:B0G87LD1ZY": {
+    "name": "Caja de Sobres de coleccionista de Secretos de Strixhaven, de Magic: The Gathering (Versión en Inglés)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-07T10:43:36.101491+00:00"
+  },
+  "ES:B0GWS9J9VT": {
+    "name": "sobre de coleccionista de Magic: The Gathering | El Hobbit (Versión en Inglés)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-07T10:43:36.101494+00:00"
+  },
+  "ES:B0G86Z17Y8": {
+    "name": "Mazo de Commander de Secretos de Strixhaven, de Magic: The Gathering - Pestilencia de Flosmarcitus (Versión en Inglés)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-07T10:43:36.101496+00:00"
+  },
+  "ES:B0G87VXM5G": {
+    "name": "Codex Bundle de Secretos de Strixhaven, de Magic: The Gathering (Versión en Inglés)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-07T10:43:36.101498+00:00"
+  },
+  "ES:B0GWSC1YXH": {
+    "name": "Caja de Sobres de Juego de Magic: The Gathering | El Hobbit (Versión en Inglés)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-07T10:43:36.101500+00:00"
+  },
+  "ES:B0GWSDDFFJ": {
+    "name": "Caja de Sobres de coleccionista de Magic: The Gathering | El Hobbit (Versión en Inglés)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-07T10:43:36.101502+00:00"
+  },
+  "ES:B0H6KKQZLT": {
+    "name": "sobre de Juego de Magic: The Gathering | Star Trek (Versión en Inglés)",
+    "status": "preventa",
+    "stock": null,
+    "price": "7,00 €",
+    "first_seen": "2026-09-07T10:43:36.293287+00:00"
+  },
+  "ES:B0H6KK3SRD": {
+    "name": "Caja de Sobres de Juego de Magic: The Gathering | Star Trek (Versión en Inglés)",
+    "status": "preventa",
+    "stock": null,
+    "price": "210,00 €",
+    "first_seen": "2026-09-07T10:43:42.603668+00:00"
+  },
+  "ES:B0H6H5C3ZL": {
+    "name": "Draft Night de Magic: The Gathering | Star Trek (Versión en Inglés)",
+    "status": "preventa",
+    "stock": null,
+    "price": "135,00 €",
+    "first_seen": "2026-09-07T10:43:48.390268+00:00"
+  },
+  "ES:B0H6H1XTK6": {
+    "name": "Bundle de Magic: The Gathering | Star Trek (Versión en Inglés)",
+    "status": "preventa",
+    "stock": null,
+    "price": "73,00 €",
+    "first_seen": "2026-09-07T10:43:54.208603+00:00"
+  },
+  "ES:B0H6H8KS14": {
+    "name": "Bundle Beam Me Up de Magic: The Gathering | Star Trek (Versión en Inglés)",
+    "status": "preventa",
+    "stock": null,
+    "price": "113,00 €",
+    "first_seen": "2026-09-07T10:43:59.971480+00:00"
+  },
+  "ES:B0H6GZS4P6": {
+    "name": "Caja de Escena de Magic: The Gathering | Star Trek: Divergent Timeline (Versión en Inglés)",
+    "status": "preventa",
+    "stock": null,
+    "price": "42,00 €",
+    "first_seen": "2026-09-07T10:44:05.900699+00:00"
+  },
+  "ES:B0H6GY31HT": {
+    "name": "Caja de Escena de Magic: The Gathering | Star Trek: Enterprise-Q (Versión en Inglés)",
+    "status": "preventa",
+    "stock": null,
+    "price": "42,00 €",
+    "first_seen": "2026-09-07T10:44:11.960025+00:00"
+  },
+  "ES:B0H6H4J3QF": {
+    "name": "Caja de Principiante de Magic: The Gathering | Star Trek (Versión en Inglés)",
+    "status": "preventa",
+    "stock": null,
+    "price": "35,00 €",
+    "first_seen": "2026-09-07T10:44:18.041577+00:00"
+  },
+  "ES:B0H6H5PT8N": {
+    "name": "Mazo de Commander de Magic: The Gathering| Star Trek: Flota de la Federación (Versión en Inglés)",
+    "status": "preventa",
+    "stock": null,
+    "price": "77,50 €",
+    "first_seen": "2026-09-07T10:44:23.804589+00:00"
+  },
+  "ES:B0H6GXL5PR": {
+    "name": "Mazo de Commander de Magic: The Gathering | Star Trek: Equipo de exploración (Versión en Inglés)",
+    "status": "preventa",
+    "stock": null,
+    "price": "77,50 €",
+    "first_seen": "2026-09-07T10:44:30.260847+00:00"
+  },
+  "ES:B0H6H7QSSD": {
+    "name": "Mazo de Commander de Magic: The Gathering | Star Trek: Furia Klingon (Versión en Inglés)",
+    "status": "preventa",
+    "stock": null,
+    "price": "77,50 €",
+    "first_seen": "2026-09-07T10:44:36.099018+00:00"
+  },
+  "ES:B0H6GTL14Z": {
+    "name": "Mazo de Commander de Magic: The Gathering | Star Trek: Somos los Borg (Versión en Inglés)",
+    "status": "preventa",
+    "stock": null,
+    "price": "77,50 €",
+    "first_seen": "2026-09-07T10:44:41.921104+00:00"
+  },
+  "ES:B0H6KSTCTN": {
+    "name": "Edición de coleccionista del mazo de Commander de Magic: The Gathering | Star Trek: Federation Fleet (Versión en Inglés)",
+    "status": "preventa",
+    "stock": null,
+    "price": "170,00 €",
+    "first_seen": "2026-09-07T10:44:47.806151+00:00"
+  },
+  "ES:B0H6KHQQK7": {
+    "name": "Edición de coleccionista del mazo de Commander de Magic: The Gathering | Star Trek: Landing Party (Versión en Inglés)",
+    "status": "preventa",
+    "stock": null,
+    "price": "170,00 €",
+    "first_seen": "2026-09-07T10:44:53.667605+00:00"
+  },
+  "ES:B0H6KL8Z8V": {
+    "name": "Edición de coleccionista del mazo de Commander de Magic: The Gathering | Star Trek: Klingon Fury (Versión en Inglés)",
+    "status": "preventa",
+    "stock": null,
+    "price": "170,00 €",
+    "first_seen": "2026-09-07T10:44:59.492856+00:00"
+  },
+  "ES:B0H6KLJFQ8": {
+    "name": "Edición de coleccionista del mazo de Commander de Magic: The Gathering | Star Trek: We Are The Borg (Versión en Inglés)",
+    "status": "preventa",
+    "stock": null,
+    "price": "170,00 €",
+    "first_seen": "2026-09-07T10:45:05.318760+00:00"
+  },
+  "ES:B0H6KX7J6Q": {
+    "name": "sobre de Juego de Magic: The Gathering | Star Trek (Versión en Español)",
+    "status": "preventa",
+    "stock": null,
+    "price": "7,00 €",
+    "first_seen": "2026-09-07T10:45:11.426701+00:00"
+  },
+  "ES:B0H6KZYC3Y": {
+    "name": "Caja de Sobres de Juego de Magic: The Gathering | Star Trek (Versión en Español)",
+    "status": "preventa",
+    "stock": null,
+    "price": "210,00 €",
+    "first_seen": "2026-09-07T10:45:17.433696+00:00"
+  },
+  "ES:B0H6KTCGTM": {
+    "name": "Mazo de Commander de Magic: The Gathering| Star Trek: Flota de la Federación (Versión en Español)",
+    "status": "preventa",
+    "stock": null,
+    "price": "77,50 €",
+    "first_seen": "2026-09-07T10:45:23.255685+00:00"
+  },
+  "ES:B0H6KRR3PK": {
+    "name": "Mazo de Commander de Magic: The Gathering | Star Trek: Equipo de exploración (Versión en Español)",
+    "status": "preventa",
+    "stock": null,
+    "price": "77,50 €",
+    "first_seen": "2026-09-07T10:45:29.072161+00:00"
+  },
+  "ES:B0H6KMGTJ3": {
+    "name": "Mazo de Commander de Magic: The Gathering | Star Trek: Furia Klingon (Versión en Español)",
+    "status": "preventa",
+    "stock": null,
+    "price": "77,50 €",
+    "first_seen": "2026-09-07T10:45:35.115404+00:00"
+  },
+  "ES:B0H6KTSRWP": {
+    "name": "Mazo de Commander de Magic: The Gathering | Star Trek: Somos los Borg (Versión en Español)",
+    "status": "preventa",
+    "stock": null,
+    "price": "77,50 €",
+    "first_seen": "2026-09-07T10:45:41.631271+00:00"
+  },
+  "ES:B0GWSB7V4T": {
+    "name": "Bundle de Magic: The Gathering | El Hobbit (Versión en Inglés)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "72,99 €",
+    "first_seen": "2026-09-07T10:45:48.462164+00:00"
+  },
+  "ES:B0GWS582CC": {
+    "name": "Draft Night de Magic: The Gathering | El Hobbit (Versión en Inglés)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "134,99 €",
+    "first_seen": "2026-09-07T10:45:54.488487+00:00"
+  },
+  "ES:B0GWS8DC8C": {
+    "name": "Bundle de Regalo de Magic: The Gathering | El Hobbit | Juego de Cartas Intercambiables y coleccionables (Versión en Inglés)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "164,90 €",
+    "first_seen": "2026-09-07T10:46:00.374156+00:00"
+  },
+  "ES:B0GY5TKJ7B": {
+    "name": "Mazo de Commander de Realidad fracturada de Magic: The Gathering: Multiverso reforjado | Mazo de 100 Cartas y Accesorios (Versión en Español)",
+    "status": "preventa",
+    "stock": null,
+    "price": "52,50 €",
+    "first_seen": "2026-09-07T10:46:06.450055+00:00"
+  },
+  "ES:B0GXLTWVPG": {
+    "name": "Caja de Sobres de Juego de Realidad fracturada de Magic: The Gathering | 30 Sobres (Versión en Español)",
+    "status": "preventa",
+    "stock": null,
+    "price": "169,50 €",
+    "first_seen": "2026-09-07T10:46:12.622103+00:00"
+  },
+  "ES:B0GXLRTLN3": {
+    "name": "sobre de Juego de Realidad fracturada de Magic: The Gathering | 1 sobre (14 Cartas) (Versión en Español)",
+    "status": "preventa",
+    "stock": null,
+    "price": "5,65 €",
+    "first_seen": "2026-09-07T10:46:18.818576+00:00"
+  },
+  "ES:B0GXGW8S5W": {
+    "name": "Caja de Sobres de Juego de Realidad fracturada de Magic: The Gathering | 30 Sobres (Versión en Inglés)",
+    "status": "preventa",
+    "stock": null,
+    "price": "169,50 €",
+    "first_seen": "2026-09-07T10:46:24.807247+00:00"
+  },
+  "ES:B0GXCHBRTC": {
+    "name": "sobre de Juego de Realidad fracturada de Magic: The Gathering | 1 sobre (14 Cartas) (Versión en Inglés)",
+    "status": "preventa",
+    "stock": null,
+    "price": "5,65 €",
+    "first_seen": "2026-09-07T10:46:30.722995+00:00"
+  },
+  "ES:B0GXC9W89R": {
+    "name": "Bundle de Realidad fracturada de Magic: The Gathering | Incluye 9 Sobres de Juego, 30 Tierras, 1 Carta Promocional Foil con Arte Alternativo y Accesorios exclusivos (Versión en Inglés)",
+    "status": "preventa",
+    "stock": null,
+    "price": "57,99 €",
+    "first_seen": "2026-09-07T10:46:36.535142+00:00"
+  },
+  "ES:B0GXC9JFZY": {
+    "name": "Draft Night de Realidad fracturada de Magic: The Gathering | 1 sobre de coleccionista, 12 Sobres de Juego, 90 Tierras y 10 fichas (Versión en Inglés)",
+    "status": "preventa",
+    "stock": null,
+    "price": "103,50 €",
+    "first_seen": "2026-09-07T10:46:42.468430+00:00"
+  },
+  "ES:B0G878R64V": {
+    "name": "Caja de Sobres de Juego de Secretos de Strixhaven, de Magic: The Gathering (Versión en Español)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "169,50 €",
+    "first_seen": "2026-09-07T10:46:48.388914+00:00"
+  },
+  "ES:B0G8781J5W": {
+    "name": "Mazo de Commander de Secretos de Strixhaven, de Magic: The Gathering - Influencia de Plumargéntum (Versión en Español)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "52,50 €",
+    "first_seen": "2026-09-07T10:46:54.506895+00:00"
+  },
+  "ES:B0G86TG887": {
+    "name": "Mazo de Commander de Secretos de Strixhaven, de Magic: The Gathering - Arte de Prismari (Versión en Español)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "52,50 €",
+    "first_seen": "2026-09-07T10:47:00.382915+00:00"
+  },
+  "ES:B0G89BX8S5": {
+    "name": "Mazo de Commander de Secretos de Strixhaven, de Magic: The Gathering - Espíritu de Sapiéntium (Versión en Español)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "52,50 €",
+    "first_seen": "2026-09-07T10:47:06.230826+00:00"
+  },
+  "ES:B0G87F8D5K": {
+    "name": "Mazo de Commander de Secretos de Strixhaven, de Magic: The Gathering - Quándrix sin límite (Versión en Español)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "52,97 €",
+    "first_seen": "2026-09-07T10:47:12.038281+00:00"
+  },
+  "ES:B0G876DLQT": {
+    "name": "Caja de Sobres de Juego de Secretos de Strixhaven, de Magic: The Gathering (Versión en Inglés)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "169,50 €",
+    "first_seen": "2026-09-07T10:47:17.840983+00:00"
+  },
+  "ES:B0G866V9ZF": {
+    "name": "Bundle de Secretos de Strixhaven, de Magic: The Gathering (Versión en Inglés)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "57,97 €",
+    "first_seen": "2026-09-07T10:47:23.861743+00:00"
+  },
+  "ES:B0G8742ZNG": {
+    "name": "Mazo de Commander de Secretos de Strixhaven, de Magic: The Gathering - Influencia de Plumargéntum (Versión en Inglés)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "52,50 €",
+    "first_seen": "2026-09-07T10:47:29.899318+00:00"
+  },
+  "ES:B0G87JBK84": {
+    "name": "Mazo de Commander de Secretos de Strixhaven, de Magic: The Gathering - Arte de Prismari (Versión en Inglés)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "52,50 €",
+    "first_seen": "2026-09-07T10:47:37.196741+00:00"
+  },
+  "ES:B0G887STC9": {
+    "name": "Mazo de Commander de Secretos de Strixhaven, de Magic: The Gathering - Espíritu de Sapiéntium (Versión en Inglés)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "52,50 €",
+    "first_seen": "2026-09-07T10:47:43.099579+00:00"
+  },
+  "ES:B0G874G6HD": {
+    "name": "Mazo de Commander de Secretos de Strixhaven, de Magic: The Gathering - Quándrix sin límite (Versión en Inglés)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "52,50 €",
+    "first_seen": "2026-09-07T10:47:48.943063+00:00"
+  },
+  "ES:B0G86Z91GX": {
+    "name": "Draft Night de Secretos de Strixhaven, de Magic: The Gathering (Versión en Inglés)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "110,57 €",
+    "first_seen": "2026-09-07T10:47:55.002254+00:00"
+  },
+  "ES:B0G86Z6QYF": {
+    "name": "Mazo temático de 60 Cartas de Magic: The Gathering - Inquietante (Versión en Inglés)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "24,00 €",
+    "first_seen": "2026-09-07T10:48:01.377225+00:00"
+  },
+  "ES:B0G887NKSZ": {
+    "name": "Mazo temático de 60 Cartas de Magic: The Gathering - Ganancia de Vidas (Versión en Inglés)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "24,00 €",
+    "first_seen": "2026-09-07T10:48:07.213494+00:00"
+  }
+}
