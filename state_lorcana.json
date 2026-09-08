@@ -15,13 +15,13 @@
     "name": "Ravensburger Disney Lorcana - Juego de cartas coleccionables para adultos y niños a partir de 8 años - Set 12: Wilds Unknown - Deck para 2 jugadores",
     "status": "compra_directa",
     "stock": "3",
-    "price": "39,79 €",
+    "price": "39,01 €",
     "first_seen": "2026-09-07T17:41:04.537441+00:00"
   },
   "ES:B0H8S82717": {
     "name": "Disney Lorcana TCG - Kit de iniciación para coleccionistas Rapunzel Edition",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "2",
     "price": "30,20 €",
     "first_seen": "2026-09-07T17:41:10.610203+00:00"
   },
@@ -56,7 +56,7 @@
     "name": "Ravensburger - Disney Lorcana TCG: Juego De Trove Illumineers Trove | Juegos De Cartas Adultos Y Niños con Cartas Disney Lorcana | Juegos Niños 8 Años O Más Coleccionables | Regalos Originales",
     "status": "compra_directa",
     "stock": null,
-    "price": "60,46 €",
+    "price": "60,51 €",
     "first_seen": "2026-09-07T17:41:42.887252+00:00"
   },
   "ES:B0CFRBX7GW": {
@@ -163,5 +163,19 @@
     "stock": null,
     "price": "128,31 €",
     "first_seen": "2026-09-08T04:49:59.026479+00:00"
+  },
+  "ES:B0H6NNRWMQ": {
+    "name": "Ravensburger Disney Lorcana TCG: Attack of the Vine! Booster Pack Display - 24 paquetes con 12 tarjetas coleccionables cada uno - 288 cartas en total - Ideal para coleccionistas y fans de Disney",
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "256,58 €",
+    "first_seen": "2026-09-08T11:29:11.493181+00:00"
+  },
+  "ES:B0DDPH3JQB": {
+    "name": "Disney Lorcana Trading Card Game: Archazias Isla – Booster Display con 24 Booster Packs (en inglés)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "157,36 €",
+    "first_seen": "2026-09-08T11:29:17.563714+00:00"
   }
 }
