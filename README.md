@@ -217,7 +217,8 @@ antes de exigir que la publicación pública esté actualizada.
 
 Accesorios conserva `source_updates` para separar la consulta diaria de la
 aportación horaria de One Piece; una no rejuvenece los datos de la otra.
-La interfaz aplica los mismos márgenes e indica la frecuencia de cada fuente.
+Por decisión del usuario, la interfaz no muestra avisos de retraso ni un
+desglose de salud por fuente; estos controles se conservan en el monitor interno.
 Las fechas iniciales se recuperan de publicaciones reales del historial Git.
 La migración a API/base de datos sigue aplazada.
 

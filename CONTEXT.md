@@ -224,6 +224,11 @@ texto literal `"null"` cuando el producto no tiene precio de referencia
 
 ### Decisiones aplazadas
 
+- **Presentación pública del stock (2026-09-08):** por petición del usuario,
+  retirar el aviso de datos antiguos y el desglose de actualizaciones por
+  fuente. Usar una cabecera discreta y conservar el monitor interno de salud.
+  No volver a añadir ese aviso público sin que el usuario lo solicite.
+
 - **2026-09-08 — API y almacenamiento persistente (aplazado):** el usuario
   quiere dejar anotada esta mejora, sin implementarla todavía. Evaluar
   Cloudflare Workers + D1 para que el bot publique resultados mediante una
