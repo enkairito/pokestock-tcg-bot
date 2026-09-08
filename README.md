@@ -212,6 +212,8 @@ El monitor usa solo permisos de lectura y se puede lanzar manualmente.
 El cron de Pokémon se desplaza al minuto 17 para evitar el pico de inicio de
 hora de GitHub Actions. La programación puede seguir sufriendo retrasos;
 el monitor los señala, pero no los compensa enviando avisos automáticamente.
+Tras una ejecución correcta se dan cinco minutos de margen al despliegue
+antes de exigir que la publicación pública esté actualizada.
 
 Accesorios conserva `source_updates` para separar la consulta diaria de la
 aportación horaria de One Piece; una no rejuvenece los datos de la otra.

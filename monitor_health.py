@@ -30,7 +30,14 @@ def evaluate(runs, snapshot, hours, now):
         except (ValueError, TypeError, AttributeError):
             problems.append(f"{label}: fecha ausente o inválida")
     check_date(successful.get("updated_at") if successful else None, "Última ejecución correcta")
-    check_date(snapshot.get("updated_at"), "Datos publicados")
+    # Workers Builds puede tardar unos minutos después del push. Un éxito
+    # reciente no debe provocar una falsa alarma durante ese despliegue.
+    try:
+        success_age = (now - datetime.fromisoformat(successful["updated_at"].replace("Z", "+00:00"))).total_seconds()
+    except (ValueError, TypeError, KeyError):
+        success_age = float("inf")
+    if not 0 <= success_age <= 300:
+        check_date(snapshot.get("updated_at"), "Datos publicados")
     if not isinstance(snapshot.get("products"), list):
         problems.append("Listado de productos inválido")
     return problems
@@ -47,7 +54,7 @@ def get_json(url, token=None):
 def main():
     repository = os.environ["GITHUB_REPOSITORY"]
     now = datetime.now(timezone.utc)
-    lines = ["# Salud del stock", "", "Juego | Resultado", "--- | ---"]
+    lines = ["# Salud del stock", "", "Tras una ejecución correcta se permiten 5 minutos para desplegar los datos.", "", "Juego | Resultado", "--- | ---"]
     failed = False
     for key, (label, filename, hours) in SOURCES.items():
         try:

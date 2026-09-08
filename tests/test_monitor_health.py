@@ -15,6 +15,11 @@ class HealthTests(unittest.TestCase):
     def test_successful_workflow_does_not_hide_stale_publication(self):
         self.assertTrue(evaluate([self.run_record()], {"updated_at": "2026-09-08T08:00:00Z", "products": []}, 1, self.now))
 
+    def test_recent_success_allows_a_bounded_deployment_window(self):
+        snapshot = {"updated_at": "2026-09-08T08:00:00Z", "products": []}
+        self.assertEqual(evaluate([self.run_record(stamp="2026-09-08T11:59:00Z")], snapshot, 1, self.now), [])
+        self.assertTrue(evaluate([self.run_record(stamp="2026-09-08T11:54:00Z")], snapshot, 1, self.now))
+
     def test_cadence_and_missing_dates(self):
         snapshot = {"updated_at": "2026-09-08T08:00:00Z", "products": []}
         self.assertEqual(evaluate([self.run_record()], snapshot, 6, self.now), [])
