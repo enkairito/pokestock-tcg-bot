@@ -79,7 +79,7 @@
   "ES:B0GDGRWH54": {
     "name": "One Piece TCG: Double Pack Set Vol. 9 (DP-09) - The Azure Sea's Seven (2 Paquetes)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "price": "60,97 €",
     "first_seen": "2026-08-29T18:09:35.306058+00:00"
   },
@@ -149,8 +149,8 @@
   "ES:B0F8V1YTSP": {
     "name": "BANDAI Juego de cartas de una pieza más antiguo (OP-13) (caja) de 24 unidades",
     "status": "compra_directa",
-    "stock": "2",
-    "price": "289,78 €",
+    "stock": "3",
+    "price": "289,79 €",
     "first_seen": "2026-08-29T18:10:47.849793+00:00"
   },
   "ES:B0G2VKBZML": {
@@ -211,9 +211,8 @@
   },
   "ES:B0HDTCPRQN": {
     "name": "One Piece Card Game Illustration Box Vol. 7 (IB-07) - 4 paquetes, promociones",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "107,72 €",
     "first_seen": "2026-09-01T13:08:56.491122+00:00"
   },
   "ES:B0GBY85556": {
@@ -241,7 +240,7 @@
     "name": "One Piece TCG: The World's Strongest Warriors Booster Box (OP-17) - 24 paquetes",
     "status": "compra_directa",
     "stock": "1",
-    "price": "489,90 €",
+    "price": "459,00 €",
     "first_seen": "2026-09-05T20:33:38.638411+00:00"
   },
   "ES:B0HFD53BDB": {
