@@ -275,7 +275,7 @@
   "ES:B0G8781J5W": {
     "name": "Mazo de Commander de Secretos de Strixhaven, de Magic: The Gathering - Influencia de Plumargéntum (Versión en Español)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "5",
     "price": "52,50 €",
     "first_seen": "2026-09-07T10:46:54.506895+00:00"
   },
@@ -344,8 +344,9 @@
   },
   "ES:B0G86Z91GX": {
     "name": "Draft Night de Secretos de Strixhaven, de Magic: The Gathering (Versión en Inglés)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "121,33 €",
     "first_seen": "2026-09-07T10:47:55.002254+00:00"
   },
   "ES:B0G86Z6QYF": {
