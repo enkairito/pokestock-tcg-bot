@@ -37,7 +37,7 @@
     "name": "Pokémon: Colección Cyclizar ex",
     "status": "compra_directa",
     "stock": null,
-    "price": "24,83 €",
+    "price": "24,87 €",
     "first_seen": "2026-08-25T20:27:54.285127+00:00"
   },
   "ES:B0CJYK29Y9": {
@@ -1440,7 +1440,7 @@
     "name": "Pokémon- Deoxys (60 Cards, Ready to Play) Baraja de Batalla V, Multicolor, zeraora (699-17149)",
     "status": "compra_directa",
     "stock": null,
-    "price": "24,81 €",
+    "price": "24,79 €",
     "first_seen": "2026-09-04T21:32:58.802813+00:00"
   },
   "UK:B0GZ9S9KDR": {
@@ -1587,7 +1587,7 @@
     "name": "Pokemon Scarlet & Violet Stellar Crown Booster Pack",
     "status": "compra_directa",
     "stock": "5",
-    "price": "26,37 €",
+    "price": "26,35 €",
     "first_seen": "2026-09-04T22:05:43.537215+00:00"
   },
   "UK:B0DBHJPLVB": {
@@ -1670,7 +1670,7 @@
     "name": "Pokemon Mega Brave m1L Caja Booster Coreana 30 Sobres Cartas Originales",
     "status": "compra_directa",
     "stock": null,
-    "price": "82,72 €",
+    "price": "83,33 €",
     "first_seen": "2026-09-05T09:45:25.209821+00:00"
   },
   "US:B0FB79QPR4": {
@@ -1760,7 +1760,7 @@
   "US:B0C16H3DGV": {
     "name": "Pokemon Booster Pack - Scarlet & Violet SV1 Base Set - 10 Card Pack - Pack Art Varys",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "4",
     "price": "33,13 €",
     "first_seen": "2026-09-08T00:08:50.343349+00:00"
   },
@@ -1770,5 +1770,159 @@
     "stock": "2",
     "price": "34,30 €",
     "first_seen": "2026-09-08T05:38:28.180394+00:00"
+  },
+  "UK:B0FS98MMML": {
+    "name": "Pokémon TCG: Booster Pack de 10 Cartas Mega Evolution Flames Phantasmal Mangas",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "33,24 €",
+    "first_seen": "2026-09-08T14:34:56.335771+00:00"
+  },
+  "UK:B0DG8VNG1F": {
+    "name": "Pokémon TCG: Scarlet & Violet—Shrouded Fable Booster Bundle (6 Booster Packs)",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "97,95 €",
+    "first_seen": "2026-09-08T14:34:56.335794+00:00"
+  },
+  "UK:B0FK2BN732": {
+    "name": "Pokémon Pikachu V-Union Box Edición China Limitada Coleccionista TCG",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "89,25 €",
+    "first_seen": "2026-09-08T14:34:56.335801+00:00"
+  },
+  "UK:B0CF1MDBS5": {
+    "name": "Pokemon - Scarlet & Violet: High Class Pack Shiny Treasure ex - Booster Box",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "219,73 €",
+    "first_seen": "2026-09-08T14:34:56.335808+00:00"
+  },
+  "UK:B0CK8JM32H": {
+    "name": "Pokémon TCG: Baraja de batalla Greninja ex (mazo de 60 cartas listo para jugar)",
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "43,35 €",
+    "first_seen": "2026-09-08T14:34:56.335833+00:00"
+  },
+  "UK:B0FNLMQ5RN": {
+    "name": "Pokémon TCG: Scarlet & Violet Expansion – Glory of Team Rocket (SV10) Booster Pack – JPN",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "26,93 €",
+    "first_seen": "2026-09-08T14:34:56.335840+00:00"
+  },
+  "UK:B0CTTRH7NL": {
+    "name": "2023 Pokémon TCG World Championships Deck – Tord Reklev…",
+    "status": "compra_directa",
+    "stock": "5",
+    "price": "36,97 €",
+    "first_seen": "2026-09-08T14:34:56.335859+00:00"
+  },
+  "UK:B0BZJWNBRZ": {
+    "name": "Pokemon Ampharos ex/Lucario ex Battle Deck",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "47,52 €",
+    "first_seen": "2026-09-08T14:34:56.335866+00:00"
+  },
+  "UK:B09M48Z5NW": {
+    "name": "Pokémon TCG: Baraja de Batalla V: Lycanroc contra Corviknight",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "75,15 €",
+    "first_seen": "2026-09-08T14:34:56.335876+00:00"
+  },
+  "UK:B00TA6E3KI": {
+    "name": "100 Assorted Basic Pokemon TCG Energy Cards",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "16,89 €",
+    "first_seen": "2026-09-08T14:34:56.335882+00:00"
+  },
+  "US:B0F1GXTFGL": {
+    "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "322,50 €",
+    "first_seen": "2026-09-08T14:34:56.335889+00:00"
+  },
+  "US:B0FNLMQ5RN": {
+    "name": "Pokémon TCG: Scarlet & Violet Expansion – Glory of Team Rocket (SV10) Booster Pack – JPN",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "28,92 €",
+    "first_seen": "2026-09-08T14:34:56.335896+00:00"
+  },
+  "US:B0DX79MM56": {
+    "name": "Pokémon TCG: Azure Legends Tin - Xerneas ex (4 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "80,45 €",
+    "first_seen": "2026-09-08T14:34:56.335902+00:00"
+  },
+  "US:B0G49Y6JCM": {
+    "name": "Pokémon Scarlet & Violet - Paradise Dragona Japanese Pokemon Booster Pack",
+    "status": "compra_directa",
+    "stock": "4",
+    "price": "25,58 €",
+    "first_seen": "2026-09-08T14:34:56.335913+00:00"
+  },
+  "US:B0FHL5PKRR": {
+    "name": "Pokemon TCG: Scarlet & Violet – Destined Rivals Checklane Blister – Zarude",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "36,49 €",
+    "first_seen": "2026-09-08T14:34:56.335923+00:00"
+  },
+  "US:B0F67LMLFY": {
+    "name": "Pokemon TCG: Scarlet & Violet Azure Legends Tin - Xerneas ex (5 Packs)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "90,68 €",
+    "first_seen": "2026-09-08T14:34:56.335933+00:00"
+  },
+  "US:B08DVCNV3W": {
+    "name": "Pokemon Sword and Shield Darkness Ablaze Booster Pack (1 Booster Pack)",
+    "status": "compra_directa",
+    "stock": "5",
+    "price": "33,90 €",
+    "first_seen": "2026-09-08T14:34:56.335940+00:00"
+  },
+  "US:B0CS12GPTB": {
+    "name": "Pokemon TCG: Sword & Shield - Paquete de Refuerzo de Estrellas Brillantes (10 Tarjetas por Paquete)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "40,55 €",
+    "first_seen": "2026-09-08T14:34:56.335946+00:00"
+  },
+  "US:B0D4B515H1": {
+    "name": "Pokémon TCG: Escarlata y Violeta - Mini Lata de fábula Envuelta - Okidogi (2 Paquetes de Refuerzo y 1 Hoja de calcomanías)",
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "54,87 €",
+    "first_seen": "2026-09-08T14:34:56.335952+00:00"
+  },
+  "US:B0CJB9D88Q": {
+    "name": "Pokemon TCG: Colección Knock Out (Shaymin, Zeraora y Marshadow)",
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "63,77 €",
+    "first_seen": "2026-09-08T14:34:56.335957+00:00"
+  },
+  "US:B0BZFKQK37": {
+    "name": "Pokemon TCG: Scarlet & Violet SV01 3 Pack Blister - Dondozo",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "59,36 €",
+    "first_seen": "2026-09-08T14:34:56.335964+00:00"
+  },
+  "US:B0BPJZXH8W": {
+    "name": "Pokemon TCG: disparador de paradigma de espada y escudo, paquete promocional (Lugia Get Challenge 2022)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "36,07 €",
+    "first_seen": "2026-09-08T14:34:56.335970+00:00"
   }
 }
