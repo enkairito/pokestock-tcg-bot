@@ -14,15 +14,15 @@
   "ES:B0GWDXZ12H": {
     "name": "Ravensburger Disney Lorcana - Juego de cartas coleccionables para adultos y niños a partir de 8 años - Set 12: Wilds Unknown - Deck para 2 jugadores",
     "status": "compra_directa",
-    "stock": null,
-    "price": "37,15 €",
+    "stock": "3",
+    "price": "39,79 €",
     "first_seen": "2026-09-07T17:41:04.537441+00:00"
   },
   "ES:B0H8S82717": {
     "name": "Disney Lorcana TCG - Kit de iniciación para coleccionistas Rapunzel Edition",
     "status": "compra_directa",
-    "stock": null,
-    "price": "25,41 €",
+    "stock": "5",
+    "price": "30,20 €",
     "first_seen": "2026-09-07T17:41:10.610203+00:00"
   },
   "ES:B0DDL55ND5": {
@@ -34,9 +34,8 @@
   },
   "ES:B0DJPHJ7GD": {
     "name": "Ravensburger - Disney Lorcana Azurite Sea Illumineer’s Trove, Juego de Mesa, Juego de Cartas, Juego de Estrategia, Juego Niños 8 Años o Más, Regalos Niños 8 Años, Accesorios",
-    "status": "compra_directa",
-    "stock": "1",
-    "price": "51,81 €",
+    "status": "no_disponible",
+    "stock": null,
     "first_seen": "2026-09-07T17:41:25.409258+00:00"
   },
   "ES:B0DJT1G86G": {
@@ -105,8 +104,8 @@
   "ES:B0BT6NK58G": {
     "name": "Disney Lorcana Trading Card Game: The Primer Capítulo Starter Deck Esmeralda y Rubí (Inglés)",
     "status": "compra_directa",
-    "stock": "2",
-    "price": "19,95 €",
+    "stock": null,
+    "price": "24,95 €",
     "first_seen": "2026-09-07T17:42:26.624096+00:00"
   },
   "ES:B0BT73RRLK": {
@@ -157,5 +156,12 @@
     "stock": null,
     "price": "24,99 €",
     "first_seen": "2026-09-07T17:43:07.808671+00:00"
+  },
+  "ES:B0GZWFQMDV": {
+    "name": "Disney Lorcana TCG: Wilds Unknown - Illumineers´ Trove (Inglés)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "128,31 €",
+    "first_seen": "2026-09-08T04:49:59.026479+00:00"
   }
 }
