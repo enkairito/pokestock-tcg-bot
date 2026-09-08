@@ -209,6 +209,9 @@ sin éxito, una fecha inválida o más de dos intervalos previstos más 30 minut
 sin una actualización correcta. Detecta también que el workflow termine pero
 la web siga mostrando datos antiguos. No envía mensajes a Telegram.
 El monitor usa solo permisos de lectura y se puede lanzar manualmente.
+El cron de Pokémon se desplaza al minuto 17 para evitar el pico de inicio de
+hora de GitHub Actions. La programación puede seguir sufriendo retrasos;
+el monitor los señala, pero no los compensa enviando avisos automáticamente.
 
 Accesorios conserva `source_updates` para separar la consulta diaria de la
 aportación horaria de One Piece; una no rejuvenece los datos de la otra.

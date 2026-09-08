@@ -2,8 +2,9 @@ name: Check Pokémon TCG Stock
 
 on:
   schedule:
-    # Every hour, all day (no overnight pause).
-    - cron: '0 * * * *'
+    # Cada hora, también de noche. Evitar el minuto 0 reduce la coincidencia
+    # con los picos de carga del programador de GitHub Actions.
+    - cron: '17 * * * *'
   workflow_dispatch: {}
 
 permissions:
