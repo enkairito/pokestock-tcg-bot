@@ -427,5 +427,57 @@
     "price": "34,30 €",
     "prev_price": null,
     "link": "https://www.amazon.es/dp/B0DLTZPNR2?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-08T09:57:25.905873+00:00",
+    "type": "price_drop",
+    "asin": "B0FSJXSPPX",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
+    "image": "https://m.media-amazon.com/images/I/61X4gWuo4BL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "93,17 €",
+    "prev_price": "93,40 €",
+    "link": "https://www.amazon.es/dp/B0FSJXSPPX?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-08T09:57:25.905931+00:00",
+    "type": "price_drop",
+    "asin": "B0D9DLZ6DG",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon TCG: Miraidon ex Battle Deck (Ready-to-Play 60-Card Deck)",
+    "image": "https://m.media-amazon.com/images/I/61VX9ZM6C5L._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "42,11 €",
+    "prev_price": "42,12 €",
+    "link": "https://www.amazon.es/dp/B0D9DLZ6DG?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-08T09:57:25.905958+00:00",
+    "type": "price_drop",
+    "asin": "B0BXJT92PT",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon- Origin Forme Palkia VSTAR Baraja de Batalla de la Liga, Multicolor (290-85236)",
+    "image": "https://m.media-amazon.com/images/I/91qF7mG6W6L._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "47,14 €",
+    "prev_price": "47,15 €",
+    "link": "https://www.amazon.es/dp/B0BXJT92PT?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-08T09:57:25.905976+00:00",
+    "type": "price_drop",
+    "asin": "B0GFZV1ZVV",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokémon TCG: Mega Evolution Order Elite Trainer Box",
+    "image": "https://m.media-amazon.com/images/I/813BmMbm-YL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "101,07 €",
+    "prev_price": "102,18 €",
+    "link": "https://www.amazon.es/dp/B0GFZV1ZVV?tag=enkairito-21"
   }
 ]
