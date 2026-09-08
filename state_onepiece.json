@@ -44,7 +44,7 @@
   "ES:B0GW9TXS1Q": {
     "name": "One Piece TCG: Double Pack Set Vol. 10 (DP-10) - Adventure of Kami's Island (2 Paquetes)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "price": "65,40 €",
     "first_seen": "2026-08-29T18:09:04.551067+00:00"
   },
@@ -72,8 +72,8 @@
   "ES:B0FL83L295": {
     "name": "One Piece TCG Starter Deck: Ace & Newgate (ST-22) - 51 Tarjetas",
     "status": "compra_directa",
-    "stock": "5",
-    "price": "51,45 €",
+    "stock": null,
+    "price": "48,01 €",
     "first_seen": "2026-08-29T18:09:29.426544+00:00"
   },
   "ES:B0GDGRWH54": {
@@ -100,8 +100,8 @@
   "ES:B0D69TF558": {
     "name": "One Piece TCG: Two Legends - Booster Pack (OP-08) (JP) (TCG)",
     "status": "compra_directa",
-    "stock": "2",
-    "price": "8,46 €",
+    "stock": null,
+    "price": "15,19 €",
     "first_seen": "2026-08-29T18:09:54.795240+00:00"
   },
   "ES:B0F85QRZP6": {
@@ -149,8 +149,8 @@
   "ES:B0F8V1YTSP": {
     "name": "BANDAI Juego de cartas de una pieza más antiguo (OP-13) (caja) de 24 unidades",
     "status": "compra_directa",
-    "stock": "3",
-    "price": "289,77 €",
+    "stock": "2",
+    "price": "292,48 €",
     "first_seen": "2026-08-29T18:10:47.849793+00:00"
   },
   "ES:B0G2VKBZML": {
@@ -185,7 +185,7 @@
     "name": "ONE PIECE TCG: 500 YEARS IN THE FUTURE BOOSTER BOX (OP 07) - 24 Packs",
     "status": "compra_directa",
     "stock": "1",
-    "price": "411,23 €",
+    "price": "416,31 €",
     "first_seen": "2026-08-30T23:39:08.142925+00:00"
   },
   "ES:B0F85W59Y4": {
@@ -241,7 +241,7 @@
     "name": "One Piece TCG: The World's Strongest Warriors Booster Box (OP-17) - 24 paquetes",
     "status": "compra_directa",
     "stock": "1",
-    "price": "459,00 €",
+    "price": "489,90 €",
     "first_seen": "2026-09-05T20:33:38.638411+00:00"
   },
   "ES:B0HFD53BDB": {
