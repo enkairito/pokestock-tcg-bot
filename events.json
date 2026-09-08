@@ -349,5 +349,57 @@
     "price": "80,84 €",
     "prev_price": "84,41 €",
     "link": "https://www.amazon.es/dp/B0FNDK5FGK?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-08T00:08:50.343219+00:00",
+    "type": "price_drop",
+    "asin": "B0GZ9S9KDR",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
+    "image": "https://m.media-amazon.com/images/I/81oV7PbLhBL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "292,89 €",
+    "prev_price": "294,08 €",
+    "link": "https://www.amazon.es/dp/B0GZ9S9KDR?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-08T00:08:50.343273+00:00",
+    "type": "restock",
+    "asin": "B0FJSCW2VH",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokemon Paradise Dragona sv7a Caja de refuerzo coreana",
+    "image": "https://m.media-amazon.com/images/I/514cvyWrfaL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "75,60 €",
+    "prev_price": null,
+    "link": "https://www.amazon.es/dp/B0FJSCW2VH?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-08T00:08:50.343295+00:00",
+    "type": "price_drop",
+    "asin": "B0DH53TQCC",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokemon Scarlet & Violet Stellar Crown Booster Pack",
+    "image": "https://m.media-amazon.com/images/I/71O6VBum4bL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "26,37 €",
+    "prev_price": "26,43 €",
+    "link": "https://www.amazon.es/dp/B0DH53TQCC?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-08T00:08:50.343351+00:00",
+    "type": "restock",
+    "asin": "B0C16H3DGV",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokemon Booster Pack - Scarlet & Violet SV1 Base Set - 10 Card Pack - Pack Art Varys",
+    "image": "https://m.media-amazon.com/images/I/71ARA+YjCfL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "33,13 €",
+    "prev_price": null,
+    "link": "https://www.amazon.es/dp/B0C16H3DGV?tag=enkairito-21"
   }
 ]

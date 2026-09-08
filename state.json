@@ -281,7 +281,7 @@
     "name": "Pokémon Colección Ursaluna Luna Carmesí (4 Cartas holográficas y 4 Paquetes de Mejora)",
     "status": "compra_directa",
     "stock": null,
-    "price": "38,00 €",
+    "price": "45,09 €",
     "first_seen": "2026-08-25T20:27:15.542170+00:00"
   },
   "ES:B0FXTY9D99": {
@@ -1425,7 +1425,7 @@
   "UK:B0BXJT92PT": {
     "name": "Pokémon- Origin Forme Palkia VSTAR Baraja de Batalla de la Liga, Multicolor (290-85236)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "price": "47,15 €",
     "first_seen": "2026-09-04T21:32:58.802801+00:00"
   },
@@ -1447,7 +1447,7 @@
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
     "stock": "2",
-    "price": "294,08 €",
+    "price": "292,89 €",
     "first_seen": "2026-09-04T21:32:58.802818+00:00"
   },
   "US:B0F2BCG1Y5": {
@@ -1586,8 +1586,8 @@
   "UK:B0DH53TQCC": {
     "name": "Pokemon Scarlet & Violet Stellar Crown Booster Pack",
     "status": "compra_directa",
-    "stock": "4",
-    "price": "26,43 €",
+    "stock": "5",
+    "price": "26,37 €",
     "first_seen": "2026-09-04T22:05:43.537215+00:00"
   },
   "UK:B0DBHJPLVB": {
@@ -1749,5 +1749,19 @@
     "stock": null,
     "price": "76,90 €",
     "first_seen": "2026-09-07T19:01:37.274384+00:00"
+  },
+  "UK:B0FJSCW2VH": {
+    "name": "Pokemon Paradise Dragona sv7a Caja de refuerzo coreana",
+    "status": "compra_directa",
+    "stock": "3",
+    "price": "75,60 €",
+    "first_seen": "2026-09-08T00:08:50.343270+00:00"
+  },
+  "US:B0C16H3DGV": {
+    "name": "Pokemon Booster Pack - Scarlet & Violet SV1 Base Set - 10 Card Pack - Pack Art Varys",
+    "status": "compra_directa",
+    "stock": "5",
+    "price": "33,13 €",
+    "first_seen": "2026-09-08T00:08:50.343349+00:00"
   }
 }
