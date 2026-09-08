@@ -1299,7 +1299,7 @@
   "UK:B0DB7C1Z26": {
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "price": "119,32 €",
     "first_seen": "2026-09-04T21:32:58.802636+00:00"
   },
@@ -1307,7 +1307,7 @@
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
     "status": "compra_directa",
     "stock": "2",
-    "price": "79,91 €",
+    "price": "79,87 €",
     "first_seen": "2026-09-04T21:32:58.802645+00:00"
   },
   "UK:B0FSJXSPPX": {
@@ -1552,7 +1552,7 @@
     "name": "Pokémon TCG: Mega Charizard Tin",
     "status": "compra_directa",
     "stock": null,
-    "price": "79,86 €",
+    "price": "80,32 €",
     "first_seen": "2026-09-04T21:32:58.802936+00:00"
   },
   "US:B0F2BFSPBN": {
@@ -1719,7 +1719,7 @@
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
     "status": "compra_directa",
     "stock": null,
-    "price": "21,72 €",
+    "price": "22,13 €",
     "first_seen": "2026-09-06T13:57:50.628764+00:00"
   },
   "UK:B0DLTZPNR2": {
@@ -1763,5 +1763,12 @@
     "stock": "5",
     "price": "33,13 €",
     "first_seen": "2026-09-08T00:08:50.343349+00:00"
+  },
+  "US:B0DLTZPNR2": {
+    "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "34,30 €",
+    "first_seen": "2026-09-08T05:38:28.180394+00:00"
   }
 }

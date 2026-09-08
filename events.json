@@ -401,5 +401,31 @@
     "price": "33,13 €",
     "prev_price": null,
     "link": "https://www.amazon.es/dp/B0C16H3DGV?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-08T05:38:28.180254+00:00",
+    "type": "price_drop",
+    "asin": "B0DC2BK8QG",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
+    "image": "https://m.media-amazon.com/images/I/81j5Vv0oIEL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "79,87 €",
+    "prev_price": "79,91 €",
+    "link": "https://www.amazon.es/dp/B0DC2BK8QG?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-08T05:38:28.180400+00:00",
+    "type": "restock",
+    "asin": "B0DLTZPNR2",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
+    "image": "https://m.media-amazon.com/images/I/51REXB8bUgL._AC_UL320_AIweblab1378949,T1_.jpg",
+    "price": "34,30 €",
+    "prev_price": null,
+    "link": "https://www.amazon.es/dp/B0DLTZPNR2?tag=enkairito-21"
   }
 ]
