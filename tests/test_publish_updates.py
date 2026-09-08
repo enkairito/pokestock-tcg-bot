@@ -20,6 +20,7 @@ class PublicationTests(unittest.TestCase):
         self.run_git(self.root, "clone", str(self.remote), str(self.repo))
         self.write(self.repo / "state.json", {})
         self.write(self.repo / "accesorios.json", {"products": []})
+        (self.repo / "producto.html").write_text('<html><head><title>Producto</title></head><body><div id="product-detail"></div><script src="/producto.js"></script></body></html>', encoding="utf-8")
         (self.repo / "sitemap.xml").write_text('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://wheresthatstock.com/</loc><lastmod>2026-01-01</lastmod></url></urlset>', encoding="utf-8")
         self.commit(self.repo, "seed")
         self.run_git(self.repo, "push", "origin", "main")

@@ -12,6 +12,7 @@ from pathlib import Path
 
 from merge_accesorios import SOURCES, merge_snapshots
 from update_sitemap_lastmod import update_sitemap
+from build_catalog import SOURCES as CATALOG_SOURCES, build_site
 
 
 class PublicationError(RuntimeError):
@@ -55,6 +56,11 @@ def prepare_updates(copies, accessories=None, source=None, sitemap=False):
         if sitemap:
             update_sitemap(target_path(worktree, "sitemap.xml"))
             changed.append("sitemap.xml")
+            catalog_sources = [name for name in contents if name in CATALOG_SOURCES]
+            if accessory_snapshot is not None:
+                catalog_sources.append("accesorios.json")
+            if catalog_sources:
+                changed.extend(build_site(worktree, catalog_sources))
         return changed
 
     return apply
