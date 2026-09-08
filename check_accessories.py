@@ -1,3 +1,4 @@
+from stock_logic import write_snapshot
 import asyncio
 import json
 import re
@@ -81,28 +82,8 @@ def save_state(state):
 
 
 def save_snapshot(products):
-    snapshot = {
-        "updated_at": datetime.now(timezone.utc).isoformat(),
-        "products": [
-            {
-                "asin": info["asin"],
-                "marketplace": info["marketplace_code"],
-                "store_label": info["store_label"],
-                "flag": info["flag"],
-                "name": info["name"],
-                "image": info.get("image"),
-                "price": info.get("price"),
-                "original_price": info.get("original_price"),
-                "status": info["status"],
-                "stock": info.get("stock"),
-                "link": info["link"],
-                "first_seen": info.get("first_seen"),
-                "categories": [categorize_by_game(info["name"])],
-            }
-            for info in products.values()
-        ],
-    }
-    SNAPSHOT_FILE.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2), encoding="utf-8")
+    categorized = {key: {**info, "categories": [categorize_by_game(info["name"])]} for key, info in products.items()}
+    write_snapshot(SNAPSHOT_FILE, categorized)
 
 
 async def main():

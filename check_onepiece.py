@@ -1,3 +1,4 @@
+from stock_logic import alert_changes, write_snapshot
 import asyncio
 import html
 import json
@@ -11,7 +12,6 @@ import requests
 from patchright.async_api import async_playwright
 
 from check_stock import (
-    ALERT_STATUSES,
     DRY_RUN,
     STATUS_COPY,
     _strip_accents,
@@ -19,7 +19,6 @@ from check_stock import (
     discover_products,
     merge_product_record,
     new_context,
-    price_to_float,
     watermark_product_image,
 )
 
@@ -136,33 +135,10 @@ def send_telegram_photo_bytes(image_bytes, caption):
     )
 
 
-def _snapshot_entry(info, game=None):
-    entry = {
-        "asin": info["asin"],
-        "marketplace": info["marketplace_code"],
-        "store_label": info["store_label"],
-        "flag": info["flag"],
-        "name": info["name"],
-        "image": info.get("image"),
-        "price": info.get("price"),
-        "original_price": info.get("original_price"),
-        "status": info["status"],
-        "stock": info.get("stock"),
-        "link": info["link"],
-        "first_seen": info.get("first_seen"),
-        "categories": info["categories"],
-    }
-    if game:
-        entry["game"] = game
-    return entry
 
 
 def save_snapshot(path, products, game=None):
-    snapshot = {
-        "updated_at": datetime.now(timezone.utc).isoformat(),
-        "products": [_snapshot_entry(info, game=game) for info in products.values()],
-    }
-    path.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2), encoding="utf-8")
+    write_snapshot(path, products, game=game)
 
 
 async def main():
@@ -246,8 +222,6 @@ async def main():
         status = info["status"]
         name = info["name"]
         prev = state.get(key, {})
-        prev_status = prev.get("status")
-        prev_stock = prev.get("stock")
         prev_price = prev.get("price")
         first_seen = prev.get("first_seen") or datetime.now(timezone.utc).isoformat()
         info["first_seen"] = first_seen
@@ -256,23 +230,7 @@ async def main():
         # check_accessories.py, solo alimentan la web.
         is_tcg_card = key in onepiece_products
 
-        status_changed = is_tcg_card and status in ALERT_STATUSES and status != prev_status
-        stock_decreased = (
-            is_tcg_card
-            and status in ALERT_STATUSES
-            and info.get("stock") is not None
-            and prev_stock is not None
-            and int(info["stock"]) < int(prev_stock)
-        )
-        current_price_num = price_to_float(info.get("price"))
-        prev_price_num = price_to_float(prev_price)
-        price_decreased = (
-            is_tcg_card
-            and status == "compra_directa"
-            and current_price_num is not None
-            and prev_price_num is not None
-            and current_price_num < prev_price_num
-        )
+        status_changed, stock_decreased, price_decreased = alert_changes(info, prev) if is_tcg_card else (False, False, False)
 
         send_failed = False
 
