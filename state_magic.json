@@ -31,8 +31,9 @@
   },
   "ES:B0GWSC1YXH": {
     "name": "Caja de Sobres de Juego de Magic: The Gathering | El Hobbit (Versión en Inglés)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "155,78 €",
     "first_seen": "2026-09-07T10:43:36.101500+00:00"
   },
   "ES:B0GWSDDFFJ": {
@@ -275,7 +276,7 @@
   "ES:B0G8781J5W": {
     "name": "Mazo de Commander de Secretos de Strixhaven, de Magic: The Gathering - Influencia de Plumargéntum (Versión en Español)",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "3",
     "price": "52,50 €",
     "first_seen": "2026-09-07T10:46:54.506895+00:00"
   },
@@ -346,7 +347,7 @@
     "name": "Draft Night de Secretos de Strixhaven, de Magic: The Gathering (Versión en Inglés)",
     "status": "compra_directa",
     "stock": null,
-    "price": "121,33 €",
+    "price": "121,32 €",
     "first_seen": "2026-09-07T10:47:55.002254+00:00"
   },
   "ES:B0G86Z6QYF": {
@@ -362,5 +363,12 @@
     "stock": null,
     "price": "24,00 €",
     "first_seen": "2026-09-07T10:48:07.213494+00:00"
+  },
+  "ES:B0GWS7LP2Y": {
+    "name": "sobre de Juego de Magic: The Gathering | El Hobbit (Versión en Español)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "7,00 €",
+    "first_seen": "2026-09-08T11:19:18.638626+00:00"
   }
 }
