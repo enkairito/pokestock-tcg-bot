@@ -61,7 +61,7 @@ jobs:
             cp onepiece_snapshot.json /tmp/wheresthatstock/onepiece.json
 
             if [ -f accesorios_onepiece_snapshot.json ]; then
-              python merge_accesorios.py --base /tmp/wheresthatstock/accesorios.json --new accesorios_onepiece_snapshot.json --out /tmp/wheresthatstock/accesorios.json --tag "One Piece"
+              python merge_accesorios.py --base /tmp/wheresthatstock/accesorios.json --new accesorios_onepiece_snapshot.json --out /tmp/wheresthatstock/accesorios.json --source onepiece
             fi
 
             python update_sitemap_lastmod.py --sitemap /tmp/wheresthatstock/sitemap.xml

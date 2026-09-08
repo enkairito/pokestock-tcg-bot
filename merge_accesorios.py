@@ -3,11 +3,33 @@ import json
 from pathlib import Path
 
 
-def is_mine(product, tag):
-    categories = product.get("categories") or []
-    if tag:
-        return tag in categories
-    return not categories
+SOURCES = ("accessories", "onepiece")
+
+
+def product_source(product):
+    """Migra los registros publicados antes de añadir el origen explícito."""
+    if product.get("source"):
+        return product["source"]
+    return "onepiece" if "One Piece" in (product.get("categories") or []) else "accessories"
+
+
+def merge_snapshots(base, new, source):
+    """Reemplaza un origen completo y conserva una sola fila por tienda/ASIN.
+
+    El último registro gana: los duplicados históricos se añadían al final,
+    y una observación nueva debe prevalecer sobre la que ya estaba publicada.
+    La categoría describe el juego; no determina quién publica el producto.
+    """
+    if source not in SOURCES:
+        raise ValueError(f"Origen de accesorios desconocido: {source}")
+    products = {}
+    for product in base.get("products", []):
+        owner = product_source(product)
+        if owner != source:
+            products[(product["marketplace"], product["asin"])] = {**product, "source": owner}
+    for product in new["products"]:
+        products[(product["marketplace"], product["asin"])] = {**product, "source": source}
+    return {"updated_at": new.get("updated_at"), "products": list(products.values())}
 
 
 def main():
@@ -18,19 +40,16 @@ def main():
     parser.add_argument("--base", required=True, help="accesorios.json ya publicado (puede no existir aún)")
     parser.add_argument("--new", required=True, help="snapshot recién generado en esta ejecución")
     parser.add_argument("--out", required=True, help="ruta de salida")
-    parser.add_argument("--tag", default="", help='Categoría que "es mía" en este snapshot, ej. "One Piece". Vacío = productos sin categoría (Pokémon).')
+    parser.add_argument("--source", required=True, choices=SOURCES, help="Proceso que genera el snapshot, independiente del juego o categoría.")
     args = parser.parse_args()
 
     base_path = Path(args.base)
     base = json.loads(base_path.read_text(encoding="utf-8")) if base_path.exists() else {"products": []}
     new = json.loads(Path(args.new).read_text(encoding="utf-8"))
 
-    kept = [p for p in base.get("products", []) if not is_mine(p, args.tag)]
-    merged_products = kept + new.get("products", [])
-
-    merged = {"updated_at": new.get("updated_at"), "products": merged_products}
+    merged = merge_snapshots(base, new, args.source)
     Path(args.out).write_text(json.dumps(merged, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Merge accesorios: {len(kept)} conservados + {len(new.get('products', []))} nuevos = {len(merged_products)} total")
+    print(f"Merge accesorios ({args.source}): {len(new['products'])} observados, {len(merged['products'])} productos únicos publicados")
 
 
 if __name__ == "__main__":
