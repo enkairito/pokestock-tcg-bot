@@ -1153,6 +1153,10 @@ async def main():
                 "first_seen": first_seen,
             }
 
+    if DRY_RUN:
+        print("[DRY_RUN] Estado, snapshots e historial conservados sin cambios.")
+        return
+
     save_state(state)
     save_products_snapshot(products)
     save_events(events)

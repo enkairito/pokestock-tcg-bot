@@ -29,7 +29,7 @@ def observation(status="no_disponible"):
 
 
 @contextmanager
-def isolated_run(module, fail_second_page=False):
+def isolated_run(module, fail_second_page=False, dry_run=False, observed_status="no_disponible"):
     with tempfile.TemporaryDirectory() as directory, ExitStack() as stack:
         folder = Path(directory)
         state_path = folder / "state.json"
@@ -56,7 +56,8 @@ def isolated_run(module, fail_second_page=False):
         stack.enter_context(patch("requests.get", side_effect=AssertionError("No network in tests")))
         stack.enter_context(patch("builtins.print"))
         if hasattr(module, "DRY_RUN"):
-            stack.enter_context(patch.object(module, "DRY_RUN", True))
+            stack.enter_context(patch.object(module, "DRY_RUN", dry_run))
+        stack.enter_context(patch("asyncio.sleep", new_callable=AsyncMock))
         config_name = next((n for n in vars(module) if n.endswith("_MARKETPLACE")), None)
         if config_name:
             config = copy.deepcopy(getattr(module, config_name))
@@ -68,13 +69,45 @@ def isolated_run(module, fail_second_page=False):
             config["extra_asins"] = {}
             stack.enter_context(patch.object(module, "MARKETPLACES", [config]))
             stack.enter_context(patch.object(module, "discover_eci_products", AsyncMock(return_value={"ECI001": observation()})))
-        result = ({"B000000001": observation()}, set())
+        result = ({"B000000001": observation(observed_status)}, set())
         discovery = AsyncMock(side_effect=[copy.deepcopy(result), stock.ScrapeError("Second page failed")]) if fail_second_page else AsyncMock(side_effect=lambda *args: copy.deepcopy(result))
         stack.enter_context(patch.object(module, "discover_products", discovery))
         yield state_path, snapshot_path
 
 
 class CompleteRunTests(unittest.IsolatedAsyncioTestCase):
+    async def test_dry_run_preserves_existing_files(self):
+        for module in MODULES:
+            with self.subTest(script=module.__name__), isolated_run(module, dry_run=True) as (state, snapshot):
+                for name in ("EVENTS_FILE", "ACCESORIOS_SNAPSHOT_FILE"):
+                    if hasattr(module, name):
+                        getattr(module, name).write_text("[]", encoding="utf-8")
+                before = {path.name: path.read_bytes() for path in state.parent.iterdir()}
+                await module.main()
+                self.assertEqual({path.name: path.read_bytes() for path in state.parent.iterdir()}, before)
+
+    async def test_dry_run_does_not_create_production_files(self):
+        for module in MODULES:
+            with self.subTest(script=module.__name__), isolated_run(module, dry_run=True) as (state, snapshot):
+                state.unlink()
+                snapshot.unlink()
+                await module.main()
+                self.assertEqual(list(state.parent.iterdir()), [])
+
+    async def test_simulated_restock_remains_pending_for_real_run(self):
+        for module in MODULES[:-1]:
+            with self.subTest(script=module.__name__), isolated_run(
+                module, dry_run=True, observed_status="compra_directa"
+            ) as (state, snapshot), patch.object(module, "send_telegram_message") as send:
+                state.write_text(json.dumps({"ES:B000000001": observation()}), encoding="utf-8")
+                await module.main()
+                send.assert_not_called()
+                self.assertEqual(json.loads(state.read_text(encoding="utf-8"))["ES:B000000001"]["status"], "no_disponible")
+                with patch.object(module, "DRY_RUN", False):
+                    await module.main()
+                send.assert_called_once()
+                self.assertEqual(json.loads(state.read_text(encoding="utf-8"))["ES:B000000001"]["status"], "compra_directa")
+
     async def test_all_six_scripts_save_sold_out_state_and_empty_snapshot(self):
         for module in MODULES:
             with self.subTest(script=module.__name__), isolated_run(module) as (state, snapshot):

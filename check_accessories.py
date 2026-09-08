@@ -8,6 +8,7 @@ from pathlib import Path
 from patchright.async_api import async_playwright
 
 from check_stock import (
+    DRY_RUN,
     _strip_accents,
     check_single_product,
     discover_products,
@@ -190,6 +191,10 @@ async def main():
             "price": info.get("price"),
             "first_seen": first_seen,
         }
+
+    if DRY_RUN:
+        print("[DRY_RUN] Estado, snapshots e historial conservados sin cambios.")
+        return
 
     save_state(state)
     save_snapshot(products)

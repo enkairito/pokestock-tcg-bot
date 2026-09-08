@@ -168,8 +168,11 @@ Para probar cambios sin enviar mensajes reales al grupo, usa `DRY_RUN=1`:
 DRY_RUN=1 python check_stock.py
 ```
 
-Con `DRY_RUN=1` el script imprime en consola qué mensaje habría enviado en
-lugar de llamar a la API de Telegram.
+Con `DRY_RUN=1` los seis scrapers consultan las tiendas e imprimen en consola
+los avisos simulados, sin llamar a la API de Telegram ni guardar el estado,
+los snapshots o el historial de eventos. Así, las alertas siguen pendientes
+para la siguiente ejecución real. Los archivos de diagnóstico de errores
+pueden seguir generándose en `debug/`.
 
 ## Pruebas
 

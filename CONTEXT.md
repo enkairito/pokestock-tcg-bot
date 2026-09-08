@@ -173,12 +173,11 @@ texto literal `"null"` cuando el producto no tiene precio de referencia
   día (10:50 UTC) completó con éxito y ya mandó los avisos reales de los
   productos disponibles en ese momento (confirmado con `gh run list`). El
   estado de USA en `state.json` es real, no de pruebas — no reiniciarlo.
-- **Cuidado al probar en local con `DRY_RUN=1`**: aunque no envía mensajes
-  reales a Telegram, sí que escribe en `state.json` (el guardado de estado
-  no está condicionado a `DRY_RUN`). Si se prueba una tienda nueva antes
-  de su lanzamiento real, hay que descartar esas entradas de `state.json`
-  antes de hacer commit para que el primer run real dispare los avisos de
-  lanzamiento. Una vez lanzada de verdad, todo lo contrario: nunca pisar
+- **Simulaciones con `DRY_RUN=1`** (corregido el 2026-09-08): los seis
+  scrapers omiten Telegram y conservan el estado, los snapshots y el
+  historial de eventos. No consumen las alertas de la siguiente ejecución
+  real. Pueden generar archivos de diagnóstico en `debug/`.
+  En ejecuciones reales, nunca pisar
   `state.json` local sobre el remoto sin comprobar antes con
   `git fetch` + `git log origin/main` si GitHub Actions ha corrido
   mientras tanto (por poco se pierde así el estado real de USA en esta

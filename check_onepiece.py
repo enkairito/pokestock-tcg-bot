@@ -334,6 +334,10 @@ async def main():
                 "first_seen": first_seen,
             }
 
+    if DRY_RUN:
+        print("[DRY_RUN] Estado, snapshots e historial conservados sin cambios.")
+        return
+
     save_state(state)
     save_snapshot(SNAPSHOT_FILE, onepiece_products, game="One Piece")
     save_snapshot(ACCESORIOS_SNAPSHOT_FILE, accessory_products)
