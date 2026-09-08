@@ -168,6 +168,7 @@ async def main():
                 fallback_asins.update(page_fallback)
             except Exception as e:
                 print(f"❌ No se pudo cargar la página de Disney Lorcana ({label}): {e!r}")
+                raise
 
         fallback_asins -= marketplace_products.keys()
         if fallback_asins:
@@ -210,10 +211,6 @@ async def main():
             lorcana_products[f"{marketplace['code']}:{asin}"] = info
 
         await browser.close()
-
-    if not lorcana_products:
-        print("❌ No se encontró ningún producto de Disney Lorcana.")
-        sys.exit(1)
 
     print(f"📦 Total combinado: {len(lorcana_products)} productos de Disney Lorcana")
 

@@ -183,6 +183,7 @@ async def main():
                 fallback_asins.update(page_fallback)
             except Exception as e:
                 print(f"❌ No se pudo cargar la página de Magic: The Gathering ({label}): {e!r}")
+                raise
 
         fallback_asins -= marketplace_products.keys()
         if fallback_asins:
@@ -225,10 +226,6 @@ async def main():
             magic_products[f"{marketplace['code']}:{asin}"] = info
 
         await browser.close()
-
-    if not magic_products:
-        print("❌ No se encontró ningún producto de Magic: The Gathering.")
-        sys.exit(1)
 
     print(f"📦 Total combinado: {len(magic_products)} productos de Magic: The Gathering")
 

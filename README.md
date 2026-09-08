@@ -164,6 +164,14 @@ lugar de llamar a la API de Telegram.
 
 ## Riesgos conocidos
 
+- **Consultas incompletas**: un error HTTP, captcha, ficha sin título o
+  listado sin productos verificables hace fallar la ejecución de ese juego
+  antes de enviar avisos o sustituir su estado/snapshot. La web conserva
+  la publicación anterior con su fecha. Si la consulta sí devuelve
+  productos y todos están agotados, se guarda ese estado y se publica un
+  listado vacío correctamente. Una página sin tarjetas ni fichas
+  verificables se trata de forma conservadora como fallo, no como stock cero.
+
 - **Cambios de estructura HTML**: si Amazon cambia los atributos de las
   tarjetas de producto (`data-asin`, `data-cy="add-to-cart"`, los textos de
   "disponible por invitación"/"no disponible"), el script deja de detectar

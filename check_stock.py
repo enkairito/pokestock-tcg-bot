@@ -610,11 +610,17 @@ async def try_click_continue(page, label, marketplace):
         print(f"⚠️ No se pudo hacer clic en el interstitial para {label} ({marketplace['code']}): {e!r}")
 
 
+class ScrapeError(RuntimeError):
+    """La consulta no permite afirmar cuál es el stock actual."""
+
+
 async def discover_products(page, label, url, marketplace):
     """Descubre todos los productos y su estado (nombre, precio, disponibilidad)
     directamente desde las tarjetas de la página de la tienda, sin necesidad de
     visitar cada ficha de producto individual."""
-    await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+    response = await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+    if response is None or response.status >= 400:
+        raise ScrapeError(f"Respuesta HTTP inválida en {marketplace['code']}/{label}")
     await page.wait_for_timeout(3000)
 
     await try_click_continue(page, label, marketplace)
@@ -640,6 +646,9 @@ async def discover_products(page, label, url, marketplace):
         DEBUG_DIR.mkdir(exist_ok=True)
         await page.screenshot(path=str(DEBUG_DIR / f"store_page_{marketplace['code']}_{slug}.png"), full_page=True)
         (DEBUG_DIR / f"store_page_{marketplace['code']}_{slug}.html").write_text(await page.content(), encoding="utf-8")
+
+    if is_captcha:
+        raise ScrapeError(f"Captcha en {marketplace['code']}/{label}")
 
     tiles = await page.eval_on_selector_all(
         "[data-asin]",
@@ -685,6 +694,10 @@ async def discover_products(page, label, url, marketplace):
             print(f"🐛 DEBUG [{marketplace['code']}/{label}] tile raw: {t}")
         if not asin or not ASIN_VALID_RE.match(asin) or asin in products:
             continue
+        # Un contenedor sin nombre no demuestra que el producto esté agotado.
+        # Su enlace podrá comprobarse mediante el fallback individual.
+        if not t.get("name"):
+            continue
 
         text = t.get("text") or ""
         text_lower = text.lower()
@@ -725,6 +738,8 @@ async def discover_products(page, label, url, marketplace):
         if match and match.group(1) not in products:
             fallback_asins.add(match.group(1))
 
+    if not products and not (fallback_asins and marketplace.get("allow_individual_fallback", True)):
+        raise ScrapeError(f"Sin productos verificables en {marketplace['code']}/{label}; se conserva la publicación anterior")
     return products, fallback_asins
 
 
@@ -732,7 +747,9 @@ async def discover_eci_products(page, label, url):
     """Descubre productos de El Corte Inglés desde una página de búsqueda.
     Sin cookies/sesión (búsqueda pública) y sin flujo de invitación —
     solo compra_directa (botón "Añadir" presente) o no_disponible."""
-    await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+    response = await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+    if response is None or response.status >= 400:
+        raise ScrapeError(f"Respuesta HTTP inválida en ECI/{label}")
     await page.wait_for_timeout(2500)
 
     prev_count = -1
@@ -749,7 +766,7 @@ async def discover_eci_products(page, label, url):
 
     body_text = (await page.inner_text("body")).lower()
     if any(marker in body_text for marker in CAPTCHA_MARKERS):
-        print(f"❌ El Corte Inglés devolvió una verificación anti-bot (captcha) en vez de la búsqueda ({label}).")
+        raise ScrapeError(f"Captcha en ECI/{label}")
 
     tiles = await page.eval_on_selector_all(
         "article[id^='product-']",
@@ -775,6 +792,8 @@ async def discover_eci_products(page, label, url):
         product_id = match.group(1)
         if product_id in products:
             continue
+        if not t.get("name") or not t.get("relUrl"):
+            raise ScrapeError(f"Tarjeta incompleta en ECI/{label}: {product_id}")
 
         price_match = ECI_PRICE_RE.search(t.get("priceText") or "")
         rel_url = t.get("relUrl")
@@ -793,6 +812,8 @@ async def discover_eci_products(page, label, url):
             "url": f"https://www.elcorteingles.es{rel_url}" if rel_url else None,
         }
 
+    if not products:
+        raise ScrapeError(f"Sin productos verificables en ECI/{label}; se conserva la publicación anterior")
     return products
 
 
@@ -806,12 +827,18 @@ async def check_single_product(page, asin, marketplace, include_delivery=False):
     gratis."""
     url = f"https://www.{marketplace['domain']}/dp/{asin}"
     try:
-        await page.goto(url, wait_until="domcontentloaded", timeout=45000)
+        response = await page.goto(url, wait_until="domcontentloaded", timeout=45000)
+        if response is None or response.status >= 400:
+            raise ScrapeError(f"Respuesta HTTP inválida para {asin}")
         await page.wait_for_timeout(random.uniform(1200, 2500))
         await try_click_continue(page, asin, marketplace)
 
         title_el = await page.query_selector("#productTitle")
-        name = (await title_el.inner_text()).strip() if title_el else asin
+        if not title_el:
+            raise ScrapeError(f"Ficha sin título verificable: {asin}")
+        name = (await title_el.inner_text()).strip()
+        if not name:
+            raise ScrapeError(f"Ficha sin nombre verificable: {asin}")
 
         buy_button = await page.query_selector("#add-to-cart-button, #buy-now-button")
 
@@ -839,8 +866,7 @@ async def check_single_product(page, asin, marketplace, include_delivery=False):
 
         return {"name": name, "price": price, "original_price": None, "image": image, "stock": stock, "status": status}
     except Exception as e:
-        print(f"⚠️ Error comprobando {asin} ({marketplace['code']}) individualmente: {e!r}")
-        return None
+        raise ScrapeError(f"No se pudo comprobar {asin} ({marketplace['code']})") from e
 
 
 async def main():
@@ -871,6 +897,7 @@ async def main():
                     fallback_asins.update(page_fallback)
                 except Exception as e:
                     print(f"❌ No se pudo cargar la página de la tienda ({marketplace['code']}/{label}): {e!r}")
+                    raise
 
             fallback_asins -= marketplace_products.keys()
             if fallback_asins and not marketplace.get("allow_individual_fallback", True):
@@ -969,6 +996,7 @@ async def main():
                 eci_products.update(page_products)
             except Exception as e:
                 print(f"❌ No se pudo cargar la página de El Corte Inglés ({label}): {e!r}")
+                raise
 
         eci_out_of_stock = {a for a, i in eci_products.items() if i["status"] == "no_disponible"}
         if eci_out_of_stock:
@@ -1010,10 +1038,6 @@ async def main():
             products[f"ECI:{product_id}"] = info
 
         await browser.close()
-
-    if not products:
-        print("❌ No se encontró ningún producto en ninguna tienda.")
-        sys.exit(1)
 
     print(f"📦 Total combinado: {len(products)} productos únicos")
 

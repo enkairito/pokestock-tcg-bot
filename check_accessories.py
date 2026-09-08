@@ -127,6 +127,7 @@ async def main():
                 fallback_asins.update(page_fallback)
             except Exception as e:
                 print(f"❌ No se pudo cargar la página de accesorios ({label}): {e!r}")
+                raise
 
         fallback_asins -= marketplace_products.keys()
         if fallback_asins:
@@ -175,10 +176,6 @@ async def main():
             products[f"{marketplace['code']}:{asin}"] = info
 
         await browser.close()
-
-    if not products:
-        print("❌ No se encontró ningún accesorio.")
-        sys.exit(1)
 
     print(f"📦 Total combinado: {len(products)} accesorios únicos")
 

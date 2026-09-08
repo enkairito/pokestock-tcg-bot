@@ -189,6 +189,7 @@ async def main():
                 fallback_asins.update(page_fallback)
             except Exception as e:
                 print(f"❌ No se pudo cargar la página de One Piece TCG ({label}): {e!r}")
+                raise
 
         fallback_asins -= marketplace_products.keys()
         if fallback_asins:
@@ -239,10 +240,6 @@ async def main():
         await browser.close()
 
     all_products = {**onepiece_products, **accessory_products}
-    if not all_products:
-        print("❌ No se encontró ningún producto de One Piece TCG.")
-        sys.exit(1)
-
     print(f"📦 Total combinado: {len(onepiece_products)} productos TCG + {len(accessory_products)} accesorios")
 
     for key, info in all_products.items():
