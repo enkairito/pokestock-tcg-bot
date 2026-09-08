@@ -42,9 +42,18 @@ para retomar el trabajo desde otro ordenador), ver [`CONTEXT.md`](CONTEXT.md).
    agua con la bandera del país en la esquina superior derecha) y el enlace
    de afiliado correspondiente a esa tienda.
 6. Guarda el nuevo estado en `state.json` y un snapshot completo en
-   `products_snapshot.json` (ambos se commitean automáticamente desde el
-   workflow). El snapshot se copia además a `products.json` en el repo
-   público `wheresthatstock` para alimentar la web.
+   `products_snapshot.json`. El workflow persiste primero el estado y los
+   eventos en el repositorio del bot; después publica el snapshot como
+   `products.json` en `wheresthatstock`. Un fallo al publicar la web no
+   impide conservar el estado de los avisos ya procesados.
+
+La publicación usa `publish_updates.py`: aplica únicamente los archivos
+generados en un worktree temporal basado en el remoto actual. Si otro
+workflow publica durante ese intervalo, vuelve a obtener el remoto y
+recalcula la fusión de accesorios y sitemap antes de reintentar. Después
+de tres pushes fallidos, el paso falla explícitamente. Si falla la propia
+persistencia del estado, o se interrumpe el scraper antes de guardarlo,
+todavía pueden repetirse avisos en la siguiente ejecución.
 
 Este enfoque (leer las tarjetas de la tienda en vez de visitar cada ficha
 individual) reduce mucho el riesgo de bloqueo por parte de Amazon.
@@ -161,6 +170,19 @@ DRY_RUN=1 python check_stock.py
 
 Con `DRY_RUN=1` el script imprime en consola qué mensaje habría enviado en
 lugar de llamar a la API de Telegram.
+
+## Pruebas
+
+Con las dependencias de `requirements.txt` instaladas:
+
+```bash
+python -B -m unittest discover -s tests -v
+```
+
+En Windows se puede usar `py -3 -B -m unittest discover -s tests -v`.
+Las pruebas simulan las tiendas y Telegram, y verifican la publicación
+contra repositorios Git temporales locales. También se ejecutan en
+GitHub Actions cuando cambia el código o los workflows.
 
 ## Riesgos conocidos
 

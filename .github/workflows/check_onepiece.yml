@@ -51,49 +51,13 @@ jobs:
           TELEGRAM_ONEPIECE_CHAT_ID: ${{ secrets.TELEGRAM_ONEPIECE_CHAT_ID }}
         run: xvfb-run -a python check_onepiece.py
 
-      - name: Publish products snapshot to Where's That Stock
+      - name: Commit updated state
+        run: >-
+          python publish_updates.py --repo . --message "chore: update onepiece state" --copy state_onepiece.json state_onepiece.json
+
+      - name: Publish products snapshot to Wheres That Stock
         env:
           WHERESTHATSTOCK_TOKEN: ${{ secrets.WHERESTHATSTOCK_TOKEN }}
         run: |
-          if [ -f onepiece_snapshot.json ]; then
-            git clone https://x-access-token:${WHERESTHATSTOCK_TOKEN}@github.com/enkairito/wheresthatstock.git /tmp/wheresthatstock
-
-            cp onepiece_snapshot.json /tmp/wheresthatstock/onepiece.json
-
-            if [ -f accesorios_onepiece_snapshot.json ]; then
-              python merge_accesorios.py --base /tmp/wheresthatstock/accesorios.json --new accesorios_onepiece_snapshot.json --out /tmp/wheresthatstock/accesorios.json --source onepiece
-            fi
-
-            python update_sitemap_lastmod.py --sitemap /tmp/wheresthatstock/sitemap.xml
-
-            cd /tmp/wheresthatstock
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add onepiece.json accesorios.json sitemap.xml
-            if git diff --cached --quiet; then
-              echo "No changes to publish"
-            else
-              git commit -m "chore: update one piece snapshot"
-              for i in 1 2 3; do
-                git push && break
-                echo "Push rejected, pulling and retrying ($i/3)..."
-                git pull --rebase
-              done
-            fi
-          fi
-
-      - name: Commit updated state
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add state_onepiece.json
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "chore: update one piece state"
-            for i in 1 2 3; do
-              git push && break
-              echo "Push rejected, pulling and retrying ($i/3)..."
-              git pull --rebase
-            done
-          fi
+          git clone https://x-access-token:${WHERESTHATSTOCK_TOKEN}@github.com/enkairito/wheresthatstock.git /tmp/wheresthatstock
+          python publish_updates.py --repo /tmp/wheresthatstock --message "chore: update onepiece snapshot" --copy onepiece_snapshot.json onepiece.json --sitemap --accessories accesorios_onepiece_snapshot.json --source onepiece

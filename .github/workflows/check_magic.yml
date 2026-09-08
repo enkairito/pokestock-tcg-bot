@@ -51,45 +51,13 @@ jobs:
           TELEGRAM_MAGIC_CHAT_ID: ${{ secrets.TELEGRAM_MAGIC_CHAT_ID }}
         run: xvfb-run -a python check_magic.py
 
-      - name: Publish products snapshot to Where's That Stock
+      - name: Commit updated state
+        run: >-
+          python publish_updates.py --repo . --message "chore: update magic state" --copy state_magic.json state_magic.json
+
+      - name: Publish products snapshot to Wheres That Stock
         env:
           WHERESTHATSTOCK_TOKEN: ${{ secrets.WHERESTHATSTOCK_TOKEN }}
         run: |
-          if [ -f magic_snapshot.json ]; then
-            git clone https://x-access-token:${WHERESTHATSTOCK_TOKEN}@github.com/enkairito/wheresthatstock.git /tmp/wheresthatstock
-
-            cp magic_snapshot.json /tmp/wheresthatstock/magic.json
-
-            python update_sitemap_lastmod.py --sitemap /tmp/wheresthatstock/sitemap.xml
-
-            cd /tmp/wheresthatstock
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add magic.json sitemap.xml
-            if git diff --cached --quiet; then
-              echo "No changes to publish"
-            else
-              git commit -m "chore: update magic snapshot"
-              for i in 1 2 3; do
-                git push && break
-                echo "Push rejected, pulling and retrying ($i/3)..."
-                git pull --rebase
-              done
-            fi
-          fi
-
-      - name: Commit updated state
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add state_magic.json
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "chore: update magic state"
-            for i in 1 2 3; do
-              git push && break
-              echo "Push rejected, pulling and retrying ($i/3)..."
-              git pull --rebase
-            done
-          fi
+          git clone https://x-access-token:${WHERESTHATSTOCK_TOKEN}@github.com/enkairito/wheresthatstock.git /tmp/wheresthatstock
+          python publish_updates.py --repo /tmp/wheresthatstock --message "chore: update magic snapshot" --copy magic_snapshot.json magic.json --sitemap

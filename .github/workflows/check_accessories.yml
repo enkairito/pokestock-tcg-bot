@@ -49,45 +49,13 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: xvfb-run -a python check_accessories.py
 
-      - name: Publish accessories snapshot to Where's That Stock
+      - name: Commit updated state
+        run: >-
+          python publish_updates.py --repo . --message "chore: update accessories state" --copy state_accesorios.json state_accesorios.json
+
+      - name: Publish products snapshot to Wheres That Stock
         env:
           WHERESTHATSTOCK_TOKEN: ${{ secrets.WHERESTHATSTOCK_TOKEN }}
         run: |
-          if [ -f accesorios_snapshot.json ]; then
-            git clone https://x-access-token:${WHERESTHATSTOCK_TOKEN}@github.com/enkairito/wheresthatstock.git /tmp/wheresthatstock
-
-            # Cada proceso reemplaza sus registros por origen, independientemente
-            # de su categoría; check_onepiece.yml publica el otro origen.
-            python merge_accesorios.py --base /tmp/wheresthatstock/accesorios.json --new accesorios_snapshot.json --out /tmp/wheresthatstock/accesorios.json --source accessories
-
-            cd /tmp/wheresthatstock
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add accesorios.json
-            if git diff --cached --quiet; then
-              echo "No changes to publish"
-            else
-              git commit -m "chore: update accessories snapshot"
-              for i in 1 2 3; do
-                git push && break
-                echo "Push rejected, pulling and retrying ($i/3)..."
-                git pull --rebase
-              done
-            fi
-          fi
-
-      - name: Commit updated state
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add state_accesorios.json
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "chore: update accessories state"
-            for i in 1 2 3; do
-              git push && break
-              echo "Push rejected, pulling and retrying ($i/3)..."
-              git pull --rebase
-            done
-          fi
+          git clone https://x-access-token:${WHERESTHATSTOCK_TOKEN}@github.com/enkairito/wheresthatstock.git /tmp/wheresthatstock
+          python publish_updates.py --repo /tmp/wheresthatstock --message "chore: update accessories snapshot" --accessories accesorios_snapshot.json --source accessories

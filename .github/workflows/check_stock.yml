@@ -58,56 +58,16 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: xvfb-run -a python check_stock.py
 
+      - name: Commit updated state
+        run: >-
+          python publish_updates.py --repo . --message "chore: update stock state" --copy state.json state.json --copy events.json events.json
+
       - name: Compute restock stats
         run: python restock_stats.py
 
-      - name: Publish products snapshot to Where's That Stock
+      - name: Publish products snapshot to Wheres That Stock
         env:
           WHERESTHATSTOCK_TOKEN: ${{ secrets.WHERESTHATSTOCK_TOKEN }}
         run: |
-          if [ -f products_snapshot.json ]; then
-            git clone https://x-access-token:${WHERESTHATSTOCK_TOKEN}@github.com/enkairito/wheresthatstock.git /tmp/wheresthatstock
-
-            cp products_snapshot.json /tmp/wheresthatstock/products.json
-
-            if [ -f events.json ]; then
-              cp events.json /tmp/wheresthatstock/events.json
-            fi
-
-            if [ -f restock_stats.json ]; then
-              cp restock_stats.json /tmp/wheresthatstock/restock_stats.json
-            fi
-
-            python update_sitemap_lastmod.py --sitemap /tmp/wheresthatstock/sitemap.xml
-
-            cd /tmp/wheresthatstock
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add products.json sitemap.xml events.json restock_stats.json
-            if git diff --cached --quiet; then
-              echo "No changes to publish"
-            else
-              git commit -m "chore: update products snapshot"
-              for i in 1 2 3; do
-                git push && break
-                echo "Push rejected, pulling and retrying ($i/3)..."
-                git pull --rebase
-              done
-            fi
-          fi
-
-      - name: Commit updated state
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add state.json events.json
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "chore: update stock state"
-            for i in 1 2 3; do
-              git push && break
-              echo "Push rejected, pulling and retrying ($i/3)..."
-              git pull --rebase
-            done
-          fi
+          git clone https://x-access-token:${WHERESTHATSTOCK_TOKEN}@github.com/enkairito/wheresthatstock.git /tmp/wheresthatstock
+          python publish_updates.py --repo /tmp/wheresthatstock --message "chore: update stock snapshot" --copy products_snapshot.json products.json --sitemap --copy events.json events.json --copy restock_stats.json restock_stats.json
