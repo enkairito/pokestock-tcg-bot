@@ -70,7 +70,7 @@
   "ES:B0DT7D5K1X": {
     "name": "Pokémon Colección prémium Bellibolt ex de e-Nigma de JCC Pokémon (1 Carta holográfica con ilustración expandida, 6 Sobres de Mejora y Figuras acrílicas)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "price": "47,63 €",
     "first_seen": "2026-08-25T20:27:54.285177+00:00"
   },
@@ -193,8 +193,9 @@
   },
   "ES:B0GSSQYPK3": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
-    "status": "no_disponible",
+    "status": "invitacion",
     "stock": null,
+    "price": "29,94 €",
     "first_seen": "2026-08-25T20:27:53.163279+00:00"
   },
   "ES:B0GSSJ9RB1": {
@@ -220,9 +221,8 @@
   },
   "ES:B0GYSDGPBH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Emboar e Inkay de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null,
-    "price": "10,99 €",
     "first_seen": "2026-08-25T20:27:54.285149+00:00"
   },
   "ES:B0GYSKFHBY": {
@@ -1446,7 +1446,7 @@
   "UK:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "3",
     "price": "292,89 €",
     "first_seen": "2026-09-04T21:32:58.802818+00:00"
   },
@@ -1565,8 +1565,8 @@
   "US:B0D92YXKBH": {
     "name": "Pokemon TCG: Scarlet & Violet—151 Mini Tin – Electabuzz and Magnemite (2 Booster Packs, 1 Coin & 1 Art Card)",
     "status": "compra_directa",
-    "stock": null,
-    "price": "92,77 €",
+    "stock": "1",
+    "price": "74,05 €",
     "first_seen": "2026-09-04T21:32:58.802947+00:00"
   },
   "UK:B0GTBMMGSR": {
@@ -1586,7 +1586,7 @@
   "UK:B0DH53TQCC": {
     "name": "Pokemon Scarlet & Violet Stellar Crown Booster Pack",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "3",
     "price": "26,33 €",
     "first_seen": "2026-09-04T22:05:43.537215+00:00"
   },
@@ -1796,7 +1796,7 @@
     "name": "Pokemon - Scarlet & Violet: High Class Pack Shiny Treasure ex - Booster Box",
     "status": "compra_directa",
     "stock": "1",
-    "price": "219,52 €",
+    "price": "219,35 €",
     "first_seen": "2026-09-08T14:34:56.335808+00:00"
   },
   "UK:B0CK8JM32H": {
@@ -1831,7 +1831,7 @@
     "name": "Pokémon TCG: Baraja de Batalla V: Lycanroc contra Corviknight",
     "status": "compra_directa",
     "stock": "1",
-    "price": "76,05 €",
+    "price": "75,15 €",
     "first_seen": "2026-09-08T14:34:56.335876+00:00"
   },
   "UK:B00TA6E3KI": {
@@ -1851,8 +1851,8 @@
   "US:B0FNLMQ5RN": {
     "name": "Pokémon TCG: Scarlet & Violet Expansion – Glory of Team Rocket (SV10) Booster Pack – JPN",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "28,92 €",
+    "stock": "4",
+    "price": "30,00 €",
     "first_seen": "2026-09-08T14:34:56.335896+00:00"
   },
   "US:B0DX79MM56": {
@@ -1887,7 +1887,7 @@
     "name": "Pokemon Sword and Shield Darkness Ablaze Booster Pack (1 Booster Pack)",
     "status": "compra_directa",
     "stock": "5",
-    "price": "33,90 €",
+    "price": "34,49 €",
     "first_seen": "2026-09-08T14:34:56.335940+00:00"
   },
   "US:B0CS12GPTB": {
@@ -1924,5 +1924,12 @@
     "stock": null,
     "price": "36,07 €",
     "first_seen": "2026-09-08T14:34:56.335970+00:00"
+  },
+  "US:B0DG8VNG1F": {
+    "name": "Pokémon TCG: Scarlet & Violet—Shrouded Fable Booster Bundle (6 Booster Packs)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "112,61 €",
+    "first_seen": "2026-09-08T21:53:40.425353+00:00"
   }
 }
