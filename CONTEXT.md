@@ -207,6 +207,17 @@ texto literal `"null"` cuando el producto no tiene precio de referencia
 
 ## Mejoras pendientes acordadas
 
+- **2026-09-08 — API y almacenamiento persistente (aplazado):** el usuario
+  quiere dejar anotada esta mejora, sin implementarla todavía. Evaluar
+  Cloudflare Workers + D1 para que el bot publique resultados mediante una
+  ruta autenticada y la web consulte productos, precios, disponibilidad y
+  última comprobación por tienda y juego sin depender de commits y despliegues
+  para actualizar los datos. Verificar límites y costes antes de elegir.
+  Migrar primero los datos de la web y después, con pruebas específicas,
+  el estado de deduplicación de alertas. La API no aumenta por sí sola la
+  frecuencia de consulta de las tiendas. Mantener el sistema actual hasta
+  que el usuario decida retomar la migración.
+
 - **2026-09-08 — Enlace web a la futura comunidad de Telegram:** el usuario
   prevé crear una comunidad general y dirigir allí los enlaces de Telegram
   de la web. Mantener por ahora los enlaces actuales a `t.me/PokeStockTCG`.
