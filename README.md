@@ -187,6 +187,35 @@ Las pruebas simulan las tiendas y Telegram, y verifican la publicación
 contra repositorios Git temporales locales. También se ejecutan en
 GitHub Actions cuando cambia el código o los workflows.
 
+## Fichas, actividad y salud del stock
+
+`stock_logic.py` comparte las reglas de cambios de disponibilidad, precio y
+unidades, además de la serialización de snapshots, entre los scrapers.
+La exclusión de accesorios de las alertas de One Piece sigue en su scraper.
+
+Al publicar la web, `publish_updates.py` ejecuta `build_catalog.py` sobre el
+checkout remoto actualizado. Conserva un `catalog-*.json` y un feed
+`activity-*.json` por origen, y genera fichas estáticas en `producto/` con
+contenido inicial, metadatos y sitemap. Los productos ausentes se conservan
+como «sin confirmar»: la ausencia en el listado no demuestra que estén agotados.
+La inicialización no inventa eventos históricos; los nuevos juegos registran
+cambios a partir de su siguiente publicación. Se conservan hasta 200 eventos
+por origen. Los reintentos recombinan estos archivos con la versión remota.
+
+`monitor_health.yml` comprueba cada hora y tras finalizar un scraper los
+últimos resultados de GitHub Actions y los snapshots públicos. Falla y genera
+un resumen con las fuentes afectadas cuando hay dos ejecuciones consecutivas
+sin éxito, una fecha inválida o más de dos intervalos previstos más 30 minutos
+sin una actualización correcta. Detecta también que el workflow termine pero
+la web siga mostrando datos antiguos. No envía mensajes a Telegram.
+El monitor usa solo permisos de lectura y se puede lanzar manualmente.
+
+Accesorios conserva `source_updates` para separar la consulta diaria de la
+aportación horaria de One Piece; una no rejuvenece los datos de la otra.
+La interfaz aplica los mismos márgenes e indica la frecuencia de cada fuente.
+Las fechas iniciales se recuperan de publicaciones reales del historial Git.
+La migración a API/base de datos sigue aplazada.
+
 ## Riesgos conocidos
 
 - **Consultas incompletas**: un error HTTP, captcha, ficha sin título o

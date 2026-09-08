@@ -29,7 +29,9 @@ def merge_snapshots(base, new, source):
             products[(product["marketplace"], product["asin"])] = {**product, "source": owner}
     for product in new["products"]:
         products[(product["marketplace"], product["asin"])] = {**product, "source": source}
-    return {"updated_at": new.get("updated_at"), "products": list(products.values())}
+    updates = {**base.get("source_updates", {}), source: new.get("updated_at")}
+    return {"updated_at": new.get("updated_at"), "source_updates": updates,
+            "products": list(products.values())}
 
 
 def main():

@@ -207,6 +207,23 @@ texto literal `"null"` cuando el producto no tiene precio de referencia
 
 ## Mejoras pendientes acordadas
 
+### Mejoras implementadas el 2026-09-08
+
+- Fechas y margen de retraso por fuente en la web (dos intervalos + 30 min),
+  incluidos los productores diario y horario de accesorios; textos de cadencia
+  corregidos. La portada combina novedades, ofertas y actividad de cinco juegos.
+- `build_catalog.py` genera fichas HTML persistentes, metadatos y sitemap en
+  cada publicación web. Archivos `catalog-*.json` conservan los productos
+  ausentes como «sin confirmar» y `activity-*.json` guarda hasta 200 eventos
+  por fuente. No se inventan eventos históricos al inicializar.
+- `monitor_health.yml` comprueba publicaciones y workflows cada hora y al
+  terminar los scrapers; informa en GitHub Actions de fallos consecutivos y
+  datos antiguos, sin enviar mensajes externos.
+- `stock_logic.py` comparte reglas de avisos y serialización de snapshots.
+  Pruebas de regresión del bot y de Chromium para la interfaz en ambos repos.
+
+### Decisiones aplazadas
+
 - **2026-09-08 — API y almacenamiento persistente (aplazado):** el usuario
   quiere dejar anotada esta mejora, sin implementarla todavía. Evaluar
   Cloudflare Workers + D1 para que el bot publique resultados mediante una

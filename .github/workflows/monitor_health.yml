@@ -1,0 +1,31 @@
+name: Monitor stock health
+
+on:
+  schedule:
+    - cron: '37 * * * *'
+  workflow_dispatch: {}
+  workflow_run:
+    workflows: ['Check Pokémon TCG Stock', 'Check One Piece TCG Stock', 'Check Magic TCG Stock', 'Check Lorcana Stock', 'Check Yu-Gi-Oh Stock', 'Check TCG Accessories Stock']
+    types: [completed]
+
+permissions:
+  actions: read
+  contents: read
+
+concurrency:
+  group: monitor-stock-health
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Check workflow history and public snapshots
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python monitor_health.py

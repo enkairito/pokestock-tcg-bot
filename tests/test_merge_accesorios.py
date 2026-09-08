@@ -12,6 +12,12 @@ def snapshot(*products):
 
 
 class MergeAccessoriesTests(unittest.TestCase):
+    def test_new_onepiece_run_preserves_daily_accessory_timestamp(self):
+        old = {**snapshot(product()), "source_updates": {"accessories": "2026-09-06T08:00:00Z"}}
+        merged = merge_snapshots(old, snapshot(), "onepiece")
+        self.assertEqual(merged["source_updates"]["accessories"], "2026-09-06T08:00:00Z")
+        self.assertEqual(merged["source_updates"]["onepiece"], snapshot()["updated_at"])
+
     def test_republishing_categorized_accessories_is_idempotent(self):
         new = snapshot(product(categories=["Sin asociar"]), product("B000000002", ["Pokémon"]))
         first = merge_snapshots(snapshot(), new, "accessories")
