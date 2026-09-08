@@ -9,6 +9,7 @@ import json
 import re
 import xml.etree.ElementTree as ET
 from pathlib import Path
+from urllib.parse import urlparse
 
 from stock_logic import alert_changes
 
@@ -65,6 +66,19 @@ def render_page(template, product):
     output = re.sub(r'<meta name="description"[^>]*>', lambda _: f'<meta name="description" content="{description}">', output, count=1)
     output = output.replace('<meta name="robots" content="noindex">', '')
     output = output.replace('</head>', f'<link rel="canonical" href="{ORIGIN}/producto/{key}">\n</head>', 1)
+    image = product.get("image") or ""
+    parsed_image = urlparse(image)
+    if parsed_image.scheme != "https" or not parsed_image.netloc:
+        image = f"{ORIGIN}/assets/brand/social.png"
+    metadata = {
+        "og:type": "website", "og:site_name": "Where's That Stock",
+        "og:title": product.get("name") or "Producto",
+        "og:description": f"Consulta este producto en {product.get('store_label') or 'la tienda'} y guárdalo en tus favoritos.",
+        "og:url": f"{ORIGIN}/producto/{key}", "og:image": image,
+        "twitter:card": "summary_large_image",
+    }
+    tags = "\n".join(f'<meta {"name" if label.startswith("twitter:") else "property"}="{label}" content="{html.escape(value, quote=True)}">' for label, value in metadata.items())
+    output = output.replace('</head>', tags + '\n</head>', 1)
     status = {"compra_directa": "Disponible en la última comprobación", "invitacion": "Disponible por invitación", "preventa": "Preventa", "no_disponible": "Agotado"}.get(product.get("status"), "Disponibilidad sin confirmar; ya no aparece en el listado actual")
     # Contenido real en el HTML inicial, incluso sin JavaScript o para buscadores.
     body = f'<h1>{name}</h1><p>{status}.</p><p>Última vez visto: {html.escape(product.get("last_seen", ""))}.</p>'

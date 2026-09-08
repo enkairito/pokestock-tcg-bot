@@ -57,3 +57,12 @@ class CatalogTests(unittest.TestCase):
             page = root / "producto" / "ES-B000000001.html"
             self.assertIn("Disponibilidad sin confirmar", page.read_text(encoding="utf-8"))
             self.assertIn("/producto/ES-B000000001", (root / "sitemap.xml").read_text())
+
+    def test_sharing_metadata_is_static_and_does_not_publish_an_old_price(self):
+        product = {**PRODUCT, "name": 'Booster "special" & friends', "image": "https://example.test/card.jpg", "store_label": "Amazon"}
+        page = render_page(TEMPLATE, product)
+        self.assertIn('property="og:image" content="https://example.test/card.jpg"', page)
+        self.assertIn('property="og:title" content="Booster &quot;special&quot; &amp; friends"', page)
+        self.assertIn('property="og:url" content="https://wheresthatstock.com/producto/ES-B000000001"', page)
+        page = render_page(TEMPLATE, {**product, "image": "javascript:alert(1)"})
+        self.assertIn('property="og:image" content="https://wheresthatstock.com/assets/brand/social.png"', page)
