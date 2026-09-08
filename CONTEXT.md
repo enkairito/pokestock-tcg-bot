@@ -206,6 +206,16 @@ texto literal `"null"` cuando el producto no tiene precio de referencia
   esperar a que se note el fallo. Revisar si conviene ajustar esta
   cadencia según se acumulen más datos.
 
+## Mejoras pendientes acordadas
+
+- **2026-09-08 — Enlace web a la futura comunidad de Telegram:** el usuario
+  prevé crear una comunidad general y dirigir allí los enlaces de Telegram
+  de la web. Mantener por ahora los enlaces actuales a `t.me/PokeStockTCG`.
+  Cuando la comunidad esté creada y el usuario facilite su URL, actualizar
+  los enlaces de la web para apuntar a ella. No sustituirlos por canales
+  individuales de cada juego. Esta decisión afecta a la navegación web;
+  los bots conservan sus destinos de alertas por juego.
+
 ## Issues abiertas (revisar con `gh issue list`)
 
 **pokestock-tcg-bot**
