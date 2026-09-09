@@ -1,18 +1,5 @@
 [
   {
-    "ts": "2026-09-07T19:01:37.274282+00:00",
-    "type": "price_drop",
-    "asin": "B0GWCSP6MR",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
-    "image": "https://m.media-amazon.com/images/I/61fr9skKG-L._AC_UL320_AIweblab1378949,T1_.jpg",
-    "price": "21,72 €",
-    "prev_price": "22,12 €",
-    "link": "https://www.amazon.es/dp/B0GWCSP6MR?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-07T19:01:37.274308+00:00",
     "type": "price_drop",
     "asin": "B0F634M6PY",
@@ -778,5 +765,18 @@
     "price": "219,65 €",
     "prev_price": "219,77 €",
     "link": "https://www.amazon.es/dp/B0CF1MDBS5?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-09T09:47:22.900884+00:00",
+    "type": "price_drop",
+    "asin": "B09M48Z5NW",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon TCG: Baraja de Batalla V: Lycanroc contra Corviknight",
+    "image": "https://m.media-amazon.com/images/I/71fYchuNuOL._AC_UL320_.jpg",
+    "price": "74,22 €",
+    "prev_price": "75,15 €",
+    "link": "https://www.amazon.es/dp/B09M48Z5NW?tag=enkairito-21"
   }
 ]
