@@ -70,7 +70,7 @@
   "ES:B0DT7D5K1X": {
     "name": "Pokémon Colección prémium Bellibolt ex de e-Nigma de JCC Pokémon (1 Carta holográfica con ilustración expandida, 6 Sobres de Mejora y Figuras acrílicas)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "price": "47,63 €",
     "first_seen": "2026-08-25T20:27:54.285177+00:00"
   },
@@ -78,7 +78,7 @@
     "name": "Pokémon: Estadio Combina y Combate de Escarlata y Púrpura (2 Barajas, 11 Paquetes de Mejora y más)",
     "status": "compra_directa",
     "stock": null,
-    "price": "64,98 €",
+    "price": "65,98 €",
     "first_seen": "2026-08-25T20:27:54.285181+00:00"
   },
   "ES:B0G4NQK15P": {
@@ -1739,7 +1739,7 @@
   "US:B0CXTNNVHN": {
     "name": "Pokémon TCG: Mini Cartera (Cartera de 60 Tarjetas y 1 Paquete de Refuerzo)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "price": "34,05 €",
     "first_seen": "2026-09-07T19:01:37.274378+00:00"
   },
@@ -1760,7 +1760,7 @@
   "US:B0C16H3DGV": {
     "name": "Pokemon Booster Pack - Scarlet & Violet SV1 Base Set - 10 Card Pack - Pack Art Varys",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "3",
     "price": "33,13 €",
     "first_seen": "2026-09-08T00:08:50.343349+00:00"
   },
@@ -1775,7 +1775,7 @@
     "name": "Pokémon TCG: Booster Pack de 10 Cartas Mega Evolution Flames Phantasmal Mangas",
     "status": "compra_directa",
     "stock": null,
-    "price": "33,24 €",
+    "price": "39,95 €",
     "first_seen": "2026-09-08T14:34:56.335771+00:00"
   },
   "UK:B0DG8VNG1F": {
@@ -1796,7 +1796,7 @@
     "name": "Pokemon - Scarlet & Violet: High Class Pack Shiny Treasure ex - Booster Box",
     "status": "compra_directa",
     "stock": "1",
-    "price": "219,35 €",
+    "price": "219,18 €",
     "first_seen": "2026-09-08T14:34:56.335808+00:00"
   },
   "UK:B0CK8JM32H": {
@@ -1845,13 +1845,13 @@
     "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
     "status": "compra_directa",
     "stock": null,
-    "price": "322,50 €",
+    "price": "310,88 €",
     "first_seen": "2026-09-08T14:34:56.335889+00:00"
   },
   "US:B0FNLMQ5RN": {
     "name": "Pokémon TCG: Scarlet & Violet Expansion – Glory of Team Rocket (SV10) Booster Pack – JPN",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "2",
     "price": "30,00 €",
     "first_seen": "2026-09-08T14:34:56.335896+00:00"
   },

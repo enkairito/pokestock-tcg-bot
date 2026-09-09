@@ -1,31 +1,5 @@
 [
   {
-    "ts": "2026-09-07T08:02:00.453697+00:00",
-    "type": "price_drop",
-    "asin": "B0GDYP1LRF",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokemon TCG | Mega Brave | Caja de refuerzo japonesa (M1L) | Para coleccionistas de más de 15 años",
-    "image": "https://m.media-amazon.com/images/I/6146hWIRAXL._AC_UL320_AIweblab1378949,T1_.jpg",
-    "price": "111,30 €",
-    "prev_price": "114,59 €",
-    "link": "https://www.amazon.es/dp/B0GDYP1LRF?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-07T08:02:00.453745+00:00",
-    "type": "price_drop",
-    "asin": "B0FSJXSPPX",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
-    "image": "https://m.media-amazon.com/images/I/61X4gWuo4BL._AC_UL320_AIweblab1378949,T1_.jpg",
-    "price": "93,46 €",
-    "prev_price": "93,51 €",
-    "link": "https://www.amazon.es/dp/B0FSJXSPPX?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-07T08:02:00.453831+00:00",
     "type": "price_drop",
     "asin": "B0GZ9S9KDR",
@@ -778,5 +752,31 @@
     "price": "74,05 €",
     "prev_price": "92,77 €",
     "link": "https://www.amazon.es/dp/B0D92YXKBH?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-09T00:16:33.906275+00:00",
+    "type": "price_drop",
+    "asin": "B0CF1MDBS5",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokemon - Scarlet & Violet: High Class Pack Shiny Treasure ex - Booster Box",
+    "image": "https://m.media-amazon.com/images/I/61gL2PWEihL._AC_UL320_.jpg",
+    "price": "219,18 €",
+    "prev_price": "219,35 €",
+    "link": "https://www.amazon.es/dp/B0CF1MDBS5?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-09T00:16:33.906327+00:00",
+    "type": "price_drop",
+    "asin": "B0F1GXTFGL",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
+    "image": "https://m.media-amazon.com/images/I/71fEr7l8M4L._AC_UL320_.jpg",
+    "price": "310,88 €",
+    "prev_price": "322,50 €",
+    "link": "https://www.amazon.es/dp/B0F1GXTFGL?tag=enkairito-21"
   }
 ]
