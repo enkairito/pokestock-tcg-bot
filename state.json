@@ -37,7 +37,7 @@
     "name": "Pokémon: Colección Cyclizar ex",
     "status": "compra_directa",
     "stock": null,
-    "price": "24,87 €",
+    "price": "24,88 €",
     "first_seen": "2026-08-25T20:27:54.285127+00:00"
   },
   "ES:B0CJYK29Y9": {
@@ -193,9 +193,8 @@
   },
   "ES:B0GSSQYPK3": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null,
-    "price": "29,94 €",
     "first_seen": "2026-08-25T20:27:53.163279+00:00"
   },
   "ES:B0GSSJ9RB1": {
@@ -1278,8 +1277,9 @@
   },
   "ES:B0FMYKCKK6": {
     "name": "Pokémon: Colección Poderes Supremos de JCC Pokémon: Terapagos ex (3 Cartas holográfica de promoción, 18 Paquetes de Mejora)",
-    "status": "no_disponible",
-    "stock": null,
+    "status": "compra_directa",
+    "stock": "3",
+    "price": "141,41 €",
     "first_seen": "2026-09-04T15:11:54.795786+00:00"
   },
   "US:B0BCN6HZR3": {
@@ -1566,7 +1566,7 @@
     "name": "Pokemon TCG: Scarlet & Violet—151 Mini Tin – Electabuzz and Magnemite (2 Booster Packs, 1 Coin & 1 Art Card)",
     "status": "compra_directa",
     "stock": "1",
-    "price": "74,05 €",
+    "price": "82,51 €",
     "first_seen": "2026-09-04T21:32:58.802947+00:00"
   },
   "UK:B0GTBMMGSR": {
@@ -1852,7 +1852,7 @@
     "name": "Pokémon TCG: Scarlet & Violet Expansion – Glory of Team Rocket (SV10) Booster Pack – JPN",
     "status": "compra_directa",
     "stock": "3",
-    "price": "29,10 €",
+    "price": "29,19 €",
     "first_seen": "2026-09-08T14:34:56.335896+00:00"
   },
   "US:B0DX79MM56": {
@@ -1931,5 +1931,75 @@
     "stock": null,
     "price": "112,61 €",
     "first_seen": "2026-09-08T21:53:40.425353+00:00"
+  },
+  "ES:B0H8SZ9F99": {
+    "name": "Pokémon: Blíster de 2 Sobres de Mejora de Celebración 30.º Aniversario de JCC Pokémon (1 Carta holográfica, 1 Moneda y 2 Sobres de Mejora)",
+    "status": "preventa",
+    "stock": null,
+    "price": "12,99 €",
+    "first_seen": "2026-09-09T13:27:34.624360+00:00"
+  },
+  "ES:B0H8SX832W": {
+    "name": "Pokémon: Álbum para Colecciones de Celebración 30.º Aniversario de JCC Pokémon (1 álbum y 5 Sobres de Mejora)",
+    "status": "preventa",
+    "stock": null,
+    "price": "44,99 €",
+    "first_seen": "2026-09-09T13:27:40.795579+00:00"
+  },
+  "ES:B0H8T5GC4W": {
+    "name": "Pokémon: Caja de Entrenador Élite de Celebración 30.º Aniversario de JCC Pokémon (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
+    "status": "preventa",
+    "stock": null,
+    "price": "52,99 €",
+    "first_seen": "2026-09-09T13:27:46.776826+00:00"
+  },
+  "ES:B0H8SWNVWT": {
+    "name": "Pokémon: Colección Sylveon ex de Celebración 30.º Aniversario de JCC Pokémon (1 Carta holográfica de promoción, 1 Carta holográfica de Gran tamaño y 4 Sobres de Mejora)",
+    "status": "preventa",
+    "stock": null,
+    "price": "24,99 €",
+    "first_seen": "2026-09-09T13:27:52.661446+00:00"
+  },
+  "ES:B0H8SY1NB9": {
+    "name": "Pokémon: Colección Greninja ex de Celebración 30.º Aniversario de JCC Pokémon (1 Carta holográfica de promoción, 1 Carta holográfica de Gran tamaño y 4 Sobres de Mejora)",
+    "status": "preventa",
+    "stock": null,
+    "price": "24,99 €",
+    "first_seen": "2026-09-09T13:27:58.861571+00:00"
+  },
+  "ES:B0H8T4RR5S": {
+    "name": "Pokémon: Lata Celebración 30.º Aniversario: Sylveon ex de JCC Pokémon (1 Carta holográfica de promoción y 4 Sobres de Mejora)",
+    "status": "preventa",
+    "stock": null,
+    "price": "24,99 €",
+    "first_seen": "2026-09-09T13:28:05.051265+00:00"
+  },
+  "ES:B0H8T3MP6T": {
+    "name": "Pokémon: Lata Celebración 30.º Aniversario: Greninja ex de JCC Pokémon (1 Carta holográfica de promoción y 4 Sobres de Mejora)",
+    "status": "preventa",
+    "stock": null,
+    "price": "24,99 €",
+    "first_seen": "2026-09-09T13:28:11.050832+00:00"
+  },
+  "ES:B0H8SXC5L9": {
+    "name": "Pokémon: Colección con póster de Celebración 30.º Aniversario de JCC Pokémon (3 Cartas de promoción, 1 póster y 3 Sobres de Mejora)",
+    "status": "preventa",
+    "stock": null,
+    "price": "23,99 €",
+    "first_seen": "2026-09-09T13:28:17.096102+00:00"
+  },
+  "ES:B0H8SZX85C": {
+    "name": "Pokémon: Colección con Pegatinas Especiales de Celebración 30.º Aniversario: Exeggutor de Alola de JCC Pokémon (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
+    "status": "preventa",
+    "stock": null,
+    "price": "18,99 €",
+    "first_seen": "2026-09-09T13:28:23.224913+00:00"
+  },
+  "ES:B0H8SX7CF6": {
+    "name": "Pokémon: Colección con Pegatinas Especiales de Celebración 30.º Aniversario: Lucario de JCC Pokémon (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
+    "status": "preventa",
+    "stock": null,
+    "price": "18,99 €",
+    "first_seen": "2026-09-09T13:28:29.363509+00:00"
   }
 }
