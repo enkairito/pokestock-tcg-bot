@@ -85,7 +85,7 @@
     "name": "Disney Lorcana TCG: Ataque de la zarcilla! - Cofre del Tesoro de Luminari (Español)",
     "status": "compra_directa",
     "stock": "1",
-    "price": "77,54 €",
+    "price": "76,97 €",
     "first_seen": "2026-09-07T17:42:06.427643+00:00"
   },
   "ES:B0GK896YXF": {
@@ -99,7 +99,7 @@
     "name": "Ravensburger - Disney Lorcana TCG: Set 7 Bella Y Bestia | Juegos De Cartas Adultos Y Niños con 60 Cartas Disney Lorcana | Juegos Niños 8 Años O Más Coleccionables | Regalos Originales",
     "status": "compra_directa",
     "stock": null,
-    "price": "19,99 €",
+    "price": "19,39 €",
     "first_seen": "2026-09-07T17:42:20.342685+00:00"
   },
   "ES:B0BT6NK58G": {
@@ -185,5 +185,12 @@
     "stock": null,
     "price": "54,33 €",
     "first_seen": "2026-09-09T11:34:34.043787+00:00"
+  },
+  "ES:B0H6JBF9FM": {
+    "name": "Ravensburger Disney Lorcana TCG: Attack of the Vine! Paquete de refuerzo individual surtido (12 tarjetas) - Tarjetas coleccionables - Ideal para fanáticos de Disney y jugadores de TCG - Adecuado para",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "24,12 €",
+    "first_seen": "2026-09-09T21:00:57.459377+00:00"
   }
 }
