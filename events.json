@@ -1,31 +1,5 @@
 [
   {
-    "ts": "2026-09-07T22:00:31.129039+00:00",
-    "type": "price_drop",
-    "asin": "B0FSJXSPPX",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
-    "image": "https://m.media-amazon.com/images/I/61X4gWuo4BL._AC_UL320_AIweblab1378949,T1_.jpg",
-    "price": "93,40 €",
-    "prev_price": "93,46 €",
-    "link": "https://www.amazon.es/dp/B0FSJXSPPX?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-07T22:00:31.129093+00:00",
-    "type": "price_drop",
-    "asin": "B0DB7C1Z26",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
-    "image": "https://m.media-amazon.com/images/I/81TD+vNJcJL._AC_UL320_AIweblab1378949,T1_.jpg",
-    "price": "119,32 €",
-    "prev_price": "119,77 €",
-    "link": "https://www.amazon.es/dp/B0DB7C1Z26?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-07T22:00:31.129121+00:00",
     "type": "price_drop",
     "asin": "B0FNDK5FGK",
@@ -778,5 +752,31 @@
     "price": "87,52 €",
     "prev_price": "87,56 €",
     "link": "https://www.amazon.es/dp/B0DX79MM56?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-09T11:06:12.971349+00:00",
+    "type": "price_drop",
+    "asin": "B0CF1MDBS5",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokemon - Scarlet & Violet: High Class Pack Shiny Treasure ex - Booster Box",
+    "image": "https://m.media-amazon.com/images/I/61gL2PWEihL._AC_UL320_.jpg",
+    "price": "219,63 €",
+    "prev_price": "219,64 €",
+    "link": "https://www.amazon.es/dp/B0CF1MDBS5?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-09T11:06:12.971404+00:00",
+    "type": "price_drop",
+    "asin": "B0FPNRG8GS",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokémon TCG: Mega Evolution—Phantasmal Flames Triple Pack Sneasel (1 Carta Promocional holográfica y 3 Sobres potenciadores)",
+    "image": "https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T3/images/I/91HdZKv9WJL._AC_UL320_.jpg",
+    "price": "68,73 €",
+    "prev_price": "69,04 €",
+    "link": "https://www.amazon.es/dp/B0FPNRG8GS?tag=enkairito-21"
   }
 ]
