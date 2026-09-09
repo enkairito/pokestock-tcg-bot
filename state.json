@@ -1277,9 +1277,8 @@
   },
   "ES:B0FMYKCKK6": {
     "name": "Pokémon: Colección Poderes Supremos de JCC Pokémon: Terapagos ex (3 Cartas holográfica de promoción, 18 Paquetes de Mejora)",
-    "status": "compra_directa",
-    "stock": "3",
-    "price": "141,41 €",
+    "status": "no_disponible",
+    "stock": null,
     "first_seen": "2026-09-04T15:11:54.795786+00:00"
   },
   "US:B0BCN6HZR3": {
@@ -1391,7 +1390,7 @@
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising Premium Checklane Blister Duo Pack | Flygon & Pawmot | 2 ampollas incluyendo 2 paquetes de refuerzo, 2 tarjetas promocionales y 2 monedas coleccionables |",
     "status": "compra_directa",
     "stock": null,
-    "price": "32,66 €",
+    "price": "36,66 €",
     "first_seen": "2026-09-04T21:32:58.802771+00:00"
   },
   "UK:B0F634M6PY": {
@@ -1446,8 +1445,8 @@
   "UK:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": "3",
-    "price": "292,89 €",
+    "stock": "1",
+    "price": "292,90 €",
     "first_seen": "2026-09-04T21:32:58.802818+00:00"
   },
   "US:B0F2BCG1Y5": {
@@ -1781,7 +1780,7 @@
   "UK:B0DG8VNG1F": {
     "name": "Pokémon TCG: Scarlet & Violet—Shrouded Fable Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": null,
     "price": "97,93 €",
     "first_seen": "2026-09-08T14:34:56.335794+00:00"
   },
@@ -1796,7 +1795,7 @@
     "name": "Pokemon - Scarlet & Violet: High Class Pack Shiny Treasure ex - Booster Box",
     "status": "compra_directa",
     "stock": "1",
-    "price": "219,47 €",
+    "price": "219,23 €",
     "first_seen": "2026-09-08T14:34:56.335808+00:00"
   },
   "UK:B0CK8JM32H": {
@@ -1817,7 +1816,7 @@
     "name": "2023 Pokémon TCG World Championships Deck – Tord Reklev…",
     "status": "compra_directa",
     "stock": "5",
-    "price": "36,97 €",
+    "price": "36,06 €",
     "first_seen": "2026-09-08T14:34:56.335859+00:00"
   },
   "UK:B0BZJWNBRZ": {
@@ -1831,7 +1830,7 @@
     "name": "Pokémon TCG: Baraja de Batalla V: Lycanroc contra Corviknight",
     "status": "compra_directa",
     "stock": "1",
-    "price": "64,60 €",
+    "price": "58,70 €",
     "first_seen": "2026-09-08T14:34:56.335876+00:00"
   },
   "UK:B00TA6E3KI": {
@@ -1851,7 +1850,7 @@
   "US:B0FNLMQ5RN": {
     "name": "Pokémon TCG: Scarlet & Violet Expansion – Glory of Team Rocket (SV10) Booster Pack – JPN",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "5",
     "price": "29,19 €",
     "first_seen": "2026-09-08T14:34:56.335896+00:00"
   },
@@ -1859,7 +1858,7 @@
     "name": "Pokémon TCG: Azure Legends Tin - Xerneas ex (4 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
     "status": "compra_directa",
     "stock": null,
-    "price": "87,56 €",
+    "price": "87,57 €",
     "first_seen": "2026-09-08T14:34:56.335902+00:00"
   },
   "US:B0G49Y6JCM": {
@@ -1887,7 +1886,7 @@
     "name": "Pokemon Sword and Shield Darkness Ablaze Booster Pack (1 Booster Pack)",
     "status": "compra_directa",
     "stock": "5",
-    "price": "33,93 €",
+    "price": "33,94 €",
     "first_seen": "2026-09-08T14:34:56.335940+00:00"
   },
   "US:B0CS12GPTB": {
