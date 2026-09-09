@@ -14,8 +14,8 @@
   "ES:B0GWDXZ12H": {
     "name": "Ravensburger Disney Lorcana - Juego de cartas coleccionables para adultos y niños a partir de 8 años - Set 12: Wilds Unknown - Deck para 2 jugadores",
     "status": "compra_directa",
-    "stock": "3",
-    "price": "39,01 €",
+    "stock": null,
+    "price": "41,72 €",
     "first_seen": "2026-09-07T17:41:04.537441+00:00"
   },
   "ES:B0H8S82717": {
@@ -28,7 +28,7 @@
   "ES:B0DDL55ND5": {
     "name": "Ravensburger - Disney Lorcana TCG Set 7: Juego De Illumineers Trove | Juegos De Cartas Adultos Y Niños con Cartas Disney Lorcana | Juegos Niños 8 Años O Más Coleccionables | Regalos Originales",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "3",
     "price": "54,99 €",
     "first_seen": "2026-09-07T17:41:19.391879+00:00"
   },
@@ -177,5 +177,12 @@
     "stock": null,
     "price": "157,36 €",
     "first_seen": "2026-09-08T11:29:17.563714+00:00"
+  },
+  "ES:B0CGXJ8244": {
+    "name": "Disney Lorcana Disney Lorcana TCG - Ursula's Return Ill",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "54,33 €",
+    "first_seen": "2026-09-09T11:34:34.043787+00:00"
   }
 }
