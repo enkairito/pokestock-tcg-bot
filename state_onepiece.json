@@ -16,8 +16,8 @@
   "ES:B0HC7Q9P41": {
     "name": "Juego de cartas de una pieza ST-35 rojo y negro Sabo | Baraja de inicio, ST-35, rojo y negro, Sabo, juego de cartas coleccionables",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "32,00 €",
+    "stock": "2",
+    "price": "36,87 €",
     "first_seen": "2026-08-29T18:08:37.714905+00:00"
   },
   "ES:B0HC7FPQJM": {
@@ -30,14 +30,14 @@
   "ES:B0HC746FKY": {
     "name": "Juego de cartas de una pieza ST-34 Purple Charlotte Katakuri | Baraja de inicio, ST-34, Charlotte Katakuri, morado, juego de cartas coleccionables",
     "status": "compra_directa",
-    "stock": null,
-    "price": "38,47 €",
+    "stock": "3",
+    "price": "32,62 €",
     "first_seen": "2026-08-29T18:08:49.282666+00:00"
   },
   "ES:B0CRKK3D43": {
     "name": "One Piece TCG: 500 Years In The Future - Booster Pack (OP-07) (JP) (TCG)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "price": "10,69 €",
     "first_seen": "2026-08-29T18:08:58.807648+00:00"
   },
@@ -65,8 +65,8 @@
   "ES:B0HC79T34C": {
     "name": "Juego de cartas de una pieza ST-33 Blue Kuzan | Baraja de inicio, ST-33, Blue Kuzan, juego de cartas coleccionables",
     "status": "compra_directa",
-    "stock": "2",
-    "price": "30,00 €",
+    "stock": "5",
+    "price": "32,62 €",
     "first_seen": "2026-08-29T18:09:23.560405+00:00"
   },
   "ES:B0FL83L295": {
@@ -101,7 +101,7 @@
     "name": "One Piece TCG: Two Legends - Booster Pack (OP-08) (JP) (TCG)",
     "status": "compra_directa",
     "stock": null,
-    "price": "15,19 €",
+    "price": "8,46 €",
     "first_seen": "2026-08-29T18:09:54.795240+00:00"
   },
   "ES:B0F85QRZP6": {
@@ -150,7 +150,7 @@
     "name": "BANDAI Juego de cartas de una pieza más antiguo (OP-13) (caja) de 24 unidades",
     "status": "compra_directa",
     "stock": null,
-    "price": "252,00 €",
+    "price": "265,48 €",
     "first_seen": "2026-08-29T18:10:47.849793+00:00"
   },
   "ES:B0G2VKBZML": {
@@ -239,7 +239,7 @@
   "ES:B0HF1Z72XW": {
     "name": "One Piece TCG: The World's Strongest Warriors Booster Box (OP-17) - 24 paquetes",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "price": "459,00 €",
     "first_seen": "2026-09-05T20:33:38.638411+00:00"
   },
