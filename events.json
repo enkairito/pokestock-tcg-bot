@@ -1,31 +1,5 @@
 [
   {
-    "ts": "2026-09-08T14:34:56.335869+00:00",
-    "type": "restock",
-    "asin": "B0BZJWNBRZ",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokemon Ampharos ex/Lucario ex Battle Deck",
-    "image": "https://m.media-amazon.com/images/I/81GugWJXftL._AC_UL320_AIweblab1378949,T1_.jpg",
-    "price": "47,52 €",
-    "prev_price": null,
-    "link": "https://www.amazon.es/dp/B0BZJWNBRZ?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-08T14:34:56.335879+00:00",
-    "type": "restock",
-    "asin": "B09M48Z5NW",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokémon TCG: Baraja de Batalla V: Lycanroc contra Corviknight",
-    "image": "https://m.media-amazon.com/images/I/71fYchuNuOL._AC_UL320_AIweblab1378949,T1_.jpg",
-    "price": "75,15 €",
-    "prev_price": null,
-    "link": "https://www.amazon.es/dp/B09M48Z5NW?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-08T14:34:56.335885+00:00",
     "type": "restock",
     "asin": "B00TA6E3KI",
@@ -778,5 +752,31 @@
     "price": "58,70 €",
     "prev_price": "64,60 €",
     "link": "https://www.amazon.es/dp/B09M48Z5NW?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-09T21:44:08.000091+00:00",
+    "type": "price_drop",
+    "asin": "B0GZ9S9KDR",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
+    "image": "https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T3/images/I/81oV7PbLhBL._AC_UL320_.jpg",
+    "price": "291,69 €",
+    "prev_price": "292,90 €",
+    "link": "https://www.amazon.es/dp/B0GZ9S9KDR?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-09T21:44:08.000125+00:00",
+    "type": "price_drop",
+    "asin": "B0CF1MDBS5",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokemon - Scarlet & Violet: High Class Pack Shiny Treasure ex - Booster Box",
+    "image": "https://m.media-amazon.com/images/I/61gL2PWEihL._AC_UL320_.jpg",
+    "price": "219,06 €",
+    "prev_price": "219,23 €",
+    "link": "https://www.amazon.es/dp/B0CF1MDBS5?tag=enkairito-21"
   }
 ]
