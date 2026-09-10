@@ -170,7 +170,7 @@
     "name": "Ravensburger Disney Lorcana TCG: Attack of the Vine! Booster Pack Display - 24 paquetes con 12 tarjetas coleccionables cada uno - 288 cartas en total - Ideal para coleccionistas y fans de Disney",
     "status": "compra_directa",
     "stock": "1",
-    "price": "256,58 €",
+    "price": "256,54 €",
     "first_seen": "2026-09-08T11:29:11.493181+00:00"
   },
   "ES:B0DDPH3JQB": {
@@ -214,5 +214,12 @@
     "stock": "2",
     "price": "5,99 €",
     "first_seen": "2026-09-10T11:31:24.750914+00:00"
+  },
+  "ES:B0H6JGF65L": {
+    "name": "Disney Lorcana TCG: Álbum de Recortes, diseño de Mickey y Minnie",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "24,99 €",
+    "first_seen": "2026-09-10T16:32:27.086465+00:00"
   }
 }
