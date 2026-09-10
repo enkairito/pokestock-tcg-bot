@@ -25,6 +25,29 @@ AVAILABILITY = {
     "invitacion": "https://schema.org/LimitedAvailability",
     "no_disponible": "https://schema.org/OutOfStock",
 }
+# Por "_src" y no por "game": así un accesorio con game="Magic" (categories
+# incluye "Magic" solo para el filtro de /accesorios) enlaza a donde el
+# producto es de verdad navegable, no a /magic — is_accessory() en cada
+# check_*.py lo desvía antes de llegar a la categoría del juego, así que
+# nunca aparece listado ahí.
+CATEGORY_LINKS = {
+    "products.json": ("/pokemontcg", "Pokémon TCG"),
+    "onepiece.json": ("/onepiece", "One Piece TCG"),
+    "magic.json": ("/magic", "Magic: The Gathering"),
+    "lorcana.json": ("/lorcana", "Disney Lorcana"),
+    "yugioh.json": ("/yugioh", "Yu-Gi-Oh!"),
+    "accesorios.json": ("/accesorios", "Accesorios"),
+}
+
+
+def breadcrumb_ld(*crumbs):
+    """crumbs: pares (nombre, url). El primero siempre es Inicio."""
+    items = [
+        {"@type": "ListItem", "position": i + 1, "name": name, "item": url}
+        for i, (name, url) in enumerate(crumbs)
+    ]
+    ld = {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": items}
+    return json.dumps(ld, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
 
 
 def read_json(path, default):
@@ -107,6 +130,13 @@ def render_page(template, product, set_entry=None):
     }
     ld_json = json.dumps(product_ld, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
     output = output.replace('</head>', f'<script type="application/ld+json">{ld_json}</script>\n</head>', 1)
+    category_path, category_label = CATEGORY_LINKS.get(product.get("_src"), CATEGORY_LINKS["products.json"])
+    crumbs_json = breadcrumb_ld(
+        ("Inicio", f"{ORIGIN}/"),
+        (category_label, f"{ORIGIN}{category_path}"),
+        (product.get("name") or "Producto", f"{ORIGIN}/producto/{key}"),
+    )
+    output = output.replace('</head>', f'<script type="application/ld+json">{crumbs_json}</script>\n</head>', 1)
     status = {"compra_directa": "Disponible en la última comprobación", "invitacion": "Disponible por invitación", "preventa": "Preventa", "no_disponible": "Agotado"}.get(product.get("status"), "Disponibilidad sin confirmar; ya no aparece en el listado actual")
     # Contenido real en el HTML inicial, incluso sin JavaScript o para buscadores.
     body = f'<h1>{name}</h1><p>{status}.</p><p>Última vez visto: {html.escape(product.get("last_seen", ""))}.</p>'
@@ -194,6 +224,12 @@ def render_set_page(template, slug, config, matched):
     metadata = {"og:title": config.get("name") or slug, "og:description": blurb, "og:url": canonical}
     tags = "\n".join(f'<meta property="{label}" content="{html.escape(value, quote=True)}">' for label, value in metadata.items() if value)
     output = output.replace('</head>', tags + '\n</head>', 1)
+    crumbs_json = breadcrumb_ld(
+        ("Inicio", f"{ORIGIN}/"),
+        ("Expansiones", f"{ORIGIN}/set/"),
+        (config.get("name") or slug, canonical),
+    )
+    output = output.replace('</head>', f'<script type="application/ld+json">{crumbs_json}</script>\n</head>', 1)
 
     payload = {
         "name": config.get("name") or slug, "blurb": blurb,
@@ -213,6 +249,8 @@ def render_set_index(template, entries):
     disponibles por set para no repetir el emparejamiento."""
     output = template.replace('<meta name="robots" content="noindex">', '')
     output = output.replace('</head>', f'<link rel="canonical" href="{ORIGIN}/set/">\n</head>', 1)
+    crumbs_json = breadcrumb_ld(("Inicio", f"{ORIGIN}/"), ("Expansiones", f"{ORIGIN}/set/"))
+    output = output.replace('</head>', f'<script type="application/ld+json">{crumbs_json}</script>\n</head>', 1)
     embedded = json.dumps(entries, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
     return output.replace(
         '<script id="sets-data" type="application/json">[]</script>',

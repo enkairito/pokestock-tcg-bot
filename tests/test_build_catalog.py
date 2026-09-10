@@ -2,7 +2,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
-from build_catalog import build_site, match_sets, render_page, render_set_page, update_catalog, product_id
+from build_catalog import build_site, match_sets, render_page, render_set_index, render_set_page, update_catalog, product_id
 
 PRODUCT = {"asin": "B000000001", "marketplace": "ES", "name": "Magic Booster", "status": "compra_directa", "price": "10,00 €", "game": "Magic"}
 TEMPLATE = '<html><head><title>Producto</title><meta name="description" content=""><meta name="robots" content="noindex"></head><body><div id="product-detail">Cargando</div><script src="/producto.js"></script></body></html>'
@@ -88,6 +88,27 @@ class CatalogTests(unittest.TestCase):
         self.assertIn('property="og:url" content="https://wheresthatstock.com/producto/ES-B000000001"', page)
         page = render_page(TEMPLATE, {**product, "image": "javascript:alert(1)"})
         self.assertIn('property="og:image" content="https://wheresthatstock.com/assets/brand/social.png"', page)
+
+    def test_product_page_breadcrumb_links_to_its_source_category(self):
+        page = render_page(TEMPLATE, {**PRODUCT, "_src": "onepiece.json"})
+        self.assertIn('"@type": "BreadcrumbList"', page)
+        self.assertIn('"name": "One Piece TCG", "item": "https://wheresthatstock.com/onepiece"', page)
+        self.assertIn('https://wheresthatstock.com/producto/ES-B000000001', page)
+        # Un accesorio con game="Magic" no aparece listado en /magic (is_accessory
+        # lo desvía antes en cada check_*.py) — las migas tienen que enlazar a
+        # /accesorios, donde el producto sí es navegable de verdad.
+        accessory = {**PRODUCT, "_src": "accesorios.json", "game": "Magic", "categories": ["Magic"]}
+        page = render_page(TEMPLATE, accessory)
+        self.assertIn('"name": "Accesorios", "item": "https://wheresthatstock.com/accesorios"', page)
+        self.assertNotIn('"item": "https://wheresthatstock.com/magic"', page)
+
+    def test_set_page_and_index_have_breadcrumbs(self):
+        config = {"game": "Magic", "name": "Test Set", "match": "booster"}
+        page, _ = render_set_page(SET_TEMPLATE, "test-set", config, [])
+        self.assertIn('"name": "Expansiones", "item": "https://wheresthatstock.com/set/"', page)
+        self.assertIn('"name": "Test Set", "item": "https://wheresthatstock.com/set/test-set"', page)
+        index_page = render_set_index(INDEX_TEMPLATE, [])
+        self.assertIn('"@type": "BreadcrumbList"', index_page)
 
     def test_set_page_matches_products_by_keyword_and_strips_noindex(self):
         config = {"game": "Magic", "name": "Test Set", "release_date": "2026-08-28",
