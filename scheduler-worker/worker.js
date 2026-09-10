@@ -68,12 +68,20 @@ export default {
         { status: 200 }
       );
     }
-    const result = await dispatchAll(cron, env.GITHUB_TOKEN);
+    // GITHUB_TOKEN está enlazado vía Secrets Store (no un secreto de texto
+    // plano clásico) — ese tipo de binding entrega un objeto con .get(),
+    // no el string directamente. Usar el binding tal cual como token manda
+    // "Authorization: Bearer [object Object]", que GitHub rechaza igual
+    // que un token inválido (401 Bad credentials, indistinguible del caso
+    // real hasta que se revisa esto).
+    const token = await env.GITHUB_TOKEN.get();
+    const result = await dispatchAll(cron, token);
     return new Response(result.message, { status: result.ok ? 200 : 500 });
   },
 
   async scheduled(event, env, ctx) {
-    const result = await dispatchAll(event.cron, env.GITHUB_TOKEN);
+    const token = await env.GITHUB_TOKEN.get();
+    const result = await dispatchAll(event.cron, token);
     console.log(result.message);
     if (!result.ok) {
       throw new Error(`${result.failedCount}/${result.total} disparos fallaron para el cron "${event.cron}"`);
