@@ -7,6 +7,7 @@ from build_catalog import build_site, render_page, render_set_page, update_catal
 PRODUCT = {"asin": "B000000001", "marketplace": "ES", "name": "Magic Booster", "status": "compra_directa", "price": "10,00 €", "game": "Magic"}
 TEMPLATE = '<html><head><title>Producto</title><meta name="description" content=""><meta name="robots" content="noindex"></head><body><div id="product-detail">Cargando</div><script src="/producto.js"></script></body></html>'
 SET_TEMPLATE = '<html><head><title>Set</title><meta name="description" content=""><meta name="robots" content="noindex"></head><body><script id="set-data" type="application/json">{}</script></body></html>'
+INDEX_TEMPLATE = '<html><head><title>Sets</title><meta name="robots" content="noindex"></head><body><script id="sets-data" type="application/json">[]</script></body></html>'
 
 
 class CatalogTests(unittest.TestCase):
@@ -109,6 +110,40 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(len(matched), 1)
         self.assertNotIn('<script>alert', page)
         self.assertIn('\\u003c/script', page)
+
+    def test_set_game_filter_excludes_same_keyword_from_another_game(self):
+        # Un "game" que no coincide exactamente con el de los productos deja
+        # la ficha vacía en silencio: el fallo real que tuvo op17 al añadir
+        # el filtro ("One Piece TCG" en sets.json vs "One Piece" en los datos).
+        products = {"ES:B1": {**PRODUCT, "asin": "B1", "name": "Hobbit Booster", "game": "Magic"},
+                    "ES:B2": {**PRODUCT, "asin": "B2", "name": "Hobbit Promo", "game": "Pokémon"}}
+        _, matched = render_set_page(SET_TEMPLATE, "hobbit", {"game": "Magic", "match": "hobbit"}, products)
+        self.assertEqual([p["asin"] for p in matched], ["B1"])
+        _, mismatched = render_set_page(SET_TEMPLATE, "hobbit", {"game": "Magic: The Gathering", "match": "hobbit"}, products)
+        self.assertEqual(mismatched, [])
+        _, unfiltered = render_set_page(SET_TEMPLATE, "hobbit", {"match": "hobbit"}, products)
+        self.assertEqual(len(unfiltered), 2)
+
+    def test_set_index_counts_only_products_that_can_be_bought(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "producto.html").write_text(TEMPLATE, encoding="utf-8")
+            (root / "set.html").write_text(SET_TEMPLATE, encoding="utf-8")
+            (root / "set-index.html").write_text(INDEX_TEMPLATE, encoding="utf-8")
+            (root / "sitemap.xml").write_text('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"/>', encoding="utf-8")
+            (root / "sets.json").write_text(json.dumps({"test-set": {
+                "game": "Magic", "name": "Test Set", "match": "booster", "release_date": "2026-01-01",
+            }}), encoding="utf-8")
+            (root / "magic.json").write_text(json.dumps(self.snapshot([
+                PRODUCT, {**PRODUCT, "asin": "B000000002", "status": "no_disponible"},
+            ])), encoding="utf-8")
+            changed = build_site(root, ["magic.json"])
+            self.assertIn("set/index.html", changed)
+            index = (root / "set" / "index.html").read_text(encoding="utf-8")
+            self.assertNotIn('content="noindex"', index)
+            self.assertIn('"available": 1', index)
+            self.assertIn('"release_date_human": "1 de enero de 2026"', index)
+            self.assertIn("https://wheresthatstock.com/set/", (root / "sitemap.xml").read_text(encoding="utf-8"))
 
     def test_build_generates_set_pages_and_sitemap_entries_when_sets_json_present(self):
         with tempfile.TemporaryDirectory() as directory:

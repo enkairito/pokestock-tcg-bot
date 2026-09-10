@@ -155,7 +155,12 @@ def render_set_page(template, slug, config, products):
     output = output.replace('</head>', tags + '\n</head>', 1)
 
     keyword = _normalize(config.get("match"))
-    matched = [p for p in products.values() if keyword and keyword in _normalize(p.get("name"))]
+    # El juego acota la búsqueda: una palabra clave corta ("hobbit") no debe
+    # arrastrar un producto de otro juego que la mencione por casualidad.
+    game = config.get("game")
+    matched = [p for p in products.values()
+               if keyword and keyword in _normalize(p.get("name"))
+               and (not game or p.get("game") == game)]
     matched.sort(key=lambda p: p.get("checked_at") or p.get("last_seen") or "", reverse=True)
 
     payload = {
@@ -169,6 +174,18 @@ def render_set_page(template, slug, config, products):
         f'<script id="set-data" type="application/json">{embedded}</script>', 1,
     )
     return output, matched
+
+
+def render_set_index(template, entries):
+    """Índice de expansiones. Recibe ya calculado el recuento de productos
+    disponibles por set para no repetir el emparejamiento."""
+    output = template.replace('<meta name="robots" content="noindex">', '')
+    output = output.replace('</head>', f'<link rel="canonical" href="{ORIGIN}/set/">\n</head>', 1)
+    embedded = json.dumps(entries, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
+    return output.replace(
+        '<script id="sets-data" type="application/json">[]</script>',
+        f'<script id="sets-data" type="application/json">{embedded}</script>', 1,
+    )
 
 
 def build_site(folder, sources):
@@ -211,6 +228,7 @@ def build_site(folder, sources):
     if sets:
         set_template = set_template_path.read_text(encoding="utf-8")
         (folder / "set").mkdir(exist_ok=True)
+        index_entries = []
         for slug, config in sets.items():
             if not re.fullmatch(r"[a-z0-9-]+", slug):
                 raise ValueError(f"Slug de set inválido: {slug}")
@@ -219,6 +237,20 @@ def build_site(folder, sources):
             (folder / name).write_text(output, encoding="utf-8")
             changed.append(name)
             set_matches[slug] = (config, matched)
+            index_entries.append({
+                "slug": slug, "name": config.get("name") or slug, "game": config.get("game"),
+                "blurb": config.get("blurb") or "", "release_date": config.get("release_date") or "",
+                "release_date_human": _human_date(config.get("release_date")),
+                "available": sum(1 for p in matched if p.get("status") not in ("sin_confirmar", "no_disponible")),
+            })
+        index_template_path = folder / "set-index.html"
+        if index_template_path.exists():
+            # Más recientes primero: es el orden con el que se mira una lista
+            # de expansiones, al revés que el calendario.
+            index_entries.sort(key=lambda e: e["release_date"], reverse=True)
+            (folder / "set" / "index.html").write_text(
+                render_set_index(index_template_path.read_text(encoding="utf-8"), index_entries), encoding="utf-8")
+            changed.append("set/index.html")
 
     sitemap = folder / "sitemap.xml"
     if sitemap.exists():
@@ -236,10 +268,14 @@ def build_site(folder, sources):
             modified.text = lastmod
         for key, product in products.items():
             upsert(f"{ORIGIN}/producto/{key}", product["checked_at"][:10])
+        newest_set = ""
         for slug, (config, matched) in set_matches.items():
             lastmod = max((p.get("checked_at") or "" for p in matched), default="") or config.get("release_date") or ""
             if lastmod:
                 upsert(f"{ORIGIN}/set/{slug}", lastmod[:10])
+                newest_set = max(newest_set, lastmod[:10])
+        if newest_set:
+            upsert(f"{ORIGIN}/set/", newest_set)
         ET.register_namespace("", NS)
         tree.write(sitemap, encoding="UTF-8", xml_declaration=True)
         changed.append("sitemap.xml")
