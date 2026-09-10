@@ -7,6 +7,7 @@ import argparse
 import html
 import json
 import re
+import unicodedata
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from urllib.parse import urlparse
@@ -118,6 +119,58 @@ def render_page(template, product):
     return output.replace('<script src="/producto.js"></script>', f'<script id="product-data" type="application/json">{embedded}</script>\n<script src="/producto.js"></script>')
 
 
+def _normalize(text):
+    stripped = unicodedata.normalize("NFD", (text or "").lower())
+    return "".join(c for c in stripped if unicodedata.category(c) != "Mn")
+
+
+MONTHS_ES = ("enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
+             "agosto", "septiembre", "octubre", "noviembre", "diciembre")
+
+
+def _human_date(iso_date):
+    try:
+        year, month, day = iso_date.split("-")
+        return f"{int(day)} de {MONTHS_ES[int(month) - 1]} de {year}"
+    except (ValueError, IndexError, AttributeError, TypeError):
+        return iso_date or ""
+
+
+def render_set_page(template, slug, config, products):
+    """Une la ficha editorial de sets.json (mantenida a mano, igual que el
+    calendario) con los productos cuyo nombre contiene su palabra clave
+    ("match"). No se guarda "set" en el catálogo: se recalcula en cada
+    publicación a partir de los datos ya combinados, así que basta con
+    editar sets.json para que un producto entre o salga del hub."""
+    name = html.escape(config.get("name") or slug)
+    blurb = config.get("blurb") or ""
+    canonical = f"{ORIGIN}/set/{slug}"
+    output = re.sub(r"<title>.*?</title>", lambda _: f"<title>{name} — Where's That Stock</title>", template, count=1, flags=re.S)
+    description = html.escape(blurb, quote=True)
+    output = re.sub(r'<meta name="description"[^>]*>', lambda _: f'<meta name="description" content="{description}">', output, count=1)
+    output = output.replace('<meta name="robots" content="noindex">', '')
+    output = output.replace('</head>', f'<link rel="canonical" href="{canonical}">\n</head>', 1)
+    metadata = {"og:title": config.get("name") or slug, "og:description": blurb, "og:url": canonical}
+    tags = "\n".join(f'<meta property="{label}" content="{html.escape(value, quote=True)}">' for label, value in metadata.items() if value)
+    output = output.replace('</head>', tags + '\n</head>', 1)
+
+    keyword = _normalize(config.get("match"))
+    matched = [p for p in products.values() if keyword and keyword in _normalize(p.get("name"))]
+    matched.sort(key=lambda p: p.get("checked_at") or p.get("last_seen") or "", reverse=True)
+
+    payload = {
+        "name": config.get("name") or slug, "blurb": blurb,
+        "release_date_human": _human_date(config.get("release_date")),
+        "article": config.get("article"), "products": matched,
+    }
+    embedded = json.dumps(payload, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
+    output = output.replace(
+        '<script id="set-data" type="application/json">{}</script>',
+        f'<script id="set-data" type="application/json">{embedded}</script>', 1,
+    )
+    return output, matched
+
+
 def build_site(folder, sources):
     folder = Path(folder)
     template_path = folder / "producto.html"
@@ -150,13 +203,29 @@ def build_site(folder, sources):
         name = f"producto/{key}.html"
         (folder / name).write_text(render_page(template, product), encoding="utf-8")
         changed.append(name)
+
+    sets_path = folder / "sets.json"
+    set_template_path = folder / "set.html"
+    sets = read_json(sets_path, {}) if set_template_path.exists() else {}
+    set_matches = {}
+    if sets:
+        set_template = set_template_path.read_text(encoding="utf-8")
+        (folder / "set").mkdir(exist_ok=True)
+        for slug, config in sets.items():
+            if not re.fullmatch(r"[a-z0-9-]+", slug):
+                raise ValueError(f"Slug de set inválido: {slug}")
+            output, matched = render_set_page(set_template, slug, config, products)
+            name = f"set/{slug}.html"
+            (folder / name).write_text(output, encoding="utf-8")
+            changed.append(name)
+            set_matches[slug] = (config, matched)
+
     sitemap = folder / "sitemap.xml"
     if sitemap.exists():
         tree = ET.parse(sitemap)
         root = tree.getroot()
         entries = {entry.findtext(f"{{{NS}}}loc"): entry for entry in root.findall(f"{{{NS}}}url")}
-        for key, product in products.items():
-            url = f"{ORIGIN}/producto/{key}"
+        def upsert(url, lastmod):
             entry = entries.get(url)
             if entry is None:
                 entry = ET.SubElement(root, f"{{{NS}}}url")
@@ -164,7 +233,13 @@ def build_site(folder, sources):
             modified = entry.find(f"{{{NS}}}lastmod")
             if modified is None:
                 modified = ET.SubElement(entry, f"{{{NS}}}lastmod")
-            modified.text = product["checked_at"][:10]
+            modified.text = lastmod
+        for key, product in products.items():
+            upsert(f"{ORIGIN}/producto/{key}", product["checked_at"][:10])
+        for slug, (config, matched) in set_matches.items():
+            lastmod = max((p.get("checked_at") or "" for p in matched), default="") or config.get("release_date") or ""
+            if lastmod:
+                upsert(f"{ORIGIN}/set/{slug}", lastmod[:10])
         ET.register_namespace("", NS)
         tree.write(sitemap, encoding="UTF-8", xml_declaration=True)
         changed.append("sitemap.xml")

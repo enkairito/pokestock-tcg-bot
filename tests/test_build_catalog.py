@@ -2,10 +2,11 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
-from build_catalog import build_site, render_page, update_catalog, product_id
+from build_catalog import build_site, render_page, render_set_page, update_catalog, product_id
 
 PRODUCT = {"asin": "B000000001", "marketplace": "ES", "name": "Magic Booster", "status": "compra_directa", "price": "10,00 €", "game": "Magic"}
 TEMPLATE = '<html><head><title>Producto</title><meta name="description" content=""><meta name="robots" content="noindex"></head><body><div id="product-detail">Cargando</div><script src="/producto.js"></script></body></html>'
+SET_TEMPLATE = '<html><head><title>Set</title><meta name="description" content=""><meta name="robots" content="noindex"></head><body><script id="set-data" type="application/json">{}</script></body></html>'
 
 
 class CatalogTests(unittest.TestCase):
@@ -86,3 +87,62 @@ class CatalogTests(unittest.TestCase):
         self.assertIn('property="og:url" content="https://wheresthatstock.com/producto/ES-B000000001"', page)
         page = render_page(TEMPLATE, {**product, "image": "javascript:alert(1)"})
         self.assertIn('property="og:image" content="https://wheresthatstock.com/assets/brand/social.png"', page)
+
+    def test_set_page_matches_products_by_keyword_and_strips_noindex(self):
+        config = {"game": "Magic", "name": "Test Set", "release_date": "2026-08-28",
+                   "article": "noticia-test", "match": "booster", "blurb": "Blurb de prueba."}
+        products = {"ES:B000000001": PRODUCT, "ES:B000000002": {**PRODUCT, "asin": "B000000002", "name": "Magic Commander Deck"}}
+        page, matched = render_set_page(SET_TEMPLATE, "test-set", config, products)
+        self.assertEqual([p["asin"] for p in matched], ["B000000001"])
+        self.assertIn("<title>Test Set — Where's That Stock</title>", page)
+        self.assertIn('rel="canonical" href="https://wheresthatstock.com/set/test-set"', page)
+        self.assertNotIn('content="noindex"', page)
+        self.assertIn('"release_date_human": "28 de agosto de 2026"', page)
+        self.assertIn('"article": "noticia-test"', page)
+        self.assertIn("B000000001", page)
+        self.assertNotIn("B000000002", page)
+
+    def test_set_page_escapes_malicious_names_in_embedded_json(self):
+        config = {"name": "Test Set", "match": "booster"}
+        malicious = {**PRODUCT, "name": '</script><script>alert("x")</script> booster'}
+        page, matched = render_set_page(SET_TEMPLATE, "test-set", config, {"ES:B000000001": malicious})
+        self.assertEqual(len(matched), 1)
+        self.assertNotIn('<script>alert', page)
+        self.assertIn('\\u003c/script', page)
+
+    def test_build_generates_set_pages_and_sitemap_entries_when_sets_json_present(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "producto.html").write_text(TEMPLATE, encoding="utf-8")
+            (root / "set.html").write_text(SET_TEMPLATE, encoding="utf-8")
+            (root / "sitemap.xml").write_text('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"/>', encoding="utf-8")
+            (root / "sets.json").write_text(json.dumps({"test-set": {
+                "name": "Test Set", "match": "booster", "release_date": "2026-01-01",
+            }}), encoding="utf-8")
+            (root / "magic.json").write_text(json.dumps(self.snapshot([PRODUCT])), encoding="utf-8")
+            changed = build_site(root, ["magic.json"])
+            self.assertIn("set/test-set.html", changed)
+            page = (root / "set" / "test-set.html").read_text(encoding="utf-8")
+            self.assertIn("B000000001", page)
+            sitemap = (root / "sitemap.xml").read_text(encoding="utf-8")
+            self.assertIn("https://wheresthatstock.com/set/test-set", sitemap)
+
+    def test_build_without_sets_json_does_not_create_set_folder(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "producto.html").write_text(TEMPLATE, encoding="utf-8")
+            (root / "sitemap.xml").write_text('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"/>', encoding="utf-8")
+            (root / "magic.json").write_text(json.dumps(self.snapshot([PRODUCT])), encoding="utf-8")
+            build_site(root, ["magic.json"])
+            self.assertFalse((root / "set").exists())
+
+    def test_set_slug_is_restricted_to_safe_characters(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "producto.html").write_text(TEMPLATE, encoding="utf-8")
+            (root / "set.html").write_text(SET_TEMPLATE, encoding="utf-8")
+            (root / "sitemap.xml").write_text('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"/>', encoding="utf-8")
+            (root / "sets.json").write_text(json.dumps({"../escape": {"match": "booster"}}), encoding="utf-8")
+            (root / "magic.json").write_text(json.dumps(self.snapshot([PRODUCT])), encoding="utf-8")
+            with self.assertRaises(ValueError):
+                build_site(root, ["magic.json"])
