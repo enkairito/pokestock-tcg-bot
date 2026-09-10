@@ -16,7 +16,7 @@
     "name": "Ravensburger Disney Lorcana - Juego de cartas coleccionables para adultos y niños a partir de 8 años - Set 12: Wilds Unknown - Deck para 2 jugadores",
     "status": "compra_directa",
     "stock": "3",
-    "price": "39,79 €",
+    "price": "40,59 €",
     "first_seen": "2026-09-07T17:41:04.537441+00:00"
   },
   "ES:B0H8S82717": {
@@ -64,8 +64,8 @@
   "ES:B0CFRBX7GW": {
     "name": "Disney Lorcana Trading Card Game: Set 4 – Starter Deck B",
     "status": "compra_directa",
-    "stock": null,
-    "price": "15,65 €",
+    "stock": "1",
+    "price": "15,12 €",
     "first_seen": "2026-09-07T17:41:48.708513+00:00"
   },
   "ES:B0H1DNGSJS": {
@@ -200,5 +200,19 @@
     "stock": null,
     "price": "21,06 €",
     "first_seen": "2026-09-10T04:54:28.484734+00:00"
+  },
+  "ES:B0F4QPH25J": {
+    "name": "Ravensburger - Disney Lorcana TCG: Set 9 Album Para Cartas Princesas | Album Cartas De Colección Con Capacidad Para 252 | Disney Lorcana Con Un Diseño Único | Card Sleeves",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "25,97 €",
+    "first_seen": "2026-09-10T11:31:24.750843+00:00"
+  },
+  "ES:B0DTK163XP": {
+    "name": "Ravensburger - Disney Lorcana TCG: Set 9 Caja Cartas Pluto | Caja para Cartas De Colección con Capacidad para 80 | Disney Lorcana con Un Diseño Único | Card Sleeves",
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "5,99 €",
+    "first_seen": "2026-09-10T11:31:24.750914+00:00"
   }
 }
