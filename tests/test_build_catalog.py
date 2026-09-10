@@ -44,6 +44,26 @@ class CatalogTests(unittest.TestCase):
             with self.subTest(value=value), self.assertRaises(ValueError):
                 product_id({**PRODUCT, "asin": value})
 
+    def test_product_schema_maps_status_to_availability_and_parses_price(self):
+        page = render_page(TEMPLATE, PRODUCT)
+        ld = json.loads(page.split('<script type="application/ld+json">', 1)[1].split('</script>', 1)[0])
+        self.assertEqual(ld["@type"], "Product")
+        self.assertEqual(ld["sku"], "B000000001")
+        self.assertEqual(ld["offers"]["availability"], "https://schema.org/InStock")
+        self.assertEqual(ld["offers"]["price"], "10.00")
+        self.assertEqual(ld["offers"]["priceCurrency"], "EUR")
+        for status, availability in (("preventa", "PreOrder"), ("invitacion", "LimitedAvailability"),
+                                      ("no_disponible", "OutOfStock"), ("sin_confirmar", "OutOfStock")):
+            page = render_page(TEMPLATE, {**PRODUCT, "status": status})
+            self.assertIn(f"https://schema.org/{availability}", page)
+
+    def test_product_schema_omits_price_when_unparseable_and_escapes_name(self):
+        page = render_page(TEMPLATE, {**PRODUCT, "price": None, "name": '</script><script>alert("x")</script>'})
+        ld_json = page.split('<script type="application/ld+json">', 1)[1].split('</script>', 1)[0]
+        self.assertNotIn('<script>alert', ld_json)
+        ld = json.loads(ld_json.replace('\\u003c', '<').replace('\\u003e', '>').replace('\\u0026', '&'))
+        self.assertNotIn("price", ld["offers"])
+
     def test_build_keeps_page_and_sitemap_after_product_disappears(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

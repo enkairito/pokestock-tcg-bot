@@ -11,11 +11,19 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from urllib.parse import urlparse
 
-from stock_logic import alert_changes
+from stock_logic import alert_changes, price_to_float
 
 SOURCES = ("products.json", "onepiece.json", "magic.json", "lorcana.json", "yugioh.json", "accesorios.json")
 NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
 ORIGIN = "https://wheresthatstock.com"
+# "sin_confirmar" y cualquier estado nuevo caen en OutOfStock: sin confirmación
+# reciente no debe anunciarse como comprable en resultados de búsqueda.
+AVAILABILITY = {
+    "compra_directa": "https://schema.org/InStock",
+    "preventa": "https://schema.org/PreOrder",
+    "invitacion": "https://schema.org/LimitedAvailability",
+    "no_disponible": "https://schema.org/OutOfStock",
+}
 
 
 def read_json(path, default):
@@ -79,6 +87,25 @@ def render_page(template, product):
     }
     tags = "\n".join(f'<meta {"name" if label.startswith("twitter:") else "property"}="{label}" content="{html.escape(value, quote=True)}">' for label, value in metadata.items())
     output = output.replace('</head>', tags + '\n</head>', 1)
+    offer = {
+        "@type": "Offer",
+        "url": f"{ORIGIN}/producto/{key}",
+        # Los seis snapshots (incl. UK/US) publican precio en euros; revisar
+        # si algún origen empieza a traer otra moneda.
+        "priceCurrency": "EUR",
+        "availability": AVAILABILITY.get(product.get("status"), "https://schema.org/OutOfStock"),
+        "seller": {"@type": "Organization", "name": product.get("store_label") or "Amazon"},
+    }
+    price = price_to_float(product.get("price"))
+    if price is not None:
+        offer["price"] = f"{price:.2f}"
+    product_ld = {
+        "@context": "https://schema.org", "@type": "Product",
+        "name": product.get("name") or "Producto", "image": image,
+        "sku": product.get("asin"), "offers": offer,
+    }
+    ld_json = json.dumps(product_ld, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
+    output = output.replace('</head>', f'<script type="application/ld+json">{ld_json}</script>\n</head>', 1)
     status = {"compra_directa": "Disponible en la última comprobación", "invitacion": "Disponible por invitación", "preventa": "Preventa", "no_disponible": "Agotado"}.get(product.get("status"), "Disponibilidad sin confirmar; ya no aparece en el listado actual")
     # Contenido real en el HTML inicial, incluso sin JavaScript o para buscadores.
     body = f'<h1>{name}</h1><p>{status}.</p><p>Última vez visto: {html.escape(product.get("last_seen", ""))}.</p>'
