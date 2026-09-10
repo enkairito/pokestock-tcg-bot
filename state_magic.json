@@ -13,8 +13,9 @@
   },
   "ES:B0GWS9J9VT": {
     "name": "sobre de coleccionista de Magic: The Gathering | El Hobbit (Versión en Inglés)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "44,94 €",
     "first_seen": "2026-09-07T10:43:36.101494+00:00"
   },
   "ES:B0G86Z17Y8": {
@@ -212,8 +213,8 @@
   "ES:B0GWS8DC8C": {
     "name": "Bundle de Regalo de Magic: The Gathering | El Hobbit | Juego de Cartas Intercambiables y coleccionables (Versión en Inglés)",
     "status": "compra_directa",
-    "stock": null,
-    "price": "164,90 €",
+    "stock": "1",
+    "price": "158,00 €",
     "first_seen": "2026-09-07T10:46:00.374156+00:00"
   },
   "ES:B0GY5TKJ7B": {
@@ -297,7 +298,7 @@
     "name": "Mazo de Commander de Secretos de Strixhaven, de Magic: The Gathering - Quándrix sin límite (Versión en Español)",
     "status": "compra_directa",
     "stock": null,
-    "price": "52,97 €",
+    "price": "52,50 €",
     "first_seen": "2026-09-07T10:47:12.038281+00:00"
   },
   "ES:B0G876DLQT": {
@@ -345,8 +346,8 @@
   "ES:B0G86Z91GX": {
     "name": "Draft Night de Secretos de Strixhaven, de Magic: The Gathering (Versión en Inglés)",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "105,68 €",
+    "stock": null,
+    "price": "109,99 €",
     "first_seen": "2026-09-07T10:47:55.002254+00:00"
   },
   "ES:B0G86Z6QYF": {
