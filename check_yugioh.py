@@ -54,6 +54,18 @@ YUGIOH_MARKETPLACE = {
 
 STATE_FILE = Path(__file__).parent / "state_yugioh.json"
 SNAPSHOT_FILE = Path(__file__).parent / "yugioh_snapshot.json"
+ACCESORIOS_SNAPSHOT_FILE = Path(__file__).parent / "accesorios_yugioh_snapshot.json"
+
+
+ACCESSORY_NAME_KEYWORDS = ["funda", "estuche", "sleeve", "case"]
+
+
+def is_accessory(name):
+    # Mismo criterio que check_onepiece.py: separar fundas/estuches del
+    # listado de la tienda en vez de descartarlos con is_excluded_by_name,
+    # para que también alimenten la web de accesorios.
+    text = _strip_accents((name or "").lower())
+    return any(keyword in text for keyword in ACCESSORY_NAME_KEYWORDS)
 
 
 def categorize_yugioh(name):
@@ -66,9 +78,10 @@ def categorize_yugioh(name):
        Yu-Gi-Oh.
     5. Otros: menciona Yu-Gi-Oh pero no encaja arriba.
     Si no menciona Yu-Gi-Oh en absoluto, se descarta (return None). Las
-    fundas ("Card Sleeves") ya las filtra is_excluded_by_name (importado
-    de check_stock, mismo criterio que Pokémon/Magic) antes de llegar
-    aquí, así que no hace falta una regla aparte para ellas."""
+    fundas/estuches ("Card Sleeves") ya se separan antes con is_accessory
+    (van a la web de accesorios) y is_excluded_by_name sigue limpiando
+    el resto del ruido ajeno, así que no hace falta una regla aparte
+    para ellas aquí."""
     text = _strip_accents((name or "").lower())
     mentions_yugioh = "yu-gi-oh" in text or "yu gi oh" in text or "yugioh" in text
 
@@ -130,6 +143,7 @@ def save_snapshot(products):
 async def main():
     state = load_state()
     yugioh_products = {}
+    accessory_products = {}
     marketplace = YUGIOH_MARKETPLACE
 
     async with async_playwright() as p:
@@ -177,26 +191,33 @@ async def main():
                 del marketplace_products[asin]
 
         for asin, info in marketplace_products.items():
-            if is_excluded_by_name(info["name"]):
-                continue
             info["asin"] = asin
             info["marketplace_code"] = marketplace["code"]
             info["store_label"] = marketplace["store_label"]
             info["flag"] = marketplace["flag"]
             info["link"] = f"https://www.{marketplace['domain']}/dp/{asin}?tag={marketplace['tag']}"
+            key = f"{marketplace['code']}:{asin}"
+
+            if is_accessory(info["name"]):
+                info["categories"] = ["Yu-Gi-Oh!"]
+                accessory_products[key] = info
+                continue
+            if is_excluded_by_name(info["name"]):
+                continue
 
             category = categorize_yugioh(info["name"])
             if category is None:
                 print(f"⏭️ Sin categoría reconocida, se descarta: {info['name'][:70]}")
                 continue
             info["categories"] = [category]
-            yugioh_products[f"{marketplace['code']}:{asin}"] = info
+            yugioh_products[key] = info
 
         await browser.close()
 
-    print(f"📦 Total combinado: {len(yugioh_products)} productos de Yu-Gi-Oh!")
+    all_products = {**yugioh_products, **accessory_products}
+    print(f"📦 Total combinado: {len(yugioh_products)} productos TCG + {len(accessory_products)} accesorios")
 
-    for key, info in yugioh_products.items():
+    for key, info in all_products.items():
         status = info["status"]
         name = info["name"]
         prev = state.get(key, {})
@@ -204,7 +225,11 @@ async def main():
         first_seen = prev.get("first_seen") or datetime.now(timezone.utc).isoformat()
         info["first_seen"] = first_seen
 
-        status_changed, stock_decreased, price_decreased = alert_changes(info, prev)
+        # Los accesorios (fundas/estuches) no generan avisos — igual que
+        # check_onepiece.py, solo alimentan la web.
+        is_tcg_card = key in yugioh_products
+
+        status_changed, stock_decreased, price_decreased = alert_changes(info, prev) if is_tcg_card else (False, False, False)
 
         send_failed = False
 
@@ -272,6 +297,7 @@ async def main():
 
     save_state(state)
     save_snapshot(yugioh_products)
+    write_snapshot(ACCESORIOS_SNAPSHOT_FILE, accessory_products)
     print("✅ Comprobación de Yu-Gi-Oh! completada.")
 
 

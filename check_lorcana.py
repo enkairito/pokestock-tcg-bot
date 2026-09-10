@@ -52,6 +52,18 @@ LORCANA_MARKETPLACE = {
 
 STATE_FILE = Path(__file__).parent / "state_lorcana.json"
 SNAPSHOT_FILE = Path(__file__).parent / "lorcana_snapshot.json"
+ACCESORIOS_SNAPSHOT_FILE = Path(__file__).parent / "accesorios_lorcana_snapshot.json"
+
+
+ACCESSORY_NAME_KEYWORDS = ["funda", "estuche", "sleeve", "case"]
+
+
+def is_accessory(name):
+    # Mismo criterio que check_onepiece.py: separar fundas/estuches del
+    # listado de la tienda en vez de descartarlos con is_excluded_by_name,
+    # para que también alimenten la web de accesorios.
+    text = _strip_accents((name or "").lower())
+    return any(keyword in text for keyword in ACCESSORY_NAME_KEYWORDS)
 
 
 def categorize_lorcana(name):
@@ -125,6 +137,7 @@ def save_snapshot(products):
 async def main():
     state = load_state()
     lorcana_products = {}
+    accessory_products = {}
     marketplace = LORCANA_MARKETPLACE
 
     async with async_playwright() as p:
@@ -172,26 +185,33 @@ async def main():
                 del marketplace_products[asin]
 
         for asin, info in marketplace_products.items():
-            if is_excluded_by_name(info["name"]):
-                continue
             info["asin"] = asin
             info["marketplace_code"] = marketplace["code"]
             info["store_label"] = marketplace["store_label"]
             info["flag"] = marketplace["flag"]
             info["link"] = f"https://www.{marketplace['domain']}/dp/{asin}?tag={marketplace['tag']}"
+            key = f"{marketplace['code']}:{asin}"
+
+            if is_accessory(info["name"]):
+                info["categories"] = ["Lorcana"]
+                accessory_products[key] = info
+                continue
+            if is_excluded_by_name(info["name"]):
+                continue
 
             category = categorize_lorcana(info["name"])
             if category is None:
                 print(f"⏭️ Sin categoría reconocida, se descarta: {info['name'][:70]}")
                 continue
             info["categories"] = [category]
-            lorcana_products[f"{marketplace['code']}:{asin}"] = info
+            lorcana_products[key] = info
 
         await browser.close()
 
-    print(f"📦 Total combinado: {len(lorcana_products)} productos de Disney Lorcana")
+    all_products = {**lorcana_products, **accessory_products}
+    print(f"📦 Total combinado: {len(lorcana_products)} productos TCG + {len(accessory_products)} accesorios")
 
-    for key, info in lorcana_products.items():
+    for key, info in all_products.items():
         status = info["status"]
         name = info["name"]
         prev = state.get(key, {})
@@ -199,7 +219,11 @@ async def main():
         first_seen = prev.get("first_seen") or datetime.now(timezone.utc).isoformat()
         info["first_seen"] = first_seen
 
-        status_changed, stock_decreased, price_decreased = alert_changes(info, prev)
+        # Los accesorios (fundas/estuches) no generan avisos — igual que
+        # check_onepiece.py, solo alimentan la web.
+        is_tcg_card = key in lorcana_products
+
+        status_changed, stock_decreased, price_decreased = alert_changes(info, prev) if is_tcg_card else (False, False, False)
 
         send_failed = False
 
@@ -267,6 +291,7 @@ async def main():
 
     save_state(state)
     save_snapshot(lorcana_products)
+    write_snapshot(ACCESORIOS_SNAPSHOT_FILE, accessory_products)
     print("✅ Comprobación de Disney Lorcana completada.")
 
 

@@ -59,4 +59,4 @@ jobs:
           WHERESTHATSTOCK_TOKEN: ${{ secrets.WHERESTHATSTOCK_TOKEN }}
         run: |
           git clone https://x-access-token:${WHERESTHATSTOCK_TOKEN}@github.com/enkairito/wheresthatstock.git /tmp/wheresthatstock
-          python publish_updates.py --repo /tmp/wheresthatstock --message "chore: update yugioh snapshot" --copy yugioh_snapshot.json yugioh.json --sitemap
+          python publish_updates.py --repo /tmp/wheresthatstock --message "chore: update yugioh snapshot" --copy yugioh_snapshot.json yugioh.json --sitemap --accessories accesorios_yugioh_snapshot.json --source yugioh
