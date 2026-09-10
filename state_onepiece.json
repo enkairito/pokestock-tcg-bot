@@ -23,7 +23,7 @@
   "ES:B0HC7FPQJM": {
     "name": "Juego de cartas de una pieza ST-31 Red Monkey.D.Luffy",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "price": "35,20 €",
     "first_seen": "2026-08-29T18:08:43.440854+00:00"
   },
@@ -66,14 +66,14 @@
     "name": "Juego de cartas de una pieza ST-33 Blue Kuzan | Baraja de inicio, ST-33, Blue Kuzan, juego de cartas coleccionables",
     "status": "compra_directa",
     "stock": "3",
-    "price": "35,12 €",
+    "price": "34,55 €",
     "first_seen": "2026-08-29T18:09:23.560405+00:00"
   },
   "ES:B0FL83L295": {
     "name": "One Piece TCG Starter Deck: Ace & Newgate (ST-22) - 51 Tarjetas",
     "status": "compra_directa",
-    "stock": "4",
-    "price": "51,45 €",
+    "stock": null,
+    "price": "43,46 €",
     "first_seen": "2026-08-29T18:09:29.426544+00:00"
   },
   "ES:B0GDGRWH54": {
@@ -93,14 +93,14 @@
   "ES:B0CGR4P859": {
     "name": "Awakening of the New Era Booster Pack OP-05 - One Piece Juego de Cartas - JP",
     "status": "compra_directa",
-    "stock": null,
-    "price": "38,08 €",
+    "stock": "1",
+    "price": "35,68 €",
     "first_seen": "2026-08-29T18:09:47.272890+00:00"
   },
   "ES:B0D69TF558": {
     "name": "One Piece TCG: Two Legends - Booster Pack (OP-08) (JP) (TCG)",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "3",
     "price": "8,46 €",
     "first_seen": "2026-08-29T18:09:54.795240+00:00"
   },
@@ -219,7 +219,7 @@
     "name": "One Piece TCG Japanese Carry On His Will Booster Pack - Juego de 2 (10 tarjetas en total)",
     "status": "compra_directa",
     "stock": null,
-    "price": "38,34 €",
+    "price": "40,54 €",
     "first_seen": "2026-09-02T17:02:35.147234+00:00"
   },
   "ES:B0DZ25YM9N": {
@@ -233,7 +233,7 @@
     "name": "One Piece Card Game Egghead Crisis EB-04 Extra Booster Box (japonés) - 24 paquetes",
     "status": "compra_directa",
     "stock": "2",
-    "price": "194,95 €",
+    "price": "198,78 €",
     "first_seen": "2026-09-03T18:23:03.868065+00:00"
   },
   "ES:B0HF1Z72XW": {
