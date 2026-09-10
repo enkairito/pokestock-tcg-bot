@@ -70,7 +70,7 @@
   "ES:B0DT7D5K1X": {
     "name": "Pokémon Colección prémium Bellibolt ex de e-Nigma de JCC Pokémon (1 Carta holográfica con ilustración expandida, 6 Sobres de Mejora y Figuras acrílicas)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "price": "47,63 €",
     "first_seen": "2026-08-25T20:27:54.285177+00:00"
   },
@@ -78,7 +78,7 @@
     "name": "Pokémon: Estadio Combina y Combate de Escarlata y Púrpura (2 Barajas, 11 Paquetes de Mejora y más)",
     "status": "compra_directa",
     "stock": null,
-    "price": "64,98 €",
+    "price": "65,98 €",
     "first_seen": "2026-08-25T20:27:54.285181+00:00"
   },
   "ES:B0G4NQK15P": {
@@ -280,7 +280,7 @@
     "name": "Pokémon Colección Ursaluna Luna Carmesí (4 Cartas holográficas y 4 Paquetes de Mejora)",
     "status": "compra_directa",
     "stock": null,
-    "price": "45,09 €",
+    "price": "38,00 €",
     "first_seen": "2026-08-25T20:27:15.542170+00:00"
   },
   "ES:B0FXTY9D99": {
@@ -1473,8 +1473,8 @@
   "US:B0G72SPRP6": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": null,
-    "price": "81,93 €",
+    "stock": "1",
+    "price": "82,15 €",
     "first_seen": "2026-09-04T21:32:58.802874+00:00"
   },
   "US:B0G72QBTBJ": {
@@ -1691,7 +1691,7 @@
     "name": "Pokémon TCG: Unova Mini Tin – Krookodile & Excadrill (2 Paquetes de Refuerzo y 1 Tarjeta Adhesiva)",
     "status": "compra_directa",
     "stock": null,
-    "price": "50,01 €",
+    "price": "50,12 €",
     "first_seen": "2026-09-05T18:46:43.703340+00:00"
   },
   "US:B0F2BDKJ9Q": {
@@ -1768,7 +1768,7 @@
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
     "status": "compra_directa",
     "stock": "2",
-    "price": "34,30 €",
+    "price": "34,22 €",
     "first_seen": "2026-09-08T05:38:28.180394+00:00"
   },
   "UK:B0FS98MMML": {
@@ -1794,8 +1794,9 @@
   },
   "UK:B0CF1MDBS5": {
     "name": "Pokemon - Scarlet & Violet: High Class Pack Shiny Treasure ex - Booster Box",
-    "status": "no_disponible",
-    "stock": null,
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "202,82 €",
     "first_seen": "2026-09-08T14:34:56.335808+00:00"
   },
   "UK:B0CK8JM32H": {
@@ -1837,7 +1838,7 @@
     "name": "100 Assorted Basic Pokemon TCG Energy Cards",
     "status": "compra_directa",
     "stock": null,
-    "price": "16,90 €",
+    "price": "16,83 €",
     "first_seen": "2026-09-08T14:34:56.335882+00:00"
   },
   "US:B0F1GXTFGL": {
@@ -1858,7 +1859,7 @@
     "name": "Pokémon TCG: Azure Legends Tin - Xerneas ex (4 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
     "status": "compra_directa",
     "stock": null,
-    "price": "78,78 €",
+    "price": "78,63 €",
     "first_seen": "2026-09-08T14:34:56.335902+00:00"
   },
   "US:B0G49Y6JCM": {
