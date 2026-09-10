@@ -66,7 +66,7 @@ def update_catalog(previous, snapshot, source, events):
     return {"updated_at": stamp, "products": list(rows.values())}, events
 
 
-def render_page(template, product):
+def render_page(template, product, set_entry=None):
     name = html.escape(product.get("name") or "Producto")
     key = product_id(product)
     description = html.escape(f"{product.get('name', 'Producto')}: última disponibilidad observada y enlace a la tienda.", quote=True)
@@ -116,6 +116,17 @@ def render_page(template, product):
     output, count = re.subn(r'(<div id="product-detail"[^>]*>).*?(</div>)', lambda m: m[1] + body + m[2], output, count=1, flags=re.S)
     if count != 1:
         raise ValueError("Falta el contenedor product-detail en la plantilla")
+    # Fuera de #product-detail a propósito: producto.js reescribe ese
+    # contenedor entero al hidratar y se llevaría el enlace por delante.
+    if set_entry:
+        slug, config = set_entry
+        color = GAME_COLORS.get(config.get("game"), "")
+        # El nombre completo lleva el juego delante para que el <title> de la
+        # ficha de set sea descriptivo; aquí sobra, ya se sabe dónde estás.
+        label = html.escape(config.get("short_name") or config.get("name") or slug)
+        style = f' style="--game-color:{color}"' if color else ""
+        output = output.replace("<!--SET-LINK-->", f'  <a class="back-link set-link" href="/set/{slug}"{style}>Ver todo lo de {label} →</a>', 1)
+    output = output.replace("<!--SET-LINK-->", "")
     return output.replace('<script src="/producto.js"></script>', f'<script id="product-data" type="application/json">{embedded}</script>\n<script src="/producto.js"></script>')
 
 
@@ -136,12 +147,42 @@ def _human_date(iso_date):
         return iso_date or ""
 
 
-def render_set_page(template, slug, config, products):
+GAME_COLORS = {
+    "Pokémon": "#D4A017", "One Piece": "#C0392B", "Magic": "#5B3FA6",
+    "Lorcana": "#B23A6B", "Yu-Gi-Oh!": "#8B5A2B",
+}
+
+
+def match_sets(sets, products):
+    """Empareja productos y sets una sola vez: lo usan tanto las fichas de
+    producto (para enlazar a su expansión) como las propias fichas de set.
+
+    El juego acota la búsqueda: una palabra clave corta ("hobbit") no debe
+    arrastrar un producto de otro juego que la mencione por casualidad. Ojo:
+    config["game"] tiene que coincidir EXACTO con el de los productos
+    ("One Piece", no "One Piece TCG") o el set se queda vacío sin avisar."""
+    matches, owner = {}, {}
+    for slug, config in sets.items():
+        keyword = _normalize(config.get("match"))
+        game = config.get("game")
+        matched = []
+        for key, product in products.items():
+            if not keyword or keyword not in _normalize(product.get("name")):
+                continue
+            if game and product.get("game") != game:
+                continue
+            matched.append(product)
+            owner.setdefault(key, slug)
+        matched.sort(key=lambda p: p.get("checked_at") or p.get("last_seen") or "", reverse=True)
+        matches[slug] = (config, matched)
+    return matches, owner
+
+
+def render_set_page(template, slug, config, matched):
     """Une la ficha editorial de sets.json (mantenida a mano, igual que el
-    calendario) con los productos cuyo nombre contiene su palabra clave
-    ("match"). No se guarda "set" en el catálogo: se recalcula en cada
-    publicación a partir de los datos ya combinados, así que basta con
-    editar sets.json para que un producto entre o salga del hub."""
+    calendario) con los productos ya emparejados por match_sets. No se
+    guarda "set" en el catálogo: se recalcula en cada publicación, así que
+    basta con editar sets.json para que un producto entre o salga del hub."""
     name = html.escape(config.get("name") or slug)
     blurb = config.get("blurb") or ""
     canonical = f"{ORIGIN}/set/{slug}"
@@ -153,15 +194,6 @@ def render_set_page(template, slug, config, products):
     metadata = {"og:title": config.get("name") or slug, "og:description": blurb, "og:url": canonical}
     tags = "\n".join(f'<meta property="{label}" content="{html.escape(value, quote=True)}">' for label, value in metadata.items() if value)
     output = output.replace('</head>', tags + '\n</head>', 1)
-
-    keyword = _normalize(config.get("match"))
-    # El juego acota la búsqueda: una palabra clave corta ("hobbit") no debe
-    # arrastrar un producto de otro juego que la mencione por casualidad.
-    game = config.get("game")
-    matched = [p for p in products.values()
-               if keyword and keyword in _normalize(p.get("name"))
-               and (not game or p.get("game") == game)]
-    matched.sort(key=lambda p: p.get("checked_at") or p.get("last_seen") or "", reverse=True)
 
     payload = {
         "name": config.get("name") or slug, "blurb": blurb,
@@ -214,29 +246,32 @@ def build_site(folder, sources):
             old = products.get(key)
             if old is None or (product.get("status") != "sin_confirmar", product.get("last_seen", "")) > (old.get("status") != "sin_confirmar", old.get("last_seen", "")):
                 products[key] = product
+    sets_path = folder / "sets.json"
+    set_template_path = folder / "set.html"
+    sets = read_json(sets_path, {}) if set_template_path.exists() else {}
+    for slug in sets:
+        if not re.fullmatch(r"[a-z0-9-]+", slug):
+            raise ValueError(f"Slug de set inválido: {slug}")
+    set_matches, set_owner = match_sets(sets, products)
+
     template = template_path.read_text(encoding="utf-8")
     (folder / "producto").mkdir(exist_ok=True)
     for key, product in products.items():
         name = f"producto/{key}.html"
-        (folder / name).write_text(render_page(template, product), encoding="utf-8")
+        slug = set_owner.get(key)
+        entry = (slug, set_matches[slug][0]) if slug else None
+        (folder / name).write_text(render_page(template, product, entry), encoding="utf-8")
         changed.append(name)
 
-    sets_path = folder / "sets.json"
-    set_template_path = folder / "set.html"
-    sets = read_json(sets_path, {}) if set_template_path.exists() else {}
-    set_matches = {}
     if sets:
         set_template = set_template_path.read_text(encoding="utf-8")
         (folder / "set").mkdir(exist_ok=True)
         index_entries = []
-        for slug, config in sets.items():
-            if not re.fullmatch(r"[a-z0-9-]+", slug):
-                raise ValueError(f"Slug de set inválido: {slug}")
-            output, matched = render_set_page(set_template, slug, config, products)
+        for slug, (config, matched) in set_matches.items():
+            output, _ = render_set_page(set_template, slug, config, matched)
             name = f"set/{slug}.html"
             (folder / name).write_text(output, encoding="utf-8")
             changed.append(name)
-            set_matches[slug] = (config, matched)
             index_entries.append({
                 "slug": slug, "name": config.get("name") or slug, "game": config.get("game"),
                 "blurb": config.get("blurb") or "", "release_date": config.get("release_date") or "",

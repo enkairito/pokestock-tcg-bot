@@ -2,7 +2,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
-from build_catalog import build_site, render_page, render_set_page, update_catalog, product_id
+from build_catalog import build_site, match_sets, render_page, render_set_page, update_catalog, product_id
 
 PRODUCT = {"asin": "B000000001", "marketplace": "ES", "name": "Magic Booster", "status": "compra_directa", "price": "10,00 €", "game": "Magic"}
 TEMPLATE = '<html><head><title>Producto</title><meta name="description" content=""><meta name="robots" content="noindex"></head><body><div id="product-detail">Cargando</div><script src="/producto.js"></script></body></html>'
@@ -93,8 +93,11 @@ class CatalogTests(unittest.TestCase):
         config = {"game": "Magic", "name": "Test Set", "release_date": "2026-08-28",
                    "article": "noticia-test", "match": "booster", "blurb": "Blurb de prueba."}
         products = {"ES:B000000001": PRODUCT, "ES:B000000002": {**PRODUCT, "asin": "B000000002", "name": "Magic Commander Deck"}}
-        page, matched = render_set_page(SET_TEMPLATE, "test-set", config, products)
+        matches, owner = match_sets({"test-set": config}, products)
+        config, matched = matches["test-set"]
         self.assertEqual([p["asin"] for p in matched], ["B000000001"])
+        self.assertEqual(owner, {"ES:B000000001": "test-set"})
+        page, _ = render_set_page(SET_TEMPLATE, "test-set", config, matched)
         self.assertIn("<title>Test Set — Where's That Stock</title>", page)
         self.assertIn('rel="canonical" href="https://wheresthatstock.com/set/test-set"', page)
         self.assertNotIn('content="noindex"', page)
@@ -106,8 +109,9 @@ class CatalogTests(unittest.TestCase):
     def test_set_page_escapes_malicious_names_in_embedded_json(self):
         config = {"name": "Test Set", "match": "booster"}
         malicious = {**PRODUCT, "name": '</script><script>alert("x")</script> booster'}
-        page, matched = render_set_page(SET_TEMPLATE, "test-set", config, {"ES:B000000001": malicious})
+        matched = match_sets({"test-set": config}, {"ES:B000000001": malicious})[0]["test-set"][1]
         self.assertEqual(len(matched), 1)
+        page, _ = render_set_page(SET_TEMPLATE, "test-set", config, matched)
         self.assertNotIn('<script>alert', page)
         self.assertIn('\\u003c/script', page)
 
@@ -117,12 +121,25 @@ class CatalogTests(unittest.TestCase):
         # el filtro ("One Piece TCG" en sets.json vs "One Piece" en los datos).
         products = {"ES:B1": {**PRODUCT, "asin": "B1", "name": "Hobbit Booster", "game": "Magic"},
                     "ES:B2": {**PRODUCT, "asin": "B2", "name": "Hobbit Promo", "game": "Pokémon"}}
-        _, matched = render_set_page(SET_TEMPLATE, "hobbit", {"game": "Magic", "match": "hobbit"}, products)
+        matched = match_sets({"h": {"game": "Magic", "match": "hobbit"}}, products)[0]["h"][1]
         self.assertEqual([p["asin"] for p in matched], ["B1"])
-        _, mismatched = render_set_page(SET_TEMPLATE, "hobbit", {"game": "Magic: The Gathering", "match": "hobbit"}, products)
+        mismatched = match_sets({"h": {"game": "Magic: The Gathering", "match": "hobbit"}}, products)[0]["h"][1]
         self.assertEqual(mismatched, [])
-        _, unfiltered = render_set_page(SET_TEMPLATE, "hobbit", {"match": "hobbit"}, products)
+        unfiltered = match_sets({"h": {"match": "hobbit"}}, products)[0]["h"][1]
         self.assertEqual(len(unfiltered), 2)
+
+    def test_product_page_links_to_its_set_outside_the_hydrated_container(self):
+        entry = ("test-set", {"game": "Magic", "name": "Test Set"})
+        page = render_page(TEMPLATE.replace('<div id="product-detail">', '<!--SET-LINK-->\n<div id="product-detail">'), PRODUCT, entry)
+        self.assertIn('href="/set/test-set"', page)
+        self.assertIn("--game-color:#5B3FA6", page)
+        # producto.js reescribe #product-detail entero al hidratar: si el
+        # enlace cayera dentro, desaparecería en cuanto cargue el JS.
+        detail = page.split('<div id="product-detail">')[1]
+        self.assertNotIn('href="/set/test-set"', detail)
+        without = render_page(TEMPLATE.replace('<div id="product-detail">', '<!--SET-LINK-->\n<div id="product-detail">'), PRODUCT)
+        self.assertNotIn("/set/", without)
+        self.assertNotIn("<!--SET-LINK-->", without)
 
     def test_set_index_counts_only_products_that_can_be_bought(self):
         with tempfile.TemporaryDirectory() as directory:
