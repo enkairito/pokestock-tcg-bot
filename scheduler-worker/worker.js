@@ -54,6 +54,17 @@ async function dispatchAll(cron, token) {
   return { ok: failedCount === 0, message: lines.join("\n"), failedCount, total: results.length };
 }
 
+// GITHUB_TOKEN puede llegar como secreto de texto plano clásico (string) o
+// como binding de Secrets Store (objeto con .get()) — depende de cómo se
+// haya conectado en el panel. Aceptar los dos evita otra ronda de "Bad
+// credentials" si algún día se reconecta de otra forma.
+async function resolveToken(env) {
+  const binding = env.GITHUB_TOKEN;
+  if (typeof binding === "string") return binding;
+  if (binding && typeof binding.get === "function") return await binding.get();
+  throw new Error(`GITHUB_TOKEN no es ni string ni tiene .get() — typeof: ${typeof binding}, valor: ${JSON.stringify(binding)}`);
+}
+
 export default {
   // Sin ruta propia real: solo sirve para forzar una prueba manual sin
   // esperar a la hora del cron, ya que /__scheduled solo funciona con
@@ -68,19 +79,17 @@ export default {
         { status: 200 }
       );
     }
-    // GITHUB_TOKEN está enlazado vía Secrets Store (no un secreto de texto
-    // plano clásico) — ese tipo de binding entrega un objeto con .get(),
-    // no el string directamente. Usar el binding tal cual como token manda
-    // "Authorization: Bearer [object Object]", que GitHub rechaza igual
-    // que un token inválido (401 Bad credentials, indistinguible del caso
-    // real hasta que se revisa esto).
-    const token = await env.GITHUB_TOKEN.get();
-    const result = await dispatchAll(cron, token);
-    return new Response(result.message, { status: result.ok ? 200 : 500 });
+    try {
+      const token = await resolveToken(env);
+      const result = await dispatchAll(cron, token);
+      return new Response(result.message, { status: result.ok ? 200 : 500 });
+    } catch (error) {
+      return new Response(`EXCEPCIÓN: ${error.message}`, { status: 500 });
+    }
   },
 
   async scheduled(event, env, ctx) {
-    const token = await env.GITHUB_TOKEN.get();
+    const token = await resolveToken(env);
     const result = await dispatchAll(event.cron, token);
     console.log(result.message);
     if (!result.ok) {
