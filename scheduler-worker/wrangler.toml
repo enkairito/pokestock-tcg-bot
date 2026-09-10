@@ -22,4 +22,4 @@ crons = [
 [[secrets_store_secrets]]
 binding = "GITHUB_TOKEN"
 store_id = "2cd943ffacbe4b638a88edad529a1bcf"
-secret_name = "github-token"
+secret_name = "GITHUB_TOKEN"
