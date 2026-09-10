@@ -1,9 +1,9 @@
 name: Check Yu-Gi-Oh Stock
 
 on:
-  schedule:
-    # Cada 6 horas — pedido explícitamente (2026-09-07), igual que Magic.
-    - cron: '35 */6 * * *'
+  # Sin "schedule:" a propósito — el disparo real cada 6 horas lo hace el
+  # Cloudflare Worker de scheduler-worker/, junto con Magic y Lorcana en
+  # el mismo disparo (minuto :15). Ver scheduler-worker/README.md.
   workflow_dispatch: {}
 
 permissions:

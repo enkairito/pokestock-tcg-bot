@@ -1,10 +1,8 @@
 name: Check TCG Accessories Stock
 
 on:
-  schedule:
-    # Una vez al día — a diferencia del stock de TCG, los accesorios no
-    # generan avisos de Telegram, así que no hace falta más frecuencia.
-    - cron: '0 6 * * *'
+  # Sin "schedule:" a propósito — el disparo real una vez al día (06:00) lo
+  # hace el Cloudflare Worker de scheduler-worker/. Ver README ahí.
   workflow_dispatch: {}
 
 permissions:

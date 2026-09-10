@@ -1,10 +1,9 @@
 name: Check One Piece TCG Stock
 
 on:
-  schedule:
-    # Every hour, 5 min offset from the Pokémon check to avoid hitting
-    # Amazon/GitHub runners at the exact same minute.
-    - cron: '5 * * * *'
+  # No "schedule:" on purpose — GitHub delayed or dropped it under load
+  # (see scheduler-worker/README.md). The real hourly dispatch at :05 comes
+  # from the Cloudflare Worker in scheduler-worker/ via workflow_dispatch.
   workflow_dispatch: {}
 
 permissions:

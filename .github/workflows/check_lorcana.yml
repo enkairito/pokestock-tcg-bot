@@ -1,9 +1,9 @@
 name: Check Lorcana Stock
 
 on:
-  schedule:
-    # Cada 6 horas — pedido explícitamente (2026-09-07), igual que Magic.
-    - cron: '25 */6 * * *'
+  # Sin "schedule:" a propósito — el disparo real cada 6 horas lo hace el
+  # Cloudflare Worker de scheduler-worker/, junto con Magic y Yu-Gi-Oh en
+  # el mismo disparo (minuto :15). Ver scheduler-worker/README.md.
   workflow_dispatch: {}
 
 permissions:

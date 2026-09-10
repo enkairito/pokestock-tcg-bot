@@ -1,10 +1,10 @@
 name: Check Pokémon TCG Stock
 
 on:
-  schedule:
-    # Cada hora, también de noche. Evitar el minuto 0 reduce la coincidencia
-    # con los picos de carga del programador de GitHub Actions.
-    - cron: '17 * * * *'
+  # Sin "schedule:" a propósito — GitHub lo retrasaba o se lo saltaba bajo
+  # carga (ver scheduler-worker/README.md). El disparo real cada hora en el
+  # minuto :17 lo hace el Cloudflare Worker de scheduler-worker/ vía este
+  # workflow_dispatch.
   workflow_dispatch: {}
 
 permissions:

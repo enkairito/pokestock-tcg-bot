@@ -1,10 +1,9 @@
 name: Check Magic TCG Stock
 
 on:
-  schedule:
-    # Cada 6 horas — pedido explícitamente (2026-09-07): Magic no necesita
-    # la misma cadencia horaria que Pokémon/One Piece.
-    - cron: '15 */6 * * *'
+  # Sin "schedule:" a propósito — el disparo real cada 6 horas (minuto :15)
+  # lo hace el Cloudflare Worker de scheduler-worker/, junto con Lorcana y
+  # Yu-Gi-Oh en el mismo disparo. Ver scheduler-worker/README.md.
   workflow_dispatch: {}
 
 permissions:
