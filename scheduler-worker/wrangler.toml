@@ -13,6 +13,13 @@ crons = [
   "0 6 * * *",
 ]
 
-# GITHUB_TOKEN se añade como secreto (Settings > Variables and Secrets en el
-# panel, o `wrangler secret put GITHUB_TOKEN` si se usa CLI) — nunca en este
-# archivo ni en el repo.
+# El binding tiene que vivir AQUÍ, no solo añadirse a mano en el panel —
+# este proyecto se despliega vía Git (Cloudflare ejecuta "wrangler deploy"
+# en cada push), y ese comando aplica la config de este archivo tal cual,
+# borrando cualquier binding añadido manualmente que no esté declarado aquí.
+# El secreto en sí (el valor del token) vive en el Secrets Store de la
+# cuenta, no en este archivo ni en el repo — esto solo lo referencia por ID.
+[[secrets_store_secrets]]
+binding = "GITHUB_TOKEN"
+store_id = "2cd943ffacbe4b638a88edad529a1bcf"
+secret_name = "github-token"
