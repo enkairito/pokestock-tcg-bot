@@ -78,7 +78,7 @@
     "name": "Pokémon: Estadio Combina y Combate de Escarlata y Púrpura (2 Barajas, 11 Paquetes de Mejora y más)",
     "status": "compra_directa",
     "stock": null,
-    "price": "64,98 €",
+    "price": "65,98 €",
     "first_seen": "2026-08-25T20:27:54.285181+00:00"
   },
   "ES:B0G4NQK15P": {
@@ -1425,7 +1425,7 @@
     "name": "Pokémon- Origin Forme Palkia VSTAR Baraja de Batalla de la Liga, Multicolor (290-85236)",
     "status": "compra_directa",
     "stock": null,
-    "price": "47,78 €",
+    "price": "47,12 €",
     "first_seen": "2026-09-04T21:32:58.802801+00:00"
   },
   "UK:B0C7QXP3FH": {
@@ -1544,14 +1544,14 @@
     "name": "Pokemon TCG Scarlet & Violet Journey Together: Pack de 3 Booster Blister",
     "status": "compra_directa",
     "stock": null,
-    "price": "49,37 €",
+    "price": "49,08 €",
     "first_seen": "2026-09-04T21:32:58.802930+00:00"
   },
   "US:B0G5FWJ8NL": {
     "name": "Pokémon TCG: Mega Charizard Tin",
     "status": "compra_directa",
     "stock": null,
-    "price": "80,56 €",
+    "price": "81,36 €",
     "first_seen": "2026-09-04T21:32:58.802936+00:00"
   },
   "US:B0F2BFSPBN": {
@@ -1599,8 +1599,8 @@
   "US:B0GM7H8GCW": {
     "name": "Pokemon Blade Awakened CSV7C | Chino simplificado | Booster Box | Más de 15 años",
     "status": "compra_directa",
-    "stock": null,
-    "price": "70,56 €",
+    "stock": "3",
+    "price": "70,95 €",
     "first_seen": "2026-09-04T22:05:43.537321+00:00"
   },
   "US:B0FS98MMML": {
@@ -1661,8 +1661,9 @@
   },
   "US:B0DSLXC8J8": {
     "name": "Pokémon TCG: Scarlet & Violet - Journey Together - Paquete de 3 blíster - Scrafty (3 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "45,25 €",
     "first_seen": "2026-09-05T05:18:07.280980+00:00"
   },
   "UK:B0FTSVL3Z6": {
@@ -1690,7 +1691,7 @@
     "name": "Pokémon TCG: Unova Mini Tin – Krookodile & Excadrill (2 Paquetes de Refuerzo y 1 Tarjeta Adhesiva)",
     "status": "compra_directa",
     "stock": null,
-    "price": "49,99 €",
+    "price": "50,01 €",
     "first_seen": "2026-09-05T18:46:43.703340+00:00"
   },
   "US:B0F2BDKJ9Q": {
@@ -1738,7 +1739,7 @@
   "US:B0CXTNNVHN": {
     "name": "Pokémon TCG: Mini Cartera (Cartera de 60 Tarjetas y 1 Paquete de Refuerzo)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "price": "34,05 €",
     "first_seen": "2026-09-07T19:01:37.274378+00:00"
   },
@@ -1760,7 +1761,7 @@
     "name": "Pokemon Booster Pack - Scarlet & Violet SV1 Base Set - 10 Card Pack - Pack Art Varys",
     "status": "compra_directa",
     "stock": "3",
-    "price": "34,99 €",
+    "price": "33,36 €",
     "first_seen": "2026-09-08T00:08:50.343349+00:00"
   },
   "US:B0DLTZPNR2": {
@@ -1774,7 +1775,7 @@
     "name": "Pokémon TCG: Booster Pack de 10 Cartas Mega Evolution Flames Phantasmal Mangas",
     "status": "compra_directa",
     "stock": null,
-    "price": "39,95 €",
+    "price": "38,64 €",
     "first_seen": "2026-09-08T14:34:56.335771+00:00"
   },
   "UK:B0DG8VNG1F": {
@@ -1795,7 +1796,7 @@
     "name": "Pokemon - Scarlet & Violet: High Class Pack Shiny Treasure ex - Booster Box",
     "status": "compra_directa",
     "stock": "1",
-    "price": "218,93 €",
+    "price": "219,77 €",
     "first_seen": "2026-09-08T14:34:56.335808+00:00"
   },
   "UK:B0CK8JM32H": {
@@ -1837,7 +1838,7 @@
     "name": "100 Assorted Basic Pokemon TCG Energy Cards",
     "status": "compra_directa",
     "stock": null,
-    "price": "16,83 €",
+    "price": "16,87 €",
     "first_seen": "2026-09-08T14:34:56.335882+00:00"
   },
   "US:B0F1GXTFGL": {
@@ -1850,15 +1851,15 @@
   "US:B0FNLMQ5RN": {
     "name": "Pokémon TCG: Scarlet & Violet Expansion – Glory of Team Rocket (SV10) Booster Pack – JPN",
     "status": "compra_directa",
-    "stock": "5",
-    "price": "30,58 €",
+    "stock": null,
+    "price": "30,65 €",
     "first_seen": "2026-09-08T14:34:56.335896+00:00"
   },
   "US:B0DX79MM56": {
     "name": "Pokémon TCG: Azure Legends Tin - Xerneas ex (4 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
     "status": "compra_directa",
     "stock": null,
-    "price": "87,52 €",
+    "price": "87,57 €",
     "first_seen": "2026-09-08T14:34:56.335902+00:00"
   },
   "US:B0G49Y6JCM": {
@@ -1886,14 +1887,14 @@
     "name": "Pokemon Sword and Shield Darkness Ablaze Booster Pack (1 Booster Pack)",
     "status": "compra_directa",
     "stock": "5",
-    "price": "34,46 €",
+    "price": "33,92 €",
     "first_seen": "2026-09-08T14:34:56.335940+00:00"
   },
   "US:B0CS12GPTB": {
     "name": "Pokemon TCG: Sword & Shield - Paquete de Refuerzo de Estrellas Brillantes (10 Tarjetas por Paquete)",
     "status": "compra_directa",
     "stock": null,
-    "price": "42,52 €",
+    "price": "40,56 €",
     "first_seen": "2026-09-08T14:34:56.335946+00:00"
   },
   "US:B0D4B515H1": {
