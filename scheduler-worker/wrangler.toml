@@ -1,0 +1,20 @@
+name = "pokestock-scheduler"
+main = "worker.js"
+compatibility_date = "2026-09-10"
+
+# Referencia si algún día se despliega por CLI (wrangler deploy) en vez de
+# pegando el código en el panel. Por ahora se gestiona todo desde el panel
+# de Cloudflare — ver README.md.
+[triggers]
+crons = [
+  "17 * * * *",
+  "5 * * * *",
+  "15 */6 * * *",
+  "25 */6 * * *",
+  "35 */6 * * *",
+  "0 6 * * *",
+]
+
+# GITHUB_TOKEN se añade como secreto (Settings > Variables and Secrets en el
+# panel, o `wrangler secret put GITHUB_TOKEN` si se usa CLI) — nunca en este
+# archivo ni en el repo.
