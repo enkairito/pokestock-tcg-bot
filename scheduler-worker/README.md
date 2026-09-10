@@ -23,13 +23,12 @@ que el problema era solo el disparador, no la ejecución en sí.
 2. Pega el contenido de `worker.js` en el editor (Quick Edit) y despliega.
 3. **Settings → Variables and Secrets** → añade `GITHUB_TOKEN` (tipo *Secret*,
    no *Text*) con el token que se genera en el paso siguiente.
-4. **Settings → Trigger Events → Cron Triggers** → añade estos 6, exactamente
-   como están (mismos horarios que ya usan los workflows):
+4. **Settings → Trigger Events → Cron Triggers** → añade estos 4 (el plan
+   gratis de Cloudflare solo permite 5 Cron Triggers **por cuenta**, así que
+   Magic/Lorcana/Yu-Gi-Oh comparten uno solo — ver comentario en `worker.js`):
    - `17 * * * *` (Pokémon)
    - `5 * * * *` (One Piece)
-   - `15 */6 * * *` (Magic)
-   - `25 */6 * * *` (Lorcana)
-   - `35 */6 * * *` (Yu-Gi-Oh!)
+   - `15 */6 * * *` (Magic + Lorcana + Yu-Gi-Oh!, los tres a la vez)
    - `0 6 * * *` (Accesorios)
 
 ## El token de GitHub
