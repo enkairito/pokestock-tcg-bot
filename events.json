@@ -1,44 +1,5 @@
 [
   {
-    "ts": "2026-09-09T10:53:04.841857+00:00",
-    "type": "price_drop",
-    "asin": "B00TA6E3KI",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "100 Assorted Basic Pokemon TCG Energy Cards",
-    "image": "https://m.media-amazon.com/images/I/61Mm7cdlIFL._AC_UL320_.jpg",
-    "price": "16,84 €",
-    "prev_price": "16,90 €",
-    "link": "https://www.amazon.es/dp/B00TA6E3KI?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-09T10:53:04.841887+00:00",
-    "type": "price_drop",
-    "asin": "B0FB79QPR4",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokemon TCG - Scarlet & Violet: Destined Rivals - Lote de 8 Paquetes de Refuerzo - 80 Cartas",
-    "image": "https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T3/images/I/715Cu9wmd4L._AC_UL320_.jpg",
-    "price": "112,93 €",
-    "prev_price": "146,22 €",
-    "link": "https://www.amazon.es/dp/B0FB79QPR4?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-09T10:53:04.841936+00:00",
-    "type": "price_drop",
-    "asin": "B0DX79MM56",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokémon TCG: Azure Legends Tin - Xerneas ex (4 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
-    "image": "https://m.media-amazon.com/images/I/71IlmzJMvsL._AC_UL320_.jpg",
-    "price": "87,52 €",
-    "prev_price": "87,56 €",
-    "link": "https://www.amazon.es/dp/B0DX79MM56?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-09T11:06:12.971349+00:00",
     "type": "price_drop",
     "asin": "B0CF1MDBS5",
@@ -777,6 +738,45 @@
     "image": "https://m.media-amazon.com/images/I/71IlmzJMvsL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
     "price": "78,60 €",
     "prev_price": "78,63 €",
+    "link": "https://www.amazon.es/dp/B0DX79MM56?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-10T23:20:41.420961+00:00",
+    "type": "restock",
+    "asin": "B0DLQJ613B",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon TCG: Scarlet & Violet—Prismatic Evolutions Poster Collection",
+    "image": "https://m.media-amazon.com/images/I/81ulz0V0WcL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "91,29 €",
+    "prev_price": null,
+    "link": "https://www.amazon.es/dp/B0DLQJ613B?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-10T23:20:41.421069+00:00",
+    "type": "price_drop",
+    "asin": "B0FB79QPR4",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokemon TCG - Scarlet & Violet: Destined Rivals - Lote de 8 Paquetes de Refuerzo - 80 Cartas",
+    "image": "https://m.media-amazon.com/images/I/715Cu9wmd4L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "108,63 €",
+    "prev_price": "111,04 €",
+    "link": "https://www.amazon.es/dp/B0FB79QPR4?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-10T23:20:41.421124+00:00",
+    "type": "price_drop",
+    "asin": "B0DX79MM56",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokémon TCG: Azure Legends Tin - Xerneas ex (4 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
+    "image": "https://m.media-amazon.com/images/I/71IlmzJMvsL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "78,57 €",
+    "prev_price": "78,60 €",
     "link": "https://www.amazon.es/dp/B0DX79MM56?tag=enkairito-21"
   }
 ]
