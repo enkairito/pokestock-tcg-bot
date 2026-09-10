@@ -38,6 +38,17 @@ async function dispatch(workflow, token) {
 }
 
 export default {
+  // No sirve para nada por sí solo (este worker no tiene rutas propias) —
+  // pero sin un fetch() exportado, Cloudflare no puede interceptar
+  // /__scheduled?cron=... para forzar una prueba manual de scheduled().
+  async fetch(request) {
+    return new Response(
+      "Este worker no atiende peticiones normales, solo dispara checks por cron.\n" +
+      "Prueba manual: /__scheduled?cron=5+*+*+*+*\n",
+      { status: 200 }
+    );
+  },
+
   async scheduled(event, env, ctx) {
     const workflows = CRON_TO_WORKFLOWS[event.cron];
     if (!workflows) {
