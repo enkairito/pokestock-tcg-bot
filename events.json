@@ -1,57 +1,5 @@
 [
   {
-    "ts": "2026-09-08T14:34:56.335885+00:00",
-    "type": "restock",
-    "asin": "B00TA6E3KI",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "100 Assorted Basic Pokemon TCG Energy Cards",
-    "image": "https://m.media-amazon.com/images/I/61Mm7cdlIFL._AC_UL320_AIweblab1378949,T1_.jpg",
-    "price": "16,89 €",
-    "prev_price": null,
-    "link": "https://www.amazon.es/dp/B00TA6E3KI?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-08T14:34:56.335892+00:00",
-    "type": "restock",
-    "asin": "B0F1GXTFGL",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
-    "image": "https://m.media-amazon.com/images/I/71fEr7l8M4L._AC_UL320_AIweblab1378949,T1_.jpg",
-    "price": "322,50 €",
-    "prev_price": null,
-    "link": "https://www.amazon.es/dp/B0F1GXTFGL?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-08T14:34:56.335899+00:00",
-    "type": "restock",
-    "asin": "B0FNLMQ5RN",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokémon TCG: Scarlet & Violet Expansion – Glory of Team Rocket (SV10) Booster Pack – JPN",
-    "image": "https://m.media-amazon.com/images/I/61qIUzADSlL._AC_UL320_AIweblab1378949,T1_.jpg",
-    "price": "28,92 €",
-    "prev_price": null,
-    "link": "https://www.amazon.es/dp/B0FNLMQ5RN?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-08T14:34:56.335906+00:00",
-    "type": "restock",
-    "asin": "B0DX79MM56",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokémon TCG: Azure Legends Tin - Xerneas ex (4 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
-    "image": "https://m.media-amazon.com/images/I/71IlmzJMvsL._AC_UL320_AIweblab1378949,T1_.jpg",
-    "price": "80,45 €",
-    "prev_price": null,
-    "link": "https://www.amazon.es/dp/B0DX79MM56?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-08T14:34:56.335916+00:00",
     "type": "restock",
     "asin": "B0G49Y6JCM",
@@ -778,5 +726,57 @@
     "price": "219,06 €",
     "prev_price": "219,23 €",
     "link": "https://www.amazon.es/dp/B0CF1MDBS5?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-10T00:17:59.806494+00:00",
+    "type": "price_drop",
+    "asin": "B0CF1MDBS5",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokemon - Scarlet & Violet: High Class Pack Shiny Treasure ex - Booster Box",
+    "image": "https://m.media-amazon.com/images/I/61gL2PWEihL._AC_UL320_.jpg",
+    "price": "218,93 €",
+    "prev_price": "219,06 €",
+    "link": "https://www.amazon.es/dp/B0CF1MDBS5?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-10T00:17:59.806541+00:00",
+    "type": "restock",
+    "asin": "B0CM5TGNSL",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "POKEMON TCG: SCARLET AND VIOLET: PARADOX RIFT: BOOSTER PACK",
+    "image": "https://m.media-amazon.com/images/I/71hJs2uuc+L._AC_UL320_.jpg",
+    "price": "22,09 €",
+    "prev_price": null,
+    "link": "https://www.amazon.es/dp/B0CM5TGNSL?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-10T00:17:59.806556+00:00",
+    "type": "price_drop",
+    "asin": "B00TA6E3KI",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "100 Assorted Basic Pokemon TCG Energy Cards",
+    "image": "https://m.media-amazon.com/images/I/61Mm7cdlIFL._AC_UL320_.jpg",
+    "price": "16,83 €",
+    "prev_price": "16,89 €",
+    "link": "https://www.amazon.es/dp/B00TA6E3KI?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-10T00:17:59.806583+00:00",
+    "type": "price_drop",
+    "asin": "B0DX79MM56",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokémon TCG: Azure Legends Tin - Xerneas ex (4 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
+    "image": "https://m.media-amazon.com/images/I/71IlmzJMvsL._AC_UL320_.jpg",
+    "price": "87,52 €",
+    "prev_price": "87,57 €",
+    "link": "https://www.amazon.es/dp/B0DX79MM56?tag=enkairito-21"
   }
 ]
