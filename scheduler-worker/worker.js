@@ -17,7 +17,7 @@ const CRON_TO_WORKFLOWS = {
   "0 6 * * *": ["check_accessories.yml"],
 };
 
-async function dispatch(workflow, token) {
+async function dispatchOne(workflow, token) {
   const response = await fetch(
     `https://api.github.com/repos/${REPO}/actions/workflows/${workflow}/dispatches`,
     {
@@ -37,40 +37,46 @@ async function dispatch(workflow, token) {
   }
 }
 
+// Común a scheduled() y a la ruta de prueba manual — misma lógica, dos
+// disparadores distintos (uno el cron real, otro un curl a mano).
+async function dispatchAll(cron, token) {
+  const workflows = CRON_TO_WORKFLOWS[cron];
+  if (!workflows) {
+    return { ok: false, message: `Cron sin mapear a ningún workflow: "${cron}"` };
+  }
+  const results = await Promise.allSettled(workflows.map((w) => dispatchOne(w, token)));
+  const lines = results.map((result, i) =>
+    result.status === "fulfilled"
+      ? `OK  ${workflows[i]}`
+      : `ERR ${workflows[i]}: ${result.reason}`
+  );
+  const failedCount = results.filter((r) => r.status === "rejected").length;
+  return { ok: failedCount === 0, message: lines.join("\n"), failedCount, total: results.length };
+}
+
 export default {
-  // No sirve para nada por sí solo (este worker no tiene rutas propias) —
-  // pero sin un fetch() exportado, Cloudflare no puede interceptar
-  // /__scheduled?cron=... para forzar una prueba manual de scheduled().
-  async fetch(request) {
-    return new Response(
-      "Este worker no atiende peticiones normales, solo dispara checks por cron.\n" +
-      "Prueba manual: /__scheduled?cron=5+*+*+*+*\n",
-      { status: 200 }
-    );
+  // Sin ruta propia real: solo sirve para forzar una prueba manual sin
+  // esperar a la hora del cron, ya que /__scheduled solo funciona con
+  // `wrangler dev` en local, no contra el worker ya desplegado.
+  // Uso: /?test=5+*+*+*+*  (con el cron exacto, entre los 4 de CRON_TO_WORKFLOWS)
+  async fetch(request, env) {
+    const cron = new URL(request.url).searchParams.get("test");
+    if (!cron) {
+      return new Response(
+        "Este worker no atiende peticiones normales, solo dispara checks por cron.\n" +
+        "Prueba manual: /?test=5+*+*+*+* (cron exacto, con espacios como '+')\n",
+        { status: 200 }
+      );
+    }
+    const result = await dispatchAll(cron, env.GITHUB_TOKEN);
+    return new Response(result.message, { status: result.ok ? 200 : 500 });
   },
 
   async scheduled(event, env, ctx) {
-    const workflows = CRON_TO_WORKFLOWS[event.cron];
-    if (!workflows) {
-      console.error(`Cron sin mapear a ningún workflow: "${event.cron}"`);
-      return;
-    }
-
-    const results = await Promise.allSettled(
-      workflows.map((workflow) => dispatch(workflow, env.GITHUB_TOKEN))
-    );
-
-    const failed = results
-      .map((result, i) => ({ result, workflow: workflows[i] }))
-      .filter(({ result }) => result.status === "rejected");
-
-    for (const { result, workflow } of failed) {
-      console.error(`No se pudo disparar ${workflow}: ${result.reason}`);
-    }
-    console.log(`Disparados ${results.length - failed.length}/${results.length} workflows (cron "${event.cron}")`);
-
-    if (failed.length) {
-      throw new Error(`${failed.length}/${results.length} disparos fallaron para el cron "${event.cron}"`);
+    const result = await dispatchAll(event.cron, env.GITHUB_TOKEN);
+    console.log(result.message);
+    if (!result.ok) {
+      throw new Error(`${result.failedCount}/${result.total} disparos fallaron para el cron "${event.cron}"`);
     }
   },
 };
