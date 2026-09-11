@@ -1,31 +1,5 @@
 [
   {
-    "ts": "2026-09-09T11:06:12.971349+00:00",
-    "type": "price_drop",
-    "asin": "B0CF1MDBS5",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokemon - Scarlet & Violet: High Class Pack Shiny Treasure ex - Booster Box",
-    "image": "https://m.media-amazon.com/images/I/61gL2PWEihL._AC_UL320_.jpg",
-    "price": "219,63 €",
-    "prev_price": "219,64 €",
-    "link": "https://www.amazon.es/dp/B0CF1MDBS5?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-09T11:06:12.971404+00:00",
-    "type": "price_drop",
-    "asin": "B0FPNRG8GS",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokémon TCG: Mega Evolution—Phantasmal Flames Triple Pack Sneasel (1 Carta Promocional holográfica y 3 Sobres potenciadores)",
-    "image": "https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T3/images/I/91HdZKv9WJL._AC_UL320_.jpg",
-    "price": "68,73 €",
-    "prev_price": "69,04 €",
-    "link": "https://www.amazon.es/dp/B0FPNRG8GS?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-09T13:27:34.624398+00:00",
     "type": "restock",
     "asin": "B0H8SZ9F99",
@@ -778,5 +752,31 @@
     "price": "78,57 €",
     "prev_price": "78,60 €",
     "link": "https://www.amazon.es/dp/B0DX79MM56?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-11T00:20:24.209764+00:00",
+    "type": "price_drop",
+    "asin": "B0F6PMVQWQ",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokémon TCG Scarlet & Violet 10.5 Black Bolt Booster Set",
+    "image": "https://m.media-amazon.com/images/I/81UhwmFvHFL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "137,79 €",
+    "prev_price": "139,85 €",
+    "link": "https://www.amazon.es/dp/B0F6PMVQWQ?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-11T00:20:24.209803+00:00",
+    "type": "price_drop",
+    "asin": "B0FB79QPR4",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokemon TCG - Scarlet & Violet: Destined Rivals - Lote de 8 Paquetes de Refuerzo - 80 Cartas",
+    "image": "https://m.media-amazon.com/images/I/715Cu9wmd4L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "108,10 €",
+    "prev_price": "108,63 €",
+    "link": "https://www.amazon.es/dp/B0FB79QPR4?tag=enkairito-21"
   }
 ]
