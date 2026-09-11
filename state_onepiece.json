@@ -66,7 +66,7 @@
     "name": "Juego de cartas de una pieza ST-33 Blue Kuzan | Baraja de inicio, ST-33, Blue Kuzan, juego de cartas coleccionables",
     "status": "compra_directa",
     "stock": "2",
-    "price": "30,00 €",
+    "price": "34,06 €",
     "first_seen": "2026-08-29T18:09:23.560405+00:00"
   },
   "ES:B0FL83L295": {
@@ -93,8 +93,8 @@
   "ES:B0CGR4P859": {
     "name": "Awakening of the New Era Booster Pack OP-05 - One Piece Juego de Cartas - JP",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "35,68 €",
+    "stock": null,
+    "price": "36,61 €",
     "first_seen": "2026-08-29T18:09:47.272890+00:00"
   },
   "ES:B0D69TF558": {
@@ -141,16 +141,15 @@
   },
   "ES:B0G6FWHGQT": {
     "name": "One Piece TCG: The Azure Sea's Seven Booster Box (OP-14) - 24 Paquetes",
-    "status": "compra_directa",
-    "stock": "2",
-    "price": "382,73 €",
+    "status": "no_disponible",
+    "stock": null,
     "first_seen": "2026-08-29T18:10:41.534422+00:00"
   },
   "ES:B0F8V1YTSP": {
     "name": "BANDAI Juego de cartas de una pieza más antiguo (OP-13) (caja) de 24 unidades",
     "status": "compra_directa",
-    "stock": null,
-    "price": "288,84 €",
+    "stock": "3",
+    "price": "305,47 €",
     "first_seen": "2026-08-29T18:10:47.849793+00:00"
   },
   "ES:B0G2VKBZML": {
@@ -217,8 +216,9 @@
   },
   "ES:B0GBY85556": {
     "name": "One Piece TCG Japanese Carry On His Will Booster Pack - Juego de 2 (10 tarjetas en total)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "40,54 €",
     "first_seen": "2026-09-02T17:02:35.147234+00:00"
   },
   "ES:B0DZ25YM9N": {
