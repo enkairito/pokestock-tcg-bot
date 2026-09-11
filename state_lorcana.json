@@ -16,7 +16,7 @@
     "name": "Ravensburger Disney Lorcana - Juego de cartas coleccionables para adultos y niños a partir de 8 años - Set 12: Wilds Unknown - Deck para 2 jugadores",
     "status": "compra_directa",
     "stock": "3",
-    "price": "40,59 €",
+    "price": "39,01 €",
     "first_seen": "2026-09-07T17:41:04.537441+00:00"
   },
   "ES:B0H8S82717": {
@@ -37,7 +37,7 @@
     "name": "Ravensburger - Disney Lorcana Azurite Sea Illumineer’s Trove, Juego de Mesa, Juego de Cartas, Juego de Estrategia, Juego Niños 8 Años o Más, Regalos Niños 8 Años, Accesorios",
     "status": "compra_directa",
     "stock": null,
-    "price": "52,40 €",
+    "price": "54,59 €",
     "first_seen": "2026-09-07T17:41:25.409258+00:00"
   },
   "ES:B0DJT1G86G": {
@@ -65,7 +65,7 @@
     "name": "Disney Lorcana Trading Card Game: Set 4 – Starter Deck B",
     "status": "compra_directa",
     "stock": "1",
-    "price": "15,12 €",
+    "price": "15,64 €",
     "first_seen": "2026-09-07T17:41:48.708513+00:00"
   },
   "ES:B0H1DNGSJS": {
@@ -86,7 +86,7 @@
     "name": "Disney Lorcana TCG: Ataque de la zarcilla! - Cofre del Tesoro de Luminari (Español)",
     "status": "compra_directa",
     "stock": "1",
-    "price": "70,48 €",
+    "price": "59,90 €",
     "first_seen": "2026-09-07T17:42:06.427643+00:00"
   },
   "ES:B0GK896YXF": {
@@ -100,7 +100,7 @@
     "name": "Ravensburger - Disney Lorcana TCG: Set 7 Bella Y Bestia | Juegos De Cartas Adultos Y Niños con 60 Cartas Disney Lorcana | Juegos Niños 8 Años O Más Coleccionables | Regalos Originales",
     "status": "compra_directa",
     "stock": null,
-    "price": "19,39 €",
+    "price": "19,99 €",
     "first_seen": "2026-09-07T17:42:20.342685+00:00"
   },
   "ES:B0BT6NK58G": {
@@ -176,8 +176,8 @@
   "ES:B0DDPH3JQB": {
     "name": "Disney Lorcana Trading Card Game: Archazias Isla – Booster Display con 24 Booster Packs (en inglés)",
     "status": "compra_directa",
-    "stock": null,
-    "price": "157,36 €",
+    "stock": "1",
+    "price": "150,00 €",
     "first_seen": "2026-09-08T11:29:17.563714+00:00"
   },
   "ES:B0CGXJ8244": {
@@ -221,5 +221,26 @@
     "stock": null,
     "price": "24,99 €",
     "first_seen": "2026-09-10T16:33:40.832890+00:00"
+  },
+  "ES:B0GHPRLZ7B": {
+    "name": "Ravensburger Disney Lorcana TCG: Collection Starter Set - Edición Stitch - Incluye 4 paquetes de refuerzo Winterspell, cartera de cartas Rock Star y promoción de papel brillante - Guía del",
+    "status": "compra_directa",
+    "stock": "4",
+    "price": "76,33 €",
+    "first_seen": "2026-09-11T00:16:46.734698+00:00"
+  },
+  "ES:B0CSZ6H1SN": {
+    "name": "Disney Lorcana Trading Card Game – Shimmering Skies – Illumnieer's Trove",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "55,51 €",
+    "first_seen": "2026-09-11T00:16:52.567207+00:00"
+  },
+  "ES:B0DDPHFTTC": {
+    "name": "Ravensburger - Disney Lorcana TCG: Reign of Jafar | Juegos De Cartas Adultos Y Niños con 60 Cartas Disney Lorcana | Juegos Niños 8 Años O Más Coleccionables | Regalos Originales",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "19,99 €",
+    "first_seen": "2026-09-11T00:17:04.220666+00:00"
   }
 }
