@@ -211,9 +211,8 @@
   },
   "ES:B0GWS8DC8C": {
     "name": "Bundle de Regalo de Magic: The Gathering | El Hobbit | Juego de Cartas Intercambiables y coleccionables (Versión en Inglés)",
-    "status": "compra_directa",
-    "stock": "1",
-    "price": "163,00 €",
+    "status": "no_disponible",
+    "stock": null,
     "first_seen": "2026-09-07T10:46:00.374156+00:00"
   },
   "ES:B0GY5TKJ7B": {
@@ -274,8 +273,9 @@
   },
   "ES:B0G8781J5W": {
     "name": "Mazo de Commander de Secretos de Strixhaven, de Magic: The Gathering - Influencia de Plumargéntum (Versión en Español)",
-    "status": "no_disponible",
-    "stock": null,
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "52,50 €",
     "first_seen": "2026-09-07T10:46:54.506895+00:00"
   },
   "ES:B0G86TG887": {
