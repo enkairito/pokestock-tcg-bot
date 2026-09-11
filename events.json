@@ -1,44 +1,5 @@
 [
   {
-    "ts": "2026-09-10T00:17:59.806556+00:00",
-    "type": "price_drop",
-    "asin": "B00TA6E3KI",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "100 Assorted Basic Pokemon TCG Energy Cards",
-    "image": "https://m.media-amazon.com/images/I/61Mm7cdlIFL._AC_UL320_.jpg",
-    "price": "16,83 €",
-    "prev_price": "16,89 €",
-    "link": "https://www.amazon.es/dp/B00TA6E3KI?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-10T00:17:59.806583+00:00",
-    "type": "price_drop",
-    "asin": "B0DX79MM56",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokémon TCG: Azure Legends Tin - Xerneas ex (4 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
-    "image": "https://m.media-amazon.com/images/I/71IlmzJMvsL._AC_UL320_.jpg",
-    "price": "87,52 €",
-    "prev_price": "87,57 €",
-    "link": "https://www.amazon.es/dp/B0DX79MM56?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-10T04:46:49.552609+00:00",
-    "type": "price_drop",
-    "asin": "B0BXJT92PT",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokémon- Origin Forme Palkia VSTAR Baraja de Batalla de la Liga, Multicolor (290-85236)",
-    "image": "https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T3/images/I/91qF7mG6W6L._AC_UL320_.jpg",
-    "price": "47,12 €",
-    "prev_price": "47,78 €",
-    "link": "https://www.amazon.es/dp/B0BXJT92PT?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-10T04:46:49.552711+00:00",
     "type": "price_drop",
     "asin": "B0FS98MMML",
@@ -778,5 +739,44 @@
     "price": "78,27 €",
     "prev_price": "78,35 €",
     "link": "https://www.amazon.es/dp/B0DX79MM56?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-11T12:19:47.016196+00:00",
+    "type": "price_drop",
+    "asin": "B0DG8VNG1F",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon TCG: Scarlet & Violet—Shrouded Fable Booster Bundle (6 Booster Packs)",
+    "image": "https://m.media-amazon.com/images/I/81PYT9ru31L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "97,88 €",
+    "prev_price": "97,90 €",
+    "link": "https://www.amazon.es/dp/B0DG8VNG1F?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-11T12:19:47.016325+00:00",
+    "type": "price_drop",
+    "asin": "B0D92YXKBH",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokemon TCG: Scarlet & Violet—151 Mini Tin – Electabuzz and Magnemite (2 Booster Packs, 1 Coin & 1 Art Card)",
+    "image": "https://m.media-amazon.com/images/I/61L2TafIcOL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "90,30 €",
+    "prev_price": "98,06 €",
+    "link": "https://www.amazon.es/dp/B0D92YXKBH?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-11T12:19:47.016383+00:00",
+    "type": "price_drop",
+    "asin": "B08DVCNV3W",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokemon Sword and Shield Darkness Ablaze Booster Pack (1 Booster Pack)",
+    "image": "https://m.media-amazon.com/images/I/61+bgCiyXlL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "33,89 €",
+    "prev_price": "33,90 €",
+    "link": "https://www.amazon.es/dp/B08DVCNV3W?tag=enkairito-21"
   }
 ]
