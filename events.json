@@ -1,31 +1,5 @@
 [
   {
-    "ts": "2026-09-09T14:38:41.621633+00:00",
-    "type": "price_drop",
-    "asin": "B0DBHJPLVB",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokémon TCG: Miraidon ex Deluxe Battle Deck (Ready-to-Play 60-Card Deck & Accessories)",
-    "image": "https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T3/images/I/81wkHcRv55L._AC_UL320_.jpg",
-    "price": "31,56 €",
-    "prev_price": "31,65 €",
-    "link": "https://www.amazon.es/dp/B0DBHJPLVB?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-09T14:38:41.621641+00:00",
-    "type": "price_drop",
-    "asin": "B0BJ7F5RNY",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokémon- Deoxys (60 Cards, Ready to Play) Baraja de Batalla V, Multicolor, zeraora (699-17149)",
-    "image": "https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T3/images/I/81pTrbT77WL._AC_UL320_.jpg",
-    "price": "24,76 €",
-    "prev_price": "24,79 €",
-    "link": "https://www.amazon.es/dp/B0BJ7F5RNY?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-09T14:38:41.621668+00:00",
     "type": "price_drop",
     "asin": "B0DG8VNG1F",
@@ -777,6 +751,32 @@
     "image": "https://m.media-amazon.com/images/I/71IlmzJMvsL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
     "price": "78,44 €",
     "prev_price": "78,49 €",
+    "link": "https://www.amazon.es/dp/B0DX79MM56?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-11T06:20:33.753812+00:00",
+    "type": "price_drop",
+    "asin": "B0D9DLZ6DG",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon TCG: Miraidon ex Battle Deck (Ready-to-Play 60-Card Deck)",
+    "image": "https://m.media-amazon.com/images/I/61VX9ZM6C5L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "42,11 €",
+    "prev_price": "42,12 €",
+    "link": "https://www.amazon.es/dp/B0D9DLZ6DG?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-11T06:20:33.753972+00:00",
+    "type": "price_drop",
+    "asin": "B0DX79MM56",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokémon TCG: Azure Legends Tin - Xerneas ex (4 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
+    "image": "https://m.media-amazon.com/images/I/71IlmzJMvsL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "78,41 €",
+    "prev_price": "78,44 €",
     "link": "https://www.amazon.es/dp/B0DX79MM56?tag=enkairito-21"
   }
 ]
