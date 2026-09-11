@@ -1,18 +1,5 @@
 [
   {
-    "ts": "2026-09-10T14:28:29.242506+00:00",
-    "type": "price_drop",
-    "asin": "B0CF1MDBS5",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokemon - Scarlet & Violet: High Class Pack Shiny Treasure ex - Booster Box",
-    "image": "https://m.media-amazon.com/images/I/61gL2PWEihL._AC_UL320_.jpg",
-    "price": "219,74 €",
-    "prev_price": "219,77 €",
-    "link": "https://www.amazon.es/dp/B0CF1MDBS5?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-10T14:28:29.242533+00:00",
     "type": "price_drop",
     "asin": "B0DG8VNG1F",
@@ -767,7 +754,20 @@
     "link": "https://www.amazon.es/dp/B0BXJT92PT?tag=enkairito-21"
   },
   {
-    "ts": "2026-09-11T21:19:49.574253+00:00",
+    "ts": "2026-09-11T21:22:39.268259+00:00",
+    "type": "price_drop",
+    "asin": "B0FNDK5FGK",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokemon TCG Battle Partners sv9 Caja de refuerzo coreana",
+    "image": "https://m.media-amazon.com/images/I/31B+DdfSy7L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "76,12 €",
+    "prev_price": "80,84 €",
+    "link": "https://www.amazon.es/dp/B0FNDK5FGK?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-11T21:22:39.268396+00:00",
     "type": "price_drop",
     "asin": "B0F2BDKJ9Q",
     "marketplace": "US",
