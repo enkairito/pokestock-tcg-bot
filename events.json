@@ -1,31 +1,5 @@
 [
   {
-    "ts": "2026-09-10T04:46:49.552763+00:00",
-    "type": "price_drop",
-    "asin": "B0DVC187SP",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokemon TCG Scarlet & Violet Journey Together: Pack de 3 Booster Blister",
-    "image": "https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T3/images/I/71DnX8umOqL._AC_UL320_.jpg",
-    "price": "49,08 €",
-    "prev_price": "49,37 €",
-    "link": "https://www.amazon.es/dp/B0DVC187SP?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-10T04:46:49.552803+00:00",
-    "type": "price_drop",
-    "asin": "B0C16H3DGV",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokemon Booster Pack - Scarlet & Violet SV1 Base Set - 10 Card Pack - Pack Art Varys",
-    "image": "https://m.media-amazon.com/images/I/71ARA+YjCfL._AC_UL320_.jpg",
-    "price": "33,36 €",
-    "prev_price": "34,99 €",
-    "link": "https://www.amazon.es/dp/B0C16H3DGV?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-10T04:46:49.552853+00:00",
     "type": "price_drop",
     "asin": "B08DVCNV3W",
@@ -778,5 +752,31 @@
     "price": "77,43 €",
     "prev_price": "83,33 €",
     "link": "https://www.amazon.es/dp/B0FTSVL3Z6?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-11T14:19:47.460169+00:00",
+    "type": "price_drop",
+    "asin": "B00TA6E3KI",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "100 Assorted Basic Pokemon TCG Energy Cards",
+    "image": "https://m.media-amazon.com/images/I/61Mm7cdlIFL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "16,79 €",
+    "prev_price": "16,90 €",
+    "link": "https://www.amazon.es/dp/B00TA6E3KI?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-11T14:19:47.460241+00:00",
+    "type": "price_drop",
+    "asin": "B08DVCNV3W",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokemon Sword and Shield Darkness Ablaze Booster Pack (1 Booster Pack)",
+    "image": "https://m.media-amazon.com/images/I/61+bgCiyXlL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "33,88 €",
+    "prev_price": "33,89 €",
+    "link": "https://www.amazon.es/dp/B08DVCNV3W?tag=enkairito-21"
   }
 ]
