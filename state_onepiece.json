@@ -66,7 +66,7 @@
     "name": "Juego de cartas de una pieza ST-33 Blue Kuzan | Baraja de inicio, ST-33, Blue Kuzan, juego de cartas coleccionables",
     "status": "compra_directa",
     "stock": "2",
-    "price": "33,86 €",
+    "price": "33,90 €",
     "first_seen": "2026-08-29T18:09:23.560405+00:00"
   },
   "ES:B0FL83L295": {
@@ -100,7 +100,7 @@
   "ES:B0D69TF558": {
     "name": "One Piece TCG: Two Legends - Booster Pack (OP-08) (JP) (TCG)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "price": "8,46 €",
     "first_seen": "2026-08-29T18:09:54.795240+00:00"
   },
@@ -141,8 +141,9 @@
   },
   "ES:B0G6FWHGQT": {
     "name": "One Piece TCG: The Azure Sea's Seven Booster Box (OP-14) - 24 Paquetes",
-    "status": "no_disponible",
-    "stock": null,
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "382,73 €",
     "first_seen": "2026-08-29T18:10:41.534422+00:00"
   },
   "ES:B0F8V1YTSP": {
