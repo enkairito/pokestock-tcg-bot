@@ -1,57 +1,5 @@
 [
   {
-    "ts": "2026-09-09T13:27:52.661929+00:00",
-    "type": "restock",
-    "asin": "B0H8SWNVWT",
-    "marketplace": "ES",
-    "store_label": "Amazon ES",
-    "flag": "🇪🇸",
-    "name": "Pokémon: Colección Sylveon ex de Celebración 30.º Aniversario de JCC Pokémon (1 Carta holográfica de promoción, 1 Carta holográfica de Gran tamaño y 4 Sobres de Mejora)",
-    "image": "https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T3/images/I/91cIw5Cb4BL._AC_UL320_.jpg",
-    "price": "24,99 €",
-    "prev_price": null,
-    "link": "https://www.amazon.es/dp/B0H8SWNVWT?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-09T13:27:58.861634+00:00",
-    "type": "restock",
-    "asin": "B0H8SY1NB9",
-    "marketplace": "ES",
-    "store_label": "Amazon ES",
-    "flag": "🇪🇸",
-    "name": "Pokémon: Colección Greninja ex de Celebración 30.º Aniversario de JCC Pokémon (1 Carta holográfica de promoción, 1 Carta holográfica de Gran tamaño y 4 Sobres de Mejora)",
-    "image": "https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T3/images/I/91i5qGsPreL._AC_UL320_.jpg",
-    "price": "24,99 €",
-    "prev_price": null,
-    "link": "https://www.amazon.es/dp/B0H8SY1NB9?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-09T13:28:05.051342+00:00",
-    "type": "restock",
-    "asin": "B0H8T4RR5S",
-    "marketplace": "ES",
-    "store_label": "Amazon ES",
-    "flag": "🇪🇸",
-    "name": "Pokémon: Lata Celebración 30.º Aniversario: Sylveon ex de JCC Pokémon (1 Carta holográfica de promoción y 4 Sobres de Mejora)",
-    "image": "https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T3/images/I/71c7NYwQiIL._AC_UL320_.jpg",
-    "price": "24,99 €",
-    "prev_price": null,
-    "link": "https://www.amazon.es/dp/B0H8T4RR5S?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-09T13:28:11.050924+00:00",
-    "type": "restock",
-    "asin": "B0H8T3MP6T",
-    "marketplace": "ES",
-    "store_label": "Amazon ES",
-    "flag": "🇪🇸",
-    "name": "Pokémon: Lata Celebración 30.º Aniversario: Greninja ex de JCC Pokémon (1 Carta holográfica de promoción y 4 Sobres de Mejora)",
-    "image": "https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T3/images/I/71tDaz8KRaL._AC_UL320_.jpg",
-    "price": "24,99 €",
-    "prev_price": null,
-    "link": "https://www.amazon.es/dp/B0H8T3MP6T?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-09T13:28:17.096205+00:00",
     "type": "restock",
     "asin": "B0H8SXC5L9",
@@ -777,6 +725,58 @@
     "image": "https://m.media-amazon.com/images/I/71IlmzJMvsL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
     "price": "78,54 €",
     "prev_price": "78,57 €",
+    "link": "https://www.amazon.es/dp/B0DX79MM56?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-11T02:20:21.700343+00:00",
+    "type": "price_drop",
+    "asin": "B0BJ7F5RNY",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon- Deoxys (60 Cards, Ready to Play) Baraja de Batalla V, Multicolor, zeraora (699-17149)",
+    "image": "https://m.media-amazon.com/images/I/81pTrbT77WL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "24,72 €",
+    "prev_price": "24,76 €",
+    "link": "https://www.amazon.es/dp/B0BJ7F5RNY?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-11T02:20:21.700433+00:00",
+    "type": "price_drop",
+    "asin": "B0FB79QPR4",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokemon TCG - Scarlet & Violet: Destined Rivals - Lote de 8 Paquetes de Refuerzo - 80 Cartas",
+    "image": "https://m.media-amazon.com/images/I/715Cu9wmd4L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "107,58 €",
+    "prev_price": "108,10 €",
+    "link": "https://www.amazon.es/dp/B0FB79QPR4?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-11T02:20:21.700483+00:00",
+    "type": "price_drop",
+    "asin": "B08DVCNV3W",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokemon Sword and Shield Darkness Ablaze Booster Pack (1 Booster Pack)",
+    "image": "https://m.media-amazon.com/images/I/61+bgCiyXlL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "33,90 €",
+    "prev_price": "34,39 €",
+    "link": "https://www.amazon.es/dp/B08DVCNV3W?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-11T02:20:21.700493+00:00",
+    "type": "price_drop",
+    "asin": "B0DX79MM56",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokémon TCG: Azure Legends Tin - Xerneas ex (4 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
+    "image": "https://m.media-amazon.com/images/I/71IlmzJMvsL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "78,50 €",
+    "prev_price": "78,54 €",
     "link": "https://www.amazon.es/dp/B0DX79MM56?tag=enkairito-21"
   }
 ]
