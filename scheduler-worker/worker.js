@@ -13,7 +13,7 @@ const REPO = "enkairito/pokestock-tcg-bot";
 const CRON_TO_WORKFLOWS = {
   "17 * * * *": ["check_stock.yml"],
   "5 * * * *": ["check_onepiece.yml"],
-  "15 */6 * * *": ["check_magic.yml", "check_lorcana.yml", "check_yugioh.yml"],
+  "15 */6 * * *": ["check_magic.yml", "check_lorcana.yml", "check_yugioh.yml", "check_nintendo.yml", "check_playstation.yml", "check_xbox.yml"],
   "0 6 * * *": ["check_accessories.yml"],
 };
 

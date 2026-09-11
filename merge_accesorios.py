@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 
 
-SOURCES = ("accessories", "onepiece", "magic", "lorcana", "yugioh")
+SOURCES = ("accessories", "onepiece", "magic", "lorcana", "yugioh", "nintendo", "playstation", "xbox")
 
 
 def product_source(product):

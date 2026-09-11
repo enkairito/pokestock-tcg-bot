@@ -11,6 +11,9 @@ SOURCES = {
     "magic": ("Magic", "magic.json", 6),
     "lorcana": ("Lorcana", "lorcana.json", 6),
     "yugioh": ("Yu-Gi-Oh!", "yugioh.json", 6),
+    "nintendo": ("Nintendo", "nintendo.json", 6),
+    "playstation": ("PlayStation", "playstation.json", 6),
+    "xbox": ("Xbox", "xbox.json", 6),
     "accessories": ("Accesorios", "accesorios.json", 24),
 }
 

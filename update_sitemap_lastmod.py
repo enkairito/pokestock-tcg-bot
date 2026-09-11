@@ -29,6 +29,9 @@ DYNAMIC_PAGES = {
     "https://wheresthatstock.com/magic",
     "https://wheresthatstock.com/lorcana",
     "https://wheresthatstock.com/yugioh",
+    "https://wheresthatstock.com/nintendo",
+    "https://wheresthatstock.com/playstation",
+    "https://wheresthatstock.com/xbox",
 }
 
 

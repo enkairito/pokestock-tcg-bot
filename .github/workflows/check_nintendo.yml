@@ -1,0 +1,62 @@
+name: Check Nintendo Stock
+
+on:
+  # Sin "schedule:" a propósito — el disparo real lo hace el Cloudflare
+  # Worker de scheduler-worker/, junto con Magic/Lorcana/Yu-Gi-Oh en el
+  # mismo disparo (minuto :15). Ver scheduler-worker/README.md.
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: check-nintendo
+  cancel-in-progress: false
+
+jobs:
+  check-nintendo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          patchright install --with-deps chromium
+
+      - name: Restore Amazon cookies
+        env:
+          AMAZON_COOKIES_JSON: ${{ secrets.AMAZON_COOKIES_JSON }}
+        run: |
+          if [ -n "$AMAZON_COOKIES_JSON" ]; then
+            echo "$AMAZON_COOKIES_JSON" > amazon_cookies.json
+          fi
+
+      - name: Run Nintendo check
+        env:
+          # check_stock.py (importado por check_nintendo.py) requiere estas
+          # dos al cargarse, aunque los avisos reales de Gaming usan el
+          # bot/canal propio de abajo.
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_GAMING_BOT_TOKEN: ${{ secrets.TELEGRAM_GAMING_BOT_TOKEN }}
+          TELEGRAM_GAMING_CHAT_ID: ${{ secrets.TELEGRAM_GAMING_CHAT_ID }}
+        run: xvfb-run -a python check_nintendo.py
+
+      - name: Commit updated state
+        run: >-
+          python publish_updates.py --repo . --message "chore: update nintendo state" --copy state_nintendo.json state_nintendo.json
+
+      - name: Publish products snapshot to Wheres That Stock
+        env:
+          WHERESTHATSTOCK_TOKEN: ${{ secrets.WHERESTHATSTOCK_TOKEN }}
+        run: |
+          git clone https://x-access-token:${WHERESTHATSTOCK_TOKEN}@github.com/enkairito/wheresthatstock.git /tmp/wheresthatstock
+          python publish_updates.py --repo /tmp/wheresthatstock --message "chore: update nintendo snapshot" --copy nintendo_snapshot.json nintendo.json --sitemap --accessories accesorios_nintendo_snapshot.json --source nintendo

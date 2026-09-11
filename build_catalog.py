@@ -14,7 +14,7 @@ from urllib.parse import urlparse
 
 from stock_logic import alert_changes, price_to_float
 
-SOURCES = ("products.json", "onepiece.json", "magic.json", "lorcana.json", "yugioh.json", "accesorios.json")
+SOURCES = ("products.json", "onepiece.json", "magic.json", "lorcana.json", "yugioh.json", "nintendo.json", "playstation.json", "xbox.json", "accesorios.json")
 NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
 ORIGIN = "https://wheresthatstock.com"
 # "sin_confirmar" y cualquier estado nuevo caen en OutOfStock: sin confirmación
@@ -36,6 +36,9 @@ CATEGORY_LINKS = {
     "magic.json": ("/magic", "Magic: The Gathering"),
     "lorcana.json": ("/lorcana", "Disney Lorcana"),
     "yugioh.json": ("/yugioh", "Yu-Gi-Oh!"),
+    "nintendo.json": ("/nintendo", "Nintendo"),
+    "playstation.json": ("/playstation", "PlayStation"),
+    "xbox.json": ("/xbox", "Xbox"),
     "accesorios.json": ("/accesorios", "Accesorios"),
 }
 
