@@ -232,7 +232,7 @@
     "name": "One Piece Card Game Egghead Crisis EB-04 Extra Booster Box (japonés) - 24 paquetes",
     "status": "compra_directa",
     "stock": null,
-    "price": "195,61 €",
+    "price": "195,79 €",
     "first_seen": "2026-09-03T18:23:03.868065+00:00"
   },
   "ES:B0HF1Z72XW": {
@@ -254,5 +254,12 @@
     "stock": null,
     "price": "40,01 €",
     "first_seen": "2026-09-08T09:40:16.326555+00:00"
+  },
+  "ES:B0DW3R4T9G": {
+    "name": "BANDAI ONE PIECE - Caja de refuerzo de cartas Master and Student Bonds (OP-12) (japonés) - 24 paquetes",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "224,00 €",
+    "first_seen": "2026-09-11T09:06:24.304152+00:00"
   }
 }
