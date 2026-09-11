@@ -1,44 +1,5 @@
 [
   {
-    "ts": "2026-09-09T18:38:03.891738+00:00",
-    "type": "price_drop",
-    "asin": "B0CF1MDBS5",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokemon - Scarlet & Violet: High Class Pack Shiny Treasure ex - Booster Box",
-    "image": "https://m.media-amazon.com/images/I/61gL2PWEihL._AC_UL320_.jpg",
-    "price": "219,23 €",
-    "prev_price": "219,47 €",
-    "link": "https://www.amazon.es/dp/B0CF1MDBS5?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-09T18:38:03.891774+00:00",
-    "type": "price_drop",
-    "asin": "B0CTTRH7NL",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "2023 Pokémon TCG World Championships Deck – Tord Reklev…",
-    "image": "https://m.media-amazon.com/images/I/91IP-kAs5LL._AC_UL320_.jpg",
-    "price": "36,06 €",
-    "prev_price": "36,97 €",
-    "link": "https://www.amazon.es/dp/B0CTTRH7NL?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-09T18:38:03.891782+00:00",
-    "type": "price_drop",
-    "asin": "B09M48Z5NW",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokémon TCG: Baraja de Batalla V: Lycanroc contra Corviknight",
-    "image": "https://m.media-amazon.com/images/I/71fYchuNuOL._AC_UL320_.jpg",
-    "price": "58,70 €",
-    "prev_price": "64,60 €",
-    "link": "https://www.amazon.es/dp/B09M48Z5NW?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-09T21:44:08.000091+00:00",
     "type": "price_drop",
     "asin": "B0GZ9S9KDR",
@@ -778,5 +739,44 @@
     "price": "78,36 €",
     "prev_price": "78,41 €",
     "link": "https://www.amazon.es/dp/B0DX79MM56?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-11T08:20:29.926751+00:00",
+    "type": "price_drop",
+    "asin": "B0C4V8F77B",
+    "marketplace": "ES",
+    "store_label": "Amazon ES",
+    "flag": "🇪🇸",
+    "name": "Pokémon: Estadio Combina y Combate de Escarlata y Púrpura (2 Barajas, 11 Paquetes de Mejora y más)",
+    "image": "https://m.media-amazon.com/images/I/81eF8wu4I1L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "64,98 €",
+    "prev_price": "65,98 €",
+    "link": "https://www.amazon.es/dp/B0C4V8F77B?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-11T08:20:36.236295+00:00",
+    "type": "price_drop",
+    "asin": "B0BXJT92PT",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon- Origin Forme Palkia VSTAR Baraja de Batalla de la Liga, Multicolor (290-85236)",
+    "image": "https://m.media-amazon.com/images/I/91qF7mG6W6L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "47,12 €",
+    "prev_price": "47,72 €",
+    "link": "https://www.amazon.es/dp/B0BXJT92PT?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-11T08:20:36.236349+00:00",
+    "type": "price_drop",
+    "asin": "B09M48Z5NW",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon TCG: Baraja de Batalla V: Lycanroc contra Corviknight",
+    "image": "https://m.media-amazon.com/images/I/71fYchuNuOL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "58,70 €",
+    "prev_price": "59,59 €",
+    "link": "https://www.amazon.es/dp/B09M48Z5NW?tag=enkairito-21"
   }
 ]
