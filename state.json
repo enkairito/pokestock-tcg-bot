@@ -70,7 +70,7 @@
   "ES:B0DT7D5K1X": {
     "name": "Pokémon Colección prémium Bellibolt ex de e-Nigma de JCC Pokémon (1 Carta holográfica con ilustración expandida, 6 Sobres de Mejora y Figuras acrílicas)",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "4",
     "price": "47,63 €",
     "first_seen": "2026-08-25T20:27:54.285177+00:00"
   },
@@ -1318,9 +1318,8 @@
   },
   "UK:B0CMZS84KP": {
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
-    "status": "compra_directa",
-    "stock": "5",
-    "price": "117,84 €",
+    "status": "no_disponible",
+    "stock": null,
     "first_seen": "2026-09-04T21:32:58.802660+00:00"
   },
   "UK:B0GWK631XY": {
@@ -1612,9 +1611,8 @@
   },
   "UK:B0DLQJ613B": {
     "name": "Pokémon TCG: Scarlet & Violet—Prismatic Evolutions Poster Collection",
-    "status": "compra_directa",
-    "stock": "3",
-    "price": "91,29 €",
+    "status": "no_disponible",
+    "stock": null,
     "first_seen": "2026-09-05T00:38:53.462546+00:00"
   },
   "UK:B0CJM4MQTT": {
@@ -1738,7 +1736,7 @@
   "US:B0CXTNNVHN": {
     "name": "Pokémon TCG: Mini Cartera (Cartera de 60 Tarjetas y 1 Paquete de Refuerzo)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "price": "34,05 €",
     "first_seen": "2026-09-07T19:01:37.274378+00:00"
   },
@@ -1792,9 +1790,8 @@
   },
   "UK:B0CF1MDBS5": {
     "name": "Pokemon - Scarlet & Violet: High Class Pack Shiny Treasure ex - Booster Box",
-    "status": "compra_directa",
-    "stock": "1",
-    "price": "202,82 €",
+    "status": "no_disponible",
+    "stock": null,
     "first_seen": "2026-09-08T14:34:56.335808+00:00"
   },
   "UK:B0CK8JM32H": {
@@ -1843,7 +1840,7 @@
     "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
     "status": "compra_directa",
     "stock": null,
-    "price": "310,88 €",
+    "price": "291,59 €",
     "first_seen": "2026-09-08T14:34:56.335889+00:00"
   },
   "US:B0FNLMQ5RN": {
@@ -1857,7 +1854,7 @@
     "name": "Pokémon TCG: Azure Legends Tin - Xerneas ex (4 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
     "status": "compra_directa",
     "stock": null,
-    "price": "78,57 €",
+    "price": "78,54 €",
     "first_seen": "2026-09-08T14:34:56.335902+00:00"
   },
   "US:B0G49Y6JCM": {
@@ -1892,7 +1889,7 @@
     "name": "Pokemon TCG: Sword & Shield - Paquete de Refuerzo de Estrellas Brillantes (10 Tarjetas por Paquete)",
     "status": "compra_directa",
     "stock": null,
-    "price": "41,15 €",
+    "price": "40,55 €",
     "first_seen": "2026-09-08T14:34:56.335946+00:00"
   },
   "US:B0D4B515H1": {
