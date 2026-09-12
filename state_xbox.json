@@ -85,9 +85,8 @@
   },
   "ES:B01M6YIR2E": {
     "name": "Red Dead Redemption 2 (Xbox One)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "26,08 €",
     "first_seen": "2026-09-11T19:25:04.388324+00:00"
   },
   "ES:B0CFVXTMNK": {
@@ -122,8 +121,9 @@
   },
   "ES:B0GXKXMN3X": {
     "name": "Assassin's Creed Black Flag Re-Synced Standard Edition (Xbox X)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "49,99 €",
     "first_seen": "2026-09-11T19:25:04.388338+00:00"
   },
   "ES:B08KVH51VX": {
@@ -276,7 +276,7 @@
     "name": "Need for Speed Hot Pursuit Remastered | Xbox One/Series X|S - Codice de descarga",
     "status": "compra_directa",
     "stock": null,
-    "price": "39,99 €",
+    "price": "39,99 €",
     "first_seen": "2026-09-11T19:25:04.811569+00:00"
   },
   "ES:B0BHTPP71M": {
@@ -401,15 +401,15 @@
   "ES:B0CDC98QZJ": {
     "name": "PDP Xbox Mando con cable Afterglow Wave Morado",
     "status": "compra_directa",
-    "stock": null,
-    "price": "58,49 €",
+    "stock": "1",
+    "price": "54,70 €",
     "first_seen": "2026-09-11T19:25:04.811711+00:00"
   },
   "ES:B0D8KXR131": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Azul)",
     "status": "compra_directa",
     "stock": null,
-    "price": "51,99 €",
+    "price": "51,99 €",
     "first_seen": "2026-09-11T19:25:04.811715+00:00"
   },
   "ES:B08Y1FGT6D": {
@@ -489,174 +489,167 @@
     "price": "49,62 €",
     "first_seen": "2026-09-11T19:25:04.811765+00:00"
   },
-  "ES:B0H1HDKXGH": {
-    "name": "Pokémon: Lata Megaluz Lunar: Mega-Clefable ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
+  "ES:B0GYSKSSTH": {
+    "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
     "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-12T00:20:45.274844+00:00"
+    "first_seen": "2026-09-12T00:28:10.760385+00:00"
   },
   "ES:B0C44XVWCH": {
     "name": "WD_BLACK C50 1 TB Tarjeta de expansión para Xbox (Compatible con la Serie X|S, Plug-and-Stay, Velocity Architecture, Reanudación rápida, Subscripción gratuia de 1 Mes de Xbox Game Pass) Black",
     "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-12T00:20:45.274863+00:00"
+    "first_seen": "2026-09-12T00:28:10.760406+00:00"
   },
-  "ES:B073858Q9X": {
-    "name": "Consola Microsoft Xbox One S 1Tb - Blanco [descontinuado]",
+  "ES:B0GSSR9ZNS": {
+    "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
     "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-12T00:20:45.274868+00:00"
+    "first_seen": "2026-09-12T00:28:10.760410+00:00"
   },
-  "ES:B01M2YUP0S": {
-    "name": "Xbox One S 1 TB [Importación Italiana]",
+  "ES:B0H1HDKXGH": {
+    "name": "Pokémon: Lata Megaluz Lunar: Mega-Clefable ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
     "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-12T00:20:45.274873+00:00"
+    "first_seen": "2026-09-12T00:28:10.760414+00:00"
   },
-  "ES:B0FTG3C43P": {
-    "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Fuegos Fantasmales de JCC Pokémon (6 Sobres de Mejora)",
+  "ES:B0GYSJDWDS": {
+    "name": "Pokémon: Minilata Ciudad Luminalia: Salamence y Litleo de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
     "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-12T00:20:45.274875+00:00"
-  },
-  "ES:B0FJXZYXS4": {
-    "name": "Battlefield 6 Standard Edition XBOX Series X | Disco | Videojuegos | Castellano",
-    "status": "compra_directa",
-    "stock": null,
-    "price": "42,95 €",
-    "first_seen": "2026-09-12T00:20:45.700551+00:00"
-  },
-  "ES:B09C939ZV9": {
-    "name": "Xbox Elite Series 2 – Complete Component Pack",
-    "status": "compra_directa",
-    "stock": null,
-    "price": "59,99 €",
-    "first_seen": "2026-09-12T00:20:45.700601+00:00"
-  },
-  "ES:B07M7X2JLB": {
-    "name": "Dark Souls Trilogy - Xbox One [Importación inglesa]",
-    "status": "compra_directa",
-    "stock": "4",
-    "price": "44,18 €",
-    "first_seen": "2026-09-12T00:20:45.700629+00:00"
-  },
-  "ES:B00LAAYMUS": {
-    "name": "Mirror's Edge Catalyst - Xbox One [Importación alemana]",
-    "status": "compra_directa",
-    "stock": "1",
-    "price": "9,73 €",
-    "first_seen": "2026-09-12T00:20:45.700659+00:00"
-  },
-  "ES:B0829M81QT": {
-    "name": "Doom Slayers Collection - Xbox One",
-    "status": "compra_directa",
-    "stock": "2",
-    "price": "29,99 €",
-    "first_seen": "2026-09-12T00:20:45.700674+00:00"
-  },
-  "ES:B0BHTLMZMC": {
-    "name": "Serie de Xbox One y Xbox de Cuphead Physical Edition",
-    "status": "compra_directa",
-    "stock": "2",
-    "price": "29,55 €",
-    "first_seen": "2026-09-12T00:20:45.700686+00:00"
-  },
-  "ES:B08Z9Q7K68": {
-    "name": "Scarlet Nexus (Xbox One)",
-    "status": "compra_directa",
-    "stock": null,
-    "price": "15,74 €",
-    "first_seen": "2026-09-12T00:20:45.700696+00:00"
+    "first_seen": "2026-09-12T00:28:10.760421+00:00"
   },
   "ES:B0BKV55P1H": {
     "name": "Seagate Game Drive for Xbox 5TB, Unidad de disco duro (HDD) externa portátil, USB 3.2 Gen 1, negra, certificación Xbox, LED RGB, Rescue Services (STKX5000100)",
     "status": "compra_directa",
     "stock": null,
     "price": "250,47 €",
-    "first_seen": "2026-09-12T00:20:45.700706+00:00"
+    "first_seen": "2026-09-12T00:28:11.204259+00:00"
   },
-  "ES:B07XTSKC8N": {
-    "name": "Grand Theft Auto V Premium Edition - Xbox One [Importación alemana]",
+  "ES:B0H4HB5YTG": {
+    "name": "Fable – XBOX Series X | Disco físico – Requiere descarga de contenido",
+    "status": "preventa",
+    "stock": null,
+    "price": "59,90 €",
+    "first_seen": "2026-09-12T00:28:11.204304+00:00"
+  },
+  "ES:B0GGCJRXSX": {
+    "name": "Forza Horizon 6 – Xbox Series X",
     "status": "compra_directa",
     "stock": "3",
-    "price": "34,69 €",
-    "first_seen": "2026-09-12T00:20:45.700718+00:00"
+    "price": "74,37 €",
+    "first_seen": "2026-09-12T00:28:11.204330+00:00"
   },
-  "ES:B07VNB55ZX": {
-    "name": "Xbox - Tarjeta Regalo Digital - 5 EUR",
+  "ES:B0H7K6SJ73": {
+    "name": "EA SPORTS FC™ 27 - Edición Estándar| Xbox Series X| Disco fisico | Videojuegos | Castellano",
+    "status": "preventa",
+    "stock": null,
+    "price": "69,90 €",
+    "first_seen": "2026-09-12T00:28:11.204355+00:00"
+  },
+  "ES:B08N3J9D55": {
+    "name": "Mass Effect Legendary Edition [GRA XBOX ONE]",
+    "status": "compra_directa",
+    "stock": "3",
+    "price": "26,99 €",
+    "first_seen": "2026-09-12T00:28:11.204371+00:00"
+  },
+  "ES:B09C92RJN7": {
+    "name": "Xbox Cascos Stereo Series X|S",
     "status": "compra_directa",
     "stock": null,
-    "price": "5,00 €",
-    "first_seen": "2026-09-12T00:20:45.700729+00:00"
+    "price": "57,78 €",
+    "first_seen": "2026-09-12T00:28:11.204384+00:00"
+  },
+  "ES:B0829M81QT": {
+    "name": "Doom Slayers Collection - Xbox One",
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "29,99 €",
+    "first_seen": "2026-09-12T00:28:11.204395+00:00"
+  },
+  "ES:B0BHTLMZMC": {
+    "name": "Serie de Xbox One y Xbox de Cuphead Physical Edition",
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "29,55 €",
+    "first_seen": "2026-09-12T00:28:11.204405+00:00"
   },
   "ES:B079P95KLM": {
     "name": "Pillars of Eternity II: Deadfire - Ultimate Edition (XBox ONE)",
     "status": "compra_directa",
     "stock": "1",
     "price": "10,31 €",
-    "first_seen": "2026-09-12T00:20:45.700740+00:00"
+    "first_seen": "2026-09-12T00:28:11.204416+00:00"
+  },
+  "ES:B088JFHB8F": {
+    "name": "Immortal Realms: Vampire Wars (XBox ONE)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "14,95 €",
+    "first_seen": "2026-09-12T00:28:11.204430+00:00"
   },
   "ES:B07SHYBM9K": {
     "name": "Gears 5 - Xbox One [Importación Francesa]",
     "status": "compra_directa",
     "stock": "3",
     "price": "24,80 €",
-    "first_seen": "2026-09-12T00:20:45.700750+00:00"
+    "first_seen": "2026-09-12T00:28:11.204439+00:00"
+  },
+  "ES:B01M0I0K0E": {
+    "name": "Assassin's Creed: The Ezio Collection - Xbox One",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "36,00 €",
+    "first_seen": "2026-09-12T00:28:11.204448+00:00"
   },
   "ES:B0829LYZ5T": {
     "name": "Doom Slayers Collection - Xbox One",
     "status": "compra_directa",
     "stock": "2",
     "price": "29,99 €",
-    "first_seen": "2026-09-12T00:20:45.700766+00:00"
+    "first_seen": "2026-09-12T00:28:11.204466+00:00"
   },
-  "ES:B0FNY6N6XB": {
-    "name": "BATTLEFIELD 6 Standard Edition | Xbox Series X|S - Código de descarga",
-    "status": "compra_directa",
+  "ES:B0H89Y1JST": {
+    "name": "EA SPORTS FC 27 Standard Edition | Xbox & Windows 10 - Código de descarga",
+    "status": "preventa",
     "stock": null,
     "price": "79,99 €",
-    "first_seen": "2026-09-12T00:20:45.700776+00:00"
+    "first_seen": "2026-09-12T00:28:11.204476+00:00"
   },
-  "ES:B0DGQWNTJT": {
-    "name": "Xbox Auriculares inalámbricos – Series X|S, Xbox One y dispositivos Windows",
+  "ES:B0F1R9WVGN": {
+    "name": "Turtle Beach Rematch Core Camo Negro/Verde - Gamepad con cable - Con licencia para Xbox Series XS, Xbox One y PC - Botones de audio, motores de vibración y disparadores de pulso, cable de 3 m",
     "status": "compra_directa",
     "stock": null,
-    "price": "106,00 €",
-    "first_seen": "2026-09-12T00:20:45.700786+00:00"
+    "price": "24,99 €",
+    "first_seen": "2026-09-12T00:28:11.204489+00:00"
   },
-  "ES:B0FHHFBDNQ": {
-    "name": "GameSir G7 Pro Mando 1000Hz con Estación de Carga para Xbox Series X|S, Xbox One, Windows 10/11 & Android – Joysticks TMR, Gatillos Ajustables & 4 Botones Programables – Shadow Ember",
+  "ES:B0CMGN9Z8H": {
+    "name": "HELLCOOL Play y Kit de Carga USB Bateria para Mando Xbox One/Xbox Series, 2X4800mWh Bateria Compatible con la Mando Xbox One S/X/Elite, Xbox Series X/S, 12 Horas de Juego",
     "status": "compra_directa",
     "stock": null,
-    "price": "99,99 €",
-    "first_seen": "2026-09-12T00:20:45.700789+00:00"
+    "price": "19,93 €",
+    "first_seen": "2026-09-12T00:28:11.204492+00:00"
   },
-  "ES:B0B9GJLV2D": {
-    "name": "Xbox Wireless Controller Elite Series 2 White Series X|S, One, Windows 10/11, iOS y Android",
+  "ES:B09DPR2LZW": {
+    "name": "Ozeino Cascos Gaming, Auriculares Gaming con Micrófono Rotatorio, Luz RGB, Premium Stereo, Orejeras Ligero Cómodo, para Ps4 Ps5 Xbox PC Switch Tableta Laptop",
     "status": "compra_directa",
     "stock": null,
-    "price": "139,99 €",
-    "first_seen": "2026-09-12T00:20:45.700792+00:00"
+    "price": "24,99 €",
+    "first_seen": "2026-09-12T00:28:11.204501+00:00"
   },
-  "ES:B0FD41XC3P": {
-    "name": "GameSir G7 Pro Mando 1000Hz con Estación de Carga: Xbox Series X|S, Xbox One, Win 10/11 & Android - Joysticks TMR, Gatillos Ajustables & 4 Botones Programables - Blanco Mec",
+  "ES:B0GLJNCWZD": {
+    "name": "Thrustmaster EVO Racing 31U - Add-On de Volante Cuero PS5/XBOX/PC",
     "status": "compra_directa",
     "stock": null,
-    "price": "99,99 €",
-    "first_seen": "2026-09-12T00:20:45.700799+00:00"
+    "price": "269,00 €",
+    "first_seen": "2026-09-12T00:28:11.204504+00:00"
   },
-  "ES:B07SR4R8K1": {
-    "name": "Xbox Wireless Controller Elite Series 2 Black para Xbox Series X|S, Xbox One, Windows 10/11, iOS y Android",
+  "ES:B0H6PR59NX": {
+    "name": "NK Mando Switch Inalámbrico - Switch/OLED/Lite/Pro con Función Wake, Ajustes Macro,Bluetooth, 6 ejes, Función Turbo, Dual Shock Doble Vibración, LED Indicadores - Color Blanco",
     "status": "compra_directa",
     "stock": null,
-    "price": "189,99 €",
-    "first_seen": "2026-09-12T00:20:45.700804+00:00"
-  },
-  "ES:B08F4444HM": {
-    "name": "Power A, Mando con cable Xbox Series X|S - Negro",
-    "status": "compra_directa",
-    "stock": null,
-    "price": "31,75 €",
-    "first_seen": "2026-09-12T00:20:45.700806+00:00"
+    "price": "20,99 €",
+    "first_seen": "2026-09-12T00:28:11.204509+00:00"
   }
 }
