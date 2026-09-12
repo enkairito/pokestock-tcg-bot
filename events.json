@@ -1,18 +1,5 @@
 [
   {
-    "ts": "2026-09-10T23:20:41.420961+00:00",
-    "type": "restock",
-    "asin": "B0DLQJ613B",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokémon TCG: Scarlet & Violet—Prismatic Evolutions Poster Collection",
-    "image": "https://m.media-amazon.com/images/I/81ulz0V0WcL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "91,29 €",
-    "prev_price": null,
-    "link": "https://www.amazon.es/dp/B0DLQJ613B?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-10T23:20:41.421069+00:00",
     "type": "price_drop",
     "asin": "B0FB79QPR4",
@@ -778,5 +765,18 @@
     "price": "34,21 €",
     "prev_price": "34,29 €",
     "link": "https://www.amazon.es/dp/B08DVCNV3W?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-12T10:19:56.036883+00:00",
+    "type": "price_drop",
+    "asin": "B0GWCSP6MR",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
+    "image": "https://m.media-amazon.com/images/I/61fr9skKG-L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "22,02 €",
+    "prev_price": "22,03 €",
+    "link": "https://www.amazon.es/dp/B0GWCSP6MR?tag=enkairito-21"
   }
 ]
