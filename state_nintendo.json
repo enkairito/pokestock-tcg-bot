@@ -99,7 +99,7 @@
     "name": "Metal Gear Solid: Master Collection Volume 2 – Day One Edition - Switch 2 [Nintendo Switch 2 - Key Card]",
     "status": "compra_directa",
     "stock": null,
-    "price": "42,90 €",
+    "price": "42,90 €",
     "first_seen": "2026-09-11T19:20:15.911858+00:00"
   },
   "ES:B0F2N8LBQN": {
@@ -119,7 +119,7 @@
   "ES:B0FQWNJFHT": {
     "name": "Metroid Prime 4: Beyond – Nintendo Switch 2 Edition",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "4",
     "price": "52,95 €",
     "first_seen": "2026-09-11T19:20:15.911952+00:00"
   },
@@ -127,21 +127,21 @@
     "name": "Belkin Gaming Bolsa de Viaje Bolsillo para AirTag Nintendo Switch 2 Carbón",
     "status": "compra_directa",
     "stock": null,
-    "price": "19,99 €",
+    "price": "19,99 €",
     "first_seen": "2026-09-11T19:20:15.911960+00:00"
   },
   "ES:B0G1ZBQGYF": {
     "name": "Marvel Cosmic Invasion - Switch 2",
     "status": "compra_directa",
     "stock": null,
-    "price": "39,99 €",
+    "price": "39,99 €",
     "first_seen": "2026-09-11T19:20:15.911970+00:00"
   },
   "ES:B0FGKFFCJP": {
     "name": "EA SPORTS FC 26 Standard Edition Switch 2 | Cartucho | Videojuegos | Castellano",
     "status": "compra_directa",
     "stock": null,
-    "price": "29,99 €",
+    "price": "29,99 €",
     "first_seen": "2026-09-11T19:20:15.911978+00:00"
   },
   "ES:B0GZW7QWCJ": {
@@ -162,7 +162,7 @@
     "name": "Nintendo Switch 2 + Donkey Kong Bananza",
     "status": "compra_directa",
     "stock": null,
-    "price": "538,99 €",
+    "price": "538,99 €",
     "first_seen": "2026-09-11T19:20:15.912002+00:00"
   },
   "ES:B0FBMLXK2D": {
@@ -301,7 +301,7 @@
   "ES:B084DJ9J8C": {
     "name": "Funda + protector LCD para consola Nintendo Switch Lite edición Animal Crossing: New Horizons (Nintendo Switch Lite)",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "3",
     "price": "23,10 €",
     "first_seen": "2026-09-11T19:20:15.912103+00:00"
   },
@@ -549,7 +549,7 @@
     "name": "Tomodachi Life - Switch",
     "status": "compra_directa",
     "stock": null,
-    "price": "48,50 €",
+    "price": "48,50 €",
     "first_seen": "2026-09-12T00:28:58.478206+00:00"
   },
   "ES:B0FJM752T3": {
@@ -895,5 +895,119 @@
     "stock": null,
     "price": "116,45 €",
     "first_seen": "2026-09-12T12:27:48.387097+00:00"
+  },
+  "ES:B0H72KF8T7": {
+    "name": "The Elder Scrolls IV: Oblivion™ Remastered – Physical Deluxe Edition – Nintendo Switch 2",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-12T18:24:59.799423+00:00"
+  },
+  "ES:B0GXL8QVM6": {
+    "name": "Assassin's Creed Black Flag Resynced Standard Edition (PS5)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-12T18:24:59.799447+00:00"
+  },
+  "ES:B0F2TJ973L": {
+    "name": "DRAGON QUEST I & II HD-2D Remake",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-12T18:24:59.799461+00:00"
+  },
+  "ES:B0GM7HYHKQ": {
+    "name": "Final Fantasy VII Rebirth",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-12T18:24:59.799466+00:00"
+  },
+  "ES:B0FTG3C43P": {
+    "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Fuegos Fantasmales de JCC Pokémon (6 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-12T18:24:59.799468+00:00"
+  },
+  "ES:B0DW8WQ8L2": {
+    "name": "JSAUX Protector Pantalla Ultra HD para Nintendo Switch 2, Pack de 3",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "8,99 €",
+    "first_seen": "2026-09-12T18:25:00.266682+00:00"
+  },
+  "ES:B0GJTJQ8V9": {
+    "name": "Super Mario Bros. Wonder Nintendo Switch 2 Edition",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "67,90 €",
+    "first_seen": "2026-09-12T18:25:00.266795+00:00"
+  },
+  "ES:B0FN4F4L55": {
+    "name": "Kirby Air Riders - Switch 2",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "59,90 €",
+    "first_seen": "2026-09-12T18:25:00.266812+00:00"
+  },
+  "ES:B0H6Y7CMDY": {
+    "name": "Blasphemous: Martyrs’ Edition - Nintendo Switch",
+    "status": "preventa",
+    "stock": null,
+    "price": "45,99 €",
+    "first_seen": "2026-09-12T18:25:00.266863+00:00"
+  },
+  "ES:B0F3JT1NT8": {
+    "name": "Nintendo Switch 2 Carrying Case + protector pantalla",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "20,99 €",
+    "first_seen": "2026-09-12T18:25:00.266890+00:00"
+  },
+  "ES:B0H9R91725": {
+    "name": "Joy-Con (set Izda/Dcha) Azul/Amarillo Neón BTR",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "74,99 €",
+    "first_seen": "2026-09-12T18:25:00.266895+00:00"
+  },
+  "ES:B0DRX5SZQZ": {
+    "name": "daydayup Funda Compatible con Nintendo Switch 2 Consola, Funda de Transporte Dura para Nintendo Switch 2, Funda Protectora con Almacenamiento para 20 Juegos, Consola y Accesorios, Color Negro",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "14,56 €",
+    "first_seen": "2026-09-12T18:25:00.266901+00:00"
+  },
+  "ES:B0F8BKBG3K": {
+    "name": "3 en 1 para Nintendo Switch 2 Protector de pantalla,2 piezas de película templada HD 9H + ayuda de montaje,fácil de instalar, sin burbujas,Sensible al tacto,Resistente a los arañazos",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "6,78 €",
+    "first_seen": "2026-09-12T18:25:00.266915+00:00"
+  },
+  "ES:B017BRXU1A": {
+    "name": "Ultra Pro - 1000 fundas suaves -",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "12,99 €",
+    "first_seen": "2026-09-12T18:25:00.266918+00:00"
+  },
+  "ES:B0DK1NY4LW": {
+    "name": "AceGamer 2 Pack Mando Inalámbrico para PS4，Mando de Juego para PS4/Pro/Slim/PC，Gamepad Joystick con Turbo/Botón Trasero/Doble Vibración/6-Axis Sensor Giroscópico/Panel Táctil (Blanco o negro)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "35,99 €",
+    "first_seen": "2026-09-12T18:25:00.266921+00:00"
+  },
+  "ES:B0FVXJ8VK3": {
+    "name": "ivoler Carcasa Protectora para Nintendo Switch 2﻿, Funda Agarre Acoplable con Magnético, Grip Case y 2 Protectores de Pantalla - Translúcida",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "16,95 €",
+    "first_seen": "2026-09-12T18:25:00.266928+00:00"
+  },
+  "ES:B0FB3T6JYJ": {
+    "name": "Pack de 10 Protectores Gold para Pokemon Elite Trainer Box - Funda Caja Pokemon ETB 0,5mm Grosor - Protección UV para Tus Cajas PKMN",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "24,99 €",
+    "first_seen": "2026-09-12T18:25:00.266931+00:00"
   }
 }
