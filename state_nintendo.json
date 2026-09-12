@@ -337,7 +337,7 @@
     "name": "Turtle Beach Airlite Fit Auriculares con Cable para Juegos en Gris carbón - con Licencia Oficial para los Nintendo Switch 2",
     "status": "compra_directa",
     "stock": "3",
-    "price": "12,99 €",
+    "price": "12,99 €",
     "first_seen": "2026-09-11T19:20:15.912112+00:00"
   },
   "ES:B0F49DHSHJ": {
@@ -420,7 +420,7 @@
   "ES:B0GMRB7W9V": {
     "name": "Turtle Beach Airlite Fit Auriculares con Cable para Juegos en Mario Star con Licencia Oficial para Todos los Nintendo Switch: micrófono abatible y silenciable, Orejeras de Comodidad Superior",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "4",
     "price": "12,99 €",
     "first_seen": "2026-09-11T19:20:15.912134+00:00"
   },
@@ -612,7 +612,7 @@
     "name": "Videojuego para Switch Ubisoft Mario+Rabbids Sparks of Hope",
     "status": "compra_directa",
     "stock": null,
-    "price": "29,68 €",
+    "price": "29,90 €",
     "first_seen": "2026-09-12T00:28:58.478293+00:00"
   },
   "ES:B0DFD3S5LM": {
@@ -675,7 +675,7 @@
     "name": "PDP Cable Carga y Juega con Licencia Oficial (Nintendo Switch)",
     "status": "compra_directa",
     "stock": null,
-    "price": "7,90 €",
+    "price": "7,91 €",
     "first_seen": "2026-09-12T00:28:58.478369+00:00"
   },
   "ES:B0CDBY25QX": {
@@ -713,58 +713,112 @@
     "price": "14,99 €",
     "first_seen": "2026-09-12T00:28:58.478386+00:00"
   },
-  "ES:B0FTG3C43P": {
-    "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Fuegos Fantasmales de JCC Pokémon (6 Sobres de Mejora)",
+  "ES:B0FXBBXQ5G": {
+    "name": "MySims: Colección Sofá y Mantita PS5 | Videojuegos | Castellano",
     "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-12T06:20:55.630503+00:00"
+    "first_seen": "2026-09-12T06:29:23.379237+00:00"
+  },
+  "ES:B0GYSGQ9R8": {
+    "name": "Pokémon: Minilata Ciudad Luminalia: Gallade y Goomy de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-12T06:29:23.379256+00:00"
   },
   "ES:B0HJ91G9GH": {
     "name": "Zelda Ocarina Of Time - Nintendo Switch 2",
     "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-12T06:20:55.630530+00:00"
+    "first_seen": "2026-09-12T06:29:23.379261+00:00"
   },
-  "ES:B0FK8TQP47": {
-    "name": "Nintendo Switch 2 + Pokemon Legends: Z-A bundle",
+  "ES:B0FTG4DGK7": {
+    "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Fuegos Fantasmales de JCC Pokémon (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-12T06:29:23.379265+00:00"
+  },
+  "ES:B08WR7WH4R": {
+    "name": "NEW'C 2 Piezas, Protector Pantalla para Nintendo Switch, Cristal templado Antiarañazos, Antihuellas, Sin Burbujas, Dureza 9H, 0.33 mm Ultra Transparente, Ultra Resistente",
     "status": "compra_directa",
     "stock": null,
-    "price": "619,90 €",
-    "first_seen": "2026-09-12T06:20:56.351345+00:00"
+    "price": "5,99 €",
+    "first_seen": "2026-09-12T06:29:23.882070+00:00"
   },
-  "ES:B0F6NVSY7V": {
-    "name": "smartect Cristal Templado 2 Piezas para Nintendo Switch 2",
+  "ES:B0HGMBCRQ1": {
+    "name": "Dispatch Deluxe Edition - Switch 2",
+    "status": "preventa",
+    "stock": null,
+    "price": "49,99 €",
+    "first_seen": "2026-09-12T06:29:23.882113+00:00"
+  },
+  "ES:B0DB2LQQMS": {
+    "name": "NK Mando Switch Inalámbrico - Switch/OLED/Lite/Pro con Función Wake, Ajustes Macro,Bluetooth, 6 ejes, Función Turbo, Dual Shock Doble Vibración, LED Indicadores - Color Negro (Rojo y Azul)",
     "status": "compra_directa",
     "stock": null,
-    "price": "12,99 €",
-    "first_seen": "2026-09-12T06:20:56.351435+00:00"
+    "price": "21,99 €",
+    "first_seen": "2026-09-12T06:29:23.882145+00:00"
   },
-  "ES:B0H9R91725": {
-    "name": "Joy-Con (set Izda/Dcha) Azul/Amarillo Neón BTR",
+  "ES:B0DB2MSGCZ": {
+    "name": "NK Wireless Switch Controller - Switch 2/Lite/OLED with Wake Function, Bluetooth, 6 Axis, Turbo, Double Vibration, LED Indicators - Blue",
     "status": "compra_directa",
     "stock": null,
-    "price": "74,99 €",
-    "first_seen": "2026-09-12T06:20:56.351466+00:00"
+    "price": "22,99 €",
+    "first_seen": "2026-09-12T06:29:23.882153+00:00"
+  },
+  "ES:B01NAUKS62": {
+    "name": "Orzly Estuche de Transporte Compatible con Switch OLED y Consola Switch Original - Estuche Protector de Viaje portátil rígido con Bolsillos de Almacenamiento",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "18,91 €",
+    "first_seen": "2026-09-12T06:29:23.882162+00:00"
+  },
+  "ES:B0CX4VPSB8": {
+    "name": "CHEREEKI Mando Inalámbrico para PS4, Pro, Slim con Doble Vibración, Giroscópico, Turbo, Touchpad y Conector de Audio",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "26,59 €",
+    "first_seen": "2026-09-12T06:29:23.882166+00:00"
+  },
+  "ES:B0H6PR59NX": {
+    "name": "NK Mando Switch Inalámbrico - Switch/OLED/Lite/Pro con Función Wake, Ajustes Macro,Bluetooth, 6 ejes, Función Turbo, Dual Shock Doble Vibración, LED Indicadores - Color Blanco",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "20,99 €",
+    "first_seen": "2026-09-12T06:29:23.882170+00:00"
   },
   "ES:B0DJ719GXG": {
     "name": "Álbum Toploader Cartas Coleccionables 216 Compartimentos - Carpeta Binder TCG MTG con 10 Fundas 35PT - Archivador Card Portfolio Cremallera Impermeable Negro",
     "status": "compra_directa",
     "stock": null,
     "price": "25,64 €",
-    "first_seen": "2026-09-12T06:20:56.351471+00:00"
+    "first_seen": "2026-09-12T06:29:23.882173+00:00"
   },
-  "ES:B0BN3GFBG7": {
-    "name": "10PCS Magnetic Card Holder 35PT Soporte de Tarjeta UV Protectoras Funda Plástica Dura de Tarjeta Transparentes Cartas Coleccionables Marco para Magic, MTG, Deportes, Béisbol, Fútbol",
+  "ES:B0DB2M9X8Q": {
+    "name": "NK Mando Switch Inalámbrico - Switch/OLED/Lite/Pro con Función Wake, Ajustes Macro, Bluetooth, 6 ejes,Función Turbo, Dual Shock Doble Vibración, LED Indicadores - Color Blanco y Rosa",
     "status": "compra_directa",
     "stock": null,
-    "price": "11,98 €",
-    "first_seen": "2026-09-12T06:20:56.351474+00:00"
+    "price": "25,99 €",
+    "first_seen": "2026-09-12T06:29:23.882176+00:00"
   },
-  "ES:B0FHQ7THJY": {
-    "name": "100 Toploaders 35 PT para Cartas, Fundas Duras Rígidas PKM MTG 3x4",
+  "ES:B0CSFRYL7C": {
+    "name": "Ozeino Cascos Gaming Inalámbricos para PC/Ps5/Ps4, Auriculares Gaming Inalámbricos de 2,4GHz Wireless+Bluetooth, Baja Latencia Calidad de Sonido sin Pérdidas, Duración 30Hr+ Blanco",
     "status": "compra_directa",
     "stock": null,
-    "price": "16,99 €",
-    "first_seen": "2026-09-12T06:20:56.351480+00:00"
+    "price": "36,99 €",
+    "first_seen": "2026-09-12T06:29:23.882183+00:00"
+  },
+  "ES:B0CSVWMDK5": {
+    "name": "Mlikero 600 Paquete de Fundas Cartas, Perfect Fit Inner Card Sleeves, Funda Cartas para Cartas de Comercio, Cartas de Deportes",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "14,99 €",
+    "first_seen": "2026-09-12T06:29:23.882187+00:00"
+  },
+  "ES:B085DNDLC1": {
+    "name": "Ultra Pro Penny Fundas para tarjetas, estándar, blandas, para cartas coleccionables, como Pokemon Magic, tamaño estándar, transparentes, 400 unidades",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "8,39 €",
+    "first_seen": "2026-09-12T06:29:23.882192+00:00"
   }
 }
