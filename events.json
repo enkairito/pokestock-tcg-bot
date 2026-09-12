@@ -1,31 +1,5 @@
 [
   {
-    "ts": "2026-09-11T01:20:18.428650+00:00",
-    "type": "price_drop",
-    "asin": "B0F1GXTFGL",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
-    "image": "https://m.media-amazon.com/images/I/71fEr7l8M4L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "291,59 €",
-    "prev_price": "310,88 €",
-    "link": "https://www.amazon.es/dp/B0F1GXTFGL?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-11T01:20:18.428666+00:00",
-    "type": "price_drop",
-    "asin": "B0DX79MM56",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokémon TCG: Azure Legends Tin - Xerneas ex (4 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
-    "image": "https://m.media-amazon.com/images/I/71IlmzJMvsL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "78,54 €",
-    "prev_price": "78,57 €",
-    "link": "https://www.amazon.es/dp/B0DX79MM56?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-11T02:20:21.700343+00:00",
     "type": "price_drop",
     "asin": "B0BJ7F5RNY",
@@ -778,5 +752,31 @@
     "price": "73,58 €",
     "prev_price": "76,52 €",
     "link": "https://www.amazon.es/dp/B0DGY4Z6V3?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-12T13:19:55.536626+00:00",
+    "type": "restock",
+    "asin": "B0GZ9S9KDR",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
+    "image": "https://m.media-amazon.com/images/I/81oV7PbLhBL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "291,69 €",
+    "prev_price": null,
+    "link": "https://www.amazon.es/dp/B0GZ9S9KDR?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-12T13:19:55.536688+00:00",
+    "type": "price_drop",
+    "asin": "B0G72SPRP6",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
+    "image": "https://m.media-amazon.com/images/I/91FiTlqcy+L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "82,13 €",
+    "prev_price": "82,15 €",
+    "link": "https://www.amazon.es/dp/B0G72SPRP6?tag=enkairito-21"
   }
 ]
