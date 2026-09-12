@@ -1443,9 +1443,8 @@
   },
   "UK:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
-    "status": "compra_directa",
-    "stock": "2",
-    "price": "289,25 €",
+    "status": "no_disponible",
+    "stock": null,
     "first_seen": "2026-09-04T21:32:58.802818+00:00"
   },
   "US:B0F2BCG1Y5": {
@@ -1883,7 +1882,7 @@
     "name": "Pokemon Sword and Shield Darkness Ablaze Booster Pack (1 Booster Pack)",
     "status": "compra_directa",
     "stock": "5",
-    "price": "34,78 €",
+    "price": "34,29 €",
     "first_seen": "2026-09-08T14:34:56.335940+00:00"
   },
   "US:B0CS12GPTB": {
