@@ -345,7 +345,7 @@
     "name": "Draft Night de Secretos de Strixhaven, de Magic: The Gathering (Versión en Inglés)",
     "status": "compra_directa",
     "stock": null,
-    "price": "109,99 €",
+    "price": "108,46 €",
     "first_seen": "2026-09-07T10:47:55.002254+00:00"
   },
   "ES:B0G86Z6QYF": {
@@ -380,5 +380,12 @@
     "status": "no_disponible",
     "stock": null,
     "first_seen": "2026-09-09T16:39:04.580230+00:00"
+  },
+  "ES:B0GXCC47X5": {
+    "name": "sobre de coleccionista de Realidad fracturada de Magic: The Gathering | 1 sobre (15 Cartas) (Versión en Inglés)",
+    "status": "preventa",
+    "stock": null,
+    "price": "29,00 €",
+    "first_seen": "2026-09-12T18:16:29.534109+00:00"
   }
 }
