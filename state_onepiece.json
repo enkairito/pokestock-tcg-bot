@@ -150,14 +150,14 @@
     "name": "BANDAI Juego de cartas de una pieza más antiguo (OP-13) (caja) de 24 unidades",
     "status": "compra_directa",
     "stock": null,
-    "price": "287,94 €",
+    "price": "293,96 €",
     "first_seen": "2026-08-29T18:10:47.849793+00:00"
   },
   "ES:B0G2VKBZML": {
     "name": "Bandai Paquete de refuerzo de juego de cartas One Piece, La aventura de la isla de Dios [OP-15] (Caja) 24 paquetes",
     "status": "compra_directa",
     "stock": null,
-    "price": "136,30 €",
+    "price": "121,97 €",
     "first_seen": "2026-08-29T18:11:01.747489+00:00"
   },
   "ES:B0C3RY35G6": {
@@ -231,15 +231,16 @@
   },
   "ES:B0FX1Z5SPZ": {
     "name": "One Piece Card Game Egghead Crisis EB-04 Extra Booster Box (japonés) - 24 paquetes",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "193,85 €",
     "first_seen": "2026-09-03T18:23:03.868065+00:00"
   },
   "ES:B0HF1Z72XW": {
     "name": "One Piece TCG: The World's Strongest Warriors Booster Box (OP-17) - 24 paquetes",
     "status": "compra_directa",
-    "stock": null,
-    "price": "459,00 €",
+    "stock": "3",
+    "price": "474,00 €",
     "first_seen": "2026-09-05T20:33:38.638411+00:00"
   },
   "ES:B0HFD53BDB": {
@@ -252,7 +253,7 @@
     "name": "Juego de cartas de una pieza Starter Deck ST-36 amarillo Eustass Captain Kid",
     "status": "compra_directa",
     "stock": null,
-    "price": "40,01 €",
+    "price": "39,76 €",
     "first_seen": "2026-09-08T09:40:16.326555+00:00"
   },
   "ES:B0DW3R4T9G": {
