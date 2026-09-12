@@ -821,58 +821,79 @@
     "price": "8,39 €",
     "first_seen": "2026-09-12T06:29:23.882192+00:00"
   },
-  "ES:B0H4RNH9TN": {
-    "name": "Fire Emblem Fortune's Weave - Nintendo Switch 2",
+  "ES:B0H1HDKXGH": {
+    "name": "Pokémon: Lata Megaluz Lunar: Mega-Clefable ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
     "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-12T12:20:40.768724+00:00"
+    "first_seen": "2026-09-12T12:27:47.911972+00:00"
   },
-  "ES:B0FTG3C43P": {
-    "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Fuegos Fantasmales de JCC Pokémon (6 Sobres de Mejora)",
+  "ES:B0GSSR9ZNS": {
+    "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
     "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-12T12:20:40.768751+00:00"
-  },
-  "ES:B0DW8WQ8L2": {
-    "name": "JSAUX Protector Pantalla Ultra HD para Nintendo Switch 2, Pack de 3",
-    "status": "compra_directa",
-    "stock": null,
-    "price": "8,99 €",
-    "first_seen": "2026-09-12T12:20:41.149017+00:00"
-  },
-  "ES:B0F3GWXLTS": {
-    "name": "Nintendo Switch 2 Console",
-    "status": "compra_directa",
-    "stock": null,
-    "price": "549,90 €",
-    "first_seen": "2026-09-12T12:20:41.149064+00:00"
+    "first_seen": "2026-09-12T12:27:47.911993+00:00"
   },
   "ES:B0FK8TQP47": {
     "name": "Nintendo Switch 2 + Pokemon Legends: Z-A bundle",
     "status": "compra_directa",
     "stock": null,
     "price": "619,90 €",
-    "first_seen": "2026-09-12T12:20:41.149099+00:00"
+    "first_seen": "2026-09-12T12:27:48.386972+00:00"
   },
   "ES:B0F6NVSY7V": {
     "name": "smartect Cristal Templado 2 Piezas para Nintendo Switch 2",
     "status": "compra_directa",
     "stock": null,
     "price": "12,99 €",
-    "first_seen": "2026-09-12T12:20:41.149146+00:00"
+    "first_seen": "2026-09-12T12:27:48.387043+00:00"
   },
-  "ES:B0F1HX3WXX": {
-    "name": "Controlador inalámbrico para juegos Xbox (2025) - Negro carbón - Juega en Xbox, Windows, Android, iOS, FireTV Sticks, televisores inteligentes, auriculares VR",
-    "status": "compra_directa",
-    "stock": "4",
-    "price": "110,09 €",
-    "first_seen": "2026-09-12T12:20:41.149179+00:00"
-  },
-  "ES:B0DNQD9HPS": {
-    "name": "8Bitdo Ultimate Mini Wired Controller for Xbox with RGB Lighting Fire Ring, Hall Effect Joysticks and Triggers, for Xbox Series X|S, Xbox One, Windows 10/11 - Officially Licensed (Translucent Pink)",
+  "ES:B076HT7KL3": {
+    "name": "Orzly Pack Esencial de Accesorios para Nintendo Switch [Incluye: Protectores de Pantalla, Cable USB, Funda para Consola, Estuche Tarjetas de Juego, Funda Comfort Grip, Auriculares] – Negro",
     "status": "compra_directa",
     "stock": null,
-    "price": "30,88 €",
-    "first_seen": "2026-09-12T12:20:41.149184+00:00"
+    "price": "27,19 €",
+    "first_seen": "2026-09-12T12:27:48.387073+00:00"
+  },
+  "ES:B0D8KXMCTC": {
+    "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Naranja)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "53,43 €",
+    "first_seen": "2026-09-12T12:27:48.387076+00:00"
+  },
+  "ES:B0DM96HQPY": {
+    "name": "Tatybo Cascos Gaming Inalámbricos 7.1 para Ps5/Ps4/PC, Auriculares Bluetooth con Micrófono con Cancelación de Ruido, 2.4GHz USB-C, 40H+ Batería para Switch/Mac/Portátil (Azul Cielo)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "33,99 €",
+    "first_seen": "2026-09-12T12:27:48.387083+00:00"
+  },
+  "ES:B0CX4TB46R": {
+    "name": "CHEREEKI Mando Inalámbrico para PS4, Pro y Slim con Doble Vibración, Giroscópico, Turbo, Touchpad y Conector de Audio",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "26,59 €",
+    "first_seen": "2026-09-12T12:27:48.387087+00:00"
+  },
+  "ES:B0HDQ2LRS9": {
+    "name": "Xbox Mando inalámbrico Gears of War: Edición Limitada E-Day Series X|S, One, PCs, televisores, móviles y más",
+    "status": "preventa",
+    "stock": null,
+    "price": "89,99 €",
+    "first_seen": "2026-09-12T12:27:48.387090+00:00"
+  },
+  "ES:B0F3D26B9J": {
+    "name": "Tatybo Cascos Gaming Inalámbricos para PC/Ps5/Ps4, Auriculares Gaming Inalámbricos con 2,4 GHz+Bluetooth 5,3 Modo Dual, 7.1 Sonido Envolvente, Duración 40Hr+",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "33,99 €",
+    "first_seen": "2026-09-12T12:27:48.387093+00:00"
+  },
+  "ES:B0FLLL1ZD8": {
+    "name": "Xbox Controlador inalámbrico para juegos - Heart Breaker Special Edition - Xbox Series X|S, Xbox One, PC y dispositivos habilitados para la nube",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "116,45 €",
+    "first_seen": "2026-09-12T12:27:48.387097+00:00"
   }
 }
