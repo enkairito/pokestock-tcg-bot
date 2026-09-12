@@ -87,7 +87,7 @@
     "name": "Videojuego PlayStation 5 Ubisoft Assassin's Creed Mirage",
     "status": "compra_directa",
     "stock": null,
-    "price": "18,97 €",
+    "price": "18,97 €",
     "first_seen": "2026-09-11T19:18:12.685827+00:00"
   },
   "ES:B08B4HHNNM": {
@@ -251,8 +251,9 @@
   },
   "ES:B0HDYN5LFW": {
     "name": "Mando Inalámbrico DualSense®: Ed. Limitada Marvel: Lobezno Amarillo de Combate",
-    "status": "no_disponible",
+    "status": "preventa",
     "stock": null,
+    "price": "84,99 €",
     "first_seen": "2026-09-12T00:28:03.616777+00:00"
   },
   "ES:B0GYSKSSTH": {
@@ -288,8 +289,9 @@
   },
   "ES:B09X5TX9CN": {
     "name": "Grand Theft Auto V - PlayStation 5",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "18,99 €",
     "first_seen": "2026-09-12T00:28:04.018779+00:00"
   },
   "ES:B0F6D5BS17": {
@@ -301,8 +303,9 @@
   },
   "ES:B01M9COSMD": {
     "name": "Red Dead Redemption 2 (PS4)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "18,90 €",
     "first_seen": "2026-09-12T00:28:04.018808+00:00"
   },
   "ES:B09KTGP5C2": {
@@ -386,7 +389,7 @@
     "name": "Ubisoft Assassin's Creed Mirage [PlayStation 5] - Sin cortar",
     "status": "compra_directa",
     "stock": "5",
-    "price": "24,90 €",
+    "price": "24,90 €",
     "first_seen": "2026-09-12T00:28:04.018909+00:00"
   },
   "ES:B0GQHLFRMV": {
@@ -585,167 +588,77 @@
     "price": "369,00 €",
     "first_seen": "2026-09-12T00:28:04.019002+00:00"
   },
-  "ES:B0774PWPG4": {
-    "name": "PlayStation 4 Pro - Konsole (1TB, weiß)",
+  "ES:B0H1HDKXGH": {
+    "name": "Pokémon: Lata Megaluz Lunar: Mega-Clefable ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
     "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-12T06:21:34.099787+00:00"
+    "first_seen": "2026-09-12T06:27:48.504505+00:00"
   },
-  "ES:B0D361S5Q9": {
-    "name": "Assassin's Creed Shadows Limited Edition (Exclusivo para Amazon.es) (Xbox Series X)",
+  "ES:B0FTG4DGK7": {
+    "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Fuegos Fantasmales de JCC Pokémon (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
     "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-12T06:21:34.099806+00:00"
+    "first_seen": "2026-09-12T06:27:48.504526+00:00"
   },
-  "ES:B0FTG3C43P": {
-    "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Fuegos Fantasmales de JCC Pokémon (6 Sobres de Mejora)",
+  "ES:B08G8Z9SMN": {
+    "name": "Console Pack Ps4 500 Go + Fifa 21 + Points Fut + Abonnement Ps+ 14 Jours [Importación francesa]",
     "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-12T06:21:34.099809+00:00"
+    "first_seen": "2026-09-12T06:27:48.504530+00:00"
   },
-  "ES:B07HKJQSGR": {
-    "name": "Sony PlayStation 4 500GB Console (Black) with Red Dead Redemption 2 Bundle [Importación inglesa]",
+  "ES:B0GXL8QVM6": {
+    "name": "Assassin's Creed Black Flag Resynced Standard Edition (PS5)",
     "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-12T06:21:34.099817+00:00"
+    "first_seen": "2026-09-12T06:27:48.504534+00:00"
   },
-  "ES:B00Q00JNF2": {
-    "name": "Sony Playstation 4 500GB - juegos de PC (PlayStation 4, 8192 MB, GDDR5, Blu-Ray/DVD, 500 GB, 10,100,1000 Mbit/s)",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-09-12T06:21:34.099820+00:00"
-  },
-  "ES:B0D362WFCC": {
-    "name": "Assassin's Creed Shadows Limited Edition (Exclusivo para Amazon.es) (PS5)",
+  "ES:B0BWYXHTK7": {
+    "name": "Lies of P (PS5)",
     "status": "compra_directa",
     "stock": null,
-    "price": "34,90 €",
-    "first_seen": "2026-09-12T06:21:34.501677+00:00"
+    "price": "33,99 €",
+    "first_seen": "2026-09-12T06:27:49.066500+00:00"
   },
-  "ES:B0HJ2FHFY6": {
-    "name": "PlayStation 5-Until Dawn 2 - Edición Estándar",
-    "status": "preventa",
-    "stock": null,
-    "price": "49,99 €",
-    "first_seen": "2026-09-12T06:21:34.501731+00:00"
-  },
-  "ES:B01M75BFQ7": {
-    "name": "Sony Playstation 4 500 GB GTA V Bundle [Importación Inglesa]",
-    "status": "compra_directa",
-    "stock": "1",
-    "price": "367,00 €",
-    "first_seen": "2026-09-12T06:21:34.501766+00:00"
-  },
-  "ES:B0D571R8PK": {
-    "name": "Volante y Pedales Hori RWA con licencia Sony PlayStation 4/5 [Nuevo modelo compatible con PS4/PS5] + Gran Turismo 7 [Playstation 5]",
-    "status": "compra_directa",
-    "stock": "1",
-    "price": "189,90 €",
-    "first_seen": "2026-09-12T06:21:34.501807+00:00"
-  },
-  "ES:B0DBV9YTBY": {
-    "name": "Tatybo Cascos Gaming para Ps4/Ps5/PC/Switch, Auriculares Gaming con Doble Diadema Adaptable, 3D Estéreo Sonido, Cascos con Cable Ligero con Luz RGB",
+  "ES:B0CSFKZRGF": {
+    "name": "Tatybo Cascos Gaming Inalámbricos para PC/Ps5/Ps4, Auriculares Gaming Inalámbricos con 2,4 GHz+Bluetooth 5,3 Modo Dual, 7.1 Sonido Envolvente, Duración 40Hr+",
     "status": "compra_directa",
     "stock": null,
-    "price": "16,99 €",
-    "first_seen": "2026-09-12T06:21:34.501812+00:00"
+    "price": "29,99 €",
+    "first_seen": "2026-09-12T06:27:49.066532+00:00"
   },
-  "ES:B0DK1NY4LW": {
-    "name": "AceGamer 2 Pack Mando Inalámbrico para PS4，Mando de Juego para PS4/Pro/Slim/PC，Gamepad Joystick con Turbo/Botón Trasero/Doble Vibración/6-Axis Sensor Giroscópico/Panel Táctil (Blanco o negro)",
+  "ES:B0F3D6RMLC": {
+    "name": "Tatybo Cascos Gaming Inalámbricos para PC/Ps5/Ps4, Auriculares Gaming Inalámbricos con 2,4 GHz+Bluetooth 5,3 Modo Dual, 7.1 Sonido Envolvente, Duración 40Hr+",
     "status": "compra_directa",
     "stock": null,
-    "price": "35,99 €",
-    "first_seen": "2026-09-12T06:21:34.501816+00:00"
+    "price": "33,99 €",
+    "first_seen": "2026-09-12T06:27:49.066539+00:00"
   },
-  "ES:B07L7W4SRT": {
-    "name": "Soporte Vertical para PlayStation 4 PS4 Consola, Negro",
+  "ES:B0FLLL1ZD8": {
+    "name": "Xbox Controlador inalámbrico para juegos - Heart Breaker Special Edition - Xbox Series X|S, Xbox One, PC y dispositivos habilitados para la nube",
     "status": "compra_directa",
     "stock": null,
-    "price": "12,98 €",
-    "first_seen": "2026-09-12T06:21:34.501818+00:00"
+    "price": "116,45 €",
+    "first_seen": "2026-09-12T06:27:49.066544+00:00"
   },
-  "ES:B0H2H4CQRQ": {
-    "name": "Meliya Cable Micro USB Nylon Cargador para Mando ps4 ebook Kindle Android Micro Usb(1m)",
+  "ES:B085DNDLC1": {
+    "name": "Ultra Pro Penny Fundas para tarjetas, estándar, blandas, para cartas coleccionables, como Pokemon Magic, tamaño estándar, transparentes, 400 unidades",
     "status": "compra_directa",
     "stock": null,
-    "price": "4,99 €",
-    "first_seen": "2026-09-12T06:21:34.501820+00:00"
+    "price": "8,39 €",
+    "first_seen": "2026-09-12T06:27:49.066550+00:00"
   },
-  "ES:B0CBR9BMHY": {
-    "name": "CHEREEKI Mando Inalámbrico para PS4, Pro y Slim con Doble Vibración, Giroscópico, Turbo, Touchpad y Conector de Audio, Negro",
+  "ES:B0DDTPX5DY": {
+    "name": "Tatybo Cascos Gaming Inalámbricos para PC/Ps5/Ps4, Auriculares Gaming Inalámbricos con 2,4 GHz+Bluetooth 5,3 Modo Dual, 7.1 Sonido Envolvente, Duración 40Hr+",
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "31,99 €",
+    "first_seen": "2026-09-12T06:27:49.066555+00:00"
+  },
+  "ES:B0F3D26B9J": {
+    "name": "Tatybo Cascos Gaming Inalámbricos para PC/Ps5/Ps4, Auriculares Gaming Inalámbricos con 2,4 GHz+Bluetooth 5,3 Modo Dual, 7.1 Sonido Envolvente, Duración 40Hr+",
     "status": "compra_directa",
     "stock": null,
-    "price": "26,59 €",
-    "first_seen": "2026-09-12T06:21:34.501822+00:00"
-  },
-  "ES:B0F6LF35DP": {
-    "name": "Tobfit Cable de carga para mando Sony PS4, PS4 Slim, PS4 Pro, cable de cargador micro USB para mando Playstation 4/4 Slim/4 Pro/Xbox One (180 cm)",
-    "status": "compra_directa",
-    "stock": null,
-    "price": "5,99 €",
-    "first_seen": "2026-09-12T06:21:34.501824+00:00"
-  },
-  "ES:B07D28WVGG": {
-    "name": "Sony - Wireless Controller V2 Dualshock 4, Color Jet Black [Middle East] (PS4)",
-    "status": "compra_directa",
-    "stock": null,
-    "price": "116,99 €",
-    "first_seen": "2026-09-12T06:21:34.501826+00:00"
-  },
-  "ES:B0B2SG31P7": {
-    "name": "Cable FLEX 12 PIN Para Dualshock 4 - PlayStation 4 - PS4 - Bolsa De 3 Unidades",
-    "status": "compra_directa",
-    "stock": null,
-    "price": "6,99 €",
-    "first_seen": "2026-09-12T06:21:34.501828+00:00"
-  },
-  "ES:B0FQBGW3QF": {
-    "name": "AceGamer 2 Pack Mando Inalámbrico para PS4，Mando de Juego para PS4/Pro/Slim/PC，Gamepad Joystick con Turbo/Botón Trasero/Doble Vibración/6-Axis Sensor Giroscópico (Rosa y Blanco)",
-    "status": "compra_directa",
-    "stock": null,
-    "price": "37,99 €",
-    "first_seen": "2026-09-12T06:21:34.501830+00:00"
-  },
-  "ES:B0CX4TB46R": {
-    "name": "CHEREEKI Mando Inalámbrico para PS4, Pro y Slim con Doble Vibración, Giroscópico, Turbo, Touchpad y Conector de Audio",
-    "status": "compra_directa",
-    "stock": null,
-    "price": "26,59 €",
-    "first_seen": "2026-09-12T06:21:34.501840+00:00"
-  },
-  "ES:B0BN3GFBG7": {
-    "name": "10PCS Magnetic Card Holder 35PT Soporte de Tarjeta UV Protectoras Funda Plástica Dura de Tarjeta Transparentes Cartas Coleccionables Marco para Magic, MTG, Deportes, Béisbol, Fútbol",
-    "status": "compra_directa",
-    "stock": null,
-    "price": "11,98 €",
-    "first_seen": "2026-09-12T06:21:34.501846+00:00"
-  },
-  "ES:B0FHQ7THJY": {
-    "name": "100 Toploaders 35 PT para Cartas, Fundas Duras Rígidas PKM MTG 3x4",
-    "status": "compra_directa",
-    "stock": null,
-    "price": "16,99 €",
-    "first_seen": "2026-09-12T06:21:34.501854+00:00"
-  },
-  "ES:B0CBRC7MKL": {
-    "name": "CHEREEKI Mando Inalámbrico para PS4/Pro/Slim con Doble Vibración, Giroscópico, Turbo, Touchpad y Conector de Audio, Blanco",
-    "status": "compra_directa",
-    "stock": null,
-    "price": "26,59 €",
-    "first_seen": "2026-09-12T06:21:34.501856+00:00"
-  },
-  "ES:B0CX4VPSB8": {
-    "name": "CHEREEKI Mando Inalámbrico para PS4, Pro, Slim con Doble Vibración, Giroscópico, Turbo, Touchpad y Conector de Audio",
-    "status": "compra_directa",
-    "stock": null,
-    "price": "26,59 €",
-    "first_seen": "2026-09-12T06:21:34.501858+00:00"
-  },
-  "ES:B0DJ719GXG": {
-    "name": "Álbum Toploader Cartas Coleccionables 216 Compartimentos - Carpeta Binder TCG MTG con 10 Fundas 35PT - Archivador Card Portfolio Cremallera Impermeable Negro",
-    "status": "compra_directa",
-    "stock": null,
-    "price": "25,64 €",
-    "first_seen": "2026-09-12T06:21:34.501860+00:00"
+    "price": "33,99 €",
+    "first_seen": "2026-09-12T06:27:49.066563+00:00"
   }
 }
