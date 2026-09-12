@@ -149,7 +149,7 @@
     "name": "Halo: Campaign Evolved - Standard Edition - XBOX Series X | Disco físico + descarga de contenido requerida",
     "status": "compra_directa",
     "stock": null,
-    "price": "52,99 €",
+    "price": "52,99 €",
     "first_seen": "2026-09-11T19:25:04.811319+00:00"
   },
   "ES:B0DBZD14S6": {
@@ -240,7 +240,7 @@
     "name": "Batman Arkham Collection (Standard Edition) - Xbox One [Importación inglesa]",
     "status": "compra_directa",
     "stock": "3",
-    "price": "39,20 €",
+    "price": "39,20 €",
     "first_seen": "2026-09-11T19:25:04.811467+00:00"
   },
   "ES:B0CF2T3CQ2": {
@@ -797,38 +797,25 @@
     "price": "35,99 €",
     "first_seen": "2026-09-12T12:31:08.174525+00:00"
   },
-  "ES:B0FTG3C43P": {
-    "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Fuegos Fantasmales de JCC Pokémon (6 Sobres de Mejora)",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-09-12T18:20:41.813919+00:00"
-  },
-  "ES:B07HYNJ3SY": {
-    "name": "Xbox One S - Consola 1 TB + 2 Mandos a Distancia",
+  "ES:B0FSD5W83N": {
+    "name": "Avatar: Frontiers of Pandora From the Ashes Edition (Xbox X)",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "639,91 €",
-    "first_seen": "2026-09-12T18:20:42.209712+00:00"
+    "stock": null,
+    "price": "46,42 €",
+    "first_seen": "2026-09-12T18:26:21.308767+00:00"
+  },
+  "ES:B0C7RGHKZ5": {
+    "name": "Sonic Superstars (Xbox Series X) (Includes Comic Style Character Skins - Exclusive to Amazon.co.uk)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "19,99 €",
+    "first_seen": "2026-09-12T18:26:21.308869+00:00"
   },
   "ES:B0H28Q22N1": {
     "name": "GameSir G7 Pro Mando Xbox Cable/PC Inalámbrico, TMR, 1000Hz,Plata",
     "status": "compra_directa",
     "stock": null,
     "price": "127,24 €",
-    "first_seen": "2026-09-12T18:20:42.209727+00:00"
-  },
-  "ES:B0FB3T6JYJ": {
-    "name": "Pack de 10 Protectores Gold para Pokemon Elite Trainer Box - Funda Caja Pokemon ETB 0,5mm Grosor - Protección UV para Tus Cajas PKMN",
-    "status": "compra_directa",
-    "stock": null,
-    "price": "24,99 €",
-    "first_seen": "2026-09-12T18:20:42.209730+00:00"
-  },
-  "ES:B017BRXU1A": {
-    "name": "Ultra Pro - 1000 fundas suaves -",
-    "status": "compra_directa",
-    "stock": null,
-    "price": "12,99 €",
-    "first_seen": "2026-09-12T18:20:42.209734+00:00"
+    "first_seen": "2026-09-12T18:26:21.308895+00:00"
   }
 }
