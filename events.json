@@ -728,7 +728,7 @@
     "link": "https://www.amazon.es/dp/B08DVCNV3W?tag=enkairito-21"
   },
   {
-    "ts": "2026-09-12T09:20:03.522928+00:00",
+    "ts": "2026-09-12T09:23:02.519893+00:00",
     "type": "price_drop",
     "asin": "B0C4V8F77B",
     "marketplace": "ES",
@@ -741,7 +741,7 @@
     "link": "https://www.amazon.es/dp/B0C4V8F77B?tag=enkairito-21"
   },
   {
-    "ts": "2026-09-12T09:20:09.313351+00:00",
+    "ts": "2026-09-12T09:23:08.319180+00:00",
     "type": "restock",
     "asin": "B0DGY4Z6V3",
     "marketplace": "US",
@@ -754,7 +754,7 @@
     "link": "https://www.amazon.es/dp/B0DGY4Z6V3?tag=enkairito-21"
   },
   {
-    "ts": "2026-09-12T09:20:09.313363+00:00",
+    "ts": "2026-09-12T09:23:08.319197+00:00",
     "type": "price_drop",
     "asin": "B0CS12GPTB",
     "marketplace": "US",
@@ -767,7 +767,7 @@
     "link": "https://www.amazon.es/dp/B0CS12GPTB?tag=enkairito-21"
   },
   {
-    "ts": "2026-09-12T09:20:09.313415+00:00",
+    "ts": "2026-09-12T09:23:08.319246+00:00",
     "type": "price_drop",
     "asin": "B08DVCNV3W",
     "marketplace": "US",
