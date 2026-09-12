@@ -1,31 +1,5 @@
 [
   {
-    "ts": "2026-09-11T04:20:21.765822+00:00",
-    "type": "price_drop",
-    "asin": "B0FS98MMML",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokémon TCG: Booster Pack de 10 Cartas Mega Evolution Flames Phantasmal Mangas",
-    "image": "https://m.media-amazon.com/images/I/71r-eHgKChL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "38,64 €",
-    "prev_price": "40,11 €",
-    "link": "https://www.amazon.es/dp/B0FS98MMML?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-11T04:20:21.765937+00:00",
-    "type": "price_drop",
-    "asin": "B0FB79QPR4",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokemon TCG - Scarlet & Violet: Destined Rivals - Lote de 8 Paquetes de Refuerzo - 80 Cartas",
-    "image": "https://m.media-amazon.com/images/I/715Cu9wmd4L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "106,75 €",
-    "prev_price": "107,58 €",
-    "link": "https://www.amazon.es/dp/B0FB79QPR4?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-11T04:20:21.766019+00:00",
     "type": "price_drop",
     "asin": "B0FNLMQ5RN",
@@ -778,5 +752,31 @@
     "price": "41,48 €",
     "prev_price": null,
     "link": "https://www.amazon.es/dp/B0F6PGX3SQ?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-12T21:19:47.703463+00:00",
+    "type": "price_drop",
+    "asin": "B0DSGB5Q6B",
+    "marketplace": "ES",
+    "store_label": "Amazon ES",
+    "flag": "🇪🇸",
+    "name": "Pokémon Colección Ursaluna Luna Carmesí (4 Cartas holográficas y 4 Paquetes de Mejora)",
+    "image": "https://m.media-amazon.com/images/I/91DYxakGHhL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "38,00 €",
+    "prev_price": "45,09 €",
+    "link": "https://www.amazon.es/dp/B0DSGB5Q6B?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-12T21:19:53.415492+00:00",
+    "type": "price_drop",
+    "asin": "B0DGY4Z6V3",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokemon TCG: Paradox Destinies Tin - Raging Bolt EX",
+    "image": "https://m.media-amazon.com/images/I/81VZxx1AlNL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "70,69 €",
+    "prev_price": "73,57 €",
+    "link": "https://www.amazon.es/dp/B0DGY4Z6V3?tag=enkairito-21"
   }
 ]
