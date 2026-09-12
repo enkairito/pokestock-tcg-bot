@@ -240,7 +240,7 @@
     "name": "Batman Arkham Collection (Standard Edition) - Xbox One [Importación inglesa]",
     "status": "compra_directa",
     "stock": "3",
-    "price": "39,20 €",
+    "price": "39,20 €",
     "first_seen": "2026-09-11T19:25:04.811467+00:00"
   },
   "ES:B0CF2T3CQ2": {
@@ -282,7 +282,7 @@
     "name": "Turtle Beach Maneta de simulación universal VelocityOne Flightstick para Xbox Series X|S y Xbox One | PC Windows 10/11",
     "status": "compra_directa",
     "stock": null,
-    "price": "119,00 €",
+    "price": "119,00 €",
     "first_seen": "2026-09-11T19:25:04.811596+00:00"
   },
   "ES:B08VPTBZHR": {
@@ -796,5 +796,39 @@
     "stock": null,
     "price": "35,99 €",
     "first_seen": "2026-09-12T12:31:08.174525+00:00"
+  },
+  "ES:B0FTG3C43P": {
+    "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Fuegos Fantasmales de JCC Pokémon (6 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-12T18:20:41.813919+00:00"
+  },
+  "ES:B07HYNJ3SY": {
+    "name": "Xbox One S - Consola 1 TB + 2 Mandos a Distancia",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "639,91 €",
+    "first_seen": "2026-09-12T18:20:42.209712+00:00"
+  },
+  "ES:B0H28Q22N1": {
+    "name": "GameSir G7 Pro Mando Xbox Cable/PC Inalámbrico, TMR, 1000Hz,Plata",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "127,24 €",
+    "first_seen": "2026-09-12T18:20:42.209727+00:00"
+  },
+  "ES:B0FB3T6JYJ": {
+    "name": "Pack de 10 Protectores Gold para Pokemon Elite Trainer Box - Funda Caja Pokemon ETB 0,5mm Grosor - Protección UV para Tus Cajas PKMN",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "24,99 €",
+    "first_seen": "2026-09-12T18:20:42.209730+00:00"
+  },
+  "ES:B017BRXU1A": {
+    "name": "Ultra Pro - 1000 fundas suaves -",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "12,99 €",
+    "first_seen": "2026-09-12T18:20:42.209734+00:00"
   }
 }
