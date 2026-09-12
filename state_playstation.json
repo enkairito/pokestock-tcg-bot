@@ -108,7 +108,7 @@
     "name": "EA SPORTS FC 25 Standard Edition PS4 | Videojuegos | Castellano",
     "status": "compra_directa",
     "stock": null,
-    "price": "29,99 €",
+    "price": "27,89 €",
     "first_seen": "2026-09-11T19:18:12.685903+00:00"
   },
   "ES:B084WLMKGT": {
@@ -184,7 +184,7 @@
   "ES:B084WQXL2N": {
     "name": "GXTrust Forze Cascos PS4 y PS5 Auriculares de Gaming, Gris",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "price": "28,99 €",
     "first_seen": "2026-09-11T19:18:12.685976+00:00"
   },
@@ -289,9 +289,8 @@
   },
   "ES:B09X5TX9CN": {
     "name": "Grand Theft Auto V - PlayStation 5",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "18,99 €",
     "first_seen": "2026-09-12T00:28:04.018779+00:00"
   },
   "ES:B0F6D5BS17": {
@@ -788,5 +787,64 @@
     "stock": null,
     "price": "26,59 €",
     "first_seen": "2026-09-12T12:27:13.469408+00:00"
+  },
+  "ES:B00MUGUAHK": {
+    "name": "Ps4 B Chassis White",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-12T18:20:04.914341+00:00"
+  },
+  "ES:B076DHYRGP": {
+    "name": "Sony PlayStation 4 Slim (PS4) - Consola de 500 GB",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-12T18:20:04.914369+00:00"
+  },
+  "ES:B0FTG3C43P": {
+    "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Fuegos Fantasmales de JCC Pokémon (6 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-12T18:20:04.914378+00:00"
+  },
+  "ES:B014J9R80M": {
+    "name": "PlayStation 4 - Konsole Ultimate Player 1TB Edition [CUH-1216B]",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-12T18:20:04.914382+00:00"
+  },
+  "ES:B0C7RD5RX7": {
+    "name": "Sonic Superstars (Playstation 4) (Includes Comic Style Character Skins - Exclusive to Amazon.co.uk)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "23,57 €",
+    "first_seen": "2026-09-12T18:20:05.505178+00:00"
+  },
+  "ES:B0C7RFFCHZ": {
+    "name": "Sonic Superstars (Playstation 5) (Includes Comic Style Character Skins - Exclusive to Amazon.co.uk)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "28,43 €",
+    "first_seen": "2026-09-12T18:20:05.505208+00:00"
+  },
+  "ES:B017BRXU1A": {
+    "name": "Ultra Pro - 1000 fundas suaves -",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "12,99 €",
+    "first_seen": "2026-09-12T18:20:05.505230+00:00"
+  },
+  "ES:B0FB3T6JYJ": {
+    "name": "Pack de 10 Protectores Gold para Pokemon Elite Trainer Box - Funda Caja Pokemon ETB 0,5mm Grosor - Protección UV para Tus Cajas PKMN",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "24,99 €",
+    "first_seen": "2026-09-12T18:20:05.505236+00:00"
+  },
+  "ES:B0FD41XC3P": {
+    "name": "GameSir G7 Pro Mando 1000Hz con Estación de Carga: Xbox Series X|S, Xbox One, Win 10/11 & Android - Joysticks TMR, Gatillos Ajustables & 4 Botones Programables - Blanco Mec",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "99,99 €",
+    "first_seen": "2026-09-12T18:20:05.505239+00:00"
   }
 }
