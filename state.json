@@ -1472,8 +1472,8 @@
   "US:B0G72SPRP6": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": "3",
-    "price": "82,15 €",
+    "stock": "2",
+    "price": "82,13 €",
     "first_seen": "2026-09-04T21:32:58.802874+00:00"
   },
   "US:B0G72QBTBJ": {
@@ -1618,7 +1618,7 @@
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "4",
     "price": "74,62 €",
     "first_seen": "2026-09-05T00:38:53.462595+00:00"
   },
@@ -1717,7 +1717,7 @@
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
     "status": "compra_directa",
     "stock": null,
-    "price": "22,02 €",
+    "price": "21,97 €",
     "first_seen": "2026-09-06T13:57:50.628764+00:00"
   },
   "UK:B0DLTZPNR2": {
@@ -1736,7 +1736,7 @@
   "US:B0CXTNNVHN": {
     "name": "Pokémon TCG: Mini Cartera (Cartera de 60 Tarjetas y 1 Paquete de Refuerzo)",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": null,
     "price": "34,05 €",
     "first_seen": "2026-09-07T19:01:37.274378+00:00"
   },
@@ -2011,5 +2011,12 @@
     "stock": null,
     "price": "73,58 €",
     "first_seen": "2026-09-12T09:23:08.319159+00:00"
+  },
+  "US:B0CQD8G93B": {
+    "name": "Pokemon TCG: Scarlet & Violet - Paradox Rift Checklane Blister Pack (Sinistea)",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "35,24 €",
+    "first_seen": "2026-09-12T15:19:51.054681+00:00"
   }
 }
