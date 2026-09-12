@@ -1584,7 +1584,7 @@
   "UK:B0DH53TQCC": {
     "name": "Pokemon Scarlet & Violet Stellar Crown Booster Pack",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "2",
     "price": "26,54 €",
     "first_seen": "2026-09-04T22:05:43.537215+00:00"
   },
@@ -1736,7 +1736,7 @@
   "US:B0CXTNNVHN": {
     "name": "Pokémon TCG: Mini Cartera (Cartera de 60 Tarjetas y 1 Paquete de Refuerzo)",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": null,
     "price": "34,05 €",
     "first_seen": "2026-09-07T19:01:37.274378+00:00"
   },
@@ -1827,7 +1827,7 @@
     "name": "Pokémon TCG: Baraja de Batalla V: Lycanroc contra Corviknight",
     "status": "compra_directa",
     "stock": "1",
-    "price": "58,70 €",
+    "price": "55,37 €",
     "first_seen": "2026-09-08T14:34:56.335876+00:00"
   },
   "UK:B00TA6E3KI": {
@@ -2009,7 +2009,7 @@
     "name": "Pokemon TCG: Paradox Destinies Tin - Raging Bolt EX",
     "status": "compra_directa",
     "stock": null,
-    "price": "73,58 €",
+    "price": "73,77 €",
     "first_seen": "2026-09-12T09:23:08.319159+00:00"
   }
 }
