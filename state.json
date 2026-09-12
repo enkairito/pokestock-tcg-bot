@@ -1438,14 +1438,14 @@
     "name": "Pokémon- Deoxys (60 Cards, Ready to Play) Baraja de Batalla V, Multicolor, zeraora (699-17149)",
     "status": "compra_directa",
     "stock": null,
-    "price": "24,72 €",
+    "price": "24,77 €",
     "first_seen": "2026-09-04T21:32:58.802813+00:00"
   },
   "UK:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
     "stock": "2",
-    "price": "292,90 €",
+    "price": "289,25 €",
     "first_seen": "2026-09-04T21:32:58.802818+00:00"
   },
   "US:B0F2BCG1Y5": {
@@ -1790,8 +1790,9 @@
   },
   "UK:B0CF1MDBS5": {
     "name": "Pokemon - Scarlet & Violet: High Class Pack Shiny Treasure ex - Booster Box",
-    "status": "no_disponible",
-    "stock": null,
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "219,80 €",
     "first_seen": "2026-09-08T14:34:56.335808+00:00"
   },
   "UK:B0CK8JM32H": {
