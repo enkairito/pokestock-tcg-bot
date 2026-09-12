@@ -35,9 +35,8 @@
   },
   "ES:B0DJPHJ7GD": {
     "name": "Ravensburger - Disney Lorcana Azurite Sea Illumineer’s Trove, Juego de Mesa, Juego de Cartas, Juego de Estrategia, Juego Niños 8 Años o Más, Regalos Niños 8 Años, Accesorios",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "54,59 €",
     "first_seen": "2026-09-07T17:41:25.409258+00:00"
   },
   "ES:B0DJT1G86G": {
@@ -58,7 +57,7 @@
     "name": "Ravensburger - Disney Lorcana TCG: Juego De Trove Illumineers Trove | Juegos De Cartas Adultos Y Niños con Cartas Disney Lorcana | Juegos Niños 8 Años O Más Coleccionables | Regalos Originales",
     "status": "compra_directa",
     "stock": null,
-    "price": "60,55 €",
+    "price": "60,58 €",
     "first_seen": "2026-09-07T17:41:42.887252+00:00"
   },
   "ES:B0CFRBX7GW": {
@@ -205,7 +204,7 @@
     "name": "Ravensburger - Disney Lorcana TCG: Set 9 Album Para Cartas Princesas | Album Cartas De Colección Con Capacidad Para 252 | Disney Lorcana Con Un Diseño Único | Card Sleeves",
     "status": "compra_directa",
     "stock": null,
-    "price": "25,93 €",
+    "price": "25,95 €",
     "first_seen": "2026-09-10T11:31:24.750843+00:00"
   },
   "ES:B0DTK163XP": {
@@ -242,5 +241,12 @@
     "stock": null,
     "price": "19,99 €",
     "first_seen": "2026-09-11T00:17:04.220666+00:00"
+  },
+  "ES:B0H6Y11D6C": {
+    "name": "Disney Lorcana TCG: Attack of The Vine! - Illumineers Trove",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "152,33 €",
+    "first_seen": "2026-09-12T06:16:02.062587+00:00"
   }
 }
