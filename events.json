@@ -1,31 +1,5 @@
 [
   {
-    "ts": "2026-09-11T08:20:29.926751+00:00",
-    "type": "price_drop",
-    "asin": "B0C4V8F77B",
-    "marketplace": "ES",
-    "store_label": "Amazon ES",
-    "flag": "🇪🇸",
-    "name": "Pokémon: Estadio Combina y Combate de Escarlata y Púrpura (2 Barajas, 11 Paquetes de Mejora y más)",
-    "image": "https://m.media-amazon.com/images/I/81eF8wu4I1L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "64,98 €",
-    "prev_price": "65,98 €",
-    "link": "https://www.amazon.es/dp/B0C4V8F77B?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-11T08:20:36.236295+00:00",
-    "type": "price_drop",
-    "asin": "B0BXJT92PT",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokémon- Origin Forme Palkia VSTAR Baraja de Batalla de la Liga, Multicolor (290-85236)",
-    "image": "https://m.media-amazon.com/images/I/91qF7mG6W6L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "47,12 €",
-    "prev_price": "47,72 €",
-    "link": "https://www.amazon.es/dp/B0BXJT92PT?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-11T08:20:36.236349+00:00",
     "type": "price_drop",
     "asin": "B09M48Z5NW",
@@ -778,5 +752,31 @@
     "price": "33,44 €",
     "prev_price": null,
     "link": "https://www.amazon.es/dp/B0C16H3DGV?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-13T08:20:27.138310+00:00",
+    "type": "price_drop",
+    "asin": "B0DSGB5Q6B",
+    "marketplace": "ES",
+    "store_label": "Amazon ES",
+    "flag": "🇪🇸",
+    "name": "Pokémon Colección Ursaluna Luna Carmesí (4 Cartas holográficas y 4 Paquetes de Mejora)",
+    "image": "https://m.media-amazon.com/images/I/91DYxakGHhL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "38,00 €",
+    "prev_price": "45,09 €",
+    "link": "https://www.amazon.es/dp/B0DSGB5Q6B?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-13T08:20:33.169328+00:00",
+    "type": "price_drop",
+    "asin": "B0DG8VNG1F",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon TCG: Scarlet & Violet—Shrouded Fable Booster Bundle (6 Booster Packs)",
+    "image": "https://m.media-amazon.com/images/I/81PYT9ru31L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "97,86 €",
+    "prev_price": "97,88 €",
+    "link": "https://www.amazon.es/dp/B0DG8VNG1F?tag=enkairito-21"
   }
 ]
