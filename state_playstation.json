@@ -86,8 +86,8 @@
   "ES:B0CD2R5CD3": {
     "name": "Videojuego PlayStation 5 Ubisoft Assassin's Creed Mirage",
     "status": "compra_directa",
-    "stock": null,
-    "price": "18,97 €",
+    "stock": "5",
+    "price": "18,97 €",
     "first_seen": "2026-09-11T19:18:12.685827+00:00"
   },
   "ES:B08B4HHNNM": {
@@ -107,8 +107,8 @@
   "ES:B0D98BDG3S": {
     "name": "EA SPORTS FC 25 Standard Edition PS4 | Videojuegos | Castellano",
     "status": "compra_directa",
-    "stock": null,
-    "price": "29,99 €",
+    "stock": "4",
+    "price": "27,89 €",
     "first_seen": "2026-09-11T19:18:12.685903+00:00"
   },
   "ES:B084WLMKGT": {
@@ -135,8 +135,8 @@
   "ES:B0CD2RBQ68": {
     "name": "Videojuego PlayStation 4 Ubisoft Assassin's Creed Mirage",
     "status": "compra_directa",
-    "stock": "5",
-    "price": "18,99 €",
+    "stock": null,
+    "price": "18,99 €",
     "first_seen": "2026-09-11T19:18:12.685939+00:00"
   },
   "ES:B0GHT1SQ3S": {
@@ -150,7 +150,7 @@
     "name": "Fable – PlayStation® 5 | Disco físico – Requiere descarga de contenido",
     "status": "preventa",
     "stock": null,
-    "price": "59,90 €",
+    "price": "59,90 €",
     "first_seen": "2026-09-11T19:18:12.685957+00:00"
   },
   "ES:B0DKP1FZM5": {
@@ -170,8 +170,8 @@
   "ES:B07W4X1F21": {
     "name": "Sony PlayStation DualShock 4 Controller - Glacier White (Renewed)",
     "status": "compra_directa",
-    "stock": null,
-    "price": "62,48 €",
+    "stock": "2",
+    "price": "62,48 €",
     "first_seen": "2026-09-11T19:18:12.685972+00:00"
   },
   "ES:B0F1QWSCVH": {
@@ -317,7 +317,7 @@
     "name": "Sony PlayStation 4 Slim 500 Go, Avec 1 manette sans fil DUALSHOCK 4 V2, Châssis F, Noir (Jet Black) [Importación francesa]",
     "status": "compra_directa",
     "stock": "2",
-    "price": "494,08 €",
+    "price": "494,08 €",
     "first_seen": "2026-09-12T00:28:04.018828+00:00"
   },
   "ES:B0GRWCXP1F": {
@@ -380,14 +380,14 @@
     "name": "PlayStation 5-MARVEL Tōkon: Fighting Souls - Edición Estándar",
     "status": "compra_directa",
     "stock": null,
-    "price": "53,90 €",
+    "price": "53,90 €",
     "first_seen": "2026-09-12T00:28:04.018904+00:00"
   },
   "ES:B0BF4L2FDY": {
     "name": "Ubisoft Assassin's Creed Mirage [PlayStation 5] - Sin cortar",
     "status": "compra_directa",
     "stock": "5",
-    "price": "24,90 €",
+    "price": "24,90 €",
     "first_seen": "2026-09-12T00:28:04.018909+00:00"
   },
   "ES:B0GQHLFRMV": {
@@ -415,7 +415,7 @@
     "name": "Halo: Campaign Evolved - Standard Edition – PlayStation®5 | Disco físico + descarga de contenido requerida",
     "status": "compra_directa",
     "stock": null,
-    "price": "50,90 €",
+    "price": "50,90 €",
     "first_seen": "2026-09-12T00:28:04.018938+00:00"
   },
   "ES:B0G1NBTBC4": {
@@ -457,7 +457,7 @@
     "name": "HORI - Volante Apex (PS5/PS4/PC) - Licencia oficial",
     "status": "compra_directa",
     "stock": null,
-    "price": "90,99 €",
+    "price": "90,99 €",
     "first_seen": "2026-09-12T00:28:04.018962+00:00"
   },
   "ES:B08DLWRZ8V": {
@@ -471,7 +471,7 @@
     "name": "Superer 3,0M Cable Micro USB Compatible con Sony Mando PS4",
     "status": "compra_directa",
     "stock": null,
-    "price": "10,99 €",
+    "price": "10,99 €",
     "first_seen": "2026-09-12T00:28:04.018966+00:00"
   },
   "ES:B0DBJ5PBLT": {
@@ -485,7 +485,7 @@
     "name": "Dualshock 4 Wireless Controller - Jet Black - PlayStation 4",
     "status": "compra_directa",
     "stock": null,
-    "price": "119,99 €",
+    "price": "119,99 €",
     "first_seen": "2026-09-12T00:28:04.018969+00:00"
   },
   "ES:B0FNCTWV6L": {
@@ -621,7 +621,7 @@
     "name": "Tatybo Cascos Gaming Inalámbricos para PC/Ps5/Ps4, Auriculares Gaming Inalámbricos con 2,4 GHz+Bluetooth 5,3 Modo Dual, 7.1 Sonido Envolvente, Duración 40Hr+",
     "status": "compra_directa",
     "stock": null,
-    "price": "29,99 €",
+    "price": "29,99 €",
     "first_seen": "2026-09-12T06:27:49.066532+00:00"
   },
   "ES:B0F3D6RMLC": {
@@ -708,7 +708,7 @@
     "name": "Volante y Pedales Hori RWA con licencia Sony PlayStation 4/5 [Nuevo modelo compatible con PS4/PS5] + Gran Turismo 7 [Playstation 5]",
     "status": "compra_directa",
     "stock": "1",
-    "price": "189,90 €",
+    "price": "189,90 €",
     "first_seen": "2026-09-12T12:27:13.469362+00:00"
   },
   "ES:B0DBV9YTBY": {
@@ -873,7 +873,7 @@
     "name": "Playstation Gran Turismo 7 [PS4]",
     "status": "compra_directa",
     "stock": null,
-    "price": "34,99 €",
+    "price": "34,99 €",
     "first_seen": "2026-09-12T18:25:09.102575+00:00"
   },
   "ES:B098GSZ4Q9": {
@@ -969,9 +969,8 @@
   },
   "ES:B07WHZ4PM7": {
     "name": "Sony Rose Gold DualShock 4 Wireless Controller (PS4) (Exclusive to Amazon.co.uk) [Importación inglesa]",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "307,76 €",
     "first_seen": "2026-09-12T18:25:09.102663+00:00"
   },
   "ES:B08H93ZRK9": {
@@ -1061,5 +1060,18 @@
     "stock": null,
     "price": "16,99 €",
     "first_seen": "2026-09-13T06:20:27.321400+00:00"
+  },
+  "ES:B08KKJ37F7": {
+    "name": "Playstation 5 Standard Consola",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-13T12:22:28.169361+00:00"
+  },
+  "ES:B0HJ2FHFY6": {
+    "name": "PlayStation 5-Until Dawn 2 - Edición Estándar",
+    "status": "preventa",
+    "stock": null,
+    "price": "49,99 €",
+    "first_seen": "2026-09-13T12:22:28.699801+00:00"
   }
 }
