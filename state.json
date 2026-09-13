@@ -78,7 +78,7 @@
     "name": "Pokémon: Estadio Combina y Combate de Escarlata y Púrpura (2 Barajas, 11 Paquetes de Mejora y más)",
     "status": "compra_directa",
     "stock": null,
-    "price": "64,98 €",
+    "price": "65,98 €",
     "first_seen": "2026-08-25T20:27:54.285181+00:00"
   },
   "ES:B0G4NQK15P": {
@@ -1549,8 +1549,9 @@
   },
   "US:B0G5FWJ8NL": {
     "name": "Pokémon TCG: Mega Charizard Tin",
-    "status": "no_disponible",
-    "stock": null,
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "76,01 €",
     "first_seen": "2026-09-04T21:32:58.802936+00:00"
   },
   "US:B0F2BFSPBN": {
@@ -1716,8 +1717,8 @@
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
     "status": "compra_directa",
-    "stock": null,
-    "price": "22,02 €",
+    "stock": "3",
+    "price": "21,93 €",
     "first_seen": "2026-09-06T13:57:50.628764+00:00"
   },
   "UK:B0DLTZPNR2": {
@@ -2018,5 +2019,12 @@
     "stock": null,
     "price": "41,48 €",
     "first_seen": "2026-09-12T20:22:49.294754+00:00"
+  },
+  "US:B0CQD8G93B": {
+    "name": "Pokemon TCG: Scarlet & Violet - Paradox Rift Checklane Blister Pack (Sinistea)",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "35,24 €",
+    "first_seen": "2026-09-13T01:20:06.971633+00:00"
   }
 }
