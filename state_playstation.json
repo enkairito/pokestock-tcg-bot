@@ -86,8 +86,8 @@
   "ES:B0CD2R5CD3": {
     "name": "Videojuego PlayStation 5 Ubisoft Assassin's Creed Mirage",
     "status": "compra_directa",
-    "stock": "5",
-    "price": "18,97 €",
+    "stock": null,
+    "price": "18,97 €",
     "first_seen": "2026-09-11T19:18:12.685827+00:00"
   },
   "ES:B08B4HHNNM": {
@@ -289,9 +289,8 @@
   },
   "ES:B09X5TX9CN": {
     "name": "Grand Theft Auto V - PlayStation 5",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "18,99 €",
     "first_seen": "2026-09-12T00:28:04.018779+00:00"
   },
   "ES:B0F6D5BS17": {
@@ -695,7 +694,7 @@
     "name": "Sony PS4 500GB Slim + 2 DUALSHOCK 4 (Importación Alemana)",
     "status": "compra_directa",
     "stock": null,
-    "price": "250,00 €",
+    "price": "250,00 €",
     "first_seen": "2026-09-12T12:27:13.469330+00:00"
   },
   "ES:B09CWDX4K3": {
@@ -1029,5 +1028,38 @@
     "stock": null,
     "price": "13,99 €",
     "first_seen": "2026-09-13T00:24:23.874186+00:00"
+  },
+  "ES:B07KTKCZRD": {
+    "name": "PlayStation 4 - PS VR Mk4 + Camera + Gioco VR Worlds (Voucher) - Bundle Fisico [Importación italiana]",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-13T06:20:26.833390+00:00"
+  },
+  "ES:B0FTG3C43P": {
+    "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Fuegos Fantasmales de JCC Pokémon (6 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-13T06:20:26.833445+00:00"
+  },
+  "ES:B0DJ719GXG": {
+    "name": "Álbum Toploader Cartas Coleccionables 216 Compartimentos - Carpeta Binder TCG MTG con 10 Fundas 35PT - Archivador Card Portfolio Cremallera Impermeable Negro",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "25,64 €",
+    "first_seen": "2026-09-13T06:20:27.321384+00:00"
+  },
+  "ES:B0BN3GFBG7": {
+    "name": "10PCS Magnetic Card Holder 35PT Soporte de Tarjeta UV Protectoras Funda Plástica Dura de Tarjeta Transparentes Cartas Coleccionables Marco para Magic, MTG, Deportes, Béisbol, Fútbol",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "11,98 €",
+    "first_seen": "2026-09-13T06:20:27.321396+00:00"
+  },
+  "ES:B0FHQ7THJY": {
+    "name": "100 Toploaders 35 PT para Cartas, Fundas Duras Rígidas PKM MTG 3x4",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "16,99 €",
+    "first_seen": "2026-09-13T06:20:27.321400+00:00"
   }
 }
