@@ -1884,7 +1884,7 @@
     "name": "Pokemon Sword and Shield Darkness Ablaze Booster Pack (1 Booster Pack)",
     "status": "compra_directa",
     "stock": "5",
-    "price": "34,49 €",
+    "price": "34,23 €",
     "first_seen": "2026-09-08T14:34:56.335940+00:00"
   },
   "US:B0CS12GPTB": {
@@ -2026,5 +2026,12 @@
     "stock": "1",
     "price": "35,24 €",
     "first_seen": "2026-09-13T01:20:06.971633+00:00"
+  },
+  "US:B0DSLX3SXT": {
+    "name": "Pokemon TCG: Scarlet & Violet—Journey Together Booster Build & Battle Box",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "59,46 €",
+    "first_seen": "2026-09-13T09:20:32.108016+00:00"
   }
 }
