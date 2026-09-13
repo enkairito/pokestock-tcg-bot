@@ -239,8 +239,8 @@
   "ES:B0HF1Z72XW": {
     "name": "One Piece TCG: The World's Strongest Warriors Booster Box (OP-17) - 24 paquetes",
     "status": "compra_directa",
-    "stock": "3",
-    "price": "474,00 €",
+    "stock": null,
+    "price": "459,00 €",
     "first_seen": "2026-09-05T20:33:38.638411+00:00"
   },
   "ES:B0HFD53BDB": {
@@ -253,7 +253,7 @@
     "name": "Juego de cartas de una pieza Starter Deck ST-36 amarillo Eustass Captain Kid",
     "status": "compra_directa",
     "stock": null,
-    "price": "40,01 €",
+    "price": "39,68 €",
     "first_seen": "2026-09-08T09:40:16.326555+00:00"
   },
   "ES:B0DW3R4T9G": {
@@ -276,5 +276,12 @@
     "stock": "4",
     "price": "9,99 €",
     "first_seen": "2026-09-12T22:07:53.359153+00:00"
+  },
+  "ES:B0C7VGHF3J": {
+    "name": "BANDAI ONE PIECE TCG: YAMATO STARTER DECK [ST-09],BCL2687838",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "33,77 €",
+    "first_seen": "2026-09-13T12:06:49.568039+00:00"
   }
 }
