@@ -308,7 +308,7 @@
   "ES:B07ZRL65YK": {
     "name": "Nintendo - Funda Plegable (Nintendo Switch Lite)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "price": "29,99 €",
     "first_seen": "2026-09-11T19:20:15.912105+00:00"
   },
@@ -1047,5 +1047,33 @@
     "stock": null,
     "price": "11,98 €",
     "first_seen": "2026-09-13T06:20:32.322808+00:00"
+  },
+  "ES:B0F2N6F62D": {
+    "name": "Super Mario Party Jamboree - Nintendo Switch 2 Edition",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "63,90 €",
+    "first_seen": "2026-09-13T12:20:51.136983+00:00"
+  },
+  "ES:B0DGGTYDLJ": {
+    "name": "Nintendo Switch Lite - Consola Azul Turquesa + Animal Crossing + 12 meses NSO",
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "301,89 €",
+    "first_seen": "2026-09-13T12:20:51.137100+00:00"
+  },
+  "ES:B0D7F3WHPV": {
+    "name": "Super Mario Party Jamboree - Nintendo Switch",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "47,99 €",
+    "first_seen": "2026-09-13T12:20:51.137129+00:00"
+  },
+  "ES:B0BZJF8P1P": {
+    "name": "Sonic Origins Plus (Nintendo Switch)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "24,88 €",
+    "first_seen": "2026-09-13T12:20:51.137152+00:00"
   }
 }
