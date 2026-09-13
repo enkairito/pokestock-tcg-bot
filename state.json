@@ -1549,8 +1549,8 @@
   "US:B0G5FWJ8NL": {
     "name": "Pokémon TCG: Mega Charizard Tin",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "70,39 €",
+    "stock": null,
+    "price": "78,03 €",
     "first_seen": "2026-09-04T21:32:58.802936+00:00"
   },
   "US:B0F2BFSPBN": {
@@ -1756,8 +1756,9 @@
   },
   "US:B0C16H3DGV": {
     "name": "Pokemon Booster Pack - Scarlet & Violet SV1 Base Set - 10 Card Pack - Pack Art Varys",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "33,44 €",
     "first_seen": "2026-09-08T00:08:50.343349+00:00"
   },
   "US:B0DLTZPNR2": {
