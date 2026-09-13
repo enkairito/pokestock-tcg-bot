@@ -119,7 +119,7 @@
   "ES:B0FQWNJFHT": {
     "name": "Metroid Prime 4: Beyond – Nintendo Switch 2 Edition",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "2",
     "price": "52,95 €",
     "first_seen": "2026-09-11T19:20:15.911952+00:00"
   },
@@ -514,7 +514,7 @@
     "name": "Samsung Micro SD Express Card for Nintendo Switch 2",
     "status": "compra_directa",
     "stock": null,
-    "price": "51,99 €",
+    "price": "52,99 €",
     "first_seen": "2026-09-12T00:28:58.478133+00:00"
   },
   "ES:B0GKHD3X6Z": {
@@ -612,7 +612,7 @@
     "name": "Videojuego para Switch Ubisoft Mario+Rabbids Sparks of Hope",
     "status": "compra_directa",
     "stock": null,
-    "price": "29,90 €",
+    "price": "29,40 €",
     "first_seen": "2026-09-12T00:28:58.478293+00:00"
   },
   "ES:B0DFD3S5LM": {
@@ -974,5 +974,26 @@
     "stock": null,
     "price": "307,76 €",
     "first_seen": "2026-09-12T18:30:08.918663+00:00"
+  },
+  "ES:B0F3GWXLTS": {
+    "name": "Nintendo Switch 2 Console",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "549,90 €",
+    "first_seen": "2026-09-13T00:21:41.607139+00:00"
+  },
+  "ES:B0H4R5H9QN": {
+    "name": "Joy-Con 2 Pareja - Azul/Amarillo - Nintendo Switch 2",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "74,99 €",
+    "first_seen": "2026-09-13T00:21:41.607224+00:00"
+  },
+  "ES:B017BRXU1A": {
+    "name": "Ultra Pro - 1000 fundas suaves -",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "13,99 €",
+    "first_seen": "2026-09-13T00:21:41.607232+00:00"
   }
 }
