@@ -15,7 +15,7 @@
   "ES:B0GWDXZ12H": {
     "name": "Ravensburger Disney Lorcana - Juego de cartas coleccionables para adultos y niños a partir de 8 años - Set 12: Wilds Unknown - Deck para 2 jugadores",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "price": "39,01 €",
     "first_seen": "2026-09-07T17:41:04.537441+00:00"
   },
@@ -37,7 +37,7 @@
     "name": "Ravensburger - Disney Lorcana Azurite Sea Illumineer’s Trove, Juego de Mesa, Juego de Cartas, Juego de Estrategia, Juego Niños 8 Años o Más, Regalos Niños 8 Años, Accesorios",
     "status": "compra_directa",
     "stock": null,
-    "price": "54,59 €",
+    "price": "54,23 €",
     "first_seen": "2026-09-07T17:41:25.409258+00:00"
   },
   "ES:B0DJT1G86G": {
@@ -256,5 +256,18 @@
     "stock": null,
     "price": "19,99 €",
     "first_seen": "2026-09-12T12:17:27.646005+00:00"
+  },
+  "ES:B0FSLTY2Z6": {
+    "name": "Ravensburger - Disney Lorcana TCG: Set 10 Whispers In The Well | Juegos De Cartas Adultos Y Niños con 60 Cartas Disney Lorcana | Juegos De Mesa Niños 10 Años Coleccionables | Regalos Originales",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-13T00:16:43.355030+00:00"
+  },
+  "ES:B0CFRF14WF": {
+    "name": "Disney Lorcana Trading Card Game: Set 4 – Booster Display con 24 Booster Packs (en inglés)",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "155,36 €",
+    "first_seen": "2026-09-13T00:16:55.094290+00:00"
   }
 }
