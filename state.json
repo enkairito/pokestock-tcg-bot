@@ -1388,7 +1388,7 @@
   "UK:B0H5RHR55T": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising Premium Checklane Blister Duo Pack | Flygon & Pawmot | 2 ampollas incluyendo 2 paquetes de refuerzo, 2 tarjetas promocionales y 2 monedas coleccionables |",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "price": "36,66 €",
     "first_seen": "2026-09-04T21:32:58.802771+00:00"
   },
@@ -1583,8 +1583,9 @@
   },
   "UK:B0DH53TQCC": {
     "name": "Pokemon Scarlet & Violet Stellar Crown Booster Pack",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "18,62 €",
     "first_seen": "2026-09-04T22:05:43.537215+00:00"
   },
   "UK:B0DBHJPLVB": {
