@@ -1367,7 +1367,7 @@
   "UK:B0F741W36F": {
     "name": "Pokémon TCG: Slashing Legends Tin - Koraidon ex (1 Tarjeta Promocional de Aluminio y 4 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "price": "59,08 €",
     "first_seen": "2026-09-04T21:32:58.802751+00:00"
   },
@@ -1653,7 +1653,7 @@
   "UK:B0FVYJPBWW": {
     "name": "Pokémon Chinese Dark Crystal Blaze CSV5C Slim Booster Box",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "price": "95,70 €",
     "first_seen": "2026-09-05T05:18:07.280940+00:00"
   },
@@ -2010,7 +2010,7 @@
     "name": "Pokemon TCG: Paradox Destinies Tin - Raging Bolt EX",
     "status": "compra_directa",
     "stock": null,
-    "price": "76,70 €",
+    "price": "73,57 €",
     "first_seen": "2026-09-12T09:23:08.319159+00:00"
   },
   "UK:B0F6PGX3SQ": {
