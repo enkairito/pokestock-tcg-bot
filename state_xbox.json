@@ -275,7 +275,7 @@
     "name": "Need for Speed Hot Pursuit Remastered | Xbox One/Series X|S - Codice de descarga",
     "status": "compra_directa",
     "stock": null,
-    "price": "39,99 €",
+    "price": "39,99 €",
     "first_seen": "2026-09-11T19:25:04.811569+00:00"
   },
   "ES:B0BHTPP71M": {
@@ -359,7 +359,7 @@
     "name": "HELLCOOL Bateria para Mando Xbox, 2x6200mWh Pilas Recargables con Cargador Pilas/Cable Carga/Display LED, Compatible Xbox Series X|S/Xbox OneX|S|Elite Controller - 25 Horas de Juego",
     "status": "compra_directa",
     "stock": null,
-    "price": "19,99 €",
+    "price": "19,99 €",
     "first_seen": "2026-09-11T19:25:04.811686+00:00"
   },
   "ES:B0FHQ6P7TQ": {
@@ -857,5 +857,38 @@
     "stock": null,
     "price": "13,99 €",
     "first_seen": "2026-09-13T00:21:08.267527+00:00"
+  },
+  "ES:B0FTG3C43P": {
+    "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Fuegos Fantasmales de JCC Pokémon (6 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-13T06:22:40.427283+00:00"
+  },
+  "ES:B0CNKDMHPD": {
+    "name": "PlayStation 5 Standard Edition Slim (Nordic)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-13T06:22:40.427305+00:00"
+  },
+  "ES:B09JM8SX8G": {
+    "name": "Turtle Beach VelocityOne Flight, el sistema de control universal para Xbox Series X|S y Xbox One | PC con Windows 10/11",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "299,99 €",
+    "first_seen": "2026-09-13T06:22:40.824880+00:00"
+  },
+  "ES:B0BN3GFBG7": {
+    "name": "10PCS Magnetic Card Holder 35PT Soporte de Tarjeta UV Protectoras Funda Plástica Dura de Tarjeta Transparentes Cartas Coleccionables Marco para Magic, MTG, Deportes, Béisbol, Fútbol",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "11,98 €",
+    "first_seen": "2026-09-13T06:22:40.824927+00:00"
+  },
+  "ES:B0FHQ7THJY": {
+    "name": "100 Toploaders 35 PT para Cartas, Fundas Duras Rígidas PKM MTG 3x4",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "16,99 €",
+    "first_seen": "2026-09-13T06:22:40.824932+00:00"
   }
 }
