@@ -86,8 +86,8 @@
   "ES:B0CD2R5CD3": {
     "name": "Videojuego PlayStation 5 Ubisoft Assassin's Creed Mirage",
     "status": "compra_directa",
-    "stock": null,
-    "price": "18,97 €",
+    "stock": "5",
+    "price": "18,97 €",
     "first_seen": "2026-09-11T19:18:12.685827+00:00"
   },
   "ES:B08B4HHNNM": {
@@ -150,7 +150,7 @@
     "name": "Fable – PlayStation® 5 | Disco físico – Requiere descarga de contenido",
     "status": "preventa",
     "stock": null,
-    "price": "59,90 €",
+    "price": "59,90 €",
     "first_seen": "2026-09-11T19:18:12.685957+00:00"
   },
   "ES:B0DKP1FZM5": {
@@ -164,7 +164,7 @@
     "name": "Playstation 5 DualSense Edge Controller - kabelloser PS5 Controller mit insgesamt 16 Tasten und austauschbaren Analog Sticks",
     "status": "compra_directa",
     "stock": null,
-    "price": "214,98 €",
+    "price": "214,98 €",
     "first_seen": "2026-09-11T19:18:12.685970+00:00"
   },
   "ES:B07W4X1F21": {
@@ -367,7 +367,7 @@
     "name": "Minecraft - PS5",
     "status": "compra_directa",
     "stock": null,
-    "price": "26,99 €",
+    "price": "26,99 €",
     "first_seen": "2026-09-12T00:28:04.018892+00:00"
   },
   "ES:B09KTPJQ7V": {
@@ -394,7 +394,7 @@
   "ES:B0GQHLFRMV": {
     "name": "Starfield™: Edición estándar – PlayStation 5© [Disco físico - Requiere descarga de contenido]",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "1",
     "price": "36,90 €",
     "first_seen": "2026-09-12T00:28:04.018916+00:00"
   },
@@ -423,7 +423,7 @@
     "name": "Thrustmaster GT Wheel Add-On Aro con Licencia Gran Turismo - PS5 y PC",
     "status": "compra_directa",
     "stock": null,
-    "price": "231,85 €",
+    "price": "229,18 €",
     "first_seen": "2026-09-12T00:28:04.018945+00:00"
   },
   "ES:B0DSPX3R62": {
@@ -951,7 +951,7 @@
     "name": "PlayStation 5 - Auriculares inalámbricos PULSE Elite White con estuche",
     "status": "compra_directa",
     "stock": null,
-    "price": "145,00 €",
+    "price": "145,00 €",
     "first_seen": "2026-09-12T18:25:09.102651+00:00"
   },
   "ES:B0F9YCF9WD": {
@@ -974,5 +974,60 @@
     "stock": null,
     "price": "307,76 €",
     "first_seen": "2026-09-12T18:25:09.102663+00:00"
+  },
+  "ES:B08H93ZRK9": {
+    "name": "Consola PlayStation 5",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-13T00:24:23.390556+00:00"
+  },
+  "ES:B07JH99TG6": {
+    "name": "Playstation Uncharted Collection Hits - Versión 17",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "15,99 €",
+    "first_seen": "2026-09-13T00:24:23.874001+00:00"
+  },
+  "ES:B0DSWJBFM2": {
+    "name": "GXTrust Forta Cascos PS5 Licencia Oficial para PlayStation 5, Azul",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "39,99 €",
+    "first_seen": "2026-09-13T00:24:23.874079+00:00"
+  },
+  "ES:B0FGK5M2BS": {
+    "name": "EA SPORTS FC 26 Standard Edition PS5 | Disco | Videojuegos | English audio, Spanish subtitles",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "29,99 €",
+    "first_seen": "2026-09-13T00:24:23.874092+00:00"
+  },
+  "ES:B0BX722HFN": {
+    "name": "GXTrust Forta Cascos PS5 Licencia Oficial para PlayStation 5, Blanco",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "31,98 €",
+    "first_seen": "2026-09-13T00:24:23.874103+00:00"
+  },
+  "ES:B0DSWGPHB4": {
+    "name": "GXTrust Forta Cascos PS5 Licencia Oficial para PlayStation 5, Rosado",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "39,99 €",
+    "first_seen": "2026-09-13T00:24:23.874128+00:00"
+  },
+  "ES:B0BX7375ZQ": {
+    "name": "GXTrust Forta Cascos PS5 Licencia Oficial para PlayStation 5, Negro",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "31,98 €",
+    "first_seen": "2026-09-13T00:24:23.874141+00:00"
+  },
+  "ES:B017BRXU1A": {
+    "name": "Ultra Pro - 1000 fundas suaves -",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "13,99 €",
+    "first_seen": "2026-09-13T00:24:23.874186+00:00"
   }
 }
