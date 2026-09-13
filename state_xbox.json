@@ -817,5 +817,45 @@
     "stock": null,
     "price": "127,24 €",
     "first_seen": "2026-09-12T18:26:21.308895+00:00"
+  },
+  "ES:B0CXF1HR6H": {
+    "name": "Teenage Mutant Ninja Turtles: Mutantes desencadenados - PS4",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-13T00:21:07.875573+00:00"
+  },
+  "ES:B0FPGHFJGV": {
+    "name": "007 First Light Specialist Edition - PC",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-13T00:21:07.875594+00:00"
+  },
+  "ES:B0FJXZYXS4": {
+    "name": "Battlefield 6 Standard Edition XBOX Series X | Disco | Videojuegos | Castellano",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "24,01 €",
+    "first_seen": "2026-09-13T00:21:08.267403+00:00"
+  },
+  "ES:B07M7X2JLB": {
+    "name": "Dark Souls Trilogy - Xbox One [Importación inglesa]",
+    "status": "compra_directa",
+    "stock": "3",
+    "price": "44,13 €",
+    "first_seen": "2026-09-13T00:21:08.267481+00:00"
+  },
+  "ES:B0FNY6N6XB": {
+    "name": "BATTLEFIELD 6 Standard Edition | Xbox Series X|S - Código de descarga",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "79,99 €",
+    "first_seen": "2026-09-13T00:21:08.267505+00:00"
+  },
+  "ES:B017BRXU1A": {
+    "name": "Ultra Pro - 1000 fundas suaves -",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "13,99 €",
+    "first_seen": "2026-09-13T00:21:08.267527+00:00"
   }
 }
