@@ -352,7 +352,7 @@
     "name": "Thrustmaster T.Flight Hotas One - Joystick y Acelerador - XBOX y PC",
     "status": "compra_directa",
     "stock": null,
-    "price": "89,99 €",
+    "price": "89,97 €",
     "first_seen": "2026-09-11T19:25:04.811682+00:00"
   },
   "ES:B09F2ZMTBN": {
@@ -904,5 +904,26 @@
     "stock": null,
     "price": "15,74 €",
     "first_seen": "2026-09-13T12:21:12.631544+00:00"
+  },
+  "ES:B0F4YDX9W1": {
+    "name": "Nacon Revolution X Unlimited – Mando inalámbrico de Alta precisión para Xbox Series X|S, Xbox One y PC",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "199,90 €",
+    "first_seen": "2026-09-13T18:21:32.459926+00:00"
+  },
+  "ES:B0D1T96W4L": {
+    "name": "8Bitdo Ultimate C Wired Controller for Xbox, RGB Lighting Fire Ring and Hall Effect Joysticks, Compatible with Xbox Series X|S, Xbox One, Windows 10/11 - Officially Licensed (Dark Green)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "34,99 €",
+    "first_seen": "2026-09-13T18:21:32.459953+00:00"
+  },
+  "ES:B07W4X1F21": {
+    "name": "Sony PlayStation DualShock 4 Controller - Glacier White (Renewed)",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "62,48 €",
+    "first_seen": "2026-09-13T18:21:32.459960+00:00"
   }
 }
