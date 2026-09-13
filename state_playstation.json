@@ -170,7 +170,7 @@
   "ES:B07W4X1F21": {
     "name": "Sony PlayStation DualShock 4 Controller - Glacier White (Renewed)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "price": "62,48 €",
     "first_seen": "2026-09-11T19:18:12.685972+00:00"
   },
@@ -380,7 +380,7 @@
     "name": "PlayStation 5-MARVEL Tōkon: Fighting Souls - Edición Estándar",
     "status": "compra_directa",
     "stock": null,
-    "price": "53,90 €",
+    "price": "53,90 €",
     "first_seen": "2026-09-12T00:28:04.018904+00:00"
   },
   "ES:B0BF4L2FDY": {
@@ -394,7 +394,7 @@
     "name": "Starfield™: Edición estándar – PlayStation 5© [Disco físico - Requiere descarga de contenido]",
     "status": "compra_directa",
     "stock": "1",
-    "price": "36,90 €",
+    "price": "36,90 €",
     "first_seen": "2026-09-12T00:28:04.018916+00:00"
   },
   "ES:B0FGDV57YV": {
@@ -852,7 +852,7 @@
     "name": "Ubisoft Assassin's Creed Valhalla PlayStation 5",
     "status": "compra_directa",
     "stock": null,
-    "price": "27,00 €",
+    "price": "27,00 €",
     "first_seen": "2026-09-12T18:25:09.102507+00:00"
   },
   "ES:B0CP7JSC7J": {
@@ -1073,5 +1073,32 @@
     "stock": null,
     "price": "49,99 €",
     "first_seen": "2026-09-13T12:22:28.699801+00:00"
+  },
+  "ES:B0C74MGJHG": {
+    "name": "The Crew Motorfest Limited Edition (Exclusivo Amazon) (Xbox One)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-13T18:20:21.172371+00:00"
+  },
+  "ES:B0CQPMYTVM": {
+    "name": "SONY PS5 with Blu-Ray 1TB SSD D-Chassis Slim EU",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "819,90 €",
+    "first_seen": "2026-09-13T18:20:21.671515+00:00"
+  },
+  "ES:B0C74Q2GWX": {
+    "name": "The Crew Motorfest Limited Edition (Exclusivo Amazon) (PS4)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "19,11 €",
+    "first_seen": "2026-09-13T18:20:21.671599+00:00"
+  },
+  "ES:B0C74PQ6TX": {
+    "name": "The Crew Motorfest Limited Edition (Exclusivo Amazon) (PS5)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "19,52 €",
+    "first_seen": "2026-09-13T18:20:21.671621+00:00"
   }
 }
