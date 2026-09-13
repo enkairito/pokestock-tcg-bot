@@ -303,7 +303,7 @@
     "name": "Corsair Void v2 MAX Wireless Bluetooth Auriculares Gaming – Carbono",
     "status": "compra_directa",
     "stock": null,
-    "price": "138,75 €",
+    "price": "128,60 €",
     "first_seen": "2026-09-11T19:25:04.811654+00:00"
   },
   "ES:B0GFF8KY1Z": {
@@ -758,7 +758,7 @@
   "ES:B0F1HX3WXX": {
     "name": "Controlador inalámbrico para juegos Xbox (2025) - Negro carbón - Juega en Xbox, Windows, Android, iOS, FireTV Sticks, televisores inteligentes, auriculares VR",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "3",
     "price": "110,09 €",
     "first_seen": "2026-09-12T06:28:31.691573+00:00"
   },
@@ -890,5 +890,19 @@
     "stock": null,
     "price": "16,99 €",
     "first_seen": "2026-09-13T06:22:40.824932+00:00"
+  },
+  "ES:B0H342QF4Z": {
+    "name": "Hollow Knight: Silksong - Xbox",
+    "status": "preventa",
+    "stock": null,
+    "price": "39,90 €",
+    "first_seen": "2026-09-13T12:21:12.631509+00:00"
+  },
+  "ES:B08Z9Q7K68": {
+    "name": "Scarlet Nexus (Xbox One)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "15,74 €",
+    "first_seen": "2026-09-13T12:21:12.631544+00:00"
   }
 }
