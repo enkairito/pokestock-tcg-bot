@@ -195,9 +195,8 @@
   },
   "ES:B07WKNQ8JT": {
     "name": "Nintendo Switch - Consola Estándar, Color Azul Neón/Rojo Neón",
-    "status": "compra_directa",
-    "stock": "4",
-    "price": "339,99 €",
+    "status": "no_disponible",
+    "stock": null,
     "first_seen": "2026-09-11T19:20:15.912035+00:00"
   },
   "ES:B0DYY8VRQD": {
@@ -301,7 +300,7 @@
   "ES:B084DJ9J8C": {
     "name": "Funda + protector LCD para consola Nintendo Switch Lite edición Animal Crossing: New Horizons (Nintendo Switch Lite)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "price": "23,10 €",
     "first_seen": "2026-09-11T19:20:15.912103+00:00"
   },
@@ -309,7 +308,7 @@
     "name": "Nintendo - Funda Plegable (Nintendo Switch Lite)",
     "status": "compra_directa",
     "stock": "1",
-    "price": "29,99 €",
+    "price": "31,67 €",
     "first_seen": "2026-09-11T19:20:15.912105+00:00"
   },
   "ES:B0F5LJZ7GM": {
@@ -1073,7 +1072,48 @@
     "name": "Sonic Origins Plus (Nintendo Switch)",
     "status": "compra_directa",
     "stock": null,
-    "price": "24,88 €",
+    "price": "24,82 €",
     "first_seen": "2026-09-13T12:20:51.137152+00:00"
+  },
+  "ES:B0F2TN43GH": {
+    "name": "Nintendo Switch 2 - The Legend of Zelda Edition",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-13T18:20:24.371389+00:00"
+  },
+  "ES:B07DPR5PFX": {
+    "name": "Super Mario Party (Nintendo Switch)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "45,90 €",
+    "first_seen": "2026-09-13T18:20:24.792627+00:00"
+  },
+  "ES:B09S79RJN2": {
+    "name": "NINTENDO Switch Sports",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "56,60 €",
+    "first_seen": "2026-09-13T18:20:24.792662+00:00"
+  },
+  "ES:B0D4LXM9NT": {
+    "name": "Pokémon Legends Z-A Nintendo Switch",
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "54,96 €",
+    "first_seen": "2026-09-13T18:20:24.792676+00:00"
+  },
+  "ES:B07W4X1F21": {
+    "name": "Sony PlayStation DualShock 4 Controller - Glacier White (Renewed)",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "62,48 €",
+    "first_seen": "2026-09-13T18:20:24.792731+00:00"
+  },
+  "ES:B0CSFKZRGF": {
+    "name": "Tatybo Cascos Gaming Inalámbricos para PC/Ps5/Ps4, Auriculares Gaming Inalámbricos con 2,4 GHz+Bluetooth 5,3 Modo Dual, 7.1 Sonido Envolvente, Duración 40Hr+",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "29,99 €",
+    "first_seen": "2026-09-13T18:20:24.792746+00:00"
   }
 }
