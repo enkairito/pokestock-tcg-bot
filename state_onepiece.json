@@ -79,7 +79,7 @@
   "ES:B0GDGRWH54": {
     "name": "One Piece TCG: Double Pack Set Vol. 9 (DP-09) - The Azure Sea's Seven (2 Paquetes)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "price": "61,17 €",
     "first_seen": "2026-08-29T18:09:35.306058+00:00"
   },
@@ -239,8 +239,8 @@
   "ES:B0HF1Z72XW": {
     "name": "One Piece TCG: The World's Strongest Warriors Booster Box (OP-17) - 24 paquetes",
     "status": "compra_directa",
-    "stock": null,
-    "price": "459,00 €",
+    "stock": "3",
+    "price": "474,00 €",
     "first_seen": "2026-09-05T20:33:38.638411+00:00"
   },
   "ES:B0HFD53BDB": {
@@ -252,7 +252,7 @@
   "ES:B0HC7DT1ZY": {
     "name": "Juego de cartas de una pieza Starter Deck ST-36 amarillo Eustass Captain Kid",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "price": "40,01 €",
     "first_seen": "2026-09-08T09:40:16.326555+00:00"
   },
