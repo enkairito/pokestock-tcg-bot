@@ -121,9 +121,8 @@
   },
   "ES:B0GXKXMN3X": {
     "name": "Assassin's Creed Black Flag Re-Synced Standard Edition (Xbox X)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "49,99 €",
     "first_seen": "2026-09-11T19:25:04.388338+00:00"
   },
   "ES:B08KVH51VX": {
@@ -276,7 +275,7 @@
     "name": "Need for Speed Hot Pursuit Remastered | Xbox One/Series X|S - Codice de descarga",
     "status": "compra_directa",
     "stock": null,
-    "price": "39,99 €",
+    "price": "39,99 €",
     "first_seen": "2026-09-11T19:25:04.811569+00:00"
   },
   "ES:B0BHTPP71M": {
@@ -497,8 +496,9 @@
   },
   "ES:B0C44XVWCH": {
     "name": "WD_BLACK C50 1 TB Tarjeta de expansión para Xbox (Compatible con la Serie X|S, Plug-and-Stay, Velocity Architecture, Reanudación rápida, Subscripción gratuia de 1 Mes de Xbox Game Pass) Black",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "149,99 €",
     "first_seen": "2026-09-12T00:28:10.760406+00:00"
   },
   "ES:B0GSSR9ZNS": {
@@ -535,9 +535,8 @@
   },
   "ES:B0GGCJRXSX": {
     "name": "Forza Horizon 6 – Xbox Series X",
-    "status": "compra_directa",
-    "stock": "3",
-    "price": "74,37 €",
+    "status": "no_disponible",
+    "stock": null,
     "first_seen": "2026-09-12T00:28:11.204330+00:00"
   },
   "ES:B0H7K6SJ73": {
@@ -674,8 +673,8 @@
   "ES:B0BWYWM9V8": {
     "name": "Lies of P (Xbox Series X/Xbox One)",
     "status": "compra_directa",
-    "stock": "2",
-    "price": "41,89 €",
+    "stock": null,
+    "price": "43,11 €",
     "first_seen": "2026-09-12T06:28:31.691493+00:00"
   },
   "ES:B0F1V7VGP9": {
@@ -959,5 +958,12 @@
     "stock": null,
     "price": "24,99 €",
     "first_seen": "2026-09-14T00:22:37.466290+00:00"
+  },
+  "ES:B0FNCRX771": {
+    "name": "Tatybo Cascos Gaming Inalámbricos 7.1 para Ps5/Ps4/PC, Auriculares Bluetooth con Micrófono con Cancelación de Ruido, 2.4GHz USB-C, 40H+ Batería para Switch/Mac/Portátil",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "36,99 €",
+    "first_seen": "2026-09-14T06:21:32.926831+00:00"
   }
 }
