@@ -1,44 +1,5 @@
 [
   {
-    "ts": "2026-09-11T17:23:22.054066+00:00",
-    "type": "price_drop",
-    "asin": "B0C4D4R3H8",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokémon JCC: Estuche Courrousinge-ex",
-    "image": "https://m.media-amazon.com/images/I/71uy6bduesL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "88,48 €",
-    "prev_price": "88,71 €",
-    "link": "https://www.amazon.es/dp/B0C4D4R3H8?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-11T17:23:22.054097+00:00",
-    "type": "price_drop",
-    "asin": "B0G3CS6XB9",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Premium Poster Collection—Mega Lucario (1 Tarjeta Promocional de Aluminio, 1 póster de Doble Cara y 10 Paquetes de Refuerzo)",
-    "image": "https://m.media-amazon.com/images/I/916-j-W5RTL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "221,68 €",
-    "prev_price": "221,83 €",
-    "link": "https://www.amazon.es/dp/B0G3CS6XB9?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-11T17:23:22.054108+00:00",
-    "type": "price_drop",
-    "asin": "B0G72SPRP6",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
-    "image": "https://m.media-amazon.com/images/I/91FiTlqcy+L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "82,15 €",
-    "prev_price": "83,51 €",
-    "link": "https://www.amazon.es/dp/B0G72SPRP6?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-11T20:22:47.996011+00:00",
     "type": "price_drop",
     "asin": "B0BXJT92PT",
@@ -778,5 +739,44 @@
     "price": "74,95 €",
     "prev_price": "75,99 €",
     "link": "https://www.amazon.es/dp/B0DGY4Z6V3?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-14T02:19:41.569488+00:00",
+    "type": "price_drop",
+    "asin": "B0C648988J",
+    "marketplace": "ES",
+    "store_label": "Amazon ES",
+    "flag": "🇪🇸",
+    "name": "Pokémon: Colección Cyclizar ex",
+    "image": "https://m.media-amazon.com/images/I/91QPuokK6qL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "24,95 €",
+    "prev_price": "24,98 €",
+    "link": "https://www.amazon.es/dp/B0C648988J?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-14T02:19:47.629274+00:00",
+    "type": "price_drop",
+    "asin": "B0CXTNNVHN",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokémon TCG: Mini Cartera (Cartera de 60 Tarjetas y 1 Paquete de Refuerzo)",
+    "image": "https://m.media-amazon.com/images/I/81myxu2isgL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "32,97 €",
+    "prev_price": "34,05 €",
+    "link": "https://www.amazon.es/dp/B0CXTNNVHN?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-14T02:19:47.629308+00:00",
+    "type": "price_drop",
+    "asin": "B0CS12GPTB",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokemon TCG: Sword & Shield - Paquete de Refuerzo de Estrellas Brillantes (10 Tarjetas por Paquete)",
+    "image": "https://m.media-amazon.com/images/I/51+J+IZAC7L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "40,01 €",
+    "prev_price": "40,10 €",
+    "link": "https://www.amazon.es/dp/B0CS12GPTB?tag=enkairito-21"
   }
 ]
