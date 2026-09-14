@@ -68,8 +68,9 @@
   },
   "ES:B01N10NX3M": {
     "name": "Nintendo - Adaptador De Corriente Switch",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "34,59 €",
     "first_seen": "2026-09-11T19:20:15.362352+00:00"
   },
   "ES:B0H9SKZKGV": {
@@ -106,7 +107,7 @@
   "ES:B0F2N8LBQN": {
     "name": "Zelda Breath of the Wild - Nintendo Switch 2 Edition",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "price": "68,99 €",
     "first_seen": "2026-09-11T19:20:15.911922+00:00"
   },
@@ -576,7 +577,7 @@
   "ES:B0D98BJ7SH": {
     "name": "EA SPORTS FC 25 Standard Edition Switch / Switch 2 | Videojuegos | Castellano",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "3",
     "price": "28,19 €",
     "first_seen": "2026-09-12T00:28:58.478247+00:00"
   },
@@ -1208,7 +1209,7 @@
     "name": "New Super Mario Bros. U Deluxe - [Nintendo Switch] [Importacion Alemania]",
     "status": "compra_directa",
     "stock": null,
-    "price": "44,54 €",
+    "price": "40,29 €",
     "first_seen": "2026-09-14T12:21:43.539209+00:00"
   },
   "ES:B07XW8BGFQ": {
@@ -1245,5 +1246,32 @@
     "stock": null,
     "price": "10,79 €",
     "first_seen": "2026-09-14T12:21:43.539316+00:00"
+  },
+  "ES:B0GYSDGPBH": {
+    "name": "Pokémon: Minilata Ciudad Luminalia: Emboar e Inkay de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-14T18:21:05.327665+00:00"
+  },
+  "ES:B0HFNJKX31": {
+    "name": "Stage Tour Game + Kramer Wireless Guitar Controller Bundle para Nintendo Switch 2",
+    "status": "preventa",
+    "stock": null,
+    "price": "134,99 €",
+    "first_seen": "2026-09-14T18:21:06.097371+00:00"
+  },
+  "ES:B09C29Y4D4": {
+    "name": "Remotto5 - Cargador para Mando de PS5 Inalámbrico - Batería Portátil para DualSense Juega Mientras Carga - Larga Duración +12 Horas de Autonomía - PS5 Accesorios",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "29,95 €",
+    "first_seen": "2026-09-14T18:21:06.097389+00:00"
+  },
+  "ES:B0FR8ZTJV6": {
+    "name": "Tatybo Cascos Gaming Inalámbricos 7.1 para Ps5/Ps4/PC, Auriculares Bluetooth con Micrófono con Cancelación de Ruido, 2.4GHz USB-C, 40H+ Batería para Switch/Mac/Portátil",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "37,99 €",
+    "first_seen": "2026-09-14T18:21:06.097398+00:00"
   }
 }
