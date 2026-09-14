@@ -1,18 +1,5 @@
 [
   {
-    "ts": "2026-09-11T20:22:47.996011+00:00",
-    "type": "price_drop",
-    "asin": "B0BXJT92PT",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokémon- Origin Forme Palkia VSTAR Baraja de Batalla de la Liga, Multicolor (290-85236)",
-    "image": "https://m.media-amazon.com/images/I/91qF7mG6W6L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "47,11 €",
-    "prev_price": "47,12 €",
-    "link": "https://www.amazon.es/dp/B0BXJT92PT?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-11T21:22:39.268259+00:00",
     "type": "price_drop",
     "asin": "B0FNDK5FGK",
@@ -777,6 +764,19 @@
     "image": "https://m.media-amazon.com/images/I/51+J+IZAC7L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
     "price": "40,01 €",
     "prev_price": "40,10 €",
+    "link": "https://www.amazon.es/dp/B0CS12GPTB?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-14T03:20:15.774758+00:00",
+    "type": "price_drop",
+    "asin": "B0CS12GPTB",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokemon TCG: Sword & Shield - Paquete de Refuerzo de Estrellas Brillantes (10 Tarjetas por Paquete)",
+    "image": "https://m.media-amazon.com/images/I/51+J+IZAC7L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "39,81 €",
+    "prev_price": "40,01 €",
     "link": "https://www.amazon.es/dp/B0CS12GPTB?tag=enkairito-21"
   }
 ]
