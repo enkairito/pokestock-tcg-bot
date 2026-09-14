@@ -522,7 +522,7 @@
   "ES:B0BKV55P1H": {
     "name": "Seagate Game Drive for Xbox 5TB, Unidad de disco duro (HDD) externa portátil, USB 3.2 Gen 1, negra, certificación Xbox, LED RGB, Rescue Services (STKX5000100)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "3",
     "price": "250,47 €",
     "first_seen": "2026-09-12T00:28:11.204259+00:00"
   },
@@ -530,7 +530,7 @@
     "name": "Fable – XBOX Series X | Disco físico – Requiere descarga de contenido",
     "status": "preventa",
     "stock": null,
-    "price": "59,90 €",
+    "price": "59,90 €",
     "first_seen": "2026-09-12T00:28:11.204304+00:00"
   },
   "ES:B0GGCJRXSX": {
@@ -688,7 +688,7 @@
     "name": "8Bitdo Ultimate Mini Wired Controller for Xbox with RGB Lighting Fire Ring, Hall Effect Joysticks and Triggers, for Xbox Series X|S, Xbox One, Windows 10/11 - Officially Licensed (Translucent Green)",
     "status": "compra_directa",
     "stock": null,
-    "price": "34,34 €",
+    "price": "34,29 €",
     "first_seen": "2026-09-12T06:28:31.691532+00:00"
   },
   "ES:B0FLLL1ZD8": {
@@ -751,7 +751,7 @@
     "name": "8Bitdo Ultimate Mini Wired Controller for Xbox with RGB Lighting Fire Ring, Hall Effect Joysticks and Triggers, for Xbox Series X|S, Xbox One, Windows 10/11 - Officially Licensed (Translucent Pink)",
     "status": "compra_directa",
     "stock": null,
-    "price": "30,88 €",
+    "price": "29,49 €",
     "first_seen": "2026-09-12T06:28:31.691571+00:00"
   },
   "ES:B0F1HX3WXX": {
@@ -949,7 +949,7 @@
     "name": "Stage Tour Game + Kramer Wireless Guitar Controller Bundle para Xbox Series X|S",
     "status": "preventa",
     "stock": null,
-    "price": "134,99 €",
+    "price": "134,99 €",
     "first_seen": "2026-09-14T00:22:37.466285+00:00"
   },
   "ES:B0FB3T6JYJ": {
@@ -975,7 +975,7 @@
   "ES:B09K7ZHMFX": {
     "name": "Grand Theft Auto The Trilogy: La edición definitiva (Xbox Series X/Xbox One)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "5",
     "price": "33,53 €",
     "first_seen": "2026-09-14T12:21:25.171617+00:00"
   },
@@ -999,5 +999,39 @@
     "stock": null,
     "price": "27,99 €",
     "first_seen": "2026-09-14T12:21:25.171673+00:00"
+  },
+  "ES:B0GYSDGPBH": {
+    "name": "Pokémon: Minilata Ciudad Luminalia: Emboar e Inkay de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-14T18:22:19.902977+00:00"
+  },
+  "ES:B0B7NTLKF2": {
+    "name": "Turtle Beach VelocityOne Rudder Pedales de timón universales Xbox Series X|S, Xbox One, Windows 10/11 y PCs",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "245,30 €",
+    "first_seen": "2026-09-14T18:22:20.419718+00:00"
+  },
+  "ES:B0FFP61L6C": {
+    "name": "Turtle Beach Victrix Gambit Prime Mando para torneos para Xbox Series X/S, Xbox One y PC. Con licencia para Xbox con gatillos Clutch Trigger de fuego rápido, botones extraíbles y aplicación de control",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "79,99 €",
+    "first_seen": "2026-09-14T18:22:20.419778+00:00"
+  },
+  "ES:B0F3D26B9J": {
+    "name": "Tatybo Cascos Gaming Inalámbricos para PC/Ps5/Ps4, Auriculares Gaming Inalámbricos con 2,4 GHz+Bluetooth 5,3 Modo Dual, 7.1 Sonido Envolvente, Duración 40Hr+",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "33,99 €",
+    "first_seen": "2026-09-14T18:22:20.419787+00:00"
+  },
+  "ES:B0FR8ZTJV6": {
+    "name": "Tatybo Cascos Gaming Inalámbricos 7.1 para Ps5/Ps4/PC, Auriculares Bluetooth con Micrófono con Cancelación de Ruido, 2.4GHz USB-C, 40H+ Batería para Switch/Mac/Portátil",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "37,99 €",
+    "first_seen": "2026-09-14T18:22:20.419793+00:00"
   }
 }
