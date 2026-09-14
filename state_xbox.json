@@ -121,8 +121,9 @@
   },
   "ES:B0GXKXMN3X": {
     "name": "Assassin's Creed Black Flag Re-Synced Standard Edition (Xbox X)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "49,99 €",
     "first_seen": "2026-09-11T19:25:04.388338+00:00"
   },
   "ES:B08KVH51VX": {
@@ -149,7 +150,7 @@
     "name": "Halo: Campaign Evolved - Standard Edition - XBOX Series X | Disco físico + descarga de contenido requerida",
     "status": "compra_directa",
     "stock": null,
-    "price": "52,99 €",
+    "price": "52,99 €",
     "first_seen": "2026-09-11T19:25:04.811319+00:00"
   },
   "ES:B0DBZD14S6": {
@@ -163,7 +164,7 @@
     "name": "Cubierta Antipolvo Negra para Consola Xbox Series X Cubierta Protectora antiarañazos",
     "status": "compra_directa",
     "stock": null,
-    "price": "7,99 €",
+    "price": "7,99 €",
     "first_seen": "2026-09-11T19:25:04.811346+00:00"
   },
   "ES:B0H3VXSTK5": {
@@ -240,7 +241,7 @@
     "name": "Batman Arkham Collection (Standard Edition) - Xbox One [Importación inglesa]",
     "status": "compra_directa",
     "stock": "3",
-    "price": "39,20 €",
+    "price": "39,20 €",
     "first_seen": "2026-09-11T19:25:04.811467+00:00"
   },
   "ES:B0CF2T3CQ2": {
@@ -496,9 +497,8 @@
   },
   "ES:B0C44XVWCH": {
     "name": "WD_BLACK C50 1 TB Tarjeta de expansión para Xbox (Compatible con la Serie X|S, Plug-and-Stay, Velocity Architecture, Reanudación rápida, Subscripción gratuia de 1 Mes de Xbox Game Pass) Black",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "149,99 €",
     "first_seen": "2026-09-12T00:28:10.760406+00:00"
   },
   "ES:B0GSSR9ZNS": {
@@ -578,8 +578,8 @@
   "ES:B079P95KLM": {
     "name": "Pillars of Eternity II: Deadfire - Ultimate Edition (XBox ONE)",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "10,31 €",
+    "stock": "3",
+    "price": "13,72 €",
     "first_seen": "2026-09-12T00:28:11.204416+00:00"
   },
   "ES:B088JFHB8F": {
@@ -925,5 +925,39 @@
     "stock": "1",
     "price": "62,48 €",
     "first_seen": "2026-09-13T18:21:32.459960+00:00"
+  },
+  "ES:B0CXDX9ZJ3": {
+    "name": "Teenage Mutant Ninja Turtles: Mutantes desencadenados - PS5",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-14T00:22:36.720300+00:00"
+  },
+  "ES:B0DJPXMB2Q": {
+    "name": "Turtle Beach VelocityOne Multi-Shift Cambio de marchas universal y freno de mano para PC con Windows 10/11, Xbox Series X|S y Xbox One",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "113,00 €",
+    "first_seen": "2026-09-14T00:22:37.466231+00:00"
+  },
+  "ES:B07HYNJ3SY": {
+    "name": "Xbox One S - Consola 1 TB + 2 Mandos a Distancia",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "639,91 €",
+    "first_seen": "2026-09-14T00:22:37.466275+00:00"
+  },
+  "ES:B0HFNKCPX3": {
+    "name": "Stage Tour Game + Kramer Wireless Guitar Controller Bundle para Xbox Series X|S",
+    "status": "preventa",
+    "stock": null,
+    "price": "134,99 €",
+    "first_seen": "2026-09-14T00:22:37.466285+00:00"
+  },
+  "ES:B0FB3T6JYJ": {
+    "name": "Pack de 10 Protectores Gold para Pokemon Elite Trainer Box - Funda Caja Pokemon ETB 0,5mm Grosor - Protección UV para Tus Cajas PKMN",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "24,99 €",
+    "first_seen": "2026-09-14T00:22:37.466290+00:00"
   }
 }
