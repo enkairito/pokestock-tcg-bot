@@ -16,8 +16,8 @@
   "ES:B0HC7Q9P41": {
     "name": "Juego de cartas de una pieza ST-35 rojo y negro Sabo | Baraja de inicio, ST-35, rojo y negro, Sabo, juego de cartas coleccionables",
     "status": "compra_directa",
-    "stock": null,
-    "price": "24,90 €",
+    "stock": "2",
+    "price": "32,00 €",
     "first_seen": "2026-08-29T18:08:37.714905+00:00"
   },
   "ES:B0HC7FPQJM": {
@@ -29,8 +29,9 @@
   },
   "ES:B0HC746FKY": {
     "name": "Juego de cartas de una pieza ST-34 Purple Charlotte Katakuri | Baraja de inicio, ST-34, Charlotte Katakuri, morado, juego de cartas coleccionables",
-    "status": "no_disponible",
-    "stock": null,
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "32,81 €",
     "first_seen": "2026-08-29T18:08:49.282666+00:00"
   },
   "ES:B0CRKK3D43": {
@@ -44,7 +45,7 @@
     "name": "One Piece TCG: Double Pack Set Vol. 10 (DP-10) - Adventure of Kami's Island (2 Paquetes)",
     "status": "compra_directa",
     "stock": null,
-    "price": "66,00 €",
+    "price": "65,99 €",
     "first_seen": "2026-08-29T18:09:04.551067+00:00"
   },
   "ES:B0CRY385YN": {
@@ -232,7 +233,7 @@
     "name": "One Piece Card Game Egghead Crisis EB-04 Extra Booster Box (japonés) - 24 paquetes",
     "status": "compra_directa",
     "stock": null,
-    "price": "199,17 €",
+    "price": "195,58 €",
     "first_seen": "2026-09-03T18:23:03.868065+00:00"
   },
   "ES:B0HF1Z72XW": {
