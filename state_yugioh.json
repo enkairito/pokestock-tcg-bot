@@ -53,8 +53,8 @@
   "ES:B0G6FW7PFW": {
     "name": "Yu-Gi-Oh! Rarity Collection V Display (24) (Versión en español)",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "160,93 €",
+    "stock": null,
+    "price": "150,00 €",
     "first_seen": "2026-09-07T17:41:22.046401+00:00"
   },
   "ES:B0FZV792N8": {
@@ -103,7 +103,7 @@
     "name": "Yu-Gi-Oh! Retro Pack 2 Reprint Display (24)",
     "status": "compra_directa",
     "stock": null,
-    "price": "100,25 €",
+    "price": "88,97 €",
     "first_seen": "2026-09-07T17:42:04.032044+00:00"
   },
   "ES:B0FMKLLV58": {
@@ -207,8 +207,8 @@
   "ES:B0F8NRC5WT": {
     "name": "Yu-Gi-Oh! Chronicles:Fallen & Virtuous Card Sleeves(50)",
     "status": "compra_directa",
-    "stock": null,
-    "price": "11,53 €",
+    "stock": "5",
+    "price": "10,58 €",
     "first_seen": "2026-09-10T11:45:06.861286+00:00"
   }
 }
