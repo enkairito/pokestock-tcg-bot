@@ -16,14 +16,14 @@
   "ES:B0HC7Q9P41": {
     "name": "Juego de cartas de una pieza ST-35 rojo y negro Sabo | Baraja de inicio, ST-35, rojo y negro, Sabo, juego de cartas coleccionables",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "32,00 €",
+    "stock": null,
+    "price": "24,90 €",
     "first_seen": "2026-08-29T18:08:37.714905+00:00"
   },
   "ES:B0HC7FPQJM": {
     "name": "Juego de cartas de una pieza ST-31 Red Monkey.D.Luffy",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "price": "35,20 €",
     "first_seen": "2026-08-29T18:08:43.440854+00:00"
   },
@@ -58,8 +58,8 @@
   "ES:B0HC7LPXB4": {
     "name": "Juego de cartas de una pieza ST-32 verde Roronoa Zoro | Baraja de inicio, ST-32, juego de cartas coleccionables, Roronoa Zoro, mazo verde",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "33,00 €",
+    "stock": null,
+    "price": "34,90 €",
     "first_seen": "2026-08-29T18:09:16.260611+00:00"
   },
   "ES:B0HC79T34C": {
