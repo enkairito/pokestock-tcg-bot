@@ -43,8 +43,8 @@
   "ES:B0GW9TXS1Q": {
     "name": "One Piece TCG: Double Pack Set Vol. 10 (DP-10) - Adventure of Kami's Island (2 Paquetes)",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "64,15 €",
+    "stock": null,
+    "price": "66,00 €",
     "first_seen": "2026-08-29T18:09:04.551067+00:00"
   },
   "ES:B0CRY385YN": {
@@ -232,7 +232,7 @@
     "name": "One Piece Card Game Egghead Crisis EB-04 Extra Booster Box (japonés) - 24 paquetes",
     "status": "compra_directa",
     "stock": null,
-    "price": "195,58 €",
+    "price": "199,17 €",
     "first_seen": "2026-09-03T18:23:03.868065+00:00"
   },
   "ES:B0HF1Z72XW": {
@@ -251,7 +251,7 @@
   "ES:B0HC7DT1ZY": {
     "name": "Juego de cartas de una pieza Starter Deck ST-36 amarillo Eustass Captain Kid",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "5",
     "price": "40,01 €",
     "first_seen": "2026-09-08T09:40:16.326555+00:00"
   },
