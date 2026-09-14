@@ -106,7 +106,7 @@
     "name": "Zelda Breath of the Wild - Nintendo Switch 2 Edition",
     "status": "compra_directa",
     "stock": null,
-    "price": "68,90 €",
+    "price": "68,99 €",
     "first_seen": "2026-09-11T19:20:15.911922+00:00"
   },
   "ES:B0G71JQD6H": {
@@ -512,7 +512,7 @@
     "name": "Samsung Micro SD Express Card for Nintendo Switch 2",
     "status": "compra_directa",
     "stock": null,
-    "price": "52,99 €",
+    "price": "51,99 €",
     "first_seen": "2026-09-12T00:28:58.478133+00:00"
   },
   "ES:B0GKHD3X6Z": {
@@ -533,7 +533,7 @@
     "name": "Super Mario Galaxy + Super Mario Galaxy 2 - Switch",
     "status": "compra_directa",
     "stock": null,
-    "price": "57,90 €",
+    "price": "57,99 €",
     "first_seen": "2026-09-12T00:28:58.478184+00:00"
   },
   "ES:B0H4RM453L": {
@@ -547,7 +547,7 @@
     "name": "Tomodachi Life - Switch",
     "status": "compra_directa",
     "stock": null,
-    "price": "48,50 €",
+    "price": "49,99 €",
     "first_seen": "2026-09-12T00:28:58.478206+00:00"
   },
   "ES:B0FJM752T3": {
@@ -816,7 +816,7 @@
     "name": "Ultra Pro Penny Fundas para tarjetas, estándar, blandas, para cartas coleccionables, como Pokemon Magic, tamaño estándar, transparentes, 400 unidades",
     "status": "compra_directa",
     "stock": null,
-    "price": "8,39 €",
+    "price": "8,21 €",
     "first_seen": "2026-09-12T06:29:23.882192+00:00"
   },
   "ES:B0H1HDKXGH": {
@@ -1187,5 +1187,19 @@
     "stock": null,
     "price": "26,90 €",
     "first_seen": "2026-09-14T00:22:00.458054+00:00"
+  },
+  "ES:B07KXQX3S3": {
+    "name": "SANDISK Tarjeta microSD con licencia oficial para Nintendo Switch, Super Mario Mushroom 128GB (Velocidad de Lectura hasta 100 MB/s, UHS-I, V30, C10, U3)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "36,90 €",
+    "first_seen": "2026-09-14T06:23:10.440676+00:00"
+  },
+  "ES:B0DDTPX5DY": {
+    "name": "Tatybo Cascos Gaming Inalámbricos para PC/Ps5/Ps4, Auriculares Gaming Inalámbricos con 2,4 GHz+Bluetooth 5,3 Modo Dual, 7.1 Sonido Envolvente, Duración 40Hr+",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "31,99 €",
+    "first_seen": "2026-09-14T06:23:10.440701+00:00"
   }
 }
