@@ -149,7 +149,7 @@
     "name": "Halo: Campaign Evolved - Standard Edition - XBOX Series X | Disco físico + descarga de contenido requerida",
     "status": "compra_directa",
     "stock": null,
-    "price": "52,99 €",
+    "price": "52,99 €",
     "first_seen": "2026-09-11T19:25:04.811319+00:00"
   },
   "ES:B0DBZD14S6": {
@@ -163,7 +163,7 @@
     "name": "Cubierta Antipolvo Negra para Consola Xbox Series X Cubierta Protectora antiarañazos",
     "status": "compra_directa",
     "stock": null,
-    "price": "7,99 €",
+    "price": "7,99 €",
     "first_seen": "2026-09-11T19:25:04.811346+00:00"
   },
   "ES:B0H3VXSTK5": {
@@ -965,5 +965,39 @@
     "stock": null,
     "price": "36,99 €",
     "first_seen": "2026-09-14T06:21:32.926831+00:00"
+  },
+  "ES:B0FXBBXQ5G": {
+    "name": "MySims: Colección Sofá y Mantita PS5 | Videojuegos | Castellano",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-14T12:21:24.779874+00:00"
+  },
+  "ES:B09K7ZHMFX": {
+    "name": "Grand Theft Auto The Trilogy: La edición definitiva (Xbox Series X/Xbox One)",
+    "status": "compra_directa",
+    "stock": "3",
+    "price": "33,53 €",
+    "first_seen": "2026-09-14T12:21:25.171617+00:00"
+  },
+  "ES:B074QMN4YW": {
+    "name": "Microsoft - Adaptador Wireless (PC)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "39,88 €",
+    "first_seen": "2026-09-14T12:21:25.171665+00:00"
+  },
+  "ES:B0F7RNNYZY": {
+    "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "22,99 €",
+    "first_seen": "2026-09-14T12:21:25.171670+00:00"
+  },
+  "ES:B0F7RMQ9QG": {
+    "name": "playvital Funda Protectora con Agarre Intercambiable para Nintendo Switch 2",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "27,99 €",
+    "first_seen": "2026-09-14T12:21:25.171673+00:00"
   }
 }
