@@ -87,7 +87,7 @@
     "name": "Videojuego PlayStation 5 Ubisoft Assassin's Creed Mirage",
     "status": "compra_directa",
     "stock": "5",
-    "price": "18,97 €",
+    "price": "19,99 €",
     "first_seen": "2026-09-11T19:18:12.685827+00:00"
   },
   "ES:B08B4HHNNM": {
@@ -107,8 +107,8 @@
   "ES:B0D98BDG3S": {
     "name": "EA SPORTS FC 25 Standard Edition PS4 | Videojuegos | Castellano",
     "status": "compra_directa",
-    "stock": "4",
-    "price": "27,89 €",
+    "stock": null,
+    "price": "27,89 €",
     "first_seen": "2026-09-11T19:18:12.685903+00:00"
   },
   "ES:B084WLMKGT": {
@@ -135,8 +135,8 @@
   "ES:B0CD2RBQ68": {
     "name": "Videojuego PlayStation 4 Ubisoft Assassin's Creed Mirage",
     "status": "compra_directa",
-    "stock": "5",
-    "price": "18,99 €",
+    "stock": null,
+    "price": "18,99 €",
     "first_seen": "2026-09-11T19:18:12.685939+00:00"
   },
   "ES:B0GHT1SQ3S": {
@@ -164,14 +164,14 @@
     "name": "Playstation 5 DualSense Edge Controller - kabelloser PS5 Controller mit insgesamt 16 Tasten und austauschbaren Analog Sticks",
     "status": "compra_directa",
     "stock": null,
-    "price": "214,98 €",
+    "price": "214,98 €",
     "first_seen": "2026-09-11T19:18:12.685970+00:00"
   },
   "ES:B07W4X1F21": {
     "name": "Sony PlayStation DualShock 4 Controller - Glacier White (Renewed)",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "62,48 €",
+    "stock": null,
+    "price": "62,48 €",
     "first_seen": "2026-09-11T19:18:12.685972+00:00"
   },
   "ES:B0F1QWSCVH": {
@@ -329,9 +329,8 @@
   },
   "ES:B0G6ZHJ9X9": {
     "name": "PlayStation 5-Saros- Edición Estándar",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "61,90 €",
     "first_seen": "2026-09-12T00:28:04.018849+00:00"
   },
   "ES:B0CGHPFJPQ": {
@@ -352,7 +351,7 @@
     "name": "Logitech G G29 SE Driving Force Wheel and Shifter para Playstation & PC",
     "status": "compra_directa",
     "stock": null,
-    "price": "331,66 €",
+    "price": "331,66 €",
     "first_seen": "2026-09-12T00:28:04.018877+00:00"
   },
   "ES:B0BQJQZQ54": {
@@ -366,7 +365,7 @@
     "name": "Minecraft - PS5",
     "status": "compra_directa",
     "stock": null,
-    "price": "26,99 €",
+    "price": "26,99 €",
     "first_seen": "2026-09-12T00:28:04.018892+00:00"
   },
   "ES:B09KTPJQ7V": {
@@ -415,7 +414,7 @@
     "name": "Halo: Campaign Evolved - Standard Edition – PlayStation®5 | Disco físico + descarga de contenido requerida",
     "status": "compra_directa",
     "stock": null,
-    "price": "50,99 €",
+    "price": "54,95 €",
     "first_seen": "2026-09-12T00:28:04.018938+00:00"
   },
   "ES:B0G1NBTBC4": {
@@ -928,15 +927,15 @@
   "ES:B07B9L8Y97": {
     "name": "Sony DualShock 4 V2 Blanc Bluetooth/USB Manette de jeu Analogique/Numérique PlayStation 4",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "143,85 €",
+    "stock": null,
+    "price": "131,95 €",
     "first_seen": "2026-09-12T18:25:09.102635+00:00"
   },
   "ES:B01MRUUSPR": {
     "name": "Sony DualShock 4 V2 Blanc Bluetooth/USB Manette de jeu Analogique/Numérique PlayStation 4",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "143,85 €",
+    "stock": null,
+    "price": "131,95 €",
     "first_seen": "2026-09-12T18:25:09.102642+00:00"
   },
   "ES:B0HFNW25H5": {
@@ -950,14 +949,14 @@
     "name": "PlayStation 5 - Auriculares inalámbricos PULSE Elite White con estuche",
     "status": "compra_directa",
     "stock": null,
-    "price": "145,00 €",
+    "price": "145,00 €",
     "first_seen": "2026-09-12T18:25:09.102651+00:00"
   },
   "ES:B0F9YCF9WD": {
     "name": "Mcbazel Base de Carga y Refrigeración para PS5/PS5 Pro, Estación de Carga y Refrigeración con 3 Velocidades y Luz LED para PlayStation 5 & PlayStation 5 Pro Digitales y de Discos - Blanco",
     "status": "compra_directa",
     "stock": null,
-    "price": "22,79 €",
+    "price": "20,39 €",
     "first_seen": "2026-09-12T18:25:09.102652+00:00"
   },
   "ES:B0F49RD95B": {
@@ -1004,7 +1003,7 @@
     "name": "GXTrust Forta Cascos PS5 Licencia Oficial para PlayStation 5, Blanco",
     "status": "compra_directa",
     "stock": null,
-    "price": "31,98 €",
+    "price": "31,98 €",
     "first_seen": "2026-09-13T00:24:23.874103+00:00"
   },
   "ES:B0DSWGPHB4": {
@@ -1113,5 +1112,60 @@
     "status": "no_disponible",
     "stock": null,
     "first_seen": "2026-09-14T06:19:57.023396+00:00"
+  },
+  "ES:B0FXBBXQ5G": {
+    "name": "MySims: Colección Sofá y Mantita PS5 | Videojuegos | Castellano",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-14T12:22:33.928730+00:00"
+  },
+  "ES:B0DKWQ5WSZ": {
+    "name": "Resident Evil 3 - PlayStation 5",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "20,47 €",
+    "first_seen": "2026-09-14T12:22:34.377644+00:00"
+  },
+  "ES:B01H25FDTI": {
+    "name": "Playstation Marvel’s Spider-Man (PS4)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "69,99 €",
+    "first_seen": "2026-09-14T12:22:34.377694+00:00"
+  },
+  "ES:B0BJV1V458": {
+    "name": "Resident Evil 4 for PlayStation 4",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "24,86 €",
+    "first_seen": "2026-09-14T12:22:34.377710+00:00"
+  },
+  "ES:B0DPHGSSWH": {
+    "name": "Soporte Delgado para PS5/PS5 con Ventilador de Refrigeración Ajustable, Soporte de Cargador de Refrigeración Vertical PS5 para PS5/PS5 Slim, Estación de Refrigeración Delgada Multifuncional",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "31,34 €",
+    "first_seen": "2026-09-14T12:22:34.377768+00:00"
+  },
+  "ES:B0F7RMQ9QG": {
+    "name": "playvital Funda Protectora con Agarre Intercambiable para Nintendo Switch 2",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "27,99 €",
+    "first_seen": "2026-09-14T12:22:34.377782+00:00"
+  },
+  "ES:B0FB3T6JYJ": {
+    "name": "Pack de 10 Protectores Gold para Pokemon Elite Trainer Box - Funda Caja Pokemon ETB 0,5mm Grosor - Protección UV para Tus Cajas PKMN",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "24,99 €",
+    "first_seen": "2026-09-14T12:22:34.377788+00:00"
+  },
+  "ES:B0F7RNNYZY": {
+    "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "22,99 €",
+    "first_seen": "2026-09-14T12:22:34.377791+00:00"
   }
 }
