@@ -220,8 +220,9 @@
   },
   "ES:B0GYSDGPBH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Emboar e Inkay de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
-    "status": "no_disponible",
+    "status": "invitacion",
     "stock": null,
+    "price": "10,99 €",
     "first_seen": "2026-08-25T20:27:54.285149+00:00"
   },
   "ES:B0GYSKFHBY": {
@@ -1313,7 +1314,7 @@
     "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
     "status": "compra_directa",
     "stock": null,
-    "price": "93,17 €",
+    "price": "90,82 €",
     "first_seen": "2026-09-04T21:32:58.802653+00:00"
   },
   "UK:B0CMZS84KP": {
@@ -2009,7 +2010,7 @@
     "name": "Pokemon TCG: Paradox Destinies Tin - Raging Bolt EX",
     "status": "compra_directa",
     "stock": null,
-    "price": "76,70 €",
+    "price": "76,52 €",
     "first_seen": "2026-09-12T09:23:08.319159+00:00"
   },
   "UK:B0F6PGX3SQ": {
