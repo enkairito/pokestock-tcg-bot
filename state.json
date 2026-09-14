@@ -78,7 +78,7 @@
     "name": "Pokémon: Estadio Combina y Combate de Escarlata y Púrpura (2 Barajas, 11 Paquetes de Mejora y más)",
     "status": "compra_directa",
     "stock": null,
-    "price": "63,98 €",
+    "price": "64,98 €",
     "first_seen": "2026-08-25T20:27:54.285181+00:00"
   },
   "ES:B0G4NQK15P": {
@@ -467,7 +467,7 @@
     "name": "Pokémon: Caja de Entrenador Élite de Escarlata y Púrpura-Fábula Sombría de JCC Pokémon",
     "status": "compra_directa",
     "stock": null,
-    "price": "84,75 €",
+    "price": "108,23 €",
     "first_seen": "2026-08-27T14:04:43.687882+00:00"
   },
   "ES:B0C643MGKG": {
@@ -1278,8 +1278,9 @@
   },
   "ES:B0FMYKCKK6": {
     "name": "Pokémon: Colección Poderes Supremos de JCC Pokémon: Terapagos ex (3 Cartas holográfica de promoción, 18 Paquetes de Mejora)",
-    "status": "no_disponible",
-    "stock": null,
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "141,41 €",
     "first_seen": "2026-09-04T15:11:54.795786+00:00"
   },
   "US:B0BCN6HZR3": {
@@ -2010,7 +2011,7 @@
     "name": "Pokemon TCG: Paradox Destinies Tin - Raging Bolt EX",
     "status": "compra_directa",
     "stock": null,
-    "price": "76,52 €",
+    "price": "76,70 €",
     "first_seen": "2026-09-12T09:23:08.319159+00:00"
   },
   "UK:B0F6PGX3SQ": {
