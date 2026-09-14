@@ -31,8 +31,9 @@
   },
   "ES:B0F1R2437T": {
     "name": "Turtle Beach Airlite Fit Auriculares con Cable para Juegos en Neón Azul y Rojo con Licencia Oficial para Todos los Nintendo Switch",
-    "status": "no_disponible",
-    "stock": null,
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "23,11 €",
     "first_seen": "2026-09-11T19:20:15.362342+00:00"
   },
   "ES:B0FQWHWWSG": {
@@ -335,15 +336,15 @@
   "ES:B0FDTLRZSH": {
     "name": "Turtle Beach Airlite Fit Auriculares con Cable para Juegos en Gris carbón - con Licencia Oficial para los Nintendo Switch 2",
     "status": "compra_directa",
-    "stock": "4",
-    "price": "12,99 €",
+    "stock": "3",
+    "price": "21,99 €",
     "first_seen": "2026-09-11T19:20:15.912112+00:00"
   },
   "ES:B0F49DHSHJ": {
     "name": "Orzly Funda de Transporte para Consola Nintendo Switch 2 2025 de 7.9 Pulgadas, Funda rígida con Almacenamiento Inteligente para Accesorios y Bolsillos de Juegos, Edición de Caja de Regalo",
     "status": "compra_directa",
     "stock": null,
-    "price": "22,48 €",
+    "price": "22,48 €",
     "first_seen": "2026-09-11T19:20:15.912114+00:00"
   },
   "ES:B0DHSCVFMT": {
@@ -357,7 +358,7 @@
     "name": "Turtle Beach Airlite Fit Auriculares con Cable para Juegos en Morado fantasmal con Licencia Oficial para Todos los Nintendo Switch",
     "status": "compra_directa",
     "stock": null,
-    "price": "12,99 €",
+    "price": "18,19 €",
     "first_seen": "2026-09-11T19:20:15.912117+00:00"
   },
   "ES:B0F7RNNYZY": {
@@ -418,8 +419,9 @@
   },
   "ES:B0GMRB7W9V": {
     "name": "Turtle Beach Airlite Fit Auriculares con Cable para Juegos en Mario Star con Licencia Oficial para Todos los Nintendo Switch: micrófono abatible y silenciable, Orejeras de Comodidad Superior",
-    "status": "no_disponible",
-    "stock": null,
+    "status": "compra_directa",
+    "stock": "3",
+    "price": "24,90 €",
     "first_seen": "2026-09-11T19:20:15.912134+00:00"
   },
   "ES:B0H7JHWBYN": {
@@ -526,7 +528,7 @@
     "name": "Star Wars Outlaws Gold Edition (Switch 2)",
     "status": "compra_directa",
     "stock": null,
-    "price": "33,99 €",
+    "price": "34,99 €",
     "first_seen": "2026-09-12T00:28:58.478175+00:00"
   },
   "ES:B0FQWBD5MT": {
@@ -561,7 +563,7 @@
     "name": "Assassin's Creed Shadows (Switch 2)",
     "status": "compra_directa",
     "stock": null,
-    "price": "34,90 €",
+    "price": "34,99 €",
     "first_seen": "2026-09-12T00:28:58.478229+00:00"
   },
   "ES:B0BV27FTTF": {
@@ -955,8 +957,8 @@
   "ES:B0DTQ35NH6": {
     "name": "SanDisk Tarjeta microSD Express de 512 GB, hasta 880 MB/s de Velocidad de Lectura y hasta 650 MB/s de Escritura, con Velocidad de Escritura sostenida de 220 MB/s, U3, C10",
     "status": "compra_directa",
-    "stock": null,
-    "price": "133,52 €",
+    "stock": "1",
+    "price": "155,19 €",
     "first_seen": "2026-09-12T18:30:08.918656+00:00"
   },
   "ES:B0DK1NY4LW": {
@@ -1050,7 +1052,7 @@
     "name": "Super Mario Party Jamboree - Nintendo Switch 2 Edition",
     "status": "compra_directa",
     "stock": null,
-    "price": "63,90 €",
+    "price": "67,99 €",
     "first_seen": "2026-09-13T12:20:51.136983+00:00"
   },
   "ES:B0DGGTYDLJ": {
@@ -1201,5 +1203,47 @@
     "stock": null,
     "price": "31,99 €",
     "first_seen": "2026-09-14T06:23:10.440701+00:00"
+  },
+  "ES:B07HPY5TKH": {
+    "name": "New Super Mario Bros. U Deluxe - [Nintendo Switch] [Importacion Alemania]",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "44,54 €",
+    "first_seen": "2026-09-14T12:21:43.539209+00:00"
+  },
+  "ES:B07XW8BGFQ": {
+    "name": "Nintendo Switch Ring Fit Adventure - Black",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "84,46 €",
+    "first_seen": "2026-09-14T12:21:43.539261+00:00"
+  },
+  "ES:B0DHSGPKKR": {
+    "name": "Konix Par de mandos Joypads Nintendo Switch y Switch OLED - Compatible con Nintendo Switch 2 - Autonomía de 8 horas - Función de vibración - Azul y rojo",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "39,17 €",
+    "first_seen": "2026-09-14T12:21:43.539297+00:00"
+  },
+  "ES:B0CZLC2DKY": {
+    "name": "Funmo mando wii, Mando a distancia control remoto, Remote MotionPlus Controller Remote para Wii/Wii U (C)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "17,98 €",
+    "first_seen": "2026-09-14T12:21:43.539305+00:00"
+  },
+  "ES:B0FB3T6JYJ": {
+    "name": "Pack de 10 Protectores Gold para Pokemon Elite Trainer Box - Funda Caja Pokemon ETB 0,5mm Grosor - Protección UV para Tus Cajas PKMN",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "24,99 €",
+    "first_seen": "2026-09-14T12:21:43.539312+00:00"
+  },
+  "ES:B0FKFZD845": {
+    "name": "CAMWAY Adaptador Wii HDMI 1080P/720P, Convertidor de Wii a HDMI con Cable HDMI de 150CM Integrado, Compatible con Nintendo Wii/HDTV/Monitor NTSC, PAL, Plug and Play",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "10,79 €",
+    "first_seen": "2026-09-14T12:21:43.539316+00:00"
   }
 }
