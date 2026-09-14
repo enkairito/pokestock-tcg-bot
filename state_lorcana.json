@@ -8,15 +8,15 @@
   "ES:B0FSLTCVFJ": {
     "name": "Ravensburger - Disney Lorcana TCG: Set 10 Whispers In The Well | Juegos De Cartas Adultos Y Niños con 60 Cartas Disney Lorcana | Juegos De Mesa Niños 10 Años Coleccionables | Regalos Originales",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "price": "19,99 €",
     "first_seen": "2026-09-07T17:41:03.615084+00:00"
   },
   "ES:B0GWDXZ12H": {
     "name": "Ravensburger Disney Lorcana - Juego de cartas coleccionables para adultos y niños a partir de 8 años - Set 12: Wilds Unknown - Deck para 2 jugadores",
     "status": "compra_directa",
-    "stock": null,
-    "price": "37,15 €",
+    "stock": "2",
+    "price": "39,01 €",
     "first_seen": "2026-09-07T17:41:04.537441+00:00"
   },
   "ES:B0H8S82717": {
@@ -50,7 +50,7 @@
   "ES:B0CSZ52NKM": {
     "name": "Ravensburger Disney Lorcana TCG: Shimmering Skies Mazo de Inicio - Esmeralda y Acero, Juego de Cartas para Adultos y Niños +8 años",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "price": "18,00 €",
     "first_seen": "2026-09-07T17:41:37.181740+00:00"
   },
@@ -176,8 +176,8 @@
   "ES:B0DDPH3JQB": {
     "name": "Disney Lorcana Trading Card Game: Archazias Isla – Booster Display con 24 Booster Packs (en inglés)",
     "status": "compra_directa",
-    "stock": null,
-    "price": "164,77 €",
+    "stock": "3",
+    "price": "161,97 €",
     "first_seen": "2026-09-08T11:29:17.563714+00:00"
   },
   "ES:B0CGXJ8244": {
@@ -225,8 +225,8 @@
   "ES:B0GHPRLZ7B": {
     "name": "Ravensburger Disney Lorcana TCG: Collection Starter Set - Edición Stitch - Incluye 4 paquetes de refuerzo Winterspell, cartera de cartas Rock Star y promoción de papel brillante - Guía del",
     "status": "compra_directa",
-    "stock": "4",
-    "price": "75,06 €",
+    "stock": null,
+    "price": "75,04 €",
     "first_seen": "2026-09-11T00:16:46.734698+00:00"
   },
   "ES:B0CSZ6H1SN": {
@@ -269,5 +269,12 @@
     "stock": "1",
     "price": "155,36 €",
     "first_seen": "2026-09-13T00:16:55.094290+00:00"
+  },
+  "ES:B0DJNZVGL5": {
+    "name": "Ravensburger - Disney Lorcana TCG: Mar de Azurrita, Starter Deck Ambra & Rubí 60 Cartas, Cartas de Juego Coleccionables, Juego Adultos y Niños, Edición en Italiano",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "21,78 €",
+    "first_seen": "2026-09-14T00:16:33.506754+00:00"
   }
 }
