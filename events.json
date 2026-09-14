@@ -1,57 +1,5 @@
 [
   {
-    "ts": "2026-09-12T19:23:12.269052+00:00",
-    "type": "price_drop",
-    "asin": "B0G72SPRP6",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
-    "image": "https://m.media-amazon.com/images/I/91FiTlqcy+L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "82,13 €",
-    "prev_price": "82,15 €",
-    "link": "https://www.amazon.es/dp/B0G72SPRP6?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-12T19:23:12.269100+00:00",
-    "type": "price_drop",
-    "asin": "B0DGY4Z6V3",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokemon TCG: Paradox Destinies Tin - Raging Bolt EX",
-    "image": "https://m.media-amazon.com/images/I/81VZxx1AlNL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "73,57 €",
-    "prev_price": "73,77 €",
-    "link": "https://www.amazon.es/dp/B0DGY4Z6V3?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-12T20:22:49.294774+00:00",
-    "type": "restock",
-    "asin": "B0F6PGX3SQ",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokémon TCG: Unova Mini Tin – Krookodile & Excadrill (2 Paquetes de Refuerzo y 1 Tarjeta Adhesiva)",
-    "image": "https://m.media-amazon.com/images/I/71nltWrobAL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "41,48 €",
-    "prev_price": null,
-    "link": "https://www.amazon.es/dp/B0F6PGX3SQ?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-12T21:22:37.574439+00:00",
-    "type": "price_drop",
-    "asin": "B0DSGB5Q6B",
-    "marketplace": "ES",
-    "store_label": "Amazon ES",
-    "flag": "🇪🇸",
-    "name": "Pokémon Colección Ursaluna Luna Carmesí (4 Cartas holográficas y 4 Paquetes de Mejora)",
-    "image": "https://m.media-amazon.com/images/I/91DYxakGHhL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "38,00 €",
-    "prev_price": "45,09 €",
-    "link": "https://www.amazon.es/dp/B0DSGB5Q6B?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-12T23:22:45.481100+00:00",
     "type": "price_drop",
     "asin": "B0DGY4Z6V3",
@@ -778,5 +726,57 @@
     "price": "76,52 €",
     "prev_price": "76,70 €",
     "link": "https://www.amazon.es/dp/B0DGY4Z6V3?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-14T15:20:37.445446+00:00",
+    "type": "price_drop",
+    "asin": "B0CM5TGNSL",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "POKEMON TCG: SCARLET AND VIOLET: PARADOX RIFT: BOOSTER PACK",
+    "image": "https://m.media-amazon.com/images/I/71hJs2uuc+L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "21,74 €",
+    "prev_price": "22,09 €",
+    "link": "https://www.amazon.es/dp/B0CM5TGNSL?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-14T15:20:37.445481+00:00",
+    "type": "price_drop",
+    "asin": "B0BXJT92PT",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon- Origin Forme Palkia VSTAR Baraja de Batalla de la Liga, Multicolor (290-85236)",
+    "image": "https://m.media-amazon.com/images/I/91qF7mG6W6L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "47,08 €",
+    "prev_price": "47,09 €",
+    "link": "https://www.amazon.es/dp/B0BXJT92PT?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-14T15:20:37.445546+00:00",
+    "type": "price_drop",
+    "asin": "B0G5FWJ8NL",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokémon TCG: Mega Charizard Tin",
+    "image": "https://m.media-amazon.com/images/I/81fmjlAy2qL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "78,01 €",
+    "prev_price": "78,03 €",
+    "link": "https://www.amazon.es/dp/B0G5FWJ8NL?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-14T15:20:37.445578+00:00",
+    "type": "price_drop",
+    "asin": "B08DVCNV3W",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokemon Sword and Shield Darkness Ablaze Booster Pack (1 Booster Pack)",
+    "image": "https://m.media-amazon.com/images/I/61+bgCiyXlL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "34,58 €",
+    "prev_price": "34,81 €",
+    "link": "https://www.amazon.es/dp/B08DVCNV3W?tag=enkairito-21"
   }
 ]
