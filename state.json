@@ -1396,7 +1396,7 @@
   "UK:B0F634M6PY": {
     "name": "Pokemon Juego de Cartas coleccionables - Scarlet & Violet 10 - Destined Rivals Booster",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "price": "23,72 €",
     "first_seen": "2026-09-04T21:32:58.802777+00:00"
   },
@@ -1885,7 +1885,7 @@
     "name": "Pokemon Sword and Shield Darkness Ablaze Booster Pack (1 Booster Pack)",
     "status": "compra_directa",
     "stock": "5",
-    "price": "34,47 €",
+    "price": "34,46 €",
     "first_seen": "2026-09-08T14:34:56.335940+00:00"
   },
   "US:B0CS12GPTB": {
