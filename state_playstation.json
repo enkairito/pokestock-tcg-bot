@@ -136,7 +136,7 @@
     "name": "Videojuego PlayStation 4 Ubisoft Assassin's Creed Mirage",
     "status": "compra_directa",
     "stock": null,
-    "price": "18,99 €",
+    "price": "19,99 €",
     "first_seen": "2026-09-11T19:18:12.685939+00:00"
   },
   "ES:B0GHT1SQ3S": {
@@ -879,7 +879,7 @@
     "name": "Streets of Rage 4. Anniversary Edition - Playstation 4",
     "status": "compra_directa",
     "stock": null,
-    "price": "24,95 €",
+    "price": "24,95 €",
     "first_seen": "2026-09-12T18:25:09.102581+00:00"
   },
   "ES:B09GSLN1FR": {
@@ -1130,7 +1130,7 @@
     "name": "Playstation Marvel’s Spider-Man (PS4)",
     "status": "compra_directa",
     "stock": null,
-    "price": "69,99 €",
+    "price": "69,99 €",
     "first_seen": "2026-09-14T12:22:34.377694+00:00"
   },
   "ES:B0BJV1V458": {
@@ -1167,5 +1167,32 @@
     "stock": null,
     "price": "22,99 €",
     "first_seen": "2026-09-14T12:22:34.377791+00:00"
+  },
+  "ES:B0GYSDGPBH": {
+    "name": "Pokémon: Minilata Ciudad Luminalia: Emboar e Inkay de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-14T18:20:43.408691+00:00"
+  },
+  "ES:B0GY49HPXH": {
+    "name": "Beast of Reincarnation PS5",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "56,99 €",
+    "first_seen": "2026-09-14T18:20:43.859355+00:00"
+  },
+  "ES:B0H3W4B63R": {
+    "name": "PlayStation 5-MARVEL: Lobezno - Edición Estándar",
+    "status": "preventa",
+    "stock": null,
+    "price": "69,90 €",
+    "first_seen": "2026-09-14T18:20:43.859408+00:00"
+  },
+  "ES:B01M5DZ525": {
+    "name": "Red Dead Redemption 2 for PlayStation 4",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "29,95 €",
+    "first_seen": "2026-09-14T18:20:43.859449+00:00"
   }
 }
