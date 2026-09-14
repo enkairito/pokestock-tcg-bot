@@ -1,18 +1,5 @@
 [
   {
-    "ts": "2026-09-13T01:20:06.971506+00:00",
-    "type": "price_drop",
-    "asin": "B0GWCSP6MR",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
-    "image": "https://m.media-amazon.com/images/I/61fr9skKG-L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "21,93 €",
-    "prev_price": "22,02 €",
-    "link": "https://www.amazon.es/dp/B0GWCSP6MR?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-13T01:20:06.971639+00:00",
     "type": "restock",
     "asin": "B0CQD8G93B",
@@ -778,5 +765,18 @@
     "price": "141,41 €",
     "prev_price": null,
     "link": "https://www.amazon.es/dp/B0FMYKCKK6?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-14T18:20:40.458184+00:00",
+    "type": "price_drop",
+    "asin": "B0DGY4Z6V3",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokemon TCG: Paradox Destinies Tin - Raging Bolt EX",
+    "image": "https://m.media-amazon.com/images/I/81VZxx1AlNL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "76,47 €",
+    "prev_price": "76,70 €",
+    "link": "https://www.amazon.es/dp/B0DGY4Z6V3?tag=enkairito-21"
   }
 ]
