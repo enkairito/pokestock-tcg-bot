@@ -238,8 +238,8 @@
   "ES:B0HF1Z72XW": {
     "name": "One Piece TCG: The World's Strongest Warriors Booster Box (OP-17) - 24 paquetes",
     "status": "compra_directa",
-    "stock": null,
-    "price": "459,00 €",
+    "stock": "1",
+    "price": "474,00 €",
     "first_seen": "2026-09-05T20:33:38.638411+00:00"
   },
   "ES:B0HFD53BDB": {
@@ -282,5 +282,12 @@
     "stock": null,
     "price": "33,77 €",
     "first_seen": "2026-09-13T12:06:49.568039+00:00"
+  },
+  "ES:B0D46M9DHD": {
+    "name": "Caja de refuerzo OP-09 de One Piece TCG, Cuatro Emperadores",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "215,48 €",
+    "first_seen": "2026-09-14T13:06:49.208476+00:00"
   }
 }
