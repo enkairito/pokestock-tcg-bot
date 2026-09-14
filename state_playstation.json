@@ -157,7 +157,7 @@
     "name": "Mochila para Consola PS5/ Slim/ Pro, Bolsa PS5 de Viaje con Protección Total, Funda ps5 Almacenamiento de Gran Capacidad, PS Portal, Portátil, Tarjeta de Juego, Maletin PS 5 con Bolsa 3 Cable- Blanco",
     "status": "compra_directa",
     "stock": null,
-    "price": "32,99 €",
+    "price": "32,99 €",
     "first_seen": "2026-09-11T19:18:12.685967+00:00"
   },
   "ES:B0BJW7XKY2": {
@@ -289,8 +289,9 @@
   },
   "ES:B09X5TX9CN": {
     "name": "Grand Theft Auto V - PlayStation 5",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "18,99 €",
     "first_seen": "2026-09-12T00:28:04.018779+00:00"
   },
   "ES:B0F6D5BS17": {
@@ -415,14 +416,14 @@
     "name": "Halo: Campaign Evolved - Standard Edition – PlayStation®5 | Disco físico + descarga de contenido requerida",
     "status": "compra_directa",
     "stock": null,
-    "price": "50,90 €",
+    "price": "50,99 €",
     "first_seen": "2026-09-12T00:28:04.018938+00:00"
   },
   "ES:B0G1NBTBC4": {
     "name": "Thrustmaster GT Wheel Add-On Aro con Licencia Gran Turismo - PS5 y PC",
     "status": "compra_directa",
     "stock": null,
-    "price": "229,18 €",
+    "price": "228,10 €",
     "first_seen": "2026-09-12T00:28:04.018945+00:00"
   },
   "ES:B0DSPX3R62": {
@@ -485,7 +486,7 @@
     "name": "Dualshock 4 Wireless Controller - Jet Black - PlayStation 4",
     "status": "compra_directa",
     "stock": null,
-    "price": "119,99 €",
+    "price": "119,99 €",
     "first_seen": "2026-09-12T00:28:04.018969+00:00"
   },
   "ES:B0FNCTWV6L": {
@@ -621,7 +622,7 @@
     "name": "Tatybo Cascos Gaming Inalámbricos para PC/Ps5/Ps4, Auriculares Gaming Inalámbricos con 2,4 GHz+Bluetooth 5,3 Modo Dual, 7.1 Sonido Envolvente, Duración 40Hr+",
     "status": "compra_directa",
     "stock": null,
-    "price": "29,99 €",
+    "price": "29,99 €",
     "first_seen": "2026-09-12T06:27:49.066532+00:00"
   },
   "ES:B0F3D6RMLC": {
@@ -648,7 +649,7 @@
   "ES:B0DDTPX5DY": {
     "name": "Tatybo Cascos Gaming Inalámbricos para PC/Ps5/Ps4, Auriculares Gaming Inalámbricos con 2,4 GHz+Bluetooth 5,3 Modo Dual, 7.1 Sonido Envolvente, Duración 40Hr+",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "price": "31,99 €",
     "first_seen": "2026-09-12T06:27:49.066555+00:00"
   },
@@ -928,15 +929,15 @@
   "ES:B07B9L8Y97": {
     "name": "Sony DualShock 4 V2 Blanc Bluetooth/USB Manette de jeu Analogique/Numérique PlayStation 4",
     "status": "compra_directa",
-    "stock": null,
-    "price": "126,37 €",
+    "stock": "1",
+    "price": "143,85 €",
     "first_seen": "2026-09-12T18:25:09.102635+00:00"
   },
   "ES:B01MRUUSPR": {
     "name": "Sony DualShock 4 V2 Blanc Bluetooth/USB Manette de jeu Analogique/Numérique PlayStation 4",
     "status": "compra_directa",
-    "stock": null,
-    "price": "126,37 €",
+    "stock": "1",
+    "price": "143,85 €",
     "first_seen": "2026-09-12T18:25:09.102642+00:00"
   },
   "ES:B0HFNW25H5": {
@@ -990,7 +991,7 @@
     "name": "GXTrust Forta Cascos PS5 Licencia Oficial para PlayStation 5, Azul",
     "status": "compra_directa",
     "stock": null,
-    "price": "39,99 €",
+    "price": "31,98 €",
     "first_seen": "2026-09-13T00:24:23.874079+00:00"
   },
   "ES:B0FGK5M2BS": {
@@ -1011,7 +1012,7 @@
     "name": "GXTrust Forta Cascos PS5 Licencia Oficial para PlayStation 5, Rosado",
     "status": "compra_directa",
     "stock": null,
-    "price": "39,99 €",
+    "price": "31,98 €",
     "first_seen": "2026-09-13T00:24:23.874128+00:00"
   },
   "ES:B0BX7375ZQ": {
@@ -1100,5 +1101,12 @@
     "stock": null,
     "price": "19,52 €",
     "first_seen": "2026-09-13T18:20:21.671621+00:00"
+  },
+  "ES:B0GSWBX3TT": {
+    "name": "Alfombra diatomita baño 60x40 cm | Alfombra baño con Soporte, Secado rápido, Antideslizante y Super Absorbente | Alfombrilla antibacteriana | Alfombrilla baño Piedra | Diatomite Bath Mat - Bréa Mond",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "26,90 €",
+    "first_seen": "2026-09-14T00:24:37.962671+00:00"
   }
 }
