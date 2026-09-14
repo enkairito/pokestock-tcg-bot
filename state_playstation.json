@@ -135,8 +135,8 @@
   "ES:B0CD2RBQ68": {
     "name": "Videojuego PlayStation 4 Ubisoft Assassin's Creed Mirage",
     "status": "compra_directa",
-    "stock": null,
-    "price": "18,99 €",
+    "stock": "5",
+    "price": "18,99 €",
     "first_seen": "2026-09-11T19:18:12.685939+00:00"
   },
   "ES:B0GHT1SQ3S": {
@@ -289,9 +289,8 @@
   },
   "ES:B09X5TX9CN": {
     "name": "Grand Theft Auto V - PlayStation 5",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "18,99 €",
     "first_seen": "2026-09-12T00:28:04.018779+00:00"
   },
   "ES:B0F6D5BS17": {
@@ -318,7 +317,7 @@
     "name": "Sony PlayStation 4 Slim 500 Go, Avec 1 manette sans fil DUALSHOCK 4 V2, Châssis F, Noir (Jet Black) [Importación francesa]",
     "status": "compra_directa",
     "stock": "2",
-    "price": "494,08 €",
+    "price": "494,08 €",
     "first_seen": "2026-09-12T00:28:04.018828+00:00"
   },
   "ES:B0GRWCXP1F": {
@@ -472,7 +471,7 @@
     "name": "Superer 3,0M Cable Micro USB Compatible con Sony Mando PS4",
     "status": "compra_directa",
     "stock": null,
-    "price": "10,99 €",
+    "price": "10,99 €",
     "first_seen": "2026-09-12T00:28:04.018966+00:00"
   },
   "ES:B0DBJ5PBLT": {
@@ -874,7 +873,7 @@
     "name": "Playstation Gran Turismo 7 [PS4]",
     "status": "compra_directa",
     "stock": null,
-    "price": "34,99 €",
+    "price": "34,99 €",
     "first_seen": "2026-09-12T18:25:09.102575+00:00"
   },
   "ES:B098GSZ4Q9": {
@@ -1108,5 +1107,11 @@
     "stock": null,
     "price": "26,90 €",
     "first_seen": "2026-09-14T00:24:37.962671+00:00"
+  },
+  "ES:B079Y6GW3H": {
+    "name": "Sony PS4 Slim Black 500GB Console Ps4 Slim 500 Gb, 0711719845454 (Console Ps4 Slim 500 Gb)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-14T06:19:57.023396+00:00"
   }
 }
