@@ -1517,7 +1517,7 @@
     "name": "Pokémon TCG: Mega Evolution—Phantasmal Flames Triple Pack Sneasel (1 Carta Promocional holográfica y 3 Sobres potenciadores)",
     "status": "compra_directa",
     "stock": null,
-    "price": "69,09 €",
+    "price": "69,80 €",
     "first_seen": "2026-09-04T21:32:58.802909+00:00"
   },
   "US:B0CQD9VBWS": {
@@ -1974,7 +1974,7 @@
   },
   "ES:B0H8T3MP6T": {
     "name": "Pokémon: Lata Celebración 30.º Aniversario: Greninja ex de JCC Pokémon (1 Carta holográfica de promoción y 4 Sobres de Mejora)",
-    "status": "preventa",
+    "status": "invitacion",
     "stock": null,
     "price": "24,99 €",
     "first_seen": "2026-09-09T13:28:11.050832+00:00"
@@ -2037,8 +2037,9 @@
   },
   "CAR:VC4A-34535241": {
     "name": "Pokémon 30Th Aniversario Lata Ex Versión Sylveon/Greninja, +6 Años (Unboxing)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "34,99 €",
     "first_seen": "2026-09-15T20:55:26.061406+00:00"
   },
   "CAR:VC4A-34535247": {
@@ -2067,44 +2068,51 @@
   },
   "CAR:VC4A-34535251": {
     "name": "Pokémon 30Th Aniversario Pack 2 Sobres con Moneda, +6 Años",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "15,99 €",
     "first_seen": "2026-09-15T20:55:26.061438+00:00"
   },
   "CAR:VC4A-34530761": {
     "name": "Pokemon Caja Elite 30TH Aniversario, Juego de mesa, +6 Años (Unboxing)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "59,99 €",
     "first_seen": "2026-09-15T20:55:26.061440+00:00"
   },
   "CAR:VC4A-34535235": {
     "name": "Pokémon 30Th Aniversario Caja Colección con Póster Inglés, +6 Años (Unboxing)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "29,99 €",
     "first_seen": "2026-09-15T20:55:26.061442+00:00"
   },
   "CAR:VC4A-34535256": {
     "name": "Pokémon 30Th Aniversario Caja Colección con Póster, +6 Años (Unboxing)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "29,99 €",
     "first_seen": "2026-09-15T20:55:26.061444+00:00"
   },
   "CAR:VC4A-34530763": {
     "name": "Pokemon Album 30Th Aniversario Ingles, Juego de Mesa, +6 Años (Unboxing)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "59,99 €",
     "first_seen": "2026-09-15T20:55:26.061446+00:00"
   },
   "CAR:VC4A-34535245": {
     "name": "Pokémon 30Th Aniversario Pack 2 Sobres con Moneda Inglés, +6 Años",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "15,99 €",
     "first_seen": "2026-09-15T20:55:26.061448+00:00"
   },
   "CAR:VC4A-34535250": {
     "name": "Pokémon 30Th Aniversario Caja Ex Versión Sylveon/Greninja, +6 Años (Unboxing)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "34,99 €",
     "first_seen": "2026-09-15T20:55:26.061450+00:00"
   },
   "CAR:VC4A-34535240": {
@@ -2127,8 +2135,9 @@
   },
   "CAR:VC4A-34535258": {
     "name": "Pokémon 30Th Aniversario Caja Ex Versión Sylveon/Greninja Inglés, +6 Años (Unboxing)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "34,99 €",
     "first_seen": "2026-09-15T20:55:26.061459+00:00"
   },
   "CAR:VC4A-34535249": {
@@ -2139,8 +2148,9 @@
   },
   "CAR:VC4A-34535257": {
     "name": "Pokemon Caja 30Th Aniversario Colección Pegatinas Especiales, +6 Años (Unboxing)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "24,99 €",
     "first_seen": "2026-09-15T20:55:26.061463+00:00"
   },
   "CAR:VC4A-34535248": {
