@@ -169,6 +169,27 @@ ECI_STORE = {
 ECI_ID_RE = re.compile(r"^product-([A-Za-z0-9]+)$")
 ECI_PRICE_RE = re.compile(r"(\d{1,3}(?:\.\d{3})*,\d{2})\s*€")
 
+# Carrefour, igual que El Corte Inglés: sin ASIN, búsqueda pública, su propia
+# config. IMPORTANTE — descubierto a base de romperlo varias veces el
+# 2026-09-15: la página SOLO devuelve los resultados de la búsqueda si se
+# navega directo a la URL con "query"/"filter" y NO se interactúa con nada
+# (ni el banner de cookies) antes de leer el DOM — aceptar/rechazar cookies
+# dispara un re-render que vacía la rejilla de resultados y deja la home
+# genérica. Así que aquí no se hace click en ningún banner de consentimiento.
+# La URL es la búsqueda "pokemon 30th aniversario" filtrada a la marca
+# Bandai, limpia de los parámetros de tracking de un anuncio de Google Ads
+# (gclid/gad_source/gbraid/etc., no aportan nada a la búsqueda en sí).
+CARREFOUR_STORE = {
+    "code": "CAR",
+    "flag": "🇪🇸",
+    "store_label": "Carrefour",
+    "tag": None,
+    "pages": [
+        ("Pokémon 30º Aniversario", "https://www.carrefour.es/?filter=brand%3Abandai&query=pokemon%2030th%20aniversario"),
+    ],
+}
+CARREFOUR_ID_RE = re.compile(r"/([A-Za-z0-9]+-\d+)/p/?$")
+
 STATUS_COPY = {
     "compra_directa": ("#COMPRADIRECTA", "📦", "CÓMPRALO YA"),
     "invitacion": ("#INVITACIÓN", "🎟️", "SOLICITAR INVITACIÓN"),
@@ -497,6 +518,7 @@ def send_telegram_photo_bytes(image_bytes, caption):
 FLAG_FILES = {
     "ES": Path(__file__).parent / "assets" / "flags" / "es.png",
     "ECI": Path(__file__).parent / "assets" / "flags" / "es.png",
+    "CAR": Path(__file__).parent / "assets" / "flags" / "es.png",
     "UK": Path(__file__).parent / "assets" / "flags" / "gb.png",
     "US": Path(__file__).parent / "assets" / "flags" / "us.png",
 }
@@ -787,6 +809,85 @@ async def discover_eci_products(page, label, url):
     return products
 
 
+async def discover_carrefour_products(page, label, url):
+    """Descubre productos de Carrefour desde una página de búsqueda. Sin
+    cookies/sesión (búsqueda pública). No hace clic en el banner de
+    cookies — ver la nota junto a CARREFOUR_STORE, romper esa regla vacía
+    la rejilla de resultados."""
+    response = await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+    if response is None or response.status >= 400:
+        raise ScrapeError(f"Respuesta HTTP inválida en Carrefour/{label}")
+    await page.wait_for_timeout(3500)
+
+    prev_count = -1
+    for _ in range(10):
+        await page.mouse.wheel(0, 2000)
+        await page.wait_for_timeout(700)
+        count = await page.eval_on_selector_all('article[data-test="search-grid-result"]', "els => els.length")
+        if count == prev_count:
+            break
+        prev_count = count
+
+    title = await page.title()
+    print(f"ℹ️ [Carrefour/{label}] Título de la página cargada: {title!r}")
+
+    body_text = (await page.inner_text("body")).lower()
+    if any(marker in body_text for marker in CAPTCHA_MARKERS):
+        raise ScrapeError(f"Captcha en Carrefour/{label}")
+
+    tiles = await page.eval_on_selector_all(
+        'article[data-test="search-grid-result"]',
+        """els => els.map(el => {
+            const link = el.querySelector('a[data-test="result-link"]');
+            const nameEl = el.querySelector('a[data-test="result-title"]');
+            const priceEl = el.querySelector('[data-test="result-current-price"]');
+            const statusEl = el.querySelector('[data-test="result-add-to-cart"]');
+            const imageEl = el.querySelector('img[data-test="result-picture-image"]');
+            return {
+                href: link ? link.getAttribute('href') : null,
+                name: nameEl ? nameEl.textContent.trim() : null,
+                priceText: priceEl ? priceEl.textContent.trim() : null,
+                statusText: statusEl ? statusEl.textContent.trim() : null,
+                image: imageEl ? imageEl.src : null,
+            };
+        })""",
+    )
+
+    products = {}
+    for t in tiles:
+        href = t.get("href") or ""
+        match = CARREFOUR_ID_RE.search(href)
+        if not match:
+            continue
+        product_id = match.group(1)
+        if product_id in products:
+            continue
+        if not t.get("name") or not href:
+            raise ScrapeError(f"Tarjeta incompleta en Carrefour/{label}: {product_id}")
+
+        price_match = ECI_PRICE_RE.search(t.get("priceText") or "")
+        status_text = _strip_accents((t.get("statusText") or "").lower())
+
+        products[product_id] = {
+            "name": t.get("name"),
+            "price": f"{price_match.group(1)} €" if price_match else None,
+            "original_price": None,
+            "image": t.get("image"),
+            "stock": None,
+            # NOTA: al 2026-09-15 todo lo listado es preventa ("Lanzamiento
+            # el ...", botón "Agotado temporalmente") — no hay todavía
+            # ningún producto comprable de verdad para confirmar el texto
+            # exacto del botón cuando SÍ hay stock. Revisar en cuanto
+            # alguno lo tenga.
+            "status": "no_disponible" if "agotado" in status_text or "no disponible" in status_text else "compra_directa",
+            "url": href,
+        }
+
+    if not products:
+        raise ScrapeError(f"Sin productos verificables en Carrefour/{label}; se conserva la publicación anterior")
+    return products
+
+
 async def check_single_product(page, asin, marketplace, include_delivery=False):
     """Comprobación individual de respaldo para productos cuya tarjeta de
     tienda no expone precio/disponibilidad directamente.
@@ -1007,6 +1108,56 @@ async def main():
             info["categories"] = assign_categories(info["name"])
             products[f"ECI:{product_id}"] = info
 
+        carrefour_products = {}
+        for label, url in CARREFOUR_STORE["pages"]:
+            print(f"🔍 Descubriendo productos en la tienda (Carrefour/{label})...")
+            try:
+                page_products = await discover_carrefour_products(page, label, url)
+                print(f"📦 [Carrefour/{label}] {len(page_products)} productos encontrados")
+                carrefour_products.update(page_products)
+            except Exception as e:
+                print(f"❌ No se pudo cargar la página de Carrefour ({label}): {e!r}")
+                raise
+
+        carrefour_out_of_stock = {a for a, i in carrefour_products.items() if i["status"] == "no_disponible"}
+        if carrefour_out_of_stock:
+            print(f"⏭️ [Carrefour] Omitiendo {len(carrefour_out_of_stock)} productos agotados de la web (pero sí se actualiza su estado, para poder detectar el próximo restock).")
+            for product_id in carrefour_out_of_stock:
+                key = f"CAR:{product_id}"
+                prev_first_seen = state.get(key, {}).get("first_seen")
+                state[key] = {
+                    "name": carrefour_products[product_id]["name"],
+                    "status": "no_disponible",
+                    "stock": None,
+                    "first_seen": prev_first_seen or datetime.now(timezone.utc).isoformat(),
+                }
+                del carrefour_products[product_id]
+
+        carrefour_excluded_by_name = {
+            a for a, i in carrefour_products.items() if is_excluded_by_name(i["name"])
+        }
+        if carrefour_excluded_by_name:
+            print(f"⏭️ [Carrefour] Omitiendo {len(carrefour_excluded_by_name)} productos no relevantes por nombre (fundas/accesorios).")
+            for product_id in carrefour_excluded_by_name:
+                del carrefour_products[product_id]
+
+        carrefour_not_pokemon = {
+            a for a, i in carrefour_products.items() if not is_relevant_by_name(i["name"])
+        }
+        if carrefour_not_pokemon:
+            print(f"⏭️ [Carrefour] Omitiendo {len(carrefour_not_pokemon)} productos ajenos a Pokémon.")
+            for product_id in carrefour_not_pokemon:
+                del carrefour_products[product_id]
+
+        for product_id, info in carrefour_products.items():
+            info["asin"] = product_id
+            info["marketplace_code"] = CARREFOUR_STORE["code"]
+            info["store_label"] = CARREFOUR_STORE["store_label"]
+            info["flag"] = CARREFOUR_STORE["flag"]
+            info["link"] = info["url"]
+            info["categories"] = assign_categories(info["name"])
+            products[f"CAR:{product_id}"] = info
+
         await browser.close()
 
     print(f"📦 Total combinado: {len(products)} productos únicos")
@@ -1034,13 +1185,14 @@ async def main():
         send_failed = False
 
         # Solo se envían alertas de Telegram para tiendas españolas (Amazon
-        # ES y El Corte Inglés). El resto de marketplaces (UK, US) se
-        # siguen detectando y guardando en el estado/snapshot para la web,
-        # pero no generan mensajes.
-        if (status_changed or stock_decreased or price_decreased) and info["marketplace_code"] in ("ES", "ECI"):
-            # El nombre, el precio y (para ECI) el link vienen del scraping
-            # de Amazon/El Corte Inglés — datos externos que no controlamos
-            # — y el mensaje se manda con parse_mode: HTML, así que hay que
+        # ES, El Corte Inglés y Carrefour). El resto de marketplaces (UK,
+        # US) se siguen detectando y guardando en el estado/snapshot para
+        # la web, pero no generan mensajes.
+        if (status_changed or stock_decreased or price_decreased) and info["marketplace_code"] in ("ES", "ECI", "CAR"):
+            # El nombre, el precio y (para ECI/Carrefour) el link vienen del
+            # scraping de Amazon/El Corte Inglés/Carrefour — datos externos
+            # que no controlamos — y el mensaje se manda con parse_mode:
+            # HTML, así que hay que
             # escaparlos o un título de producto con '<'/'>'/'&' rompería el
             # parseo (o, peor, colaría markup/enlaces falsos en el mensaje).
             safe_name = html.escape(name)
