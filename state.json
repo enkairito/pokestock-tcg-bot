@@ -1893,7 +1893,7 @@
     "name": "Pokemon TCG: Sword & Shield - Paquete de Refuerzo de Estrellas Brillantes (10 Tarjetas por Paquete)",
     "status": "compra_directa",
     "stock": null,
-    "price": "39,80 €",
+    "price": "42,54 €",
     "first_seen": "2026-09-08T14:34:56.335946+00:00"
   },
   "US:B0D4B515H1": {
@@ -2341,5 +2341,43 @@
     "stock": null,
     "price": "34,99 €",
     "first_seen": "2026-09-15T22:10:27.034934+00:00"
+  },
+  "ECI:A200066790": {
+    "name": "Caja Ultra Premium Collection Pokémon TCG Bandai",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T22:43:06.257025+00:00"
+  },
+  "ECI:A202035449": {
+    "name": "30TH Lata de Celebración 30º Aniversario de JCC Pokémon. POKEMON. BANDAI . Modelos surtidos.",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T22:43:06.257047+00:00"
+  },
+  "ECI:A202035455": {
+    "name": "30TH Blíster de 2 sobres de mejora de Celebración 30.º Aniversario de JCC Pokémon. POKEMON. BANDAI",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T22:43:06.257061+00:00"
+  },
+  "ECI:A202035440": {
+    "name": "30TH Caja de Entrenador Élite de Celebración 30.º Aniversario de JCC Pokémon. POKEMON. BANDAI.",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T22:43:06.257066+00:00"
+  },
+  "ECI:A202035442": {
+    "name": "30TH Blister colección con pegatinas especiales de Celebración 30.º Aniversario de JCC Pokémon. POKEMON. BANDAI. Modelos surtidos",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "24,99 €",
+    "first_seen": "2026-09-15T22:43:18.891574+00:00"
+  },
+  "ECI:A202035450": {
+    "name": "30TH Caja colección con póster de Celebración 30.º Aniversario de JCC Pokémon. POKEMON BANDAI",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "29,99 €",
+    "first_seen": "2026-09-15T22:43:24.795849+00:00"
   }
 }
