@@ -94,7 +94,7 @@
     "name": "Playstation Sackboy: Una Aventura a lo Grande - PlayStation 5",
     "status": "compra_directa",
     "stock": null,
-    "price": "36,56 €",
+    "price": "36,00 €",
     "first_seen": "2026-09-11T19:18:12.685872+00:00"
   },
   "ES:B0CQD377LS": {
@@ -150,7 +150,7 @@
     "name": "Fable – PlayStation® 5 | Disco físico – Requiere descarga de contenido",
     "status": "preventa",
     "stock": null,
-    "price": "59,90 €",
+    "price": "59,90 €",
     "first_seen": "2026-09-11T19:18:12.685957+00:00"
   },
   "ES:B0DKP1FZM5": {
@@ -192,7 +192,7 @@
     "name": "Soporte Auriculares Gaming y Soporte Mando PS5, PS4, Xbox... One More Life : Regalo Gamer │ Sujección Universal de Resina y Base Antideslizante : Accesorios escritorio para Decoracion Set UP",
     "status": "compra_directa",
     "stock": null,
-    "price": "34,95 €",
+    "price": "34,95 €",
     "first_seen": "2026-09-11T19:18:12.685978+00:00"
   },
   "ES:B077H1DFS6": {
@@ -351,7 +351,7 @@
     "name": "Logitech G G29 SE Driving Force Wheel and Shifter para Playstation & PC",
     "status": "compra_directa",
     "stock": null,
-    "price": "331,66 €",
+    "price": "209,99 €",
     "first_seen": "2026-09-12T00:28:04.018877+00:00"
   },
   "ES:B0BQJQZQ54": {
@@ -456,7 +456,7 @@
     "name": "HORI - Volante Apex (PS5/PS4/PC) - Licencia oficial",
     "status": "compra_directa",
     "stock": null,
-    "price": "90,99 €",
+    "price": "90,99 €",
     "first_seen": "2026-09-12T00:28:04.018962+00:00"
   },
   "ES:B08DLWRZ8V": {
@@ -872,7 +872,7 @@
     "name": "Playstation Gran Turismo 7 [PS4]",
     "status": "compra_directa",
     "stock": null,
-    "price": "34,99 €",
+    "price": "35,98 €",
     "first_seen": "2026-09-12T18:25:09.102575+00:00"
   },
   "ES:B098GSZ4Q9": {
@@ -989,7 +989,7 @@
     "name": "GXTrust Forta Cascos PS5 Licencia Oficial para PlayStation 5, Azul",
     "status": "compra_directa",
     "stock": null,
-    "price": "31,98 €",
+    "price": "39,99 €",
     "first_seen": "2026-09-13T00:24:23.874079+00:00"
   },
   "ES:B0FGK5M2BS": {
@@ -1003,21 +1003,21 @@
     "name": "GXTrust Forta Cascos PS5 Licencia Oficial para PlayStation 5, Blanco",
     "status": "compra_directa",
     "stock": null,
-    "price": "31,98 €",
+    "price": "39,99 €",
     "first_seen": "2026-09-13T00:24:23.874103+00:00"
   },
   "ES:B0DSWGPHB4": {
     "name": "GXTrust Forta Cascos PS5 Licencia Oficial para PlayStation 5, Rosado",
     "status": "compra_directa",
     "stock": null,
-    "price": "31,98 €",
+    "price": "39,99 €",
     "first_seen": "2026-09-13T00:24:23.874128+00:00"
   },
   "ES:B0BX7375ZQ": {
     "name": "GXTrust Forta Cascos PS5 Licencia Oficial para PlayStation 5, Negro",
     "status": "compra_directa",
     "stock": null,
-    "price": "31,98 €",
+    "price": "39,91 €",
     "first_seen": "2026-09-13T00:24:23.874141+00:00"
   },
   "ES:B017BRXU1A": {
@@ -1286,5 +1286,12 @@
     "stock": null,
     "price": "79,99 €",
     "first_seen": "2026-09-15T20:34:33.327915+00:00"
+  },
+  "ES:B0H4RY78G6": {
+    "name": "Muramasa: Revenant Blades - PS5",
+    "status": "preventa",
+    "stock": null,
+    "price": "45,99 €",
+    "first_seen": "2026-09-15T22:35:47.404217+00:00"
   }
 }
