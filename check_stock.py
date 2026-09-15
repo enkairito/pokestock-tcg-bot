@@ -934,7 +934,16 @@ async def discover_fnac_products(page, label, base_url):
         url = base_url if page_index == 1 else f"{base_url}&PageIndex={page_index}"
         response = await page.goto(url, wait_until="domcontentloaded", timeout=60000)
         if response is None or response.status >= 400:
-            raise ScrapeError(f"Respuesta HTTP inválida en Fnac/{label} (página {page_index}, status {response.status if response else None})")
+            # Solo la página 1 es crítica (sin ella no hay nada que
+            # publicar). Si Datadome bloquea una página siguiente —
+            # confirmado 2026-09-15 desde el runner de GitHub Actions, con
+            # las mismas cookies que sí funcionaron en local — nos quedamos
+            # con lo ya encontrado en vez de tirar todo el check por una
+            # sola tienda "extra" que aún es frágil.
+            if page_index == 1:
+                raise ScrapeError(f"Respuesta HTTP inválida en Fnac/{label} (página {page_index}, status {response.status if response else None})")
+            print(f"⚠️ [Fnac/{label}] Página {page_index} bloqueada (status {response.status if response else None}) — me quedo con lo ya encontrado.")
+            break
         await page.wait_for_timeout(2500)
 
         body_text = (await page.inner_text("body")).lower()
@@ -1258,6 +1267,13 @@ async def main():
             info["categories"] = assign_categories(info["name"])
             products[f"CAR:{product_id}"] = info
 
+        # A diferencia de ES/UK/US/ECI/Carrefour (que si fallan tiran todo
+        # el check a propósito, para que un fallo silencioso no pase
+        # desapercibido), Fnac todavía depende de una cookie de sesión
+        # (Datadome) que puede caducar o bloquear sin avisar — un fallo ahí
+        # no debe impedir publicar lo que sí se ha comprobado bien del
+        # resto de tiendas. Se conserva el estado anterior de Fnac hasta la
+        # siguiente ejecución que sí funcione.
         fnac_products = {}
         for label, url in FNAC_STORE["pages"]:
             print(f"🔍 Descubriendo productos en la tienda (Fnac/{label})...")
@@ -1266,8 +1282,7 @@ async def main():
                 print(f"📦 [Fnac/{label}] {len(page_products)} productos encontrados")
                 fnac_products.update(page_products)
             except Exception as e:
-                print(f"❌ No se pudo cargar la página de Fnac ({label}): {e!r}")
-                raise
+                print(f"⚠️ No se pudo cargar la página de Fnac ({label}), se omite esta vez: {e!r}")
 
         fnac_out_of_stock = {a for a, i in fnac_products.items() if i["status"] == "no_disponible"}
         if fnac_out_of_stock:
