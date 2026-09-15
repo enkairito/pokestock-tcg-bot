@@ -190,6 +190,26 @@ CARREFOUR_STORE = {
 }
 CARREFOUR_ID_RE = re.compile(r"/([A-Za-z0-9]+-\d+)/p/?$")
 
+# Fnac, a diferencia de ECI/Carrefour, SÍ necesita cookies — devuelve un 403
+# "El acceso está restringido temporalmente" (Datadome) a cualquier request
+# sin una cookie "datadome" válida de una sesión real de navegador. Ver
+# new_context() para cómo se cargan, igual que las de Amazon. Habrá que
+# refrescarlas de vez en cuando igual que las de amazon_cookies.json — la
+# cookie "datadome" caduca.
+#
+# Filtro de la búsqueda: "pokemon cartas" + Vendedor=Fnac (evita ofertas de
+# marketplace de terceros, más difíciles de fiarse) + Marca=Bandai.
+FNAC_STORE = {
+    "code": "FNAC",
+    "flag": "🇪🇸",
+    "store_label": "Fnac",
+    "tag": None,
+    "cookies_file": Path(__file__).parent / "fnac_cookies.json",
+    "pages": [
+        ("Pokémon cartas", "https://www.fnac.es/SearchResult/ResultList.aspx?Search=pokemon+cartas&SFilt=1!206%2c11187!23&sft=1"),
+    ],
+}
+
 STATUS_COPY = {
     "compra_directa": ("#COMPRADIRECTA", "📦", "CÓMPRALO YA"),
     "invitacion": ("#INVITACIÓN", "🎟️", "SOLICITAR INVITACIÓN"),
@@ -519,6 +539,7 @@ FLAG_FILES = {
     "ES": Path(__file__).parent / "assets" / "flags" / "es.png",
     "ECI": Path(__file__).parent / "assets" / "flags" / "es.png",
     "CAR": Path(__file__).parent / "assets" / "flags" / "es.png",
+    "FNAC": Path(__file__).parent / "assets" / "flags" / "es.png",
     "UK": Path(__file__).parent / "assets" / "flags" / "gb.png",
     "US": Path(__file__).parent / "assets" / "flags" / "us.png",
 }
@@ -583,6 +604,12 @@ async def new_context(browser):
         if cookies_file.exists():
             raw_cookies = json.loads(cookies_file.read_text(encoding="utf-8"))
             await context.add_cookies(normalize_cookies(raw_cookies))
+    # Fnac no es un "marketplace" (sin ASIN/flujo de invitación) así que no
+    # vive en MARKETPLACES, pero sí necesita sus propias cookies — ver nota
+    # junto a FNAC_STORE.
+    if FNAC_STORE["cookies_file"].exists():
+        raw_cookies = json.loads(FNAC_STORE["cookies_file"].read_text(encoding="utf-8"))
+        await context.add_cookies(normalize_cookies(raw_cookies))
     return context
 
 
@@ -888,6 +915,79 @@ async def discover_carrefour_products(page, label, url):
     return products
 
 
+FNAC_BLOCK_MARKERS = ["el acceso está restringido", "acceso restringido temporalmente"]
+
+
+async def discover_fnac_products(page, label, base_url):
+    """Descubre productos de Fnac desde una página de búsqueda, paginando
+    con "&PageIndex=N" hasta que una página no devuelva tarjetas (en vez de
+    hacer clic en "Ver más artículos": es un <a href> normal a esa misma
+    URL, así que navegar directo es más fiable que depender de que el botón
+    esté visible/estable — descubierto el 2026-09-15 tras un click fallido
+    por un spinner de carga interceptando el clic).
+
+    Necesita las cookies de FNAC_STORE (ver new_context) — sin la cookie
+    "datadome" de una sesión real, Fnac devuelve un 403 con una página de
+    bloqueo en vez de resultados."""
+    products = {}
+    for page_index in range(1, 11):
+        url = base_url if page_index == 1 else f"{base_url}&PageIndex={page_index}"
+        response = await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+        if response is None or response.status >= 400:
+            raise ScrapeError(f"Respuesta HTTP inválida en Fnac/{label} (página {page_index}, status {response.status if response else None})")
+        await page.wait_for_timeout(2500)
+
+        body_text = (await page.inner_text("body")).lower()
+        if any(marker in body_text for marker in FNAC_BLOCK_MARKERS):
+            raise ScrapeError(f"Bloqueado por Fnac (Datadome) en Fnac/{label} — las cookies de fnac_cookies.json probablemente han caducado")
+        if any(marker in body_text for marker in CAPTCHA_MARKERS):
+            raise ScrapeError(f"Captcha en Fnac/{label}")
+
+        tiles = await page.eval_on_selector_all(
+            "article.Article-itemGroup",
+            """els => els.map(el => {
+                const input = el.querySelector('input[name="products"]');
+                const nameEl = el.querySelector('[data-automation-id^="product-title-label"]');
+                const imageEl = el.querySelector('img[data-automation-id^="image-mosaic-"]');
+                const priceEl = el.querySelector('.userPrice') || el.querySelector('.Article-price');
+                return {
+                    prid: input ? input.getAttribute('data-prid') : null,
+                    availability: input ? input.getAttribute('data-availability') : null,
+                    href: nameEl ? nameEl.getAttribute('href') : null,
+                    name: nameEl ? nameEl.textContent.trim() : null,
+                    image: imageEl ? imageEl.src : null,
+                    priceText: priceEl ? priceEl.textContent.trim().split('\\n')[0].trim() : null,
+                };
+            })""",
+        )
+        if not tiles:
+            break
+
+        for t in tiles:
+            product_id = t.get("prid")
+            if not product_id or product_id in products:
+                continue
+            if not t.get("name") or not t.get("href"):
+                raise ScrapeError(f"Tarjeta incompleta en Fnac/{label}: {product_id}")
+            products[product_id] = {
+                "name": t.get("name"),
+                # NOTA: "199" es el único código de disponibilidad visto con
+                # botón "Añadir a la cesta" — cualquier otro (ej. "110", que
+                # es lo único visto además hasta ahora) no tiene ni botón ni
+                # precio en la tarjeta. Revisar si aparece un tercer código.
+                "status": "compra_directa" if t.get("availability") == "199" else "no_disponible",
+                "price": t.get("priceText"),
+                "original_price": None,
+                "image": t.get("image"),
+                "stock": None,
+                "url": t.get("href"),
+            }
+
+    if not products:
+        raise ScrapeError(f"Sin productos verificables en Fnac/{label}; se conserva la publicación anterior")
+    return products
+
+
 async def check_single_product(page, asin, marketplace, include_delivery=False):
     """Comprobación individual de respaldo para productos cuya tarjeta de
     tienda no expone precio/disponibilidad directamente.
@@ -1158,6 +1258,56 @@ async def main():
             info["categories"] = assign_categories(info["name"])
             products[f"CAR:{product_id}"] = info
 
+        fnac_products = {}
+        for label, url in FNAC_STORE["pages"]:
+            print(f"🔍 Descubriendo productos en la tienda (Fnac/{label})...")
+            try:
+                page_products = await discover_fnac_products(page, label, url)
+                print(f"📦 [Fnac/{label}] {len(page_products)} productos encontrados")
+                fnac_products.update(page_products)
+            except Exception as e:
+                print(f"❌ No se pudo cargar la página de Fnac ({label}): {e!r}")
+                raise
+
+        fnac_out_of_stock = {a for a, i in fnac_products.items() if i["status"] == "no_disponible"}
+        if fnac_out_of_stock:
+            print(f"⏭️ [Fnac] Omitiendo {len(fnac_out_of_stock)} productos agotados de la web (pero sí se actualiza su estado, para poder detectar el próximo restock).")
+            for product_id in fnac_out_of_stock:
+                key = f"FNAC:{product_id}"
+                prev_first_seen = state.get(key, {}).get("first_seen")
+                state[key] = {
+                    "name": fnac_products[product_id]["name"],
+                    "status": "no_disponible",
+                    "stock": None,
+                    "first_seen": prev_first_seen or datetime.now(timezone.utc).isoformat(),
+                }
+                del fnac_products[product_id]
+
+        fnac_excluded_by_name = {
+            a for a, i in fnac_products.items() if is_excluded_by_name(i["name"])
+        }
+        if fnac_excluded_by_name:
+            print(f"⏭️ [Fnac] Omitiendo {len(fnac_excluded_by_name)} productos no relevantes por nombre (fundas/accesorios).")
+            for product_id in fnac_excluded_by_name:
+                del fnac_products[product_id]
+
+        fnac_not_pokemon = {
+            a for a, i in fnac_products.items() if not is_relevant_by_name(i["name"])
+        }
+        if fnac_not_pokemon:
+            print(f"⏭️ [Fnac] Omitiendo {len(fnac_not_pokemon)} productos ajenos a Pokémon.")
+            for product_id in fnac_not_pokemon:
+                del fnac_products[product_id]
+
+        for product_id, info in fnac_products.items():
+            info["asin"] = product_id
+            info["marketplace_code"] = FNAC_STORE["code"]
+            info["store_label"] = FNAC_STORE["store_label"]
+            info["flag"] = FNAC_STORE["flag"]
+            info["link"] = info["url"]
+            info["categories"] = assign_categories(info["name"])
+            products[f"FNAC:{product_id}"] = info
+
         await browser.close()
 
     print(f"📦 Total combinado: {len(products)} productos únicos")
@@ -1185,13 +1335,13 @@ async def main():
         send_failed = False
 
         # Solo se envían alertas de Telegram para tiendas españolas (Amazon
-        # ES, El Corte Inglés y Carrefour). El resto de marketplaces (UK,
-        # US) se siguen detectando y guardando en el estado/snapshot para
-        # la web, pero no generan mensajes.
-        if (status_changed or stock_decreased or price_decreased) and info["marketplace_code"] in ("ES", "ECI", "CAR"):
-            # El nombre, el precio y (para ECI/Carrefour) el link vienen del
-            # scraping de Amazon/El Corte Inglés/Carrefour — datos externos
-            # que no controlamos — y el mensaje se manda con parse_mode:
+        # ES, El Corte Inglés, Carrefour y Fnac). El resto de marketplaces
+        # (UK, US) se siguen detectando y guardando en el estado/snapshot
+        # para la web, pero no generan mensajes.
+        if (status_changed or stock_decreased or price_decreased) and info["marketplace_code"] in ("ES", "ECI", "CAR", "FNAC"):
+            # El nombre, el precio y (para ECI/Carrefour/Fnac) el link vienen
+            # del scraping de Amazon/El Corte Inglés/Carrefour/Fnac — datos
+            # externos que no controlamos — y el mensaje se manda con parse_mode:
             # HTML, así que hay que
             # escaparlos o un título de producto con '<'/'>'/'&' rompería el
             # parseo (o, peor, colaría markup/enlaces falsos en el mensaje).
