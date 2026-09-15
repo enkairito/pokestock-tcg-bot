@@ -281,7 +281,7 @@
     "name": "Pokémon Colección Ursaluna Luna Carmesí (4 Cartas holográficas y 4 Paquetes de Mejora)",
     "status": "compra_directa",
     "stock": null,
-    "price": "38,00 €",
+    "price": "45,09 €",
     "first_seen": "2026-08-25T20:27:15.542170+00:00"
   },
   "ES:B0FXTY9D99": {
@@ -1292,8 +1292,8 @@
   "UK:B0DDYZX1TB": {
     "name": "Pokemon TCG: Scarlet & Violet - Surging Sparks Booster Bundle",
     "status": "compra_directa",
-    "stock": null,
-    "price": "103,21 €",
+    "stock": "3",
+    "price": "102,80 €",
     "first_seen": "2026-09-04T21:32:58.802612+00:00"
   },
   "UK:B0DB7C1Z26": {
@@ -1307,7 +1307,7 @@
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
     "status": "compra_directa",
     "stock": "2",
-    "price": "79,87 €",
+    "price": "79,91 €",
     "first_seen": "2026-09-04T21:32:58.802645+00:00"
   },
   "UK:B0FSJXSPPX": {
@@ -1467,7 +1467,7 @@
     "name": "Pokemon TCG: Trick or Trade Booster Bundle (2024) - 35 Paquetes",
     "status": "compra_directa",
     "stock": null,
-    "price": "134,99 €",
+    "price": "135,07 €",
     "first_seen": "2026-09-04T21:32:58.802853+00:00"
   },
   "US:B0G72SPRP6": {
@@ -1542,9 +1542,8 @@
   },
   "US:B0DVC187SP": {
     "name": "Pokemon TCG Scarlet & Violet Journey Together: Pack de 3 Booster Blister",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "49,36 €",
     "first_seen": "2026-09-04T21:32:58.802930+00:00"
   },
   "US:B0G5FWJ8NL": {
@@ -1607,7 +1606,7 @@
     "name": "Pokémon TCG: Booster Pack de 10 Cartas Mega Evolution Flames Phantasmal Mangas",
     "status": "compra_directa",
     "stock": "1",
-    "price": "35,71 €",
+    "price": "35,57 €",
     "first_seen": "2026-09-04T22:05:43.537336+00:00"
   },
   "UK:B0DLQJ613B": {
@@ -1654,7 +1653,7 @@
   "UK:B0FVYJPBWW": {
     "name": "Pokémon Chinese Dark Crystal Blaze CSV5C Slim Booster Box",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "price": "95,70 €",
     "first_seen": "2026-09-05T05:18:07.280940+00:00"
   },
@@ -1987,8 +1986,9 @@
   },
   "ES:B0H8SZX85C": {
     "name": "Pokémon: Colección con Pegatinas Especiales de Celebración 30.º Aniversario: Exeggutor de Alola de JCC Pokémon (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
-    "status": "no_disponible",
+    "status": "preventa",
     "stock": null,
+    "price": "18,99 €",
     "first_seen": "2026-09-09T13:28:23.224913+00:00"
   },
   "ES:B0H8SX7CF6": {
@@ -2009,7 +2009,7 @@
     "name": "Pokemon TCG: Paradox Destinies Tin - Raging Bolt EX",
     "status": "compra_directa",
     "stock": null,
-    "price": "76,51 €",
+    "price": "75,03 €",
     "first_seen": "2026-09-12T09:23:08.319159+00:00"
   },
   "UK:B0F6PGX3SQ": {

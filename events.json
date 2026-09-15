@@ -1,57 +1,5 @@
 [
   {
-    "ts": "2026-09-13T03:20:14.266335+00:00",
-    "type": "price_drop",
-    "asin": "B0G5FWJ8NL",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokémon TCG: Mega Charizard Tin",
-    "image": "https://m.media-amazon.com/images/I/81fmjlAy2qL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "69,64 €",
-    "prev_price": "76,01 €",
-    "link": "https://www.amazon.es/dp/B0G5FWJ8NL?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-13T06:20:38.918694+00:00",
-    "type": "price_drop",
-    "asin": "B08DVCNV3W",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokemon Sword and Shield Darkness Ablaze Booster Pack (1 Booster Pack)",
-    "image": "https://m.media-amazon.com/images/I/61+bgCiyXlL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "34,18 €",
-    "prev_price": "34,23 €",
-    "link": "https://www.amazon.es/dp/B08DVCNV3W?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-13T07:20:32.086559+00:00",
-    "type": "restock",
-    "asin": "B0C16H3DGV",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokemon Booster Pack - Scarlet & Violet SV1 Base Set - 10 Card Pack - Pack Art Varys",
-    "image": "https://m.media-amazon.com/images/I/71ARA+YjCfL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "33,44 €",
-    "prev_price": null,
-    "link": "https://www.amazon.es/dp/B0C16H3DGV?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-13T08:20:27.138310+00:00",
-    "type": "price_drop",
-    "asin": "B0DSGB5Q6B",
-    "marketplace": "ES",
-    "store_label": "Amazon ES",
-    "flag": "🇪🇸",
-    "name": "Pokémon Colección Ursaluna Luna Carmesí (4 Cartas holográficas y 4 Paquetes de Mejora)",
-    "image": "https://m.media-amazon.com/images/I/91DYxakGHhL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "38,00 €",
-    "prev_price": "45,09 €",
-    "link": "https://www.amazon.es/dp/B0DSGB5Q6B?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-13T08:20:33.169328+00:00",
     "type": "price_drop",
     "asin": "B0DG8VNG1F",
@@ -778,5 +726,57 @@
     "price": "34,05 €",
     "prev_price": "34,22 €",
     "link": "https://www.amazon.es/dp/B0DLTZPNR2?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-15T00:20:13.505161+00:00",
+    "type": "restock",
+    "asin": "B0H8SZX85C",
+    "marketplace": "ES",
+    "store_label": "Amazon ES",
+    "flag": "🇪🇸",
+    "name": "Pokémon: Colección con Pegatinas Especiales de Celebración 30.º Aniversario: Exeggutor de Alola de JCC Pokémon (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
+    "image": "https://m.media-amazon.com/images/I/91maWpFfy2L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "18,99 €",
+    "prev_price": null,
+    "link": "https://www.amazon.es/dp/B0H8SZX85C?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-15T00:20:19.603804+00:00",
+    "type": "price_drop",
+    "asin": "B0DDYZX1TB",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokemon TCG: Scarlet & Violet - Surging Sparks Booster Bundle",
+    "image": "https://m.media-amazon.com/images/I/817ZQoBRA3L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "102,80 €",
+    "prev_price": "103,21 €",
+    "link": "https://www.amazon.es/dp/B0DDYZX1TB?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-15T00:20:19.603919+00:00",
+    "type": "price_drop",
+    "asin": "B0FS98MMML",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokémon TCG: Booster Pack de 10 Cartas Mega Evolution Flames Phantasmal Mangas",
+    "image": "https://m.media-amazon.com/images/I/71r-eHgKChL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "35,57 €",
+    "prev_price": "35,71 €",
+    "link": "https://www.amazon.es/dp/B0FS98MMML?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-15T00:20:19.603935+00:00",
+    "type": "price_drop",
+    "asin": "B0DGY4Z6V3",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokemon TCG: Paradox Destinies Tin - Raging Bolt EX",
+    "image": "https://m.media-amazon.com/images/I/81VZxx1AlNL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "75,03 €",
+    "prev_price": "76,51 €",
+    "link": "https://www.amazon.es/dp/B0DGY4Z6V3?tag=enkairito-21"
   }
 ]
