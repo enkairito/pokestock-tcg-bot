@@ -268,8 +268,9 @@
   },
   "ES:B0GWDS3WTY": {
     "name": "Pokémon: Colección prémium Mega-Zygarde ex (1 Carta de promoción, 1 Carta de Gran tamaño con Efecto 3D, 1 Pegatina Especial y 8 Sobres de Mejora)",
-    "status": "no_disponible",
-    "stock": null,
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "46,99 €",
     "first_seen": "2026-08-25T20:27:15.542174+00:00"
   },
   "ES:B0GGJ1QQNZ": {
@@ -1517,7 +1518,7 @@
     "name": "Pokémon TCG: Mega Evolution—Phantasmal Flames Triple Pack Sneasel (1 Carta Promocional holográfica y 3 Sobres potenciadores)",
     "status": "compra_directa",
     "stock": null,
-    "price": "69,80 €",
+    "price": "69,09 €",
     "first_seen": "2026-09-04T21:32:58.802909+00:00"
   },
   "US:B0CQD9VBWS": {
@@ -1939,7 +1940,7 @@
   },
   "ES:B0H8SX832W": {
     "name": "Pokémon: Álbum para Colecciones de Celebración 30.º Aniversario de JCC Pokémon (1 álbum y 5 Sobres de Mejora)",
-    "status": "preventa",
+    "status": "invitacion",
     "stock": null,
     "price": "59,99 €",
     "first_seen": "2026-09-09T13:27:40.795579+00:00"
@@ -1953,21 +1954,21 @@
   },
   "ES:B0H8SWNVWT": {
     "name": "Pokémon: Colección Sylveon ex de Celebración 30.º Aniversario de JCC Pokémon (1 Carta holográfica de promoción, 1 Carta holográfica de Gran tamaño y 4 Sobres de Mejora)",
-    "status": "preventa",
+    "status": "invitacion",
     "stock": null,
     "price": "24,99 €",
     "first_seen": "2026-09-09T13:27:52.661446+00:00"
   },
   "ES:B0H8SY1NB9": {
     "name": "Pokémon: Colección Greninja ex de Celebración 30.º Aniversario de JCC Pokémon (1 Carta holográfica de promoción, 1 Carta holográfica de Gran tamaño y 4 Sobres de Mejora)",
-    "status": "preventa",
+    "status": "invitacion",
     "stock": null,
     "price": "24,99 €",
     "first_seen": "2026-09-09T13:27:58.861571+00:00"
   },
   "ES:B0H8T4RR5S": {
     "name": "Pokémon: Lata Celebración 30.º Aniversario: Sylveon ex de JCC Pokémon (1 Carta holográfica de promoción y 4 Sobres de Mejora)",
-    "status": "preventa",
+    "status": "invitacion",
     "stock": null,
     "price": "24,99 €",
     "first_seen": "2026-09-09T13:28:05.051265+00:00"
@@ -1981,21 +1982,21 @@
   },
   "ES:B0H8SXC5L9": {
     "name": "Pokémon: Colección con póster de Celebración 30.º Aniversario de JCC Pokémon (3 Cartas de promoción, 1 póster y 3 Sobres de Mejora)",
-    "status": "preventa",
+    "status": "invitacion",
     "stock": null,
     "price": "30,00 €",
     "first_seen": "2026-09-09T13:28:17.096102+00:00"
   },
   "ES:B0H8SZX85C": {
     "name": "Pokémon: Colección con Pegatinas Especiales de Celebración 30.º Aniversario: Exeggutor de Alola de JCC Pokémon (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
-    "status": "preventa",
+    "status": "invitacion",
     "stock": null,
     "price": "18,99 €",
     "first_seen": "2026-09-09T13:28:23.224913+00:00"
   },
   "ES:B0H8SX7CF6": {
     "name": "Pokémon: Colección con Pegatinas Especiales de Celebración 30.º Aniversario: Lucario de JCC Pokémon (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
-    "status": "preventa",
+    "status": "invitacion",
     "stock": null,
     "price": "18,99 €",
     "first_seen": "2026-09-09T13:28:29.363509+00:00"
@@ -2306,5 +2307,40 @@
     "stock": null,
     "price": "14,99 €",
     "first_seen": "2026-09-15T21:30:50.682515+00:00"
+  },
+  "FNAC:13106194": {
+    "name": "Caja 6 sobres de mejora Pokémon Megaevolución Oscuridad Absoluta",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "34,99 €",
+    "first_seen": "2026-09-15T22:10:03.234645+00:00"
+  },
+  "FNAC:13300140": {
+    "name": "Pack Pokémon Mega Evolution Chaos Rising 3 Bosster + Promo Card English",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "19,99 €",
+    "first_seen": "2026-09-15T22:10:08.939053+00:00"
+  },
+  "FNAC:13300142": {
+    "name": "Sobre Pokémon Chaos Rising English Varios modelos",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "5,99 €",
+    "first_seen": "2026-09-15T22:10:15.006297+00:00"
+  },
+  "FNAC:12912794": {
+    "name": "Pokémon Summer Tin Assortment Varios modelos",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "34,99 €",
+    "first_seen": "2026-09-15T22:10:20.927642+00:00"
+  },
+  "FNAC:13262399": {
+    "name": "Lata sobres Bandai Pokémon EX Megaevolución Oscuridad Absoluta Surtida",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "34,99 €",
+    "first_seen": "2026-09-15T22:10:27.034934+00:00"
   }
 }
