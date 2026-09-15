@@ -359,7 +359,7 @@
     "name": "HELLCOOL Bateria para Mando Xbox, 2x6200mWh Pilas Recargables con Cargador Pilas/Cable Carga/Display LED, Compatible Xbox Series X|S/Xbox OneX|S|Elite Controller - 25 Horas de Juego",
     "status": "compra_directa",
     "stock": null,
-    "price": "19,99 €",
+    "price": "19,99 €",
     "first_seen": "2026-09-11T19:25:04.811686+00:00"
   },
   "ES:B0FHQ6P7TQ": {
@@ -873,7 +873,7 @@
     "name": "Turtle Beach VelocityOne Flight, el sistema de control universal para Xbox Series X|S y Xbox One | PC con Windows 10/11",
     "status": "compra_directa",
     "stock": null,
-    "price": "299,99 €",
+    "price": "299,99 €",
     "first_seen": "2026-09-13T06:22:40.824880+00:00"
   },
   "ES:B0BN3GFBG7": {
@@ -976,14 +976,14 @@
     "name": "Grand Theft Auto The Trilogy: La edición definitiva (Xbox Series X/Xbox One)",
     "status": "compra_directa",
     "stock": "5",
-    "price": "33,53 €",
+    "price": "32,35 €",
     "first_seen": "2026-09-14T12:21:25.171617+00:00"
   },
   "ES:B074QMN4YW": {
     "name": "Microsoft - Adaptador Wireless (PC)",
     "status": "compra_directa",
-    "stock": null,
-    "price": "39,88 €",
+    "stock": "2",
+    "price": "39,85 €",
     "first_seen": "2026-09-14T12:21:25.171665+00:00"
   },
   "ES:B0F7RNNYZY": {
@@ -1033,5 +1033,123 @@
     "stock": null,
     "price": "37,99 €",
     "first_seen": "2026-09-14T18:22:20.419793+00:00"
+  },
+  "ES:B0FSRZNS38": {
+    "name": "Resident Evil Requiem XSRX",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T00:20:54.947318+00:00"
+  },
+  "ES:B0H653P38B": {
+    "name": "Tour de France 2026 (Xbox Series X). Juego Oficial NACON - XBXTDF26FRUK",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "44,90 €",
+    "first_seen": "2026-09-15T00:20:55.336075+00:00"
+  },
+  "ES:B0GYTDQ1T1": {
+    "name": "The Blood of Dawnwalker Day 1 Edition (Xbox Series X)",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "75,47 €",
+    "first_seen": "2026-09-15T00:20:55.336132+00:00"
+  },
+  "ES:B0DBLXZ8HR": {
+    "name": "Star Wars Jedi: Survivor XBOX ONE | Videojuegos | Castellano",
+    "status": "compra_directa",
+    "stock": "3",
+    "price": "19,99 €",
+    "first_seen": "2026-09-15T00:20:55.336147+00:00"
+  },
+  "ES:B0BLZ64C5H": {
+    "name": "Electronic Arts Star Wars Jedi: Survivor XBOX Series X, Videojuegos, Castellano",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "22,98 €",
+    "first_seen": "2026-09-15T00:20:55.336187+00:00"
+  },
+  "ES:B08F43JG2B": {
+    "name": "Power A Control alámbrico Xbox One - Azul",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "32,68 €",
+    "first_seen": "2026-09-15T00:20:55.336198+00:00"
+  },
+  "ES:B08F43M1F4": {
+    "name": "Power A Control alámbrico Xbox One - Rojo",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "43,39 €",
+    "first_seen": "2026-09-15T00:20:55.336208+00:00"
+  },
+  "ES:B08F4444HM": {
+    "name": "Power A, Mando con cable Xbox Series X|S - Negro",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "29,99 €",
+    "first_seen": "2026-09-15T00:20:55.336217+00:00"
+  },
+  "ES:B0HCTQNBN8": {
+    "name": "8BitDo Ultimate Charging Dock for Xbox Controllers, Gears of War: E-Day",
+    "status": "preventa",
+    "stock": null,
+    "price": "39,99 €",
+    "first_seen": "2026-09-15T00:20:55.336219+00:00"
+  },
+  "ES:B08M3S3VPY": {
+    "name": "eXtremeRate PlayVital Funda de Silicona para Xbox Series X/S Mando",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "13,99 €",
+    "first_seen": "2026-09-15T00:20:55.336221+00:00"
+  },
+  "ES:B0DPCH9ZZ4": {
+    "name": "Mcbazel Botones de Repuesto LB RB LT RT, Botones de Parachoques con Kit de Destornillador T6 T8 Compatible con Controlador Xbox Series X/S",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "8,54 €",
+    "first_seen": "2026-09-15T00:20:55.336224+00:00"
+  },
+  "ES:B08Z5BSJRT": {
+    "name": "Venom Soporte de consola con iluminación LED multicolor (Xbox Series X)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "24,99 €",
+    "first_seen": "2026-09-15T00:20:55.336225+00:00"
+  },
+  "ES:B0GWDBB2D5": {
+    "name": "Repuestos Para Xbox Series X S, Mandos Para Xbox Series X, Juego De Herramientas Para Reparar Mandos De Xbox, Kit De 8 Piezas Con Destornilladores Y Puntas De Colores, Negro",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "11,99 €",
+    "first_seen": "2026-09-15T00:20:55.336227+00:00"
+  },
+  "ES:B0GD7CFFVT": {
+    "name": "GameSir G7 Pro Mando 1000Hz con Estación de Carga para Xbox Series X|S, Xbox One, Windows 10/11 & Android – Joysticks TMR, Gatillos Ajustables & 4 Botones Programables – Oro",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "99,99 €",
+    "first_seen": "2026-09-15T00:20:55.336236+00:00"
+  },
+  "ES:B0D79FJHFW": {
+    "name": "Power A Mando con cable Xbox Series X|S - Azul marino, mando, mando para videojuegos con cable, mando para juegos, funciona con Xbox One",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "29,99 €",
+    "first_seen": "2026-09-15T00:20:55.336238+00:00"
+  },
+  "ES:B08F436VBJ": {
+    "name": "Power A, Mando con cable Xbox Series X|S - Blanco",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "29,99 €",
+    "first_seen": "2026-09-15T00:20:55.336240+00:00"
+  },
+  "ES:B0DWL7FZ3W": {
+    "name": "PowerA Controlador simétrico con cable para Xbox Series X|S - Azul, licencia oficial, diseño de palanca de pulgar en línea, compatible con Windows 10/11, motores duales Rumble, disparadores de impulso",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "42,83 €",
+    "first_seen": "2026-09-15T00:20:55.336244+00:00"
   }
 }
