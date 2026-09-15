@@ -792,8 +792,13 @@ async def discover_eci_products(page, label, url):
         for sel in ["article[id^='product-']", "article", "[data-testid*='product']", "a[href*='/es-brand/']", "[class*='product-tile']", "[class*='productCard']"]:
             n = await page.eval_on_selector_all(sel, "els => els.length")
             print(f"🧪 [DEBUG_ECI] selector {sel!r}: {n} elementos")
-        html_snippet = await page.evaluate("document.body.innerHTML.slice(0, 4000)")
-        print(f"🧪 [DEBUG_ECI] body HTML snippet:\n{html_snippet}")
+        articles_info = await page.eval_on_selector_all(
+            "article",
+            "els => els.slice(0, 3).map(el => ({id: el.id, cls: el.className, outer: el.outerHTML.slice(0, 800)}))",
+        )
+        for i, a in enumerate(articles_info):
+            print(f"🧪 [DEBUG_ECI] article[{i}] id={a['id']!r} class={a['cls']!r}")
+            print(f"🧪 [DEBUG_ECI] article[{i}] outerHTML: {a['outer']}")
 
     tiles = await page.eval_on_selector_all(
         "article[id^='product-']",
