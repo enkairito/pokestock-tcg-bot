@@ -5,15 +5,17 @@
 const REPO = "enkairito/pokestock-tcg-bot";
 
 // El plan gratis de Cloudflare Workers permite 5 Cron Triggers por CUENTA
-// (no por worker) — con los 6 checks originales no cabía. Magic, Lorcana y
-// Yu-Gi-Oh (los tres "cada 6 horas") comparten ahora un único disparo: antes
-// iban 10 minutos separados solo para no golpear los runners de GitHub en
-// el mismo minuto exacto, algo que deja de importar una vez el disparo no
-// depende del "schedule:" de GitHub sino de este worker.
+// (no por worker), así que hay que repartir 9 categorías en 5 disparos.
+// Gaming (Nintendo/PlayStation/Xbox) tiene su propio disparo cada 2h en vez
+// de compartir el de 6h con las TCG "tranquilas" (Magic/Lorcana/Yu-Gi-Oh!):
+// un restock de PS5/Switch 2 vuela en minutos, así que le hace falta más
+// frecuencia — parecida a Pokémon/One Piece, aunque sin su propio hueco
+// horario dedicado por no gastar el último trigger libre en solo eso.
 const CRON_TO_WORKFLOWS = {
   "17 * * * *": ["check_stock.yml"],
   "5 * * * *": ["check_onepiece.yml"],
-  "15 */6 * * *": ["check_magic.yml", "check_lorcana.yml", "check_yugioh.yml", "check_nintendo.yml", "check_playstation.yml", "check_xbox.yml"],
+  "15 */6 * * *": ["check_magic.yml", "check_lorcana.yml", "check_yugioh.yml"],
+  "30 */2 * * *": ["check_nintendo.yml", "check_playstation.yml", "check_xbox.yml"],
   "0 6 * * *": ["check_accessories.yml"],
 };
 
@@ -69,7 +71,7 @@ export default {
   // Sin ruta propia real: solo sirve para forzar una prueba manual sin
   // esperar a la hora del cron, ya que /__scheduled solo funciona con
   // `wrangler dev` en local, no contra el worker ya desplegado.
-  // Uso: /?test=5+*+*+*+*  (con el cron exacto, entre los 4 de CRON_TO_WORKFLOWS)
+  // Uso: /?test=5+*+*+*+*  (con el cron exacto, entre los 5 de CRON_TO_WORKFLOWS)
   async fetch(request, env) {
     const cron = new URL(request.url).searchParams.get("test");
     if (!cron) {
