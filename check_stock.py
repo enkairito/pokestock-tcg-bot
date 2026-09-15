@@ -788,6 +788,13 @@ async def discover_eci_products(page, label, url):
     if any(marker in body_text for marker in CAPTCHA_MARKERS):
         raise ScrapeError(f"Captcha en ECI/{label}")
 
+    if os.environ.get("DEBUG_ECI") == "1":
+        for sel in ["article[id^='product-']", "article", "[data-testid*='product']", "a[href*='/es-brand/']", "[class*='product-tile']", "[class*='productCard']"]:
+            n = await page.eval_on_selector_all(sel, "els => els.length")
+            print(f"🧪 [DEBUG_ECI] selector {sel!r}: {n} elementos")
+        html_snippet = await page.evaluate("document.body.innerHTML.slice(0, 4000)")
+        print(f"🧪 [DEBUG_ECI] body HTML snippet:\n{html_snippet}")
+
     tiles = await page.eval_on_selector_all(
         "article[id^='product-']",
         """els => els.map(el => {
