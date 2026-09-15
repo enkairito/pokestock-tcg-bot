@@ -7,7 +7,7 @@ compatibility_date = "2026-09-10"
 # de Cloudflare — ver README.md.
 [triggers]
 crons = [
-  "17 * * * *",
+  "*/20 * * * *",
   "5 * * * *",
   "15 */6 * * *",
   "30 */2 * * *",

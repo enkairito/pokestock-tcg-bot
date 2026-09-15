@@ -12,7 +12,10 @@ const REPO = "enkairito/pokestock-tcg-bot";
 // frecuencia — parecida a Pokémon/One Piece, aunque sin su propio hueco
 // horario dedicado por no gastar el último trigger libre en solo eso.
 const CRON_TO_WORKFLOWS = {
-  "17 * * * *": ["check_stock.yml"],
+  // TEMPORAL (2026-09-15): cada 20 min en vez de cada hora mientras dure la
+  // fiebre del 30º Aniversario — volver a "17 * * * *" cuando baje la
+  // demanda.
+  "*/20 * * * *": ["check_stock.yml"],
   "5 * * * *": ["check_onepiece.yml"],
   "15 */6 * * *": ["check_magic.yml", "check_lorcana.yml", "check_yugioh.yml"],
   "30 */2 * * *": ["check_nintendo.yml", "check_playstation.yml", "check_xbox.yml"],
