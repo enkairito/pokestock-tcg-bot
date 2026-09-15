@@ -164,7 +164,9 @@ ECI_STORE = {
     "tag": None,
     "pages": [
         ("JCC Pokémon", "https://www.elcorteingles.es/juguetes/search-nwx/?s=pokemon+jcc&stype=text_box_multi"),
-        ("Cromos Pokémon", "https://www.elcorteingles.es/juguetes/cromos/brand::Pok%C3%A9mon/"),
+        ("Cromos Pokémon (original)", "https://www.elcorteingles.es/juguetes/cromos/brand::Pok%C3%A9mon/"),
+        ("Cromos Pokémon (search)", "https://www.elcorteingles.es/juguetes/search-nwx/?s=pokemon+cromos&stype=text_box_multi"),
+        ("Cromos Pokémon (single colon)", "https://www.elcorteingles.es/juguetes/cromos/brand:Pok%C3%A9mon/"),
     ],
 }
 ECI_ID_RE = re.compile(r"^product-([A-Za-z0-9]+)$")
@@ -789,16 +791,11 @@ async def discover_eci_products(page, label, url):
         raise ScrapeError(f"Captcha en ECI/{label}")
 
     if os.environ.get("DEBUG_ECI") == "1":
-        for sel in ["article[id^='product-']", "article", "[data-testid*='product']", "a[href*='/es-brand/']", "[class*='product-tile']", "[class*='productCard']"]:
-            n = await page.eval_on_selector_all(sel, "els => els.length")
-            print(f"🧪 [DEBUG_ECI] selector {sel!r}: {n} elementos")
-        articles_info = await page.eval_on_selector_all(
-            "article",
-            "els => els.slice(0, 3).map(el => ({id: el.id, cls: el.className, outer: el.outerHTML.slice(0, 800)}))",
+        names = await page.eval_on_selector_all(
+            "article[aria-label]",
+            "els => els.map(el => el.getAttribute('aria-label'))",
         )
-        for i, a in enumerate(articles_info):
-            print(f"🧪 [DEBUG_ECI] article[{i}] id={a['id']!r} class={a['cls']!r}")
-            print(f"🧪 [DEBUG_ECI] article[{i}] outerHTML: {a['outer']}")
+        print(f"🧪 [DEBUG_ECI] {len(names)} nombres de producto reales encontrados: {names}")
 
     tiles = await page.eval_on_selector_all(
         "article[id^='product-']",
@@ -1194,6 +1191,8 @@ async def main():
                 eci_products.update(page_products)
             except Exception as e:
                 print(f"❌ No se pudo cargar la página de El Corte Inglés ({label}): {e!r}")
+                if os.environ.get("DEBUG_ECI") == "1":
+                    continue
                 raise
 
         eci_out_of_stock = {a for a, i in eci_products.items() if i["status"] == "no_disponible"}
