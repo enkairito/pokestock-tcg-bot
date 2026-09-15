@@ -1474,8 +1474,8 @@
   "US:B0G72SPRP6": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "83,51 €",
+    "stock": "3",
+    "price": "84,68 €",
     "first_seen": "2026-09-04T21:32:58.802874+00:00"
   },
   "US:B0G72QBTBJ": {
@@ -1489,7 +1489,7 @@
     "name": "Pokémon TCG: Cofre de coleccionista - Scream Tail & Iron Valiant (2 Tarjetas promocionales de Aluminio, 6 Paquetes de Refuerzo y más)",
     "status": "compra_directa",
     "stock": "5",
-    "price": "93,02 €",
+    "price": "93,99 €",
     "first_seen": "2026-09-04T21:32:58.802885+00:00"
   },
   "US:B0G5S61BHK": {
@@ -1503,14 +1503,14 @@
     "name": "Pokemon TCG Scarlet & Violet 10.5 White Flare Binder Collection Box - 5 Packs",
     "status": "compra_directa",
     "stock": null,
-    "price": "105,22 €",
+    "price": "106,32 €",
     "first_seen": "2026-09-04T21:32:58.802898+00:00"
   },
   "US:B0C4D4R3H8": {
     "name": "Pokémon JCC: Estuche Courrousinge-ex",
     "status": "compra_directa",
     "stock": null,
-    "price": "88,48 €",
+    "price": "89,37 €",
     "first_seen": "2026-09-04T21:32:58.802903+00:00"
   },
   "US:B0FPNRG8GS": {
@@ -1600,7 +1600,7 @@
   "US:B0GM7H8GCW": {
     "name": "Pokemon Blade Awakened CSV7C | Chino simplificado | Booster Box | Más de 15 años",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "5",
     "price": "70,56 €",
     "first_seen": "2026-09-04T22:05:43.537321+00:00"
   },
@@ -1663,7 +1663,7 @@
     "name": "Pokémon TCG: Scarlet & Violet - Journey Together - Paquete de 3 blíster - Scrafty (3 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
     "status": "compra_directa",
     "stock": null,
-    "price": "45,25 €",
+    "price": "45,69 €",
     "first_seen": "2026-09-05T05:18:07.280980+00:00"
   },
   "UK:B0FTSVL3Z6": {
@@ -1712,7 +1712,7 @@
     "name": "Pokémon TCG Scarlet & Violet 10.5 Black Bolt Booster Set",
     "status": "compra_directa",
     "stock": null,
-    "price": "137,77 €",
+    "price": "139,22 €",
     "first_seen": "2026-09-06T10:19:00.889053+00:00"
   },
   "UK:B0GWCSP6MR": {
@@ -2178,5 +2178,123 @@
     "status": "no_disponible",
     "stock": null,
     "first_seen": "2026-09-15T20:55:26.061474+00:00"
+  },
+  "FNAC:13398338": {
+    "name": "Caja Pokémon Ultraprémium Umbreo 30º Aniversario",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T21:30:12.186750+00:00"
+  },
+  "FNAC:13398337": {
+    "name": "Caja Pokémon Ultraprémium Espeon 30º Aniversario",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T21:30:12.186772+00:00"
+  },
+  "FNAC:13398326": {
+    "name": "Pack Álbum + 5 sobres TCG Pokémon 30º Aniversario",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T21:30:12.186776+00:00"
+  },
+  "FNAC:13398333": {
+    "name": "Caja Pokémon con póster 30º Aniversario",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T21:30:12.186779+00:00"
+  },
+  "FNAC:13398331": {
+    "name": "Mini lata Pokémon 30Th Aniversario Varios modelos",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T21:30:12.186781+00:00"
+  },
+  "FNAC:13398325": {
+    "name": "Pack Pokémon 3 sobres TCG con pegatinas especiales 30º Aniversario",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T21:30:12.186784+00:00"
+  },
+  "FNAC:13398334": {
+    "name": "Battle Deck Pokémon Espeon Ex / Umbreon Ex 30º Aniversario - Envío aleatorio",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T21:30:12.186786+00:00"
+  },
+  "FNAC:13398332": {
+    "name": "Lata Pokémon 30º Aniversario Greninja Ex / Sylveon Ex - Envío aleatorio",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T21:30:12.186789+00:00"
+  },
+  "FNAC:13398329": {
+    "name": "Caja Pokémon con figura Mewtwo 30º Aniversario",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T21:30:12.186791+00:00"
+  },
+  "FNAC:13398327": {
+    "name": "Pack de 6 sobres de mejora Pokémon 30º Aniversario",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T21:30:12.186793+00:00"
+  },
+  "FNAC:13398328": {
+    "name": "Caja Pokémon con figura Mew 30º Aniversario",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T21:30:12.186796+00:00"
+  },
+  "FNAC:13398336": {
+    "name": "Pack 2 sobres Pokémon 30º Aniversario",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T21:30:12.186798+00:00"
+  },
+  "FNAC:13398335": {
+    "name": "Caja Premium Pokémon Ditto 30º Aniversario",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T21:30:12.186800+00:00"
+  },
+  "FNAC:13398324": {
+    "name": "Caja de entrenador élite Pokémon 30º Aniversario",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T21:30:12.186802+00:00"
+  },
+  "FNAC:13398330": {
+    "name": "Caja Pokémon Coleccion Greninja Ex / Sylveon Ex 30º Aniversario - Envío aleatorio",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T21:30:12.186804+00:00"
+  },
+  "FNAC:13106193": {
+    "name": "Pack Pokémon Oscuridad Absoluta 3 sobres de mejora de Megaevolución + Carta holográfica",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "19,99 €",
+    "first_seen": "2026-09-15T21:30:12.564756+00:00"
+  },
+  "FNAC:12702411": {
+    "name": "Pack 3 Sobres Pokemon TCG Marzo 2026",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "19,99 €",
+    "first_seen": "2026-09-15T21:30:18.200576+00:00"
+  },
+  "FNAC:13196814": {
+    "name": "Pokémon Summer Tin Assortment English Varios modelos",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "34,99 €",
+    "first_seen": "2026-09-15T21:30:44.947747+00:00"
+  },
+  "FNAC:12912795": {
+    "name": "Sobres Pokémon Mini Tin Assorted Varios modelos",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "14,99 €",
+    "first_seen": "2026-09-15T21:30:50.682515+00:00"
   }
 }
