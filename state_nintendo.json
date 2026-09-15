@@ -32,14 +32,15 @@
   "ES:B0F1R2437T": {
     "name": "Turtle Beach Airlite Fit Auriculares con Cable para Juegos en Neón Azul y Rojo con Licencia Oficial para Todos los Nintendo Switch",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "23,11 €",
+    "stock": null,
+    "price": "24,42 €",
     "first_seen": "2026-09-11T19:20:15.362342+00:00"
   },
   "ES:B0FQWHWWSG": {
     "name": "Metroid Prime 4: Beyond - Switch",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "38,99 €",
     "first_seen": "2026-09-11T19:20:15.362344+00:00"
   },
   "ES:B01N5OPMJW": {
@@ -120,9 +121,8 @@
   },
   "ES:B0FQWNJFHT": {
     "name": "Metroid Prime 4: Beyond – Nintendo Switch 2 Edition",
-    "status": "compra_directa",
-    "stock": "2",
-    "price": "52,95 €",
+    "status": "no_disponible",
+    "stock": null,
     "first_seen": "2026-09-11T19:20:15.911952+00:00"
   },
   "ES:B0F8WRHMGT": {
@@ -337,15 +337,15 @@
   "ES:B0FDTLRZSH": {
     "name": "Turtle Beach Airlite Fit Auriculares con Cable para Juegos en Gris carbón - con Licencia Oficial para los Nintendo Switch 2",
     "status": "compra_directa",
-    "stock": "3",
-    "price": "21,99 €",
+    "stock": null,
+    "price": "21,99 €",
     "first_seen": "2026-09-11T19:20:15.912112+00:00"
   },
   "ES:B0F49DHSHJ": {
     "name": "Orzly Funda de Transporte para Consola Nintendo Switch 2 2025 de 7.9 Pulgadas, Funda rígida con Almacenamiento Inteligente para Accesorios y Bolsillos de Juegos, Edición de Caja de Regalo",
     "status": "compra_directa",
     "stock": null,
-    "price": "22,48 €",
+    "price": "22,48 €",
     "first_seen": "2026-09-11T19:20:15.912114+00:00"
   },
   "ES:B0DHSCVFMT": {
@@ -421,7 +421,7 @@
   "ES:B0GMRB7W9V": {
     "name": "Turtle Beach Airlite Fit Auriculares con Cable para Juegos en Mario Star con Licencia Oficial para Todos los Nintendo Switch: micrófono abatible y silenciable, Orejeras de Comodidad Superior",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "4",
     "price": "24,90 €",
     "first_seen": "2026-09-11T19:20:15.912134+00:00"
   },
@@ -1273,5 +1273,18 @@
     "stock": null,
     "price": "37,99 €",
     "first_seen": "2026-09-14T18:21:06.097398+00:00"
+  },
+  "ES:B0BY9DTP8S": {
+    "name": "Mars Gaming MH-Glow, Auriculares 360° Full Chroma RGB Flow, Micrófono Cancelación Ruido, Ultraligero, Mempory-Foam, Windows/PS4/PS5/XBOX Series X|S/One/Mac/Switch/Switch 2/Smartphone/Tablet, Blanco",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T00:23:07.605994+00:00"
+  },
+  "ES:B0BF54SNKB": {
+    "name": "Electronic Arts It Takes Two | Nintendo Switch / Switch 2 |Videojuegos Castellano",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "39,99 €",
+    "first_seen": "2026-09-15T00:23:08.150021+00:00"
   }
 }
