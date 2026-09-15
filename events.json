@@ -1,18 +1,5 @@
 [
   {
-    "ts": "2026-09-13T08:20:33.169328+00:00",
-    "type": "price_drop",
-    "asin": "B0DG8VNG1F",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokémon TCG: Scarlet & Violet—Shrouded Fable Booster Bundle (6 Booster Packs)",
-    "image": "https://m.media-amazon.com/images/I/81PYT9ru31L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "97,86 €",
-    "prev_price": "97,88 €",
-    "link": "https://www.amazon.es/dp/B0DG8VNG1F?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-13T09:20:32.108037+00:00",
     "type": "restock",
     "asin": "B0DSLX3SXT",
@@ -778,5 +765,18 @@
     "price": "75,03 €",
     "prev_price": "76,51 €",
     "link": "https://www.amazon.es/dp/B0DGY4Z6V3?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-15T01:20:03.259615+00:00",
+    "type": "price_drop",
+    "asin": "B0BZFKQK37",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokemon TCG: Scarlet & Violet SV01 3 Pack Blister - Dondozo",
+    "image": "https://m.media-amazon.com/images/I/61Uv489grQL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "59,45 €",
+    "prev_price": "59,48 €",
+    "link": "https://www.amazon.es/dp/B0BZFKQK37?tag=enkairito-21"
   }
 ]
