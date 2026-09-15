@@ -1426,7 +1426,7 @@
     "name": "Pokémon- Origin Forme Palkia VSTAR Baraja de Batalla de la Liga, Multicolor (290-85236)",
     "status": "compra_directa",
     "stock": "5",
-    "price": "47,07 €",
+    "price": "47,06 €",
     "first_seen": "2026-09-04T21:32:58.802801+00:00"
   },
   "UK:B0C7QXP3FH": {
@@ -1474,7 +1474,7 @@
   "US:B0G72SPRP6": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "1",
     "price": "84,68 €",
     "first_seen": "2026-09-04T21:32:58.802874+00:00"
   },
@@ -1524,7 +1524,7 @@
     "name": "Pokemon Scarlet & Violet 151 | Booster Pack",
     "status": "compra_directa",
     "stock": null,
-    "price": "65,06 €",
+    "price": "65,73 €",
     "first_seen": "2026-09-04T21:32:58.802915+00:00"
   },
   "US:B0D1RKJM6K": {
@@ -1774,7 +1774,7 @@
     "name": "Pokémon TCG: Booster Pack de 10 Cartas Mega Evolution Flames Phantasmal Mangas",
     "status": "compra_directa",
     "stock": null,
-    "price": "38,64 €",
+    "price": "40,11 €",
     "first_seen": "2026-09-08T14:34:56.335771+00:00"
   },
   "UK:B0DG8VNG1F": {
@@ -1893,7 +1893,7 @@
     "name": "Pokemon TCG: Sword & Shield - Paquete de Refuerzo de Estrellas Brillantes (10 Tarjetas por Paquete)",
     "status": "compra_directa",
     "stock": null,
-    "price": "42,54 €",
+    "price": "42,63 €",
     "first_seen": "2026-09-08T14:34:56.335946+00:00"
   },
   "US:B0D4B515H1": {
@@ -2366,9 +2366,8 @@
   },
   "ECI:A202035442": {
     "name": "30TH Blister colección con pegatinas especiales de Celebración 30.º Aniversario de JCC Pokémon. POKEMON. BANDAI. Modelos surtidos",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "24,99 €",
     "first_seen": "2026-09-15T22:43:18.891574+00:00"
   },
   "ECI:A202035450": {
