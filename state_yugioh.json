@@ -19,8 +19,9 @@
   },
   "ES:B0FZTZK1WF": {
     "name": "Yu-Gi-Oh! Laberinto DE Muertos 3-Pack Booster (Versión en español)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "12,99 €",
     "first_seen": "2026-09-07T17:41:03.832724+00:00"
   },
   "ES:B0GQ56GD7T": {
@@ -75,13 +76,13 @@
     "name": "Yu-Gi-Oh! JCC Protocolo de Explosión Display (24) (Versión en español)",
     "status": "compra_directa",
     "stock": "1",
-    "price": "97,38 €",
+    "price": "103,00 €",
     "first_seen": "2026-09-07T17:41:40.189032+00:00"
   },
   "ES:B0FTM57WTW": {
     "name": "Yu-Gi-Oh! JCC EL DECK DE LAS CRÓNICAS: Encantadoras de Espíritus (Edición All-Foil) (Versión en español)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "price": "19,99 €",
     "first_seen": "2026-09-07T17:41:46.061595+00:00"
   },
