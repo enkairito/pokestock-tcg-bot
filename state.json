@@ -268,9 +268,8 @@
   },
   "ES:B0GWDS3WTY": {
     "name": "Pokémon: Colección prémium Mega-Zygarde ex (1 Carta de promoción, 1 Carta de Gran tamaño con Efecto 3D, 1 Pegatina Especial y 8 Sobres de Mejora)",
-    "status": "compra_directa",
-    "stock": "1",
-    "price": "46,99 €",
+    "status": "no_disponible",
+    "stock": null,
     "first_seen": "2026-08-25T20:27:15.542174+00:00"
   },
   "ES:B0GGJ1QQNZ": {
@@ -1490,7 +1489,7 @@
     "name": "Pokémon TCG: Cofre de coleccionista - Scream Tail & Iron Valiant (2 Tarjetas promocionales de Aluminio, 6 Paquetes de Refuerzo y más)",
     "status": "compra_directa",
     "stock": "5",
-    "price": "93,99 €",
+    "price": "98,58 €",
     "first_seen": "2026-09-04T21:32:58.802885+00:00"
   },
   "US:B0G5S61BHK": {
@@ -1518,7 +1517,7 @@
     "name": "Pokémon TCG: Mega Evolution—Phantasmal Flames Triple Pack Sneasel (1 Carta Promocional holográfica y 3 Sobres potenciadores)",
     "status": "compra_directa",
     "stock": null,
-    "price": "69,09 €",
+    "price": "69,80 €",
     "first_seen": "2026-09-04T21:32:58.802909+00:00"
   },
   "US:B0CQD9VBWS": {
@@ -1531,7 +1530,7 @@
   "US:B0D1RKJM6K": {
     "name": "Pokemon TCG: Scarlet & Violet - Paquete de refuerzo de destinos paldeanos",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "price": "337,03 €",
     "first_seen": "2026-09-04T21:32:58.802920+00:00"
   },
@@ -1588,7 +1587,7 @@
     "name": "Pokemon Scarlet & Violet Stellar Crown Booster Pack",
     "status": "compra_directa",
     "stock": null,
-    "price": "18,62 €",
+    "price": "26,49 €",
     "first_seen": "2026-09-04T22:05:43.537215+00:00"
   },
   "UK:B0DBHJPLVB": {
@@ -1602,7 +1601,7 @@
     "name": "Pokemon Blade Awakened CSV7C | Chino simplificado | Booster Box | Más de 15 años",
     "status": "compra_directa",
     "stock": "5",
-    "price": "70,56 €",
+    "price": "71,28 €",
     "first_seen": "2026-09-04T22:05:43.537321+00:00"
   },
   "US:B0FS98MMML": {
@@ -1719,8 +1718,8 @@
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "21,90 €",
+    "stock": null,
+    "price": "21,65 €",
     "first_seen": "2026-09-06T13:57:50.628764+00:00"
   },
   "UK:B0DLTZPNR2": {
@@ -1933,7 +1932,7 @@
   },
   "ES:B0H8SZ9F99": {
     "name": "Pokémon: Blíster de 2 Sobres de Mejora de Celebración 30.º Aniversario de JCC Pokémon (1 Carta holográfica, 1 Moneda y 2 Sobres de Mejora)",
-    "status": "preventa",
+    "status": "invitacion",
     "stock": null,
     "price": "12,99 €",
     "first_seen": "2026-09-09T13:27:34.624360+00:00"
@@ -1947,7 +1946,7 @@
   },
   "ES:B0H8T5GC4W": {
     "name": "Pokémon: Caja de Entrenador Élite de Celebración 30.º Aniversario de JCC Pokémon (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
-    "status": "preventa",
+    "status": "invitacion",
     "stock": null,
     "price": "59,99 €",
     "first_seen": "2026-09-09T13:27:46.776826+00:00"
