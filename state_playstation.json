@@ -400,7 +400,7 @@
     "name": "Jurassic World Evolution 3 (Playstation 5)",
     "status": "compra_directa",
     "stock": null,
-    "price": "49,99 €",
+    "price": "49,99 €",
     "first_seen": "2026-09-12T00:28:04.018923+00:00"
   },
   "ES:B0D63D729Q": {
@@ -477,7 +477,7 @@
     "name": "Logitech G Astro A50 Lightspeed Auriculares inalámbricos de Gaming + Base",
     "status": "compra_directa",
     "stock": null,
-    "price": "227,00 €",
+    "price": "228,98 €",
     "first_seen": "2026-09-12T00:28:04.018968+00:00"
   },
   "ES:B01LBH9ILW": {
@@ -641,7 +641,7 @@
     "name": "Ultra Pro Penny Fundas para tarjetas, estándar, blandas, para cartas coleccionables, como Pokemon Magic, tamaño estándar, transparentes, 400 unidades",
     "status": "compra_directa",
     "stock": null,
-    "price": "8,39 €",
+    "price": "8,21 €",
     "first_seen": "2026-09-12T06:27:49.066550+00:00"
   },
   "ES:B0DDTPX5DY": {
@@ -763,7 +763,7 @@
     "name": "AceGamer 2 Pack Mando Inalámbrico para PS4，Mando de Juego para PS4/Pro/Slim/PC，Gamepad Joystick con Turbo/Botón Trasero/Doble Vibración/6-Axis Sensor Giroscópico/Panel Táctil (Blanco o negro)",
     "status": "compra_directa",
     "stock": null,
-    "price": "35,99 €",
+    "price": "35,99 €",
     "first_seen": "2026-09-12T12:27:13.469392+00:00"
   },
   "ES:B07L7W4SRT": {
@@ -1070,7 +1070,7 @@
     "name": "PlayStation 5-Until Dawn 2 - Edición Estándar",
     "status": "preventa",
     "stock": null,
-    "price": "49,99 €",
+    "price": "49,99 €",
     "first_seen": "2026-09-13T12:22:28.699801+00:00"
   },
   "ES:B0C74MGJHG": {
@@ -1090,7 +1090,7 @@
     "name": "The Crew Motorfest Limited Edition (Exclusivo Amazon) (PS4)",
     "status": "compra_directa",
     "stock": null,
-    "price": "19,11 €",
+    "price": "19,99 €",
     "first_seen": "2026-09-13T18:20:21.671599+00:00"
   },
   "ES:B0C74PQ6TX": {
@@ -1194,5 +1194,39 @@
     "stock": null,
     "price": "29,95 €",
     "first_seen": "2026-09-14T18:20:43.859449+00:00"
+  },
+  "ES:B08LM3KW18": {
+    "name": "Playstation Console Sony 5 Edition Digital",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T00:20:12.030350+00:00"
+  },
+  "ES:B0F2GWBNKF": {
+    "name": "Playstation Portal - Remote Player (Midnight Black)(For Use with Playstation 5) /PS5",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "300,53 €",
+    "first_seen": "2026-09-15T00:20:12.440978+00:00"
+  },
+  "ES:B07W7KFFFF": {
+    "name": "Logitech G G923 Racing Wheel and Pedals for Playstation & PC",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "229,00 €",
+    "first_seen": "2026-09-15T00:20:12.441018+00:00"
+  },
+  "ES:B0BZJFJM16": {
+    "name": "Sonic Origins Plus (PlayStation 4)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "24,93 €",
+    "first_seen": "2026-09-15T00:20:12.441064+00:00"
+  },
+  "ES:B0HFVP4VQS": {
+    "name": "Playstation Mando Inalámbrico DualSense® – Edición Especial Icon Blue",
+    "status": "preventa",
+    "stock": null,
+    "price": "84,99 €",
+    "first_seen": "2026-09-15T00:20:12.441096+00:00"
   }
 }
