@@ -164,9 +164,8 @@ ECI_STORE = {
     "tag": None,
     "pages": [
         ("JCC Pokémon", "https://www.elcorteingles.es/juguetes/search-nwx/?s=pokemon+jcc&stype=text_box_multi"),
-        ("Cromos Pokémon (original)", "https://www.elcorteingles.es/juguetes/cromos/brand::Pok%C3%A9mon/"),
+        ("Cromos Pokémon (subcategoría)", "https://www.elcorteingles.es/juguetes/cromos/sobres-de-cromos/brand::Pok%C3%A9mon/"),
         ("Cromos Pokémon (search)", "https://www.elcorteingles.es/juguetes/search-nwx/?s=pokemon+cromos&stype=text_box_multi"),
-        ("Cromos Pokémon (single colon)", "https://www.elcorteingles.es/juguetes/cromos/brand:Pok%C3%A9mon/"),
     ],
 }
 ECI_ID_RE = re.compile(r"^product-([A-Za-z0-9]+)$")
