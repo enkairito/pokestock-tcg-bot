@@ -164,6 +164,7 @@ ECI_STORE = {
     "tag": None,
     "pages": [
         ("JCC Pokémon", "https://www.elcorteingles.es/juguetes/search-nwx/?s=pokemon+jcc&stype=text_box_multi"),
+        ("Cromos Pokémon", "https://www.elcorteingles.es/juguetes/cromos/brand::Pok%C3%A9mon/"),
     ],
 }
 ECI_ID_RE = re.compile(r"^product-([A-Za-z0-9]+)$")
