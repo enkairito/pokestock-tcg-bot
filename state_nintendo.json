@@ -19,9 +19,8 @@
   },
   "ES:B09S5S9L94": {
     "name": "Nintendo Switch Sports",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "44,99 €",
     "first_seen": "2026-09-11T19:20:15.362338+00:00"
   },
   "ES:B0GNB8B2NS": {
@@ -34,7 +33,7 @@
     "name": "Turtle Beach Airlite Fit Auriculares con Cable para Juegos en Neón Azul y Rojo con Licencia Oficial para Todos los Nintendo Switch",
     "status": "compra_directa",
     "stock": null,
-    "price": "24,42 €",
+    "price": "19,03 €",
     "first_seen": "2026-09-11T19:20:15.362342+00:00"
   },
   "ES:B0FQWHWWSG": {
@@ -339,7 +338,7 @@
     "name": "Turtle Beach Airlite Fit Auriculares con Cable para Juegos en Gris carbón - con Licencia Oficial para los Nintendo Switch 2",
     "status": "compra_directa",
     "stock": null,
-    "price": "21,99 €",
+    "price": "22,99 €",
     "first_seen": "2026-09-11T19:20:15.912112+00:00"
   },
   "ES:B0F49DHSHJ": {
@@ -380,8 +379,8 @@
   "ES:B0F1R6JH6M": {
     "name": "Turtle Beach Airlite Fit Auriculares con Cable para Juegos en Blanco y Negro con Licencia Oficial para Todos los Nintendo Switch",
     "status": "compra_directa",
-    "stock": null,
-    "price": "18,36 €",
+    "stock": "5",
+    "price": "24,99 €",
     "first_seen": "2026-09-11T19:20:15.912123+00:00"
   },
   "ES:B0F49CTJBW": {
@@ -422,7 +421,7 @@
   "ES:B0GMRB7W9V": {
     "name": "Turtle Beach Airlite Fit Auriculares con Cable para Juegos en Mario Star con Licencia Oficial para Todos los Nintendo Switch: micrófono abatible y silenciable, Orejeras de Comodidad Superior",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": null,
     "price": "24,90 €",
     "first_seen": "2026-09-11T19:20:15.912134+00:00"
   },
@@ -578,8 +577,8 @@
   "ES:B0D98BJ7SH": {
     "name": "EA SPORTS FC 25 Standard Edition Switch / Switch 2 | Videojuegos | Castellano",
     "status": "compra_directa",
-    "stock": "3",
-    "price": "28,19 €",
+    "stock": null,
+    "price": "30,00 €",
     "first_seen": "2026-09-12T00:28:58.478247+00:00"
   },
   "ES:B01N1081RO": {
@@ -614,7 +613,7 @@
     "name": "Videojuego para Switch Ubisoft Mario+Rabbids Sparks of Hope",
     "status": "compra_directa",
     "stock": null,
-    "price": "29,40 €",
+    "price": "28,57 €",
     "first_seen": "2026-09-12T00:28:58.478293+00:00"
   },
   "ES:B0DFD3S5LM": {
@@ -1334,5 +1333,12 @@
     "stock": null,
     "price": "14,99 €",
     "first_seen": "2026-09-15T20:34:05.436553+00:00"
+  },
+  "ES:B0GFPN1YZP": {
+    "name": "Nintendo Iberica SL Joy-Con 2 (morado claro/verde claro)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "89,99 €",
+    "first_seen": "2026-09-15T22:37:28.444846+00:00"
   }
 }
