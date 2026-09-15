@@ -19,8 +19,9 @@
   },
   "ES:B09S5S9L94": {
     "name": "Nintendo Switch Sports",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "44,99 €",
     "first_seen": "2026-09-11T19:20:15.362338+00:00"
   },
   "ES:B0GNB8B2NS": {
@@ -70,8 +71,8 @@
   "ES:B01N10NX3M": {
     "name": "Nintendo - Adaptador De Corriente Switch",
     "status": "compra_directa",
-    "stock": null,
-    "price": "34,59 €",
+    "stock": "3",
+    "price": "27,99 €",
     "first_seen": "2026-09-11T19:20:15.362352+00:00"
   },
   "ES:B0H9SKZKGV": {
@@ -302,8 +303,8 @@
   "ES:B084DJ9J8C": {
     "name": "Funda + protector LCD para consola Nintendo Switch Lite edición Animal Crossing: New Horizons (Nintendo Switch Lite)",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "23,10 €",
+    "stock": null,
+    "price": "24,99 €",
     "first_seen": "2026-09-11T19:20:15.912103+00:00"
   },
   "ES:B07ZRL65YK": {
@@ -529,7 +530,7 @@
     "name": "Star Wars Outlaws Gold Edition (Switch 2)",
     "status": "compra_directa",
     "stock": null,
-    "price": "34,99 €",
+    "price": "34,90 €",
     "first_seen": "2026-09-12T00:28:58.478175+00:00"
   },
   "ES:B0FQWBD5MT": {
@@ -564,7 +565,7 @@
     "name": "Assassin's Creed Shadows (Switch 2)",
     "status": "compra_directa",
     "stock": null,
-    "price": "34,99 €",
+    "price": "34,90 €",
     "first_seen": "2026-09-12T00:28:58.478229+00:00"
   },
   "ES:B0BV27FTTF": {
@@ -599,7 +600,7 @@
     "name": "Nintendo Switch Sports Standard Néerlandais, Anglais, Espagnol, Français, Italien, Portugais, Russe Nintendo Switch",
     "status": "compra_directa",
     "stock": null,
-    "price": "41,90 €",
+    "price": "44,99 €",
     "first_seen": "2026-09-12T00:28:58.478275+00:00"
   },
   "ES:B0DS1S2Z7L": {
@@ -958,8 +959,8 @@
   "ES:B0DTQ35NH6": {
     "name": "SanDisk Tarjeta microSD Express de 512 GB, hasta 880 MB/s de Velocidad de Lectura y hasta 650 MB/s de Escritura, con Velocidad de Escritura sostenida de 220 MB/s, U3, C10",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "155,19 €",
+    "stock": null,
+    "price": "164,57 €",
     "first_seen": "2026-09-12T18:30:08.918656+00:00"
   },
   "ES:B0DK1NY4LW": {
@@ -1286,5 +1287,52 @@
     "stock": null,
     "price": "39,99 €",
     "first_seen": "2026-09-15T00:23:08.150021+00:00"
+  },
+  "ES:B0GSSQYPK3": {
+    "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T20:34:05.173839+00:00"
+  },
+  "ES:B0F2JCL3NZ": {
+    "name": "Nintendo Switch 2 + Mario Kart World",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T20:34:05.173861+00:00"
+  },
+  "ES:B0HJ8VKG12": {
+    "name": "Stellar Blade Complete Edition - Switch 2",
+    "status": "preventa",
+    "stock": null,
+    "price": "59,99 €",
+    "first_seen": "2026-09-15T20:34:05.436503+00:00"
+  },
+  "ES:B0F3JT1NT8": {
+    "name": "Nintendo Switch 2 Carrying Case + protector pantalla",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "20,90 €",
+    "first_seen": "2026-09-15T20:34:05.436537+00:00"
+  },
+  "ES:B01N3374BH": {
+    "name": "Nintendo - Joy-Con Soporte Carga",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "29,99 €",
+    "first_seen": "2026-09-15T20:34:05.436546+00:00"
+  },
+  "ES:B0DHRWNMV2": {
+    "name": "UPGRADE Mando para Switch/ Switch 2, Mando Inalámbrico con Gatillos de Recorrido, Batería 1000mAh, LED RGB/Gyro Axis/Turbo/Vibración/ Botones Programables, Mando Pro para Switch/PC/Android/iOS",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "25,99 €",
+    "first_seen": "2026-09-15T20:34:05.436549+00:00"
+  },
+  "ES:B09V2RQ6R9": {
+    "name": "AUTOUTLET Adaptador Wii a HDMI, Convertidor Wii Hdmi Cable Extensión de 20cm 1080P / 720P Full HD, Salida de Audio de 3,5mm y Cable HDMI de 1,8m, Indicador de Luz para Wii, Televisión Blanco",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "14,99 €",
+    "first_seen": "2026-09-15T20:34:05.436553+00:00"
   }
 }
