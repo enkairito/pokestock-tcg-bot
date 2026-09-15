@@ -108,7 +108,7 @@
     "name": "EA SPORTS FC 25 Standard Edition PS4 | Videojuegos | Castellano",
     "status": "compra_directa",
     "stock": null,
-    "price": "27,89 €",
+    "price": "27,89 €",
     "first_seen": "2026-09-11T19:18:12.685903+00:00"
   },
   "ES:B084WLMKGT": {
@@ -129,14 +129,14 @@
     "name": "EA SPORTS FC 25 Standard Edition PS5 | Videojuegos | Castellano",
     "status": "compra_directa",
     "stock": null,
-    "price": "29,97 €",
+    "price": "29,50 €",
     "first_seen": "2026-09-11T19:18:12.685931+00:00"
   },
   "ES:B0CD2RBQ68": {
     "name": "Videojuego PlayStation 4 Ubisoft Assassin's Creed Mirage",
     "status": "compra_directa",
     "stock": null,
-    "price": "19,99 €",
+    "price": "19,90 €",
     "first_seen": "2026-09-11T19:18:12.685939+00:00"
   },
   "ES:B0GHT1SQ3S": {
@@ -157,7 +157,7 @@
     "name": "Mochila para Consola PS5/ Slim/ Pro, Bolsa PS5 de Viaje con Protección Total, Funda ps5 Almacenamiento de Gran Capacidad, PS Portal, Portátil, Tarjeta de Juego, Maletin PS 5 con Bolsa 3 Cable- Blanco",
     "status": "compra_directa",
     "stock": null,
-    "price": "32,99 €",
+    "price": "32,99 €",
     "first_seen": "2026-09-11T19:18:12.685967+00:00"
   },
   "ES:B0BJW7XKY2": {
@@ -432,7 +432,7 @@
     "first_seen": "2026-09-12T00:28:04.018951+00:00"
   },
   "ES:B0BMG2LH3W": {
-    "name": "Playstation - Realidad Virtual VR2 | Gafas de Realidad Virtual Originales de Sony para PS5 con Imágenes HDR en 4K. Incluye Casco de Realidad Virtual VR2 y Mandos VR2 Sense",
+    "name": "Playstation - Realidad Virtual VR2 | Gafas de Realidad Virtual Originales de Sony para PS5 con Imágenes HDR en 4K. Incluye Casco de realidad Virtual VR2 y Mandos VR2 Sense",
     "status": "compra_directa",
     "stock": null,
     "price": "449,00 €",
@@ -1070,7 +1070,7 @@
     "name": "PlayStation 5-Until Dawn 2 - Edición Estándar",
     "status": "preventa",
     "stock": null,
-    "price": "49,99 €",
+    "price": "49,99 €",
     "first_seen": "2026-09-13T12:22:28.699801+00:00"
   },
   "ES:B0C74MGJHG": {
@@ -1228,5 +1228,63 @@
     "stock": null,
     "price": "84,99 €",
     "first_seen": "2026-09-15T00:20:12.441096+00:00"
+  },
+  "ES:B0GSSQYPK3": {
+    "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T20:34:33.056452+00:00"
+  },
+  "ES:B08GMRYXMT": {
+    "name": "Pang Adventures Buster Edition",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T20:34:33.056470+00:00"
+  },
+  "ES:B01N0RB46X": {
+    "name": "Sony Playstation 4 PS4 PRO Konsole 1 TB (EU-Ware)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T20:34:33.056472+00:00"
+  },
+  "ES:B0756HTQHJ": {
+    "name": "PlayStation 4 Pro (PS4) - Consola de 1 TB + FIFA 18 (Importación alemana)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T20:34:33.056481+00:00"
+  },
+  "ES:B07HHPX4N1": {
+    "name": "PlayStation 4 (PS4) - Consola de 500GB Chasis F [Importación alemana]",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T20:34:33.056485+00:00"
+  },
+  "ES:B0C4K2988G": {
+    "name": "Warner Juego Sony PS4 Hogwarts Legacy",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "8,69 €",
+    "first_seen": "2026-09-15T20:34:33.327835+00:00"
+  },
+  "ES:B0H3W5V1TN": {
+    "name": "CONTROL Resonant - PS5 (Exclusiva Amazon)",
+    "status": "preventa",
+    "stock": null,
+    "price": "59,99 €",
+    "first_seen": "2026-09-15T20:34:33.327891+00:00"
+  },
+  "ES:B0F6LH8VPJ": {
+    "name": "RGB Base de Carga para PS5, 2H Rápido Cargador de Mando PS5 Originales & Edge, Placas Frontales con Iluminación LED & RGB, Estación de Carga para PS 5 - Blanco",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "16,99 €",
+    "first_seen": "2026-09-15T20:34:33.327903+00:00"
+  },
+  "ES:B0H7JHWBYN": {
+    "name": "NYXI Hyperion 3 Mando para Switch 2 – Primer Mando Inalámbrico de Terceros para Switch 2, Hall Joystick, Pulsantes Mecánicos, Botón C, Giroscopio de 9 Ejes, Botones Traseros, Ergonomico",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "79,99 €",
+    "first_seen": "2026-09-15T20:34:33.327915+00:00"
   }
 }
