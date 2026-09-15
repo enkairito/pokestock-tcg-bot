@@ -282,7 +282,7 @@
     "name": "Pokémon Colección Ursaluna Luna Carmesí (4 Cartas holográficas y 4 Paquetes de Mejora)",
     "status": "compra_directa",
     "stock": null,
-    "price": "45,09 €",
+    "price": "45,10 €",
     "first_seen": "2026-08-25T20:27:15.542170+00:00"
   },
   "ES:B0FXTY9D99": {
@@ -1698,7 +1698,7 @@
     "name": "Pokémon TCG: Scarlet & Violet - Destined Rivals - Paquete de 3 blíster - Kangaskhan (3 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
     "status": "compra_directa",
     "stock": null,
-    "price": "69,99 €",
+    "price": "70,70 €",
     "first_seen": "2026-09-05T20:58:26.290849+00:00"
   },
   "UK:B0CGCYNCR5": {
@@ -2375,9 +2375,8 @@
   },
   "ECI:A202035450": {
     "name": "30TH Caja colección con póster de Celebración 30.º Aniversario de JCC Pokémon. POKEMON BANDAI",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "29,99 €",
     "first_seen": "2026-09-15T22:43:24.795849+00:00"
   }
 }
