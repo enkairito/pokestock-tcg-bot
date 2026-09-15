@@ -1542,8 +1542,9 @@
   },
   "US:B0DVC187SP": {
     "name": "Pokemon TCG Scarlet & Violet Journey Together: Pack de 3 Booster Blister",
-    "status": "no_disponible",
-    "stock": null,
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "49,02 €",
     "first_seen": "2026-09-04T21:32:58.802930+00:00"
   },
   "US:B0G5FWJ8NL": {
@@ -1793,7 +1794,7 @@
     "name": "Pokemon - Scarlet & Violet: High Class Pack Shiny Treasure ex - Booster Box",
     "status": "compra_directa",
     "stock": "1",
-    "price": "215,55 €",
+    "price": "219,80 €",
     "first_seen": "2026-09-08T14:34:56.335808+00:00"
   },
   "UK:B0CK8JM32H": {
@@ -2009,7 +2010,7 @@
     "name": "Pokemon TCG: Paradox Destinies Tin - Raging Bolt EX",
     "status": "compra_directa",
     "stock": null,
-    "price": "75,03 €",
+    "price": "76,51 €",
     "first_seen": "2026-09-12T09:23:08.319159+00:00"
   },
   "UK:B0F6PGX3SQ": {
