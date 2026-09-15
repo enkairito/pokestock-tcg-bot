@@ -964,7 +964,12 @@ async def discover_fnac_products(page, label, base_url):
                     availability: input ? input.getAttribute('data-availability') : null,
                     href: nameEl ? nameEl.getAttribute('href') : null,
                     name: nameEl ? nameEl.textContent.trim() : null,
-                    image: imageEl ? imageEl.src : null,
+                    // Fnac hace lazy-load de las imágenes: mientras la
+                    // tarjeta no ha entrado en pantalla, "src" es un SVG en
+                    // blanco (placeholder) y la URL real vive en
+                    // "data-lazyimage" hasta que el navegador la cambia —
+                    // descubierto 2026-09-16 al ver imágenes rotas en la web.
+                    image: imageEl ? (imageEl.getAttribute('data-lazyimage') || imageEl.src) : null,
                     priceText: priceEl ? priceEl.textContent.trim().split('\\n')[0].trim() : null,
                 };
             })""",
