@@ -1217,6 +1217,10 @@ async def main():
             info["categories"] = assign_categories(info["name"])
             products[f"ECI:{product_id}"] = info
 
+        # Igual que Fnac (ver comentario junto a ese bloque): Carrefour es
+        # una incorporación reciente y todavía no se ha demostrado tan
+        # estable como Amazon/ECI — un fallo puntual suyo no debe impedir
+        # publicar lo que sí se ha comprobado bien del resto de tiendas.
         carrefour_products = {}
         for label, url in CARREFOUR_STORE["pages"]:
             print(f"🔍 Descubriendo productos en la tienda (Carrefour/{label})...")
@@ -1225,8 +1229,7 @@ async def main():
                 print(f"📦 [Carrefour/{label}] {len(page_products)} productos encontrados")
                 carrefour_products.update(page_products)
             except Exception as e:
-                print(f"❌ No se pudo cargar la página de Carrefour ({label}): {e!r}")
-                raise
+                print(f"⚠️ No se pudo cargar la página de Carrefour ({label}), se omite esta vez: {e!r}")
 
         carrefour_out_of_stock = {a for a, i in carrefour_products.items() if i["status"] == "no_disponible"}
         if carrefour_out_of_stock:
