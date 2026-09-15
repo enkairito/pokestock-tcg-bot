@@ -1353,7 +1353,7 @@ async def main():
         # ES, El Corte Inglés, Carrefour y Fnac). El resto de marketplaces
         # (UK, US) se siguen detectando y guardando en el estado/snapshot
         # para la web, pero no generan mensajes.
-        if (status_changed or stock_decreased or price_decreased) and info["marketplace_code"] in ("ES", "ECI", "CAR"):
+        if (status_changed or stock_decreased or price_decreased) and info["marketplace_code"] in ("ES", "ECI", "CAR", "FNAC"):
             # El nombre, el precio y (para ECI/Carrefour/Fnac) el link vienen
             # del scraping de Amazon/El Corte Inglés/Carrefour/Fnac — datos
             # externos que no controlamos — y el mensaje se manda con parse_mode:
