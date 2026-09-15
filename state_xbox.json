@@ -121,8 +121,9 @@
   },
   "ES:B0GXKXMN3X": {
     "name": "Assassin's Creed Black Flag Re-Synced Standard Edition (Xbox X)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "49,99 €",
     "first_seen": "2026-09-11T19:25:04.388338+00:00"
   },
   "ES:B08KVH51VX": {
@@ -183,7 +184,7 @@
   "ES:B0BZJGVDSR": {
     "name": "Sonic Origins Plus (Xbox Series X)",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "3",
     "price": "21,50 €",
     "first_seen": "2026-09-11T19:25:04.811382+00:00"
   },
@@ -239,8 +240,8 @@
   "ES:B083T65GQX": {
     "name": "Batman Arkham Collection (Standard Edition) - Xbox One [Importación inglesa]",
     "status": "compra_directa",
-    "stock": "3",
-    "price": "39,20 €",
+    "stock": "1",
+    "price": "30,30 €",
     "first_seen": "2026-09-11T19:25:04.811467+00:00"
   },
   "ES:B0CF2T3CQ2": {
@@ -436,7 +437,7 @@
     "name": "Turtle Beach Stealth 700 Negro Xbox Auriculares de Juego Inalámbricos con 80hr Batería, Altavoces de 60 mm, Transmisores Duales y Bluetooth para Xbox Series X o S, Xbox One y PC",
     "status": "compra_directa",
     "stock": null,
-    "price": "139,99 €",
+    "price": "139,99 €",
     "first_seen": "2026-09-11T19:25:04.811733+00:00"
   },
   "ES:B0GS6Y6WBG": {
@@ -1151,5 +1152,39 @@
     "stock": null,
     "price": "42,83 €",
     "first_seen": "2026-09-15T00:20:55.336244+00:00"
+  },
+  "ES:B0GSSQYPK3": {
+    "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-15T20:35:05.387581+00:00"
+  },
+  "ES:B08LBK5J49": {
+    "name": "OIVO Cargador Mando Xbox con 2x5580mWh Bateria Mando Xbox para X-Box One/Series X/S, Bateria Mandos X Box X para Mandos X Box Series X/S/One, Negro",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "28,99 €",
+    "first_seen": "2026-09-15T20:35:05.757589+00:00"
+  },
+  "ES:B0DB1BCG3D": {
+    "name": "para Xbox One S/One X Joystick Analógico para Xbox One Joystick Reemplazo de Sensor One X/S Thumbstick Controlador Accesorios con Herramientas(4 Pcs)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "9,99 €",
+    "first_seen": "2026-09-15T20:35:05.757603+00:00"
+  },
+  "ES:B0H7JHWBYN": {
+    "name": "NYXI Hyperion 3 Mando para Switch 2 – Primer Mando Inalámbrico de Terceros para Switch 2, Hall Joystick, Pulsantes Mecánicos, Botón C, Giroscopio de 9 Ejes, Botones Traseros, Ergonomico",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "79,99 €",
+    "first_seen": "2026-09-15T20:35:05.757612+00:00"
+  },
+  "ES:B0F49Y9WH2": {
+    "name": "Orzly Funda de Transporte para Consola Nintendo Switch 2 2025 de 7.9 Pulgadas, Funda rígida con Almacenamiento Inteligente para Accesorios y Bolsillos de Juegos, Edición de Caja de Regalo",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "27,07 €",
+    "first_seen": "2026-09-15T20:35:05.757615+00:00"
   }
 }
