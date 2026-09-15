@@ -164,8 +164,16 @@ ECI_STORE = {
     "tag": None,
     "pages": [
         ("JCC Pokémon", "https://www.elcorteingles.es/juguetes/search-nwx/?s=pokemon+jcc&stype=text_box_multi"),
-        ("Cromos Pokémon (subcategoría)", "https://www.elcorteingles.es/juguetes/cromos/sobres-de-cromos/brand::Pok%C3%A9mon/"),
-        ("Cromos Pokémon (search)", "https://www.elcorteingles.es/juguetes/search-nwx/?s=pokemon+cromos&stype=text_box_multi"),
+        # La URL de categoría "cromos/.../brand::Pokémon/" que se pidió
+        # originalmente no filtra nada en el sitio real de ECI (el "::" no es
+        # un filtro válido ahí) — devuelve cromos de fútbol Panini/Adrenalyn,
+        # no de Pokémon. Confirmado a mano el 2026-09-16 en el runner de
+        # GitHub (el sitio bloquea peticiones directas desde IPs
+        # residenciales/locales, así que no se pudo repetir la prueba en
+        # local). Esta búsqueda por texto, con el mismo patrón que "JCC
+        # Pokémon", sí encuentra los productos reales (cajas/blísteres/latas
+        # del 30 Aniversario, Baraja Combate, Ultra Premium Collection...).
+        ("Cromos Pokémon", "https://www.elcorteingles.es/juguetes/search-nwx/?s=pokemon+cromos&stype=text_box_multi"),
     ],
 }
 ECI_ID_RE = re.compile(r"^product-([A-Za-z0-9]+)$")
@@ -789,13 +797,6 @@ async def discover_eci_products(page, label, url):
     if any(marker in body_text for marker in CAPTCHA_MARKERS):
         raise ScrapeError(f"Captcha en ECI/{label}")
 
-    if os.environ.get("DEBUG_ECI") == "1":
-        names = await page.eval_on_selector_all(
-            "article[aria-label]",
-            "els => els.map(el => el.getAttribute('aria-label'))",
-        )
-        print(f"🧪 [DEBUG_ECI] {len(names)} nombres de producto reales encontrados: {names}")
-
     tiles = await page.eval_on_selector_all(
         "article[id^='product-']",
         """els => els.map(el => {
@@ -1190,8 +1191,6 @@ async def main():
                 eci_products.update(page_products)
             except Exception as e:
                 print(f"❌ No se pudo cargar la página de El Corte Inglés ({label}): {e!r}")
-                if os.environ.get("DEBUG_ECI") == "1":
-                    continue
                 raise
 
         eci_out_of_stock = {a for a, i in eci_products.items() if i["status"] == "no_disponible"}
