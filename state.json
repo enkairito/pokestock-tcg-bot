@@ -282,7 +282,7 @@
     "name": "Pokémon Colección Ursaluna Luna Carmesí (4 Cartas holográficas y 4 Paquetes de Mejora)",
     "status": "compra_directa",
     "stock": null,
-    "price": "45,10 €",
+    "price": "45,09 €",
     "first_seen": "2026-08-25T20:27:15.542170+00:00"
   },
   "ES:B0FXTY9D99": {
@@ -1531,7 +1531,7 @@
     "name": "Pokemon TCG: Scarlet & Violet - Paquete de refuerzo de destinos paldeanos",
     "status": "compra_directa",
     "stock": "1",
-    "price": "337,03 €",
+    "price": "340,67 €",
     "first_seen": "2026-09-04T21:32:58.802920+00:00"
   },
   "US:B0DSLX39J1": {
@@ -1829,7 +1829,7 @@
   "UK:B09M48Z5NW": {
     "name": "Pokémon TCG: Baraja de Batalla V: Lycanroc contra Corviknight",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "price": "55,37 €",
     "first_seen": "2026-09-08T14:34:56.335876+00:00"
   },
@@ -1886,7 +1886,7 @@
     "name": "Pokemon Sword and Shield Darkness Ablaze Booster Pack (1 Booster Pack)",
     "status": "compra_directa",
     "stock": "5",
-    "price": "34,30 €",
+    "price": "34,32 €",
     "first_seen": "2026-09-08T14:34:56.335940+00:00"
   },
   "US:B0CS12GPTB": {
@@ -2031,7 +2031,7 @@
   "US:B0DSLX3SXT": {
     "name": "Pokemon TCG: Scarlet & Violet—Journey Together Booster Build & Battle Box",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "4",
     "price": "60,15 €",
     "first_seen": "2026-09-13T09:20:32.108016+00:00"
   },
@@ -2075,9 +2075,8 @@
   },
   "CAR:VC4A-34530761": {
     "name": "Pokemon Caja Elite 30TH Aniversario, Juego de mesa, +6 Años (Unboxing)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "59,99 €",
     "first_seen": "2026-09-15T20:55:26.061440+00:00"
   },
   "CAR:VC4A-34535235": {
@@ -2103,9 +2102,8 @@
   },
   "CAR:VC4A-34535245": {
     "name": "Pokémon 30Th Aniversario Pack 2 Sobres con Moneda Inglés, +6 Años",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "15,99 €",
     "first_seen": "2026-09-15T20:55:26.061448+00:00"
   },
   "CAR:VC4A-34535250": {
