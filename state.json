@@ -2398,5 +2398,572 @@
     "stock": null,
     "price": "94,60 €",
     "first_seen": "2026-09-16T18:43:05.692265+00:00"
+  },
+  "TRU:K1105105": {
+    "name": "Pokémon - Escarlata y Púrpura: Rivales Predestinados - Sobre de Mejora - Español (Varios modelos)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "5,99 €"
+  },
+  "TRU:K1104387": {
+    "name": "Pokémon - Megaevolución Caos Creciente - Sobre de cartas coleccionables - Español (Varios modelos)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "5,99 €"
+  },
+  "TRU:K1104394": {
+    "name": "Pokémon - Summer Tin Box (Esp) (Varios modelos)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "34,99 €"
+  },
+  "TRU:K1104395": {
+    "name": "Pokémon - Mini Lata Ciudad Luminalia - Español (Varios modelos)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "14,99 €"
+  },
+  "TRU:K1104392": {
+    "name": "Pokémon - Colección Premium Mega-Zygarde ex (español)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "59,99 €"
+  },
+  "TRU:K1103659": {
+    "name": "Pokémon - Equilibrio Perfecto -  Pack de 3 sobres (Español)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "19,99 €"
+  },
+  "TRU:K1104393": {
+    "name": "Pokémon - Baraja Combate de Liga - Mega Lucario ex (Español)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "49,99 €"
+  },
+  "TRU:K1104397": {
+    "name": "Pokémon - Megaevolución Caos Creciente - Blister 3 sobres de cartas (Español)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "19,99 €"
+  },
+  "TRU:K1091126": {
+    "name": "Pokémon - Sobre cartas Escarlata y Púrpura - Juntos de Aventuras en español (Varios modelos)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "5,99 €"
+  },
+  "TRU:K1103657": {
+    "name": "Pokémon - Equilibrio Perfecto - Caja de entrenador Élite (Español)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "69,99 €"
+  },
+  "TRU:K1103664": {
+    "name": "Pokémon - Equilibrio Perfecto - Sobre de cartas en español (Varios modelos)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "5,99 €"
+  },
+  "TRU:K1100235": {
+    "name": "Pokémon - Colección Premium Vega-Venusaur EX (Español)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "62,99 €"
+  },
+  "TRU:K1108950": {
+    "name": "Pokémon 30º Aniversario - Colección con Pegatinas Especiales (Español) - Varios modelos",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "27,99 €"
+  },
+  "TRU:K1105107": {
+    "name": "Pokémon - Megaevolución Oscuridad Absoluta - Pack 3 sobres (Español)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "19,99 €"
+  },
+  "TRU:K1105110": {
+    "name": "Pokémon - Megaevolución Oscuridad Absoluta - Sobre de cartas en español (Varios modelos)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "5,99 €"
+  },
+  "TRU:K1108964": {
+    "name": "Pokémon 30º Aniversario - Colección con Póster (Español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "34,99 €"
+  },
+  "TRU:K1066048": {
+    "name": "Pokemon - TCG Pack Blister Sv6.5 version español - (Varios modelos)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "17,99 €"
+  },
+  "TRU:K1095595": {
+    "name": "Sobre Pokémon Rivales Predestinados",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "5,99 €"
+  },
+  "TRU:K1095599": {
+    "name": "Elite Trainer Box Rivales Predestinados",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "59,99 €"
+  },
+  "TRU:K1095598": {
+    "name": "Mazo Preconstruido Rivales Predestinados",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "23,99 €"
+  },
+  "TRU:K1100216": {
+    "name": "Pokémon - Sobre de cartas en blister Mega Evolución en español (Varios modelos)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "5,99 €"
+  },
+  "TRU:K1100212": {
+    "name": "Pokémon - Blister 3 sobres de refuerzo Mega Evolución en español (Varios modelos)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "19,99 €"
+  },
+  "TRU:K1100213": {
+    "name": "Pokémon - Sobre de cartas Mega Evolución en español (Varios modelos)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "5,99 €"
+  },
+  "TRU:K1100219": {
+    "name": "Pokémon - Colección Mega Latias ex (español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "31,99 €"
+  },
+  "TRU:K1100215": {
+    "name": "Pokémon - Caja de Entrenador Élite Mega Evolución en español (Varios modelos)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "58,99 €"
+  },
+  "TRU:K1100220": {
+    "name": "Pokémon - Baraja Megacombate (Varios modelos)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "24,99 €"
+  },
+  "TRU:K1100227": {
+    "name": "Pokémon - Megaevolución Fuegos Fantasmales - Pack 6 sobres de cartas en español",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "34,99 €"
+  },
+  "TRU:K1100228": {
+    "name": "Pokémon - Megaevolución  Fuegos Fantasmales - Sobre cartas coleccionables en español (Varios modelos)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "5,99 €"
+  },
+  "TRU:K1098107": {
+    "name": "Pokémon - Colección Mewtwo ex del Team Rocket (español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "32,99 €"
+  },
+  "TRU:K1103650": {
+    "name": "Pokémon - Héroes Ascendentes - Colección con Póster Premium en español (Varios modelos)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "74,99 €"
+  },
+  "TRU:K1103651": {
+    "name": "Pokémon - Megaevolución Héroes Ascendentes - Blíster 2 sobres cartas (Español) (Varios modelos)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "15,99 €"
+  },
+  "TRU:K1105106": {
+    "name": "Pokémon - Megaevolución Oscuridad Absoluta - Caja de Entrenador Élite (Español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "69,99 €"
+  },
+  "TRU:K1104396": {
+    "name": "Pokémon - Megaevolución Caos Creciente - Caja de Entrenador Élite (Español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "69,99 €"
+  },
+  "TRU:K1100225": {
+    "name": "Pokémon - Megaevolución Fuegos Fantasmales - Blíster 3 sobres de cartas en español (Varios modelos)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "19,99 €"
+  },
+  "TRU:K1100230": {
+    "name": "Pokémon - Megaevolución Fuegos Fantasmales - Caja de entrenador Élite (Español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "69,99 €"
+  },
+  "TRU:K1100234": {
+    "name": "Pokémon - Colección Mega-Kangaskhan Ex (español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "34,99 €"
+  },
+  "TRU:K1102966": {
+    "name": "Pokémon - Blíster 3 sobres cartas Héroes Ascendentes (esp) Colección Stickers - Varios modelos",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "24,99 €"
+  },
+  "TRU:K1102944": {
+    "name": "Pokémon - Lata Mega Charizard X/Y ex  (esp) - Varios modelos",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "34,99 €"
+  },
+  "TRU:K1104398": {
+    "name": "Pokémon - Megaevolución: Caos Creciente - Lote 6 sobres de mejora (Español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "34,99 €"
+  },
+  "TRU:K1108961": {
+    "name": "Pokémon 30º Aniversario - Mini Lata (Español) - Varios modelos",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "19,99 €"
+  },
+  "TRU:K1109162": {
+    "name": "Pokémon 30º Aniversario - Colección Ultraprémium (Español) - Varios modelos",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "274,99 €"
+  },
+  "TRU:K1091124": {
+    "name": "Pokémon - Evoluciones Prismáticas - Stacking Tins en español (Varios modelos)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "17,99 €"
+  },
+  "TRU:K1104389": {
+    "name": "Pokémon - Héroes Ascendentes - Pack de 6 Sobres (español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "34,99 €"
+  },
+  "TRU:K1099344": {
+    "name": "Pokémon - Pack 6 sobres de cartas Escarlata y Púrpura Llama Blanca (español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "34,99 €"
+  },
+  "TRU:K1099345": {
+    "name": "Pokémon - Pack 6 sobres de cartas Escarlata y Púrpura Fulgor Negro (español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "34,99 €"
+  },
+  "TRU:K1099342": {
+    "name": "Pokémon - Fulgor Negro - Colección con Pegatinas Especiales (Español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "22,99 €"
+  },
+  "TRU:K1099343": {
+    "name": "Pokémon - Venusaur ex & Blastoise ex - Premium Collection",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "69,99 €"
+  },
+  "TRU:K1100232": {
+    "name": "Pokémon - Megaevolución  Fuegos Fantasmales - Sobre con funda cartas coleccionables en español (Varios modelos)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "5,99 €"
+  },
+  "TRU:K1100223": {
+    "name": "Pokémon - Baraja Combate de Liga - Mewto EX del Team Rocket (Español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "49,99 €"
+  },
+  "TRU:K1102969": {
+    "name": "Pokémon - Colección Especial Día de Pokémon 2026 (esp)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "24,99 €"
+  },
+  "TRU:K1102967": {
+    "name": "Pokémon - Caja Entrenador de Élite Héroes Ascendentes (esp)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "69,99 €"
+  },
+  "TRU:K1102968": {
+    "name": "Pokémon - Mini lata Héroes Ascendentes (esp) - Varios modelos",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "14,99 €"
+  },
+  "TRU:K1108947": {
+    "name": "Pokémon 30º Aniversario - Caja de Entrenador Élite (Español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "69,99 €"
+  },
+  "TRU:K1066035": {
+    "name": "Pokémon - Colección Palafin ex (español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "29,99 €"
+  },
+  "TRU:K1095596": {
+    "name": "Blister Pokémon Rivales Predestinados",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "19,99 €"
+  },
+  "TRU:K1095597": {
+    "name": "Lata Coleccionable Pokémon Edición Verano",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "31,99 €"
+  },
+  "TRU:K1100217": {
+    "name": "Pokémon - Mini Lata Mega Evolución en español (Varios modelos)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "13,99 €"
+  },
+  "TRU:K1098172": {
+    "name": "Pokémon - Álbum para colecciones Escarlata y Púrpura: Fulgor Negro (Español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "49,99 €"
+  },
+  "TRU:K1098171": {
+    "name": "Pokémon - Álbum para colecciones Escarlata y Púrpura: Llama Blanca (Español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "49,99 €"
+  },
+  "TRU:K1098170": {
+    "name": "Pokémon - Mini Lata Escarlata y Púrpura: Fulgor Negro y Llama Blanca - Español (varios modelos)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "13,99 €"
+  },
+  "TRU:K1098108": {
+    "name": "Pokémon - Colección Premium - Garchomp ex de Cintia (español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "59,99 €"
+  },
+  "TRU:K1103647": {
+    "name": "Pokémon - Héroes Ascendentes - Colección con Pin Deluxe Primeros Compañeros (Español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "36,99 €"
+  },
+  "TRU:K1100222": {
+    "name": "Pokémon - Colección Mega-Lucario ex (español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "54,99 €"
+  },
+  "TRU:K1108952": {
+    "name": "Pokémon 30º Aniversario - Álbum para Colecciones (Español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "64,99 €"
+  },
+  "TRU:K1108954": {
+    "name": "Pokémon 30º Aniversario - Lote 6 Sobres de Mejora (Español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "39,99 €"
+  },
+  "TRU:K1108956": {
+    "name": "Pokémon 30º Aniversario - Colección con figura Mew (Español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "54,99 €"
+  },
+  "TRU:K1108957": {
+    "name": "Pokémon 30º Aniversario - Colección con figura Mewtwo (Español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "54,99 €"
+  },
+  "TRU:K1108962": {
+    "name": "Pokémon 30º Aniversario - Lata Sylveon ex / Greninja ex (Español) - Varios modelos",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "39,99 €"
+  },
+  "TRU:K1108966": {
+    "name": "Pokémon 30º Aniversario - Baraja Combate Espeon ex / Umbreon ex (Español) - Varios modelos",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "38,99 €"
+  },
+  "TRU:K1108968": {
+    "name": "Pokémon 30º Aniversario - Colección Premium Ditto (Español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "63,99 €"
+  },
+  "TRU:K1108959": {
+    "name": "Pokémon 30º Aniversario - Colección Sylveon ex / Greninja ex (Español) - Varios modelos",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "39,99 €"
+  },
+  "TRU:K1108970": {
+    "name": "Pokémon 30º Aniversario - Blíster 2 Sobres + Carta Promo (Español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "17,99 €"
+  },
+  "TRU:K1104391": {
+    "name": "Pokémon - Héroes Ascendentes - Caja Colección Mega en español (Varios modelos)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "34,99 €"
+  },
+  "TRU:K1105108": {
+    "name": "Pokémon - Megaevolución Oscuridad Absoluta - Caja con 6 Sobres (Español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "34,99 €"
+  },
+  "TRU:K1105377": {
+    "name": "Pokémon - Colección Ilustración: Primer Compañero - Español",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "24,99 €"
+  },
+  "TRU:K1099340": {
+    "name": "Pokémon - Colección Ilustración Victini - Fulgor Negro y Llama Blanca (español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "31,99 €"
+  },
+  "TRU:K1099341": {
+    "name": "Pokémon - Colección pegatinas especiales - Llama Blanca (español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "22,99 €"
+  },
+  "TRU:K1100233": {
+    "name": "Pokémon - Colección Ultra Premium Mega Charizard X ex (Español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "219,99 €"
+  },
+  "TRU:K1100218": {
+    "name": "Pokémon - Evoluciones Prismáticas - Colección Premium con figura (Español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "89,99 €"
+  },
+  "TRU:K1100221": {
+    "name": "Pokémon - Herramientas de Entrenador (Español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "44,99 €"
+  },
+  "TRU:K1103654": {
+    "name": "Pokémon - Colección Ilustración - Primer compañero (español)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "24,99 €"
   }
 }
