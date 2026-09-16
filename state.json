@@ -1427,7 +1427,7 @@
     "name": "Pokémon- Origin Forme Palkia VSTAR Baraja de Batalla de la Liga, Multicolor (290-85236)",
     "status": "compra_directa",
     "stock": "5",
-    "price": "46,97 €",
+    "price": "47,02 €",
     "first_seen": "2026-09-04T21:32:58.802801+00:00"
   },
   "UK:B0C7QXP3FH": {
@@ -2343,9 +2343,8 @@
   },
   "ECI:A202035449": {
     "name": "30TH Lata de Celebración 30º Aniversario de JCC Pokémon. POKEMON. BANDAI . Modelos surtidos.",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "34,99 €",
     "first_seen": "2026-09-15T22:43:06.257047+00:00"
   },
   "ECI:A202035455": {
@@ -2381,5 +2380,12 @@
     "stock": null,
     "price": "124,04 €",
     "first_seen": "2026-09-16T02:03:31.139743+00:00"
+  },
+  "ECI:A202042924": {
+    "name": "30TH Poster Collection box 30th Celebration Pokemon TCG. ENGLISH. POKEMON. BANDAI",
+    "status": "compra_directa",
+    "stock": null,
+    "price": null,
+    "first_seen": "2026-09-16T07:03:45.050853+00:00"
   }
 }
