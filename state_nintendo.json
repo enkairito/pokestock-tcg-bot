@@ -338,7 +338,7 @@
     "name": "Turtle Beach Airlite Fit Auriculares con Cable para Juegos en Gris carbón - con Licencia Oficial para los Nintendo Switch 2",
     "status": "compra_directa",
     "stock": null,
-    "price": "22,99 €",
+    "price": "22,99 €",
     "first_seen": "2026-09-11T19:20:15.912112+00:00"
   },
   "ES:B0F49DHSHJ": {
@@ -550,7 +550,7 @@
     "name": "Tomodachi Life - Switch",
     "status": "compra_directa",
     "stock": null,
-    "price": "49,99 €",
+    "price": "50,90 €",
     "first_seen": "2026-09-12T00:28:58.478206+00:00"
   },
   "ES:B0FJM752T3": {
@@ -662,7 +662,7 @@
     "name": "2x Mando Switch Inalámbrico,Mandos Switch para Switc.h/Switch 2/Lite/OLED",
     "status": "compra_directa",
     "stock": null,
-    "price": "34,98 €",
+    "price": "33,98 €",
     "first_seen": "2026-09-12T00:28:58.478365+00:00"
   },
   "ES:B0DJ2PLH9G": {
@@ -819,7 +819,7 @@
     "name": "Ultra Pro Penny Fundas para tarjetas, estándar, blandas, para cartas coleccionables, como Pokemon Magic, tamaño estándar, transparentes, 400 unidades",
     "status": "compra_directa",
     "stock": null,
-    "price": "8,21 €",
+    "price": "8,38 €",
     "first_seen": "2026-09-12T06:29:23.882192+00:00"
   },
   "ES:B0H1HDKXGH": {
@@ -1160,7 +1160,7 @@
     "name": "daydayup Funda Compatible con Nintendo Switch 2 Consola, Funda de Transporte Dura para Nintendo Switch 2, Funda Protectora con Almacenamiento para 20 Juegos, Consola y Accesorios, Color Negro",
     "status": "compra_directa",
     "stock": null,
-    "price": "14,56 €",
+    "price": "25,99 €",
     "first_seen": "2026-09-14T00:22:00.458029+00:00"
   },
   "ES:B0FVXJ8VK3": {
@@ -1340,5 +1340,32 @@
     "stock": null,
     "price": "89,99 €",
     "first_seen": "2026-09-15T22:37:28.444846+00:00"
+  },
+  "ES:B08GMRYXMT": {
+    "name": "Pang Adventures Buster Edition",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T00:35:34.146979+00:00"
+  },
+  "ES:B0F3HFQ5SY": {
+    "name": "Nintendo Switch 2 + Mario Kart World Bundle",
+    "status": "compra_directa",
+    "stock": "5",
+    "price": "599,90 €",
+    "first_seen": "2026-09-16T00:35:34.440200+00:00"
+  },
+  "ES:B0FPMNTCYL": {
+    "name": "007 First Light Specialist Edition - Switch 2",
+    "status": "preventa",
+    "stock": null,
+    "price": "71,93 €",
+    "first_seen": "2026-09-16T00:35:34.440295+00:00"
+  },
+  "ES:B0F3JPZ3R5": {
+    "name": "Joy-Con 2 Charging Grip",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "30,99 €",
+    "first_seen": "2026-09-16T00:35:34.440322+00:00"
   }
 }
