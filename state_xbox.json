@@ -121,9 +121,8 @@
   },
   "ES:B0GXKXMN3X": {
     "name": "Assassin's Creed Black Flag Re-Synced Standard Edition (Xbox X)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "49,99 €",
     "first_seen": "2026-09-11T19:25:04.388338+00:00"
   },
   "ES:B08KVH51VX": {
@@ -523,7 +522,7 @@
   "ES:B0BKV55P1H": {
     "name": "Seagate Game Drive for Xbox 5TB, Unidad de disco duro (HDD) externa portátil, USB 3.2 Gen 1, negra, certificación Xbox, LED RGB, Rescue Services (STKX5000100)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": null,
     "price": "250,47 €",
     "first_seen": "2026-09-12T00:28:11.204259+00:00"
   },
@@ -682,7 +681,7 @@
     "name": "Xbox Controlador inalámbrico - DOOM: The Dark Ages Limited Edition Series X|S, One, PC y dispositivos habilitados para la nube",
     "status": "compra_directa",
     "stock": "3",
-    "price": "99,90 €",
+    "price": "99,90 €",
     "first_seen": "2026-09-12T06:28:31.691527+00:00"
   },
   "ES:B0DNQBQNG7": {
@@ -855,7 +854,7 @@
     "name": "Ultra Pro - 1000 fundas suaves -",
     "status": "compra_directa",
     "stock": null,
-    "price": "13,99 €",
+    "price": "12,49 €",
     "first_seen": "2026-09-13T00:21:08.267527+00:00"
   },
   "ES:B0FTG3C43P": {
@@ -1200,5 +1199,18 @@
     "stock": null,
     "price": "59,90 €",
     "first_seen": "2026-09-16T00:36:35.693126+00:00"
+  },
+  "ES:B00LAAYMUS": {
+    "name": "Mirror's Edge Catalyst - Xbox One [Importación alemana]",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T04:35:41.898406+00:00"
+  },
+  "ES:B0BLZ5HR28": {
+    "name": "Star Wars Jedi: Survivor Game Xbox Series X",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "16,99 €",
+    "first_seen": "2026-09-16T04:35:42.214967+00:00"
   }
 }
