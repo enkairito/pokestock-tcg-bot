@@ -556,8 +556,8 @@
   "ES:B09C92RJN7": {
     "name": "Xbox Cascos Stereo Series X|S",
     "status": "compra_directa",
-    "stock": null,
-    "price": "58,99 €",
+    "stock": "2",
+    "price": "59,99 €",
     "first_seen": "2026-09-12T00:28:11.204384+00:00"
   },
   "ES:B0829M81QT": {
@@ -1398,7 +1398,7 @@
     "name": "Xbox Wireless Controller Elite Series 2 Black para Xbox Series X|S, Xbox One, Windows 10/11, iOS y Android",
     "status": "compra_directa",
     "stock": null,
-    "price": "182,00 €",
+    "price": "185,00 €",
     "first_seen": "2026-09-16T10:34:33.318903+00:00"
   },
   "ES:B0FKGT9YN6": {
