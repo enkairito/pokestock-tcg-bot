@@ -177,7 +177,7 @@
     "name": "Assassin's Creed Shadows (Xbox Series X)",
     "status": "compra_directa",
     "stock": null,
-    "price": "40,99 €",
+    "price": "40,99 €",
     "first_seen": "2026-09-11T19:25:04.811370+00:00"
   },
   "ES:B0BZJGVDSR": {
@@ -976,7 +976,7 @@
     "name": "Grand Theft Auto The Trilogy: La edición definitiva (Xbox Series X/Xbox One)",
     "status": "compra_directa",
     "stock": "5",
-    "price": "32,35 €",
+    "price": "39,00 €",
     "first_seen": "2026-09-14T12:21:25.171617+00:00"
   },
   "ES:B074QMN4YW": {
@@ -1226,5 +1226,11 @@
     "stock": null,
     "price": "89,99 €",
     "first_seen": "2026-09-16T06:35:30.156933+00:00"
+  },
+  "ES:B0F2JC9HMR": {
+    "name": "Nintendo Kirby and the Forgotten Land Switch 2 Edition",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T08:37:59.010515+00:00"
   }
 }
