@@ -15,8 +15,8 @@
   "ES:B0GWDXZ12H": {
     "name": "Ravensburger Disney Lorcana - Juego de cartas coleccionables para adultos y niños a partir de 8 años - Set 12: Wilds Unknown - Deck para 2 jugadores",
     "status": "compra_directa",
-    "stock": "2",
-    "price": "39,01 €",
+    "stock": "1",
+    "price": "40,40 €",
     "first_seen": "2026-09-07T17:41:04.537441+00:00"
   },
   "ES:B0H8S82717": {
@@ -58,7 +58,7 @@
     "name": "Ravensburger - Disney Lorcana TCG: Juego De Trove Illumineers Trove | Juegos De Cartas Adultos Y Niños con Cartas Disney Lorcana | Juegos Niños 8 Años O Más Coleccionables | Regalos Originales",
     "status": "compra_directa",
     "stock": null,
-    "price": "60,62 €",
+    "price": "60,21 €",
     "first_seen": "2026-09-07T17:41:42.887252+00:00"
   },
   "ES:B0CFRBX7GW": {
@@ -99,7 +99,7 @@
   "ES:B0DDL8HJ2M": {
     "name": "Ravensburger - Disney Lorcana TCG: Set 7 Bella Y Bestia | Juegos De Cartas Adultos Y Niños con 60 Cartas Disney Lorcana | Juegos Niños 8 Años O Más Coleccionables | Regalos Originales",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "5",
     "price": "19,99 €",
     "first_seen": "2026-09-07T17:42:20.342685+00:00"
   },
@@ -176,22 +176,22 @@
   "ES:B0DDPH3JQB": {
     "name": "Disney Lorcana Trading Card Game: Archazias Isla – Booster Display con 24 Booster Packs (en inglés)",
     "status": "compra_directa",
-    "stock": "3",
-    "price": "161,97 €",
+    "stock": null,
+    "price": "164,77 €",
     "first_seen": "2026-09-08T11:29:17.563714+00:00"
   },
   "ES:B0CGXJ8244": {
     "name": "Disney Lorcana Disney Lorcana TCG - Ursula's Return Ill",
     "status": "compra_directa",
     "stock": null,
-    "price": "54,33 €",
+    "price": "54,32 €",
     "first_seen": "2026-09-09T11:34:34.043787+00:00"
   },
   "ES:B0H6JBF9FM": {
     "name": "Ravensburger Disney Lorcana TCG: Attack of the Vine! Paquete de refuerzo individual surtido (12 tarjetas) - Tarjetas coleccionables - Ideal para fanáticos de Disney y jugadores de TCG - Adecuado para",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "24,12 €",
+    "stock": null,
+    "price": "31,12 €",
     "first_seen": "2026-09-09T21:00:57.459377+00:00"
   },
   "ES:B0FVLFQJXQ": {
@@ -225,8 +225,8 @@
   "ES:B0GHPRLZ7B": {
     "name": "Ravensburger Disney Lorcana TCG: Collection Starter Set - Edición Stitch - Incluye 4 paquetes de refuerzo Winterspell, cartera de cartas Rock Star y promoción de papel brillante - Guía del",
     "status": "compra_directa",
-    "stock": null,
-    "price": "75,04 €",
+    "stock": "3",
+    "price": "76,23 €",
     "first_seen": "2026-09-11T00:16:46.734698+00:00"
   },
   "ES:B0CSZ6H1SN": {
@@ -276,5 +276,12 @@
     "stock": null,
     "price": "21,78 €",
     "first_seen": "2026-09-14T00:16:33.506754+00:00"
+  },
+  "ES:B0FG2KSD7Q": {
+    "name": "Ravensburger - Disney Lorcana TCG: Set 10 Whispers In The Well | Tapete Cartas con Una Medida 61 X 34,3 Cm | Disney Lorcana con Un Diseño Único | Tapete Juegos De Mesa De Calidad",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "19,99 €",
+    "first_seen": "2026-09-16T00:17:03.235143+00:00"
   }
 }
