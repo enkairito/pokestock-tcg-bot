@@ -731,8 +731,8 @@
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": "3",
-    "price": "222,72 €",
+    "stock": null,
+    "price": "235,47 €",
     "first_seen": "2026-08-30T20:46:19.644840+00:00"
   },
   "US:B0H2JVZYZZ": {
@@ -2345,8 +2345,9 @@
   },
   "ECI:A202035449": {
     "name": "30TH Lata de Celebración 30º Aniversario de JCC Pokémon. POKEMON. BANDAI . Modelos surtidos.",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "34,99 €",
     "first_seen": "2026-09-15T22:43:06.257047+00:00"
   },
   "ECI:A202035455": {
@@ -2369,8 +2370,9 @@
   },
   "ECI:A202035450": {
     "name": "30TH Caja colección con póster de Celebración 30.º Aniversario de JCC Pokémon. POKEMON BANDAI",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "29,99 €",
     "first_seen": "2026-09-15T22:43:24.795849+00:00"
   },
   "UK:B0BNKBBYK1": {
