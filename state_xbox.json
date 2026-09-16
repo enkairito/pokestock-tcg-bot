@@ -142,8 +142,8 @@
     "name": "EA SPORTS FC 26 Standard Edition XBOX Series X / XBOX One -disco | Videojuegos | Castellano",
     "status": "compra_directa",
     "stock": null,
-    "price": "25,99 €",
-    "first_seen": "2026-09-11T19:25:04.811300+00:00"
+    "first_seen": "2026-09-11T19:25:04.811300+00:00",
+    "price": "25,99 €"
   },
   "ES:B0H4GWZYDP": {
     "name": "Halo: Campaign Evolved - Standard Edition - XBOX Series X | Disco físico + descarga de contenido requerida",
@@ -261,15 +261,15 @@
     "name": "EA SPORTS FC 26 THE WORLD'S GAME EDITION | Xbox Series X|S - Código de descarga",
     "status": "compra_directa",
     "stock": null,
-    "price": "99,99 €",
-    "first_seen": "2026-09-11T19:25:04.811495+00:00"
+    "first_seen": "2026-09-11T19:25:04.811495+00:00",
+    "price": "99,99 €"
   },
   "ES:B0FHRP6Q4F": {
     "name": "EA SPORTS FC 26 - Xbox S│X Standard Edition - Código de descarga",
     "status": "compra_directa",
     "stock": null,
-    "price": "79,99 €",
-    "first_seen": "2026-09-11T19:25:04.811505+00:00"
+    "first_seen": "2026-09-11T19:25:04.811505+00:00",
+    "price": "79,99 €"
   },
   "ES:B08MMJMHQ9": {
     "name": "Need for Speed Hot Pursuit Remastered | Xbox One/Series X|S - Codice de descarga",
@@ -620,8 +620,8 @@
     "name": "Turtle Beach Rematch Core Camo Negro/Verde - Gamepad con cable - Con licencia para Xbox Series XS, Xbox One y PC - Botones de audio, motores de vibración y disparadores de pulso, cable de 3 m",
     "status": "compra_directa",
     "stock": null,
-    "price": "24,99 €",
-    "first_seen": "2026-09-12T00:28:11.204489+00:00"
+    "first_seen": "2026-09-12T00:28:11.204489+00:00",
+    "price": "24,99 €"
   },
   "ES:B0CMGN9Z8H": {
     "name": "HELLCOOL Play y Kit de Carga USB Bateria para Mando Xbox One/Xbox Series, 2X4800mWh Bateria Compatible con la Mando Xbox One S/X/Elite, Xbox Series X/S, 12 Horas de Juego",
@@ -1421,5 +1421,12 @@
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.318911+00:00",
     "price": "79,99 €"
+  },
+  "ES:B0BKGKMLH2": {
+    "name": "Playstation - Mando Inalámbrico DualSense Edge | Mando Original Sony para PS5 con Botones y Joysticks Ultracustomizables y Perfiles de Controles Personalizados. - Color Blanco",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-16T22:36:27.861034+00:00",
+    "price": "209,99 €"
   }
 }
