@@ -44,7 +44,7 @@
   "ES:B0GW9TXS1Q": {
     "name": "One Piece TCG: Double Pack Set Vol. 10 (DP-10) - Adventure of Kami's Island (2 Paquetes)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-29T18:09:04.551067+00:00",
     "price": "64,81 €"
   },
@@ -158,9 +158,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:11:01.747489+00:00",
-    "price": "121,97 €",
-    "pending_price": "135,59 €",
-    "pending_price_count": 1
+    "price": "135,59 €"
   },
   "ES:B0C3RY35G6": {
     "name": "BANDAI | One Piece Card Game: Transparent Case - Standard White | Accessories | Ages 6+ | 2 Players | 20-30 Minutes Playing Time",
