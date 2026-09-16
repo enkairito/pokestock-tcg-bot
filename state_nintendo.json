@@ -143,7 +143,7 @@
     "name": "EA SPORTS FC 26 Standard Edition Switch 2 | Cartucho | Videojuegos | Castellano",
     "status": "compra_directa",
     "stock": null,
-    "price": "29,99 €",
+    "price": "19,90 €",
     "first_seen": "2026-09-11T19:20:15.911978+00:00"
   },
   "ES:B0GZW7QWCJ": {
@@ -240,7 +240,7 @@
     "name": "EA SPORTS FC 26 Standard Edition Switch | Videojuegos | Castellano",
     "status": "compra_directa",
     "stock": null,
-    "price": "29,99 €",
+    "price": "19,90 €",
     "first_seen": "2026-09-11T19:20:15.912077+00:00"
   },
   "ES:B09YYNZJYW": {
@@ -345,7 +345,7 @@
     "name": "Orzly Funda de Transporte para Consola Nintendo Switch 2 2025 de 7.9 Pulgadas, Funda rígida con Almacenamiento Inteligente para Accesorios y Bolsillos de Juegos, Edición de Caja de Regalo",
     "status": "compra_directa",
     "stock": null,
-    "price": "22,48 €",
+    "price": "22,48 €",
     "first_seen": "2026-09-11T19:20:15.912114+00:00"
   },
   "ES:B0DHSCVFMT": {
@@ -1350,7 +1350,7 @@
   "ES:B0F3HFQ5SY": {
     "name": "Nintendo Switch 2 + Mario Kart World Bundle",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "3",
     "price": "599,90 €",
     "first_seen": "2026-09-16T00:35:34.440200+00:00"
   },
@@ -1453,7 +1453,7 @@
   "ES:B01IU4B6I2": {
     "name": "Nintendo Switch Consola 32Gb Azul/Rojo Neón + Mario Kart 8 Deluxe",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "price": "372,90 €",
     "first_seen": "2026-09-16T10:34:14.850863+00:00"
   },
@@ -1540,5 +1540,12 @@
     "stock": null,
     "price": "17,99 €",
     "first_seen": "2026-09-16T10:34:14.850978+00:00"
+  },
+  "ES:B0GH63RFLZ": {
+    "name": "Convertidor Wii a HDMI 1,5 Metros, Adaptador de Wii a HDMI 1080P",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "10,99 €",
+    "first_seen": "2026-09-16T12:34:53.672221+00:00"
   }
 }
