@@ -1322,7 +1322,7 @@
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
     "status": "compra_directa",
     "stock": "3",
-    "price": "195,58 €",
+    "price": "117,84 €",
     "first_seen": "2026-09-04T21:32:58.802660+00:00"
   },
   "UK:B0GWK631XY": {
@@ -1551,9 +1551,8 @@
   },
   "US:B0G5FWJ8NL": {
     "name": "Pokémon TCG: Mega Charizard Tin",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "82,56 €",
     "first_seen": "2026-09-04T21:32:58.802936+00:00"
   },
   "US:B0F2BFSPBN": {
@@ -1887,7 +1886,7 @@
     "name": "Pokemon Sword and Shield Darkness Ablaze Booster Pack (1 Booster Pack)",
     "status": "compra_directa",
     "stock": "5",
-    "price": "34,32 €",
+    "price": "34,33 €",
     "first_seen": "2026-09-08T14:34:56.335940+00:00"
   },
   "US:B0CS12GPTB": {
@@ -2082,9 +2081,8 @@
   },
   "CAR:VC4A-34535235": {
     "name": "Pokémon 30Th Aniversario Caja Colección con Póster Inglés, +6 Años (Unboxing)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "29,99 €",
     "first_seen": "2026-09-15T20:55:26.061442+00:00"
   },
   "CAR:VC4A-34535256": {
