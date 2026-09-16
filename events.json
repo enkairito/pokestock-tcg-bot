@@ -1,18 +1,5 @@
 [
   {
-    "ts": "2026-09-15T22:23:23.646517+00:00",
-    "type": "restock",
-    "asin": "B0H8SZ9F99",
-    "marketplace": "ES",
-    "store_label": "Amazon ES",
-    "flag": "🇪🇸",
-    "name": "Pokémon: Blíster de 2 Sobres de Mejora de Celebración 30.º Aniversario de JCC Pokémon (1 Carta holográfica, 1 Moneda y 2 Sobres de Mejora)",
-    "image": "https://m.media-amazon.com/images/I/910QN4F6CwL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "12,99 €",
-    "prev_price": null,
-    "link": "https://www.amazon.es/dp/B0H8SZ9F99?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-15T22:23:30.390856+00:00",
     "type": "restock",
     "asin": "B0H8T5GC4W",
@@ -778,5 +765,18 @@
     "price": "112,23 €",
     "prev_price": "112,25 €",
     "link": "https://www.amazon.es/dp/B0GDYP1LRF?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-16T12:22:54.371092+00:00",
+    "type": "price_drop",
+    "asin": "B0DB7C1Z26",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
+    "image": "https://m.media-amazon.com/images/I/81TD+vNJcJL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "116,47 €",
+    "prev_price": "116,56 €",
+    "link": "https://www.amazon.es/dp/B0DB7C1Z26?tag=enkairito-21"
   }
 ]
