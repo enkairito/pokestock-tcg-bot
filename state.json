@@ -717,7 +717,7 @@
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "price": "56,68 €",
     "first_seen": "2026-08-30T20:46:19.644833+00:00"
   },
@@ -1301,7 +1301,7 @@
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
     "status": "compra_directa",
     "stock": null,
-    "price": "116,27 €",
+    "price": "116,21 €",
     "first_seen": "2026-09-04T21:32:58.802636+00:00"
   },
   "UK:B0DC2BK8QG": {
@@ -1313,8 +1313,9 @@
   },
   "UK:B0FSJXSPPX": {
     "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "89,07 €",
     "first_seen": "2026-09-04T21:32:58.802653+00:00"
   },
   "UK:B0CMZS84KP": {
@@ -1594,7 +1595,7 @@
     "name": "Pokémon TCG: Miraidon ex Deluxe Battle Deck (Ready-to-Play 60-Card Deck & Accessories)",
     "status": "compra_directa",
     "stock": null,
-    "price": "31,56 €",
+    "price": "31,47 €",
     "first_seen": "2026-09-04T22:05:43.537225+00:00"
   },
   "US:B0GM7H8GCW": {
