@@ -78,7 +78,7 @@
     "name": "Pokémon: Estadio Combina y Combate de Escarlata y Púrpura (2 Barajas, 11 Paquetes de Mejora y más)",
     "status": "compra_directa",
     "stock": null,
-    "price": "63,98 €",
+    "price": "64,98 €",
     "first_seen": "2026-08-25T20:27:54.285181+00:00"
   },
   "ES:B0G4NQK15P": {
@@ -1475,7 +1475,7 @@
   "US:B0G72SPRP6": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "3",
     "price": "84,43 €",
     "first_seen": "2026-09-04T21:32:58.802874+00:00"
   },
@@ -2385,5 +2385,12 @@
     "stock": null,
     "price": null,
     "first_seen": "2026-09-16T07:03:45.050853+00:00"
+  },
+  "ECI:A202042922": {
+    "name": "30TH Ex Box 30th Celebration Pokemon TCG.ENGLISH. POKEMON. BANDAI . Assorted models.",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "34,99 €",
+    "first_seen": "2026-09-16T18:03:08.291160+00:00"
   }
 }
