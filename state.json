@@ -725,9 +725,11 @@
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
-    "price": "57,96 €"
+    "price": "57,96 €",
+    "pending_price": "63,13 €",
+    "pending_price_count": 1
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -1790,8 +1792,8 @@
     "name": "Pokémon Pikachu V-Union Box Edición China Limitada Coleccionista TCG",
     "status": "compra_directa",
     "stock": "1",
-    "price": "89,25 €",
-    "first_seen": "2026-09-08T14:34:56.335801+00:00"
+    "first_seen": "2026-09-08T14:34:56.335801+00:00",
+    "price": "89,25 €"
   },
   "UK:B0CF1MDBS5": {
     "name": "Pokemon - Scarlet & Violet: High Class Pack Shiny Treasure ex - Booster Box",
