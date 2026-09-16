@@ -984,7 +984,7 @@
     "name": "Playstation Uncharted Collection Hits - Versión 17",
     "status": "compra_directa",
     "stock": null,
-    "price": "15,99 €",
+    "price": "18,29 €",
     "first_seen": "2026-09-13T00:24:23.874001+00:00"
   },
   "ES:B0DSWJBFM2": {
@@ -998,7 +998,7 @@
     "name": "EA SPORTS FC 26 Standard Edition PS5 | Disco | Videojuegos | English audio, Spanish subtitles",
     "status": "compra_directa",
     "stock": null,
-    "price": "29,99 €",
+    "price": "29,99 €",
     "first_seen": "2026-09-13T00:24:23.874092+00:00"
   },
   "ES:B0BX722HFN": {
@@ -1296,5 +1296,40 @@
     "stock": null,
     "price": "45,99 €",
     "first_seen": "2026-09-15T22:35:47.404217+00:00"
+  },
+  "ES:B0H7KH6117": {
+    "name": "EA SPORTS FC™ 27 - Edición Estándar PlayStation 5| Disco fisico | Videojuegos | Castellano",
+    "status": "preventa",
+    "stock": null,
+    "price": "69,90 €",
+    "first_seen": "2026-09-16T02:36:01.860184+00:00"
+  },
+  "ES:B0FGK4FQR8": {
+    "name": "EA SPORTS FC 26 Standard Edition PS4 | Videojuegos | Castellano",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "29,99 €",
+    "first_seen": "2026-09-16T02:36:01.860249+00:00"
+  },
+  "ES:B0H7KC2LYW": {
+    "name": "EA SPORTS FC™ 27 - Edición Estándar PlayStation 4| Disco fisico | Videojuegos | Castellano",
+    "status": "preventa",
+    "stock": null,
+    "price": "69,90 €",
+    "first_seen": "2026-09-16T02:36:01.860276+00:00"
+  },
+  "ES:B0FPD23NY6": {
+    "name": "Razer Raiju V3 Pro - Mando inalámbrico e-sports para PlayStation 5 y PC - 4 botones extraíbles y 2 garras de agarre - sticks analógicos TMR - Pro HyperTrigger - Botones Mecha-Táctiles | Blanco",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "188,00 €",
+    "first_seen": "2026-09-16T02:36:01.860289+00:00"
+  },
+  "ES:B0BCK2483B": {
+    "name": "Razer Wolverine V2 Pro - Mando inalámbrico para PS5 y PC (HyperSpeed Wireless, botones de acción mecatáctiles, D-Pad de microinterruptor de 8 direcciones, HyperTrigger) Negro",
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "177,00 €",
+    "first_seen": "2026-09-16T02:36:01.860296+00:00"
   }
 }
