@@ -717,7 +717,7 @@
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "3",
     "price": "56,68 €",
     "first_seen": "2026-08-30T20:46:19.644833+00:00"
   },
@@ -1293,7 +1293,7 @@
   "UK:B0DDYZX1TB": {
     "name": "Pokemon TCG: Scarlet & Violet - Surging Sparks Booster Bundle",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "price": "102,80 €",
     "first_seen": "2026-09-04T21:32:58.802612+00:00"
   },
@@ -1301,7 +1301,7 @@
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
     "status": "compra_directa",
     "stock": "2",
-    "price": "116,75 €",
+    "price": "116,70 €",
     "first_seen": "2026-09-04T21:32:58.802636+00:00"
   },
   "UK:B0DC2BK8QG": {
@@ -1725,8 +1725,9 @@
   },
   "UK:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "26,70 €",
     "first_seen": "2026-09-06T13:57:50.628806+00:00"
   },
   "US:B0D8CRQXDJ": {
