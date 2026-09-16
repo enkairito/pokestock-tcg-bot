@@ -135,8 +135,8 @@
   "ES:B0CD2RBQ68": {
     "name": "Videojuego PlayStation 4 Ubisoft Assassin's Creed Mirage",
     "status": "compra_directa",
-    "stock": null,
-    "price": "19,90 €",
+    "stock": "5",
+    "price": "19,90 €",
     "first_seen": "2026-09-11T19:18:12.685939+00:00"
   },
   "ES:B0GHT1SQ3S": {
@@ -184,7 +184,7 @@
   "ES:B084WQXL2N": {
     "name": "GXTrust Forze Cascos PS4 y PS5 Auriculares de Gaming, Gris",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "price": "28,99 €",
     "first_seen": "2026-09-11T19:18:12.685976+00:00"
   },
@@ -192,7 +192,7 @@
     "name": "Soporte Auriculares Gaming y Soporte Mando PS5, PS4, Xbox... One More Life : Regalo Gamer │ Sujección Universal de Resina y Base Antideslizante : Accesorios escritorio para Decoracion Set UP",
     "status": "compra_directa",
     "stock": null,
-    "price": "34,95 €",
+    "price": "34,95 €",
     "first_seen": "2026-09-11T19:18:12.685978+00:00"
   },
   "ES:B077H1DFS6": {
@@ -251,9 +251,8 @@
   },
   "ES:B0HDYN5LFW": {
     "name": "Mando Inalámbrico DualSense®: Ed. Limitada Marvel: Lobezno Amarillo de Combate",
-    "status": "preventa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "84,99 €",
     "first_seen": "2026-09-12T00:28:03.616777+00:00"
   },
   "ES:B0GYSKSSTH": {
@@ -289,8 +288,9 @@
   },
   "ES:B09X5TX9CN": {
     "name": "Grand Theft Auto V - PlayStation 5",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "18,90 €",
     "first_seen": "2026-09-12T00:28:04.018779+00:00"
   },
   "ES:B0F6D5BS17": {
@@ -302,8 +302,9 @@
   },
   "ES:B01M9COSMD": {
     "name": "Red Dead Redemption 2 (PS4)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "18,98 €",
     "first_seen": "2026-09-12T00:28:04.018808+00:00"
   },
   "ES:B09KTGP5C2": {
@@ -329,8 +330,9 @@
   },
   "ES:B0G6ZHJ9X9": {
     "name": "PlayStation 5-Saros- Edición Estándar",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "61,99 €",
     "first_seen": "2026-09-12T00:28:04.018849+00:00"
   },
   "ES:B0CGHPFJPQ": {
@@ -365,7 +367,7 @@
     "name": "Minecraft - PS5",
     "status": "compra_directa",
     "stock": null,
-    "price": "26,99 €",
+    "price": "26,99 €",
     "first_seen": "2026-09-12T00:28:04.018892+00:00"
   },
   "ES:B09KTPJQ7V": {
@@ -379,14 +381,14 @@
     "name": "PlayStation 5-MARVEL Tōkon: Fighting Souls - Edición Estándar",
     "status": "compra_directa",
     "stock": null,
-    "price": "53,90 €",
+    "price": "53,90 €",
     "first_seen": "2026-09-12T00:28:04.018904+00:00"
   },
   "ES:B0BF4L2FDY": {
     "name": "Ubisoft Assassin's Creed Mirage [PlayStation 5] - Sin cortar",
     "status": "compra_directa",
     "stock": "5",
-    "price": "24,90 €",
+    "price": "24,90 €",
     "first_seen": "2026-09-12T00:28:04.018909+00:00"
   },
   "ES:B0GQHLFRMV": {
@@ -414,7 +416,7 @@
     "name": "Halo: Campaign Evolved - Standard Edition – PlayStation®5 | Disco físico + descarga de contenido requerida",
     "status": "compra_directa",
     "stock": null,
-    "price": "54,95 €",
+    "price": "54,95 €",
     "first_seen": "2026-09-12T00:28:04.018938+00:00"
   },
   "ES:B0G1NBTBC4": {
@@ -641,7 +643,7 @@
     "name": "Ultra Pro Penny Fundas para tarjetas, estándar, blandas, para cartas coleccionables, como Pokemon Magic, tamaño estándar, transparentes, 400 unidades",
     "status": "compra_directa",
     "stock": null,
-    "price": "8,21 €",
+    "price": "8,38 €",
     "first_seen": "2026-09-12T06:27:49.066550+00:00"
   },
   "ES:B0DDTPX5DY": {
@@ -1003,7 +1005,7 @@
     "name": "GXTrust Forta Cascos PS5 Licencia Oficial para PlayStation 5, Blanco",
     "status": "compra_directa",
     "stock": null,
-    "price": "39,99 €",
+    "price": "39,99 €",
     "first_seen": "2026-09-13T00:24:23.874103+00:00"
   },
   "ES:B0DSWGPHB4": {
@@ -1115,8 +1117,9 @@
   },
   "ES:B0FXBBXQ5G": {
     "name": "MySims: Colección Sofá y Mantita PS5 | Videojuegos | Castellano",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "16,79 €",
     "first_seen": "2026-09-14T12:22:33.928730+00:00"
   },
   "ES:B0DKWQ5WSZ": {
@@ -1144,7 +1147,7 @@
     "name": "Soporte Delgado para PS5/PS5 con Ventilador de Refrigeración Ajustable, Soporte de Cargador de Refrigeración Vertical PS5 para PS5/PS5 Slim, Estación de Refrigeración Delgada Multifuncional",
     "status": "compra_directa",
     "stock": null,
-    "price": "31,34 €",
+    "price": "31,34 €",
     "first_seen": "2026-09-14T12:22:34.377768+00:00"
   },
   "ES:B0F7RMQ9QG": {
