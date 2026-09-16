@@ -157,7 +157,7 @@
     "name": "Mochila para Consola PS5/ Slim/ Pro, Bolsa PS5 de Viaje con Protección Total, Funda ps5 Almacenamiento de Gran Capacidad, PS Portal, Portátil, Tarjeta de Juego, Maletin PS 5 con Bolsa 3 Cable- Blanco",
     "status": "compra_directa",
     "stock": null,
-    "price": "32,99 €",
+    "price": "32,99 €",
     "first_seen": "2026-09-11T19:18:12.685967+00:00"
   },
   "ES:B0BJW7XKY2": {
@@ -687,7 +687,7 @@
     "name": "Assassin's Creed Shadows Limited Edition (Exclusivo para Amazon.es) (PS5)",
     "status": "compra_directa",
     "stock": null,
-    "price": "34,90 €",
+    "price": "34,99 €",
     "first_seen": "2026-09-12T12:27:13.469238+00:00"
   },
   "ES:B0774QFGQ1": {
@@ -1071,7 +1071,7 @@
     "name": "PlayStation 5-Until Dawn 2 - Edición Estándar",
     "status": "preventa",
     "stock": null,
-    "price": "49,99 €",
+    "price": "49,99 €",
     "first_seen": "2026-09-13T12:22:28.699801+00:00"
   },
   "ES:B0C74MGJHG": {
@@ -1343,5 +1343,11 @@
     "stock": null,
     "price": "53,43 €",
     "first_seen": "2026-09-16T04:35:56.193880+00:00"
+  },
+  "ES:B076DHYRGP": {
+    "name": "Sony PlayStation 4 Slim (PS4) - Consola de 500 GB",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T08:35:36.598933+00:00"
   }
 }
