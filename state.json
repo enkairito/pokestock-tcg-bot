@@ -2037,8 +2037,9 @@
   },
   "CAR:VC4A-34535241": {
     "name": "Pokémon 30Th Aniversario Lata Ex Versión Sylveon/Greninja, +6 Años (Unboxing)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "34,99 €",
     "first_seen": "2026-09-15T20:55:26.061406+00:00"
   },
   "CAR:VC4A-34535247": {
@@ -2067,14 +2068,16 @@
   },
   "CAR:VC4A-34535251": {
     "name": "Pokémon 30Th Aniversario Pack 2 Sobres con Moneda, +6 Años",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "15,99 €",
     "first_seen": "2026-09-15T20:55:26.061438+00:00"
   },
   "CAR:VC4A-34530761": {
     "name": "Pokemon Caja Elite 30TH Aniversario, Juego de mesa, +6 Años (Unboxing)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "59,99 €",
     "first_seen": "2026-09-15T20:55:26.061440+00:00"
   },
   "CAR:VC4A-34535235": {
@@ -2104,8 +2107,9 @@
   },
   "CAR:VC4A-34535250": {
     "name": "Pokémon 30Th Aniversario Caja Ex Versión Sylveon/Greninja, +6 Años (Unboxing)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "34,99 €",
     "first_seen": "2026-09-15T20:55:26.061450+00:00"
   },
   "CAR:VC4A-34535240": {
@@ -2349,9 +2353,8 @@
   },
   "ECI:A202035455": {
     "name": "30TH Blíster de 2 sobres de mejora de Celebración 30.º Aniversario de JCC Pokémon. POKEMON. BANDAI",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "15,99 €",
     "first_seen": "2026-09-15T22:43:06.257061+00:00"
   },
   "ECI:A202035440": {
