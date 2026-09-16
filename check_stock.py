@@ -20,7 +20,7 @@ MARKETPLACES = [
     {
         "code": "ES",
         "domain": "amazon.es",
-        "flag": "🇪🇸",
+        "flag": "",
         "store_label": "Amazon ES",
         "tag": "enkairito-21",
         "cookies_file": Path(__file__).parent / "amazon_cookies.json",
@@ -159,7 +159,7 @@ MARKETPLACES = [
 # (deep link de Awin) en vez de la URL directa.
 ECI_STORE = {
     "code": "ECI",
-    "flag": "🇪🇸",
+    "flag": "",
     "store_label": "El Corte Inglés",
     "tag": None,
     "pages": [
@@ -191,7 +191,7 @@ ECI_PRICE_RE = re.compile(r"(\d{1,3}(?:\.\d{3})*,\d{2})\s*€")
 # (gclid/gad_source/gbraid/etc., no aportan nada a la búsqueda en sí).
 CARREFOUR_STORE = {
     "code": "CAR",
-    "flag": "🇪🇸",
+    "flag": "",
     "store_label": "Carrefour",
     "tag": None,
     "pages": [
@@ -212,7 +212,7 @@ CARREFOUR_ID_RE = re.compile(r"/([A-Za-z0-9]+-\d+)/p/?$")
 # directamente en la respuesta.
 TOYSRUS_STORE = {
     "code": "TRU",
-    "flag": "🇪🇸",
+    "flag": "",
     "store_label": "Toys\"R\"Us",
     "tag": None,
     "pages": [
@@ -232,7 +232,7 @@ TOYSRUS_SEARCH_API = "https://api.empathy.co/search/v1/query/toysrus/search"
 # marketplace de terceros, más difíciles de fiarse) + Marca=Bandai.
 FNAC_STORE = {
     "code": "FNAC",
-    "flag": "🇪🇸",
+    "flag": "",
     "store_label": "Fnac",
     "tag": None,
     "cookies_file": Path(__file__).parent / "fnac_cookies.json",
@@ -1527,7 +1527,8 @@ async def main():
             stock_line = f"📊 <b>SÓLO QUEDA(N) {html.escape(str(info['stock']))} EN STOCK</b>" if info.get("stock") else ""
             cta = f'{cta_emoji} <b><a href="{link}">{cta_label}</a></b>'
 
-            store_line = f"<b>{info['store_label']} {info['flag']} {hashtag}</b>"
+            store_bits = " ".join(part for part in [info["store_label"], info["flag"], hashtag] if part)
+            store_line = f"<b>{store_bits}</b>"
             website_line = f'🌐 <a href="{WEBSITE_URL}">Ver todos los productos disponibles</a>'
 
             message = "\n\n".join(
