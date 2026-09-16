@@ -467,7 +467,7 @@
   "ES:B0D6WLBJKX": {
     "name": "Pokémon: Caja de Entrenador Élite de Escarlata y Púrpura-Fábula Sombría de JCC Pokémon",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "price": "84,90 €",
     "first_seen": "2026-08-27T14:04:43.687882+00:00"
   },
@@ -1552,8 +1552,8 @@
   "US:B0G5FWJ8NL": {
     "name": "Pokémon TCG: Mega Charizard Tin",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "78,95 €",
+    "stock": null,
+    "price": "82,82 €",
     "first_seen": "2026-09-04T21:32:58.802936+00:00"
   },
   "US:B0F2BFSPBN": {
@@ -2140,9 +2140,8 @@
   },
   "CAR:VC4A-34535257": {
     "name": "Pokemon Caja 30Th Aniversario Colección Pegatinas Especiales, +6 Años (Unboxing)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "24,99 €",
     "first_seen": "2026-09-15T20:55:26.061463+00:00"
   },
   "CAR:VC4A-34535248": {
