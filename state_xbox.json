@@ -242,7 +242,7 @@
     "name": "Batman Arkham Collection (Standard Edition) - Xbox One [Importación inglesa]",
     "status": "compra_directa",
     "stock": "1",
-    "price": "30,30 €",
+    "price": "33,93 €",
     "first_seen": "2026-09-11T19:25:04.811467+00:00"
   },
   "ES:B0CF2T3CQ2": {
@@ -319,7 +319,7 @@
     "name": "Commandos Origins - Xbox Series X/One",
     "status": "compra_directa",
     "stock": null,
-    "price": "52,12 €",
+    "price": "52,12 €",
     "first_seen": "2026-09-11T19:25:04.811663+00:00"
   },
   "ES:B08FCTBC2D": {
@@ -622,7 +622,7 @@
     "name": "Turtle Beach Rematch Core Camo Negro/Verde - Gamepad con cable - Con licencia para Xbox Series XS, Xbox One y PC - Botones de audio, motores de vibración y disparadores de pulso, cable de 3 m",
     "status": "compra_directa",
     "stock": null,
-    "price": "24,99 €",
+    "price": "24,99 €",
     "first_seen": "2026-09-12T00:28:11.204489+00:00"
   },
   "ES:B0CMGN9Z8H": {
@@ -683,7 +683,7 @@
     "name": "Xbox Controlador inalámbrico - DOOM: The Dark Ages Limited Edition Series X|S, One, PC y dispositivos habilitados para la nube",
     "status": "compra_directa",
     "stock": "3",
-    "price": "99,90 €",
+    "price": "99,90 €",
     "first_seen": "2026-09-12T06:28:31.691527+00:00"
   },
   "ES:B0DNQBQNG7": {
@@ -704,7 +704,7 @@
     "name": "Ultra Pro Penny Fundas para tarjetas, estándar, blandas, para cartas coleccionables, como Pokemon Magic, tamaño estándar, transparentes, 400 unidades",
     "status": "compra_directa",
     "stock": null,
-    "price": "8,39 €",
+    "price": "8,38 €",
     "first_seen": "2026-09-12T06:28:31.691547+00:00"
   },
   "ES:B0DJ719GXG": {
@@ -816,7 +816,7 @@
     "name": "GameSir G7 Pro Mando Xbox Cable/PC Inalámbrico, TMR, 1000Hz,Plata",
     "status": "compra_directa",
     "stock": null,
-    "price": "127,24 €",
+    "price": "109,99 €",
     "first_seen": "2026-09-12T18:26:21.308895+00:00"
   },
   "ES:B0CXF1HR6H": {
@@ -1187,5 +1187,19 @@
     "stock": null,
     "price": "27,07 €",
     "first_seen": "2026-09-15T20:35:05.757615+00:00"
+  },
+  "ES:B07VNB55ZX": {
+    "name": "Xbox - Tarjeta Regalo Digital - 5 EUR",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "5,00 €",
+    "first_seen": "2026-09-16T00:36:35.693078+00:00"
+  },
+  "ES:B0H4GPPKLD": {
+    "name": "Gears of War: E-Day – XBOX Series X | Disco físico + descarga de contenido requerida",
+    "status": "preventa",
+    "stock": null,
+    "price": "59,90 €",
+    "first_seen": "2026-09-16T00:36:35.693126+00:00"
   }
 }
