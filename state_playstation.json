@@ -55,8 +55,9 @@
   },
   "ES:B0CJJCZMKJ": {
     "name": "Playstation 5 Portal Remote Player|Reproductor a distancia",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "232,00 €",
     "first_seen": "2026-09-11T19:18:12.323203+00:00"
   },
   "ES:B0H9SB97F7": {
@@ -562,7 +563,7 @@
     "name": "Playstation - Mando Inalámbrico DualSense Edge | Mando Original Sony para PS5 con Botones y Joysticks Ultracustomizables y Perfiles de Controles Personalizados. - Color Blanco",
     "status": "compra_directa",
     "stock": null,
-    "price": "209,90 €",
+    "price": "209,99 €",
     "first_seen": "2026-09-12T00:28:04.018992+00:00"
   },
   "ES:B0FBMGPL61": {
@@ -997,7 +998,7 @@
     "name": "EA SPORTS FC 26 Standard Edition PS5 | Disco | Videojuegos | English audio, Spanish subtitles",
     "status": "compra_directa",
     "stock": null,
-    "price": "29,99 €",
+    "price": "19,90 €",
     "first_seen": "2026-09-13T00:24:23.874092+00:00"
   },
   "ES:B0BX722HFN": {
@@ -1063,8 +1064,9 @@
   },
   "ES:B08KKJ37F7": {
     "name": "Playstation 5 Standard Consola",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "819,90 €",
     "first_seen": "2026-09-13T12:22:28.169361+00:00"
   },
   "ES:B0HJ2FHFY6": {
@@ -1083,8 +1085,8 @@
   "ES:B0CQPMYTVM": {
     "name": "SONY PS5 with Blu-Ray 1TB SSD D-Chassis Slim EU",
     "status": "compra_directa",
-    "stock": null,
-    "price": "819,90 €",
+    "stock": "2",
+    "price": "789,00 €",
     "first_seen": "2026-09-13T18:20:21.671515+00:00"
   },
   "ES:B0C74Q2GWX": {
@@ -1214,7 +1216,7 @@
     "name": "Logitech G G923 Racing Wheel and Pedals for Playstation & PC",
     "status": "compra_directa",
     "stock": null,
-    "price": "229,00 €",
+    "price": "219,99 €",
     "first_seen": "2026-09-15T00:20:12.441018+00:00"
   },
   "ES:B0BZJFJM16": {
@@ -1307,7 +1309,7 @@
     "name": "EA SPORTS FC 26 Standard Edition PS4 | Videojuegos | Castellano",
     "status": "compra_directa",
     "stock": null,
-    "price": "29,99 €",
+    "price": "19,90 €",
     "first_seen": "2026-09-16T02:36:01.860249+00:00"
   },
   "ES:B0H7KC2LYW": {
@@ -1349,5 +1351,189 @@
     "status": "no_disponible",
     "stock": null,
     "first_seen": "2026-09-16T08:35:36.598933+00:00"
+  },
+  "ES:B01N3L7VBR": {
+    "name": "Sony - Controlador Dualshock 4 V2, Color Wave Blue (PS4)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:36:52.312414+00:00"
+  },
+  "ES:B079MPB2H4": {
+    "name": "DualShock 4 Mando Inalámbrico, Acero Negro",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:36:52.312441+00:00"
+  },
+  "ES:B01LQF9RDI": {
+    "name": "PlayStation 4 Slim (PS4) - Consola de 500 GB",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:36:52.312446+00:00"
+  },
+  "ES:B01MT8UETS": {
+    "name": "Sony - Dualshock 4 V2 Mando Inalámbrico, Color Verde Camuflaje (PS4)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:36:52.312452+00:00"
+  },
+  "ES:B0767PSKRV": {
+    "name": "Sony - Crystal Gamepad V2 Dualshock 4 (PS4)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:36:52.312456+00:00"
+  },
+  "ES:B0777VJGZD": {
+    "name": "Sony PlayStation 4 Pro 1TB Negro 1000 GB Wifi - Videoconsolas (Negro, 8192 MB, GDDR5, AMD Jaguar)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:36:52.312460+00:00"
+  },
+  "ES:B0GZVXB4DX": {
+    "name": "Grand Theft Auto VI - Xbox Series X/S (Código de descarga)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:36:52.312464+00:00"
+  },
+  "ES:B016BYTUG8": {
+    "name": "PlayStation 4 (PS4) - Consola Ultimate Player 1TB Edition incl. 2 DS4 [CUH-1216B] (Importación alemana)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:36:52.312468+00:00"
+  },
+  "ES:B07KBLNZB1": {
+    "name": "Sony Playstation 4 (PS4) - Consola 500 Gb + 2 Mandos Dual Shock 4 (Edición Exclusiva Amazon)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:36:52.312471+00:00"
+  },
+  "ES:B073QRG1YR": {
+    "name": "Sony PlayStation 4 Slim 500GB Negro Wifi - Videoconsolas (PlayStation 4, Negro, 8192 MB, GDDR5, GDDR5, AMD Jaguar)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:36:52.312475+00:00"
+  },
+  "ES:B0DJ1VN1LF": {
+    "name": "PlayStation 5 - Mando Inalámbrico DualSense Colección Chroma Pearl",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:36:52.312479+00:00"
+  },
+  "ES:B0G4M6287K": {
+    "name": "Playstation Mando inalámbrico DualSense®: Edición Limitada de Genshin Impact",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:36:52.312485+00:00"
+  },
+  "ES:B07H4QGTC9": {
+    "name": "Sony Playstation 4 Pro - Playstation 4 Pro, 1 TB, color negro (reacondicionado)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:36:52.312493+00:00"
+  },
+  "ES:B07HSJW7HK": {
+    "name": "PlayStation 4 Pro 1TB [Importación francesa]",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:36:52.312496+00:00"
+  },
+  "ES:B07X95JS4C": {
+    "name": "Sony - Dualshock 4 Controller Rose Gold (PS 4)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:36:52.312500+00:00"
+  },
+  "ES:B0BRQCBK2W": {
+    "name": "Console Sony PlayStation 5 Édition Standard Blanche",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:36:52.312504+00:00"
+  },
+  "ES:B00BE4HOIM": {
+    "name": "Sony PlayStation 4 500GB Console (Black) [Importación inglesa]",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:36:52.312510+00:00"
+  },
+  "ES:B07MVF445P": {
+    "name": "PlayStation 4 (PS4) - Consola Slim 1TB Negra",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:36:52.312514+00:00"
+  },
+  "ES:B010TNVS1W": {
+    "name": "PlayStation 4 - Konsole (500GB, schwarz) [CUH-1216A]",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:36:52.312517+00:00"
+  },
+  "ES:B0FP2S1MNB": {
+    "name": "Playstation Consola 5 Estandar Chassis E",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "649,00 €",
+    "first_seen": "2026-09-16T10:36:52.714000+00:00"
+  },
+  "ES:B0GZH9BJYD": {
+    "name": "Grand Theft Auto VI - PlayStation 5 (Código de descarga)",
+    "status": "preventa",
+    "stock": null,
+    "price": "79,90 €",
+    "first_seen": "2026-09-16T10:36:52.714063+00:00"
+  },
+  "ES:B07HGBNWTY": {
+    "name": "Playstation 4 Consola versión Slim (PS4)| Capacidad 500GB | Chasis tipo F | Color negro",
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "499,00 €",
+    "first_seen": "2026-09-16T10:36:52.714129+00:00"
+  },
+  "ES:B08H99BPJN": {
+    "name": "Playstation 5 - Mando inalámbrico DualSense",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "71,99 €",
+    "first_seen": "2026-09-16T10:36:52.714177+00:00"
+  },
+  "ES:B0BS1MLFML": {
+    "name": "Playstation 5 Standard Consola + 2 Mandos Inalámbrico Dualsense blanco",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "789,91 €",
+    "first_seen": "2026-09-16T10:36:52.714181+00:00"
+  },
+  "ES:B0C9YS6H22": {
+    "name": "2x cable de carga para mando PS4, cable de 2m para Playstation 4, Sony PS4, PS4 Slim, mandos Microsoft Xbox One, cable de carga micro USB, azul-negro",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "9,99 €",
+    "first_seen": "2026-09-16T10:36:52.714188+00:00"
+  },
+  "ES:B01LYWPQUN": {
+    "name": "Playstation Sony - Dualshock 4 V2 Mando Inalámbrico, Color Negro V2 (PS4)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "119,99 €",
+    "first_seen": "2026-09-16T10:36:52.714191+00:00"
+  },
+  "ES:B0FMYJ5GSZ": {
+    "name": "Playstation Mando inalámbrico DualSense®: edición limitada Gold Ghost of Yōtei™",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "166,99 €",
+    "first_seen": "2026-09-16T10:36:52.714196+00:00"
+  },
+  "ES:B094WLFGD3": {
+    "name": "PlayStation 5 - Mando inalámbrico DualSense Midnight Black - Exclusivo para PS5",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "76,90 €",
+    "first_seen": "2026-09-16T10:36:52.714203+00:00"
+  },
+  "ES:B0CJYB56BF": {
+    "name": "PlayStation 5- Mando inalámbrico DualSense, color Cobalt Blue",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "90,51 €",
+    "first_seen": "2026-09-16T10:36:52.714206+00:00"
   }
 }
