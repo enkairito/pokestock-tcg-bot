@@ -1135,7 +1135,7 @@
   "US:B0GR6N18F6": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "price": "103,91 €",
     "first_seen": "2026-08-31T17:55:22.065539+00:00"
   },
@@ -1300,8 +1300,8 @@
   "UK:B0DB7C1Z26": {
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
     "status": "compra_directa",
-    "stock": null,
-    "price": "115,82 €",
+    "stock": "1",
+    "price": "115,70 €",
     "first_seen": "2026-09-04T21:32:58.802636+00:00"
   },
   "UK:B0DC2BK8QG": {
