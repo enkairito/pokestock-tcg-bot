@@ -819,7 +819,7 @@
     "name": "Ultra Pro Penny Fundas para tarjetas, estándar, blandas, para cartas coleccionables, como Pokemon Magic, tamaño estándar, transparentes, 400 unidades",
     "status": "compra_directa",
     "stock": null,
-    "price": "8,21 €",
+    "price": "8,38 €",
     "first_seen": "2026-09-12T06:29:23.882192+00:00"
   },
   "ES:B0H1HDKXGH": {
@@ -994,7 +994,7 @@
     "name": "Ultra Pro - 1000 fundas suaves -",
     "status": "compra_directa",
     "stock": null,
-    "price": "12,49 €",
+    "price": "13,99 €",
     "first_seen": "2026-09-13T00:21:41.607232+00:00"
   },
   "ES:B098TVDYZ3": {
@@ -1454,8 +1454,8 @@
   "ES:B01IU4B6I2": {
     "name": "Nintendo Switch Consola 32Gb Azul/Rojo Neón + Mario Kart 8 Deluxe",
     "status": "compra_directa",
-    "stock": "3",
-    "price": "372,90 €",
+    "stock": null,
+    "price": "372,65 €",
     "first_seen": "2026-09-16T10:34:14.850863+00:00"
   },
   "ES:B01N7RLGIJ": {
@@ -1562,5 +1562,19 @@
     "stock": null,
     "price": "90,51 €",
     "first_seen": "2026-09-16T16:36:07.526860+00:00"
+  },
+  "ES:B0HJ9SJF63": {
+    "name": "Apple Funda de Silicona con MagSafe para el iPhone 18 Pro - Burdeos",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "49,00 €",
+    "first_seen": "2026-09-16T18:35:57.179214+00:00"
+  },
+  "ES:B07SR4R8K1": {
+    "name": "Xbox Wireless Controller Elite Series 2 Black para Xbox Series X|S, Xbox One, Windows 10/11, iOS y Android",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "185,00 €",
+    "first_seen": "2026-09-16T18:35:57.179242+00:00"
   }
 }
