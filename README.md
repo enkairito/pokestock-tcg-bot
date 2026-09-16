@@ -58,6 +58,12 @@ todavía pueden repetirse avisos en la siguiente ejecución.
 Este enfoque (leer las tarjetas de la tienda en vez de visitar cada ficha
 individual) reduce mucho el riesgo de bloqueo por parte de Amazon.
 
+Además del catálogo de Amazon, el snapshot incorpora las fuentes españolas
+El Corte Inglés, Carrefour, Fnac y Toys"R"Us cuando sus búsquedas públicas
+responden correctamente. Toys"R"Us se consulta desde su listado filtrado de
+Pokémon disponible; sus enlaces son directos hasta que se configure el
+tracking de TradeDoubler.
+
 La automatización en producción corre en
 [GitHub Actions](.github/workflows/check_stock.yml), cada hora, todo el día
 (sin pausa nocturna) — cron `0 * * * *`. También se puede lanzar a mano
@@ -191,6 +197,11 @@ GitHub Actions cuando cambia el código o los workflows.
 
 `stock_logic.py` comparte las reglas de cambios de disponibilidad, precio y
 unidades, además de la serialización de snapshots, entre los scrapers.
+Las bajadas se detectan contra un precio confirmado. Una subida debe aparecer
+en dos comprobaciones consecutivas antes de sustituir esa referencia, para que
+una lectura alta aislada de Amazon no provoque una falsa bajada al normalizarse.
+Además, una bajada sólo se anuncia si supera el 1 % del precio anterior o si
+la diferencia absoluta alcanza al menos 2 €.
 La exclusión de accesorios de las alertas de One Piece sigue en su scraper.
 
 Al publicar la web, `publish_updates.py` ejecuta `build_catalog.py` sobre el

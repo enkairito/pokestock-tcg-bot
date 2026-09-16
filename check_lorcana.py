@@ -1,4 +1,4 @@
-from stock_logic import alert_changes, write_snapshot
+from stock_logic import alert_changes, confirmed_price_fields, write_snapshot
 import asyncio
 import html
 import json
@@ -281,8 +281,8 @@ async def main():
                 "name": name,
                 "status": status,
                 "stock": info.get("stock"),
-                "price": info.get("price"),
                 "first_seen": first_seen,
+                **confirmed_price_fields(info.get("price"), prev),
             }
 
     if DRY_RUN:

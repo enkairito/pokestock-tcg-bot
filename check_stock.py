@@ -1,4 +1,4 @@
-from stock_logic import ALERT_STATUSES, alert_changes, price_to_float, write_snapshot
+from stock_logic import ALERT_STATUSES, alert_changes, confirmed_price_fields, price_to_float, write_snapshot
 import asyncio
 import html
 import json
@@ -200,6 +200,27 @@ CARREFOUR_STORE = {
 }
 CARREFOUR_ID_RE = re.compile(r"/([A-Za-z0-9]+-\d+)/p/?$")
 
+# Toys"R"Us (toysrus.es) está detrás de un WAF que devuelve 451 a las IPs de
+# datacenter (confirmado desde GitHub Actions) y un challenge de Cloudflare
+# si se simula la interacción real del buscador desde un navegador
+# automatizado — scrapear su HTML no es viable. Pero el buscador de la web
+# es en realidad un widget de Empathy.co (SaaS de búsqueda de terceros) que
+# llama a ``api.empathy.co``, sin esas protecciones: responde JSON limpio a
+# una simple petición HTTP, sin cookies ni sesión. Descubierto el 2026-09-16
+# inspeccionando las peticiones de red de una búsqueda real en el sitio. Los
+# códigos de producto (K1091126, etc.) y la URL canónica del producto vienen
+# directamente en la respuesta.
+TOYSRUS_STORE = {
+    "code": "TRU",
+    "flag": "🇪🇸",
+    "store_label": "Toys\"R\"Us",
+    "tag": None,
+    "pages": [
+        ("Pokémon TCG", "pokemon tcg"),
+    ],
+}
+TOYSRUS_SEARCH_API = "https://api.empathy.co/search/v1/query/toysrus/search"
+
 # Fnac, a diferencia de ECI/Carrefour, SÍ necesita cookies — devuelve un 403
 # "El acceso está restringido temporalmente" (Datadome) a cualquier request
 # sin una cookie "datadome" válida de una sesión real de navegador. Ver
@@ -239,9 +260,9 @@ EVENTS_FILE = Path(__file__).parent / "events.json"
 DEBUG_DIR = Path(__file__).parent / "debug"
 
 # Feed público de actividad de la web (distinto de los avisos de Telegram):
-# a diferencia de Telegram, que solo avisa de ES/ECI para no saturar, el
-# feed incluye las 4 tiendas (ES/UK/US/ECI) porque la web ya muestra el
-# stock de las 4 y un restock en UK/US es igual de relevante para quien la
+# a diferencia de Telegram, que solo avisa de las tiendas españolas para no
+# saturar, el feed incluye todas las tiendas porque la web ya las muestra y el
+# stock de todas y un restock en UK/US es igual de relevante para quien la
 # visita. Se limita a los últimos N eventos (más reciente al final) para
 # que el JSON no crezca sin límite.
 MAX_EVENTS = 60
@@ -550,6 +571,7 @@ FLAG_FILES = {
     "ECI": Path(__file__).parent / "assets" / "flags" / "es.png",
     "CAR": Path(__file__).parent / "assets" / "flags" / "es.png",
     "FNAC": Path(__file__).parent / "assets" / "flags" / "es.png",
+    "TRU": Path(__file__).parent / "assets" / "flags" / "es.png",
     "UK": Path(__file__).parent / "assets" / "flags" / "gb.png",
     "US": Path(__file__).parent / "assets" / "flags" / "us.png",
 }
@@ -922,6 +944,59 @@ async def discover_carrefour_products(page, label, url):
 
     if not products:
         raise ScrapeError(f"Sin productos verificables en Carrefour/{label}; se conserva la publicación anterior")
+    return products
+
+
+async def discover_toysrus_products(page, label, query):
+    """Descubre productos Pokémon llamando directamente a la API de búsqueda
+    (Empathy.co) que usa toysrus.es internamente, en vez de scrapear su HTML
+    — ver la nota junto a TOYSRUS_STORE. Sin cookies ni sesión."""
+    products = {}
+    start = 0
+    rows = 100
+    num_found = None
+    while num_found is None or start < num_found:
+        response = await page.request.get(
+            TOYSRUS_SEARCH_API,
+            params={
+                "query": query,
+                "start": str(start),
+                "rows": str(rows),
+                "instance": "toysrus",
+                "lang": "es",
+                "scope": "desktop",
+                "currency": "EUR",
+            },
+        )
+        if response.status >= 400:
+            raise ScrapeError(f"Respuesta HTTP inválida en ToysRUs/{label} (status {response.status})")
+        data = await response.json()
+        catalog = data.get("catalog") or {}
+        content = catalog.get("content") or []
+        num_found = catalog.get("numFound", len(content))
+
+        for item in content:
+            product_id = item.get("id") or item.get("__id")
+            name = item.get("name")
+            if not product_id or not name or product_id in products:
+                continue
+            price = item.get("price")
+            products[product_id] = {
+                "name": name,
+                "price": f"{price:.2f} €".replace(".", ",") if isinstance(price, (int, float)) else None,
+                "original_price": None,
+                "image": item.get("image"),
+                "stock": None,
+                "status": "compra_directa" if item.get("availability") else "no_disponible",
+                "url": item.get("url"),
+            }
+
+        if not content:
+            break
+        start += len(content)
+
+    if not products:
+        raise ScrapeError(f"Sin productos verificables en ToysRUs/{label}; se conserva la publicación anterior")
     return products
 
 
@@ -1341,6 +1416,61 @@ async def main():
             info["categories"] = assign_categories(info["name"])
             products[f"FNAC:{product_id}"] = info
 
+        # Toys"R"Us es una fuente pública adicional. Se aísla igual que Fnac
+        # porque una caída temporal de una tienda extra no debe impedir que
+        # se publiquen los datos fiables de las demás. La solicitud de
+        # afiliación se gestiona en TradeDoubler; hasta tener el deep-link
+        # aprobado se conservan aquí las URLs directas de producto que
+        # devuelve la API de búsqueda.
+        toysrus_products = {}
+        for label, query in TOYSRUS_STORE["pages"]:
+            print(f"🔍 Descubriendo productos en la tienda (ToysRUs/{label})...")
+            try:
+                page_products = await discover_toysrus_products(page, label, query)
+                print(f"📦 [ToysRUs/{label}] {len(page_products)} productos encontrados")
+                toysrus_products.update(page_products)
+            except Exception as e:
+                print(f"⚠️ No se pudo cargar la página de ToysRUs ({label}), se omite esta vez: {e!r}")
+
+        toysrus_out_of_stock = {a for a, i in toysrus_products.items() if i["status"] == "no_disponible"}
+        if toysrus_out_of_stock:
+            print(f"⏭️ [ToysRUs] Omitiendo {len(toysrus_out_of_stock)} productos agotados de la web (pero sí se actualiza su estado).")
+            for product_id in toysrus_out_of_stock:
+                key = f"TRU:{product_id}"
+                prev_first_seen = state.get(key, {}).get("first_seen")
+                state[key] = {
+                    "name": toysrus_products[product_id]["name"],
+                    "status": "no_disponible",
+                    "stock": None,
+                    "first_seen": prev_first_seen or datetime.now(timezone.utc).isoformat(),
+                }
+                del toysrus_products[product_id]
+
+        toysrus_excluded_by_name = {
+            a for a, i in toysrus_products.items() if is_excluded_by_name(i["name"])
+        }
+        if toysrus_excluded_by_name:
+            print(f"⏭️ [ToysRUs] Omitiendo {len(toysrus_excluded_by_name)} productos no relevantes por nombre.")
+            for product_id in toysrus_excluded_by_name:
+                del toysrus_products[product_id]
+
+        toysrus_not_pokemon = {
+            a for a, i in toysrus_products.items() if not is_relevant_by_name(i["name"])
+        }
+        if toysrus_not_pokemon:
+            print(f"⏭️ [ToysRUs] Omitiendo {len(toysrus_not_pokemon)} productos ajenos a Pokémon.")
+            for product_id in toysrus_not_pokemon:
+                del toysrus_products[product_id]
+
+        for product_id, info in toysrus_products.items():
+            info["asin"] = product_id
+            info["marketplace_code"] = TOYSRUS_STORE["code"]
+            info["store_label"] = TOYSRUS_STORE["store_label"]
+            info["flag"] = TOYSRUS_STORE["flag"]
+            info["link"] = info["url"]
+            info["categories"] = assign_categories(info["name"])
+            products[f"TRU:{product_id}"] = info
+
         await browser.close()
 
     print(f"📦 Total combinado: {len(products)} productos únicos")
@@ -1368,12 +1498,12 @@ async def main():
         send_failed = False
 
         # Solo se envían alertas de Telegram para tiendas españolas (Amazon
-        # ES, El Corte Inglés, Carrefour y Fnac). El resto de marketplaces
+        # ES, El Corte Inglés, Carrefour, Fnac y ToysRUs). El resto de marketplaces
         # (UK, US) se siguen detectando y guardando en el estado/snapshot
         # para la web, pero no generan mensajes.
-        if (status_changed or stock_decreased or price_decreased) and info["marketplace_code"] in ("ES", "ECI", "CAR", "FNAC"):
+        if (status_changed or stock_decreased or price_decreased) and info["marketplace_code"] in ("ES", "ECI", "CAR", "FNAC", "TRU"):
             # El nombre, el precio y (para ECI/Carrefour/Fnac) el link vienen
-            # del scraping de Amazon/El Corte Inglés/Carrefour/Fnac — datos
+            # del scraping de Amazon/El Corte Inglés/Carrefour/Fnac/ToysRUs — datos
             # externos que no controlamos — y el mensaje se manda con parse_mode:
             # HTML, así que hay que
             # escaparlos o un título de producto con '<'/'>'/'&' rompería el
@@ -1435,8 +1565,8 @@ async def main():
                 "name": name,
                 "status": status,
                 "stock": info.get("stock"),
-                "price": info.get("price"),
                 "first_seen": first_seen,
+                **confirmed_price_fields(info.get("price"), prev),
             }
 
     if DRY_RUN:

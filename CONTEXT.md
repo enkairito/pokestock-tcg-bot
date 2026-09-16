@@ -255,8 +255,9 @@ texto literal `"null"` cuando el producto no tiene precio de referencia
 - #3 `[Feature] Web propia` — mayormente hecha, revisar si cerrar
 - #4 `[Partnership] Carrefour` — afiliación vía Awin (bloqueada)
 - #5 `[Partnership] Fnac.es` — afiliación vía Awin (bloqueada)
-- #6 `[Feature] Añadir Toys R Us como tienda` — pendiente de decidir
-  programa de afiliados y URLs a rastrear
+- #6 `[Feature] Añadir Toys R Us como tienda` — scraper integrado el
+  2026-09-16; pendiente configurar los deep-links de TradeDoubler cuando
+  aprueben la afiliación.
 
 **wheresthatstock**
 - #1 `[Future] Dificultar acceso directo a products.json` (seguridad)

@@ -180,6 +180,47 @@ class DiscoveryTests(unittest.IsolatedAsyncioTestCase):
                     products = await stock.discover_eci_products(page, "test", "https://example.test")
                     self.assertEqual(products["ECI001"]["status"], "no_disponible")
 
+    async def test_toysrus_extracts_product_code_price_and_status(self):
+        page = self.page()
+        tiles = [{
+            "id": None,
+            "href": "https://www.toysrus.es/pokemon-sobre/p/K1091126",
+            "name": "Pokémon - Sobre de cartas",
+            "priceText": "5,99 €",
+            "statusText": "Comprar",
+            "image": "https://images.example/card.jpg",
+        }]
+        page.eval_on_selector_all = AsyncMock(
+            side_effect=lambda selector, script: len(tiles) if ".length" in script else tiles
+        )
+        with patch("builtins.print"):
+            products = await stock.discover_toysrus_products(
+                page, "test", "https://example.test/afiliados?query=pokemon"
+            )
+        self.assertEqual(products["K1091126"]["name"], "Pokémon - Sobre de cartas")
+        self.assertEqual(products["K1091126"]["price"], "5,99 €")
+        self.assertEqual(products["K1091126"]["status"], "compra_directa")
+        self.assertEqual(products["K1091126"]["url"], tiles[0]["href"])
+
+    async def test_toysrus_marks_unavailable_cards(self):
+        page = self.page()
+        tiles = [{
+            "id": "K1091127",
+            "href": "https://www.toysrus.es/pokemon-caja/p/K1091127",
+            "name": "Pokémon - Caja de cartas",
+            "priceText": "29,99 €",
+            "statusText": "Agotado",
+            "image": None,
+        }]
+        page.eval_on_selector_all = AsyncMock(
+            side_effect=lambda selector, script: len(tiles) if ".length" in script else tiles
+        )
+        with patch("builtins.print"):
+            products = await stock.discover_toysrus_products(
+                page, "test", "https://example.test/afiliados?query=pokemon"
+            )
+        self.assertEqual(products["K1091127"]["status"], "no_disponible")
+
     async def test_link_only_page_requires_enabled_individual_fallback(self):
         for enabled in (True, False):
             with self.subTest(fallback_enabled=enabled), patch("builtins.print"):
