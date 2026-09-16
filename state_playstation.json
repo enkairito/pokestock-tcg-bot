@@ -1064,16 +1064,15 @@
   },
   "ES:B08KKJ37F7": {
     "name": "Playstation 5 Standard Consola",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "819,90 €",
     "first_seen": "2026-09-13T12:22:28.169361+00:00"
   },
   "ES:B0HJ2FHFY6": {
     "name": "PlayStation 5-Until Dawn 2 - Edición Estándar",
     "status": "preventa",
     "stock": null,
-    "price": "49,99 €",
+    "price": "49,99 €",
     "first_seen": "2026-09-13T12:22:28.699801+00:00"
   },
   "ES:B0C74MGJHG": {
@@ -1535,5 +1534,11 @@
     "stock": null,
     "price": "90,51 €",
     "first_seen": "2026-09-16T10:36:52.714206+00:00"
+  },
+  "ES:B09S5S9L94": {
+    "name": "Nintendo Switch Sports",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T14:36:35.826453+00:00"
   }
 }
