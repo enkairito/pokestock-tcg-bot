@@ -1,18 +1,5 @@
 [
   {
-    "ts": "2026-09-16T07:43:57.604942+00:00",
-    "type": "restock",
-    "asin": "A202035449",
-    "marketplace": "ECI",
-    "store_label": "El Corte Inglés",
-    "flag": "🇪🇸",
-    "name": "30TH Lata de Celebración 30º Aniversario de JCC Pokémon. POKEMON. BANDAI . Modelos surtidos.",
-    "image": "https://dam.elcorteingles.es/producto/www-001044850504281-00.jpg",
-    "price": null,
-    "prev_price": null,
-    "link": "https://www.elcorteingles.es/juguetes/A202035449-30th-lata-de-celebracion-30-aniversario-de-jcc-pokemon-pokemon-bandai-modelos-surtidos/?stype=text_box_multi"
-  },
-  {
     "ts": "2026-09-16T08:04:17.652948+00:00",
     "type": "restock",
     "asin": "A202042924",
@@ -778,5 +765,18 @@
     "price": "57,96 €",
     "prev_price": "63,13 €",
     "link": "https://www.amazon.es/dp/B0GR6Q72ND?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-16T21:43:06.602239+00:00",
+    "type": "price_drop",
+    "asin": "B0DSGB5Q6B",
+    "marketplace": "ES",
+    "store_label": "Amazon ES",
+    "flag": "🇪🇸",
+    "name": "Pokémon Colección Ursaluna Luna Carmesí (4 Cartas holográficas y 4 Paquetes de Mejora)",
+    "image": "https://m.media-amazon.com/images/I/91DYxakGHhL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "38,00 €",
+    "prev_price": "45,09 €",
+    "link": "https://www.amazon.es/dp/B0DSGB5Q6B?tag=enkairito-21"
   }
 ]
