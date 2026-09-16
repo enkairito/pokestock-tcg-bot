@@ -57,8 +57,8 @@
     "name": "Playstation 5 Portal Remote Player|Reproductor a distancia",
     "status": "compra_directa",
     "stock": null,
-    "price": "232,00 €",
-    "first_seen": "2026-09-11T19:18:12.323203+00:00"
+    "first_seen": "2026-09-11T19:18:12.323203+00:00",
+    "price": "232,00 €"
   },
   "ES:B0H9SB97F7": {
     "name": "Pokémon: Lata Megapotencia: Mega-Zeraora ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
@@ -102,8 +102,8 @@
     "name": "Seagate 5TB Game Drive para PlayStation | USB 3.0 (STLV5000202)",
     "status": "compra_directa",
     "stock": null,
-    "price": "195,99 €",
-    "first_seen": "2026-09-11T19:18:12.685892+00:00"
+    "first_seen": "2026-09-11T19:18:12.685892+00:00",
+    "price": "195,99 €"
   },
   "ES:B0D98BDG3S": {
     "name": "EA SPORTS FC 25 Standard Edition PS4 | Videojuegos | Castellano",
@@ -172,8 +172,8 @@
     "name": "Sony PlayStation DualShock 4 Controller - Glacier White (Renewed)",
     "status": "compra_directa",
     "stock": null,
-    "price": "62,48 €",
-    "first_seen": "2026-09-11T19:18:12.685972+00:00"
+    "first_seen": "2026-09-11T19:18:12.685972+00:00",
+    "price": "62,48 €"
   },
   "ES:B0F1QWSCVH": {
     "name": "Turtle Beach Airlite Fit Auriculares con Cable para Juegos en Morado fantasmal con Licencia Oficial para Todos los Nintendo Switch",
@@ -193,8 +193,8 @@
     "name": "Soporte Auriculares Gaming y Soporte Mando PS5, PS4, Xbox... One More Life : Regalo Gamer │ Sujección Universal de Resina y Base Antideslizante : Accesorios escritorio para Decoracion Set UP",
     "status": "compra_directa",
     "stock": null,
-    "price": "34,95 €",
-    "first_seen": "2026-09-11T19:18:12.685978+00:00"
+    "first_seen": "2026-09-11T19:18:12.685978+00:00",
+    "price": "34,95 €"
   },
   "ES:B077H1DFS6": {
     "name": "PlayStation 4 Pro (PS4) - Consola, Color Negro",
@@ -284,8 +284,8 @@
     "name": "Unidad de disco para consolas PS5® Edición Digital (grupo de modelos slim)",
     "status": "compra_directa",
     "stock": null,
-    "price": "79,99 €",
-    "first_seen": "2026-09-12T00:28:04.018716+00:00"
+    "first_seen": "2026-09-12T00:28:04.018716+00:00",
+    "price": "79,99 €"
   },
   "ES:B09X5TX9CN": {
     "name": "Grand Theft Auto V - PlayStation 5",
@@ -353,8 +353,8 @@
     "name": "Logitech G G29 SE Driving Force Wheel and Shifter para Playstation & PC",
     "status": "compra_directa",
     "stock": null,
-    "price": "209,99 €",
-    "first_seen": "2026-09-12T00:28:04.018877+00:00"
+    "first_seen": "2026-09-12T00:28:04.018877+00:00",
+    "price": "209,99 €"
   },
   "ES:B0BQJQZQ54": {
     "name": "Videojuego PlayStation 5 Bandai Namco The Witcher 3: Wild Hunt Complete Edition",
@@ -430,15 +430,17 @@
     "name": "PlayStation 5 - Mando inalámbrico DualSense Edge® – Midnight Black",
     "status": "compra_directa",
     "stock": null,
+    "first_seen": "2026-09-12T00:28:04.018951+00:00",
     "price": "204,99 €",
-    "first_seen": "2026-09-12T00:28:04.018951+00:00"
+    "pending_price": "205,00 €",
+    "pending_price_count": 1
   },
   "ES:B0BMG2LH3W": {
     "name": "Playstation - Realidad Virtual VR2 | Gafas de Realidad Virtual Originales de Sony para PS5 con Imágenes HDR en 4K. Incluye Casco de realidad Virtual VR2 y Mandos VR2 Sense",
     "status": "compra_directa",
     "stock": null,
-    "price": "449,00 €",
-    "first_seen": "2026-09-12T00:28:04.018953+00:00"
+    "first_seen": "2026-09-12T00:28:04.018953+00:00",
+    "price": "449,00 €"
   },
   "ES:B0F3DFKKY8": {
     "name": "Tatybo Cascos Gaming Inalámbricos 7.1 para Ps5/Ps4/PC, Auriculares Bluetooth con Micrófono con Cancelación de Ruido, 2.4GHz USB-C, 40H+ Batería para Switch/Mac/Portátil",
@@ -458,8 +460,8 @@
     "name": "HORI - Volante Apex (PS5/PS4/PC) - Licencia oficial",
     "status": "compra_directa",
     "stock": null,
-    "price": "90,99 €",
-    "first_seen": "2026-09-12T00:28:04.018962+00:00"
+    "first_seen": "2026-09-12T00:28:04.018962+00:00",
+    "price": "90,99 €"
   },
   "ES:B08DLWRZ8V": {
     "name": "VENTION Cable Micro USB 2m Cable Mando ps4 Cable Cargador ebook Kindle Tejido de Nylon Cable Cargador Android Micro usb",
@@ -486,8 +488,8 @@
     "name": "Dualshock 4 Wireless Controller - Jet Black - PlayStation 4",
     "status": "compra_directa",
     "stock": null,
-    "price": "119,99 €",
-    "first_seen": "2026-09-12T00:28:04.018969+00:00"
+    "first_seen": "2026-09-12T00:28:04.018969+00:00",
+    "price": "119,99 €"
   },
   "ES:B0FNCTWV6L": {
     "name": "Tatybo Cascos Gaming Inalámbricos 7.1 para Ps5/Ps4/PC, Auriculares Bluetooth con Micrófono con Cancelación de Ruido, 2.4GHz USB-C, 40H+ Batería para Switch/Mac/Portátil",
@@ -563,8 +565,8 @@
     "name": "Playstation - Mando Inalámbrico DualSense Edge | Mando Original Sony para PS5 con Botones y Joysticks Ultracustomizables y Perfiles de Controles Personalizados. - Color Blanco",
     "status": "compra_directa",
     "stock": null,
-    "price": "209,99 €",
-    "first_seen": "2026-09-12T00:28:04.018992+00:00"
+    "first_seen": "2026-09-12T00:28:04.018992+00:00",
+    "price": "209,99 €"
   },
   "ES:B0FBMGPL61": {
     "name": "Thrustmaster T248R Force Feedback Volante y Pedalier - PS5 y PC",
@@ -998,8 +1000,8 @@
     "name": "EA SPORTS FC 26 Standard Edition PS5 | Disco | Videojuegos | English audio, Spanish subtitles",
     "status": "compra_directa",
     "stock": null,
-    "price": "19,90 €",
-    "first_seen": "2026-09-13T00:24:23.874092+00:00"
+    "first_seen": "2026-09-13T00:24:23.874092+00:00",
+    "price": "19,90 €"
   },
   "ES:B0BX722HFN": {
     "name": "GXTrust Forta Cascos PS5 Licencia Oficial para PlayStation 5, Blanco",
@@ -1161,8 +1163,10 @@
     "name": "Pack de 10 Protectores Gold para Pokemon Elite Trainer Box - Funda Caja Pokemon ETB 0,5mm Grosor - Protección UV para Tus Cajas PKMN",
     "status": "compra_directa",
     "stock": null,
+    "first_seen": "2026-09-14T12:22:34.377788+00:00",
     "price": "24,99 €",
-    "first_seen": "2026-09-14T12:22:34.377788+00:00"
+    "pending_price": "28,62 €",
+    "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1188,8 +1192,8 @@
     "name": "PlayStation 5-MARVEL: Lobezno - Edición Estándar",
     "status": "compra_directa",
     "stock": null,
-    "price": "69,90 €",
-    "first_seen": "2026-09-14T18:20:43.859408+00:00"
+    "first_seen": "2026-09-14T18:20:43.859408+00:00",
+    "price": "69,90 €"
   },
   "ES:B01M5DZ525": {
     "name": "Red Dead Redemption 2 for PlayStation 4",
@@ -1308,8 +1312,8 @@
     "name": "EA SPORTS FC 26 Standard Edition PS4 | Videojuegos | Castellano",
     "status": "compra_directa",
     "stock": null,
-    "price": "19,90 €",
-    "first_seen": "2026-09-16T02:36:01.860249+00:00"
+    "first_seen": "2026-09-16T02:36:01.860249+00:00",
+    "price": "19,90 €"
   },
   "ES:B0H7KC2LYW": {
     "name": "EA SPORTS FC™ 27 - Edición Estándar PlayStation 4| Disco fisico | Videojuegos | Castellano",
@@ -1469,71 +1473,71 @@
     "name": "Playstation Consola 5 Estandar Chassis E",
     "status": "compra_directa",
     "stock": null,
-    "price": "649,00 €",
-    "first_seen": "2026-09-16T10:36:52.714000+00:00"
+    "first_seen": "2026-09-16T10:36:52.714000+00:00",
+    "price": "649,00 €"
   },
   "ES:B0GZH9BJYD": {
     "name": "Grand Theft Auto VI - PlayStation 5 (Código de descarga)",
     "status": "preventa",
     "stock": null,
-    "price": "79,90 €",
-    "first_seen": "2026-09-16T10:36:52.714063+00:00"
+    "first_seen": "2026-09-16T10:36:52.714063+00:00",
+    "price": "79,90 €"
   },
   "ES:B07HGBNWTY": {
     "name": "Playstation 4 Consola versión Slim (PS4)| Capacidad 500GB | Chasis tipo F | Color negro",
     "status": "compra_directa",
     "stock": "2",
-    "price": "499,00 €",
-    "first_seen": "2026-09-16T10:36:52.714129+00:00"
+    "first_seen": "2026-09-16T10:36:52.714129+00:00",
+    "price": "499,00 €"
   },
   "ES:B08H99BPJN": {
     "name": "Playstation 5 - Mando inalámbrico DualSense",
     "status": "compra_directa",
     "stock": null,
-    "price": "71,99 €",
-    "first_seen": "2026-09-16T10:36:52.714177+00:00"
+    "first_seen": "2026-09-16T10:36:52.714177+00:00",
+    "price": "71,99 €"
   },
   "ES:B0BS1MLFML": {
     "name": "Playstation 5 Standard Consola + 2 Mandos Inalámbrico Dualsense blanco",
     "status": "compra_directa",
-    "stock": null,
-    "price": "789,91 €",
-    "first_seen": "2026-09-16T10:36:52.714181+00:00"
+    "stock": "5",
+    "first_seen": "2026-09-16T10:36:52.714181+00:00",
+    "price": "789,91 €"
   },
   "ES:B0C9YS6H22": {
     "name": "2x cable de carga para mando PS4, cable de 2m para Playstation 4, Sony PS4, PS4 Slim, mandos Microsoft Xbox One, cable de carga micro USB, azul-negro",
     "status": "compra_directa",
     "stock": null,
-    "price": "9,99 €",
-    "first_seen": "2026-09-16T10:36:52.714188+00:00"
+    "first_seen": "2026-09-16T10:36:52.714188+00:00",
+    "price": "9,99 €"
   },
   "ES:B01LYWPQUN": {
     "name": "Playstation Sony - Dualshock 4 V2 Mando Inalámbrico, Color Negro V2 (PS4)",
     "status": "compra_directa",
     "stock": null,
-    "price": "119,99 €",
-    "first_seen": "2026-09-16T10:36:52.714191+00:00"
+    "first_seen": "2026-09-16T10:36:52.714191+00:00",
+    "price": "119,99 €"
   },
   "ES:B0FMYJ5GSZ": {
     "name": "Playstation Mando inalámbrico DualSense®: edición limitada Gold Ghost of Yōtei™",
     "status": "compra_directa",
     "stock": null,
-    "price": "174,99 €",
-    "first_seen": "2026-09-16T10:36:52.714196+00:00"
+    "first_seen": "2026-09-16T10:36:52.714196+00:00",
+    "price": "174,99 €"
   },
   "ES:B094WLFGD3": {
     "name": "PlayStation 5 - Mando inalámbrico DualSense Midnight Black - Exclusivo para PS5",
     "status": "compra_directa",
     "stock": null,
-    "price": "76,90 €",
-    "first_seen": "2026-09-16T10:36:52.714203+00:00"
+    "first_seen": "2026-09-16T10:36:52.714203+00:00",
+    "price": "76,90 €"
   },
   "ES:B0CJYB56BF": {
     "name": "PlayStation 5- Mando inalámbrico DualSense, color Cobalt Blue",
     "status": "compra_directa",
     "stock": "4",
-    "price": "90,51 €",
-    "first_seen": "2026-09-16T10:36:52.714206+00:00"
+    "first_seen": "2026-09-16T10:36:52.714206+00:00",
+    "price": "90,51 €"
   },
   "ES:B09S5S9L94": {
     "name": "Nintendo Switch Sports",
@@ -1554,5 +1558,25 @@
     "stock": null,
     "price": "49,00 €",
     "first_seen": "2026-09-16T18:35:45.959397+00:00"
+  },
+  "ES:B09ZM9RV4F": {
+    "name": "Playtation 5 Digital Edition PS.5 Consola (Disco*Free)- U Deal",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T20:35:25.732737+00:00"
+  },
+  "ES:B0FYHR3MYZ": {
+    "name": "Nintendo Switch 2 - Pro Controller Resident Evil Requiem Edition",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-16T20:35:26.115344+00:00",
+    "price": "99,90 €"
+  },
+  "ES:B0D83WDY28": {
+    "name": "NYXI Warrior - Controlador Bluetooth para NSwitch/NGC/Wii/PC",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-16T20:35:26.115363+00:00",
+    "price": "69,99 €"
   }
 }
