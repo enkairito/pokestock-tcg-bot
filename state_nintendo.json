@@ -219,7 +219,7 @@
     "name": "Metal Gear Solid: Master Collection Volume 2 – Day One Edition - Switch",
     "status": "compra_directa",
     "stock": null,
-    "price": "42,90 €",
+    "price": "42,99 €",
     "first_seen": "2026-09-11T19:20:15.912058+00:00"
   },
   "ES:B0D42BGBV3": {
@@ -274,7 +274,7 @@
   "ES:B072BZ66JL": {
     "name": "Nintendo Par Joy-Con, verde/rosa, Bluetooth Interruptor",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "price": "70,99 €",
     "first_seen": "2026-09-11T19:20:15.912095+00:00"
   },
@@ -728,8 +728,9 @@
   },
   "ES:B0HJ91G9GH": {
     "name": "Zelda Ocarina Of Time - Nintendo Switch 2",
-    "status": "no_disponible",
+    "status": "preventa",
     "stock": null,
+    "price": "59,90 €",
     "first_seen": "2026-09-12T06:29:23.379261+00:00"
   },
   "ES:B0FTG4DGK7": {
@@ -1350,7 +1351,7 @@
   "ES:B0F3HFQ5SY": {
     "name": "Nintendo Switch 2 + Mario Kart World Bundle",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "4",
     "price": "599,90 €",
     "first_seen": "2026-09-16T00:35:34.440200+00:00"
   },
@@ -1367,5 +1368,11 @@
     "stock": null,
     "price": "30,99 €",
     "first_seen": "2026-09-16T00:35:34.440322+00:00"
+  },
+  "ES:B08KVFN4FJ": {
+    "name": "NEED FOR SPEED HOT PURSUIT REMASTERED",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T02:35:33.202342+00:00"
   }
 }
