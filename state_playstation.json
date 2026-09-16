@@ -643,7 +643,7 @@
     "name": "Ultra Pro Penny Fundas para tarjetas, estándar, blandas, para cartas coleccionables, como Pokemon Magic, tamaño estándar, transparentes, 400 unidades",
     "status": "compra_directa",
     "stock": null,
-    "price": "8,21 €",
+    "price": "8,38 €",
     "first_seen": "2026-09-12T06:27:49.066550+00:00"
   },
   "ES:B0DDTPX5DY": {
@@ -1026,7 +1026,7 @@
     "name": "Ultra Pro - 1000 fundas suaves -",
     "status": "compra_directa",
     "stock": null,
-    "price": "12,49 €",
+    "price": "13,99 €",
     "first_seen": "2026-09-13T00:24:23.874186+00:00"
   },
   "ES:B07KTKCZRD": {
@@ -1531,7 +1531,7 @@
   "ES:B0CJYB56BF": {
     "name": "PlayStation 5- Mando inalámbrico DualSense, color Cobalt Blue",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "4",
     "price": "90,51 €",
     "first_seen": "2026-09-16T10:36:52.714206+00:00"
   },
@@ -1547,5 +1547,12 @@
     "stock": null,
     "price": "49,99 €",
     "first_seen": "2026-09-16T16:33:57.520021+00:00"
+  },
+  "ES:B0HJ9SJF63": {
+    "name": "Apple Funda de Silicona con MagSafe para el iPhone 18 Pro - Burdeos",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "49,00 €",
+    "first_seen": "2026-09-16T18:35:45.959397+00:00"
   }
 }
