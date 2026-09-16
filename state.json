@@ -193,10 +193,9 @@
   },
   "ES:B0GSSQYPK3": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-08-25T20:27:53.163279+00:00",
-    "price": "29,94 €"
+    "first_seen": "2026-08-25T20:27:53.163279+00:00"
   },
   "ES:B0GSSJ9RB1": {
     "name": "Pokémon: Expositor de Sobres de Mejora de Megaevolución-Caos Creciente (18 Sobres de Mejora)",
@@ -1303,7 +1302,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "115,51 €"
+    "price": "115,46 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
