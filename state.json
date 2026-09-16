@@ -725,7 +725,7 @@
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": null,
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
     "price": "57,96 €"
   },
@@ -1477,8 +1477,8 @@
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
     "status": "compra_directa",
     "stock": "3",
-    "price": "84,43 €",
-    "first_seen": "2026-09-04T21:32:58.802874+00:00"
+    "first_seen": "2026-09-04T21:32:58.802874+00:00",
+    "price": "84,43 €"
   },
   "US:B0G72QBTBJ": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Emboar ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
@@ -1526,8 +1526,8 @@
     "name": "Pokemon Scarlet & Violet 151 | Booster Pack",
     "status": "compra_directa",
     "stock": null,
-    "price": "65,73 €",
-    "first_seen": "2026-09-04T21:32:58.802915+00:00"
+    "first_seen": "2026-09-04T21:32:58.802915+00:00",
+    "price": "65,73 €"
   },
   "US:B0D1RKJM6K": {
     "name": "Pokemon TCG: Scarlet & Violet - Paquete de refuerzo de destinos paldeanos",
@@ -1539,7 +1539,7 @@
   "US:B0DSLX39J1": {
     "name": "Pokémon TCG: Scarlet & Violet - Journey Together - Paquete de 3 ampollas - Yanmega (3 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802925+00:00",
     "price": "48,39 €"
   },
@@ -1741,8 +1741,8 @@
     "name": "Pokémon TCG: Mini Cartera (Cartera de 60 Tarjetas y 1 Paquete de Refuerzo)",
     "status": "compra_directa",
     "stock": null,
-    "price": "33,29 €",
-    "first_seen": "2026-09-07T19:01:37.274378+00:00"
+    "first_seen": "2026-09-07T19:01:37.274378+00:00",
+    "price": "33,29 €"
   },
   "US:B0F67M1VGX": {
     "name": "Pokemon TCG: Scarlet & Violet Azure Legends Tin - Dialga ex (5 Packs)",
@@ -1776,8 +1776,8 @@
     "name": "Pokémon TCG: Booster Pack de 10 Cartas Mega Evolution Flames Phantasmal Mangas",
     "status": "compra_directa",
     "stock": null,
-    "price": "38,64 €",
-    "first_seen": "2026-09-08T14:34:56.335771+00:00"
+    "first_seen": "2026-09-08T14:34:56.335771+00:00",
+    "price": "38,64 €"
   },
   "UK:B0DG8VNG1F": {
     "name": "Pokémon TCG: Scarlet & Violet—Shrouded Fable Booster Bundle (6 Booster Packs)",
