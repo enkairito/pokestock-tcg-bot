@@ -620,7 +620,7 @@
     "name": "Turtle Beach Rematch Core Camo Negro/Verde - Gamepad con cable - Con licencia para Xbox Series XS, Xbox One y PC - Botones de audio, motores de vibración y disparadores de pulso, cable de 3 m",
     "status": "compra_directa",
     "stock": null,
-    "price": "24,99 €",
+    "price": "24,99 €",
     "first_seen": "2026-09-12T00:28:11.204489+00:00"
   },
   "ES:B0CMGN9Z8H": {
@@ -983,7 +983,7 @@
     "name": "Microsoft - Adaptador Wireless (PC)",
     "status": "compra_directa",
     "stock": null,
-    "price": "35,97 €",
+    "price": "37,32 €",
     "first_seen": "2026-09-14T12:21:25.171665+00:00"
   },
   "ES:B0F7RNNYZY": {
@@ -1212,5 +1212,19 @@
     "stock": null,
     "price": "16,99 €",
     "first_seen": "2026-09-16T04:35:42.214967+00:00"
+  },
+  "ES:B0GMKPCPN3": {
+    "name": "Nacon Revolution X Unlimited Edición Aniversario – Mando inalámbrico de alta precisión para Xbox Series X|S, One y PC – Licencia oficial Xbox",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "199,90 €",
+    "first_seen": "2026-09-16T06:35:30.156898+00:00"
+  },
+  "ES:B0HDQ2LRS9": {
+    "name": "Xbox Mando inalámbrico Gears of War: Edición Limitada E-Day Series X|S, One, PCs, televisores, móviles y más",
+    "status": "preventa",
+    "stock": null,
+    "price": "89,99 €",
+    "first_seen": "2026-09-16T06:35:30.156933+00:00"
   }
 }
