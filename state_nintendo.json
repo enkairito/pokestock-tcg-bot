@@ -1241,7 +1241,7 @@
     "first_seen": "2026-09-14T12:21:43.539312+00:00"
   },
   "ES:B0FKFZD845": {
-    "name": "CAMWAY Adaptador Wii HDMI 1080P/720P, Convertidor de Wii a HDMI con Cable HDMI de 150CM Integrado, Compatible con Nintendo Wii/HDTV/Monitor NTSC, PAL, Plug and Play",
+    "name": "CAMWAY Adaptador Wii HDMI 1080P/720P con Cable HDMI de 150CM",
     "status": "compra_directa",
     "stock": null,
     "price": "10,79 €",
@@ -1446,7 +1446,7 @@
   "ES:B0BZT51WWW": {
     "name": "Nintendo Switch (versión OLED) Edición Limitada The Legend of Zelda: Tears of the Kingdom",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "price": "439,90 €",
     "first_seen": "2026-09-16T10:34:14.850852+00:00"
   },
@@ -1547,5 +1547,12 @@
     "stock": null,
     "price": "10,99 €",
     "first_seen": "2026-09-16T12:34:53.672221+00:00"
+  },
+  "ES:B094WLFGD3": {
+    "name": "PlayStation 5 - Mando inalámbrico DualSense Midnight Black - Exclusivo para PS5",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "76,90 €",
+    "first_seen": "2026-09-16T14:34:54.021797+00:00"
   }
 }
