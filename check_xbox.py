@@ -16,7 +16,7 @@ from check_stock import (
     STATUS_COPY,
     _strip_accents,
     check_single_product,
-    discover_products,
+    discover_bestsellers_products,
     is_excluded_by_name,
     merge_product_record,
     new_context,
@@ -47,8 +47,14 @@ XBOX_MARKETPLACE = {
     "continue_button_pattern": "text=/seguir comprando/i",
     "stock_count_re": re.compile(r"queda\(?n?\)?\s+(\d+)\s+en stock", re.IGNORECASE),
     "pages": [
-        ("Xbox Series X|S", "https://www.amazon.es/s?k=Xbox+Series+X&rh=n%3A20938004031"),
-        ("Xbox One", "https://www.amazon.es/s?k=Xbox+One&rh=n%3A2785651031"),
+        # Más vendidos de Amazon, por plataforma y categoría — mismo patrón
+        # [data-asin] que las búsquedas de arriba, confirmado el 2026-09-17.
+        ("Más vendidos Xbox Series X — Consolas", "https://www.amazon.es/gp/bestsellers/videogames/20938019031"),
+        ("Más vendidos Xbox Series X — Juegos", "https://www.amazon.es/gp/bestsellers/videogames/20938020031"),
+        ("Más vendidos Xbox Series X — Accesorios", "https://www.amazon.es/gp/bestsellers/videogames/20938005031"),
+        ("Más vendidos Xbox One — Consolas", "https://www.amazon.es/gp/bestsellers/videogames/2785653031"),
+        ("Más vendidos Xbox One — Juegos", "https://www.amazon.es/gp/bestsellers/videogames/2785654031"),
+        ("Más vendidos Xbox One — Accesorios", "https://www.amazon.es/gp/bestsellers/videogames/2785652031"),
     ],
     "allow_individual_fallback": True,
     "exclude_out_of_stock": True,
@@ -81,23 +87,23 @@ def is_accessory(name):
 
 
 def categorize_xbox(name):
-    """Reglas (por orden de prioridad), mismo criterio comprobado a mano el
-    2026-09-11 que check_nintendo.py, adaptado a Xbox:
+    """Reglas (por orden de prioridad). Desde que las páginas de origen son
+    "Más vendidos" filtradas por plataforma/categoría (2026-09-17), la
+    relevancia de plataforma ya la garantiza la página de origen — exigir
+    "Xbox" en el nombre descartaba juegos reales que no mencionan la
+    consola en absoluto. Solo se descarta el merchandising ajeno; el resto
+    que no sea consola es videojuego.
     1. Se descarta si es merchandising ajeno (libros, peluches...).
     2. Consola: menciona "consola" explícitamente.
-    3. Videojuego: menciona Xbox y no encajó arriba.
-    Si no menciona Xbox en absoluto, se descarta (return None). Los
-    mandos/auriculares ya se separan antes con is_accessory."""
+    3. Videojuego: cualquier otra cosa.
+    Los mandos/auriculares ya se separan antes con is_accessory."""
     text = _strip_accents((name or "").lower())
-    mentions_xbox = "xbox" in text
 
     if any(keyword in text for keyword in JUNK_NAME_KEYWORDS):
         return None
     if "consola" in text:
         return "Consola"
-    if mentions_xbox:
-        return "Videojuego"
-    return None
+    return "Videojuego"
 
 
 def load_state():
@@ -159,7 +165,7 @@ async def main():
         for label, url in marketplace["pages"]:
             print(f"🔍 Descubriendo productos de Xbox ({label})...")
             try:
-                page_products, page_fallback = await discover_products(page, label, url, marketplace)
+                page_products, page_fallback = await discover_bestsellers_products(page, label, url, marketplace)
                 print(f"📦 [{label}] {len(page_products)} productos encontrados")
                 for asin, info in page_products.items():
                     marketplace_products[asin] = merge_product_record(marketplace_products.get(asin), info)

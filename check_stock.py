@@ -794,6 +794,73 @@ async def discover_products(page, label, url, marketplace):
     return products, fallback_asins
 
 
+async def discover_bestsellers_products(page, label, url, marketplace):
+    """Descubre productos desde una página "Más vendidos" de Amazon
+    (gp/bestsellers/...) — usada para Nintendo/PlayStation/Xbox. Su
+    plantilla de tarjeta es distinta a la de resultados de búsqueda: no
+    tiene ``h2[aria-label]`` ni botón "Añadir a la cesta"; el título es el
+    primer enlace a "/dp/" que no sea el de la imagen (que va con
+    aria-hidden), y el precio usa una clase con sufijo generado
+    (``p13n-sc-price``, comprobado el 2026-09-17), así que se busca por
+    coincidencia parcial. Un producto sin precio visible en la tarjeta se
+    manda al fallback individual en vez de asumir que está agotado — no
+    hay ningún indicador explícito de disponibilidad en esta plantilla."""
+    response = await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+    if response is None or response.status >= 400:
+        raise ScrapeError(f"Respuesta HTTP inválida en {marketplace['code']}/{label}")
+    await page.wait_for_timeout(2500)
+
+    for _ in range(6):
+        await page.mouse.wheel(0, 2000)
+        await page.wait_for_timeout(700)
+
+    title = await page.title()
+    print(f"ℹ️ [{marketplace['code']}/{label}] Título de la página cargada: {title!r}")
+
+    body_text = (await page.inner_text("body")).lower()
+    if any(marker in body_text for marker in CAPTCHA_MARKERS):
+        raise ScrapeError(f"Captcha en {marketplace['code']}/{label}")
+
+    tiles = await page.eval_on_selector_all(
+        "[data-asin]",
+        """els => els.filter(e => e.getAttribute('data-asin')).map(el => {
+            const asin = el.getAttribute('data-asin');
+            const titleLink = el.querySelector('a[href*="/dp/"]:not([aria-hidden="true"])');
+            const name = titleLink ? titleLink.textContent.trim() : null;
+            const priceEl = el.querySelector('[class*="p13n-sc-price"]');
+            const price = priceEl ? priceEl.textContent.trim() : null;
+            const imageEl = el.querySelector('img');
+            const image = imageEl ? imageEl.src : null;
+            return { asin, name, price, image };
+        })""",
+    )
+
+    products = {}
+    for t in tiles:
+        asin = t.get("asin")
+        if not asin or not ASIN_VALID_RE.match(asin) or asin in products:
+            continue
+        if not t.get("name"):
+            continue
+        # Sin comprobación individual a propósito: en la práctica, un
+        # producto sin precio en la tarjeta resulta agotado casi siempre
+        # (15 de 16 comprobados a mano el 2026-09-17) — no compensa el
+        # coste de visitar cada ficha para confirmar el caso raro restante.
+        price = clean_price(t.get("price"))
+        products[asin] = {
+            "name": t["name"],
+            "price": price,
+            "original_price": None,
+            "image": t.get("image"),
+            "stock": None,
+            "status": "compra_directa" if price else "no_disponible",
+        }
+
+    if not products:
+        raise ScrapeError(f"Sin productos verificables en {marketplace['code']}/{label}; se conserva la publicación anterior")
+    return products, set()
+
+
 async def discover_eci_products(page, label, url):
     """Descubre productos de El Corte Inglés desde una página de búsqueda.
     Sin cookies/sesión (búsqueda pública) y sin flujo de invitación —

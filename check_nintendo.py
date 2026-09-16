@@ -16,7 +16,7 @@ from check_stock import (
     STATUS_COPY,
     _strip_accents,
     check_single_product,
-    discover_products,
+    discover_bestsellers_products,
     is_excluded_by_name,
     merge_product_record,
     new_context,
@@ -53,9 +53,16 @@ NINTENDO_MARKETPLACE = {
     "continue_button_pattern": "text=/seguir comprando/i",
     "stock_count_re": re.compile(r"queda\(?n?\)?\s+(\d+)\s+en stock", re.IGNORECASE),
     "pages": [
-        ("Accesorios", "https://www.amazon.es/stores/page/90DA6888-5299-462F-A9F0-2956BE635C68"),
-        ("Nintendo Switch 2", "https://www.amazon.es/s?k=Nintendo+Switch+2&rh=n%3A206805348031"),
-        ("Nintendo Switch", "https://www.amazon.es/s?k=Nintendo+Switch&rh=n%3A12366198031"),
+        # Más vendidos de Amazon, por plataforma y categoría — mismo patrón
+        # [data-asin] que las búsquedas de arriba, confirmado el 2026-09-17.
+        # Los IDs de nodo salen de la barra lateral de cada página de más
+        # vendidos (Consolas/Juegos/Accesorios bajo cada plataforma).
+        ("Más vendidos Switch 2 — Consolas", "https://www.amazon.es/gp/bestsellers/videogames/206234157031"),
+        ("Más vendidos Switch 2 — Juegos", "https://www.amazon.es/gp/bestsellers/videogames/206234155031"),
+        ("Más vendidos Switch 2 — Accesorios", "https://www.amazon.es/gp/bestsellers/videogames/206234156031"),
+        ("Más vendidos Switch — Consolas", "https://www.amazon.es/gp/bestsellers/videogames/12366199031"),
+        ("Más vendidos Switch — Juegos", "https://www.amazon.es/gp/bestsellers/videogames/12366200031"),
+        ("Más vendidos Switch — Accesorios", "https://www.amazon.es/gp/bestsellers/videogames/12366201031"),
     ],
     "allow_individual_fallback": True,
     "exclude_out_of_stock": True,
@@ -88,27 +95,28 @@ def is_accessory(name):
 
 
 def categorize_nintendo(name):
-    """Reglas (por orden de prioridad), a partir de los resultados reales
-    comprobados a mano el 2026-09-11 en el departamento "Videojuegos" de
-    Amazon ES filtrado por nodo Nintendo Switch 2 / Nintendo Switch:
+    """Reglas (por orden de prioridad). Desde que las páginas de origen son
+    "Más vendidos" filtradas por plataforma/categoría (Consolas/Juegos/
+    Accesorios bajo el nodo de Nintendo Switch o Switch 2 — 2026-09-17), la
+    relevancia de plataforma ya la garantiza la página de origen: muchos
+    títulos de juego reales (ej. "Stardew Valley", "Hollow Knight") no
+    mencionan "Nintendo"/"Switch" en el nombre, así que exigirlo descartaba
+    juegos de verdad. Solo se descarta el merchandising ajeno; el resto que
+    no sea consola es videojuego.
     1. Se descarta si es merchandising ajeno (libros, peluches...).
     2. Consola: menciona "consola" explícitamente — los listados de Amazon
        ES para el hardware siempre lo incluyen ("Nintendo Switch 2 -
        Consola").
-    3. Videojuego: menciona Nintendo/Switch y no encajó arriba.
-    Si no menciona Nintendo/Switch en absoluto, se descarta (return None).
+    3. Videojuego: cualquier otra cosa.
     Las fundas/mandos/protectores ya se separan antes con is_accessory (van
     a la web de accesorios)."""
     text = _strip_accents((name or "").lower())
-    mentions_nintendo = "nintendo" in text or "switch" in text
 
     if any(keyword in text for keyword in JUNK_NAME_KEYWORDS):
         return None
     if "consola" in text:
         return "Consola"
-    if mentions_nintendo:
-        return "Videojuego"
-    return None
+    return "Videojuego"
 
 
 def load_state():
@@ -170,7 +178,7 @@ async def main():
         for label, url in marketplace["pages"]:
             print(f"🔍 Descubriendo productos de Nintendo ({label})...")
             try:
-                page_products, page_fallback = await discover_products(page, label, url, marketplace)
+                page_products, page_fallback = await discover_bestsellers_products(page, label, url, marketplace)
                 print(f"📦 [{label}] {len(page_products)} productos encontrados")
                 for asin, info in page_products.items():
                     marketplace_products[asin] = merge_product_record(marketplace_products.get(asin), info)
