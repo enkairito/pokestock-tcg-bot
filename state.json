@@ -717,7 +717,7 @@
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "price": "56,68 €",
     "first_seen": "2026-08-30T20:46:19.644833+00:00"
   },
@@ -1301,7 +1301,7 @@
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
     "status": "compra_directa",
     "stock": null,
-    "price": "116,47 €",
+    "price": "116,43 €",
     "first_seen": "2026-09-04T21:32:58.802636+00:00"
   },
   "UK:B0DC2BK8QG": {
@@ -1313,9 +1313,8 @@
   },
   "UK:B0FSJXSPPX": {
     "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "90,15 €",
     "first_seen": "2026-09-04T21:32:58.802653+00:00"
   },
   "UK:B0CMZS84KP": {
@@ -2068,8 +2067,9 @@
   },
   "CAR:VC4A-34535251": {
     "name": "Pokémon 30Th Aniversario Pack 2 Sobres con Moneda, +6 Años",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "15,99 €",
     "first_seen": "2026-09-15T20:55:26.061438+00:00"
   },
   "CAR:VC4A-34530761": {
@@ -2098,8 +2098,9 @@
   },
   "CAR:VC4A-34535245": {
     "name": "Pokémon 30Th Aniversario Pack 2 Sobres con Moneda Inglés, +6 Años",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "15,99 €",
     "first_seen": "2026-09-15T20:55:26.061448+00:00"
   },
   "CAR:VC4A-34535250": {
