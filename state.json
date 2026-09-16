@@ -78,7 +78,7 @@
     "name": "Pokémon: Estadio Combina y Combate de Escarlata y Púrpura (2 Barajas, 11 Paquetes de Mejora y más)",
     "status": "compra_directa",
     "stock": null,
-    "price": "64,98 €",
+    "price": "65,98 €",
     "first_seen": "2026-08-25T20:27:54.285181+00:00"
   },
   "ES:B0G4NQK15P": {
@@ -282,7 +282,7 @@
     "name": "Pokémon Colección Ursaluna Luna Carmesí (4 Cartas holográficas y 4 Paquetes de Mejora)",
     "status": "compra_directa",
     "stock": null,
-    "price": "45,09 €",
+    "price": "38,00 €",
     "first_seen": "2026-08-25T20:27:15.542170+00:00"
   },
   "ES:B0FXTY9D99": {
@@ -1320,8 +1320,9 @@
   },
   "UK:B0CMZS84KP": {
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
-    "status": "no_disponible",
-    "stock": null,
+    "status": "compra_directa",
+    "stock": "3",
+    "price": "195,58 €",
     "first_seen": "2026-09-04T21:32:58.802660+00:00"
   },
   "UK:B0GWK631XY": {
@@ -1468,7 +1469,7 @@
     "name": "Pokemon TCG: Trick or Trade Booster Bundle (2024) - 35 Paquetes",
     "status": "compra_directa",
     "stock": null,
-    "price": "135,07 €",
+    "price": "136,50 €",
     "first_seen": "2026-09-04T21:32:58.802853+00:00"
   },
   "US:B0G72SPRP6": {
@@ -1551,7 +1552,7 @@
   "US:B0G5FWJ8NL": {
     "name": "Pokémon TCG: Mega Charizard Tin",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "price": "82,56 €",
     "first_seen": "2026-09-04T21:32:58.802936+00:00"
   },
@@ -1893,7 +1894,7 @@
     "name": "Pokemon TCG: Sword & Shield - Paquete de Refuerzo de Estrellas Brillantes (10 Tarjetas por Paquete)",
     "status": "compra_directa",
     "stock": null,
-    "price": "42,63 €",
+    "price": "42,48 €",
     "first_seen": "2026-09-08T14:34:56.335946+00:00"
   },
   "US:B0D4B515H1": {
