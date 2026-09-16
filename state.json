@@ -468,7 +468,7 @@
     "name": "Pokémon: Caja de Entrenador Élite de Escarlata y Púrpura-Fábula Sombría de JCC Pokémon",
     "status": "compra_directa",
     "stock": "5",
-    "price": "110,01 €",
+    "price": "108,23 €",
     "first_seen": "2026-08-27T14:04:43.687882+00:00"
   },
   "ES:B0C643MGKG": {
@@ -1427,7 +1427,7 @@
     "name": "Pokémon- Origin Forme Palkia VSTAR Baraja de Batalla de la Liga, Multicolor (290-85236)",
     "status": "compra_directa",
     "stock": "5",
-    "price": "47,02 €",
+    "price": "46,94 €",
     "first_seen": "2026-09-04T21:32:58.802801+00:00"
   },
   "UK:B0C7QXP3FH": {
@@ -1725,9 +1725,8 @@
   },
   "UK:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "26,50 €",
     "first_seen": "2026-09-06T13:57:50.628806+00:00"
   },
   "US:B0D8CRQXDJ": {
@@ -1830,8 +1829,8 @@
   "UK:B09M48Z5NW": {
     "name": "Pokémon TCG: Baraja de Batalla V: Lycanroc contra Corviknight",
     "status": "compra_directa",
-    "stock": null,
-    "price": "55,37 €",
+    "stock": "1",
+    "price": "38,34 €",
     "first_seen": "2026-09-08T14:34:56.335876+00:00"
   },
   "UK:B00TA6E3KI": {
@@ -2343,8 +2342,9 @@
   },
   "ECI:A202035449": {
     "name": "30TH Lata de Celebración 30º Aniversario de JCC Pokémon. POKEMON. BANDAI . Modelos surtidos.",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": null,
     "first_seen": "2026-09-15T22:43:06.257047+00:00"
   },
   "ECI:A202035455": {
@@ -2383,9 +2383,8 @@
   },
   "ECI:A202042924": {
     "name": "30TH Poster Collection box 30th Celebration Pokemon TCG. ENGLISH. POKEMON. BANDAI",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": null,
     "first_seen": "2026-09-16T07:03:45.050853+00:00"
   }
 }
