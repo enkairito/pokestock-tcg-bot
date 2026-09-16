@@ -180,45 +180,45 @@ class DiscoveryTests(unittest.IsolatedAsyncioTestCase):
                     products = await stock.discover_eci_products(page, "test", "https://example.test")
                     self.assertEqual(products["ECI001"]["status"], "no_disponible")
 
+    def toysrus_api_page(self, content, status=200, num_found=None):
+        page = MagicMock()
+        response = MagicMock()
+        response.status = status
+        response.json = AsyncMock(return_value={
+            "catalog": {"content": content, "numFound": num_found if num_found is not None else len(content)},
+        })
+        page.request.get = AsyncMock(return_value=response)
+        return page
+
     async def test_toysrus_extracts_product_code_price_and_status(self):
-        page = self.page()
-        tiles = [{
-            "id": None,
-            "href": "https://www.toysrus.es/pokemon-sobre/p/K1091126",
+        content = [{
+            "id": "K1091126",
             "name": "Pokémon - Sobre de cartas",
-            "priceText": "5,99 €",
-            "statusText": "Comprar",
+            "price": 5.99,
+            "availability": True,
             "image": "https://images.example/card.jpg",
+            "url": "https://www.toysrus.es/pokemon-sobre/p/K1091126",
         }]
-        page.eval_on_selector_all = AsyncMock(
-            side_effect=lambda selector, script: len(tiles) if ".length" in script else tiles
-        )
+        page = self.toysrus_api_page(content)
         with patch("builtins.print"):
-            products = await stock.discover_toysrus_products(
-                page, "test", "https://example.test/afiliados?query=pokemon"
-            )
+            products = await stock.discover_toysrus_products(page, "test", "pokemon tcg")
         self.assertEqual(products["K1091126"]["name"], "Pokémon - Sobre de cartas")
         self.assertEqual(products["K1091126"]["price"], "5,99 €")
         self.assertEqual(products["K1091126"]["status"], "compra_directa")
-        self.assertEqual(products["K1091126"]["url"], tiles[0]["href"])
+        self.assertEqual(products["K1091126"]["url"], content[0]["url"])
 
     async def test_toysrus_marks_unavailable_cards(self):
-        page = self.page()
-        tiles = [{
+        content = [{
             "id": "K1091127",
-            "href": "https://www.toysrus.es/pokemon-caja/p/K1091127",
             "name": "Pokémon - Caja de cartas",
-            "priceText": "29,99 €",
-            "statusText": "Agotado",
+            "price": 29.99,
+            "availability": False,
             "image": None,
+            "url": "https://www.toysrus.es/pokemon-caja/p/K1091127",
         }]
-        page.eval_on_selector_all = AsyncMock(
-            side_effect=lambda selector, script: len(tiles) if ".length" in script else tiles
-        )
+        page = self.toysrus_api_page(content)
         with patch("builtins.print"):
-            products = await stock.discover_toysrus_products(
-                page, "test", "https://example.test/afiliados?query=pokemon"
-            )
+            products = await stock.discover_toysrus_products(page, "test", "pokemon tcg")
         self.assertEqual(products["K1091127"]["status"], "no_disponible")
 
     async def test_link_only_page_requires_enabled_individual_fallback(self):
