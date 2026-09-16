@@ -2095,9 +2095,8 @@
   },
   "CAR:VC4A-34530763": {
     "name": "Pokemon Album 30Th Aniversario Ingles, Juego de Mesa, +6 Años (Unboxing)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "59,99 €",
     "first_seen": "2026-09-15T20:55:26.061446+00:00"
   },
   "CAR:VC4A-34535245": {
@@ -2133,9 +2132,8 @@
   },
   "CAR:VC4A-34535258": {
     "name": "Pokémon 30Th Aniversario Caja Ex Versión Sylveon/Greninja Inglés, +6 Años (Unboxing)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "34,99 €",
     "first_seen": "2026-09-15T20:55:26.061459+00:00"
   },
   "CAR:VC4A-34535249": {
@@ -2372,8 +2370,9 @@
   },
   "ECI:A202035450": {
     "name": "30TH Caja colección con póster de Celebración 30.º Aniversario de JCC Pokémon. POKEMON BANDAI",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "29,99 €",
     "first_seen": "2026-09-15T22:43:24.795849+00:00"
   }
 }
