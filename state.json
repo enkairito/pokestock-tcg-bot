@@ -767,7 +767,7 @@
   "US:B0GXJ8CSTY": {
     "name": "Pokémon TCG: Colección Premium Mega Greninja ex (1 Tarjeta Promocional Brillante, 1 Tarjeta lenticular de Gran tamaño y 8 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "5",
     "first_seen": "2026-08-30T20:46:19.644858+00:00",
     "price": "77,77 €"
   },
@@ -818,7 +818,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644915+00:00",
-    "price": "102,11 €"
+    "price": "102,11 €",
+    "pending_price": "102,14 €",
+    "pending_price_count": 1
   },
   "US:B0G3CY83L5": {
     "name": "Pokémon TCG: Caja de entrenamiento de élite de héroes ascendidos de Mega Evolution",
@@ -1303,7 +1305,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "115,66 €"
+    "price": "115,58 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -2900,5 +2902,12 @@
     "status": "no_disponible",
     "stock": null,
     "first_seen": "2026-09-16T19:13:53.773884+00:00"
+  },
+  "UK:B0D5K9GHG7": {
+    "name": "Pokemon TCG: Scarlet & Violet - Blister de cuadros de llamas de obsidiana (Pawmi)",
+    "status": "compra_directa",
+    "stock": "1",
+    "first_seen": "2026-09-16T22:02:58.590417+00:00",
+    "price": "74,45 €"
   }
 }
