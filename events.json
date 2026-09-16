@@ -1,31 +1,5 @@
 [
   {
-    "ts": "2026-09-15T22:09:34.130383+00:00",
-    "type": "restock",
-    "asin": "VC4A-34535257",
-    "marketplace": "CAR",
-    "store_label": "Carrefour",
-    "flag": "🇪🇸",
-    "name": "Pokemon Caja 30Th Aniversario Colección Pegatinas Especiales, +6 Años (Unboxing)",
-    "image": "https://static.carrefour.es/hd_350x_/crs/cdn_static/catalog/hd/783617_00_1.jpg",
-    "price": "24,99 €",
-    "prev_price": null,
-    "link": "https://www.carrefour.es/pokemon-caja-30th-aniversario-coleccion-pegatinas-especiales-6-anos-unboxing/VC4A-34535257/p"
-  },
-  {
-    "ts": "2026-09-15T22:09:39.913268+00:00",
-    "type": "restock",
-    "asin": "VC4A-34530763",
-    "marketplace": "CAR",
-    "store_label": "Carrefour",
-    "flag": "🇪🇸",
-    "name": "Pokemon Album 30Th Aniversario Ingles, Juego de Mesa, +6 Años (Unboxing)",
-    "image": "https://static.carrefour.es/hd_350x_/crs/cdn_static/catalog/hd/783614_00_1.jpg",
-    "price": "59,99 €",
-    "prev_price": null,
-    "link": "https://www.carrefour.es/pokemon-album-30th-aniversario-ingles-juego-de-mesa-6-anos-unboxing/VC4A-34530763/p"
-  },
-  {
     "ts": "2026-09-15T22:09:45.736746+00:00",
     "type": "restock",
     "asin": "VC4A-34535258",
@@ -778,5 +752,31 @@
     "price": "26,70 €",
     "prev_price": null,
     "link": "https://www.amazon.es/dp/B0DLTZPNR2?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-16T10:04:13.294853+00:00",
+    "type": "price_drop",
+    "asin": "B0DB7C1Z26",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
+    "image": "https://m.media-amazon.com/images/I/81TD+vNJcJL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "116,67 €",
+    "prev_price": "116,70 €",
+    "link": "https://www.amazon.es/dp/B0DB7C1Z26?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-16T10:04:13.294987+00:00",
+    "type": "price_drop",
+    "asin": "B0F6PMVQWQ",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokémon TCG Scarlet & Violet 10.5 Black Bolt Booster Set",
+    "image": "https://m.media-amazon.com/images/I/81UhwmFvHFL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "138,09 €",
+    "prev_price": "139,22 €",
+    "link": "https://www.amazon.es/dp/B0F6PMVQWQ?tag=enkairito-21"
   }
 ]
