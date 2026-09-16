@@ -70,7 +70,7 @@
   "ES:B0DT7D5K1X": {
     "name": "Pokémon Colección prémium Bellibolt ex de e-Nigma de JCC Pokémon (1 Carta holográfica con ilustración expandida, 6 Sobres de Mejora y Figuras acrílicas)",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "5",
     "price": "47,63 €",
     "first_seen": "2026-08-25T20:27:54.285177+00:00"
   },
@@ -815,7 +815,7 @@
   "US:B0GFZV1ZVV": {
     "name": "Pokémon TCG: Mega Evolution Order Elite Trainer Box",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "price": "102,11 €",
     "first_seen": "2026-08-30T20:46:19.644915+00:00"
   },
@@ -1301,7 +1301,7 @@
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
     "status": "compra_directa",
     "stock": null,
-    "price": "116,43 €",
+    "price": "116,37 €",
     "first_seen": "2026-09-04T21:32:58.802636+00:00"
   },
   "UK:B0DC2BK8QG": {
@@ -1475,7 +1475,7 @@
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
     "status": "compra_directa",
     "stock": "1",
-    "price": "86,10 €",
+    "price": "84,43 €",
     "first_seen": "2026-09-04T21:32:58.802874+00:00"
   },
   "US:B0G72QBTBJ": {
@@ -1719,7 +1719,7 @@
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
     "status": "compra_directa",
     "stock": null,
-    "price": "21,61 €",
+    "price": "21,57 €",
     "first_seen": "2026-09-06T13:57:50.628764+00:00"
   },
   "UK:B0DLTZPNR2": {
@@ -1837,7 +1837,7 @@
     "name": "100 Assorted Basic Pokemon TCG Energy Cards",
     "status": "compra_directa",
     "stock": null,
-    "price": "16,87 €",
+    "price": "17,04 €",
     "first_seen": "2026-09-08T14:34:56.335882+00:00"
   },
   "US:B0F1GXTFGL": {
@@ -2067,9 +2067,8 @@
   },
   "CAR:VC4A-34535251": {
     "name": "Pokémon 30Th Aniversario Pack 2 Sobres con Moneda, +6 Años",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "15,99 €",
     "first_seen": "2026-09-15T20:55:26.061438+00:00"
   },
   "CAR:VC4A-34530761": {
@@ -2098,9 +2097,8 @@
   },
   "CAR:VC4A-34535245": {
     "name": "Pokémon 30Th Aniversario Pack 2 Sobres con Moneda Inglés, +6 Años",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "15,99 €",
     "first_seen": "2026-09-15T20:55:26.061448+00:00"
   },
   "CAR:VC4A-34535250": {
