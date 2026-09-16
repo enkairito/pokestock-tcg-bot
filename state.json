@@ -1300,8 +1300,8 @@
   "UK:B0DB7C1Z26": {
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
     "status": "compra_directa",
-    "stock": null,
-    "price": "119,32 €",
+    "stock": "2",
+    "price": "117,55 €",
     "first_seen": "2026-09-04T21:32:58.802636+00:00"
   },
   "UK:B0DC2BK8QG": {
@@ -1315,7 +1315,7 @@
     "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
     "status": "compra_directa",
     "stock": null,
-    "price": "90,82 €",
+    "price": "92,11 €",
     "first_seen": "2026-09-04T21:32:58.802653+00:00"
   },
   "UK:B0CMZS84KP": {
@@ -1539,7 +1539,7 @@
     "name": "Pokémon TCG: Scarlet & Violet - Journey Together - Paquete de 3 ampollas - Yanmega (3 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
     "status": "compra_directa",
     "stock": null,
-    "price": "48,85 €",
+    "price": "49,34 €",
     "first_seen": "2026-09-04T21:32:58.802925+00:00"
   },
   "US:B0DVC187SP": {
@@ -1551,8 +1551,9 @@
   },
   "US:B0G5FWJ8NL": {
     "name": "Pokémon TCG: Mega Charizard Tin",
-    "status": "no_disponible",
-    "stock": null,
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "78,95 €",
     "first_seen": "2026-09-04T21:32:58.802936+00:00"
   },
   "US:B0F2BFSPBN": {
@@ -1893,7 +1894,7 @@
     "name": "Pokemon TCG: Sword & Shield - Paquete de Refuerzo de Estrellas Brillantes (10 Tarjetas por Paquete)",
     "status": "compra_directa",
     "stock": null,
-    "price": "42,48 €",
+    "price": "42,51 €",
     "first_seen": "2026-09-08T14:34:56.335946+00:00"
   },
   "US:B0D4B515H1": {
@@ -2037,9 +2038,8 @@
   },
   "CAR:VC4A-34535241": {
     "name": "Pokémon 30Th Aniversario Lata Ex Versión Sylveon/Greninja, +6 Años (Unboxing)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "34,99 €",
     "first_seen": "2026-09-15T20:55:26.061406+00:00"
   },
   "CAR:VC4A-34535247": {
@@ -2372,5 +2372,12 @@
     "status": "no_disponible",
     "stock": null,
     "first_seen": "2026-09-15T22:43:24.795849+00:00"
+  },
+  "UK:B0BNKBBYK1": {
+    "name": "Pokemon Card Game Scarlet & Violet Premium Trainer Box ex Japanese",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "124,04 €",
+    "first_seen": "2026-09-16T02:03:31.139743+00:00"
   }
 }

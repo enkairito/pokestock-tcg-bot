@@ -1,44 +1,5 @@
 [
   {
-    "ts": "2026-09-15T00:20:19.603804+00:00",
-    "type": "price_drop",
-    "asin": "B0DDYZX1TB",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokemon TCG: Scarlet & Violet - Surging Sparks Booster Bundle",
-    "image": "https://m.media-amazon.com/images/I/817ZQoBRA3L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "102,80 €",
-    "prev_price": "103,21 €",
-    "link": "https://www.amazon.es/dp/B0DDYZX1TB?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-15T00:20:19.603919+00:00",
-    "type": "price_drop",
-    "asin": "B0FS98MMML",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokémon TCG: Booster Pack de 10 Cartas Mega Evolution Flames Phantasmal Mangas",
-    "image": "https://m.media-amazon.com/images/I/71r-eHgKChL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "35,57 €",
-    "prev_price": "35,71 €",
-    "link": "https://www.amazon.es/dp/B0FS98MMML?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-15T00:20:19.603935+00:00",
-    "type": "price_drop",
-    "asin": "B0DGY4Z6V3",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokemon TCG: Paradox Destinies Tin - Raging Bolt EX",
-    "image": "https://m.media-amazon.com/images/I/81VZxx1AlNL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "75,03 €",
-    "prev_price": "76,51 €",
-    "link": "https://www.amazon.es/dp/B0DGY4Z6V3?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-15T01:20:03.259615+00:00",
     "type": "price_drop",
     "asin": "B0BZFKQK37",
@@ -778,5 +739,44 @@
     "price": "16,87 €",
     "prev_price": "17,04 €",
     "link": "https://www.amazon.es/dp/B00TA6E3KI?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-16T02:03:31.139762+00:00",
+    "type": "restock",
+    "asin": "B0BNKBBYK1",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokemon Card Game Scarlet & Violet Premium Trainer Box ex Japanese",
+    "image": "https://m.media-amazon.com/images/I/61B2p+fH93L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "124,04 €",
+    "prev_price": null,
+    "link": "https://www.amazon.es/dp/B0BNKBBYK1?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-16T02:03:31.139772+00:00",
+    "type": "price_drop",
+    "asin": "B0DB7C1Z26",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
+    "image": "https://m.media-amazon.com/images/I/81TD+vNJcJL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "117,55 €",
+    "prev_price": "119,32 €",
+    "link": "https://www.amazon.es/dp/B0DB7C1Z26?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-16T02:03:31.139904+00:00",
+    "type": "restock",
+    "asin": "B0G5FWJ8NL",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokémon TCG: Mega Charizard Tin",
+    "image": "https://m.media-amazon.com/images/I/81fmjlAy2qL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "78,95 €",
+    "prev_price": null,
+    "link": "https://www.amazon.es/dp/B0G5FWJ8NL?tag=enkairito-21"
   }
 ]
