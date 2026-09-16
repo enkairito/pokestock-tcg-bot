@@ -1,8 +1,9 @@
 {
   "ES:B0G6FLRDDN": {
     "name": "Yu-Gi-Oh! Rarity Collection V 3-Pack Booster (Versión en español)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "19,99 €",
     "first_seen": "2026-09-07T17:41:03.832697+00:00"
   },
   "ES:B0GQ4XXH16": {
@@ -54,8 +55,8 @@
   "ES:B0G6FW7PFW": {
     "name": "Yu-Gi-Oh! Rarity Collection V Display (24) (Versión en español)",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "160,93 €",
+    "stock": null,
+    "price": "150,00 €",
     "first_seen": "2026-09-07T17:41:22.046401+00:00"
   },
   "ES:B0FZV792N8": {
@@ -82,7 +83,7 @@
   "ES:B0FTM57WTW": {
     "name": "Yu-Gi-Oh! JCC EL DECK DE LAS CRÓNICAS: Encantadoras de Espíritus (Edición All-Foil) (Versión en español)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "price": "19,99 €",
     "first_seen": "2026-09-07T17:41:46.061595+00:00"
   },
@@ -97,7 +98,7 @@
     "name": "Yu-Gi-Oh! JCC Venganza Fantasma Display (24)",
     "status": "compra_directa",
     "stock": null,
-    "price": "95,37 €",
+    "price": "100,42 €",
     "first_seen": "2026-09-07T17:41:58.230224+00:00"
   },
   "ES:B0FHKQHFZB": {
@@ -125,7 +126,7 @@
     "name": "Yu-Gi-Oh! Doom of Dimensions 3-Pack Booster",
     "status": "compra_directa",
     "stock": null,
-    "price": "12,99 €",
+    "price": "11,60 €",
     "first_seen": "2026-09-07T17:42:22.065660+00:00"
   },
   "ES:B0FBWHJR6W": {
