@@ -724,8 +724,8 @@
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "57,96 €",
+    "stock": null,
+    "price": "63,13 €",
     "first_seen": "2026-08-30T20:46:19.644837+00:00"
   },
   "US:B0GZ9S9KDR": {
@@ -1301,7 +1301,7 @@
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
     "status": "compra_directa",
     "stock": null,
-    "price": "115,87 €",
+    "price": "115,82 €",
     "first_seen": "2026-09-04T21:32:58.802636+00:00"
   },
   "UK:B0DC2BK8QG": {
