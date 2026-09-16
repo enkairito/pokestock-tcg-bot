@@ -211,8 +211,9 @@
   },
   "ES:B0GWS8DC8C": {
     "name": "Bundle de Regalo de Magic: The Gathering | El Hobbit | Juego de Cartas Intercambiables y coleccionables (Versión en Inglés)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "92,99 €",
     "first_seen": "2026-09-07T10:46:00.374156+00:00"
   },
   "ES:B0GY5TKJ7B": {
@@ -344,7 +345,7 @@
   "ES:B0G86Z91GX": {
     "name": "Draft Night de Secretos de Strixhaven, de Magic: The Gathering (Versión en Inglés)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "3",
     "price": "106,78 €",
     "first_seen": "2026-09-07T10:47:55.002254+00:00"
   },
