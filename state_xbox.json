@@ -530,7 +530,7 @@
     "name": "Fable – XBOX Series X | Disco físico – Requiere descarga de contenido",
     "status": "preventa",
     "stock": null,
-    "price": "59,90 €",
+    "price": "59,90 €",
     "first_seen": "2026-09-12T00:28:11.204304+00:00"
   },
   "ES:B0GGCJRXSX": {
@@ -786,7 +786,7 @@
     "name": "GameSir G7 Pro Mando 1000Hz con Estación de Carga: Xbox Series X|S, Xbox One, Win 10/11 & Android - Joysticks TMR, Gatillos Ajustables & 4 Botones Programables - Blanco Mec",
     "status": "compra_directa",
     "stock": null,
-    "price": "99,99 €",
+    "price": "94,99 €",
     "first_seen": "2026-09-12T12:31:08.174522+00:00"
   },
   "ES:B0DK1NY4LW": {
@@ -1197,7 +1197,7 @@
     "name": "Gears of War: E-Day – XBOX Series X | Disco físico + descarga de contenido requerida",
     "status": "preventa",
     "stock": null,
-    "price": "59,90 €",
+    "price": "59,90 €",
     "first_seen": "2026-09-16T00:36:35.693126+00:00"
   },
   "ES:B00LAAYMUS": {
@@ -1224,7 +1224,7 @@
     "name": "Xbox Mando inalámbrico Gears of War: Edición Limitada E-Day Series X|S, One, PCs, televisores, móviles y más",
     "status": "preventa",
     "stock": null,
-    "price": "89,99 €",
+    "price": "89,99 €",
     "first_seen": "2026-09-16T06:35:30.156933+00:00"
   },
   "ES:B0F2JC9HMR": {
@@ -1232,5 +1232,194 @@
     "status": "no_disponible",
     "stock": null,
     "first_seen": "2026-09-16T08:37:59.010515+00:00"
+  },
+  "ES:B01M2YUP0S": {
+    "name": "Xbox One S 1 TB [Importación Italiana]",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:34:33.017946+00:00"
+  },
+  "ES:B01M5G69L9": {
+    "name": "Console Xbox One S 500 Go [Importación Francesa]",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:34:33.017964+00:00"
+  },
+  "ES:B07252FGBF": {
+    "name": "Xbox One X - Consola 4K HDR [Importación Italiana]",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:34:33.017967+00:00"
+  },
+  "ES:B08M733DTJ": {
+    "name": "Xbox One - Xbox One S 1 TB Naked, Bianco",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:34:33.017969+00:00"
+  },
+  "ES:B00KB2WXJ8": {
+    "name": "Xbox One - Consola Básica",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:34:33.017971+00:00"
+  },
+  "ES:B01M5FMXHZ": {
+    "name": "Xbox One - Consola 1 TB",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:34:33.017973+00:00"
+  },
+  "ES:B01M5CZKW6": {
+    "name": "Konsole Xbox One S 500 Gb Weiß",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:34:33.017975+00:00"
+  },
+  "ES:B0DCD9LGHY": {
+    "name": "Xbox Serie X - Edición digital de 1 TB",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "816,04 €",
+    "first_seen": "2026-09-16T10:34:33.318741+00:00"
+  },
+  "ES:B08FCXLB8Z": {
+    "name": "Xbox Play y Kit de Carga USB",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "19,99 €",
+    "first_seen": "2026-09-16T10:34:33.318787+00:00"
+  },
+  "ES:B0DQ5NDT75": {
+    "name": "Split Fiction Xbox Series X | Videojuegos | Castellano",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "43,25 €",
+    "first_seen": "2026-09-16T10:34:33.318808+00:00"
+  },
+  "ES:B0CLT27M9P": {
+    "name": "Videojuego Xbox One Hogwarts Legacy Standard",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "11,10 €",
+    "first_seen": "2026-09-16T10:34:33.318831+00:00"
+  },
+  "ES:B06Y36MK86": {
+    "name": "Microsoft Xbox One X - Consola 1 TB 4K HDR Negro",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "749,99 €",
+    "first_seen": "2026-09-16T10:34:33.318841+00:00"
+  },
+  "ES:B09C939ZV9": {
+    "name": "Xbox Elite Series 2 – Complete Component Pack",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "59,99 €",
+    "first_seen": "2026-09-16T10:34:33.318854+00:00"
+  },
+  "ES:B0DWV5KDS2": {
+    "name": "Split Fiction Standard | Xbox Series X|S - Código de descarga",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "49,99 €",
+    "first_seen": "2026-09-16T10:34:33.318866+00:00"
+  },
+  "ES:B0F2NC69KK": {
+    "name": "Xbox Wireless Controller Carbon Black Series X|S, One, Windows 10/11, iOS y Android",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "59,99 €",
+    "first_seen": "2026-09-16T10:34:33.318875+00:00"
+  },
+  "ES:B0B7RPXSYB": {
+    "name": "Mcbazel Xbox Series X Soporte de refrigeración con luz RGB/ Función de refrigeración ajustable/ Indicador LED / Puertos USB 3.0 /USB 2.0",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "26,99 €",
+    "first_seen": "2026-09-16T10:34:33.318878+00:00"
+  },
+  "ES:B0B9GJLV2D": {
+    "name": "Xbox Wireless Controller Elite Series 2 White Series X|S, One, Windows 10/11, iOS y Android",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "139,99 €",
+    "first_seen": "2026-09-16T10:34:33.318880+00:00"
+  },
+  "ES:B09FGM3DVQ": {
+    "name": "Mcbazel Cubierta antipolvo para consola Xbox Series X, funda protectora antiarañazos suave para consola Xbox Series X, color negro",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "8,49 €",
+    "first_seen": "2026-09-16T10:34:33.318882+00:00"
+  },
+  "ES:B08K9WQ849": {
+    "name": "Venom Base de carga doble con 2 paquetes de baterías recargables - Negro (Xbox Series X y S/Xbox One)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "24,99 €",
+    "first_seen": "2026-09-16T10:34:33.318887+00:00"
+  },
+  "ES:B09XMRC72P": {
+    "name": "G-STORY Ventilador para Xbox Serie X con velocidad automática del ventilador ajustable por temperatura, pantalla LED,3 velocidades 1500/1750/2000RPM (140MM)(Negra)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "35,99 €",
+    "first_seen": "2026-09-16T10:34:33.318889+00:00"
+  },
+  "ES:B0DGQWNTJT": {
+    "name": "Xbox Auriculares inalámbricos – Series X|S, Xbox One y dispositivos Windows",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "106,00 €",
+    "first_seen": "2026-09-16T10:34:33.318891+00:00"
+  },
+  "ES:B08TWV3BXB": {
+    "name": "JOREST Kit de Desmontar Xbox one/360/X PS4 PS5 PS3, 25pcs Set Limpieza, Herramienta Reparacion para Mando y Consola, con Destornillador PH0 y Torx T6 T8 T10, Palanca, Pinzas, Cepillo",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "10,99 €",
+    "first_seen": "2026-09-16T10:34:33.318893+00:00"
+  },
+  "ES:B0F2N8F45T": {
+    "name": "Xbox Wireless Controller Green Series X|S, One, Windows 10/11, iOS y Android",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "61,99 €",
+    "first_seen": "2026-09-16T10:34:33.318898+00:00"
+  },
+  "ES:B0F2N6R6WS": {
+    "name": "Xbox Wireless Controller Shock Blue Series X|S, One, Windows 10/11, iOS y Android",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "64,99 €",
+    "first_seen": "2026-09-16T10:34:33.318901+00:00"
+  },
+  "ES:B07SR4R8K1": {
+    "name": "Xbox Wireless Controller Elite Series 2 Black para Xbox Series X|S, Xbox One, Windows 10/11, iOS y Android",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "182,00 €",
+    "first_seen": "2026-09-16T10:34:33.318903+00:00"
+  },
+  "ES:B0FKGT9YN6": {
+    "name": "Xbox Mando inalámbrico Heart Breaker Special Edition Series X|S, One, PC y dispositivos habilitados para la nube",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "74,99 €",
+    "first_seen": "2026-09-16T10:34:33.318907+00:00"
+  },
+  "ES:B0F2N88V46": {
+    "name": "Xbox Wireless Controller Deep Pink Series X|S, One, Windows 10/11, iOS y Android",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "64,99 €",
+    "first_seen": "2026-09-16T10:34:33.318909+00:00"
+  },
+  "ES:B0FKGVK6KK": {
+    "name": "Xbox Mando inalámbrico Ice Breaker Special Edition Series X|S, One, PC y dispositivos habilitados para la nube",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "79,99 €",
+    "first_seen": "2026-09-16T10:34:33.318911+00:00"
   }
 }
