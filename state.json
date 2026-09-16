@@ -717,7 +717,7 @@
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "price": "56,68 €",
     "first_seen": "2026-08-30T20:46:19.644833+00:00"
   },
@@ -1301,7 +1301,7 @@
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
     "status": "compra_directa",
     "stock": null,
-    "price": "116,21 €",
+    "price": "116,17 €",
     "first_seen": "2026-09-04T21:32:58.802636+00:00"
   },
   "UK:B0DC2BK8QG": {
@@ -2348,9 +2348,8 @@
   },
   "ECI:A202035455": {
     "name": "30TH Blíster de 2 sobres de mejora de Celebración 30.º Aniversario de JCC Pokémon. POKEMON. BANDAI",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "15,99 €",
     "first_seen": "2026-09-15T22:43:06.257061+00:00"
   },
   "ECI:A202035440": {
