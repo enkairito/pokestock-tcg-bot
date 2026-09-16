@@ -1934,7 +1934,7 @@
     "name": "Pokémon: Blíster de 2 Sobres de Mejora de Celebración 30.º Aniversario de JCC Pokémon (1 Carta holográfica, 1 Moneda y 2 Sobres de Mejora)",
     "status": "invitacion",
     "stock": null,
-    "price": "12,99 €",
+    "price": "15,98 €",
     "first_seen": "2026-09-09T13:27:34.624360+00:00"
   },
   "ES:B0H8SX832W": {
@@ -2344,7 +2344,7 @@
     "name": "30TH Lata de Celebración 30º Aniversario de JCC Pokémon. POKEMON. BANDAI . Modelos surtidos.",
     "status": "compra_directa",
     "stock": null,
-    "price": null,
+    "price": "34,99 €",
     "first_seen": "2026-09-15T22:43:06.257047+00:00"
   },
   "ECI:A202035455": {
@@ -2371,7 +2371,7 @@
     "name": "30TH Caja colección con póster de Celebración 30.º Aniversario de JCC Pokémon. POKEMON BANDAI",
     "status": "compra_directa",
     "stock": null,
-    "price": "29,99 €",
+    "price": null,
     "first_seen": "2026-09-15T22:43:24.795849+00:00"
   },
   "UK:B0BNKBBYK1": {
@@ -2383,8 +2383,9 @@
   },
   "ECI:A202042924": {
     "name": "30TH Poster Collection box 30th Celebration Pokemon TCG. ENGLISH. POKEMON. BANDAI",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": null,
     "first_seen": "2026-09-16T07:03:45.050853+00:00"
   }
 }
