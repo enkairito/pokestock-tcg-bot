@@ -78,7 +78,7 @@
     "name": "Pokémon: Estadio Combina y Combate de Escarlata y Púrpura (2 Barajas, 11 Paquetes de Mejora y más)",
     "status": "compra_directa",
     "stock": null,
-    "price": "65,98 €",
+    "price": "63,98 €",
     "first_seen": "2026-08-25T20:27:54.285181+00:00"
   },
   "ES:B0G4NQK15P": {
@@ -1886,7 +1886,7 @@
     "name": "Pokemon Sword and Shield Darkness Ablaze Booster Pack (1 Booster Pack)",
     "status": "compra_directa",
     "stock": "4",
-    "price": "34,30 €",
+    "price": "34,29 €",
     "first_seen": "2026-09-08T14:34:56.335940+00:00"
   },
   "US:B0CS12GPTB": {
@@ -2353,8 +2353,9 @@
   },
   "ECI:A202035455": {
     "name": "30TH Blíster de 2 sobres de mejora de Celebración 30.º Aniversario de JCC Pokémon. POKEMON. BANDAI",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
+    "price": "15,99 €",
     "first_seen": "2026-09-15T22:43:06.257061+00:00"
   },
   "ECI:A202035440": {
