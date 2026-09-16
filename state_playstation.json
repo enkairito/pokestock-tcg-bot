@@ -87,7 +87,7 @@
     "name": "Videojuego PlayStation 5 Ubisoft Assassin's Creed Mirage",
     "status": "compra_directa",
     "stock": "5",
-    "price": "19,99 €",
+    "price": "19,90 €",
     "first_seen": "2026-09-11T19:18:12.685827+00:00"
   },
   "ES:B08B4HHNNM": {
@@ -135,8 +135,8 @@
   "ES:B0CD2RBQ68": {
     "name": "Videojuego PlayStation 4 Ubisoft Assassin's Creed Mirage",
     "status": "compra_directa",
-    "stock": "5",
-    "price": "19,90 €",
+    "stock": null,
+    "price": "19,90 €",
     "first_seen": "2026-09-11T19:18:12.685939+00:00"
   },
   "ES:B0GHT1SQ3S": {
@@ -157,7 +157,7 @@
     "name": "Mochila para Consola PS5/ Slim/ Pro, Bolsa PS5 de Viaje con Protección Total, Funda ps5 Almacenamiento de Gran Capacidad, PS Portal, Portátil, Tarjeta de Juego, Maletin PS 5 con Bolsa 3 Cable- Blanco",
     "status": "compra_directa",
     "stock": null,
-    "price": "32,99 €",
+    "price": "32,99 €",
     "first_seen": "2026-09-11T19:18:12.685967+00:00"
   },
   "ES:B0BJW7XKY2": {
@@ -288,9 +288,8 @@
   },
   "ES:B09X5TX9CN": {
     "name": "Grand Theft Auto V - PlayStation 5",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "18,90 €",
     "first_seen": "2026-09-12T00:28:04.018779+00:00"
   },
   "ES:B0F6D5BS17": {
@@ -346,7 +345,7 @@
     "name": "Metal Gear Solid: Master Collection Volume 2 – Day One Edition - PS5",
     "status": "compra_directa",
     "stock": null,
-    "price": "42,90 €",
+    "price": "42,99 €",
     "first_seen": "2026-09-12T00:28:04.018871+00:00"
   },
   "ES:B0FKN5F96V": {
@@ -1026,7 +1025,7 @@
     "name": "Ultra Pro - 1000 fundas suaves -",
     "status": "compra_directa",
     "stock": null,
-    "price": "13,99 €",
+    "price": "12,49 €",
     "first_seen": "2026-09-13T00:24:23.874186+00:00"
   },
   "ES:B07KTKCZRD": {
@@ -1331,5 +1330,18 @@
     "stock": "2",
     "price": "177,00 €",
     "first_seen": "2026-09-16T02:36:01.860296+00:00"
+  },
+  "ES:B0HF55Q11W": {
+    "name": "PlayStation®5 Edición Digital: pack Ed. Limitada Marvel: Lobezno Amarillo de Combate",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T04:35:55.955905+00:00"
+  },
+  "ES:B0D8KXMCTC": {
+    "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Naranja)",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "53,43 €",
+    "first_seen": "2026-09-16T04:35:56.193880+00:00"
   }
 }
