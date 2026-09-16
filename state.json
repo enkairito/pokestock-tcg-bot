@@ -468,7 +468,7 @@
     "name": "Pokémon: Caja de Entrenador Élite de Escarlata y Púrpura-Fábula Sombría de JCC Pokémon",
     "status": "compra_directa",
     "stock": "5",
-    "price": "108,23 €",
+    "price": "110,01 €",
     "first_seen": "2026-08-27T14:04:43.687882+00:00"
   },
   "ES:B0C643MGKG": {
@@ -1301,7 +1301,7 @@
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
     "status": "compra_directa",
     "stock": "2",
-    "price": "116,67 €",
+    "price": "116,62 €",
     "first_seen": "2026-09-04T21:32:58.802636+00:00"
   },
   "UK:B0DC2BK8QG": {
@@ -1462,7 +1462,7 @@
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Premium Poster Collection—Mega Lucario (1 Tarjeta Promocional de Aluminio, 1 póster de Doble Cara y 10 Paquetes de Refuerzo)",
     "status": "compra_directa",
     "stock": null,
-    "price": "224,06 €",
+    "price": "224,03 €",
     "first_seen": "2026-09-04T21:32:58.802847+00:00"
   },
   "US:B0DG6PSWN1": {
@@ -1475,8 +1475,8 @@
   "US:B0G72SPRP6": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": "3",
-    "price": "85,55 €",
+    "stock": "1",
+    "price": "86,10 €",
     "first_seen": "2026-09-04T21:32:58.802874+00:00"
   },
   "US:B0G72QBTBJ": {
@@ -1706,7 +1706,7 @@
     "name": "Pokemon - SV Paradox Rift - Booster Box 36 pcs (POK85399)",
     "status": "compra_directa",
     "stock": "1",
-    "price": "773,06 €",
+    "price": "733,04 €",
     "first_seen": "2026-09-06T01:04:10.485125+00:00"
   },
   "US:B0F6PMVQWQ": {
@@ -2038,9 +2038,8 @@
   },
   "CAR:VC4A-34535241": {
     "name": "Pokémon 30Th Aniversario Lata Ex Versión Sylveon/Greninja, +6 Años (Unboxing)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "34,99 €",
     "first_seen": "2026-09-15T20:55:26.061406+00:00"
   },
   "CAR:VC4A-34535247": {
@@ -2069,16 +2068,14 @@
   },
   "CAR:VC4A-34535251": {
     "name": "Pokémon 30Th Aniversario Pack 2 Sobres con Moneda, +6 Años",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "15,99 €",
     "first_seen": "2026-09-15T20:55:26.061438+00:00"
   },
   "CAR:VC4A-34530761": {
     "name": "Pokemon Caja Elite 30TH Aniversario, Juego de mesa, +6 Años (Unboxing)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "59,99 €",
     "first_seen": "2026-09-15T20:55:26.061440+00:00"
   },
   "CAR:VC4A-34535235": {
@@ -2089,9 +2086,8 @@
   },
   "CAR:VC4A-34535256": {
     "name": "Pokémon 30Th Aniversario Caja Colección con Póster, +6 Años (Unboxing)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "29,99 €",
     "first_seen": "2026-09-15T20:55:26.061444+00:00"
   },
   "CAR:VC4A-34530763": {
@@ -2108,9 +2104,8 @@
   },
   "CAR:VC4A-34535250": {
     "name": "Pokémon 30Th Aniversario Caja Ex Versión Sylveon/Greninja, +6 Años (Unboxing)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "34,99 €",
     "first_seen": "2026-09-15T20:55:26.061450+00:00"
   },
   "CAR:VC4A-34535240": {
