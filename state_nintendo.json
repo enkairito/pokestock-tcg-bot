@@ -70,7 +70,7 @@
   "ES:B01N10NX3M": {
     "name": "Nintendo - Adaptador De Corriente Switch",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "5",
     "price": "27,99 €",
     "first_seen": "2026-09-11T19:20:15.362352+00:00"
   },
@@ -1373,5 +1373,12 @@
     "status": "no_disponible",
     "stock": null,
     "first_seen": "2026-09-16T02:35:33.202342+00:00"
+  },
+  "ES:B0D7D9BN9J": {
+    "name": "Donkey Kong Country Returns HD - Switch",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "49,99 €",
+    "first_seen": "2026-09-16T08:37:24.405115+00:00"
   }
 }
