@@ -1,18 +1,5 @@
 [
   {
-    "ts": "2026-09-16T01:03:21.315793+00:00",
-    "type": "price_drop",
-    "asin": "B0DSGB5Q6B",
-    "marketplace": "ES",
-    "store_label": "Amazon ES",
-    "flag": "🇪🇸",
-    "name": "Pokémon Colección Ursaluna Luna Carmesí (4 Cartas holográficas y 4 Paquetes de Mejora)",
-    "image": "https://m.media-amazon.com/images/I/91DYxakGHhL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "38,00 €",
-    "prev_price": "45,09 €",
-    "link": "https://www.amazon.es/dp/B0DSGB5Q6B?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-16T01:03:27.345541+00:00",
     "type": "restock",
     "asin": "B0CMZS84KP",
@@ -777,6 +764,19 @@
     "image": "https://m.media-amazon.com/images/I/81TD+vNJcJL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
     "price": "116,34 €",
     "prev_price": "116,37 €",
+    "link": "https://www.amazon.es/dp/B0DB7C1Z26?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-16T13:43:02.240665+00:00",
+    "type": "price_drop",
+    "asin": "B0DB7C1Z26",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
+    "image": "https://m.media-amazon.com/images/I/81TD+vNJcJL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "116,31 €",
+    "prev_price": "116,34 €",
     "link": "https://www.amazon.es/dp/B0DB7C1Z26?tag=enkairito-21"
   }
 ]
