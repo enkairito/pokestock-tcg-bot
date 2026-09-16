@@ -309,9 +309,9 @@
   "ES:B07ZRL65YK": {
     "name": "Nintendo - Funda Plegable (Nintendo Switch Lite)",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "2",
     "first_seen": "2026-09-11T19:20:15.912105+00:00",
-    "price": "35,99 €"
+    "price": "35,70 €"
   },
   "ES:B0F5LJZ7GM": {
     "name": "ivoler Funda para Nintendo Switch 2, Funda Protectora Dura de Lujo para Interruptor portátil, Funda Protectora para la Consola Nintendo Switch 2, y Otros Accesorios Contiene 20 Cartuchos de Juego",
@@ -1195,8 +1195,8 @@
     "name": "SANDISK Tarjeta microSD con licencia oficial para Nintendo Switch, Super Mario Mushroom 128GB (Velocidad de Lectura hasta 100 MB/s, UHS-I, V30, C10, U3)",
     "status": "compra_directa",
     "stock": null,
-    "price": "36,90 €",
-    "first_seen": "2026-09-14T06:23:10.440676+00:00"
+    "first_seen": "2026-09-14T06:23:10.440676+00:00",
+    "price": "36,90 €"
   },
   "ES:B0DDTPX5DY": {
     "name": "Tatybo Cascos Gaming Inalámbricos para PC/Ps5/Ps4, Auriculares Gaming Inalámbricos con 2,4 GHz+Bluetooth 5,3 Modo Dual, 7.1 Sonido Envolvente, Duración 40Hr+",
@@ -1310,8 +1310,8 @@
     "name": "Nintendo Switch 2 Carrying Case + protector pantalla",
     "status": "compra_directa",
     "stock": null,
-    "price": "20,90 €",
-    "first_seen": "2026-09-15T20:34:05.436537+00:00"
+    "first_seen": "2026-09-15T20:34:05.436537+00:00",
+    "price": "20,90 €"
   },
   "ES:B01N3374BH": {
     "name": "Nintendo - Joy-Con Soporte Carga",
@@ -1393,7 +1393,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850665+00:00",
-    "price": "469,90 €"
+    "price": "469,90 €",
+    "pending_price": "499,90 €",
+    "pending_price_count": 1
   },
   "ES:B0F2J4SYJ2": {
     "name": "Nintendo Switch 2",
@@ -1413,8 +1415,8 @@
     "name": "Donkey Kong Bananza- Switch 2",
     "status": "compra_directa",
     "stock": null,
-    "price": "66,99 €",
-    "first_seen": "2026-09-16T10:34:14.850774+00:00"
+    "first_seen": "2026-09-16T10:34:14.850774+00:00",
+    "price": "66,99 €"
   },
   "ES:B0BHDDH5W1": {
     "name": "Nintendo Consola Switch - Color Azul Neón/Rojo Neón",
@@ -1432,10 +1434,9 @@
   },
   "ES:B098BYN3X3": {
     "name": "Nintendo Switch (versión OLED) Azul Neón/Rojo Neón",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-16T10:34:14.850828+00:00",
-    "price": "316,00 €"
+    "first_seen": "2026-09-16T10:34:14.850828+00:00"
   },
   "ES:B07D1L22SD": {
     "name": "Minecraft: Nintendo Switch Edition, El embalaje puede variar",
@@ -1582,5 +1583,26 @@
     "status": "no_disponible",
     "stock": null,
     "first_seen": "2026-09-16T20:33:28.835123+00:00"
+  },
+  "ES:B0H7K1XGBS": {
+    "name": "EA SPORTS FC™ 27 - Edición Estándar Nintendo Switch 2|Cartucho físico | Videojuegos | Castellano",
+    "status": "preventa",
+    "stock": null,
+    "first_seen": "2026-09-16T22:36:08.423875+00:00",
+    "price": "59,90 €"
+  },
+  "ES:B0H7K5Y8TS": {
+    "name": "EA SPORTS FC™ 27 - Edición Estándar - Nintendo Switch|Cartucho físico | Videojuegos | Castellano",
+    "status": "preventa",
+    "stock": null,
+    "first_seen": "2026-09-16T22:36:08.423972+00:00",
+    "price": "51,90 €"
+  },
+  "ES:B0BKGKMLH2": {
+    "name": "Playstation - Mando Inalámbrico DualSense Edge | Mando Original Sony para PS5 con Botones y Joysticks Ultracustomizables y Perfiles de Controles Personalizados. - Color Blanco",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-16T22:36:08.424017+00:00",
+    "price": "209,99 €"
   }
 }
