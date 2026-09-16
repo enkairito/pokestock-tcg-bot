@@ -1,18 +1,5 @@
 [
   {
-    "ts": "2026-09-16T01:03:27.345541+00:00",
-    "type": "restock",
-    "asin": "B0CMZS84KP",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
-    "image": "https://m.media-amazon.com/images/I/71WdhuaLpDL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "195,58 €",
-    "prev_price": null,
-    "link": "https://www.amazon.es/dp/B0CMZS84KP?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-16T01:03:27.345611+00:00",
     "type": "price_drop",
     "asin": "B0CS12GPTB",
@@ -777,6 +764,19 @@
     "image": "https://m.media-amazon.com/images/I/81TD+vNJcJL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
     "price": "116,31 €",
     "prev_price": "116,34 €",
+    "link": "https://www.amazon.es/dp/B0DB7C1Z26?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-16T14:03:10.194220+00:00",
+    "type": "price_drop",
+    "asin": "B0DB7C1Z26",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
+    "image": "https://m.media-amazon.com/images/I/81TD+vNJcJL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "116,27 €",
+    "prev_price": "116,31 €",
     "link": "https://www.amazon.es/dp/B0DB7C1Z26?tag=enkairito-21"
   }
 ]
