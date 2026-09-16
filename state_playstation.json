@@ -431,9 +431,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018951+00:00",
-    "price": "204,99 €",
-    "pending_price": "205,00 €",
-    "pending_price_count": 1
+    "price": "205,00 €"
   },
   "ES:B0BMG2LH3W": {
     "name": "Playstation - Realidad Virtual VR2 | Gafas de Realidad Virtual Originales de Sony para PS5 con Imágenes HDR en 4K. Incluye Casco de realidad Virtual VR2 y Mandos VR2 Sense",
@@ -704,8 +702,8 @@
     "name": "PowerA Cargador Rápido Dual para 2 x Mandos Inalámbricos DualSense, Estación Doble de Carga para Mandos de Sony PlayStation 5 (Gris/Negro)",
     "status": "compra_directa",
     "stock": "1",
-    "price": "19,99 €",
-    "first_seen": "2026-09-12T12:27:13.469347+00:00"
+    "first_seen": "2026-09-12T12:27:13.469347+00:00",
+    "price": "19,99 €"
   },
   "ES:B0D571R8PK": {
     "name": "Volante y Pedales Hori RWA con licencia Sony PlayStation 4/5 [Nuevo modelo compatible con PS4/PS5] + Gran Turismo 7 [Playstation 5]",
@@ -1074,8 +1072,8 @@
     "name": "PlayStation 5-Until Dawn 2 - Edición Estándar",
     "status": "preventa",
     "stock": null,
-    "price": "49,99 €",
-    "first_seen": "2026-09-13T12:22:28.699801+00:00"
+    "first_seen": "2026-09-13T12:22:28.699801+00:00",
+    "price": "49,99 €"
   },
   "ES:B0C74MGJHG": {
     "name": "The Crew Motorfest Limited Edition (Exclusivo Amazon) (Xbox One)",
@@ -1305,8 +1303,8 @@
     "name": "EA SPORTS FC™ 27 - Edición Estándar PlayStation 5| Disco fisico | Videojuegos | Castellano",
     "status": "preventa",
     "stock": null,
-    "price": "69,90 €",
-    "first_seen": "2026-09-16T02:36:01.860184+00:00"
+    "first_seen": "2026-09-16T02:36:01.860184+00:00",
+    "price": "69,90 €"
   },
   "ES:B0FGK4FQR8": {
     "name": "EA SPORTS FC 26 Standard Edition PS4 | Videojuegos | Castellano",
@@ -1319,8 +1317,8 @@
     "name": "EA SPORTS FC™ 27 - Edición Estándar PlayStation 4| Disco fisico | Videojuegos | Castellano",
     "status": "preventa",
     "stock": null,
-    "price": "69,90 €",
-    "first_seen": "2026-09-16T02:36:01.860276+00:00"
+    "first_seen": "2026-09-16T02:36:01.860276+00:00",
+    "price": "69,90 €"
   },
   "ES:B0FPD23NY6": {
     "name": "Razer Raiju V3 Pro - Mando inalámbrico e-sports para PlayStation 5 y PC - 4 botones extraíbles y 2 garras de agarre - sticks analógicos TMR - Pro HyperTrigger - Botones Mecha-Táctiles | Blanco",
@@ -1578,5 +1576,12 @@
     "stock": null,
     "first_seen": "2026-09-16T20:35:26.115363+00:00",
     "price": "69,99 €"
+  },
+  "ES:B0FD41XC3P": {
+    "name": "GameSir G7 Pro Mando 1000Hz con Estación de Carga: Xbox Series X|S, Xbox One, Win 10/11 & Android - Joysticks TMR, Gatillos Ajustables & 4 Botones Programables - Blanco Mec",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-16T22:37:14.284470+00:00",
+    "price": "99,99 €"
   }
 }
