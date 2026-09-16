@@ -70,7 +70,7 @@
   "ES:B01N10NX3M": {
     "name": "Nintendo - Adaptador De Corriente Switch",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": null,
     "price": "27,99 €",
     "first_seen": "2026-09-11T19:20:15.362352+00:00"
   },
@@ -729,7 +729,7 @@
     "name": "Zelda Ocarina Of Time - Nintendo Switch 2",
     "status": "preventa",
     "stock": null,
-    "price": "59,90 €",
+    "price": "59,90 €",
     "first_seen": "2026-09-12T06:29:23.379261+00:00"
   },
   "ES:B0FTG4DGK7": {
@@ -1303,7 +1303,7 @@
     "name": "Stellar Blade Complete Edition - Switch 2",
     "status": "preventa",
     "stock": null,
-    "price": "59,99 €",
+    "price": "59,99 €",
     "first_seen": "2026-09-15T20:34:05.436503+00:00"
   },
   "ES:B0F3JT1NT8": {
@@ -1380,5 +1380,165 @@
     "stock": null,
     "price": "49,99 €",
     "first_seen": "2026-09-16T08:37:24.405115+00:00"
+  },
+  "ES:B0F2N69SGN": {
+    "name": "Zelda Tears of the Kingdom - Nintendo Switch 2 Edition",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-16T10:34:14.565927+00:00"
+  },
+  "ES:B0HCPTNRZJ": {
+    "name": "Nintendo-Switch2 BTR",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "469,90 €",
+    "first_seen": "2026-09-16T10:34:14.850665+00:00"
+  },
+  "ES:B0F2J4SYJ2": {
+    "name": "Nintendo Switch 2",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "469,00 €",
+    "first_seen": "2026-09-16T10:34:14.850724+00:00"
+  },
+  "ES:B0F3P3X5P2": {
+    "name": "Sandisk Micro SD Express Card for Nintendo Switch 2",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "53,99 €",
+    "first_seen": "2026-09-16T10:34:14.850754+00:00"
+  },
+  "ES:B0F2N91DQ8": {
+    "name": "Donkey Kong Bananza- Switch 2",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "66,99 €",
+    "first_seen": "2026-09-16T10:34:14.850774+00:00"
+  },
+  "ES:B0BHDDH5W1": {
+    "name": "Nintendo Consola Switch - Color Azul Neón/Rojo Neón",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "279,00 €",
+    "first_seen": "2026-09-16T10:34:14.850805+00:00"
+  },
+  "ES:B092JL5NS2": {
+    "name": "Nintendo Switch Lite Azul",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "219,00 €",
+    "first_seen": "2026-09-16T10:34:14.850818+00:00"
+  },
+  "ES:B098BYN3X3": {
+    "name": "Nintendo Switch (versión OLED) Azul Neón/Rojo Neón",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "316,00 €",
+    "first_seen": "2026-09-16T10:34:14.850828+00:00"
+  },
+  "ES:B07D1L22SD": {
+    "name": "Minecraft: Nintendo Switch Edition, El embalaje puede variar",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "23,99 €",
+    "first_seen": "2026-09-16T10:34:14.850838+00:00"
+  },
+  "ES:B0BZT51WWW": {
+    "name": "Nintendo Switch (versión OLED) Edición Limitada The Legend of Zelda: Tears of the Kingdom",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "439,90 €",
+    "first_seen": "2026-09-16T10:34:14.850852+00:00"
+  },
+  "ES:B01IU4B6I2": {
+    "name": "Nintendo Switch Consola 32Gb Azul/Rojo Neón + Mario Kart 8 Deluxe",
+    "status": "compra_directa",
+    "stock": "2",
+    "price": "372,90 €",
+    "first_seen": "2026-09-16T10:34:14.850863+00:00"
+  },
+  "ES:B01N7RLGIJ": {
+    "name": "JUEGO NINTENDO SWITCH MARIO KART 8 DELUXE",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "49,99 €",
+    "first_seen": "2026-09-16T10:34:14.850873+00:00"
+  },
+  "ES:B091VTT67M": {
+    "name": "Nintendo Switch Leyendas Pokemon: Arceus",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "49,99 €",
+    "first_seen": "2026-09-16T10:34:14.850883+00:00"
+  },
+  "ES:B0DYPGBT8G": {
+    "name": "Terminator 2D: NO FATE - Day One Edition (Nintendo Switch)",
+    "status": "compra_directa",
+    "stock": "1",
+    "price": "59,65 €",
+    "first_seen": "2026-09-16T10:34:14.850896+00:00"
+  },
+  "ES:B07V4S2W94": {
+    "name": "The Legend of Zelda: Link’s Awakening | Switch - Download Code",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "59,99 €",
+    "first_seen": "2026-09-16T10:34:14.850910+00:00"
+  },
+  "ES:B07T4Q53ZL": {
+    "name": "The Legend of Zelda: Link’s Awakening | Switch - Download Code",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "59,99 €",
+    "first_seen": "2026-09-16T10:34:14.850920+00:00"
+  },
+  "ES:B09727G9FS": {
+    "name": "Leyendas Pokémon: Arceus Standard | Nintendo Switch - Código de descarga",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "59,99 €",
+    "first_seen": "2026-09-16T10:34:14.850932+00:00"
+  },
+  "ES:B0F3JR79YY": {
+    "name": "Nintendo Switch 2 Pro Controller",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "74,99 €",
+    "first_seen": "2026-09-16T10:34:14.850955+00:00"
+  },
+  "ES:B01MS7YUA7": {
+    "name": "Agarre cómodo Joy-Con para Nintendo Switch: Negro",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "15,99 €",
+    "first_seen": "2026-09-16T10:34:14.850960+00:00"
+  },
+  "ES:B0FYHR3MYZ": {
+    "name": "Nintendo Switch 2 - Pro Controller Resident Evil Requiem Edition",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "99,90 €",
+    "first_seen": "2026-09-16T10:34:14.850963+00:00"
+  },
+  "ES:B0D7996Z6V": {
+    "name": "Agarre cómodo Joy-Con para Nintendo Switch - blanco, mando de juego, mando, Nintendo Switch Lite",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "15,99 €",
+    "first_seen": "2026-09-16T10:34:14.850966+00:00"
+  },
+  "ES:B0C8LYM98S": {
+    "name": "Power A Agarre cómodo Joy-Con para Nintendo Switch - Mystery Block Mario",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "21,78 €",
+    "first_seen": "2026-09-16T10:34:14.850974+00:00"
+  },
+  "ES:B0B5S1KY83": {
+    "name": "Agarre cómodo Joy-Con de PowerA para Nintendo Switch - Princess Zelda",
+    "status": "compra_directa",
+    "stock": null,
+    "price": "17,99 €",
+    "first_seen": "2026-09-16T10:34:14.850978+00:00"
   }
 }
