@@ -813,10 +813,9 @@
   },
   "US:B0GFZV1ZVV": {
     "name": "Pokémon TCG: Mega Evolution Order Elite Trainer Box",
-    "status": "compra_directa",
-    "stock": "1",
-    "first_seen": "2026-08-30T20:46:19.644915+00:00",
-    "price": "102,14 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-30T20:46:19.644915+00:00"
   },
   "US:B0G3CY83L5": {
     "name": "Pokémon TCG: Caja de entrenamiento de élite de héroes ascendidos de Mega Evolution",
@@ -1307,9 +1306,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802645+00:00",
-    "price": "79,90 €",
-    "pending_price": "79,91 €",
-    "pending_price_count": 1
+    "price": "79,91 €"
   },
   "UK:B0FSJXSPPX": {
     "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
@@ -1839,7 +1836,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-08T14:34:56.335882+00:00",
-    "price": "16,87 €"
+    "price": "16,82 €"
   },
   "US:B0F1GXTFGL": {
     "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
