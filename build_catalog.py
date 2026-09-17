@@ -260,8 +260,8 @@ def render_page(template, product, set_entry=None, related=None, history=None):
         style = f' style="--game-color:{color}"' if color else ""
         output = output.replace("<!--SET-LINK-->", f'  <a class="back-link set-link" href="/set/{slug}"{style}>Ver todo lo de {label} →</a>', 1)
     output = output.replace("<!--SET-LINK-->", "")
-    output = output.replace("<!--PRODUCT-HISTORY-->", _render_product_history(history or []), 1)
-    output = output.replace("<!--RELATED-PRODUCTS-->", _render_related_products(related or []), 1)
+    output = re.sub(r"[ \t]*<!--PRODUCT-HISTORY-->", _render_product_history(history or []), output, count=1)
+    output = re.sub(r"[ \t]*<!--RELATED-PRODUCTS-->", _render_related_products(related or []), output, count=1)
     return output.replace('<script src="/producto.js"></script>', f'<script id="product-data" type="application/json">{embedded}</script>\n<script src="/producto.js"></script>')
 
 
