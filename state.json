@@ -282,9 +282,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-25T20:27:15.542170+00:00",
-    "price": "38,00 €",
-    "pending_price": "45,09 €",
-    "pending_price_count": 1
+    "price": "45,09 €"
   },
   "ES:B0FXTY9D99": {
     "name": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Caos Creciente (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
@@ -766,9 +764,11 @@
   "US:B0GXJ8CSTY": {
     "name": "Pokémon TCG: Colección Premium Mega Greninja ex (1 Tarjeta Promocional Brillante, 1 Tarjeta lenticular de Gran tamaño y 8 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "4",
     "first_seen": "2026-08-30T20:46:19.644858+00:00",
-    "price": "77,78 €"
+    "price": "77,78 €",
+    "pending_price": "82,18 €",
+    "pending_price_count": 1
   },
   "US:B0DN98RVZM": {
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
@@ -801,9 +801,11 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
-    "price": "62,94 €"
+    "price": "62,94 €",
+    "pending_price": "71,77 €",
+    "pending_price_count": 1
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
@@ -1714,7 +1716,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "138,00 €"
+    "price": "137,99 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
@@ -1722,7 +1724,7 @@
     "stock": null,
     "first_seen": "2026-09-06T13:57:50.628764+00:00",
     "price": "21,53 €",
-    "pending_price": "21,57 €",
+    "pending_price": "21,65 €",
     "pending_price_count": 1
   },
   "UK:B0DLTZPNR2": {
