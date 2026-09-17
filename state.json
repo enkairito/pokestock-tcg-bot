@@ -282,9 +282,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-25T20:27:15.542170+00:00",
-    "price": "45,09 €",
-    "pending_price": "45,10 €",
-    "pending_price_count": 1
+    "price": "45,09 €"
   },
   "ES:B0FXTY9D99": {
     "name": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Caos Creciente (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
@@ -815,7 +813,7 @@
   "US:B0GFZV1ZVV": {
     "name": "Pokémon TCG: Mega Evolution Order Elite Trainer Box",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644915+00:00",
     "price": "102,17 €"
   },
@@ -1301,7 +1299,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "113,63 €"
+    "price": "113,62 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1426,9 +1424,7 @@
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-09-04T21:32:58.802801+00:00",
-    "price": "46,81 €",
-    "pending_price": "46,89 €",
-    "pending_price_count": 1
+    "price": "46,89 €"
   },
   "UK:B0C7QXP3FH": {
     "name": "Pokémon TCG: Tinkaton ex Battle Deck (Baraja de 60 Cartas Lista para Jugar)",
@@ -1580,7 +1576,7 @@
   "UK:B0D9DLZ6DG": {
     "name": "Pokémon TCG: Miraidon ex Battle Deck (Ready-to-Play 60-Card Deck)",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "3",
     "first_seen": "2026-09-04T22:05:43.537193+00:00",
     "price": "42,12 €"
   },
