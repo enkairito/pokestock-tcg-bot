@@ -22,6 +22,7 @@ from check_stock import (
     new_context,
     watermark_product_image,
 )
+from gaming_product_filter import is_non_gaming_product, is_non_gaming_title
 
 # Opcionales a propósito: hasta que el canal de Telegram de Gaming esté
 # creado, el scraper debe poder seguir publicando stock en la web sin
@@ -72,15 +73,6 @@ ACCESSORY_NAME_KEYWORDS = [
     "soporte", "base de carga", "ventilador", "cable", "adaptador",
 ]
 
-# Ruido de merchandising que aparece en los resultados de búsqueda del
-# departamento "Videojuegos" pero no es ni consola ni videojuego ni
-# accesorio de verdad (libros, peluches, ropa...) — se descarta.
-JUNK_NAME_KEYWORDS = [
-    "encyclopedia", "enciclopedia", "libro", "guía", "guia", "peluche",
-    "figura", "poster", "póster", "taza", "camiseta",
-]
-
-
 def is_accessory(name):
     text = _strip_accents((name or "").lower())
     return any(keyword in text for keyword in ACCESSORY_NAME_KEYWORDS)
@@ -99,7 +91,7 @@ def categorize_xbox(name):
     Los mandos/auriculares ya se separan antes con is_accessory."""
     text = _strip_accents((name or "").lower())
 
-    if any(keyword in text for keyword in JUNK_NAME_KEYWORDS):
+    if is_non_gaming_title(name):
         return None
     if "consola" in text:
         return "Consola"
@@ -182,6 +174,15 @@ async def main():
                 result = await check_single_product(page, asin, marketplace)
                 if result:
                     marketplace_products[asin] = result
+
+        rejected = {
+            asin for asin, info in marketplace_products.items()
+            if is_non_gaming_product(asin, info.get("name"))
+        }
+        for asin in rejected:
+            print(f"⏭️ Producto ajeno a Gaming, se descarta: {marketplace_products[asin]['name'][:70]}")
+            state.pop(f"{marketplace['code']}:{asin}", None)
+            del marketplace_products[asin]
 
         out_of_stock = {a for a, i in marketplace_products.items() if i["status"] == "no_disponible"}
         if out_of_stock:

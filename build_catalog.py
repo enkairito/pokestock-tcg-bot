@@ -12,9 +12,11 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from urllib.parse import urlparse
 
+from gaming_product_filter import is_non_gaming_product
 from stock_logic import alert_changes, price_to_float
 
 SOURCES = ("products.json", "onepiece.json", "magic.json", "lorcana.json", "yugioh.json", "nintendo.json", "playstation.json", "xbox.json", "accesorios.json")
+GAMING_SOURCES = {"nintendo.json", "playstation.json", "xbox.json"}
 NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
 ORIGIN = "https://wheresthatstock.com"
 # "sin_confirmar" y cualquier estado nuevo caen en OutOfStock: sin confirmación
@@ -55,6 +57,28 @@ def breadcrumb_ld(*crumbs):
 
 def read_json(path, default):
     return json.loads(path.read_text(encoding="utf-8")) if path.exists() else default
+
+
+def clean_gaming_feed(data, source):
+    """Filter invalid Gaming rows at the publication boundary as a second
+    line of defence. This also removes already archived false positives on
+    the next build instead of preserving them forever as unconfirmed."""
+    if source not in GAMING_SOURCES or not isinstance(data.get("products"), list):
+        return data, []
+    removed = [
+        product for product in data["products"]
+        if is_non_gaming_product(product.get("asin"), product.get("name"))
+    ]
+    if not removed:
+        return data, []
+    rejected = {product_id(product) for product in removed}
+    return {
+        **data,
+        "products": [
+            product for product in data["products"]
+            if product_id(product) not in rejected
+        ],
+    }, removed
 
 
 def product_id(product):
@@ -273,9 +297,26 @@ def build_site(folder, sources):
         slug = Path(source).stem
         archive_path = folder / f"catalog-{slug}.json"
         events_path = folder / f"activity-{slug}.json"
-        previous = read_json(archive_path, {})
+        previous, archived_rejected = clean_gaming_feed(read_json(archive_path, {}), source)
+        snapshot_path = folder / source
+        snapshot = read_json(snapshot_path, {})
+        snapshot, snapshot_rejected = clean_gaming_feed(snapshot, source)
+        if snapshot_rejected:
+            snapshot_path.write_text(json.dumps(snapshot, ensure_ascii=False, indent=2), encoding="utf-8")
+            changed.append(source)
+        rejected_by_id = {
+            product_id(product): product
+            for product in archived_rejected + snapshot_rejected
+        }
+        for product in rejected_by_id.values():
+            print(f"Descartado de {source}: {product.get('name') or product.get('asin')}")
         events = read_json(events_path, read_json(folder / "events.json", []) if source == "products.json" else [])
-        catalog, events = update_catalog(previous, read_json(folder / source, {}), source, events)
+        if source in GAMING_SOURCES:
+            events = [
+                event for event in events
+                if not is_non_gaming_product(event.get("asin"), event.get("name"))
+            ]
+        catalog, events = update_catalog(previous, snapshot, source, events)
         for path, data in ((archive_path, catalog), (events_path, events)):
             path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
             changed.append(path.name)
@@ -303,6 +344,11 @@ def build_site(folder, sources):
         entry = (slug, set_matches[slug][0]) if slug else None
         (folder / name).write_text(render_page(template, product, entry), encoding="utf-8")
         changed.append(name)
+    valid_product_pages = {f"{key}.html" for key in products}
+    for path in (folder / "producto").glob("*.html"):
+        if path.name not in valid_product_pages:
+            path.unlink()
+            changed.append(f"producto/{path.name}")
 
     if sets:
         set_template = set_template_path.read_text(encoding="utf-8")
@@ -333,6 +379,11 @@ def build_site(folder, sources):
         tree = ET.parse(sitemap)
         root = tree.getroot()
         entries = {entry.findtext(f"{{{NS}}}loc"): entry for entry in root.findall(f"{{{NS}}}url")}
+        valid_product_urls = {f"{ORIGIN}/producto/{key}" for key in products}
+        for url, entry in list(entries.items()):
+            if url and url.startswith(f"{ORIGIN}/producto/") and url not in valid_product_urls:
+                root.remove(entry)
+                del entries[url]
         def upsert(url, lastmod):
             entry = entries.get(url)
             if entry is None:

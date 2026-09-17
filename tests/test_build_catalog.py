@@ -2,7 +2,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
-from build_catalog import build_site, match_sets, render_page, render_set_index, render_set_page, update_catalog, product_id
+from build_catalog import build_site, clean_gaming_feed, match_sets, render_page, render_set_index, render_set_page, update_catalog, product_id
 
 PRODUCT = {"asin": "B000000001", "marketplace": "ES", "name": "Magic Booster", "status": "compra_directa", "price": "10,00 €", "game": "Magic"}
 TEMPLATE = '<html><head><title>Producto</title><meta name="description" content=""><meta name="robots" content="noindex"></head><body><div id="product-detail">Cargando</div><script src="/producto.js"></script></body></html>'
@@ -79,6 +79,34 @@ class CatalogTests(unittest.TestCase):
             page = root / "producto" / "ES-B000000001.html"
             self.assertIn("Disponibilidad sin confirmar", page.read_text(encoding="utf-8"))
             self.assertIn("/producto/ES-B000000001", (root / "sitemap.xml").read_text())
+
+    def test_gaming_quality_gate_removes_invalid_current_and_archived_rows(self):
+        valid = {**PRODUCT, "name": "Stardew Valley", "game": "Nintendo"}
+        invalid = {**PRODUCT, "asin": "0571226167", "name": "The Bell Jar: Sylvia Plath", "game": "PlayStation"}
+        cleaned, removed = clean_gaming_feed(self.snapshot([valid, invalid]), "playstation.json")
+        self.assertEqual([product["asin"] for product in cleaned["products"]], [valid["asin"]])
+        self.assertEqual([product["asin"] for product in removed], [invalid["asin"]])
+        untouched, removed = clean_gaming_feed(self.snapshot([invalid]), "magic.json")
+        self.assertEqual(untouched["products"], [invalid])
+        self.assertEqual(removed, [])
+
+    def test_build_prunes_rejected_gaming_page_and_sitemap_entry(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            invalid = {**PRODUCT, "asin": "0571226167", "name": "The Bell Jar: Sylvia Plath", "game": "PlayStation"}
+            (root / "producto.html").write_text(TEMPLATE, encoding="utf-8")
+            (root / "producto").mkdir()
+            stale_page = root / "producto" / "ES-0571226167.html"
+            stale_page.write_text("stale", encoding="utf-8")
+            (root / "sitemap.xml").write_text(
+                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+                '<url><loc>https://wheresthatstock.com/producto/ES-0571226167</loc></url>'
+                '</urlset>', encoding="utf-8")
+            (root / "playstation.json").write_text(json.dumps(self.snapshot([invalid])), encoding="utf-8")
+            build_site(root, ["playstation.json"])
+            self.assertFalse(stale_page.exists())
+            self.assertNotIn("ES-0571226167", (root / "sitemap.xml").read_text(encoding="utf-8"))
+            self.assertEqual(json.loads((root / "playstation.json").read_text(encoding="utf-8"))["products"], [])
 
     def test_sharing_metadata_is_static_and_does_not_publish_an_old_price(self):
         product = {**PRODUCT, "name": 'Booster "special" & friends', "image": "https://example.test/card.jpg", "store_label": "Amazon"}
