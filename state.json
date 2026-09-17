@@ -717,7 +717,7 @@
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": null,
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
     "price": "56,68 €"
   },
@@ -1636,7 +1636,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280869+00:00",
-    "price": "112,19 €"
+    "price": "112,19 €",
+    "pending_price": "112,23 €",
+    "pending_price_count": 1
   },
   "UK:B0DG2XTYDP": {
     "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
