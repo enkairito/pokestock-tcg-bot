@@ -175,9 +175,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912008+00:00",
-    "price": "53,90 €",
-    "pending_price": "56,90 €",
-    "pending_price_count": 1
+    "price": "56,90 €"
   },
   "ES:B071H4KD7W": {
     "name": "Nintendo Switch Consola Rojo Neón/Azul neón 32 GB + Mario Kart 8 Deluxe",
@@ -536,7 +534,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478175+00:00",
-    "price": "34,90 €"
+    "price": "34,90 €",
+    "pending_price": "34,99 €",
+    "pending_price_count": 1
   },
   "ES:B0FQWBD5MT": {
     "name": "Super Mario Galaxy + Super Mario Galaxy 2 - Switch",
@@ -571,7 +571,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478229+00:00",
-    "price": "34,90 €"
+    "price": "34,90 €",
+    "pending_price": "34,99 €",
+    "pending_price_count": 1
   },
   "ES:B0BV27FTTF": {
     "name": "Aukuoy RCM Jig para Nintendo Switch, Herramientas de Cortocircuito de Herramienta RCM utilizadas para Cambiar el Juego de Archivo GBA/FBA",
@@ -655,9 +657,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478344+00:00",
-    "price": "75,63 €",
-    "pending_price": "80,63 €",
-    "pending_price_count": 1
+    "price": "69,99 €"
   },
   "ES:B0F2FG3X9D": {
     "name": "HEYSTOP Funda para Nintendo Switch 2, Kit de Estuche Protector con Carcasa para PC y Carcasa de TPU para el Control de Switch 2, Diseño de Gran Capacidad para Accesorios de Nintendo Switch 2",
@@ -1397,9 +1397,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.565927+00:00",
-    "price": "69,90 €",
-    "pending_price": "69,99 €",
-    "pending_price_count": 1
+    "price": "69,99 €"
   },
   "ES:B0HCPTNRZJ": {
     "name": "Nintendo-Switch2 BTR",
@@ -1769,7 +1767,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688262+00:00",
-    "price": "64,99 €"
+    "price": "64,99 €",
+    "pending_price": "69,90 €",
+    "pending_price_count": 1
   },
   "ES:B0GY5GY45X": {
     "name": "Splatoon Raiders",
@@ -1790,16 +1790,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688339+00:00",
-    "price": "57,47 €"
+    "price": "57,30 €"
   },
   "ES:B0H4RTBZ3S": {
     "name": "Orbitals - Nintendo Switch 2",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688352+00:00",
-    "price": "47,99 €",
-    "pending_price": "49,90 €",
-    "pending_price_count": 1
+    "price": "49,90 €"
   },
   "ES:B0FQWLSLQS": {
     "name": "Mario Tennis Fever",
@@ -1834,7 +1832,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688400+00:00",
-    "price": "176,54 €"
+    "price": "176,54 €",
+    "pending_price": "349,99 €",
+    "pending_price_count": 1
   },
   "ES:B0FQWBC3ZT": {
     "name": "Hades II - Nintendo Switch 2 Edition",
@@ -1848,9 +1848,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688418+00:00",
-    "price": "51,09 €",
-    "pending_price": "51,81 €",
-    "pending_price_count": 1
+    "price": "51,81 €"
   },
   "ES:B0FN4F4L55": {
     "name": "Kirby Air Riders - Switch 2",
@@ -1899,7 +1897,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688484+00:00",
-    "price": "39,90 €"
+    "price": "39,90 €",
+    "pending_price": "39,95 €",
+    "pending_price_count": 1
   },
   "ES:B0GWKDHTG8": {
     "name": "Tomodachi Life: Una vida de ensueño Standard | Nintendo Switch - Código de descarga",
@@ -2216,13 +2216,6 @@
     "first_seen": "2026-09-17T00:32:50.689163+00:00",
     "price": "20,90 €"
   },
-  "ES:1526605392": {
-    "name": "A Court of Thorns and Roses: Enter the EPIC fantasy worlds of Sarah J. Maas with the breath-taking first book in the GLOBALLY BESTSELLING ACOTAR series: 1",
-    "status": "compra_directa",
-    "stock": null,
-    "first_seen": "2026-09-17T00:32:50.689176+00:00",
-    "price": "11,25 €"
-  },
   "ES:B07BDYT58L": {
     "name": "Super Smash Bros. Ultimate (Variación)(Español)",
     "status": "compra_directa",
@@ -2242,9 +2235,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689228+00:00",
-    "price": "66,41 €",
-    "pending_price": "82,47 €",
-    "pending_price_count": 1
+    "price": "82,47 €"
   },
   "ES:B08GMSQBDZ": {
     "name": "Pang Adventures Buster Edition",
@@ -2482,9 +2473,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689720+00:00",
-    "price": "53,62 €",
-    "pending_price": "54,62 €",
-    "pending_price_count": 1
+    "price": "53,62 €"
   },
   "ES:B0FDWT9YGP": {
     "name": "RLSOCO Funda para Nintendo Switch 2 Consola 2025 - Estuche de Viaje con 8 Ranuras para Tarjetas de Juego (Rosa)",
@@ -3135,5 +3124,47 @@
     "stock": null,
     "first_seen": "2026-09-17T14:31:33.624558+00:00",
     "price": "34,95 €"
+  },
+  "ES:B0F67C5LFC": {
+    "name": "Yakuza 0 Director's Cut (Switch 2)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T15:58:54.631433+00:00",
+    "price": "42,90 €"
+  },
+  "ES:B0C5RFH9XS": {
+    "name": "Mario GSM4234 - Reloj Digital de Cuarzo para niños con Correa de plástico, Rosso, Pulsera",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T15:58:54.631826+00:00",
+    "price": "8,97 €"
+  },
+  "ES:B0DF2NF4H3": {
+    "name": "Broken Sword - La Leyenda de los Templarios: Reforged - NINTENDO SWITCH",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T15:58:54.631881+00:00",
+    "price": "36,22 €"
+  },
+  "ES:B0GTZYVN3L": {
+    "name": "Farming Simulator 26: Nintendo Switch Edition - Switch",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T15:58:54.631894+00:00",
+    "price": "39,90 €"
+  },
+  "ES:B0BT1ZXDWW": {
+    "name": "Celeste - Switch",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T15:58:54.631904+00:00",
+    "price": "29,99 €"
+  },
+  "ES:B0CXTJ5JT2": {
+    "name": "Paper Mario : La Porte Millénaire",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T15:58:54.631914+00:00",
+    "price": "35,87 €"
   }
 }
