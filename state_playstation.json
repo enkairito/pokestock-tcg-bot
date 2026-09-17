@@ -220,7 +220,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616761+00:00",
-    "price": "635,00 €"
+    "price": "599,00 €"
   },
   "ES:B0GYSGQ9R8": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Gallade y Goomy de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -258,7 +258,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "85,00 €"
+    "price": "85,00 €",
+    "pending_price": "99,00 €",
+    "pending_price_count": 1
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -847,7 +849,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:25:08.666130+00:00",
-    "price": "155,90 €"
+    "price": "150,90 €"
   },
   "ES:B07KMV94JF": {
     "name": "Sony PS4 Slim 1TB Negro 1000 GB Wifi - Videoconsolas (PlayStation 4, Negro, 8192 MB, GDDR5, AMD Jaguar)",
@@ -1095,7 +1097,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T18:20:21.671515+00:00",
-    "price": "789,00 €"
+    "price": "789,00 €",
+    "pending_price": "819,90 €",
+    "pending_price_count": 1
   },
   "ES:B0C74Q2GWX": {
     "name": "The Crew Motorfest Limited Edition (Exclusivo Amazon) (PS4)",
@@ -1468,14 +1472,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.312504+00:00",
-    "price": "719,90 €"
+    "price": "589,00 €"
   },
   "ES:B00BE4HOIM": {
     "name": "Sony PlayStation 4 500GB Console (Black) [Importación inglesa]",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.312510+00:00",
-    "price": "155,90 €"
+    "price": "150,90 €"
   },
   "ES:B07MVF445P": {
     "name": "PlayStation 4 (PS4) - Consola Slim 1TB Negra",
@@ -1496,7 +1500,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.714000+00:00",
-    "price": "649,00 €"
+    "price": "649,00 €",
+    "pending_price": "693,15 €",
+    "pending_price_count": 1
   },
   "ES:B0GZH9BJYD": {
     "name": "Grand Theft Auto VI - PlayStation 5 (Código de descarga)",
@@ -1684,10 +1690,9 @@
   },
   "ES:B0BMLPQDRB": {
     "name": "Playstation 5 Standard Consola + God of War Ragnarök",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:37.287231+00:00",
-    "price": "534,07 €"
+    "first_seen": "2026-09-17T00:32:37.287231+00:00"
   },
   "ES:B0D8PQD4DN": {
     "name": "Vinkarpe Mando para P4/Pro/Slim, Mandos Inalámbrico Wireless Controller con Doble Vibración/6 Axis Gyro/Turbo, 3.5mm Audio Jack & Touch Panel",
@@ -1794,26 +1799,12 @@
     "first_seen": "2026-09-17T00:32:37.497857+00:00",
     "price": "115,99 €"
   },
-  "ES:B07HGBVPSK": {
-    "name": "Johnny Hallyday : 1943-2017 au coeur de la légende [DVD]",
-    "status": "compra_directa",
-    "stock": null,
-    "first_seen": "2026-09-17T00:32:37.497871+00:00",
-    "price": "23,92 €"
-  },
   "ES:B0C6YL35FL": {
     "name": "Nacon Revolution 5 Pro",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.497895+00:00",
     "price": "179,00 €"
-  },
-  "ES:B00WVQQGZE": {
-    "name": "Minecraft Volume Alpha",
-    "status": "compra_directa",
-    "stock": null,
-    "first_seen": "2026-09-17T00:32:37.497908+00:00",
-    "price": "21,00 €"
   },
   "ES:B0B3X2N4PR": {
     "name": "Videogioco Sony Interactive The Last Of Us Part 1",
@@ -1863,13 +1854,6 @@
     "first_seen": "2026-09-17T00:32:37.498034+00:00",
     "price": "69,40 €"
   },
-  "ES:B0CKWKDPR1": {
-    "name": "Where the Buffalo Roam [Blu-ray]",
-    "status": "compra_directa",
-    "stock": null,
-    "first_seen": "2026-09-17T00:32:37.498045+00:00",
-    "price": "19,99 €"
-  },
   "ES:B08TJQY9JD": {
     "name": "Playstation Gran Turismo 7 | Standard Edition [Playstation 4]",
     "status": "compra_directa",
@@ -1897,13 +1881,6 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498086+00:00",
     "price": "39,83 €"
-  },
-  "ES:347349285X": {
-    "name": "tiptoi® - Grundschulwörterbuch Englisch",
-    "status": "compra_directa",
-    "stock": null,
-    "first_seen": "2026-09-17T00:32:37.498095+00:00",
-    "price": "19,43 €"
   },
   "ES:B0H46FCQN3": {
     "name": "Onimusha Way of the Sword",
@@ -2190,7 +2167,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499111+00:00",
-    "price": "22,06 €"
+    "price": "22,06 €",
+    "pending_price": "22,40 €",
+    "pending_price_count": 1
   },
   "ES:B07NRHS623": {
     "name": "The Legend of Heroes: Trails of Cold Steel III [Importación francesa]",
@@ -2470,7 +2449,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500025+00:00",
-    "price": "62,99 €"
+    "price": "62,99 €",
+    "pending_price": "71,69 €",
+    "pending_price_count": 1
   },
   "ES:B01MT2B97F": {
     "name": "Capcom Resident Evil 4 Básico PlayStation 4 vídeo - Juego (PlayStation 4, Supervivencia / Horror, M (Maduro), Soporte físico)",
@@ -2909,7 +2890,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:31:53.613077+00:00",
-    "price": "56,58 €"
+    "price": "52,95 €"
   },
   "ES:B09NM9DTTC": {
     "name": "KIWIHOME Ventilador para PS5, Silencioso, Velocidad Automática, USB 3.0 | Apto para PS5 Disc/Digital sin Líneas de División en el Panel. No para PS5 Slim 2023 o Pro 2024. Blanco",
