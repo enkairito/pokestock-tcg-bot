@@ -1470,10 +1470,9 @@
   },
   "US:B0G72SPRP6": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
-    "status": "compra_directa",
-    "stock": "3",
-    "first_seen": "2026-09-04T21:32:58.802874+00:00",
-    "price": "84,43 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-04T21:32:58.802874+00:00"
   },
   "US:B0G72QBTBJ": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Emboar ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
@@ -1669,8 +1668,8 @@
     "name": "Pokemon Mega Brave m1L Caja Booster Coreana 30 Sobres Cartas Originales",
     "status": "compra_directa",
     "stock": null,
-    "price": "77,43 €",
-    "first_seen": "2026-09-05T09:45:25.209821+00:00"
+    "first_seen": "2026-09-05T09:45:25.209821+00:00",
+    "price": "77,43 €"
   },
   "US:B0FB79QPR4": {
     "name": "Pokemon TCG - Scarlet & Violet: Destined Rivals - Lote de 8 Paquetes de Refuerzo - 80 Cartas",
@@ -2843,10 +2842,9 @@
   },
   "TRU:K1108970": {
     "name": "Pokémon 30º Aniversario - Blíster 2 Sobres + Carta Promo (Español)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-16T19:13:53.773884+00:00",
-    "price": "17,99 €"
+    "first_seen": "2026-09-16T19:13:53.773884+00:00"
   },
   "TRU:K1104391": {
     "name": "Pokémon - Héroes Ascendentes - Caja Colección Mega en español (Varios modelos)",
