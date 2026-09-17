@@ -44,9 +44,11 @@
   "ES:B0GW9TXS1Q": {
     "name": "One Piece TCG: Double Pack Set Vol. 10 (DP-10) - Adventure of Kami's Island (2 Paquetes)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-08-29T18:09:04.551067+00:00",
-    "price": "66,42 €"
+    "price": "66,42 €",
+    "pending_price": "69,63 €",
+    "pending_price_count": 1
   },
   "ES:B0CRY385YN": {
     "name": "One Piece TCG: Two Legends - Booster Box (OP-08) (JP) (TCG)",
@@ -239,11 +241,9 @@
   "ES:B0HF1Z72XW": {
     "name": "One Piece TCG: The World's Strongest Warriors Booster Box (OP-17) - 24 paquetes",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": null,
     "first_seen": "2026-09-05T20:33:38.638411+00:00",
-    "price": "446,00 €",
-    "pending_price": "461,00 €",
-    "pending_price_count": 1
+    "price": "446,00 €"
   },
   "ES:B0HFD53BDB": {
     "name": "One Piece TCG: The World's Strongest Warriors - Juego de doble paquete Vol. 12 DP-12 (2 paquetes OP-17)",
