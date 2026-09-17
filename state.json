@@ -467,9 +467,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-27T14:04:43.687882+00:00",
-    "price": "84,90 €",
-    "pending_price": "84,92 €",
-    "pending_price_count": 1
+    "price": "84,92 €"
   },
   "ES:B0C643MGKG": {
     "name": "Pokémon: Palkia Forma Origen de la Liga VSTAR",
@@ -726,14 +724,12 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
-    "price": "56,22 €",
-    "pending_price": "57,90 €",
-    "pending_price_count": 1
+    "price": "57,90 €"
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
     "price": "235,59 €"
   },
@@ -1303,7 +1299,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "113,74 €"
+    "price": "113,69 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1428,7 +1424,7 @@
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-09-04T21:32:58.802801+00:00",
-    "price": "46,86 €"
+    "price": "46,81 €"
   },
   "UK:B0C7QXP3FH": {
     "name": "Pokémon TCG: Tinkaton ex Battle Deck (Baraja de 60 Cartas Lista para Jugar)",
@@ -1840,7 +1836,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-08T14:34:56.335882+00:00",
-    "price": "17,07 €"
+    "price": "17,01 €"
   },
   "US:B0F1GXTFGL": {
     "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
