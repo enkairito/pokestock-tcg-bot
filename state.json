@@ -766,9 +766,11 @@
   "US:B0GXJ8CSTY": {
     "name": "Pokémon TCG: Colección Premium Mega Greninja ex (1 Tarjeta Promocional Brillante, 1 Tarjeta lenticular de Gran tamaño y 8 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "first_seen": "2026-08-30T20:46:19.644858+00:00",
-    "price": "77,77 €"
+    "price": "77,77 €",
+    "pending_price": "77,78 €",
+    "pending_price_count": 1
   },
   "US:B0DN98RVZM": {
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
@@ -1302,7 +1304,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "115,36 €"
+    "price": "115,33 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1323,7 +1325,9 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-04T21:32:58.802660+00:00",
-    "price": "117,84 €"
+    "price": "117,84 €",
+    "pending_price": "195,58 €",
+    "pending_price_count": 1
   },
   "UK:B0GWK631XY": {
     "name": "Pokémon TCG: Mega Moonlit Tin - Mega Gengar ex (4 potenciadores y 1 tarjeta promocional de aluminio)",
@@ -2912,5 +2916,12 @@
     "stock": "1",
     "first_seen": "2026-09-16T22:02:58.590417+00:00",
     "price": "74,45 €"
+  },
+  "UK:B0GP9QHQ3Y": {
+    "name": "Pokemon Juego de Cartas Mega Expansion Pack Abyss Eye Box",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T00:43:57.912076+00:00",
+    "price": "107,15 €"
   }
 }
