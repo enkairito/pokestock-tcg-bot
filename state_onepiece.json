@@ -9,7 +9,7 @@
   "ES:B0F1SJY5S3": {
     "name": "The Best Vol. 2 Premium Booster Box PRB-02 (10) – Juego de cartas de One Piece – JP",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-08-29T18:08:32.013738+00:00",
     "price": "113,41 €"
   },
@@ -239,9 +239,11 @@
   "ES:B0HF1Z72XW": {
     "name": "One Piece TCG: The World's Strongest Warriors Booster Box (OP-17) - 24 paquetes",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "first_seen": "2026-09-05T20:33:38.638411+00:00",
-    "price": "446,00 €"
+    "price": "446,00 €",
+    "pending_price": "461,00 €",
+    "pending_price_count": 1
   },
   "ES:B0HFD53BDB": {
     "name": "One Piece TCG: The World's Strongest Warriors - Juego de doble paquete Vol. 12 DP-12 (2 paquetes OP-17)",
