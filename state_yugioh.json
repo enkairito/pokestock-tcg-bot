@@ -48,16 +48,20 @@
   "ES:B0G3PNLTSV": {
     "name": "Yu-Gi-Oh! Barajas Modernas Legendarias 2026 (Versión en español)",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": null,
     "first_seen": "2026-09-07T17:41:16.156428+00:00",
-    "price": "31,50 €"
+    "price": "31,50 €",
+    "pending_price": "31,99 €",
+    "pending_price_count": 1
   },
   "ES:B0G6FW7PFW": {
     "name": "Yu-Gi-Oh! Rarity Collection V Display (24) (Versión en español)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-09-07T17:41:22.046401+00:00",
-    "price": "150,00 €"
+    "price": "150,00 €",
+    "pending_price": "160,93 €",
+    "pending_price_count": 1
   },
   "ES:B0FZV792N8": {
     "name": "Yu-Gi-Oh! Laberinto DE Muertos Display (24) (Versión en español)",
@@ -113,14 +117,18 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:42:10.254074+00:00",
-    "price": "30,50 €"
+    "price": "30,50 €",
+    "pending_price": "30,51 €",
+    "pending_price_count": 1
   },
   "ES:B0FMKJ7PBX": {
     "name": "YU-GI-OH! JCC EL DECK DE LAS CRÓNICAS: El Caído y El Virtuoso (Edición All-Foil)",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:42:16.342775+00:00",
-    "price": "17,65 €"
+    "price": "17,65 €",
+    "pending_price": "17,71 €",
+    "pending_price_count": 1
   },
   "ES:B0FBWHQ8K6": {
     "name": "Yu-Gi-Oh! Doom of Dimensions 3-Pack Booster",
