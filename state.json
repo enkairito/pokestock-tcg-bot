@@ -726,7 +726,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
-    "price": "57,96 €"
+    "price": "53,42 €"
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -1135,7 +1135,7 @@
   "US:B0GR6N18F6": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "first_seen": "2026-08-31T17:55:22.065539+00:00",
     "price": "103,91 €"
   },
@@ -1441,7 +1441,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802813+00:00",
-    "price": "24,76 €"
+    "price": "23,55 €"
   },
   "UK:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -1636,9 +1636,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280869+00:00",
-    "price": "112,19 €",
-    "pending_price": "112,23 €",
-    "pending_price_count": 1
+    "price": "112,19 €"
   },
   "UK:B0DG2XTYDP": {
     "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
