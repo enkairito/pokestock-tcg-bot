@@ -717,7 +717,7 @@
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
     "price": "56,68 €"
   },
@@ -1301,7 +1301,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "114,79 €"
+    "price": "114,71 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1510,9 +1510,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802903+00:00",
-    "price": "89,37 €",
-    "pending_price": "89,96 €",
-    "pending_price_count": 1
+    "price": "89,96 €"
   },
   "US:B0FPNRG8GS": {
     "name": "Pokémon TCG: Mega Evolution—Phantasmal Flames Triple Pack Sneasel (1 Carta Promocional holográfica y 3 Sobres potenciadores)",
