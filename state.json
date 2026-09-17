@@ -70,7 +70,7 @@
   "ES:B0DT7D5K1X": {
     "name": "Pokémon Colección prémium Bellibolt ex de e-Nigma de JCC Pokémon (1 Carta holográfica con ilustración expandida, 6 Sobres de Mejora y Figuras acrílicas)",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": null,
     "first_seen": "2026-08-25T20:27:54.285177+00:00",
     "price": "47,63 €"
   },
@@ -293,7 +293,7 @@
   "ES:B0CT5T766W": {
     "name": "Pokémon: Cofre de Coleccionista - 2022",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-08-25T20:27:53.163288+00:00",
     "price": "34,99 €"
   },
@@ -1300,7 +1300,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "114,08 €"
+    "price": "114,04 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
