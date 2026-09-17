@@ -51,9 +51,11 @@
   "ES:B0CRY385YN": {
     "name": "One Piece TCG: Two Legends - Booster Box (OP-08) (JP) (TCG)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-08-29T18:09:10.514835+00:00",
-    "price": "164,29 €"
+    "price": "164,29 €",
+    "pending_price": "169,99 €",
+    "pending_price_count": 1
   },
   "ES:B0HC7LPXB4": {
     "name": "Juego de cartas de una pieza ST-32 verde Roronoa Zoro | Baraja de inicio, ST-32, juego de cartas coleccionables, Roronoa Zoro, mazo verde",
@@ -185,8 +187,8 @@
     "name": "ONE PIECE TCG: 500 YEARS IN THE FUTURE BOOSTER BOX (OP 07) - 24 Packs",
     "status": "compra_directa",
     "stock": "1",
-    "price": "416,31 €",
-    "first_seen": "2026-08-30T23:39:08.142925+00:00"
+    "first_seen": "2026-08-30T23:39:08.142925+00:00",
+    "price": "416,31 €"
   },
   "ES:B0F85W59Y4": {
     "name": "One Piece TCG - Juego de cartas Vol. 1-2 (arte al azar)",
