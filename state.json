@@ -626,7 +626,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-30T20:46:10.703751+00:00",
-    "price": "248,66 €"
+    "price": "248,63 €"
   },
   "US:B0FH6KRSX8": {
     "name": "Pokemon TCG Mega Evolutions 1 Caja de Entrenador Élite",
@@ -1302,7 +1302,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "115,37 €"
+    "price": "115,36 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1603,7 +1603,9 @@
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-09-04T22:05:43.537321+00:00",
-    "price": "71,28 €"
+    "price": "71,28 €",
+    "pending_price": "72,15 €",
+    "pending_price_count": 1
   },
   "US:B0FS98MMML": {
     "name": "Pokémon TCG: Booster Pack de 10 Cartas Mega Evolution Flames Phantasmal Mangas",
@@ -1776,9 +1778,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-08T14:34:56.335771+00:00",
-    "price": "38,64 €",
-    "pending_price": "40,11 €",
-    "pending_price_count": 1
+    "price": "40,11 €"
   },
   "UK:B0DG8VNG1F": {
     "name": "Pokémon TCG: Scarlet & Violet—Shrouded Fable Booster Bundle (6 Booster Packs)",
