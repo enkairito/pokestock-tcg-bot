@@ -661,8 +661,8 @@
     "name": "Pokémon TCG: Mega Lucario ex League Battle Deck",
     "status": "compra_directa",
     "stock": null,
-    "price": "46,43 €",
-    "first_seen": "2026-08-30T20:46:19.644780+00:00"
+    "first_seen": "2026-08-30T20:46:19.644780+00:00",
+    "price": "46,43 €"
   },
   "UK:B0F8QY2C1M": {
     "name": "Pokémon TCG: 2024 World Championships Deck (Sakuya Ota)",
@@ -1712,7 +1712,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "138,02 €"
+    "price": "138,01 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
