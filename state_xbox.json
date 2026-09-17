@@ -1295,10 +1295,9 @@
   },
   "ES:B0DCD9LGHY": {
     "name": "Xbox Serie X - Edición digital de 1 TB",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-16T10:34:33.318741+00:00",
-    "price": "817,13 €"
+    "first_seen": "2026-09-16T10:34:33.318741+00:00"
   },
   "ES:B08FCXLB8Z": {
     "name": "Xbox Play y Kit de Carga USB",
@@ -1836,9 +1835,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256329+00:00",
-    "price": "24,91 €",
-    "pending_price": "24,99 €",
-    "pending_price_count": 1
+    "price": "24,99 €"
   },
   "ES:B0H4QL9XMT": {
     "name": "Persona 4 Revival - XSRX",
@@ -1999,7 +1996,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256560+00:00",
-    "price": "37,15 €"
+    "price": "37,15 €",
+    "pending_price": "59,95 €",
+    "pending_price_count": 1
   },
   "ES:B08Z5H2H4F": {
     "name": "Venom Paquete doble de baterías recargables de alta capacidad de 1100 mAh, color negro (Xbox Series X y S/Xbox One)",
@@ -2104,7 +2103,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256972+00:00",
-    "price": "9,65 €"
+    "price": "9,65 €",
+    "pending_price": "9,89 €",
+    "pending_price_count": 1
   },
   "ES:B0H34RTJDG": {
     "name": "Call of Duty: Modern Warfare 4 – XBOX Series X|S y Windows (Digital Code)",
@@ -2209,9 +2210,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
-    "price": "23,64 €",
-    "pending_price": "23,74 €",
-    "pending_price_count": 1
+    "price": "23,48 €"
   },
   "ES:B08HZKQDK1": {
     "name": "F1 2020 - Xbox One",
@@ -2239,7 +2238,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257179+00:00",
-    "price": "21,52 €"
+    "price": "21,52 €",
+    "pending_price": "26,14 €",
+    "pending_price_count": 1
   },
   "ES:B07NW92Y8Z": {
     "name": "Bloodstained - Ritual of the Night (XBox One)",
@@ -2316,9 +2317,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257377+00:00",
-    "price": "150,99 €",
-    "pending_price": "160,99 €",
-    "pending_price_count": 1
+    "price": "160,99 €"
   },
   "ES:B0B4SS2DNS": {
     "name": "Thrustmaster TCA Captain Pack X Airbus Edition - XBOX y PC | Con licencia oficial de Airbus y XBOX, equipo de simulación de vuelo, réplicas ergonómicas 1:1, sidestick y cuadrante",
@@ -2332,9 +2331,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257416+00:00",
-    "price": "16,62 €",
-    "pending_price": "21,13 €",
-    "pending_price_count": 1
+    "price": "21,13 €"
   },
   "ES:B092J3RX5R": {
     "name": "playvital Funda Antipolvo para Xbox Series S Consola | Cubierta Vertical, Resistente al Agua, Forro Suave, Acceso Fácil a Puertos, Protección contra Polvo, Negro",
@@ -3049,5 +3046,26 @@
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.549264+00:00",
     "price": "30,99 €"
+  },
+  "ES:B0B6G59HVS": {
+    "name": "Nacon - Steelrising - Videojuego para XBX [Versión Española]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:09:29.615190+00:00",
+    "price": "17,90 €"
+  },
+  "ES:B0DCP5CFKW": {
+    "name": "Way of the Hunter - Wild Expeditions - Xbox Series X",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:09:29.615230+00:00",
+    "price": "32,00 €"
+  },
+  "ES:B09VTRDLF4": {
+    "name": "The Quarry - USK & PEGI - [Xbox Series X] Language - German.",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:09:29.615247+00:00",
+    "price": "19,95 €"
   }
 }
