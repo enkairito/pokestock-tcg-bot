@@ -534,9 +534,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478175+00:00",
-    "price": "34,90 €",
-    "pending_price": "34,99 €",
-    "pending_price_count": 1
+    "price": "34,99 €"
   },
   "ES:B0FQWBD5MT": {
     "name": "Super Mario Galaxy + Super Mario Galaxy 2 - Switch",
@@ -571,9 +569,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478229+00:00",
-    "price": "34,90 €",
-    "pending_price": "34,99 €",
-    "pending_price_count": 1
+    "price": "34,99 €"
   },
   "ES:B0BV27FTTF": {
     "name": "Aukuoy RCM Jig para Nintendo Switch, Herramientas de Cortocircuito de Herramienta RCM utilizadas para Cambiar el Juego de Archivo GBA/FBA",
@@ -1523,8 +1519,10 @@
     "name": "Agarre cómodo Joy-Con para Nintendo Switch: Negro",
     "status": "compra_directa",
     "stock": null,
+    "first_seen": "2026-09-16T10:34:14.850960+00:00",
     "price": "15,99 €",
-    "first_seen": "2026-09-16T10:34:14.850960+00:00"
+    "pending_price": "19,43 €",
+    "pending_price_count": 1
   },
   "ES:B0FYHR3MYZ": {
     "name": "Nintendo Switch 2 - Pro Controller Resident Evil Requiem Edition",
@@ -1767,9 +1765,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688262+00:00",
-    "price": "64,99 €",
-    "pending_price": "69,90 €",
-    "pending_price_count": 1
+    "price": "69,90 €"
   },
   "ES:B0GY5GY45X": {
     "name": "Splatoon Raiders",
@@ -1790,7 +1786,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688339+00:00",
-    "price": "57,30 €"
+    "price": "57,00 €"
   },
   "ES:B0H4RTBZ3S": {
     "name": "Orbitals - Nintendo Switch 2",
@@ -1829,12 +1825,9 @@
   },
   "ES:B0H4R7W5YM": {
     "name": "Fire Emblem Fortune's Weave Dagdan Collection (edición limitada) - Nintendo Switch 2",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.688400+00:00",
-    "price": "176,54 €",
-    "pending_price": "349,99 €",
-    "pending_price_count": 1
+    "first_seen": "2026-09-17T00:32:50.688400+00:00"
   },
   "ES:B0FQWBC3ZT": {
     "name": "Hades II - Nintendo Switch 2 Edition",
@@ -1897,9 +1890,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688484+00:00",
-    "price": "39,90 €",
-    "pending_price": "39,95 €",
-    "pending_price_count": 1
+    "price": "39,95 €"
   },
   "ES:B0GWKDHTG8": {
     "name": "Tomodachi Life: Una vida de ensueño Standard | Nintendo Switch - Código de descarga",
@@ -3166,5 +3157,47 @@
     "stock": null,
     "first_seen": "2026-09-17T15:58:54.631914+00:00",
     "price": "35,87 €"
+  },
+  "ES:B0C6F6RYH4": {
+    "name": "Tokluck 15 en 1 Accesorios Switch Sports, Kit Completo de Accesorio para Nintendo Switch Sports con Organizador para Consola Switch/OLED, Pack de Accesorios Deportivos para Juego en Familia",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T16:31:34.998328+00:00",
+    "price": "28,89 €"
+  },
+  "ES:B09T321955": {
+    "name": "Younik Paquete de Accesorios para Switch, 17 en 1 Kit de Accesorios Incluye Funda de Transporte para Switch, Soporte Ajustable, Funda Protectora para la Consola Switch y J-con",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T16:31:34.998590+00:00",
+    "price": "25,99 €"
+  },
+  "ES:B09K3WV36D": {
+    "name": "Teyomi® - Carcasa Compatible con Nintendo Switch OLED Modelo 2021, Funda Interruptor OLED Transparente, Funda de Mango Joy-con de TPU Flexible y Funda Protectora rígida para PC Dockable para Switch",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T16:31:34.998603+00:00",
+    "price": "14,99 €"
+  },
+  "ES:B0DSBPB87Y": {
+    "name": "Lemxiee Funda para Nintendo Switch 2 Accesorios + [2 Pieza] Cristal Templado Protector Pantalla,Funda de Transporte",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T16:31:34.998607+00:00",
+    "price": "13,75 €"
+  },
+  "ES:B0FFTQ1YVM": {
+    "name": "Turtle Beach Rematch Mario Bricks Mando de juego inalámbrico para Nintendo Switch, también funciona con Nintendo Switch 2 (El botón C no está en este controlador)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T16:31:34.998611+00:00",
+    "price": "39,00 €"
+  },
+  "ES:B0BN3BK9QJ": {
+    "name": "Tolesum Switch Joystick Reemplazo 3D Analog Joycon para NS Switch/Switch OLED Joycon/Switch Lite con Kit de Reparación Joy-Con con Destornilladores - No apto para Switch 2 -Negro",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T16:31:34.998615+00:00",
+    "price": "10,49 €"
   }
 }
