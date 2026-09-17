@@ -965,9 +965,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:30:08.918656+00:00",
-    "price": "164,97 €",
-    "pending_price": "164,99 €",
-    "pending_price_count": 1
+    "price": "164,99 €"
   },
   "ES:B0DK1NY4LW": {
     "name": "AceGamer 2 Pack Mando Inalámbrico para PS4，Mando de Juego para PS4/Pro/Slim/PC，Gamepad Joystick con Turbo/Botón Trasero/Doble Vibración/6-Axis Sensor Giroscópico/Panel Táctil (Blanco o negro)",
@@ -1522,9 +1520,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850960+00:00",
-    "price": "15,99 €",
-    "pending_price": "19,43 €",
-    "pending_price_count": 1
+    "price": "19,43 €"
   },
   "ES:B0FYHR3MYZ": {
     "name": "Nintendo Switch 2 - Pro Controller Resident Evil Requiem Edition",
@@ -1767,7 +1763,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688262+00:00",
-    "price": "69,90 €"
+    "price": "69,90 €",
+    "pending_price": "85,00 €",
+    "pending_price_count": 1
   },
   "ES:B0GY5GY45X": {
     "name": "Splatoon Raiders",
@@ -1795,7 +1793,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688352+00:00",
-    "price": "49,90 €"
+    "price": "48,48 €"
   },
   "ES:B0FQWLSLQS": {
     "name": "Mario Tennis Fever",
@@ -1928,7 +1926,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688526+00:00",
-    "price": "48,30 €"
+    "price": "48,00 €"
   },
   "ES:B0FL2GS1CT": {
     "name": "Survival Kids - Switch 2 [Nintendo Switch 2 - Key Card]",
@@ -1949,7 +1947,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688550+00:00",
-    "price": "24,90 €"
+    "price": "24,90 €",
+    "pending_price": "24,99 €",
+    "pending_price_count": 1
   },
   "ES:B0F67CFW4G": {
     "name": "Yakuza 0 Director's Cut - Nintendo Switch 2",
@@ -1977,7 +1977,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688583+00:00",
-    "price": "58,83 €"
+    "price": "58,76 €"
   },
   "ES:B0F3P2HY7W": {
     "name": "Nintendo Amiibo Riju – The Legend of Zelda Collection",
@@ -2040,7 +2040,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688744+00:00",
-    "price": "67,19 €"
+    "price": "67,18 €"
   },
   "ES:B097F6916C": {
     "name": "Nintendo Game & Watch: The Legend of Zelda console de jeux portables Or, Vert",
@@ -2068,9 +2068,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688819+00:00",
-    "price": "401,23 €",
-    "pending_price": "434,02 €",
-    "pending_price_count": 1
+    "price": "434,02 €"
   },
   "ES:B0FQC3P2Y1": {
     "name": "Nintendo Switch Lite Blue + Animal Crossing New Horizons",
@@ -2469,9 +2467,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689720+00:00",
-    "price": "53,62 €",
-    "pending_price": "54,62 €",
-    "pending_price_count": 1
+    "price": "53,62 €"
   },
   "ES:B0FDWT9YGP": {
     "name": "RLSOCO Funda para Nintendo Switch 2 Consola 2025 - Estuche de Viaje con 8 Ranuras para Tarjetas de Juego (Rosa)",
