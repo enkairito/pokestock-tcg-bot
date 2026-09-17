@@ -22,9 +22,10 @@
   },
   "ES:B0GMR6ZK3R": {
     "name": "Pokémon: Lata Mega-Charizard de JCC Pokémon: Mega-Charizard Y ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
-    "status": "no_disponible",
+    "status": "invitacion",
     "stock": null,
-    "first_seen": "2026-08-25T20:27:54.285202+00:00"
+    "first_seen": "2026-08-25T20:27:54.285202+00:00",
+    "price": "24,99 €"
   },
   "ES:B0G4NSB2J1": {
     "name": "Pokémon: Colección con Pegatinas Especiales de Megaevolución-Héroes Ascendentes: Gastly (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
@@ -716,7 +717,7 @@
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "5",
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
     "price": "56,68 €"
   },
@@ -1321,9 +1322,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-04T21:32:58.802660+00:00",
-    "price": "117,84 €",
-    "pending_price": "195,58 €",
-    "pending_price_count": 1
+    "price": "117,84 €"
   },
   "UK:B0GWK631XY": {
     "name": "Pokémon TCG: Mega Moonlit Tin - Mega Gengar ex (4 potenciadores y 1 tarjeta promocional de aluminio)",
