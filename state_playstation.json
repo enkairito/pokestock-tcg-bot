@@ -258,7 +258,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "99,00 €"
+    "price": "84,99 €"
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -707,7 +707,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T12:27:13.469347+00:00",
-    "price": "19,99 €"
+    "price": "19,99 €",
+    "pending_price": "28,52 €",
+    "pending_price_count": 1
   },
   "ES:B0D571R8PK": {
     "name": "Volante y Pedales Hori RWA con licencia Sony PlayStation 4/5 [Nuevo modelo compatible con PS4/PS5] + Gran Turismo 7 [Playstation 5]",
@@ -1208,7 +1210,7 @@
     "stock": null,
     "first_seen": "2026-09-14T18:20:43.859449+00:00",
     "price": "29,95 €",
-    "pending_price": "31,02 €",
+    "pending_price": "30,99 €",
     "pending_price_count": 1
   },
   "ES:B08LM3KW18": {
@@ -1350,10 +1352,9 @@
   },
   "ES:B0HF55Q11W": {
     "name": "PlayStation®5 Edición Digital: pack Ed. Limitada Marvel: Lobezno Amarillo de Combate",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-16T04:35:55.955905+00:00",
-    "price": "649,00 €"
+    "first_seen": "2026-09-16T04:35:55.955905+00:00"
   },
   "ES:B0D8KXMCTC": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Naranja)",
@@ -1490,18 +1491,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.312517+00:00",
-    "price": "129,99 €",
-    "pending_price": "150,90 €",
-    "pending_price_count": 1
+    "price": "150,90 €"
   },
   "ES:B0FP2S1MNB": {
     "name": "Playstation Consola 5 Estandar Chassis E",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.714000+00:00",
-    "price": "649,00 €",
-    "pending_price": "730,87 €",
-    "pending_price_count": 1
+    "price": "730,87 €"
   },
   "ES:B0GZH9BJYD": {
     "name": "Grand Theft Auto VI - PlayStation 5 (Código de descarga)",
@@ -1816,7 +1813,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.497931+00:00",
-    "price": "18,86 €"
+    "price": "18,86 €",
+    "pending_price": "26,53 €",
+    "pending_price_count": 1
   },
   "ES:B0DFMCFVLS": {
     "name": "The Spectrum",
@@ -1841,9 +1840,10 @@
   },
   "ES:B0FS1ZYDRW": {
     "name": "Sony Consola PlayStation5 STD Bundle EA FC26",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:37.498022+00:00"
+    "first_seen": "2026-09-17T00:32:37.498022+00:00",
+    "price": "759,99 €"
   },
   "ES:B0CRYXTL82": {
     "name": "Retro Games THE400 Mini Consola Retro",
@@ -1913,9 +1913,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498199+00:00",
-    "price": "9,90 €",
-    "pending_price": "23,80 €",
-    "pending_price_count": 1
+    "price": "23,80 €"
   },
   "ES:B0F24Y88V1": {
     "name": "F1 25 Standard Edition PS5 | Disco | Videojuegos | Castellano",
@@ -1936,7 +1934,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498232+00:00",
-    "price": "56,99 €"
+    "price": "55,99 €"
   },
   "ES:B09GSQGJ2F": {
     "name": "Playstation Gran Turismo 7 [PS5]",
@@ -1964,9 +1962,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498310+00:00",
-    "price": "39,30 €",
-    "pending_price": "39,31 €",
-    "pending_price_count": 1
+    "price": "39,31 €"
   },
   "ES:B0H4QGP1TM": {
     "name": "Persona 4 Revival - PS5",
@@ -2115,7 +2111,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498807+00:00",
-    "price": "75,17 €"
+    "price": "74,00 €"
   },
   "ES:B01H0CBMXO": {
     "name": "Electronic Arts - Titanfall 2",
@@ -2311,7 +2307,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499661+00:00",
-    "price": "17,74 €"
+    "price": "17,74 €",
+    "pending_price": "17,99 €",
+    "pending_price_count": 1
   },
   "ES:B073SCS51T": {
     "name": "Resident Evil Revelations HD",
@@ -2507,7 +2505,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500076+00:00",
-    "price": "18,99 €"
+    "price": "18,99 €",
+    "pending_price": "19,55 €",
+    "pending_price_count": 1
   },
   "ES:B09KLKJSQM": {
     "name": "OIVO Soporte PS5/Slim/Pro Horizontal para Consola PlayStation 5, PS5 Suporte Horizontal, Soporte PS5 Acostado, Suporte Horizonta P5 con Tornillo, Accesorios PlayStation 5, Packs de Accesorios",
