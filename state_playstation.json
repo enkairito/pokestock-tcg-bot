@@ -258,7 +258,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "119,90 €"
+    "price": "85,00 €"
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -316,9 +316,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018821+00:00",
-    "price": "19,90 €",
-    "pending_price": "34,99 €",
-    "pending_price_count": 1
+    "price": "34,99 €"
   },
   "ES:B07HNR4ZZD": {
     "name": "Sony PlayStation 4 Slim 500 Go, Avec 1 manette sans fil DUALSHOCK 4 V2, Châssis F, Noir (Jet Black) [Importación francesa]",
@@ -1152,9 +1150,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:22:34.377710+00:00",
-    "price": "24,90 €",
-    "pending_price": "24,99 €",
-    "pending_price_count": 1
+    "price": "24,99 €"
   },
   "ES:B0DPHGSSWH": {
     "name": "Fenolical Soporte Delgado para PS5/PS5 con Ventilador de Refrigeración Ajustable, Soporte de Cargador de Refrigeración Vertical PS5 para PS5/PS5 Slim, Estación de Refrigeración Delgada Multifuncional",
@@ -1212,7 +1208,7 @@
     "stock": null,
     "first_seen": "2026-09-14T18:20:43.859449+00:00",
     "price": "29,95 €",
-    "pending_price": "32,53 €",
+    "pending_price": "31,02 €",
     "pending_price_count": 1
   },
   "ES:B08LM3KW18": {
@@ -2138,9 +2134,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498807+00:00",
-    "price": "74,00 €",
-    "pending_price": "75,17 €",
-    "pending_price_count": 1
+    "price": "75,17 €"
   },
   "ES:B01H0CBMXO": {
     "name": "Electronic Arts - Titanfall 2",
@@ -2154,27 +2148,21 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498891+00:00",
-    "price": "27,60 €",
-    "pending_price": "27,70 €",
-    "pending_price_count": 1
+    "price": "27,70 €"
   },
   "ES:B07MWXG7QV": {
     "name": "Days Gone [Importación francesa]",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498960+00:00",
-    "price": "36,83 €",
-    "pending_price": "39,81 €",
-    "pending_price_count": 1
+    "price": "39,81 €"
   },
   "ES:B09PJ4WZWC": {
     "name": "Far Cry 6 (PS4) (PS4)",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499011+00:00",
-    "price": "23,98 €",
-    "pending_price": "27,99 €",
-    "pending_price_count": 1
+    "price": "23,98 €"
   },
   "ES:B0B47RKP8Z": {
     "name": "Juego Soul Hackers 2 PS4",
@@ -2202,9 +2190,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499111+00:00",
-    "price": "21,72 €",
-    "pending_price": "22,06 €",
-    "pending_price_count": 1
+    "price": "22,06 €"
   },
   "ES:B07NRHS623": {
     "name": "The Legend of Heroes: Trails of Cold Steel III [Importación francesa]",
@@ -2846,9 +2832,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566170+00:00",
-    "price": "16,90 €",
-    "pending_price": "25,78 €",
-    "pending_price_count": 1
+    "price": "25,78 €"
   },
   "ES:B0FGDXFTFG": {
     "name": "Wobbly Life PS5 IES",
@@ -2897,9 +2881,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566412+00:00",
-    "price": "32,24 €",
-    "pending_price": "32,53 €",
-    "pending_price_count": 1
+    "price": "32,53 €"
   },
   "ES:B0F99XSMYV": {
     "name": "Tomb Raider IV-VI Remastered Starring Lara Croft - PS4",
@@ -3087,7 +3069,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T15:58:54.214850+00:00",
-    "price": "21,44 €"
+    "price": "21,44 €",
+    "pending_price": "29,89 €",
+    "pending_price_count": 1
   },
   "ES:B079WVCY1B": {
     "name": "Assetto Corsa - Ultimate Edition",
