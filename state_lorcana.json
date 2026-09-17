@@ -85,7 +85,7 @@
   "ES:B0H8S9YZQH": {
     "name": "Disney Lorcana TCG: Ataque de la zarcilla! - Cofre del Tesoro de Luminari (Español)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": null,
     "first_seen": "2026-09-07T17:42:06.427643+00:00",
     "price": "77,80 €"
   },
@@ -289,5 +289,12 @@
     "stock": "1",
     "price": "20,99 €",
     "first_seen": "2026-09-16T12:16:08.121075+00:00"
+  },
+  "ES:B0DKJSYRRG": {
+    "name": "Ravensburger - Disney Lorcana TCG: Set 8 Premium Deck Box | Caja para Cartas De Colección con Capacidad para 100 | Disney Lorcana con Un Diseño Único | Card Sleeves",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T18:16:11.318588+00:00",
+    "price": "37,95 €"
   }
 }
