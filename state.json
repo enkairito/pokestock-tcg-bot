@@ -768,9 +768,7 @@
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-08-30T20:46:19.644858+00:00",
-    "price": "77,77 €",
-    "pending_price": "77,78 €",
-    "pending_price_count": 1
+    "price": "77,78 €"
   },
   "US:B0DN98RVZM": {
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
@@ -1304,7 +1302,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "115,33 €"
+    "price": "115,33 €",
+    "pending_price": "117,50 €",
+    "pending_price_count": 1
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1641,7 +1641,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280869+00:00",
-    "price": "112,19 €"
+    "price": "112,19 €",
+    "pending_price": "112,23 €",
+    "pending_price_count": 1
   },
   "UK:B0DG2XTYDP": {
     "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
@@ -1710,8 +1712,8 @@
     "name": "Pokemon - SV Paradox Rift - Booster Box 36 pcs (POK85399)",
     "status": "compra_directa",
     "stock": "1",
-    "price": "733,04 €",
-    "first_seen": "2026-09-06T01:04:10.485125+00:00"
+    "first_seen": "2026-09-06T01:04:10.485125+00:00",
+    "price": "733,04 €"
   },
   "US:B0F6PMVQWQ": {
     "name": "Pokémon TCG Scarlet & Violet 10.5 Black Bolt Booster Set",
@@ -2405,7 +2407,7 @@
   "UK:B0FLP56YW2": {
     "name": "Pokémon TCG: Kit de Herramientas para Entrenadores",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "4",
     "first_seen": "2026-09-16T18:43:05.692265+00:00",
     "price": "94,60 €"
   },
