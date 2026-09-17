@@ -1,18 +1,5 @@
 [
   {
-    "ts": "2026-09-16T10:04:13.294987+00:00",
-    "type": "price_drop",
-    "asin": "B0F6PMVQWQ",
-    "marketplace": "US",
-    "store_label": "Amazon USA",
-    "flag": "🇺🇸",
-    "name": "Pokémon TCG Scarlet & Violet 10.5 Black Bolt Booster Set",
-    "image": "https://m.media-amazon.com/images/I/81UhwmFvHFL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "138,09 €",
-    "prev_price": "139,22 €",
-    "link": "https://www.amazon.es/dp/B0F6PMVQWQ?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-16T10:23:38.699745+00:00",
     "type": "price_drop",
     "asin": "B0DB7C1Z26",
@@ -778,5 +765,18 @@
     "price": "17,99 €",
     "prev_price": null,
     "link": "https://www.toysrus.es/Pok%C3%A9mon-30%C2%BA-Aniversario-Bl%C3%ADster-2-Sobres-%2B-Carta-Promo-(Espa%C3%B1ol)/p/K1108970"
+  },
+  {
+    "ts": "2026-09-17T06:23:48.880730+00:00",
+    "type": "restock",
+    "asin": "B0DB7C1Z26",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
+    "image": "https://m.media-amazon.com/images/I/81TD+vNJcJL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "114,60 €",
+    "prev_price": null,
+    "link": "https://www.amazon.es/dp/B0DB7C1Z26?tag=enkairito-21"
   }
 ]
