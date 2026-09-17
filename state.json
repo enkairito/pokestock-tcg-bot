@@ -730,7 +730,7 @@
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "3",
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
     "price": "235,59 €"
   },
@@ -1300,7 +1300,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "113,99 €"
+    "price": "113,95 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1453,9 +1453,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802829+00:00",
-    "price": "101,49 €",
-    "pending_price": "101,93 €",
-    "pending_price_count": 1
+    "price": "101,93 €"
   },
   "US:B0G3CS6XB9": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Premium Poster Collection—Mega Lucario (1 Tarjeta Promocional de Aluminio, 1 póster de Doble Cara y 10 Paquetes de Refuerzo)",
@@ -2927,5 +2925,11 @@
     "stock": null,
     "first_seen": "2026-09-17T11:23:10.450293+00:00",
     "price": "64,05 €"
+  },
+  "CAR:VC4A-34535253": {
+    "name": "Pokémon Caja Ultra Premium 30Th Aniversario, +6 Años (Unboxing)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-17T12:23:06.260776+00:00"
   }
 }
