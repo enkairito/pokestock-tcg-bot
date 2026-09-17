@@ -1300,7 +1300,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "114,87 €"
+    "price": "114,83 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1367,10 +1367,9 @@
   },
   "UK:B0F741W36F": {
     "name": "Pokémon TCG: Slashing Legends Tin - Koraidon ex (1 Tarjeta Promocional de Aluminio y 4 Paquetes de Refuerzo)",
-    "status": "compra_directa",
-    "stock": "1",
-    "first_seen": "2026-09-04T21:32:58.802751+00:00",
-    "price": "59,08 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-04T21:32:58.802751+00:00"
   },
   "UK:B0FJS4DQFB": {
     "name": "Pokemon Heatwave Arena sv9a Caja de refuerzo coreana",
@@ -1452,7 +1451,7 @@
   "US:B0F2BCG1Y5": {
     "name": "Pokémon TCG: Scarlet & Violet—Destined Rivals Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802829+00:00",
     "price": "101,93 €"
   },
@@ -1839,7 +1838,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-08T14:34:56.335882+00:00",
-    "price": "17,01 €"
+    "price": "17,01 €",
+    "pending_price": "17,07 €",
+    "pending_price_count": 1
   },
   "US:B0F1GXTFGL": {
     "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
