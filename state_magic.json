@@ -345,9 +345,11 @@
   "ES:B0G86Z91GX": {
     "name": "Draft Night de Secretos de Strixhaven, de Magic: The Gathering (Versión en Inglés)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": null,
     "first_seen": "2026-09-07T10:47:55.002254+00:00",
-    "price": "106,78 €"
+    "price": "106,78 €",
+    "pending_price": "111,63 €",
+    "pending_price_count": 1
   },
   "ES:B0G86Z6QYF": {
     "name": "Mazo temático de 60 Cartas de Magic: The Gathering - Inquietante (Versión en Inglés)",
