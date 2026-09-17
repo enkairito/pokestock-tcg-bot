@@ -293,7 +293,7 @@
   "ES:B0CT5T766W": {
     "name": "Pokémon: Cofre de Coleccionista - 2022",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "2",
     "first_seen": "2026-08-25T20:27:53.163288+00:00",
     "price": "34,99 €"
   },
@@ -1301,14 +1301,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "114,43 €"
+    "price": "114,38 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802645+00:00",
-    "price": "79,91 €"
+    "price": "79,90 €"
   },
   "UK:B0FSJXSPPX": {
     "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
@@ -1610,9 +1610,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T22:05:43.537336+00:00",
-    "price": "35,92 €",
-    "pending_price": "35,94 €",
-    "pending_price_count": 1
+    "price": "35,94 €"
   },
   "UK:B0DLQJ613B": {
     "name": "Pokémon TCG: Scarlet & Violet—Prismatic Evolutions Poster Collection",
@@ -1840,7 +1838,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-08T14:34:56.335882+00:00",
-    "price": "17,01 €"
+    "price": "16,87 €"
   },
   "US:B0F1GXTFGL": {
     "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
