@@ -282,7 +282,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-25T20:27:15.542170+00:00",
-    "price": "45,09 €"
+    "price": "45,09 €",
+    "pending_price": "45,10 €",
+    "pending_price_count": 1
   },
   "ES:B0FXTY9D99": {
     "name": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Caos Creciente (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
@@ -799,7 +801,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "62,94 €"
   },
@@ -1299,7 +1301,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "113,69 €"
+    "price": "113,63 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1424,7 +1426,9 @@
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-09-04T21:32:58.802801+00:00",
-    "price": "46,81 €"
+    "price": "46,81 €",
+    "pending_price": "46,89 €",
+    "pending_price_count": 1
   },
   "UK:B0C7QXP3FH": {
     "name": "Pokémon TCG: Tinkaton ex Battle Deck (Baraja de 60 Cartas Lista para Jugar)",
@@ -1711,14 +1715,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "139,25 €"
+    "price": "138,05 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T13:57:50.628764+00:00",
-    "price": "21,60 €"
+    "price": "21,57 €"
   },
   "UK:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
@@ -1836,7 +1840,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-08T14:34:56.335882+00:00",
-    "price": "17,01 €"
+    "price": "16,87 €"
   },
   "US:B0F1GXTFGL": {
     "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
@@ -1933,7 +1937,7 @@
     "status": "invitacion",
     "stock": null,
     "first_seen": "2026-09-09T13:27:34.624360+00:00",
-    "price": "17,99 €"
+    "price": "15,98 €"
   },
   "ES:B0H8SX832W": {
     "name": "Pokémon: Álbum para Colecciones de Celebración 30.º Aniversario de JCC Pokémon (1 álbum y 5 Sobres de Mejora)",
