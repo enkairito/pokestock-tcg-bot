@@ -1,18 +1,5 @@
 [
   {
-    "ts": "2026-09-16T12:43:16.047472+00:00",
-    "type": "restock",
-    "asin": "VC4A-34535245",
-    "marketplace": "CAR",
-    "store_label": "Carrefour",
-    "flag": "🇪🇸",
-    "name": "Pokémon 30Th Aniversario Pack 2 Sobres con Moneda Inglés, +6 Años",
-    "image": "https://static.carrefour.es/hd_350x_/crs/cdn_static/catalog/hd/783645_00_1.jpg",
-    "price": "15,99 €",
-    "prev_price": null,
-    "link": "https://www.carrefour.es/pokemon-30th-aniversario-pack-2-sobres-con-moneda-ingles-6-anos/VC4A-34535245/p"
-  },
-  {
     "ts": "2026-09-16T13:03:30.820454+00:00",
     "type": "price_drop",
     "asin": "B0DB7C1Z26",
@@ -778,5 +765,18 @@
     "price": "62,94 €",
     "prev_price": null,
     "link": "https://www.amazon.es/dp/B0GG11K25W?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-17T19:42:54.607388+00:00",
+    "type": "price_drop",
+    "asin": "B0DSGB5Q6B",
+    "marketplace": "ES",
+    "store_label": "Amazon ES",
+    "flag": "",
+    "name": "Pokémon Colección Ursaluna Luna Carmesí (4 Cartas holográficas y 4 Paquetes de Mejora)",
+    "image": "https://m.media-amazon.com/images/I/91DYxakGHhL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "38,00 €",
+    "prev_price": "45,09 €",
+    "link": "https://www.amazon.es/dp/B0DSGB5Q6B?tag=enkairito-21"
   }
 ]
