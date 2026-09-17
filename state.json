@@ -293,7 +293,7 @@
   "ES:B0CT5T766W": {
     "name": "Pokémon: Cofre de Coleccionista - 2022",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-08-25T20:27:53.163288+00:00",
     "price": "34,99 €"
   },
@@ -466,7 +466,7 @@
   "ES:B0D6WLBJKX": {
     "name": "Pokémon: Caja de Entrenador Élite de Escarlata y Púrpura-Fábula Sombría de JCC Pokémon",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-27T14:04:43.687882+00:00",
     "price": "84,90 €"
   },
@@ -813,9 +813,10 @@
   },
   "US:B0GFZV1ZVV": {
     "name": "Pokémon TCG: Mega Evolution Order Elite Trainer Box",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-08-30T20:46:19.644915+00:00"
+    "status": "compra_directa",
+    "stock": "2",
+    "first_seen": "2026-08-30T20:46:19.644915+00:00",
+    "price": "102,14 €"
   },
   "US:B0G3CY83L5": {
     "name": "Pokémon TCG: Caja de entrenamiento de élite de héroes ascendidos de Mega Evolution",
@@ -1299,7 +1300,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "114,37 €"
+    "price": "114,28 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1635,7 +1636,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280869+00:00",
-    "price": "112,19 €"
+    "price": "112,06 €"
   },
   "UK:B0DG2XTYDP": {
     "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
@@ -1677,7 +1678,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T13:22:34.788481+00:00",
-    "price": "140,93 €"
+    "price": "140,93 €",
+    "pending_price": "142,42 €",
+    "pending_price_count": 1
   },
   "UK:B0DMDPGWWY": {
     "name": "Pokemon TCG: Battle Deck Tapu Koko ex",
@@ -1836,7 +1839,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-08T14:34:56.335882+00:00",
-    "price": "16,82 €"
+    "price": "16,82 €",
+    "pending_price": "17,07 €",
+    "pending_price_count": 1
   },
   "US:B0F1GXTFGL": {
     "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
