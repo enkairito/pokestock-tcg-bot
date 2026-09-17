@@ -969,9 +969,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:30:08.918656+00:00",
-    "price": "146,90 €",
-    "pending_price": "164,97 €",
-    "pending_price_count": 1
+    "price": "164,97 €"
   },
   "ES:B0DK1NY4LW": {
     "name": "AceGamer 2 Pack Mando Inalámbrico para PS4，Mando de Juego para PS4/Pro/Slim/PC，Gamepad Joystick con Turbo/Botón Trasero/Doble Vibración/6-Axis Sensor Giroscópico/Panel Táctil (Blanco o negro)",
@@ -1324,9 +1322,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T20:34:05.436537+00:00",
-    "price": "20,90 €",
-    "pending_price": "20,99 €",
-    "pending_price_count": 1
+    "price": "20,99 €"
   },
   "ES:B01N3374BH": {
     "name": "Nintendo - Joy-Con Soporte Carga",
@@ -1440,7 +1436,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850805+00:00",
-    "price": "279,00 €"
+    "price": "279,00 €",
+    "pending_price": "287,00 €",
+    "pending_price_count": 1
   },
   "ES:B092JL5NS2": {
     "name": "Nintendo Switch Lite Azul",
@@ -1745,9 +1743,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688196+00:00",
-    "price": "523,90 €",
-    "pending_price": "525,90 €",
-    "pending_price_count": 1
+    "price": "525,90 €"
   },
   "ES:B0FYHK8329": {
     "name": "Nintendo Switch 2 + 25e eShop",
@@ -2537,7 +2533,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689777+00:00",
-    "price": "15,99 €"
+    "price": "15,99 €",
+    "pending_price": "17,99 €",
+    "pending_price_count": 1
   },
   "ES:B0FGXQNL2K": {
     "name": "JETech Funda Slim Acoplable para Nintendo Switch 2, Negro | Diseño Acoplable con Joy-con Desmontables, Agarre TPU Suave, Trasera PC Mate, Carcasa Antiarañazos",
@@ -2753,10 +2751,9 @@
   },
   "ES:B0DKSXN5PB": {
     "name": "Switch TV Dock, Dock Switch Compatible con Nintendo Switch/OLED Cargador de Joypads, Base Switch con 4K/1080P HDMI, Carga Docking Station Multifuncional 7 Colores LED/Puertos USB 3.0, Negro",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.689985+00:00",
-    "price": "42,99 €"
+    "first_seen": "2026-09-17T00:32:50.689985+00:00"
   },
   "ES:B0GGXF7G4G": {
     "name": "APTGAME™ Switch Arcade Stick para Nintendo Switch/OLED/Switch 2, máquinas de Arcade Retro para el hogar y Soporte de gabinete de Juegos de Arcade para Street Fighter-versión de Captura de Pantalla",
@@ -2777,9 +2774,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.690002+00:00",
-    "price": "8,99 €",
-    "pending_price": "9,99 €",
-    "pending_price_count": 1
+    "price": "9,99 €"
   },
   "ES:B0CB1F69ZK": {
     "name": "INIU Cargador USB C GAN 100W, 3-Puertos Cargador Rápido Compacto con Cable | Carga multidispositivo, Cargador de Viaje para Portátil MacBook Neo, iPhone 18 17 16 Pro Max, iPad, Samsung S26 Ultra, Pixel",
@@ -2997,5 +2992,108 @@
     "stock": null,
     "first_seen": "2026-09-17T10:32:19.292499+00:00",
     "price": "29,90 €"
+  },
+  "ES:B0DQNSMJ8B": {
+    "name": "Loofu Mando para Switch, Mandos Switch Inalambricos para Switch/Switch Lite/Switch OLED, con Gyro Axis/Dual Vibración/Función Turbo",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:15.909327+00:00"
+  },
+  "ES:B0DP4NYWLB": {
+    "name": "Penpad Mando para Switch, Mandos Switch Inalambricos para Lite/OLED, con Gyro Axis/Vibración/Turbo",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:15.909355+00:00"
+  },
+  "ES:B0H26WZRZ1": {
+    "name": "Belkin Gaming Bolsa Protectora de Viaje para Nintendo Switch 2 Verde Oliva | Bandolera, Bolso de Transporte para la Consola y Accesorios, Interior Acolchado, Diseño Ligero y con 10 Ranuras para Juegos",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:16.087683+00:00",
+    "price": "34,99 €"
+  },
+  "ES:B0H4L3DSSG": {
+    "name": "playvital Tapas para Joystick para Nintendo Switch 2 2025, 4 Piezas | Silicona Suave, Mejor Control, Antideslizante, Protección Diaria, Tacto Cómodo, Diseño Kawaii, Ratón Queso & Curioso",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:16.087796+00:00",
+    "price": "11,99 €"
+  },
+  "ES:B0BZK5M9TD": {
+    "name": "Nintendo Switch - OLED Model - The Legend of Zelda: Tears of the Kingdom Edition",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:16.087844+00:00",
+    "price": "334,99 €"
+  },
+  "ES:B0H26WCSTJ": {
+    "name": "Belkin Gaming Agarres con Batería Externa 10000mAh Nintendo Switch 2 -Verde | Power Bank Magnético Extraíble 10000 mAh, 30W, Compatible con el Soporte, Empuñaduras Ergonómicas Antideslizantes y Pantalla",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:16.088008+00:00",
+    "price": "79,99 €"
+  },
+  "ES:B0GHY6NDJ2": {
+    "name": "PlayVital Funda Protectora para Nintendo Switch 2 | Carcasa rígida con asas ergonómicas, almohadillas para botones, tapas de pulgar y pegatinas para una protección fiable.",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:16.088083+00:00",
+    "price": "22,99 €"
+  },
+  "ES:B0F1LWFBB5": {
+    "name": "MatoSan® Tapas de Agarre para Palanca de Pulgar para Switch 2, Fundas de Silicona compatibles con Controladores Switch 2, empuñaduras ergonómicas Antideslizantes para el Pulgar (Version 3)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:16.088095+00:00",
+    "price": "11,99 €"
+  },
+  "ES:B0F333W54P": {
+    "name": "Orzly Protector de pantalla para Nintendo Switch (Switch 2 2025 (7.9 pulgadas)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:16.088111+00:00",
+    "price": "8,30 €"
+  },
+  "ES:B0H97L2P92": {
+    "name": "AceGamer Hypershadow D4 2.4G Mando Inalámbrico Para PS4, PC, Switch, iOS, Android, Steam Deck, Joystick TMR, Gatillos Instantáneos, Botones Mecánicos, 4 Botones Traseros Macro, Giroscopio 6 Ejes",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:16.088121+00:00",
+    "price": "49,99 €"
+  },
+  "ES:B0DRJ71PDX": {
+    "name": "Younik Switch 2 Funda Para NS Switch 2 (2025), Funda de Transporte con 19 Ranuras para Tarjetas de Juego, 4 in 1 Switch 2 Accesorios Incluye Correa para el Hombro, Correa de muñeca y calcomanías",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:16.088127+00:00",
+    "price": "19,99 €"
+  },
+  "ES:B0FH2SXCCV": {
+    "name": "MME Tapas de Joystick compatibles con Switch 2, Accesorios para Mando Switch 2, Tapas para Pulgar para Switch 2, Accesorios Joy Cons Switch 2 (Zelda)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:16.088134+00:00",
+    "price": "11,99 €"
+  },
+  "ES:B0FP2D17LJ": {
+    "name": "Antank Portátil Dock Compatible con Nintendo Switch 2/1/OLED, Switch 2 TV Dock con 4K a 120 Hz Salida HDMI/100W Carga Entrada/USB3.0, Cargador Base Support Switch 2 Oficial Repuesto",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:16.088140+00:00",
+    "price": "36,99 €"
+  },
+  "ES:B0FB3P3MH7": {
+    "name": "Teyomi Funda protectora de silicona compatible con Nintendo Switch 2, Carcasa para Nintendo Switch 2 con protector de pantalla de vidrio templado, Estuche con agarre ergonómico (Negro)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:16.088236+00:00",
+    "price": "14,99 €"
+  },
+  "ES:B0DLBL2J4Z": {
+    "name": "OTL Technologies Auriculares INALÁMBRICOS Minecraft Plegables con LUZ LED",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:16.088253+00:00",
+    "price": "34,90 €"
   }
 }
