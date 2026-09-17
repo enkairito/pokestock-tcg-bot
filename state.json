@@ -730,7 +730,7 @@
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "3",
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
     "price": "235,59 €"
   },
@@ -1471,9 +1471,10 @@
   },
   "US:B0G72SPRP6": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-09-04T21:32:58.802874+00:00"
+    "status": "compra_directa",
+    "stock": "3",
+    "first_seen": "2026-09-04T21:32:58.802874+00:00",
+    "price": "84,43 €"
   },
   "US:B0G72QBTBJ": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Emboar ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
@@ -1715,10 +1716,9 @@
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-06T13:57:50.628764+00:00",
-    "price": "21,57 €"
+    "first_seen": "2026-09-06T13:57:50.628764+00:00"
   },
   "UK:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
@@ -1826,9 +1826,10 @@
   },
   "UK:B09M48Z5NW": {
     "name": "Pokémon TCG: Baraja de Batalla V: Lycanroc contra Corviknight",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-09-08T14:34:56.335876+00:00"
+    "status": "compra_directa",
+    "stock": "1",
+    "first_seen": "2026-09-08T14:34:56.335876+00:00",
+    "price": "54,70 €"
   },
   "UK:B00TA6E3KI": {
     "name": "100 Assorted Basic Pokemon TCG Energy Cards",
