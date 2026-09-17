@@ -90,7 +90,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388324+00:00",
-    "price": "30,99 €"
+    "price": "26,08 €"
   },
   "ES:B0CFVXTMNK": {
     "name": "EA SPORTS WRC Standard Edition PS5 | Videojuegos | Castellano",
@@ -989,7 +989,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "36,87 €"
+    "price": "35,95 €"
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1210,7 +1210,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T04:35:41.898406+00:00",
-    "price": "8,02 €"
+    "price": "8,02 €",
+    "pending_price": "12,74 €",
+    "pending_price_count": 1
   },
   "ES:B0BLZ5HR28": {
     "name": "Star Wars Jedi: Survivor Game Xbox Series X",
@@ -1313,9 +1315,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.318831+00:00",
-    "price": "11,10 €",
-    "pending_price": "16,99 €",
-    "pending_price_count": 1
+    "price": "16,99 €"
   },
   "ES:B06Y36MK86": {
     "name": "Microsoft Xbox One X - Consola 1 TB 4K HDR Negro",
@@ -1881,9 +1881,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256399+00:00",
-    "price": "23,18 €",
-    "pending_price": "23,22 €",
-    "pending_price_count": 1
+    "price": "23,22 €"
   },
   "ES:B0BG4WBV4M": {
     "name": "Like a Dragon: Ishin! [GRA XBOX SERIES X]",
@@ -2128,7 +2126,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257009+00:00",
-    "price": "15,30 €"
+    "price": "15,30 €",
+    "pending_price": "16,91 €",
+    "pending_price_count": 1
   },
   "ES:B00KJFDIP0": {
     "name": "Tekken 7",
@@ -2205,7 +2205,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
-    "price": "23,40 €"
+    "price": "23,38 €"
   },
   "ES:B08HZKQDK1": {
     "name": "F1 2020 - Xbox One",
@@ -2226,9 +2226,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257170+00:00",
-    "price": "19,57 €",
-    "pending_price": "19,86 €",
-    "pending_price_count": 1
+    "price": "19,86 €"
   },
   "ES:B082JH8CZH": {
     "name": "Bayonetta & Vanquish 10th Anniversary Bundle - Xbox One [Importación inglesa]",
@@ -2846,7 +2844,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.548532+00:00",
-    "price": "21,64 €"
+    "price": "21,39 €"
   },
   "ES:B0GHSYQHP6": {
     "name": "Life is Strange Reunion",
