@@ -1,18 +1,5 @@
 [
   {
-    "ts": "2026-09-16T12:43:10.369209+00:00",
-    "type": "restock",
-    "asin": "VC4A-34535251",
-    "marketplace": "CAR",
-    "store_label": "Carrefour",
-    "flag": "🇪🇸",
-    "name": "Pokémon 30Th Aniversario Pack 2 Sobres con Moneda, +6 Años",
-    "image": "https://static.carrefour.es/hd_350x_/crs/cdn_static/catalog/hd/783647_00_1.jpg",
-    "price": "15,99 €",
-    "prev_price": null,
-    "link": "https://www.carrefour.es/pokemon-30th-aniversario-pack-2-sobres-con-moneda-6-anos/VC4A-34535251/p"
-  },
-  {
     "ts": "2026-09-16T12:43:16.047472+00:00",
     "type": "restock",
     "asin": "VC4A-34535245",
@@ -778,5 +765,18 @@
     "price": "56,87 €",
     "prev_price": "57,90 €",
     "link": "https://www.amazon.es/dp/B0GR6Q72ND?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-17T19:03:00.235848+00:00",
+    "type": "restock",
+    "asin": "B0GG11K25W",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
+    "image": "https://m.media-amazon.com/images/I/81oqIqpLjrL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "62,94 €",
+    "prev_price": null,
+    "link": "https://www.amazon.es/dp/B0GG11K25W?tag=enkairito-21"
   }
 ]
