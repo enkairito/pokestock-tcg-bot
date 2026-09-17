@@ -717,14 +717,14 @@
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
     "price": "56,68 €"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
     "price": "53,42 €"
   },
@@ -1297,9 +1297,10 @@
   },
   "UK:B0DB7C1Z26": {
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-09-04T21:32:58.802636+00:00"
+    "status": "compra_directa",
+    "stock": "2",
+    "first_seen": "2026-09-04T21:32:58.802636+00:00",
+    "price": "114,87 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1460,7 +1461,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802847+00:00",
-    "price": "224,03 €"
+    "price": "224,02 €"
   },
   "US:B0DG6PSWN1": {
     "name": "Pokemon TCG: Trick or Trade Booster Bundle (2024) - 35 Paquetes",
@@ -1542,9 +1543,11 @@
   "US:B0DVC187SP": {
     "name": "Pokemon TCG Scarlet & Violet Journey Together: Pack de 3 Booster Blister",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "3",
+    "first_seen": "2026-09-04T21:32:58.802930+00:00",
     "price": "49,51 €",
-    "first_seen": "2026-09-04T21:32:58.802930+00:00"
+    "pending_price": "49,57 €",
+    "pending_price_count": 1
   },
   "US:B0G5FWJ8NL": {
     "name": "Pokémon TCG: Mega Charizard Tin",
@@ -1836,7 +1839,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-08T14:34:56.335882+00:00",
-    "price": "17,04 €"
+    "price": "17,01 €"
   },
   "US:B0F1GXTFGL": {
     "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
