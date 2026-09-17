@@ -468,7 +468,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-27T14:04:43.687882+00:00",
-    "price": "85,27 €"
+    "price": "84,92 €"
   },
   "ES:B0C643MGKG": {
     "name": "Pokémon: Palkia Forma Origen de la Liga VSTAR",
@@ -765,9 +765,10 @@
   },
   "US:B0GXJ8CSTY": {
     "name": "Pokémon TCG: Colección Premium Mega Greninja ex (1 Tarjeta Promocional Brillante, 1 Tarjeta lenticular de Gran tamaño y 8 Paquetes de Refuerzo)",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-08-30T20:46:19.644858+00:00"
+    "status": "compra_directa",
+    "stock": "5",
+    "first_seen": "2026-08-30T20:46:19.644858+00:00",
+    "price": "77,78 €"
   },
   "US:B0DN98RVZM": {
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
@@ -1425,9 +1426,7 @@
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-09-04T21:32:58.802801+00:00",
-    "price": "46,91 €",
-    "pending_price": "46,97 €",
-    "pending_price_count": 1
+    "price": "46,97 €"
   },
   "UK:B0C7QXP3FH": {
     "name": "Pokémon TCG: Tinkaton ex Battle Deck (Baraja de 60 Cartas Lista para Jugar)",
@@ -1511,7 +1510,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802903+00:00",
-    "price": "89,37 €"
+    "price": "89,37 €",
+    "pending_price": "89,96 €",
+    "pending_price_count": 1
   },
   "US:B0FPNRG8GS": {
     "name": "Pokémon TCG: Mega Evolution—Phantasmal Flames Triple Pack Sneasel (1 Carta Promocional holográfica y 3 Sobres potenciadores)",
@@ -1666,9 +1667,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280980+00:00",
-    "price": "45,69 €",
-    "pending_price": "46,15 €",
-    "pending_price_count": 1
+    "price": "46,15 €"
   },
   "UK:B0FTSVL3Z6": {
     "name": "Pokemon Mega Brave m1L Caja Booster Coreana 30 Sobres Cartas Originales",
@@ -1842,9 +1841,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-08T14:34:56.335882+00:00",
-    "price": "17,01 €",
-    "pending_price": "17,07 €",
-    "pending_price_count": 1
+    "price": "17,07 €"
   },
   "US:B0F1GXTFGL": {
     "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
@@ -2853,9 +2850,10 @@
   },
   "TRU:K1108970": {
     "name": "Pokémon 30º Aniversario - Blíster 2 Sobres + Carta Promo (Español)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-16T19:13:53.773884+00:00"
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "17,99 €"
   },
   "TRU:K1104391": {
     "name": "Pokémon - Héroes Ascendentes - Caja Colección Mega en español (Varios modelos)",
