@@ -722,9 +722,11 @@
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
-    "price": "57,90 €"
+    "price": "57,90 €",
+    "pending_price": "57,92 €",
+    "pending_price_count": 1
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -1298,7 +1300,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "113,33 €"
+    "price": "113,28 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1448,9 +1450,10 @@
   },
   "US:B0F2BCG1Y5": {
     "name": "Pokémon TCG: Scarlet & Violet—Destined Rivals Booster Bundle (6 Booster Packs)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-04T21:32:58.802829+00:00"
+    "first_seen": "2026-09-04T21:32:58.802829+00:00",
+    "price": "101,93 €"
   },
   "US:B0G3CS6XB9": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Premium Poster Collection—Mega Lucario (1 Tarjeta Promocional de Aluminio, 1 póster de Doble Cara y 10 Paquetes de Refuerzo)",
@@ -1471,7 +1474,9 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-04T21:32:58.802874+00:00",
-    "price": "84,43 €"
+    "price": "84,43 €",
+    "pending_price": "86,71 €",
+    "pending_price_count": 1
   },
   "US:B0G72QBTBJ": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Emboar ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
@@ -1716,7 +1721,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T13:57:50.628764+00:00",
-    "price": "21,54 €"
+    "price": "21,53 €"
   },
   "UK:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
