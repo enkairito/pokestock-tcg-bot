@@ -88,9 +88,11 @@
   "ES:B0CD2R5CD3": {
     "name": "Videojuego PlayStation 5 Ubisoft Assassin's Creed Mirage",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": null,
+    "first_seen": "2026-09-11T19:18:12.685827+00:00",
     "price": "19,90 €",
-    "first_seen": "2026-09-11T19:18:12.685827+00:00"
+    "pending_price": "19,99 €",
+    "pending_price_count": 1
   },
   "ES:B08B4HHNNM": {
     "name": "Playstation Sackboy: Una Aventura a lo Grande - PlayStation 5",
@@ -111,9 +113,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:18:12.685903+00:00",
-    "price": "27,89 €",
-    "pending_price": "29,99 €",
-    "pending_price_count": 1
+    "price": "29,99 €"
   },
   "ES:B084WLMKGT": {
     "name": "GXTrust Forze Cascos Gaming con Licencia Oficial para PlayStation, Negro | Auriculares Gaming para PS4 y PS5, Micrófono Plegable, Altavoces Activos de 50 mm, Cable Trenzado de Nailon 1.2 m",
@@ -312,7 +312,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018808+00:00",
-    "price": "18,98 €"
+    "price": "18,98 €",
+    "pending_price": "25,12 €",
+    "pending_price_count": 1
   },
   "ES:B09KTGP5C2": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition, PlayStation 4",
@@ -911,8 +913,8 @@
     "name": "Ubisoft Assassin's Creed Valhalla, PlayStation 4",
     "status": "compra_directa",
     "stock": null,
-    "price": "26,99 €",
-    "first_seen": "2026-09-12T18:25:09.102594+00:00"
+    "first_seen": "2026-09-12T18:25:09.102594+00:00",
+    "price": "26,99 €"
   },
   "ES:B0777XHSRJ": {
     "name": "Sony Interactive Entertainment The Last of Us Part II Standard PlayStation 4",
@@ -1002,7 +1004,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:24:23.874001+00:00",
-    "price": "15,99 €"
+    "price": "15,99 €",
+    "pending_price": "18,29 €",
+    "pending_price_count": 1
   },
   "ES:B0DSWJBFM2": {
     "name": "GXTrust Forta Cascos PS5 Licencia Oficial para PlayStation 5, Azul",
@@ -1146,7 +1150,7 @@
     "stock": null,
     "first_seen": "2026-09-14T12:22:34.377644+00:00",
     "price": "20,47 €",
-    "pending_price": "20,50 €",
+    "pending_price": "20,49 €",
     "pending_price_count": 1
   },
   "ES:B01H25FDTI": {
@@ -1219,7 +1223,7 @@
     "stock": null,
     "first_seen": "2026-09-14T18:20:43.859449+00:00",
     "price": "29,95 €",
-    "pending_price": "32,08 €",
+    "pending_price": "33,47 €",
     "pending_price_count": 1
   },
   "ES:B08LM3KW18": {
@@ -1294,9 +1298,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T20:34:33.327835+00:00",
-    "price": "8,69 €",
-    "pending_price": "19,00 €",
-    "pending_price_count": 1
+    "price": "19,00 €"
   },
   "ES:B0H3W5V1TN": {
     "name": "CONTROL Resonant - PS5 (Exclusiva Amazon)",
@@ -1363,10 +1365,9 @@
   },
   "ES:B0HF55Q11W": {
     "name": "PlayStation®5 Edición Digital: pack Ed. Limitada Marvel: Lobezno Amarillo de Combate",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-16T04:35:55.955905+00:00",
-    "price": "725,32 €"
+    "first_seen": "2026-09-16T04:35:55.955905+00:00"
   },
   "ES:B0D8KXMCTC": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Naranja)",
@@ -1482,7 +1483,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.312504+00:00",
-    "price": "589,00 €"
+    "price": "589,00 €",
+    "pending_price": "719,90 €",
+    "pending_price_count": 1
   },
   "ES:B00BE4HOIM": {
     "name": "Sony PlayStation 4 500GB Console (Black) [Importación inglesa]",
@@ -1660,9 +1663,10 @@
   },
   "ES:B0FP2GZTKP": {
     "name": "Playstation Consola 5: edición limitada Gold Ghost of Yōtei™",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:37.287209+00:00"
+    "first_seen": "2026-09-17T00:32:37.287209+00:00",
+    "price": "879,99 €"
   },
   "ES:B0FPVN728G": {
     "name": "Shiptree Mando para PS-4, Mando Inalámbrico para PS4/Pro/Slim/PC con Doble Vibración, Turbo, Sensor Giroscopio, Panel Táctil, Audio Jack (Blanco)",
@@ -1696,9 +1700,10 @@
   },
   "ES:B0BMLPQDRB": {
     "name": "Playstation 5 Standard Consola + God of War Ragnarök",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:37.287231+00:00"
+    "first_seen": "2026-09-17T00:32:37.287231+00:00",
+    "price": "534,07 €"
   },
   "ES:B0D8PQD4DN": {
     "name": "Vinkarpe Mando para P4/Pro/Slim, Mandos Inalámbrico Wireless Controller con Doble Vibración/6 Axis Gyro/Turbo, 3.5mm Audio Jack & Touch Panel",
@@ -1810,7 +1815,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.497871+00:00",
-    "price": "23,78 €"
+    "price": "23,78 €",
+    "pending_price": "23,92 €",
+    "pending_price_count": 1
   },
   "ES:B0C6YL35FL": {
     "name": "Nacon Revolution 5 Pro",
@@ -1863,10 +1870,9 @@
   },
   "ES:B0FS1ZYDRW": {
     "name": "Sony Consola PlayStation5 STD Bundle EA FC26",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:37.498022+00:00",
-    "price": "759,99 €"
+    "first_seen": "2026-09-17T00:32:37.498022+00:00"
   },
   "ES:B0CRYXTL82": {
     "name": "Retro Games THE400 Mini Consola Retro",
@@ -1929,7 +1935,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498146+00:00",
-    "price": "64,99 €"
+    "price": "64,99 €",
+    "pending_price": "66,36 €",
+    "pending_price_count": 1
   },
   "ES:B0GNKSKQM6": {
     "name": "Silent Hill Townfall - Day One Edition - PS5",
@@ -1978,7 +1986,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498253+00:00",
-    "price": "44,86 €"
+    "price": "44,86 €",
+    "pending_price": "44,95 €",
+    "pending_price_count": 1
   },
   "ES:B0GVP719SW": {
     "name": "Mortal Shell II - PS5",
@@ -2041,7 +2051,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498377+00:00",
-    "price": "55,90 €"
+    "price": "55,90 €",
+    "pending_price": "55,99 €",
+    "pending_price_count": 1
   },
   "ES:B0G7L9ZPX1": {
     "name": "PRAGMATA - PS5",
@@ -2069,7 +2081,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498454+00:00",
-    "price": "42,90 €"
+    "price": "42,90 €",
+    "pending_price": "54,99 €",
+    "pending_price_count": 1
   },
   "ES:B0H3VXBVX2": {
     "name": "Toy Story: Retro Roundup! + Toy Story 3 Complete Edition Double Pack - PS5",
@@ -2083,7 +2097,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498502+00:00",
-    "price": "20,46 €"
+    "price": "20,46 €",
+    "pending_price": "21,55 €",
+    "pending_price_count": 1
   },
   "ES:B0F2TGRRRK": {
     "name": "DRAGON QUEST I & II HD-2D Remake",
@@ -2223,7 +2239,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499236+00:00",
-    "price": "12,90 €"
+    "price": "12,90 €",
+    "pending_price": "12,99 €",
+    "pending_price_count": 1
   },
   "ES:B00DC267Z0": {
     "name": "Kingdom Hearts III (PlayStation PS4)",
@@ -2307,14 +2325,18 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499492+00:00",
-    "price": "25,07 €"
+    "price": "25,07 €",
+    "pending_price": "25,13 €",
+    "pending_price_count": 1
   },
   "ES:B07V9NP59C": {
     "name": "Remothered: Tormented Fathers",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499513+00:00",
-    "price": "21,60 €"
+    "price": "21,60 €",
+    "pending_price": "22,64 €",
+    "pending_price_count": 1
   },
   "ES:B07NJHJKGX": {
     "name": "Assassin's Creed III Remastered",
@@ -2328,21 +2350,23 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499558+00:00",
-    "price": "23,83 €"
+    "price": "23,83 €",
+    "pending_price": "34,99 €",
+    "pending_price_count": 1
   },
   "ES:B07P7H2W4Q": {
     "name": "Kingdom Hearts: The Story so far - PlayStation 4 [Importación inglesa]",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499578+00:00",
-    "price": "20,14 €"
+    "price": "20,13 €"
   },
   "ES:B00N77D7WQ": {
     "name": "Metro Redux Double Pack (2033 + Last Light)",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "21,71 €"
+    "price": "17,14 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2356,7 +2380,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499661+00:00",
-    "price": "11,99 €"
+    "price": "11,99 €",
+    "pending_price": "17,74 €",
+    "pending_price_count": 1
   },
   "ES:B073SCS51T": {
     "name": "Resident Evil Revelations HD",
@@ -2384,14 +2410,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499796+00:00",
-    "price": "26,91 €"
+    "price": "24,77 €"
   },
   "ES:B071G3GBWM": {
     "name": "Darksiders III (PlayStation PS4)",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499829+00:00",
-    "price": "11,95 €"
+    "price": "11,93 €"
   },
   "ES:8419816167": {
     "name": "Jojo's bizarre adventure parte 7: steel ball run 14",
@@ -2503,7 +2529,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500025+00:00",
-    "price": "55,00 €"
+    "price": "55,00 €",
+    "pending_price": "62,99 €",
+    "pending_price_count": 1
   },
   "ES:B01MT2B97F": {
     "name": "Capcom Resident Evil 4 Básico PlayStation 4 vídeo - Juego (PlayStation 4, Supervivencia / Horror, M (Maduro), Soporte físico)",
@@ -2840,5 +2868,110 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500264+00:00",
     "price": "6,19 €"
+  },
+  "ES:B0BFXH695S": {
+    "name": "Octopath Traveler II",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:17.566031+00:00",
+    "price": "21,99 €"
+  },
+  "ES:B0FB444MBS": {
+    "name": "Absolum (PS5)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:17.566079+00:00",
+    "price": "31,89 €"
+  },
+  "ES:B0F2FVLP14": {
+    "name": "Death end re;Quest: Code Z - Day One Edition (PS5)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:17.566126+00:00",
+    "price": "22,34 €"
+  },
+  "ES:B0CV82ZG6Z": {
+    "name": "Resident Evil 4 Gold Edition",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:17.566136+00:00",
+    "price": "29,90 €"
+  },
+  "ES:B094B9C6R6": {
+    "name": "Metro Exodus Complete Collection",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:17.566170+00:00",
+    "price": "16,90 €"
+  },
+  "ES:B0FGDXFTFG": {
+    "name": "Wobbly Life PS5 IES",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:17.566205+00:00",
+    "price": "19,99 €"
+  },
+  "ES:B0D14S1CN8": {
+    "name": "Dragon Ball Xenoverse 2",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:17.566214+00:00",
+    "price": "21,44 €"
+  },
+  "ES:B0981BKNCG": {
+    "name": "Wrc 10. World Rally Championship 10. The Official Game - Versión Española (Ps5)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:17.566224+00:00",
+    "price": "11,99 €"
+  },
+  "ES:B09QQT2NWG": {
+    "name": "Elden Ring – Standard Edition",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:17.566239+00:00",
+    "price": "24,99 €"
+  },
+  "ES:B0DHZW9R6Z": {
+    "name": "Monster Hunter Wilds Standard Edition - PS5",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:17.566254+00:00",
+    "price": "23,17 €"
+  },
+  "ES:B0H6Y3H3PL": {
+    "name": "Blasphemous: Martyrs’ Edition - PlayStation 4",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:17.566264+00:00",
+    "price": "45,99 €"
+  },
+  "ES:B071KK5718": {
+    "name": "CALL OF DUTY: MODERN WARFARE (Importación inglesa)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:17.566412+00:00",
+    "price": "32,24 €"
+  },
+  "ES:B0F99XSMYV": {
+    "name": "Tomb Raider IV-VI Remastered Starring Lara Croft - PS4",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:17.566447+00:00",
+    "price": "19,99 €"
+  },
+  "ES:B08L7P34GY": {
+    "name": "Five Nights at Freddy's: Help Wanted",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:17.566474+00:00",
+    "price": "17,45 €"
+  },
+  "ES:B08D46HFMY": {
+    "name": "Ghost Of Tsushima (PS4)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:07:17.566486+00:00",
+    "price": "28,87 €"
   }
 }
