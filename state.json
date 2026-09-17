@@ -717,14 +717,14 @@
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
     "price": "56,68 €"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
     "price": "53,42 €"
   },
@@ -1300,7 +1300,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "114,83 €"
+    "price": "114,79 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1425,7 +1425,9 @@
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-09-04T21:32:58.802801+00:00",
-    "price": "46,91 €"
+    "price": "46,91 €",
+    "pending_price": "46,97 €",
+    "pending_price_count": 1
   },
   "UK:B0C7QXP3FH": {
     "name": "Pokémon TCG: Tinkaton ex Battle Deck (Baraja de 60 Cartas Lista para Jugar)",
@@ -1664,7 +1666,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280980+00:00",
-    "price": "45,69 €"
+    "price": "45,69 €",
+    "pending_price": "46,15 €",
+    "pending_price_count": 1
   },
   "UK:B0FTSVL3Z6": {
     "name": "Pokemon Mega Brave m1L Caja Booster Coreana 30 Sobres Cartas Originales",
