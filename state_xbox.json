@@ -503,7 +503,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "209,72 €"
+    "price": "149,99 €"
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -989,7 +989,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "37,32 €"
+    "price": "36,87 €"
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1289,9 +1289,10 @@
   },
   "ES:B0DCD9LGHY": {
     "name": "Xbox Serie X - Edición digital de 1 TB",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-16T10:34:33.318741+00:00"
+    "first_seen": "2026-09-16T10:34:33.318741+00:00",
+    "price": "817,17 €"
   },
   "ES:B08FCXLB8Z": {
     "name": "Xbox Play y Kit de Carga USB",
@@ -1312,7 +1313,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.318831+00:00",
-    "price": "11,10 €"
+    "price": "11,10 €",
+    "pending_price": "16,99 €",
+    "pending_price_count": 1
   },
   "ES:B06Y36MK86": {
     "name": "Microsoft Xbox One X - Consola 1 TB 4K HDR Negro",
@@ -2125,7 +2128,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257009+00:00",
-    "price": "16,91 €"
+    "price": "15,30 €"
   },
   "ES:B00KJFDIP0": {
     "name": "Tekken 7",
@@ -2202,7 +2205,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
-    "price": "23,46 €"
+    "price": "23,40 €"
   },
   "ES:B08HZKQDK1": {
     "name": "F1 2020 - Xbox One",
@@ -2223,16 +2226,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257170+00:00",
-    "price": "19,57 €"
+    "price": "19,57 €",
+    "pending_price": "19,86 €",
+    "pending_price_count": 1
   },
   "ES:B082JH8CZH": {
     "name": "Bayonetta & Vanquish 10th Anniversary Bundle - Xbox One [Importación inglesa]",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257179+00:00",
-    "price": "21,52 €",
-    "pending_price": "26,14 €",
-    "pending_price_count": 1
+    "price": "26,14 €"
   },
   "ES:B07NW92Y8Z": {
     "name": "Bloodstained - Ritual of the Night (XBox One)",
@@ -2365,9 +2368,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257447+00:00",
-    "price": "55,50 €",
-    "pending_price": "57,99 €",
-    "pending_price_count": 1
+    "price": "57,99 €"
   },
   "ES:B0GTBVX67G": {
     "name": "Turtle Beach Rematch Core Ghost Camo Negro - Mando con Cable - con Licencia para Xbox Series XS, Xbox One y PC - Sticks con efecto Hall, Botones de Audio, Motores de vibración y disparadores de Pulso",
@@ -2901,9 +2902,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.548687+00:00",
-    "price": "97,99 €",
-    "pending_price": "99,99 €",
-    "pending_price_count": 1
+    "price": "99,99 €"
   },
   "ES:B00ITGZCK0": {
     "name": "Batman Arkham Knight",
