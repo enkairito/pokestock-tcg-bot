@@ -730,7 +730,7 @@
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
     "price": "235,59 €"
   },
@@ -1300,7 +1300,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "113,95 €"
+    "price": "113,92 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1676,9 +1676,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T13:22:34.788481+00:00",
-    "price": "142,42 €",
-    "pending_price": "147,70 €",
-    "pending_price_count": 1
+    "price": "147,70 €"
   },
   "UK:B0DMDPGWWY": {
     "name": "Pokemon TCG: Battle Deck Tapu Koko ex",
@@ -1713,9 +1711,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "138,09 €",
-    "pending_price": "139,25 €",
-    "pending_price_count": 1
+    "price": "139,25 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
