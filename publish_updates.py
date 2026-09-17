@@ -54,8 +54,13 @@ def prepare_updates(copies, accessories=None, source=None, sitemap=False):
             path.write_text(json.dumps(merged, ensure_ascii=False, indent=2), encoding="utf-8")
             changed.append("accesorios.json")
         if sitemap:
-            update_sitemap(target_path(worktree, "sitemap.xml"))
-            changed.append("sitemap.xml")
+            # Compatibilidad con la migración: antes sitemap.xml era un urlset;
+            # ahora es un índice y las páginas dinámicas viven en el sitemap
+            # editorial. En la primera publicación todavía se actualiza el
+            # fichero antiguo y build_site lo separa a continuación.
+            sitemap_name = "sitemap-core.xml" if (worktree / "sitemap-core.xml").exists() else "sitemap.xml"
+            update_sitemap(target_path(worktree, sitemap_name))
+            changed.append(sitemap_name)
             catalog_sources = [name for name in contents if name in CATALOG_SOURCES]
             if accessory_snapshot is not None:
                 catalog_sources.append("accesorios.json")

@@ -5,7 +5,7 @@ from pathlib import Path
 from build_catalog import build_site, clean_gaming_feed, match_sets, render_page, render_set_index, render_set_page, update_catalog, product_id
 
 PRODUCT = {"asin": "B000000001", "marketplace": "ES", "name": "Magic Booster", "status": "compra_directa", "price": "10,00 €", "game": "Magic"}
-TEMPLATE = '<html><head><title>Producto</title><meta name="description" content=""><meta name="robots" content="noindex"></head><body><div id="product-detail">Cargando</div><script src="/producto.js"></script></body></html>'
+TEMPLATE = '<html><head><title>Producto</title><meta name="description" content=""><meta name="robots" content="noindex"></head><body><div id="product-detail">Cargando</div><!--PRODUCT-HISTORY--><!--RELATED-PRODUCTS--><script src="/producto.js"></script></body></html>'
 SET_TEMPLATE = '<html><head><title>Set</title><meta name="description" content=""><meta name="robots" content="noindex"></head><body><script id="set-data" type="application/json">{}</script></body></html>'
 INDEX_TEMPLATE = '<html><head><title>Sets</title><meta name="robots" content="noindex"></head><body><script id="sets-data" type="application/json">[]</script></body></html>'
 
@@ -66,7 +66,7 @@ class CatalogTests(unittest.TestCase):
         ld = json.loads(ld_json.replace('\\u003c', '<').replace('\\u003e', '>').replace('\\u0026', '&'))
         self.assertNotIn("price", ld["offers"])
 
-    def test_build_keeps_page_and_sitemap_after_product_disappears(self):
+    def test_build_keeps_page_but_prioritizes_only_active_products_in_sitemap(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             (root / "producto.html").write_text(TEMPLATE, encoding="utf-8")
@@ -78,7 +78,10 @@ class CatalogTests(unittest.TestCase):
             build_site(root, ["magic.json"])
             page = root / "producto" / "ES-B000000001.html"
             self.assertIn("Disponibilidad sin confirmar", page.read_text(encoding="utf-8"))
-            self.assertIn("/producto/ES-B000000001", (root / "sitemap.xml").read_text())
+            self.assertNotIn("/producto/ES-B000000001", (root / "sitemap-products.xml").read_text())
+            index = (root / "sitemap.xml").read_text(encoding="utf-8")
+            self.assertIn("sitemap-core.xml", index)
+            self.assertIn("sitemap-products.xml", index)
 
     def test_gaming_quality_gate_removes_invalid_current_and_archived_rows(self):
         valid = {**PRODUCT, "name": "Stardew Valley", "game": "Nintendo"}
@@ -105,7 +108,7 @@ class CatalogTests(unittest.TestCase):
             (root / "playstation.json").write_text(json.dumps(self.snapshot([invalid])), encoding="utf-8")
             build_site(root, ["playstation.json"])
             self.assertFalse(stale_page.exists())
-            self.assertNotIn("ES-0571226167", (root / "sitemap.xml").read_text(encoding="utf-8"))
+            self.assertNotIn("ES-0571226167", (root / "sitemap-products.xml").read_text(encoding="utf-8"))
             self.assertEqual(json.loads((root / "playstation.json").read_text(encoding="utf-8"))["products"], [])
 
     def test_sharing_metadata_is_static_and_does_not_publish_an_old_price(self):
@@ -209,7 +212,7 @@ class CatalogTests(unittest.TestCase):
             self.assertNotIn('content="noindex"', index)
             self.assertIn('"available": 1', index)
             self.assertIn('"release_date_human": "1 de enero de 2026"', index)
-            self.assertIn("https://wheresthatstock.com/set/", (root / "sitemap.xml").read_text(encoding="utf-8"))
+            self.assertIn("https://wheresthatstock.com/set/", (root / "sitemap-core.xml").read_text(encoding="utf-8"))
 
     def test_build_generates_set_pages_and_sitemap_entries_when_sets_json_present(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -225,8 +228,52 @@ class CatalogTests(unittest.TestCase):
             self.assertIn("set/test-set.html", changed)
             page = (root / "set" / "test-set.html").read_text(encoding="utf-8")
             self.assertIn("B000000001", page)
-            sitemap = (root / "sitemap.xml").read_text(encoding="utf-8")
+            sitemap = (root / "sitemap-core.xml").read_text(encoding="utf-8")
             self.assertIn("https://wheresthatstock.com/set/test-set", sitemap)
+
+    def test_future_release_date_is_never_used_as_sitemap_lastmod(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "producto.html").write_text(TEMPLATE, encoding="utf-8")
+            (root / "set.html").write_text(SET_TEMPLATE, encoding="utf-8")
+            (root / "set-index.html").write_text(INDEX_TEMPLATE, encoding="utf-8")
+            (root / "sitemap.xml").write_text(
+                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+                '<url><loc>https://wheresthatstock.com/</loc><lastmod>2099-12-31</lastmod></url>'
+                '</urlset>', encoding="utf-8")
+            (root / "sets.json").write_text(json.dumps({"future-set": {
+                "name": "Future Set", "match": "does-not-match", "release_date": "2099-12-31",
+            }}), encoding="utf-8")
+            (root / "magic.json").write_text(json.dumps(self.snapshot([PRODUCT])), encoding="utf-8")
+            build_site(root, ["magic.json"])
+            core = (root / "sitemap-core.xml").read_text(encoding="utf-8")
+            self.assertIn("https://wheresthatstock.com/set/future-set", core)
+            self.assertNotIn("2099-12-31", core)
+
+    def test_product_page_contains_static_context_related_products_and_history(self):
+        related = {**PRODUCT, "asin": "B000000002", "name": "Magic Booster especial", "image": "https://example.test/related.jpg"}
+        event = {**PRODUCT, "type": "price_drop", "prev_price": "12,00 €", "price": "10,00 €", "ts": "2026-09-08T10:00:00Z"}
+        page = render_page(TEMPLATE, {**PRODUCT, "_src": "magic.json", "checked_at": "2026-09-08"}, related=[related], history=[event])
+        self.assertIn("Categoría:", page)
+        self.assertIn('href="/magic"', page)
+        self.assertIn("Productos relacionados", page)
+        self.assertIn("/producto/ES-B000000002", page)
+        self.assertIn("Historial reciente", page)
+        self.assertIn("Bajó de 12,00 € a 10,00 €", page)
+
+    def test_build_deduplicates_history_shared_by_legacy_activity_feeds(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "producto.html").write_text(TEMPLATE, encoding="utf-8")
+            (root / "sitemap.xml").write_text('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"/>', encoding="utf-8")
+            (root / "magic.json").write_text(json.dumps(self.snapshot([PRODUCT])), encoding="utf-8")
+            event = {**PRODUCT, "id": "first-id", "type": "restock", "ts": "2026-09-08T09:00:00Z"}
+            duplicate = {**event, "id": "second-id", "ts": "2026-09-08T11:00:00Z"}
+            (root / "activity-magic.json").write_text(json.dumps([event]), encoding="utf-8")
+            (root / "activity-products.json").write_text(json.dumps([duplicate]), encoding="utf-8")
+            build_site(root, ["magic.json"])
+            page = (root / "producto" / "ES-B000000001.html").read_text(encoding="utf-8")
+            self.assertEqual(page.count("Volvió a estar disponible"), 1)
 
     def test_build_without_sets_json_does_not_create_set_folder(self):
         with tempfile.TemporaryDirectory() as directory:

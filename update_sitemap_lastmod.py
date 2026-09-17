@@ -11,6 +11,7 @@ import argparse
 import sys
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+from pathlib import Path
 
 NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
 ET.register_namespace("", NS)
@@ -53,7 +54,7 @@ def update_sitemap(sitemap):
         updated += 1
 
     tree.write(sitemap, encoding="UTF-8", xml_declaration=True)
-    print(f"sitemap.xml: {updated} URLs actualizadas a lastmod={today}")
+    print(f"{Path(sitemap).name}: {updated} URLs actualizadas a lastmod={today}")
 
 
 def main():

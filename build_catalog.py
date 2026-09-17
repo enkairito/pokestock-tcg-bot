@@ -4,6 +4,7 @@ No deduce que un producto esté agotado por su ausencia: conserva su ficha
 con disponibilidad sin confirmar. Se ejecuta sobre el checkout de publicación.
 """
 import argparse
+from datetime import date
 import html
 import json
 import re
@@ -19,6 +20,7 @@ SOURCES = ("products.json", "onepiece.json", "magic.json", "lorcana.json", "yugi
 GAMING_SOURCES = {"nintendo.json", "playstation.json", "xbox.json"}
 NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
 ORIGIN = "https://wheresthatstock.com"
+ACTIVE_STATUSES = {"compra_directa", "preventa", "invitacion"}
 # "sin_confirmar" y cualquier estado nuevo caen en OutOfStock: sin confirmación
 # reciente no debe anunciarse como comprable en resultados de búsqueda.
 AVAILABILITY = {
@@ -116,7 +118,66 @@ def update_catalog(previous, snapshot, source, events):
     return {"updated_at": stamp, "products": list(rows.values())}, events
 
 
-def render_page(template, product, set_entry=None):
+def _safe_https_url(value):
+    parsed = urlparse(value or "")
+    return value if parsed.scheme == "https" and parsed.netloc else ""
+
+
+def _status_text(status):
+    return {
+        "compra_directa": "Disponible en la última comprobación",
+        "invitacion": "Disponible por invitación",
+        "preventa": "Preventa disponible",
+        "no_disponible": "Agotado en la última comprobación",
+    }.get(status, "Disponibilidad sin confirmar")
+
+
+def _render_related_products(products):
+    if not products:
+        return ""
+    cards = []
+    for product in products:
+        key = product_id(product)
+        name = html.escape(product.get("name") or "Producto")
+        image = _safe_https_url(product.get("image"))
+        image_html = (
+            f'<img src="{html.escape(image, quote=True)}" alt="{name}" loading="lazy" width="220" height="220">'
+            if image else '<span class="related-product-placeholder" aria-hidden="true">Sin imagen</span>'
+        )
+        price = html.escape(product.get("price") or "Consultar precio")
+        cards.append(
+            f'<a class="related-product-card" href="/producto/{key}">'
+            f'{image_html}<span class="related-product-name">{name}</span>'
+            f'<span class="related-product-price">{price}</span></a>'
+        )
+    return (
+        '<section class="related-products" aria-labelledby="related-products-title">'
+        '<h2 id="related-products-title">Productos relacionados</h2>'
+        '<div class="related-products-grid">' + "".join(cards) + '</div></section>'
+    )
+
+
+def _render_product_history(events):
+    if not events:
+        return ""
+    items = []
+    for event in events[:5]:
+        kind = event.get("type")
+        if kind == "price_drop":
+            previous = html.escape(event.get("prev_price") or "precio anterior")
+            current = html.escape(event.get("price") or "nuevo precio")
+            message = f"Bajó de {previous} a {current}"
+        else:
+            message = "Volvió a estar disponible"
+        stamp = html.escape((event.get("ts") or "")[:10])
+        items.append(f'<li><time datetime="{stamp}">{stamp}</time><span>{message}</span></li>')
+    return (
+        '<section class="product-history" aria-labelledby="product-history-title">'
+        '<h2 id="product-history-title">Historial reciente</h2><ul>' + "".join(items) + '</ul></section>'
+    )
+
+
+def render_page(template, product, set_entry=None, related=None, history=None):
     name = html.escape(product.get("name") or "Producto")
     key = product_id(product)
     description = html.escape(f"{product.get('name', 'Producto')}: última disponibilidad observada y enlace a la tienda.", quote=True)
@@ -125,10 +186,8 @@ def render_page(template, product, set_entry=None):
     output = re.sub(r'<meta name="description"[^>]*>', lambda _: f'<meta name="description" content="{description}">', output, count=1)
     output = output.replace('<meta name="robots" content="noindex">', '')
     output = output.replace('</head>', f'<link rel="canonical" href="{ORIGIN}/producto/{key}">\n</head>', 1)
-    image = product.get("image") or ""
-    parsed_image = urlparse(image)
-    if parsed_image.scheme != "https" or not parsed_image.netloc:
-        image = f"{ORIGIN}/assets/brand/social.png"
+    product_image = _safe_https_url(product.get("image"))
+    image = product_image or f"{ORIGIN}/assets/brand/social.png"
     metadata = {
         "og:type": "website", "og:site_name": "Where's That Stock",
         "og:title": product.get("name") or "Producto",
@@ -164,12 +223,29 @@ def render_page(template, product, set_entry=None):
         (product.get("name") or "Producto", f"{ORIGIN}/producto/{key}"),
     )
     output = output.replace('</head>', f'<script type="application/ld+json">{crumbs_json}</script>\n</head>', 1)
-    status = {"compra_directa": "Disponible en la última comprobación", "invitacion": "Disponible por invitación", "preventa": "Preventa", "no_disponible": "Agotado"}.get(product.get("status"), "Disponibilidad sin confirmar; ya no aparece en el listado actual")
-    # Contenido real en el HTML inicial, incluso sin JavaScript o para buscadores.
-    body = f'<h1>{name}</h1><p>{status}.</p><p>Última vez visto: {html.escape(product.get("last_seen", ""))}.</p>'
-    link = product.get("link") or ""
-    if link.startswith("https://"):
-        body += f'<p><a href="{html.escape(link, quote=True)}" rel="noopener sponsored">Consultar en la tienda</a></p>'
+    status = _status_text(product.get("status"))
+    store = html.escape(product.get("store_label") or "la tienda")
+    price_text = html.escape(product.get("price") or "")
+    checked = html.escape((product.get("checked_at") or product.get("last_seen") or "")[:10])
+    category_path, category_label = CATEGORY_LINKS.get(product.get("_src"), CATEGORY_LINKS["products.json"])
+    image_html = (
+        f'<img src="{html.escape(product_image, quote=True)}" alt="{name}" width="420" height="420" fetchpriority="high">'
+        if product_image else '<span class="product-image-placeholder"><span>Imagen no disponible</span></span>'
+    )
+    body = (
+        '<div class="product-detail">'
+        f'<div class="product-detail-img product-static-image">{image_html}</div>'
+        '<div class="product-detail-body">'
+        f'<div class="product-detail-store"><span>{store}</span><span class="badge status">{html.escape(status)}</span></div>'
+        f'<h1>{name}</h1><p>{html.escape(status)}.</p>'
+        f'<p class="product-context">Categoría: <a href="{category_path}">{html.escape(category_label)}</a>. '
+        f'Última comprobación: <time datetime="{checked}">{checked or "sin fecha"}</time>.</p>'
+        + (f'<div class="price-row"><span class="price">{price_text}</span></div>' if price_text else "")
+    )
+    link = _safe_https_url(product.get("link"))
+    if link:
+        body += f'<div class="detail-actions"><a class="buy-btn" href="{html.escape(link, quote=True)}" rel="noopener sponsored">Consultar en la tienda</a></div>'
+    body += '</div></div>'
     output, count = re.subn(r'(<div id="product-detail"[^>]*>).*?(</div>)', lambda m: m[1] + body + m[2], output, count=1, flags=re.S)
     if count != 1:
         raise ValueError("Falta el contenedor product-detail en la plantilla")
@@ -184,6 +260,8 @@ def render_page(template, product, set_entry=None):
         style = f' style="--game-color:{color}"' if color else ""
         output = output.replace("<!--SET-LINK-->", f'  <a class="back-link set-link" href="/set/{slug}"{style}>Ver todo lo de {label} →</a>', 1)
     output = output.replace("<!--SET-LINK-->", "")
+    output = output.replace("<!--PRODUCT-HISTORY-->", _render_product_history(history or []), 1)
+    output = output.replace("<!--RELATED-PRODUCTS-->", _render_related_products(related or []), 1)
     return output.replace('<script src="/producto.js"></script>', f'<script id="product-data" type="application/json">{embedded}</script>\n<script src="/producto.js"></script>')
 
 
@@ -235,6 +313,44 @@ def match_sets(sets, products):
     return matches, owner
 
 
+RELATED_STOPWORDS = {
+    "para", "con", "del", "las", "los", "una", "uno", "the", "and",
+    "edition", "edicion", "espanol", "ingles", "juego", "game", "pack",
+}
+
+
+def _product_words(product):
+    return {
+        word for word in re.findall(r"[a-z0-9]+", _normalize(product.get("name")))
+        if len(word) > 2 and word not in RELATED_STOPWORDS
+    }
+
+
+def related_products(product_key, product, products, limit=4):
+    """Devuelve alternativas navegables y prioriza similitud real del título.
+
+    No intenta afirmar que dos listings sean el mismo producto: para eso hace
+    falta una identidad normalizada independiente de la tienda. Estos enlaces
+    solo sirven como descubrimiento contextual e interlinking.
+    """
+    words = _product_words(product)
+    categories = set(product.get("categories") or [])
+    candidates = []
+    for key, candidate in products.items():
+        if key == product_key or candidate.get("status") not in ACTIVE_STATUSES:
+            continue
+        common_words = len(words & _product_words(candidate))
+        common_categories = len(categories & set(candidate.get("categories") or []))
+        same_source = candidate.get("_src") == product.get("_src")
+        same_game = bool(product.get("game") and candidate.get("game") == product.get("game"))
+        if not (same_source or same_game or common_categories or common_words >= 2):
+            continue
+        score = common_words * 5 + common_categories * 3 + same_game * 3 + same_source * 2
+        candidates.append((score, candidate.get("checked_at") or "", key, candidate))
+    candidates.sort(reverse=True, key=lambda item: item[:3])
+    return [candidate for _, _, _, candidate in candidates[:limit]]
+
+
 def render_set_page(template, slug, config, matched):
     """Une la ficha editorial de sets.json (mantenida a mano, igual que el
     calendario) con los productos ya emparejados por match_sets. No se
@@ -283,6 +399,116 @@ def render_set_index(template, entries):
         '<script id="sets-data" type="application/json">[]</script>',
         f'<script id="sets-data" type="application/json">{embedded}</script>', 1,
     )
+
+
+def _new_urlset():
+    return ET.Element(f"{{{NS}}}urlset")
+
+
+def _read_core_sitemap(folder):
+    """Carga el sitemap editorial y migra el sitemap único antiguo.
+
+    En la primera ejecución sitemap.xml aún es un urlset con todo mezclado;
+    después pasa a ser un sitemapindex y la fuente estable es
+    sitemap-core.xml. Las fichas se regeneran siempre desde los catálogos.
+    """
+    core_path = folder / "sitemap-core.xml"
+    source_path = core_path if core_path.exists() else folder / "sitemap.xml"
+    if not source_path.exists():
+        return _new_urlset()
+    root = ET.parse(source_path).getroot()
+    if root.tag != f"{{{NS}}}urlset":
+        return _new_urlset()
+    for entry in list(root.findall(f"{{{NS}}}url")):
+        location = entry.findtext(f"{{{NS}}}loc") or ""
+        if location.startswith(f"{ORIGIN}/producto/"):
+            root.remove(entry)
+    return root
+
+
+def _valid_lastmod(value):
+    candidate = (value or "")[:10]
+    try:
+        parsed = date.fromisoformat(candidate)
+    except ValueError:
+        return ""
+    return candidate if parsed <= date.today() else ""
+
+
+def _sitemap_entries(root):
+    return {
+        entry.findtext(f"{{{NS}}}loc"): entry
+        for entry in root.findall(f"{{{NS}}}url")
+        if entry.findtext(f"{{{NS}}}loc")
+    }
+
+
+def _set_sitemap_entry(root, entries, url, lastmod=""):
+    entry = entries.get(url)
+    if entry is None:
+        entry = ET.SubElement(root, f"{{{NS}}}url")
+        ET.SubElement(entry, f"{{{NS}}}loc").text = url
+        entries[url] = entry
+    modified = entry.find(f"{{{NS}}}lastmod")
+    safe_lastmod = _valid_lastmod(lastmod)
+    if safe_lastmod:
+        if modified is None:
+            modified = ET.SubElement(entry, f"{{{NS}}}lastmod")
+        modified.text = safe_lastmod
+    elif modified is not None:
+        entry.remove(modified)
+
+
+def _write_xml(path, root):
+    ET.register_namespace("", NS)
+    ET.indent(root, space="  ")
+    ET.ElementTree(root).write(path, encoding="UTF-8", xml_declaration=True)
+
+
+def write_sitemaps(folder, products, set_matches):
+    """Separa URLs editoriales y productos comprables.
+
+    Las fichas sin confirmar siguen publicadas con HTTP 200 y enlaces
+    contextuales, pero no compiten en el sitemap con URLs que tienen stock.
+    """
+    core_root = _read_core_sitemap(folder)
+    core_entries = _sitemap_entries(core_root)
+    # Limpia fechas futuras heredadas también en páginas editoriales.
+    for entry in core_entries.values():
+        modified = entry.find(f"{{{NS}}}lastmod")
+        if modified is not None and not _valid_lastmod(modified.text):
+            entry.remove(modified)
+
+    newest_set = ""
+    for slug, (_, matched) in set_matches.items():
+        lastmod = max((p.get("checked_at") or p.get("last_seen") or "" for p in matched), default="")
+        safe_lastmod = _valid_lastmod(lastmod)
+        _set_sitemap_entry(core_root, core_entries, f"{ORIGIN}/set/{slug}", safe_lastmod)
+        newest_set = max(newest_set, safe_lastmod)
+    if set_matches:
+        _set_sitemap_entry(core_root, core_entries, f"{ORIGIN}/set/", newest_set)
+
+    products_root = _new_urlset()
+    product_entries = {}
+    for key, product in sorted(products.items()):
+        if product.get("status") not in ACTIVE_STATUSES:
+            continue
+        _set_sitemap_entry(
+            products_root,
+            product_entries,
+            f"{ORIGIN}/producto/{key}",
+            product.get("checked_at") or product.get("last_seen") or "",
+        )
+
+    index_root = ET.Element(f"{{{NS}}}sitemapindex")
+    for filename in ("sitemap-core.xml", "sitemap-products.xml"):
+        entry = ET.SubElement(index_root, f"{{{NS}}}sitemap")
+        ET.SubElement(entry, f"{{{NS}}}loc").text = f"{ORIGIN}/{filename}"
+
+    _write_xml(folder / "sitemap-core.xml", core_root)
+    _write_xml(folder / "sitemap-products.xml", products_root)
+    _write_xml(folder / "sitemap.xml", index_root)
+    return ["sitemap-core.xml", "sitemap-products.xml", "sitemap.xml"]
 
 
 def build_site(folder, sources):
@@ -336,13 +562,41 @@ def build_site(folder, sources):
             raise ValueError(f"Slug de set inválido: {slug}")
     set_matches, set_owner = match_sets(sets, products)
 
+    history_by_product = {}
+    for source in SOURCES:
+        for event in read_json(folder / f"activity-{Path(source).stem}.json", []):
+            try:
+                key = product_id(event)
+            except (KeyError, ValueError):
+                continue
+            event_day = (event.get("ts") or "")[:10]
+            # Algunos retailers fluctúan durante el día y pueden generar el
+            # mismo restock varias veces. Para la ficha importa el día del
+            # cambio, no cada ejecución del cron. Las bajadas con precios
+            # distintos sí se conservan como eventos separados.
+            event_key = ":".join((
+                key, event_day, event.get("type") or "",
+                str(event.get("prev_price") or "") if event.get("type") == "price_drop" else "",
+                str(event.get("price") or "") if event.get("type") == "price_drop" else "",
+            ))
+            history_by_product.setdefault(key, {})[event_key] = event
+    history_by_product = {
+        key: sorted(events.values(), key=lambda event: event.get("ts") or "", reverse=True)
+        for key, events in history_by_product.items()
+    }
+
     template = template_path.read_text(encoding="utf-8")
     (folder / "producto").mkdir(exist_ok=True)
     for key, product in products.items():
         name = f"producto/{key}.html"
         slug = set_owner.get(key)
         entry = (slug, set_matches[slug][0]) if slug else None
-        (folder / name).write_text(render_page(template, product, entry), encoding="utf-8")
+        related = related_products(key, product, products)
+        history = history_by_product.get(key, [])
+        (folder / name).write_text(
+            render_page(template, product, entry, related=related, history=history),
+            encoding="utf-8",
+        )
         changed.append(name)
     valid_product_pages = {f"{key}.html" for key in products}
     for path in (folder / "producto").glob("*.html"):
@@ -374,38 +628,7 @@ def build_site(folder, sources):
                 render_set_index(index_template_path.read_text(encoding="utf-8"), index_entries), encoding="utf-8")
             changed.append("set/index.html")
 
-    sitemap = folder / "sitemap.xml"
-    if sitemap.exists():
-        tree = ET.parse(sitemap)
-        root = tree.getroot()
-        entries = {entry.findtext(f"{{{NS}}}loc"): entry for entry in root.findall(f"{{{NS}}}url")}
-        valid_product_urls = {f"{ORIGIN}/producto/{key}" for key in products}
-        for url, entry in list(entries.items()):
-            if url and url.startswith(f"{ORIGIN}/producto/") and url not in valid_product_urls:
-                root.remove(entry)
-                del entries[url]
-        def upsert(url, lastmod):
-            entry = entries.get(url)
-            if entry is None:
-                entry = ET.SubElement(root, f"{{{NS}}}url")
-                ET.SubElement(entry, f"{{{NS}}}loc").text = url
-            modified = entry.find(f"{{{NS}}}lastmod")
-            if modified is None:
-                modified = ET.SubElement(entry, f"{{{NS}}}lastmod")
-            modified.text = lastmod
-        for key, product in products.items():
-            upsert(f"{ORIGIN}/producto/{key}", product["checked_at"][:10])
-        newest_set = ""
-        for slug, (config, matched) in set_matches.items():
-            lastmod = max((p.get("checked_at") or "" for p in matched), default="") or config.get("release_date") or ""
-            if lastmod:
-                upsert(f"{ORIGIN}/set/{slug}", lastmod[:10])
-                newest_set = max(newest_set, lastmod[:10])
-        if newest_set:
-            upsert(f"{ORIGIN}/set/", newest_set)
-        ET.register_namespace("", NS)
-        tree.write(sitemap, encoding="UTF-8", xml_declaration=True)
-        changed.append("sitemap.xml")
+    changed.extend(write_sitemaps(folder, products, set_matches))
     return changed
 
 

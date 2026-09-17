@@ -85,7 +85,7 @@ class PublicationTests(unittest.TestCase):
         self.assertEqual(len(pushes), 2)
         products = self.remote_file("accesorios.json")["products"]
         self.assertEqual({p["asin"]: p["price"] for p in products}, {"B000000001": "8,00 €", "B000000002": "12,00 €"})
-        self.assertIn("new-article", self.run_git(self.remote, "show", "main:sitemap.xml"))
+        self.assertIn("new-article", self.run_git(self.remote, "show", "main:sitemap-core.xml"))
         self.assert_no_extra_worktrees()
 
     def test_three_failed_pushes_raise_and_leave_remote_unchanged(self):
