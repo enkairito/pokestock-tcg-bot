@@ -168,9 +168,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-25T20:27:53.163260+00:00",
-    "price": "15,99 €",
-    "pending_price": "23,98 €",
-    "pending_price_count": 1
+    "price": "23,98 €"
   },
   "ES:B0H3LQY1Q7": {
     "name": "Pokémon: Colección prémium Mega-Greninja ex (1 Carta holográfica de promoción, 1 Carta de promoción de Gran tamaño con Efecto 3D y 8 Sobres de Mejora)",
@@ -470,9 +468,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-27T14:04:43.687882+00:00",
-    "price": "84,90 €",
-    "pending_price": "85,27 €",
-    "pending_price_count": 1
+    "price": "85,27 €"
   },
   "ES:B0C643MGKG": {
     "name": "Pokémon: Palkia Forma Origen de la Liga VSTAR",
@@ -770,7 +766,7 @@
   "US:B0GXJ8CSTY": {
     "name": "Pokémon TCG: Colección Premium Mega Greninja ex (1 Tarjeta Promocional Brillante, 1 Tarjeta lenticular de Gran tamaño y 8 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "4",
     "first_seen": "2026-08-30T20:46:19.644858+00:00",
     "price": "77,78 €"
   },
@@ -1299,7 +1295,9 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802612+00:00",
-    "price": "102,80 €"
+    "price": "102,80 €",
+    "pending_price": "102,91 €",
+    "pending_price_count": 1
   },
   "UK:B0DB7C1Z26": {
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
@@ -1612,8 +1610,8 @@
     "name": "Pokémon TCG: Booster Pack de 10 Cartas Mega Evolution Flames Phantasmal Mangas",
     "status": "compra_directa",
     "stock": null,
-    "price": "35,92 €",
-    "first_seen": "2026-09-04T22:05:43.537336+00:00"
+    "first_seen": "2026-09-04T22:05:43.537336+00:00",
+    "price": "35,92 €"
   },
   "UK:B0DLQJ613B": {
     "name": "Pokémon TCG: Scarlet & Violet—Prismatic Evolutions Poster Collection",
