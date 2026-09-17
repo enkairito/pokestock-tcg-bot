@@ -724,9 +724,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
-    "price": "57,90 €",
-    "pending_price": "57,92 €",
-    "pending_price_count": 1
+    "price": "56,87 €"
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -1546,7 +1544,9 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802930+00:00",
-    "price": "49,57 €"
+    "price": "49,57 €",
+    "pending_price": "49,80 €",
+    "pending_price_count": 1
   },
   "US:B0G5FWJ8NL": {
     "name": "Pokémon TCG: Mega Charizard Tin",
