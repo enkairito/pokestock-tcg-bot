@@ -1300,7 +1300,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "114,04 €"
+    "price": "113,99 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1541,11 +1541,9 @@
   "US:B0DVC187SP": {
     "name": "Pokemon TCG Scarlet & Violet Journey Together: Pack de 3 Booster Blister",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802930+00:00",
-    "price": "49,51 €",
-    "pending_price": "49,57 €",
-    "pending_price_count": 1
+    "price": "49,57 €"
   },
   "US:B0G5FWJ8NL": {
     "name": "Pokémon TCG: Mega Charizard Tin",
@@ -1678,7 +1676,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T13:22:34.788481+00:00",
-    "price": "142,42 €"
+    "price": "142,42 €",
+    "pending_price": "147,70 €",
+    "pending_price_count": 1
   },
   "UK:B0DMDPGWWY": {
     "name": "Pokemon TCG: Battle Deck Tapu Koko ex",
