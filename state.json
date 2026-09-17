@@ -717,9 +717,9 @@
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
     "status": "compra_directa",
-    "stock": null,
-    "price": "56,68 €",
-    "first_seen": "2026-08-30T20:46:19.644833+00:00"
+    "stock": "4",
+    "first_seen": "2026-08-30T20:46:19.644833+00:00",
+    "price": "56,68 €"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
@@ -766,7 +766,7 @@
   "US:B0GXJ8CSTY": {
     "name": "Pokémon TCG: Colección Premium Mega Greninja ex (1 Tarjeta Promocional Brillante, 1 Tarjeta lenticular de Gran tamaño y 8 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": null,
     "first_seen": "2026-08-30T20:46:19.644858+00:00",
     "price": "77,77 €"
   },
@@ -1538,7 +1538,7 @@
   "US:B0DSLX39J1": {
     "name": "Pokémon TCG: Scarlet & Violet - Journey Together - Paquete de 3 ampollas - Yanmega (3 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-09-04T21:32:58.802925+00:00",
     "price": "48,39 €"
   },
@@ -1603,9 +1603,7 @@
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-09-04T22:05:43.537321+00:00",
-    "price": "71,28 €",
-    "pending_price": "72,15 €",
-    "pending_price_count": 1
+    "price": "72,15 €"
   },
   "US:B0FS98MMML": {
     "name": "Pokémon TCG: Booster Pack de 10 Cartas Mega Evolution Flames Phantasmal Mangas",
