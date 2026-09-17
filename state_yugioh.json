@@ -55,9 +55,9 @@
   "ES:B0G6FW7PFW": {
     "name": "Yu-Gi-Oh! Rarity Collection V Display (24) (Versión en español)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-09-07T17:41:22.046401+00:00",
-    "price": "160,93 €"
+    "price": "150,00 €"
   },
   "ES:B0FZV792N8": {
     "name": "Yu-Gi-Oh! Laberinto DE Muertos Display (24) (Versión en español)",
@@ -155,7 +155,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:42:56.065562+00:00",
-    "price": "88,19 €"
+    "price": "88,19 €",
+    "pending_price": "103,69 €",
+    "pending_price_count": 1
   },
   "ES:B0F7RVS8MR": {
     "name": "Yu-Gi-Oh! Cazadores de la Justicia 3-Pack Booster",
