@@ -965,7 +965,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:30:08.918656+00:00",
-    "price": "164,97 €"
+    "price": "164,97 €",
+    "pending_price": "164,99 €",
+    "pending_price_count": 1
   },
   "ES:B0DK1NY4LW": {
     "name": "AceGamer 2 Pack Mando Inalámbrico para PS4，Mando de Juego para PS4/Pro/Slim/PC，Gamepad Joystick con Turbo/Botón Trasero/Doble Vibración/6-Axis Sensor Giroscópico/Panel Táctil (Blanco o negro)",
@@ -1318,7 +1320,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T20:34:05.436537+00:00",
-    "price": "20,99 €"
+    "price": "20,90 €"
   },
   "ES:B01N3374BH": {
     "name": "Nintendo - Joy-Con Soporte Carga",
@@ -2066,7 +2068,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688819+00:00",
-    "price": "401,23 €"
+    "price": "401,23 €",
+    "pending_price": "434,02 €",
+    "pending_price_count": 1
   },
   "ES:B0FQC3P2Y1": {
     "name": "Nintendo Switch Lite Blue + Animal Crossing New Horizons",
@@ -2465,7 +2469,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689720+00:00",
-    "price": "53,62 €"
+    "price": "53,62 €",
+    "pending_price": "54,62 €",
+    "pending_price_count": 1
   },
   "ES:B0FDWT9YGP": {
     "name": "RLSOCO Funda para Nintendo Switch 2 Consola 2025 - Estuche de Viaje con 8 Ranuras para Tarjetas de Juego (Rosa)",
