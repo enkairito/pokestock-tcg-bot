@@ -725,9 +725,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
-    "price": "53,42 €",
-    "pending_price": "56,22 €",
-    "pending_price_count": 1
+    "price": "56,22 €"
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -1301,7 +1299,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "114,28 €"
+    "price": "114,21 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1725,10 +1723,9 @@
   },
   "UK:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-06T13:57:50.628806+00:00",
-    "price": "26,70 €"
+    "first_seen": "2026-09-06T13:57:50.628806+00:00"
   },
   "US:B0D8CRQXDJ": {
     "name": "Pokemon: Sword & Shield - Astral Radiance Premium Blister Pack Swampert",
