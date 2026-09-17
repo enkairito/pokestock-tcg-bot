@@ -59,7 +59,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:41:42.887252+00:00",
-    "price": "60,21 €"
+    "price": "60,21 €",
+    "pending_price": "60,26 €",
+    "pending_price_count": 1
   },
   "ES:B0CFRBX7GW": {
     "name": "Disney Lorcana Trading Card Game: Set 4 – Starter Deck B",
@@ -85,7 +87,7 @@
   "ES:B0H8S9YZQH": {
     "name": "Disney Lorcana TCG: Ataque de la zarcilla! - Cofre del Tesoro de Luminari (Español)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-09-07T17:42:06.427643+00:00",
     "price": "77,80 €"
   },
@@ -191,8 +193,8 @@
     "name": "Ravensburger Disney Lorcana TCG: Attack of the Vine! Paquete de refuerzo individual surtido (12 tarjetas) - Tarjetas coleccionables - Ideal para fanáticos de Disney y jugadores de TCG - Adecuado para",
     "status": "compra_directa",
     "stock": null,
-    "price": "31,12 €",
-    "first_seen": "2026-09-09T21:00:57.459377+00:00"
+    "first_seen": "2026-09-09T21:00:57.459377+00:00",
+    "price": "31,12 €"
   },
   "ES:B0FVLFQJXQ": {
     "name": "Ravensburger - Disney Lorcana TCG Set 10: Whispers In The Well | Juegos De Cartas para Adultos Y Niños con 60 Cartas Disney Lorcana | Juegos Niños 10 Años En Coleccionables | Regalo Niño 10 Años",
@@ -206,7 +208,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-10T11:31:24.750843+00:00",
-    "price": "25,98 €"
+    "price": "25,98 €",
+    "pending_price": "26,04 €",
+    "pending_price_count": 1
   },
   "ES:B0DTK163XP": {
     "name": "Ravensburger - Disney Lorcana TCG: Set 9 Caja Cartas Pluto | Caja para Cartas De Colección con Capacidad para 80 | Disney Lorcana con Un Diseño Único | Card Sleeves",
