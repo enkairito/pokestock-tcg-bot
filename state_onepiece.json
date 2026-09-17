@@ -156,9 +156,11 @@
   "ES:B0G2VKBZML": {
     "name": "Bandai Paquete de refuerzo de juego de cartas One Piece, La aventura de la isla de Dios [OP-15] (Caja) 24 paquetes",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": null,
     "first_seen": "2026-08-29T18:11:01.747489+00:00",
-    "price": "121,97 €"
+    "price": "121,97 €",
+    "pending_price": "136,79 €",
+    "pending_price_count": 1
   },
   "ES:B0C3RY35G6": {
     "name": "BANDAI | One Piece Card Game: Transparent Case - Standard White | Accessories | Ages 6+ | 2 Players | 20-30 Minutes Playing Time",
@@ -239,9 +241,11 @@
   "ES:B0HF1Z72XW": {
     "name": "One Piece TCG: The World's Strongest Warriors Booster Box (OP-17) - 24 paquetes",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "first_seen": "2026-09-05T20:33:38.638411+00:00",
-    "price": "446,00 €"
+    "price": "446,00 €",
+    "pending_price": "461,00 €",
+    "pending_price_count": 1
   },
   "ES:B0HFD53BDB": {
     "name": "One Piece TCG: The World's Strongest Warriors - Juego de doble paquete Vol. 12 DP-12 (2 paquetes OP-17)",
