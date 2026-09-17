@@ -258,9 +258,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "85,00 €",
-    "pending_price": "99,00 €",
-    "pending_price_count": 1
+    "price": "99,00 €"
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -1097,9 +1095,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T18:20:21.671515+00:00",
-    "price": "789,00 €",
-    "pending_price": "819,90 €",
-    "pending_price_count": 1
+    "price": "819,90 €"
   },
   "ES:B0C74Q2GWX": {
     "name": "The Crew Motorfest Limited Edition (Exclusivo Amazon) (PS4)",
@@ -1204,7 +1200,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T18:20:43.859408+00:00",
-    "price": "69,90 €"
+    "price": "68,99 €"
   },
   "ES:B01M5DZ525": {
     "name": "Red Dead Redemption 2 for PlayStation 4",
@@ -1354,9 +1350,10 @@
   },
   "ES:B0HF55Q11W": {
     "name": "PlayStation®5 Edición Digital: pack Ed. Limitada Marvel: Lobezno Amarillo de Combate",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-16T04:35:55.955905+00:00"
+    "first_seen": "2026-09-16T04:35:55.955905+00:00",
+    "price": "649,00 €"
   },
   "ES:B0D8KXMCTC": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Naranja)",
@@ -1493,7 +1490,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.312517+00:00",
-    "price": "129,99 €"
+    "price": "129,99 €",
+    "pending_price": "150,90 €",
+    "pending_price_count": 1
   },
   "ES:B0FP2S1MNB": {
     "name": "Playstation Consola 5 Estandar Chassis E",
@@ -1501,7 +1500,7 @@
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.714000+00:00",
     "price": "649,00 €",
-    "pending_price": "693,15 €",
+    "pending_price": "730,87 €",
     "pending_price_count": 1
   },
   "ES:B0GZH9BJYD": {
@@ -1653,10 +1652,9 @@
   },
   "ES:B0FP2GZTKP": {
     "name": "Playstation Consola 5: edición limitada Gold Ghost of Yōtei™",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:37.287209+00:00",
-    "price": "879,99 €"
+    "first_seen": "2026-09-17T00:32:37.287209+00:00"
   },
   "ES:B0FPVN728G": {
     "name": "Shiptree Mando para PS-4, Mando Inalámbrico para PS4/Pro/Slim/PC con Doble Vibración, Turbo, Sensor Giroscopio, Panel Táctil, Audio Jack (Blanco)",
@@ -1894,7 +1892,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498146+00:00",
-    "price": "66,36 €"
+    "price": "64,99 €"
   },
   "ES:B0GNKSKQM6": {
     "name": "Silent Hill Townfall - Day One Edition - PS5",
@@ -1915,7 +1913,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498199+00:00",
-    "price": "9,90 €"
+    "price": "9,90 €",
+    "pending_price": "23,80 €",
+    "pending_price_count": 1
   },
   "ES:B0F24Y88V1": {
     "name": "F1 25 Standard Edition PS5 | Disco | Videojuegos | Castellano",
@@ -1964,7 +1964,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498310+00:00",
-    "price": "39,30 €"
+    "price": "39,30 €",
+    "pending_price": "39,31 €",
+    "pending_price_count": 1
   },
   "ES:B0H4QGP1TM": {
     "name": "Persona 4 Revival - PS5",
@@ -2055,7 +2057,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498519+00:00",
-    "price": "35,90 €"
+    "price": "35,90 €",
+    "pending_price": "49,95 €",
+    "pending_price_count": 1
   },
   "ES:B0GTR8256K": {
     "name": "MOUSE: P.I. For Hire - PS5",
@@ -2167,9 +2171,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499111+00:00",
-    "price": "22,06 €",
-    "pending_price": "22,40 €",
-    "pending_price_count": 1
+    "price": "19,50 €"
   },
   "ES:B07NRHS623": {
     "name": "The Legend of Heroes: Trails of Cold Steel III [Importación francesa]",
@@ -2449,9 +2451,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500025+00:00",
-    "price": "62,99 €",
-    "pending_price": "71,69 €",
-    "pending_price_count": 1
+    "price": "71,69 €"
   },
   "ES:B01MT2B97F": {
     "name": "Capcom Resident Evil 4 Básico PlayStation 4 vídeo - Juego (PlayStation 4, Supervivencia / Horror, M (Maduro), Soporte físico)",
@@ -2841,7 +2841,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566239+00:00",
-    "price": "24,99 €"
+    "price": "24,99 €",
+    "pending_price": "29,99 €",
+    "pending_price_count": 1
   },
   "ES:B0DHZW9R6Z": {
     "name": "Monster Hunter Wilds Standard Edition - PS5",
