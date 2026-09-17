@@ -362,10 +362,9 @@
   },
   "ECI:A200805922": {
     "name": "Caja Colección Premium Mega-Zygarde EX JCC Pokémon Bandai",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-08-25T20:27:54.285327+00:00",
-    "price": "59,99 €"
+    "first_seen": "2026-08-25T20:27:54.285327+00:00"
   },
   "ECI:A200971009": {
     "name": "Sobres Cartas Pokémon. Expansión Evoluciones En Paldea Pokémon Bandai modelos surtidos",
@@ -730,7 +729,7 @@
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
     "price": "235,59 €"
   },
