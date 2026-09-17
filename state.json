@@ -466,9 +466,9 @@
   "ES:B0D6WLBJKX": {
     "name": "Pokémon: Caja de Entrenador Élite de Escarlata y Púrpura-Fábula Sombría de JCC Pokémon",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "2",
     "first_seen": "2026-08-27T14:04:43.687882+00:00",
-    "price": "84,92 €"
+    "price": "84,90 €"
   },
   "ES:B0C643MGKG": {
     "name": "Pokémon: Palkia Forma Origen de la Liga VSTAR",
@@ -724,7 +724,7 @@
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
     "price": "53,42 €"
   },
@@ -803,9 +803,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
-    "price": "62,85 €",
-    "pending_price": "62,94 €",
-    "pending_price_count": 1
+    "price": "62,94 €"
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
@@ -1300,10 +1298,9 @@
   },
   "UK:B0DB7C1Z26": {
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
-    "status": "compra_directa",
-    "stock": "2",
-    "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "114,66 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-04T21:32:58.802636+00:00"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1456,7 +1453,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802829+00:00",
-    "price": "101,93 €"
+    "price": "101,49 €"
   },
   "US:B0G3CS6XB9": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Premium Poster Collection—Mega Lucario (1 Tarjeta Promocional de Aluminio, 1 póster de Doble Cara y 10 Paquetes de Refuerzo)",
@@ -2493,10 +2490,9 @@
   },
   "TRU:K1108950": {
     "name": "Pokémon 30º Aniversario - Colección con Pegatinas Especiales (Español) - Varios modelos",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-16T19:13:53.773884+00:00",
-    "price": "27,99 €"
+    "first_seen": "2026-09-16T19:13:53.773884+00:00"
   },
   "TRU:K1105107": {
     "name": "Pokémon - Megaevolución Oscuridad Absoluta - Pack 3 sobres (Español)",
