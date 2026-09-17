@@ -1436,9 +1436,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850805+00:00",
-    "price": "279,00 €",
-    "pending_price": "287,00 €",
-    "pending_price_count": 1
+    "price": "287,00 €"
   },
   "ES:B092JL5NS2": {
     "name": "Nintendo Switch Lite Azul",
@@ -2244,16 +2242,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689228+00:00",
-    "price": "66,41 €"
+    "price": "66,41 €",
+    "pending_price": "82,47 €",
+    "pending_price_count": 1
   },
   "ES:B08GMSQBDZ": {
     "name": "Pang Adventures Buster Edition",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689238+00:00",
-    "price": "20,33 €",
-    "pending_price": "27,19 €",
-    "pending_price_count": 1
+    "price": "27,19 €"
   },
   "ES:B08LLN1B47": {
     "name": "Five Nights at Freddy'S. Core Collection",
@@ -2484,7 +2482,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689720+00:00",
-    "price": "53,62 €"
+    "price": "53,62 €",
+    "pending_price": "54,62 €",
+    "pending_price_count": 1
   },
   "ES:B0FDWT9YGP": {
     "name": "RLSOCO Funda para Nintendo Switch 2 Consola 2025 - Estuche de Viaje con 8 Ranuras para Tarjetas de Juego (Rosa)",
@@ -2533,9 +2533,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689777+00:00",
-    "price": "15,99 €",
-    "pending_price": "17,99 €",
-    "pending_price_count": 1
+    "price": "17,99 €"
   },
   "ES:B0FGXQNL2K": {
     "name": "JETech Funda Slim Acoplable para Nintendo Switch 2, Negro | Diseño Acoplable con Joy-con Desmontables, Agarre TPU Suave, Trasera PC Mate, Carcasa Antiarañazos",
@@ -3095,5 +3093,47 @@
     "stock": null,
     "first_seen": "2026-09-17T14:07:16.088253+00:00",
     "price": "34,90 €"
+  },
+  "ES:B0DSGB3B8V": {
+    "name": "CARMEN SANDIEGO EDICIÓN 40ª ANIVERSARIO - NINTENDO SWITCH",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:33.624327+00:00",
+    "price": "27,08 €"
+  },
+  "ES:B0C2Z3HKG4": {
+    "name": "Five Nights at Freddy's Security Breach",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:33.624463+00:00",
+    "price": "36,20 €"
+  },
+  "ES:B01M31YZPX": {
+    "name": "Nintendo - Pack 6 Tarjetas Amiibo Animal Crossing, Hello Kitty",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:33.624509+00:00",
+    "price": "5,99 €"
+  },
+  "ES:B0FHQRX1GG": {
+    "name": "Hello Kitty Island Adventure - Switch",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:33.624535+00:00",
+    "price": "29,99 €"
+  },
+  "ES:B0FH2W38GN": {
+    "name": "Wobbly Life (Nintendo Switch)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:33.624547+00:00",
+    "price": "34,32 €"
+  },
+  "ES:B0DMTLFG2X": {
+    "name": "Little Kitty, Big City - Switch",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:33.624558+00:00",
+    "price": "34,95 €"
   }
 }
