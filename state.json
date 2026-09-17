@@ -815,7 +815,9 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644915+00:00",
-    "price": "102,14 €"
+    "price": "102,14 €",
+    "pending_price": "102,17 €",
+    "pending_price_count": 1
   },
   "US:B0G3CY83L5": {
     "name": "Pokémon TCG: Caja de entrenamiento de élite de héroes ascendidos de Mega Evolution",
@@ -1299,7 +1301,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "114,21 €"
+    "price": "114,12 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1450,7 +1452,7 @@
   "US:B0F2BCG1Y5": {
     "name": "Pokémon TCG: Scarlet & Violet—Destined Rivals Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802829+00:00",
     "price": "101,49 €"
   },
@@ -1611,9 +1613,10 @@
   },
   "UK:B0DLQJ613B": {
     "name": "Pokémon TCG: Scarlet & Violet—Prismatic Evolutions Poster Collection",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-09-05T00:38:53.462546+00:00"
+    "status": "compra_directa",
+    "stock": "3",
+    "first_seen": "2026-09-05T00:38:53.462546+00:00",
+    "price": "91,32 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -1763,9 +1766,9 @@
   "US:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
     "status": "compra_directa",
-    "stock": "2",
-    "price": "34,38 €",
-    "first_seen": "2026-09-08T05:38:28.180394+00:00"
+    "stock": "1",
+    "first_seen": "2026-09-08T05:38:28.180394+00:00",
+    "price": "34,38 €"
   },
   "UK:B0FS98MMML": {
     "name": "Pokémon TCG: Booster Pack de 10 Cartas Mega Evolution Flames Phantasmal Mangas",
