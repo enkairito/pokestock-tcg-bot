@@ -991,7 +991,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "36,87 €"
+    "price": "36,87 €",
+    "pending_price": "37,32 €",
+    "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1018,7 +1020,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T18:22:20.419718+00:00",
-    "price": "233,02 €"
+    "price": "233,02 €",
+    "pending_price": "259,98 €",
+    "pending_price_count": 1
   },
   "ES:B0FFP61L6C": {
     "name": "Turtle Beach Victrix Gambit Prime Mando para torneos para Xbox Series X/S, Xbox One y PC. Con licencia para Xbox con gatillos Clutch Trigger de fuego rápido, botones extraíbles y aplicación de control",
@@ -1282,9 +1286,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.017973+00:00",
-    "price": "209,00 €",
-    "pending_price": "219,00 €",
-    "pending_price_count": 1
+    "price": "219,00 €"
   },
   "ES:B01M5CZKW6": {
     "name": "Konsole Xbox One S 500 Gb Weiß",
@@ -1996,9 +1998,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256560+00:00",
-    "price": "37,15 €",
-    "pending_price": "59,95 €",
-    "pending_price_count": 1
+    "price": "59,95 €"
   },
   "ES:B08Z5H2H4F": {
     "name": "Venom Paquete doble de baterías recargables de alta capacidad de 1100 mAh, color negro (Xbox Series X y S/Xbox One)",
@@ -2103,9 +2103,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256972+00:00",
-    "price": "9,65 €",
-    "pending_price": "9,89 €",
-    "pending_price_count": 1
+    "price": "9,89 €"
   },
   "ES:B0H34RTJDG": {
     "name": "Call of Duty: Modern Warfare 4 – XBOX Series X|S y Windows (Digital Code)",
@@ -2210,7 +2208,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
-    "price": "23,48 €"
+    "price": "23,46 €"
   },
   "ES:B08HZKQDK1": {
     "name": "F1 2020 - Xbox One",
@@ -2571,7 +2569,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257596+00:00",
-    "price": "53,62 €"
+    "price": "53,62 €",
+    "pending_price": "54,62 €",
+    "pending_price_count": 1
   },
   "ES:B07HB851JR": {
     "name": "Xbox One soporte de pared (juego de 4 esquinas): Negro",
