@@ -803,16 +803,25 @@ async def discover_bestsellers_products(page, label, url, marketplace):
     aria-hidden), y el precio usa una clase con sufijo generado
     (``p13n-sc-price``, comprobado el 2026-09-17), así que se busca por
     coincidencia parcial. Un producto sin precio visible en la tarjeta se
-    manda al fallback individual en vez de asumir que está agotado — no
-    hay ningún indicador explícito de disponibilidad en esta plantilla."""
+    marca no_disponible directamente (comprobado a mano que casi siempre
+    es un agotado real). A veces (visto en producción el 2026-09-17, ~1 de
+    cada 6 páginas) la rejilla tarda más de lo normal en cargar y una
+    carrera fija de scrolls la pilla vacía, así que el scroll se repite
+    hasta que el recuento de tarjetas se estabiliza en vez de un número
+    fijo de iteraciones, igual que discover_eci_products."""
     response = await page.goto(url, wait_until="domcontentloaded", timeout=60000)
     if response is None or response.status >= 400:
         raise ScrapeError(f"Respuesta HTTP inválida en {marketplace['code']}/{label}")
-    await page.wait_for_timeout(2500)
+    await page.wait_for_timeout(3000)
 
-    for _ in range(6):
+    prev_count = -1
+    for _ in range(15):
         await page.mouse.wheel(0, 2000)
         await page.wait_for_timeout(700)
+        count = await page.eval_on_selector_all("[data-asin]", "els => els.filter(e => e.getAttribute('data-asin')).length")
+        if count == prev_count:
+            break
+        prev_count = count
 
     title = await page.title()
     print(f"ℹ️ [{marketplace['code']}/{label}] Título de la página cargada: {title!r}")

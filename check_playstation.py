@@ -172,8 +172,7 @@ async def main():
                     marketplace_products[asin] = merge_product_record(marketplace_products.get(asin), info)
                 fallback_asins.update(page_fallback)
             except Exception as e:
-                print(f"❌ No se pudo cargar la página de PlayStation ({label}): {e!r}")
-                raise
+                print(f"⚠️ No se pudo cargar la página de PlayStation ({label}), se omite esta vez: {e!r}")
 
         fallback_asins -= marketplace_products.keys()
         if fallback_asins:
