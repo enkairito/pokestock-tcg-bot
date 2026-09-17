@@ -717,7 +717,7 @@
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": null,
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
     "price": "56,68 €"
   },
@@ -1301,7 +1301,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "114,51 €"
+    "price": "114,47 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1839,7 +1839,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-08T14:34:56.335882+00:00",
-    "price": "17,07 €"
+    "price": "17,01 €"
   },
   "US:B0F1GXTFGL": {
     "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
@@ -1936,9 +1936,7 @@
     "status": "invitacion",
     "stock": null,
     "first_seen": "2026-09-09T13:27:34.624360+00:00",
-    "price": "15,98 €",
-    "pending_price": "17,99 €",
-    "pending_price_count": 1
+    "price": "17,99 €"
   },
   "ES:B0H8SX832W": {
     "name": "Pokémon: Álbum para Colecciones de Celebración 30.º Aniversario de JCC Pokémon (1 álbum y 5 Sobres de Mejora)",
