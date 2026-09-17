@@ -90,9 +90,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:18:12.685827+00:00",
-    "price": "19,90 €",
-    "pending_price": "19,99 €",
-    "pending_price_count": 1
+    "price": "19,99 €"
   },
   "ES:B08B4HHNNM": {
     "name": "Playstation Sackboy: Una Aventura a lo Grande - PlayStation 5",
@@ -173,10 +171,9 @@
   },
   "ES:B07W4X1F21": {
     "name": "Sony PlayStation DualShock 4 Controller - Glacier White (Renewed)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-11T19:18:12.685972+00:00",
-    "price": "62,48 €"
+    "first_seen": "2026-09-11T19:18:12.685972+00:00"
   },
   "ES:B0F1QWSCVH": {
     "name": "Turtle Beach Airlite Fit Auriculares con Cable para Juegos en Morado fantasmal con Licencia Oficial para Todos los Nintendo Switch",
@@ -261,7 +258,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "84,99 €"
+    "price": "84,99 €",
+    "pending_price": "119,90 €",
+    "pending_price_count": 1
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -361,7 +360,7 @@
     "price": "42,99 €"
   },
   "ES:B0FKN5F96V": {
-    "name": "Logitech G G29 SE Driving Force Wheel and Shifter para Playstation & PC",
+    "name": "Logitech G G29 SE Driving Force Wheel and Shifter para Playstation & PC | Volante de carreras y pedales, Force Feedback, Cuero auténtico + Palanca de cambio - Para PS5, PS4 y PC, Mac - Negro",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018877+00:00",
@@ -442,7 +441,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018951+00:00",
-    "price": "205,00 €"
+    "price": "204,99 €"
   },
   "ES:B0BMG2LH3W": {
     "name": "Playstation - Realidad Virtual VR2 | Gafas de Realidad Virtual Originales de Sony para PS5 con Imágenes HDR en 4K. Incluye Casco de realidad Virtual VR2 y Mandos VR2 Sense",
@@ -456,9 +455,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018957+00:00",
-    "price": "32,99 €",
-    "pending_price": "33,99 €",
-    "pending_price_count": 1
+    "price": "33,99 €"
   },
   "ES:B0BKW3BYFR": {
     "name": "AceGamer Controlador Inalámbrico Para Ps4, Controlador De Juego Compatible Con Ps4/Pro/Slim/Pc, Con Turbobotón/Botón Trasero/Doble Vibración/Sensor De Giroscopio De 6 Ejes/Panel Táctil",
@@ -493,7 +490,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018968+00:00",
-    "price": "227,98 €"
+    "price": "227,98 €",
+    "pending_price": "228,00 €",
+    "pending_price_count": 1
   },
   "ES:B01LBH9ILW": {
     "name": "Dualshock 4 Wireless Controller - Jet Black - PlayStation 4",
@@ -765,9 +764,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T12:27:13.469384+00:00",
-    "price": "26,59 €",
-    "pending_price": "27,99 €",
-    "pending_price_count": 1
+    "price": "27,99 €"
   },
   "ES:B07D28WVGG": {
     "name": "Sony - Wireless Controller V2 Dualshock 4, Color Jet Black [Middle East] (PS4)",
@@ -969,8 +966,8 @@
     "name": "PlayStation 5 - Auriculares inalámbricos PULSE Elite White con estuche",
     "status": "compra_directa",
     "stock": null,
-    "price": "145,00 €",
-    "first_seen": "2026-09-12T18:25:09.102651+00:00"
+    "first_seen": "2026-09-12T18:25:09.102651+00:00",
+    "price": "145,00 €"
   },
   "ES:B0F9YCF9WD": {
     "name": "Mcbazel Base de Carga y Refrigeración para PS5/PS5 Pro, Estación de Carga y Refrigeración con 3 Velocidades y Luz LED para PlayStation 5 & PlayStation 5 Pro Digitales y de Discos - Blanco",
@@ -1149,9 +1146,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:22:34.377644+00:00",
-    "price": "20,47 €",
-    "pending_price": "20,49 €",
-    "pending_price_count": 1
+    "price": "20,49 €"
   },
   "ES:B01H25FDTI": {
     "name": "Playstation Marvel’s Spider-Man (PS4)",
@@ -1240,11 +1235,11 @@
     "first_seen": "2026-09-15T00:20:12.440978+00:00"
   },
   "ES:B07W7KFFFF": {
-    "name": "Logitech G G923 Racing Wheel and Pedals for Playstation & PC",
+    "name": "Logitech G G923 Racing Wheel and Pedals for Playstation & PC | Force Feedback TRUEFORCE, 1.000 Hz, respuesta eficaz, doble embrague, volante auténtico, PS5, PS4, PC, Mac - Negro",
     "status": "compra_directa",
     "stock": null,
-    "price": "219,99 €",
-    "first_seen": "2026-09-15T00:20:12.441018+00:00"
+    "first_seen": "2026-09-15T00:20:12.441018+00:00",
+    "price": "219,99 €"
   },
   "ES:B0BZJFJM16": {
     "name": "Sonic Origins Plus (PlayStation 4)",
@@ -1483,9 +1478,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.312504+00:00",
-    "price": "589,00 €",
-    "pending_price": "719,90 €",
-    "pending_price_count": 1
+    "price": "719,90 €"
   },
   "ES:B00BE4HOIM": {
     "name": "Sony PlayStation 4 500GB Console (Black) [Importación inglesa]",
@@ -1815,9 +1808,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.497871+00:00",
-    "price": "23,78 €",
-    "pending_price": "23,92 €",
-    "pending_price_count": 1
+    "price": "23,92 €"
   },
   "ES:B0C6YL35FL": {
     "name": "Nacon Revolution 5 Pro",
@@ -1935,9 +1926,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498146+00:00",
-    "price": "64,99 €",
-    "pending_price": "66,36 €",
-    "pending_price_count": 1
+    "price": "66,36 €"
   },
   "ES:B0GNKSKQM6": {
     "name": "Silent Hill Townfall - Day One Edition - PS5",
@@ -1986,9 +1975,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498253+00:00",
-    "price": "44,86 €",
-    "pending_price": "44,95 €",
-    "pending_price_count": 1
+    "price": "44,95 €"
   },
   "ES:B0GVP719SW": {
     "name": "Mortal Shell II - PS5",
@@ -2051,9 +2038,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498377+00:00",
-    "price": "55,90 €",
-    "pending_price": "55,99 €",
-    "pending_price_count": 1
+    "price": "55,99 €"
   },
   "ES:B0G7L9ZPX1": {
     "name": "PRAGMATA - PS5",
@@ -2081,9 +2066,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498454+00:00",
-    "price": "42,90 €",
-    "pending_price": "54,99 €",
-    "pending_price_count": 1
+    "price": "54,99 €"
   },
   "ES:B0H3VXBVX2": {
     "name": "Toy Story: Retro Roundup! + Toy Story 3 Complete Edition Double Pack - PS5",
@@ -2097,9 +2080,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498502+00:00",
-    "price": "20,46 €",
-    "pending_price": "21,55 €",
-    "pending_price_count": 1
+    "price": "21,55 €"
   },
   "ES:B0F2TGRRRK": {
     "name": "DRAGON QUEST I & II HD-2D Remake",
@@ -2529,9 +2510,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500025+00:00",
-    "price": "55,00 €",
-    "pending_price": "62,99 €",
-    "pending_price_count": 1
+    "price": "62,99 €"
   },
   "ES:B01MT2B97F": {
     "name": "Capcom Resident Evil 4 Básico PlayStation 4 vídeo - Juego (PlayStation 4, Supervivencia / Horror, M (Maduro), Soporte físico)",
@@ -2559,7 +2538,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500044+00:00",
-    "price": "8,99 €"
+    "price": "8,99 €",
+    "pending_price": "9,99 €",
+    "pending_price_count": 1
   },
   "ES:B09DPR2LZW": {
     "name": "Ozeino Cascos Gaming, Auriculares Gaming con Micrófono Rotatorio, Luz RGB, Premium Stereo, Orejeras Ligero Cómodo, para Ps4 Ps5 Xbox PC Switch Tableta Laptop",
@@ -2696,10 +2677,9 @@
   },
   "ES:B0GQ3QV72N": {
     "name": "deleyCON 0,25m Cable Extensión HDMI 2.1 8K para TV Stick - Extensión Corta para TV, Monitor, PS4, PS5, Xbox, Dolby Atmos Soundbar EARC HDR10+ 48Gbps - 8K@60Hz, 4K@120Hz/144Hz, 2K@240Hz",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:37.500142+00:00",
-    "price": "3,78 €"
+    "first_seen": "2026-09-17T00:32:37.500142+00:00"
   },
   "ES:B0CBM442RQ": {
     "name": "Tokluck Cargador para PS5 Mando con Cable, Base de Carga para PS5 y P5 Edge, 2,5H Carga para PS 5 Mando Cargador para PS 5 Compatible con P5 Edge, Pack de Accesorios para PlayStation 4",
@@ -2769,7 +2749,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500198+00:00",
-    "price": "15,99 €"
+    "price": "15,99 €",
+    "pending_price": "17,99 €",
+    "pending_price_count": 1
   },
   "ES:B088MSM8FD": {
     "name": "KROM Kappa - Auriculares Gaming con micrófono, Sonido Stereo RGB LED Rainbow, Altavoces 50mm, Diadema Ajustable, Micro Flexible, USB, Compatible PC, Negro",
@@ -2973,5 +2955,152 @@
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566486+00:00",
     "price": "28,87 €"
+  },
+  "ES:B07W7KWV2Y": {
+    "name": "Logitech Brio 300 Full HD Webcam con Obturador de privacidad | Micrófono reducción ruido, USB-C, certificado Zoom/Teams/Google Meet, corrección de luz automática - Grafito",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:53.613077+00:00",
+    "price": "56,58 €"
+  },
+  "ES:B09NM9DTTC": {
+    "name": "KIWIHOME Ventilador para PS5, Silencioso, Velocidad Automática, USB 3.0 | Apto para PS5 Disc/Digital sin Líneas de División en el Panel. No para PS5 Slim 2023 o Pro 2024. Blanco",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:53.613125+00:00",
+    "price": "32,99 €"
+  },
+  "ES:B0BGPZ3FWZ": {
+    "name": "SPYCO - Ratón Gaming Ergonómico | 7200 dpi Precisión | Luz RGB 6 Efectos | 7 Botones Programables | Alambre Trenzado 1.6m | Tapete Rato Compatible, RGB, 7200 dpi",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:53.613145+00:00",
+    "price": "7,99 €"
+  },
+  "ES:B0DP21DKZ3": {
+    "name": "RongZy 4Pack Joysticks para PS5 TMR Electromagnético Joystick Compatible con Sony PlayStation 5 PS5 Controlador Anti-Drift Sticks con Thumbsticks Repuesto con Reparar Kit Accesorio",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:53.613233+00:00",
+    "price": "17,99 €"
+  },
+  "ES:B0DBR7V3YR": {
+    "name": "Estación de Carga PowerA para PlayStation Portal™ Remote Player con Lumectra™, iluminación RGB, alimentación USB, Cargador magnético, Carga y exposición, Base con Peso, con Licencia Oficial",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:53.613240+00:00",
+    "price": "29,99 €"
+  },
+  "ES:B0G2GWS5PJ": {
+    "name": "MME Funda Compatible con Mando Dual Sense PS5 (Roja) | Funda protectora para mando Play 5 contra arañazos y pequeños golpes, Carcasa compatible con mando PlayStation 5",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:53.613243+00:00",
+    "price": "19,99 €"
+  },
+  "ES:B0FBRKFLRV": {
+    "name": "Grupo Erik Soporte Mando PS5 y Auriculares Cyberpunk - Soporte Mando XBOX, PS4, PS5 para Escritorio Gamer | Accesorios PS5, Setup Gamer Regalos (16 x 20 x 27,5 cm)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:53.613249+00:00",
+    "price": "31,71 €"
+  },
+  "ES:B08M3WY4RV": {
+    "name": "eXtremeRate PlayVital Funda de Silicona para ps5 Mando | Goma Suave, Agarre Antideslizante, 6 Tapas para Joysticks, Impermeable, Resistente, Diseño 3D Tachonado, Negro",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:53.613252+00:00",
+    "price": "13,99 €"
+  },
+  "ES:B0CTQ6V17N": {
+    "name": "ANNSKIN Soporte Vertical para Consolas PS5 Pro / PS5 / PS5 Slim Soporte con Base Antideslizante para Accesorios de PlayStation 5",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:53.613254+00:00",
+    "price": "17,99 €"
+  },
+  "ES:B0B6NHXMZD": {
+    "name": "Mcbazel Soporte Horizontal Compatible con Consola 2020 PS5 Console PS5 DE/UHD, Soporte de Base para Disco PS5 y Consola de edición Digital, con máscaras Antideslizantes - Negro(No para PS5 Slim/Pro)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:53.613260+00:00",
+    "price": "11,55 €"
+  },
+  "ES:B0915S5C82": {
+    "name": "Mcbazel Base de Carga Doble para Mando PS5 DualSense y DualSense Edge | Carga 2 Mandos en 2,5 Horas, LED Rojo y Azul, Cable USB Incluido, Funciona con Consola, PC o Powerbank",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:53.613269+00:00",
+    "price": "16,50 €"
+  },
+  "ES:B0FR56HB9F": {
+    "name": "Tolesum Cable de carga para controlador PS5, cable de carga USB-C a USB C, cable de alimentación tipo C para controlador de PlayStation 5 Dual Sense, Xbox - 3m",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:53.613272+00:00",
+    "price": "8,89 €"
+  },
+  "ES:B0DRJY8SSR": {
+    "name": "Basesailor para XBox Series X|S Cable Cargador 2M 2Pack,PS5 Pro Controller | Cable de carga USB tipo C para Nintendo Switch 2/OLED/Lite,Elite Series 2,para PlayStation 5 DualSense Controller",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:53.613277+00:00",
+    "price": "10,99 €"
+  },
+  "ES:B0BXKSJTDP": {
+    "name": "Tokluck Soporte Pared para PS5/ Slim/Pro, Soporte PS5 con Ventilador de Refrigeración y Cargador de Mando para PlayStation 5, Base de Carga PS 5 con Soporte para Auriculares",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:53.613286+00:00",
+    "price": "32,99 €"
+  },
+  "ES:B0FNR3MPST": {
+    "name": "LATEC Mando para PS4, Mando Inalámbrico PS4 con Bluetooth, 2 Botones de Programación Macro, 6-Axis Sensor Giroscópico, Doble Vibración, Panel Táctil, Azul",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:53.613339+00:00",
+    "price": "25,26 €"
+  },
+  "ES:B075YBBQMM": {
+    "name": "OIVO - Cargador para Mando PS4, estación de Carga con Mando PS 4 con Chip de Carga de 1,8 Horas, estación Mando Sony PlayStation 4/PS4/Pro/slim",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:53.613351+00:00",
+    "price": "19,99 €"
+  },
+  "ES:B0746S1Y1C": {
+    "name": "Nacon - Mando compacto PS4, color gris",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:53.613363+00:00",
+    "price": "37,04 €"
+  },
+  "ES:B0D5Z1C5TB": {
+    "name": "Corsair HS80 MAX Wireless Auriculares para Juegos – Gris Acero | Bluetooth, Dolby Atmos, Micrófono de Calidad Broadcast, Compatible con iCUE - PC, Mac, PS5, PS4, Switch, Móvil",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:53.613366+00:00",
+    "price": "159,99 €"
+  },
+  "ES:B09JNYCXP7": {
+    "name": "OIVO Soporte PS5/Slim/Pro Horizontal para Consola PlayStation 5, PS5 Suporte Horizontal, Soporte PS5 Acostado, Suporte Horizonta P5 con Tornillo, Accesorios PlayStation 5, Packs de Accesorios, Negro",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:53.613369+00:00",
+    "price": "23,99 €"
+  },
+  "ES:B0721MKGGH": {
+    "name": "HDMI Switch 4K | GANA 3 Entradas 1 Salida Splitter Soportes Full HD 4K 3D Duplicador Conmutador para HDTV/Xbox/PS3/4/5/Apple TV/Fire Stick",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:53.613372+00:00",
+    "price": "10,99 €"
+  },
+  "ES:B0CWP19W5W": {
+    "name": "AXFEE 12 Piezas Joystick Thumbstick Grips, Tapas de Botones de Silicona | Colores Cubiertas de Agarre para el Mando, Controlador Accesorios para PS5/4/XBOX One/Xbox 360/XBOX Series X/Switch Pro",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-17T14:31:53.613375+00:00",
+    "price": "6,99 €"
   }
 }
