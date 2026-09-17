@@ -22,10 +22,9 @@
   },
   "ES:B0GMR6ZK3R": {
     "name": "Pokémon: Lata Mega-Charizard de JCC Pokémon: Mega-Charizard Y ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-08-25T20:27:54.285202+00:00",
-    "price": "24,99 €"
+    "first_seen": "2026-08-25T20:27:54.285202+00:00"
   },
   "ES:B0G4NSB2J1": {
     "name": "Pokémon: Colección con Pegatinas Especiales de Megaevolución-Héroes Ascendentes: Gastly (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
@@ -1299,12 +1298,9 @@
   },
   "UK:B0DB7C1Z26": {
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
-    "status": "compra_directa",
-    "stock": "1",
-    "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "115,33 €",
-    "pending_price": "117,50 €",
-    "pending_price_count": 1
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-04T21:32:58.802636+00:00"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1641,9 +1637,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280869+00:00",
-    "price": "112,19 €",
-    "pending_price": "112,23 €",
-    "pending_price_count": 1
+    "price": "112,19 €"
   },
   "UK:B0DG2XTYDP": {
     "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
