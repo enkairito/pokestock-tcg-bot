@@ -728,7 +728,7 @@
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
     "price": "235,60 €"
   },
@@ -2010,9 +2010,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T09:23:08.319159+00:00",
-    "price": "76,21 €",
-    "pending_price": "77,25 €",
-    "pending_price_count": 1
+    "price": "77,25 €"
   },
   "UK:B0F6PGX3SQ": {
     "name": "Pokémon TCG: Unova Mini Tin – Krookodile & Excadrill (2 Paquetes de Refuerzo y 1 Tarjeta Adhesiva)",
