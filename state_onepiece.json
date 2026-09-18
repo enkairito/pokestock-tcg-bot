@@ -9,7 +9,7 @@
   "ES:B0F1SJY5S3": {
     "name": "The Best Vol. 2 Premium Booster Box PRB-02 (10) – Juego de cartas de One Piece – JP",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "3",
     "first_seen": "2026-08-29T18:08:32.013738+00:00",
     "price": "113,41 €"
   },
@@ -75,7 +75,7 @@
     "stock": null,
     "first_seen": "2026-08-29T18:09:29.426544+00:00",
     "price": "44,00 €",
-    "pending_price": "44,07 €",
+    "pending_price": "44,69 €",
     "pending_price_count": 1
   },
   "ES:B0GDGRWH54": {
@@ -146,7 +146,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-29T18:10:41.534422+00:00",
-    "price": "382,73 €"
+    "price": "382,73 €",
+    "pending_price": "390,31 €",
+    "pending_price_count": 1
   },
   "ES:B0F8V1YTSP": {
     "name": "BANDAI Juego de cartas de una pieza más antiguo (OP-13) (caja) de 24 unidades",
