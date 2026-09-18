@@ -660,6 +660,10 @@ async def new_context(browser):
     if FNAC_STORE["cookies_file"].exists():
         raw_cookies = json.loads(FNAC_STORE["cookies_file"].read_text(encoding="utf-8"))
         await context.add_cookies(normalize_cookies(raw_cookies))
+    # GAME tampoco es un "marketplace" — mismo motivo que Fnac arriba.
+    if GAME_STORE["cookies_file"].exists():
+        raw_cookies = json.loads(GAME_STORE["cookies_file"].read_text(encoding="utf-8"))
+        await context.add_cookies(normalize_cookies(raw_cookies))
     return context
 
 
@@ -1113,6 +1117,10 @@ GAME_STORE = {
     "flag": "",
     "store_label": "GAME",
     "tag": None,
+    # Cookies opcionales — sobre todo por "CookieConsent" (ya aceptado), que
+    # evita el banner de consentimiento por completo en vez de depender del
+    # clic en new_context/discover_game_products, más frágil.
+    "cookies_file": Path(__file__).parent / "game_cookies.json",
     "pages": [
         ("Pokémon Aniversario", "https://www.game.es/buscar/pokemon%20aniversario"),
     ],
