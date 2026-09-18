@@ -184,10 +184,10 @@
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
-    "status": "compra_directa",
-    "stock": "5",
+    "status": "invitacion",
+    "stock": null,
     "first_seen": "2026-08-25T20:27:53.163274+00:00",
-    "price": "75,99 €"
+    "price": "52,99 €"
   },
   "ES:B0GSSQYPK3": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
@@ -281,7 +281,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-25T20:27:15.542170+00:00",
-    "price": "38,00 €"
+    "price": "38,00 €",
+    "pending_price": "45,09 €",
+    "pending_price_count": 1
   },
   "ES:B0FXTY9D99": {
     "name": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Caos Creciente (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
@@ -763,7 +765,7 @@
   "US:B0GXJ8CSTY": {
     "name": "Pokémon TCG: Colección Premium Mega Greninja ex (1 Tarjeta Promocional Brillante, 1 Tarjeta lenticular de Gran tamaño y 8 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644858+00:00",
     "price": "82,18 €"
   },
@@ -1393,7 +1395,7 @@
   "UK:B0F634M6PY": {
     "name": "Pokemon Juego de Cartas coleccionables - Scarlet & Violet 10 - Destined Rivals Booster",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802777+00:00",
     "price": "23,49 €"
   },
@@ -1525,7 +1527,7 @@
   "US:B0D1RKJM6K": {
     "name": "Pokemon TCG: Scarlet & Violet - Paquete de refuerzo de destinos paldeanos",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-09-04T21:32:58.802920+00:00",
     "price": "340,67 €"
   },
@@ -1889,9 +1891,9 @@
   "US:B0CS12GPTB": {
     "name": "Pokemon TCG: Sword & Shield - Paquete de Refuerzo de Estrellas Brillantes (10 Tarjetas por Paquete)",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "4",
     "first_seen": "2026-09-08T14:34:56.335946+00:00",
-    "price": "43,97 €"
+    "price": "43,89 €"
   },
   "US:B0D4B515H1": {
     "name": "Pokémon TCG: Escarlata y Violeta - Mini Lata de fábula Envuelta - Okidogi (2 Paquetes de Refuerzo y 1 Hoja de calcomanías)",
