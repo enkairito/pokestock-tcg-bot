@@ -1,4 +1,4 @@
-"""Agrupa ofertas del mismo producto y genera una cola de revisión manual.
+"""Agrupa ofertas de Pokémon TCG y genera una cola de revisión manual.
 
 La agrupación automática es deliberadamente conservadora: EAN/GTIN exacto
 o una firma de título exacta entre tiendas distintas. Las coincidencias
@@ -58,6 +58,11 @@ TOKEN_ALIASES = {
 def _normalize(value):
     value = unicodedata.normalize("NFD", str(value or "").lower())
     return "".join(char for char in value if unicodedata.category(char) != "Mn")
+
+
+def is_pokemon_tcg(product):
+    """Mantiene el comparador aislado del resto de juegos y de Gaming."""
+    return _normalize(product.get("game")) == "pokemon"
 
 
 def offer_id(product):
@@ -307,6 +312,7 @@ def validate_overrides(overrides):
 def build_groups(products, overrides=None, suggestion_limit=3):
     overrides = {**DEFAULT_OVERRIDES, **(overrides or {})}
     validate_overrides(overrides)
+    products = [product for product in products if is_pokemon_tcg(product)]
     products_by_id = {offer_id(product): product for product in products}
     assignments = overrides.get("assign") or {}
     separate = set(overrides.get("separate") or [])

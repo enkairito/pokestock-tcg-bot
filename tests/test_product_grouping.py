@@ -82,6 +82,14 @@ class ProductGroupingTests(unittest.TestCase):
         self.assertEqual(groups["summary"]["ignored"], 1)
         self.assertEqual(review["items"], [])
 
+    def test_only_pokemon_tcg_enters_groups_or_manual_review(self):
+        pokemon = product("A1", "CAR", "Pokémon Destined Rivals ETB")
+        magic = product("B1", "FNAC", "Magic Tarkir Dragonstorm Booster", game="Magic")
+        gaming = product("C1", "ES", "Nintendo Switch 2", game="Nintendo")
+        groups, review = build_groups([pokemon, magic, gaming])
+        self.assertEqual(groups["summary"]["offers"], 1)
+        self.assertEqual([item["offer_id"] for item in review["items"]], ["CAR-A1"])
+
     def test_conflicting_manual_decisions_fail_loudly(self):
         with self.assertRaises(ValueError):
             validate_overrides({

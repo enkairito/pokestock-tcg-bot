@@ -1,6 +1,8 @@
 # Agrupación de productos y comparación de precios
 
 El agrupador distingue entre el **producto real** y las **ofertas de tienda**.
+Su alcance actual es exclusivamente **Pokémon TCG**: el resto de juegos,
+Gaming y accesorios ajenos no entran en los grupos ni en la cola manual.
 
 - Una oferta mantiene su URL actual: `/producto/{tienda-id}`.
 - Un producto confirmado tendrá una URL comparadora estable:
