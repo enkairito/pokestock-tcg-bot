@@ -1423,7 +1423,9 @@
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-09-04T21:32:58.802801+00:00",
-    "price": "46,73 €"
+    "price": "46,73 €",
+    "pending_price": "46,78 €",
+    "pending_price_count": 1
   },
   "UK:B0C7QXP3FH": {
     "name": "Pokémon TCG: Tinkaton ex Battle Deck (Baraja de 60 Cartas Lista para Jugar)",
@@ -1499,9 +1501,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802898+00:00",
-    "price": "104,22 €",
-    "pending_price": "104,25 €",
-    "pending_price_count": 1
+    "price": "104,25 €"
   },
   "US:B0C4D4R3H8": {
     "name": "Pokémon JCC: Estuche Courrousinge-ex",
@@ -1710,7 +1710,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "137,65 €"
+    "price": "137,64 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
