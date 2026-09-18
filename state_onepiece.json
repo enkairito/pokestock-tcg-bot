@@ -74,9 +74,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:09:29.426544+00:00",
-    "price": "44,00 €",
-    "pending_price": "45,45 €",
-    "pending_price_count": 1
+    "price": "45,45 €"
   },
   "ES:B0GDGRWH54": {
     "name": "One Piece TCG: Double Pack Set Vol. 9 (DP-09) - The Azure Sea's Seven (2 Paquetes)",
@@ -95,11 +93,9 @@
   "ES:B0CGR4P859": {
     "name": "Awakening of the New Era Booster Pack OP-05 - One Piece Juego de Cartas - JP",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-29T18:09:47.272890+00:00",
-    "price": "37,27 €",
-    "pending_price": "37,86 €",
-    "pending_price_count": 1
+    "price": "37,86 €"
   },
   "ES:B0D69TF558": {
     "name": "One Piece TCG: Two Legends - Booster Pack (OP-08) (JP) (TCG)",
@@ -162,7 +158,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:11:01.747489+00:00",
-    "price": "136,79 €"
+    "price": "136,78 €"
   },
   "ES:B0C3RY35G6": {
     "name": "BANDAI | One Piece Card Game: Transparent Case - Standard White | Accessories | Ages 6+ | 2 Players | 20-30 Minutes Playing Time",
@@ -258,7 +254,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-08T09:40:16.326555+00:00",
-    "price": "39,73 €"
+    "price": "39,67 €"
   },
   "ES:B0DW3R4T9G": {
     "name": "BANDAI ONE PIECE - Caja de refuerzo de cartas Master and Student Bonds (OP-12) (japonés) - 24 paquetes",
