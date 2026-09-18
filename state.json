@@ -186,10 +186,12 @@
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
-    "status": "invitacion",
+    "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-25T20:27:53.163274+00:00",
-    "price": "52,99 €"
+    "price": "52,99 €",
+    "pending_price": "75,99 €",
+    "pending_price_count": 1
   },
   "ES:B0GSSQYPK3": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
@@ -1711,7 +1713,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "137,92 €"
+    "price": "137,90 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
