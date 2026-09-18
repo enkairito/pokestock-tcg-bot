@@ -27,6 +27,7 @@ DEFAULT_OVERRIDES = {
     "assign": {},
     "separate": [],
     "ignore": [],
+    "reject_pairs": [],
 }
 
 STOPWORDS = {
@@ -293,8 +294,9 @@ def validate_overrides(overrides):
         raise ValueError("Cada entrada de groups debe ser un objeto")
     separate_values = overrides.get("separate") or []
     ignored_values = overrides.get("ignore") or []
-    if not isinstance(separate_values, list) or not isinstance(ignored_values, list):
-        raise ValueError("separate e ignore deben ser listas")
+    rejected_values = overrides.get("reject_pairs") or []
+    if not isinstance(separate_values, list) or not isinstance(ignored_values, list) or not isinstance(rejected_values, list):
+        raise ValueError("separate, ignore y reject_pairs deben ser listas")
     separate, ignored = set(separate_values), set(ignored_values)
     group_ids = list(groups) + list(assignments.values())
     invalid_groups = [group_id for group_id in group_ids if not isinstance(group_id, str) or not SAFE_GROUP_ID.fullmatch(group_id)]
@@ -303,6 +305,12 @@ def validate_overrides(overrides):
     offer_ids = list(assignments) + separate_values + ignored_values
     if any(not isinstance(key, str) or not re.fullmatch(r"[A-Za-z0-9_-]+", key) for key in offer_ids):
         raise ValueError("IDs de oferta inválidos en las decisiones manuales")
+    if any(
+        not isinstance(pair, list) or len(pair) != 2 or pair[0] == pair[1]
+        or any(not isinstance(key, str) or not re.fullmatch(r"[A-Za-z0-9_-]+", key) for key in pair)
+        for pair in rejected_values
+    ):
+        raise ValueError("reject_pairs debe contener parejas de ofertas válidas")
     assigned = set(assignments)
     conflicts = (assigned & separate) | (assigned & ignored) | (separate & ignored)
     if conflicts:
@@ -317,6 +325,7 @@ def build_groups(products, overrides=None, suggestion_limit=3):
     assignments = overrides.get("assign") or {}
     separate = set(overrides.get("separate") or [])
     ignored = set(overrides.get("ignore") or [])
+    rejected_pairs = {frozenset(pair) for pair in overrides.get("reject_pairs") or []}
     reserved = set(assignments) | separate | ignored
 
     automatic_buckets = defaultdict(list)
@@ -373,6 +382,8 @@ def build_groups(products, overrides=None, suggestion_limit=3):
             candidate_id = offer_id(candidate)
             if candidate_id == key or candidate.get("marketplace") == product.get("marketplace"):
                 continue
+            if frozenset((key, candidate_id)) in rejected_pairs:
+                continue
             score = similarity(product, candidate)
             if score < 0.5:
                 continue
@@ -381,7 +392,12 @@ def build_groups(products, overrides=None, suggestion_limit=3):
                 "group_id": offer_to_group.get(candidate_id),
                 "name": candidate.get("name") or "Producto",
                 "store": candidate.get("store_label") or candidate.get("marketplace"),
+                "marketplace": candidate.get("marketplace"),
                 "price": candidate.get("price"),
+                "status": candidate.get("status"),
+                "image": candidate.get("image"),
+                "link": candidate.get("link"),
+                "product_url": f"{ORIGIN}/producto/{candidate_id}",
                 "score": score,
             })
         suggestions.sort(key=lambda candidate: (-candidate["score"], candidate["offer_id"]))
@@ -408,6 +424,7 @@ def build_groups(products, overrides=None, suggestion_limit=3):
         "possible_matches": sum(item["reason"] == "possible_matches" for item in review_items),
         "reviewed_separate": len(separate),
         "ignored": len(ignored),
+        "rejected_pairs": len(rejected_pairs),
         "unknown_override_ids": sorted(unknown_override_ids),
     }
     return (

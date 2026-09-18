@@ -100,10 +100,29 @@ class ProductGroupingTests(unittest.TestCase):
     def test_malformed_manual_file_fails_with_a_clear_validation_error(self):
         with self.assertRaisesRegex(ValueError, "IDs de grupo inválidos"):
             validate_overrides({"groups": {}, "assign": {"CAR-A1": 123}})
-        with self.assertRaisesRegex(ValueError, "separate e ignore deben ser listas"):
+        with self.assertRaisesRegex(ValueError, "separate, ignore y reject_pairs deben ser listas"):
             validate_overrides({"separate": "CAR-A1"})
         with self.assertRaisesRegex(ValueError, "Cada entrada de groups"):
             validate_overrides({"groups": {"valid-group": "nombre"}})
+
+    def test_rejected_pair_is_not_suggested_again(self):
+        left = product("A1", "CAR", "Pokémon colección premium Mega Zygarde ex Español")
+        right = product("B1", "FNAC", "Caja Pokémon Zygarde premium Español")
+        groups, review = build_groups([left, right], {"reject_pairs": [["CAR-A1", "FNAC-B1"]]})
+        self.assertEqual(groups["summary"]["rejected_pairs"], 1)
+        self.assertTrue(all(not item["suggestions"] for item in review["items"]))
+
+    def test_suggestion_contains_images_and_purchase_links_for_reviewer(self):
+        left = product("A1", "CAR", "Pokémon colección premium Mega Zygarde ex Español")
+        right = product(
+            "B1", "FNAC", "Caja Pokémon Zygarde premium Español",
+            image="https://example.com/zygarde.jpg", link="https://example.com/buy",
+        )
+        _, review = build_groups([left, right])
+        source = next(item for item in review["items"] if item["offer_id"] == "CAR-A1")
+        candidate = source["suggestions"][0]
+        self.assertEqual(candidate["image"], "https://example.com/zygarde.jpg")
+        self.assertEqual(candidate["link"], "https://example.com/buy")
 
 
 if __name__ == "__main__":

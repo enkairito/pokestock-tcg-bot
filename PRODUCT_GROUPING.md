@@ -43,7 +43,8 @@ Ejemplo de `product-group-overrides.json`:
     "TRU-K1104392": "pokemon-mega-zygarde-premium-es"
   },
   "separate": [],
-  "ignore": []
+  "ignore": [],
+  "reject_pairs": []
 }
 ```
 
@@ -53,6 +54,25 @@ Opciones:
 - `groups`: permite fijar nombre, juego, categoría o idioma del grupo.
 - `separate`: producto revisado que debe permanecer independiente.
 - `ignore`: falso positivo o entrada que no debe participar.
+- `reject_pairs`: parejas revisadas que no representan el mismo producto.
+
+## Revisor visual
+
+El panel local muestra las ofertas y sus fotos una al lado de la otra. Guarda
+cada decisión de forma atómica en `product-group-overrides.json` y permite
+deshacer las últimas decisiones de la sesión.
+
+Desde este repositorio:
+
+```powershell
+python grouping_reviewer.py --web ..\wheresthatstock
+```
+
+En Windows también se puede abrir `review_groups.bat` con doble clic.
+
+Se abrirá `http://127.0.0.1:8765/`. El servidor solo escucha en el equipo
+local y utiliza un token aleatorio para proteger las escrituras. Atajos:
+`M` mismo producto, `N` no coincide, `U` producto único e `I` ignorar.
 
 Una misma oferta no puede aparecer a la vez en `assign`, `separate` o
 `ignore`. El generador falla de forma visible si detecta decisiones
