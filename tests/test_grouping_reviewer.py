@@ -96,6 +96,18 @@ class GroupingReviewerTests(unittest.TestCase):
             with self.assertRaises(ReviewError):
                 store.apply("made-up", "CAR-A1")
 
+    def test_manual_group_can_be_reopened_for_review(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            store = self.make_store(root)
+            store.apply("same", "CAR-A1", "FNAC-B1")
+            group_id = next(iter(store.overrides["groups"]))
+            state = store.reopen_groups([group_id])
+            self.assertEqual(state["summary"]["groups"], 0)
+            self.assertEqual(len(state["items"]), 2)
+            self.assertEqual(store.overrides["assign"], {})
+            self.assertNotIn(group_id, store.overrides["groups"])
+
 
 if __name__ == "__main__":
     unittest.main()

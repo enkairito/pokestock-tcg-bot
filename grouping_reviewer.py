@@ -170,6 +170,25 @@ class ReviewStore:
                 raise
             return self.state()
 
+    def reopen_groups(self, group_ids):
+        """Devuelve grupos manuales a la cola para poder revisarlos otra vez."""
+        with self.lock:
+            requested = set(group_ids)
+            known = set((self.overrides.get("groups") or {})) | set((self.overrides.get("assign") or {}).values())
+            missing = sorted(requested - known)
+            if missing:
+                raise ReviewError(f"Grupos desconocidos: {', '.join(missing)}")
+            self._snapshot()
+            self.overrides["assign"] = {
+                key: group_id for key, group_id in (self.overrides.get("assign") or {}).items()
+                if group_id not in requested
+            }
+            for group_id in requested:
+                self.overrides.setdefault("groups", {}).pop(group_id, None)
+            self._write()
+            self._rebuild()
+            return self.state()
+
     def state(self):
         with self.lock:
             possible = [item for item in self.review["items"] if item["suggestions"]]
@@ -245,11 +264,15 @@ def main():
     parser.add_argument("--web", default="../wheresthatstock", help="Checkout del frontend")
     parser.add_argument("--port", type=int, default=8765)
     parser.add_argument("--no-browser", action="store_true")
+    parser.add_argument("--reopen-group", action="append", default=[], help="Grupo manual que volverá a la cola")
     args = parser.parse_args()
     if not 1 <= args.port <= 65535:
         parser.error("El puerto debe estar entre 1 y 65535")
 
     store = ReviewStore(args.web)
+    if args.reopen_group:
+        state = store.reopen_groups(args.reopen_group)
+        print(f"Grupos reabiertos. Comparaciones disponibles: {state['summary']['possible_items']}")
     html_path = Path(__file__).with_name("grouping_reviewer.html")
     html = html_path.read_text(encoding="utf-8")
     token = secrets.token_urlsafe(32)
