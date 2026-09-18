@@ -1835,7 +1835,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256329+00:00",
-    "price": "24,99 €"
+    "price": "24,99 €",
+    "pending_price": "25,00 €",
+    "pending_price_count": 1
   },
   "ES:B0H4QL9XMT": {
     "name": "Persona 4 Revival - XSRX",
@@ -2327,7 +2329,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257416+00:00",
-    "price": "21,13 €"
+    "price": "16,62 €"
   },
   "ES:B092J3RX5R": {
     "name": "playvital Funda Antipolvo para Xbox Series S Consola | Cubierta Vertical, Resistente al Agua, Forro Suave, Acceso Fácil a Puertos, Protección contra Polvo, Negro",
@@ -2749,7 +2751,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T08:32:35.495691+00:00",
-    "price": "26,38 €"
+    "price": "26,34 €"
   },
   "ES:B0H413YMF1": {
     "name": "Ace Combat 8: Wings Of Theve",
@@ -2845,16 +2847,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.548532+00:00",
-    "price": "21,39 €",
-    "pending_price": "21,41 €",
-    "pending_price_count": 1
+    "price": "21,41 €"
   },
   "ES:B0GHSYQHP6": {
     "name": "Life is Strange Reunion",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.548570+00:00",
-    "price": "44,23 €"
+    "price": "44,23 €",
+    "pending_price": "44,33 €",
+    "pending_price_count": 1
   },
   "ES:B0DJCHJ6D6": {
     "name": "Microsoft Flight Simulator 2024 Aviator Edition | Xbox & Windows - Código de descarga del juego",
@@ -2952,7 +2954,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.549000+00:00",
-    "price": "97,26 €"
+    "price": "92,99 €"
   },
   "ES:B0GJ5G9K7W": {
     "name": "deleyCON Cable HDMI 2.1 8K 2m Cable de Alta Velocidad Ultra High Speed 48 Gbps con Conector Acodado (270°) - Ideal para TV, Monitor, PS4, PS5, EARC, HDR10+ - 10K/8K@60Hz, 4K@120Hz/144Hz y 2K@240Hz",
