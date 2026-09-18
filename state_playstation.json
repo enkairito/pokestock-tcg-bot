@@ -2108,9 +2108,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498807+00:00",
-    "price": "74,00 €",
-    "pending_price": "75,17 €",
-    "pending_price_count": 1
+    "price": "75,17 €"
   },
   "ES:B01H0CBMXO": {
     "name": "Electronic Arts - Titanfall 2",
@@ -2124,18 +2122,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498891+00:00",
-    "price": "27,70 €",
-    "pending_price": "27,80 €",
-    "pending_price_count": 1
+    "price": "27,80 €"
   },
   "ES:B07MWXG7QV": {
     "name": "Days Gone [Importación francesa]",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498960+00:00",
-    "price": "36,83 €",
-    "pending_price": "39,81 €",
-    "pending_price_count": 1
+    "price": "39,81 €"
   },
   "ES:B09PJ4WZWC": {
     "name": "Far Cry 6 (PS4) (PS4)",
@@ -2185,7 +2179,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499167+00:00",
     "price": "32,72 €",
-    "pending_price": "32,73 €",
+    "pending_price": "33,87 €",
     "pending_price_count": 1
   },
   "ES:B0CJG2KCBL": {
