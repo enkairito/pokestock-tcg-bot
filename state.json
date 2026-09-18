@@ -715,7 +715,7 @@
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
     "price": "56,77 €"
   },
@@ -799,9 +799,9 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "3",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
-    "price": "71,77 €"
+    "price": "62,94 €"
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
@@ -1299,7 +1299,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "113,09 €"
+    "price": "113,09 €",
+    "pending_price": "115,26 €",
+    "pending_price_count": 1
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1653,9 +1655,10 @@
   },
   "UK:B0FVYJPBWW": {
     "name": "Pokémon Chinese Dark Crystal Blaze CSV5C Slim Booster Box",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-05T05:18:07.280940+00:00"
+    "first_seen": "2026-09-05T05:18:07.280940+00:00",
+    "price": "95,70 €"
   },
   "US:B0DSLXC8J8": {
     "name": "Pokémon TCG: Scarlet & Violet - Journey Together - Paquete de 3 blíster - Scrafty (3 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
@@ -1711,7 +1714,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "137,89 €"
+    "price": "137,88 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
@@ -2916,7 +2919,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:43:57.912076+00:00",
-    "price": "107,15 €"
+    "price": "107,15 €",
+    "pending_price": "109,15 €",
+    "pending_price_count": 1
   },
   "US:B0DLQXNQDH": {
     "name": "Pokémon TCG: Scarlet & Violet - Prismatic Evolutions Mini Tin - Jolteon (2 Paquetes de Refuerzo y 1 Moneda)",
