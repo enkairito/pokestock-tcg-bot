@@ -1,57 +1,5 @@
 [
   {
-    "ts": "2026-09-16T16:03:21.217579+00:00",
-    "type": "price_drop",
-    "asin": "B0DG8VNG1F",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokémon TCG: Scarlet & Violet—Shrouded Fable Booster Bundle (6 Booster Packs)",
-    "image": "https://m.media-amazon.com/images/I/81PYT9ru31L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "96,87 €",
-    "prev_price": "97,86 €",
-    "link": "https://www.amazon.es/dp/B0DG8VNG1F?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-16T16:03:21.217647+00:00",
-    "type": "price_drop",
-    "asin": "B0BJ7F5RNY",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokémon- Deoxys (60 Cards, Ready to Play) Baraja de Batalla V, Multicolor, zeraora (699-17149)",
-    "image": "https://m.media-amazon.com/images/I/81pTrbT77WL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "24,76 €",
-    "prev_price": "24,79 €",
-    "link": "https://www.amazon.es/dp/B0BJ7F5RNY?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-16T16:43:35.761535+00:00",
-    "type": "price_drop",
-    "asin": "B0DB7C1Z26",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
-    "image": "https://m.media-amazon.com/images/I/81TD+vNJcJL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "115,95 €",
-    "prev_price": "116,00 €",
-    "link": "https://www.amazon.es/dp/B0DB7C1Z26?tag=enkairito-21"
-  },
-  {
-    "ts": "2026-09-16T16:43:35.761587+00:00",
-    "type": "price_drop",
-    "asin": "B0BXJT92PT",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokémon- Origin Forme Palkia VSTAR Baraja de Batalla de la Liga, Multicolor (290-85236)",
-    "image": "https://m.media-amazon.com/images/I/91qF7mG6W6L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "46,92 €",
-    "prev_price": "46,94 €",
-    "link": "https://www.amazon.es/dp/B0BXJT92PT?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-16T17:03:09.586685+00:00",
     "type": "price_drop",
     "asin": "B0D6WLBJKX",
@@ -778,5 +726,57 @@
     "price": "53,37 €",
     "prev_price": "57,92 €",
     "link": "https://www.amazon.es/dp/B0GR6Q72ND?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-18T18:43:33.093610+00:00",
+    "type": "price_drop",
+    "asin": "B0DSGB5Q6B",
+    "marketplace": "ES",
+    "store_label": "Amazon ES",
+    "flag": "",
+    "name": "Pokémon Colección Ursaluna Luna Carmesí (4 Cartas holográficas y 4 Paquetes de Mejora)",
+    "image": "https://m.media-amazon.com/images/I/91DYxakGHhL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "38,00 €",
+    "prev_price": "45,09 €",
+    "link": "https://www.amazon.es/dp/B0DSGB5Q6B?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-18T18:43:38.766433+00:00",
+    "type": "restock",
+    "asin": "168046540",
+    "marketplace": "MM",
+    "store_label": "MediaMarkt",
+    "flag": "",
+    "name": "Juego de cartas - BANDAI Pokémon TCG Lata Primavera EX Surtida",
+    "image": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_168046542?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+    "price": "39,00 €",
+    "prev_price": null,
+    "link": "https://www.mediamarkt.es/es/product/_juego-de-cartas-bandai-pokemon-tcg-lata-primavera-ex-surtida-168046540.html"
+  },
+  {
+    "ts": "2026-09-18T18:43:44.649288+00:00",
+    "type": "restock",
+    "asin": "168046528",
+    "marketplace": "MM",
+    "store_label": "MediaMarkt",
+    "flag": "",
+    "name": "Juego de cartas - BANDAI Pokémon TCG Caja Mega Lucario EX, 50 cartas",
+    "image": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_168046533?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+    "price": "63,30 €",
+    "prev_price": null,
+    "link": "https://www.mediamarkt.es/es/product/_juego-de-cartas-bandai-pokemon-tcg-caja-mega-lucario-ex-168046528.html"
+  },
+  {
+    "ts": "2026-09-18T18:43:50.406083+00:00",
+    "type": "restock",
+    "asin": "168046545",
+    "marketplace": "MM",
+    "store_label": "MediaMarkt",
+    "flag": "",
+    "name": "Juego de cartas - BANDAI Pokémon TCG Baraja Combate EX Octubre Surtida, 60 cartas",
+    "image": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_168046547?x=416&y=416&format=webp&quality=60&sp=yes&strip=yes&trim=yes&ex=416&ey=416&align=center&resizesource&unsharp=0.5x0.5",
+    "price": "17,70 €",
+    "prev_price": null,
+    "link": "https://www.mediamarkt.es/es/product/_juego-de-cartas-bandai-pokemon-tcg-baraja-combate-ex-octubre-surtida-168046545.html"
   }
 ]
