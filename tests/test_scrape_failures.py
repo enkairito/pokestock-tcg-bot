@@ -234,6 +234,25 @@ class DiscoveryTests(unittest.IsolatedAsyncioTestCase):
                     with self.assertRaises(stock.ScrapeError):
                         await stock.discover_products(page, "test", "https://example.test", config)
 
+    def test_toysrus_affiliate_link_matches_tradedoubler_generator(self):
+        # Dos ejemplos reales generados a mano con la herramienta de
+        # TradeDoubler el 2026-09-18 (programa ToysRus ES=211811,
+        # sitio=3496377) — la codificación deja "(" y ")" literales pero
+        # escapa el resto, incluida cada "%" ya presente en la URL.
+        cases = [
+            (
+                "https://www.toysrus.es/Pok%C3%A9mon-30%C2%BA-Aniversario-Colecci%C3%B3n-con-Pegatinas-Especiales-(Espa%C3%B1ol)-Varios-modelos/p/K1108950",
+                "https://clk.tradedoubler.com/click?p=211811&a=3496377&url=https%3A%2F%2Fwww.toysrus.es%2FPok%25C3%25A9mon-30%25C2%25BA-Aniversario-Colecci%25C3%25B3n-con-Pegatinas-Especiales-(Espa%25C3%25B1ol)-Varios-modelos%2Fp%2FK1108950",
+            ),
+            (
+                "https://www.toysrus.es/Pok%C3%A9mon-Escarlata-y-P%C3%BArpura%3A-Rivales-Predestinados-Sobre-de-Mejora-Espa%C3%B1ol-(Varios-modelos)/p/K1105105",
+                "https://clk.tradedoubler.com/click?p=211811&a=3496377&url=https%3A%2F%2Fwww.toysrus.es%2FPok%25C3%25A9mon-Escarlata-y-P%25C3%25BArpura%253A-Rivales-Predestinados-Sobre-de-Mejora-Espa%25C3%25B1ol-(Varios-modelos)%2Fp%2FK1105105",
+            ),
+        ]
+        for landing_url, expected in cases:
+            with self.subTest(landing_url=landing_url):
+                self.assertEqual(stock.toysrus_affiliate_link(landing_url), expected)
+
 
 if __name__ == "__main__":
     unittest.main()

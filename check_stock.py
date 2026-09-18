@@ -11,6 +11,7 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from io import BytesIO
 from pathlib import Path
+from urllib.parse import quote
 
 import requests
 from patchright.async_api import async_playwright
@@ -220,6 +221,22 @@ TOYSRUS_STORE = {
     ],
 }
 TOYSRUS_SEARCH_API = "https://api.empathy.co/search/v1/query/toysrus/search"
+
+# Deep-link de afiliación aprobado en TradeDoubler el 2026-09-18 (programa
+# ToysRus ES = 211811, sitio Where's That Stock = 3496377). El generador de
+# TradeDoubler codifica la landing page dejando "(" y ")" sin escapar (el
+# resto de caracteres especiales sí, incluida cada "%" ya presente en la URL
+# — por eso es quote() normal y no solo un "url encode" simple).
+TOYSRUS_AFFILIATE_PROGRAM_ID = "211811"
+TOYSRUS_AFFILIATE_SITE_ID = "3496377"
+
+
+def toysrus_affiliate_link(url):
+    encoded = quote(url, safe="()")
+    return (
+        f"https://clk.tradedoubler.com/click?p={TOYSRUS_AFFILIATE_PROGRAM_ID}"
+        f"&a={TOYSRUS_AFFILIATE_SITE_ID}&url={encoded}"
+    )
 
 # Fnac, a diferencia de ECI/Carrefour, SÍ necesita cookies — devuelve un 403
 # "El acceso está restringido temporalmente" (Datadome) a cualquier request
@@ -1494,10 +1511,9 @@ async def main():
 
         # Toys"R"Us es una fuente pública adicional. Se aísla igual que Fnac
         # porque una caída temporal de una tienda extra no debe impedir que
-        # se publiquen los datos fiables de las demás. La solicitud de
-        # afiliación se gestiona en TradeDoubler; hasta tener el deep-link
-        # aprobado se conservan aquí las URLs directas de producto que
-        # devuelve la API de búsqueda.
+        # se publiquen los datos fiables de las demás. Afiliación aprobada
+        # en TradeDoubler el 2026-09-18 — el enlace de compra usa el
+        # deep-link (toysrus_affiliate_link), no la URL directa.
         toysrus_products = {}
         for label, query in TOYSRUS_STORE["pages"]:
             print(f"🔍 Descubriendo productos en la tienda (ToysRUs/{label})...")
@@ -1543,7 +1559,7 @@ async def main():
             info["marketplace_code"] = TOYSRUS_STORE["code"]
             info["store_label"] = TOYSRUS_STORE["store_label"]
             info["flag"] = TOYSRUS_STORE["flag"]
-            info["link"] = info["url"]
+            info["link"] = toysrus_affiliate_link(info["url"])
             info["categories"] = assign_categories(info["name"])
             products[f"TRU:{product_id}"] = info
 
