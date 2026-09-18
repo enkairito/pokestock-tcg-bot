@@ -1717,7 +1717,7 @@
     "stock": null,
     "first_seen": "2026-09-06T13:57:50.628764+00:00",
     "price": "21,51 €",
-    "pending_price": "21,60 €",
+    "pending_price": "21,55 €",
     "pending_price_count": 1
   },
   "UK:B0DLTZPNR2": {
@@ -1758,8 +1758,10 @@
     "name": "Pokemon Booster Pack - Scarlet & Violet SV1 Base Set - 10 Card Pack - Pack Art Varys",
     "status": "compra_directa",
     "stock": null,
+    "first_seen": "2026-09-08T00:08:50.343349+00:00",
     "price": "33,44 €",
-    "first_seen": "2026-09-08T00:08:50.343349+00:00"
+    "pending_price": "33,76 €",
+    "pending_price_count": 1
   },
   "US:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
@@ -1892,7 +1894,9 @@
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-09-08T14:34:56.335946+00:00",
-    "price": "43,80 €"
+    "price": "43,80 €",
+    "pending_price": "43,97 €",
+    "pending_price_count": 1
   },
   "US:B0D4B515H1": {
     "name": "Pokémon TCG: Escarlata y Violeta - Mini Lata de fábula Envuelta - Okidogi (2 Paquetes de Refuerzo y 1 Hoja de calcomanías)",
@@ -2010,9 +2014,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T09:23:08.319159+00:00",
-    "price": "73,75 €",
-    "pending_price": "77,33 €",
-    "pending_price_count": 1
+    "price": "77,33 €"
   },
   "UK:B0F6PGX3SQ": {
     "name": "Pokémon TCG: Unova Mini Tin – Krookodile & Excadrill (2 Paquetes de Refuerzo y 1 Tarjeta Adhesiva)",
