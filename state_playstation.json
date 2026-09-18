@@ -258,9 +258,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "84,99 €",
-    "pending_price": "99,00 €",
-    "pending_price_count": 1
+    "price": "99,00 €"
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -1140,7 +1138,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:22:34.377644+00:00",
-    "price": "20,49 €"
+    "price": "20,49 €",
+    "pending_price": "20,50 €",
+    "pending_price_count": 1
   },
   "ES:B01H25FDTI": {
     "name": "Playstation Marvel’s Spider-Man (PS4)",
@@ -1996,7 +1996,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498367+00:00",
-    "price": "65,18 €"
+    "price": "65,18 €",
+    "pending_price": "66,05 €",
+    "pending_price_count": 1
   },
   "ES:B0DKFCHCYZ": {
     "name": "Black Myth: Wukong - PS5",
@@ -2164,7 +2166,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499111+00:00",
-    "price": "19,50 €"
+    "price": "16,13 €"
   },
   "ES:B07NRHS623": {
     "name": "The Legend of Heroes: Trails of Cold Steel III [Importación francesa]",
@@ -2178,9 +2180,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499167+00:00",
-    "price": "32,72 €",
-    "pending_price": "33,87 €",
-    "pending_price_count": 1
+    "price": "33,87 €"
   },
   "ES:B0CJG2KCBL": {
     "name": "Rise of the Tomb Raider 20 Year Celebration",
@@ -2510,7 +2510,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500076+00:00",
-    "price": "19,55 €"
+    "price": "19,55 €",
+    "pending_price": "19,71 €",
+    "pending_price_count": 1
   },
   "ES:B09KLKJSQM": {
     "name": "OIVO Soporte PS5/Slim/Pro Horizontal para Consola PlayStation 5, PS5 Suporte Horizontal, Soporte PS5 Acostado, Suporte Horizonta P5 con Tornillo, Accesorios PlayStation 5, Packs de Accesorios",
@@ -2795,9 +2797,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566079+00:00",
-    "price": "31,89 €",
-    "pending_price": "39,39 €",
-    "pending_price_count": 1
+    "price": "39,39 €"
   },
   "ES:B0F2FVLP14": {
     "name": "Death end re;Quest: Code Z - Day One Edition (PS5)",
@@ -2846,9 +2846,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566239+00:00",
-    "price": "24,99 €",
-    "pending_price": "29,99 €",
-    "pending_price_count": 1
+    "price": "29,99 €"
   },
   "ES:B0DHZW9R6Z": {
     "name": "Monster Hunter Wilds Standard Edition - PS5",
@@ -2939,7 +2937,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:31:53.613249+00:00",
-    "price": "31,71 €"
+    "price": "31,67 €"
   },
   "ES:B08M3WY4RV": {
     "name": "eXtremeRate PlayVital Funda de Silicona para ps5 Mando | Goma Suave, Agarre Antideslizante, 6 Tapas para Joysticks, Impermeable, Resistente, Diseño 3D Tachonado, Negro",
@@ -3109,5 +3107,12 @@
     "stock": null,
     "first_seen": "2026-09-18T06:31:41.555268+00:00",
     "price": "15,86 €"
+  },
+  "ES:B0D669NGW7": {
+    "name": "Alan Wake 2 Deluxe Edition - PS5",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T10:31:31.028252+00:00",
+    "price": "28,38 €"
   }
 }
