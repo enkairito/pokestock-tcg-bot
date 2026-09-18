@@ -281,7 +281,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-25T20:27:15.542170+00:00",
-    "price": "38,00 €"
+    "price": "38,00 €",
+    "pending_price": "45,09 €",
+    "pending_price_count": 1
   },
   "ES:B0FXTY9D99": {
     "name": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Caos Creciente (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
@@ -292,7 +294,7 @@
   "ES:B0CT5T766W": {
     "name": "Pokémon: Cofre de Coleccionista - 2022",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-25T20:27:53.163288+00:00",
     "price": "34,99 €"
   },
@@ -1631,7 +1633,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280869+00:00",
-    "price": "111,96 €"
+    "price": "111,95 €"
   },
   "UK:B0DG2XTYDP": {
     "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
