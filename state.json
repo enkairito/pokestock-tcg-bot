@@ -293,7 +293,7 @@
   "ES:B0CT5T766W": {
     "name": "Pokémon: Cofre de Coleccionista - 2022",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-08-25T20:27:53.163288+00:00",
     "price": "34,99 €"
   },
@@ -1717,7 +1717,7 @@
     "stock": null,
     "first_seen": "2026-09-06T13:57:50.628764+00:00",
     "price": "21,51 €",
-    "pending_price": "21,66 €",
+    "pending_price": "21,60 €",
     "pending_price_count": 1
   },
   "UK:B0DLTZPNR2": {
@@ -2010,7 +2010,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T09:23:08.319159+00:00",
-    "price": "73,75 €"
+    "price": "73,75 €",
+    "pending_price": "77,33 €",
+    "pending_price_count": 1
   },
   "UK:B0F6PGX3SQ": {
     "name": "Pokémon TCG: Unova Mini Tin – Krookodile & Excadrill (2 Paquetes de Refuerzo y 1 Tarjeta Adhesiva)",
