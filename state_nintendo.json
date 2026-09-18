@@ -1423,7 +1423,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850774+00:00",
-    "price": "66,99 €"
+    "price": "66,99 €",
+    "pending_price": "68,99 €",
+    "pending_price_count": 1
   },
   "ES:B0BHDDH5W1": {
     "name": "Nintendo Consola Switch - Color Azul Neón/Rojo Neón",
@@ -1925,7 +1927,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688526+00:00",
     "price": "48,00 €",
-    "pending_price": "48,30 €",
+    "pending_price": "48,01 €",
     "pending_price_count": 1
   },
   "ES:B0FL2GS1CT": {
@@ -1933,9 +1935,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688535+00:00",
-    "price": "33,85 €",
-    "pending_price": "34,57 €",
-    "pending_price_count": 1
+    "price": "33,85 €"
   },
   "ES:B0F3NKCYC4": {
     "name": "Super Mario Party: Jamboree - Nintendo Switch 2 Edition + Jamboree TV (Switch 2)",
@@ -1949,23 +1949,21 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688550+00:00",
-    "price": "24,90 €",
-    "pending_price": "24,99 €",
-    "pending_price_count": 1
+    "price": "24,99 €"
   },
   "ES:B0F67CFW4G": {
     "name": "Yakuza 0 Director's Cut - Nintendo Switch 2",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688557+00:00",
-    "price": "60,57 €"
+    "price": "49,99 €"
   },
   "ES:B0F2N76YP7": {
     "name": "Bravely Default Flying Fairy",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688566+00:00",
-    "price": "42,72 €"
+    "price": "39,98 €"
   },
   "ES:B0FH14N89K": {
     "name": "Fantasy Life i La Pequeña Ladrona del Tiempo (The Girl Who Steals Time), Multi-idioma, Edición Japonesa",
@@ -2385,9 +2383,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689550+00:00",
-    "price": "25,16 €",
-    "pending_price": "29,99 €",
-    "pending_price_count": 1
+    "price": "29,99 €"
   },
   "ES:B0D7HZPLFW": {
     "name": "Looney Tunes: Wacky World of Sports - NINTENDO SWITCH",
@@ -3156,14 +3152,18 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T15:58:54.631904+00:00",
-    "price": "29,99 €"
+    "price": "29,99 €",
+    "pending_price": "33,09 €",
+    "pending_price_count": 1
   },
   "ES:B0CXTJ5JT2": {
     "name": "Paper Mario : La Porte Millénaire",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T15:58:54.631914+00:00",
-    "price": "35,87 €"
+    "price": "35,87 €",
+    "pending_price": "35,97 €",
+    "pending_price_count": 1
   },
   "ES:B0C6F6RYH4": {
     "name": "Tokluck 15 en 1 Accesorios Switch Sports, Kit Completo de Accesorio para Nintendo Switch Sports con Organizador para Consola Switch/OLED, Pack de Accesorios Deportivos para Juego en Familia",
