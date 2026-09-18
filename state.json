@@ -1423,9 +1423,7 @@
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-09-04T21:32:58.802801+00:00",
-    "price": "46,73 €",
-    "pending_price": "46,78 €",
-    "pending_price_count": 1
+    "price": "46,69 €"
   },
   "UK:B0C7QXP3FH": {
     "name": "Pokémon TCG: Tinkaton ex Battle Deck (Baraja de 60 Cartas Lista para Jugar)",
@@ -1549,7 +1547,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802936+00:00",
-    "price": "82,22 €"
+    "price": "82,22 €",
+    "pending_price": "82,92 €",
+    "pending_price_count": 1
   },
   "US:B0F2BFSPBN": {
     "name": "Pokémon TCG: Scarlet & Violet - Destined Rivals - Paquete de 3 blíster - Zebstrika (3 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
@@ -1630,10 +1630,9 @@
   },
   "UK:B0GDYP1LRF": {
     "name": "Pokemon TCG | Mega Brave | Caja de refuerzo japonesa (M1L) | Para coleccionistas de más de 15 años",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-05T05:18:07.280869+00:00",
-    "price": "112,06 €"
+    "first_seen": "2026-09-05T05:18:07.280869+00:00"
   },
   "UK:B0DG2XTYDP": {
     "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
