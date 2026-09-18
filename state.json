@@ -292,7 +292,7 @@
   "ES:B0CT5T766W": {
     "name": "Pokémon: Cofre de Coleccionista - 2022",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-08-25T20:27:53.163288+00:00",
     "price": "34,99 €"
   },
@@ -728,7 +728,7 @@
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
     "price": "235,60 €"
   },
@@ -800,7 +800,9 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
-    "price": "63,07 €"
+    "price": "63,07 €",
+    "pending_price": "71,95 €",
+    "pending_price_count": 1
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
@@ -1630,9 +1632,10 @@
   },
   "UK:B0GDYP1LRF": {
     "name": "Pokemon TCG | Mega Brave | Caja de refuerzo japonesa (M1L) | Para coleccionistas de más de 15 años",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-05T05:18:07.280869+00:00"
+    "first_seen": "2026-09-05T05:18:07.280869+00:00",
+    "price": "112,00 €"
   },
   "UK:B0DG2XTYDP": {
     "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",

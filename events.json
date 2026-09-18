@@ -1,18 +1,5 @@
 [
   {
-    "ts": "2026-09-16T14:22:58.642487+00:00",
-    "type": "restock",
-    "asin": "B0FSJXSPPX",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
-    "image": "https://m.media-amazon.com/images/I/61X4gWuo4BL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "89,07 €",
-    "prev_price": null,
-    "link": "https://www.amazon.es/dp/B0FSJXSPPX?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-16T14:22:58.642505+00:00",
     "type": "price_drop",
     "asin": "B0DBHJPLVB",
@@ -778,5 +765,18 @@
     "price": "102,91 €",
     "prev_price": null,
     "link": "https://www.amazon.es/dp/B0DDYZX1TB?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-18T09:42:52.835915+00:00",
+    "type": "restock",
+    "asin": "B0GDYP1LRF",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokemon TCG | Mega Brave | Caja de refuerzo japonesa (M1L) | Para coleccionistas de más de 15 años",
+    "image": "https://m.media-amazon.com/images/I/6146hWIRAXL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "112,00 €",
+    "prev_price": null,
+    "link": "https://www.amazon.es/dp/B0GDYP1LRF?tag=enkairito-21"
   }
 ]
