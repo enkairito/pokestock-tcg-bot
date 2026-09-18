@@ -1423,7 +1423,9 @@
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-09-04T21:32:58.802801+00:00",
-    "price": "46,77 €"
+    "price": "46,77 €",
+    "pending_price": "46,83 €",
+    "pending_price_count": 1
   },
   "UK:B0C7QXP3FH": {
     "name": "Pokémon TCG: Tinkaton ex Battle Deck (Baraja de 60 Cartas Lista para Jugar)",
@@ -1709,7 +1711,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "137,76 €"
+    "price": "137,73 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
@@ -1798,8 +1800,8 @@
     "name": "Pokémon TCG: Baraja de batalla Greninja ex (mazo de 60 cartas listo para jugar)",
     "status": "compra_directa",
     "stock": "1",
-    "price": "43,08 €",
-    "first_seen": "2026-09-08T14:34:56.335833+00:00"
+    "first_seen": "2026-09-08T14:34:56.335833+00:00",
+    "price": "43,08 €"
   },
   "UK:B0FNLMQ5RN": {
     "name": "Pokémon TCG: Scarlet & Violet Expansion – Glory of Team Rocket (SV10) Booster Pack – JPN",
