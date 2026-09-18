@@ -1307,7 +1307,14 @@ TODOCONSOLAS_STORE = {
     "store_label": "TodoConsolas",
     "tag": None,
     "pages": [
-        ("Pokémon TCG", "https://www.todoconsolas.com/busqueda?s=pokemon+tcg"),
+        # Filtro a marca "The Pokemon Company" + condición "Nuevo" (excluye
+        # segunda mano) — confirmado el 2026-09-18 que sí se aplica de
+        # verdad server-side (a diferencia del enlace de campaña de Google
+        # Ads probado antes, que no filtraba nada).
+        (
+            "Pokémon TCG",
+            "https://www.todoconsolas.com/busqueda?s=pokemon%20tcg&filter=brand%3AThe%20Pokemon%20Company&filter=condition%3ANuevo&mot_p=3&mot_q=pokemon%20tcg",
+        ),
     ],
 }
 TODOCONSOLAS_CARD_RE = re.compile(
