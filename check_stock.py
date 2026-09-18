@@ -7,6 +7,7 @@ import random
 import re
 import sys
 import unicodedata
+import uuid
 from collections import defaultdict
 from datetime import datetime, timezone
 from io import BytesIO
@@ -1287,93 +1288,96 @@ async def discover_mediamarkt_products(page, label, url):
     return products
 
 
-# TodoConsolas (todoconsolas.com, tienda de segunda mano en PrestaShop). El
-# enlace de campaña de Google Ads que se probó primero (con gclid/gbraid)
-# NO aplica ningún filtro server-side — cae en la portada genérica con
-# widgets de recomendación aleatorios. El buscador nativo de PrestaShop sí
-# funciona: ``/busqueda?s=pokemon+tcg``, paginado con ``&page=N`` (confirmado
-# el 2026-09-18). Navegar con page.goto() (navegador completo) dispara un 429
-# de forma consistente aunque una petición HTTP simple (curl, o
-# page.request.get() como aquí) funciona sin problema — mismo patrón que
-# ToysRUs, así que se usa la API de request en vez de render completo, y se
-# parsea el HTML con regex directamente.
-# No se ha visto ningún ejemplo de producto agotado en los ~48 resultados
-# muestreados — puede que PrestaShop oculte los agotados de la búsqueda en
-# vez de marcarlos, así que "compra_directa" es el estado por defecto salvo
-# que la tarjeta lleve la etiqueta ``.preorder`` (reserva/preventa).
+# TodoConsolas (todoconsolas.com, tienda de segunda mano) usa un widget de
+# búsqueda de terceros llamado Motive (de ahí los parámetros "mot_p"/"mot_q"
+# de la URL de la ficha del sitio) para la búsqueda con filtros — la página
+# de resultados se rellena por JavaScript dentro de la propia portada, así
+# que ni una petición HTTP simple ni un render de página sin más lo detectan
+# (confirmado el 2026-09-19 con capturas de red reales: el título y el HTML
+# nunca cambian, todo pasa por una llamada a la API). Esa API
+# (search.api.motive.co) responde JSON limpio, sin cookies ni bloqueo,
+# incluida disponibilidad real (``availability.allow_order``/``stock``) y
+# reserva (``f4: ["Sí"]``) — bastante mejor que intentar leer el HTML
+# público de todoconsolas.com, que si bloquea a Playwright/GitHub Actions
+# con 429/403 de forma consistente.
+# facet_f8=Coleccionismo + facet_brand=The+Pokemon+Company confirmados a
+# mano en el sitio como los filtros que dan los 57 resultados reales (no la
+# búsqueda genérica "pokemon tcg", que mezcla vídeojuegos/merchandising no
+# relacionados con el TCG).
 TODOCONSOLAS_STORE = {
     "code": "TC",
     "flag": "",
     "store_label": "TodoConsolas",
     "tag": None,
-    "pages": [
-        # Filtro a marca "The Pokemon Company" + condición "Nuevo" (excluye
-        # segunda mano) — confirmado el 2026-09-18 que sí se aplica de
-        # verdad server-side (a diferencia del enlace de campaña de Google
-        # Ads probado antes, que no filtraba nada).
-        (
-            "Pokémon TCG",
-            "https://www.todoconsolas.com/busqueda?s=pokemon%20tcg&filter=brand%3AThe%20Pokemon%20Company&filter=condition%3ANuevo&mot_p=3&mot_q=pokemon%20tcg",
-        ),
-    ],
+    "pages": [("Pokémon TCG", "pokemon tcg")],
 }
-TODOCONSOLAS_CARD_RE = re.compile(
-    r'<article class="product-miniature[^"]*"[^>]*data-id-product="(\d+)".*?'
-    r'<a[^>]+href="([^"]+)"[^>]*class="thumbnail product-thumbnail".*?'
-    r'<img[^>]*(?:data-src|src)\s*=\s*"([^"]*)"[^>]*alt\s*=\s*"([^"]*)".*?'
-    r'itemprop="name">([^<]+)</h2>',
-    re.DOTALL,
-)
-TODOCONSOLAS_PRICE_RE = re.compile(r'itemprop="price"[^>]*content="(\d+,\d{2})')
-TODOCONSOLAS_PREORDER_RE = re.compile(r'class="preorder"')
+TODOCONSOLAS_SEARCH_API = "https://search.api.motive.co/search"
+TODOCONSOLAS_ENGINE_ID = "6f845b3e-ebfd-4e7b-9a9c-73e963abd5d8"
 
 
-async def discover_todoconsolas_products(page, label, base_url):
-    products = {}
-    for page_num in range(1, 21):
-        url = base_url if page_num == 1 else f"{base_url}&page={page_num}"
-        response = await page.request.get(url)
-        if response.status == 429:
-            raise ScrapeError(f"Límite de peticiones (429) en TodoConsolas/{label}; se conserva la publicación anterior")
+async def discover_todoconsolas_products(page, label, query):
+    session_id = str(uuid.uuid4())
+    rows = 95  # la API rechaza rows >= 96 con un 400
+    docs = []
+    start = 0
+    while True:
+        response = await page.request.get(
+            TODOCONSOLAS_SEARCH_API,
+            params={
+                "x-engine-id": TODOCONSOLAS_ENGINE_ID,
+                "x-origin": "default",
+                "x-query-session-id": session_id,
+                "x-search-id": session_id,
+                "internal": "true",
+                "query": query,
+                "start": str(start),
+                "rows": str(rows),
+                "origin": "url:external",
+                "variantSelector": "false",
+                "facet_f8": "Coleccionismo",
+                "facet_brand": "The Pokemon Company",
+            },
+        )
         if response.status >= 400:
             raise ScrapeError(f"Respuesta HTTP inválida en TodoConsolas/{label} (status {response.status})")
-        html_text = await response.text()
-
-        if any(marker in html_text.lower() for marker in CAPTCHA_MARKERS):
-            raise ScrapeError(f"Captcha en TodoConsolas/{label}")
-
-        # Cada tarjeta es un bloque <article>...</article>; se recorta por
-        # tarjeta para que el regex de precio/preorder no se cuele en la
-        # siguiente ficha (el patrón de arriba no cierra el <article>).
-        articles = html_text.split('<article class="product-miniature')[1:]
-
-        new_count = 0
-        for article_html in articles:
-            card_match = TODOCONSOLAS_CARD_RE.search('<article class="product-miniature' + article_html[:4000])
-            if not card_match:
-                continue
-            product_id, href, _img_src1, _alt, name = card_match.groups()
-            if product_id in products:
-                continue
-            new_count += 1
-
-            price_match = TODOCONSOLAS_PRICE_RE.search(article_html[:4000])
-            price = f"{price_match.group(1)} €" if price_match else None
-            is_preorder = bool(TODOCONSOLAS_PREORDER_RE.search(article_html[:2000]))
-
-            image_match = re.search(r'data-full-size-image-url\s*=\s*"([^"]+)"', article_html[:2000])
-
-            products[product_id] = {
-                "name": html.unescape(name.strip()),
-                "price": price,
-                "original_price": None,
-                "image": image_match.group(1) if image_match else None,
-                "stock": None,
-                "status": "preventa" if is_preorder else "compra_directa",
-                "url": href if href.startswith("http") else f"https://www.todoconsolas.com{href}",
-            }
-        if new_count == 0:
+        data = await response.json()
+        page_docs = (data.get("hits") or {}).get("docs") or []
+        docs.extend(page_docs)
+        total = (data.get("pagination") or {}).get("total", len(docs))
+        start += rows
+        if not page_docs or start >= total:
             break
+
+    products = {}
+    for doc in docs:
+        product_id = doc.get("id")
+        name = doc.get("name")
+        if not product_id or not name:
+            continue
+
+        availability = doc.get("availability") or {}
+        allow_order = bool(availability.get("allow_order"))
+        is_reservable = "Sí" in (doc.get("f4") or [])
+        if allow_order:
+            status = "compra_directa"
+        elif is_reservable:
+            status = "preventa"
+        else:
+            status = "no_disponible"
+
+        price = doc.get("price") or {}
+        price_value = price.get("regular")
+        images = doc.get("images") or []
+
+        products[product_id] = {
+            "name": name,
+            "price": f"{price_value:.2f} €".replace(".", ",") if isinstance(price_value, (int, float)) else None,
+            "original_price": None,
+            "image": images[0]["url"] if images else None,
+            "stock": availability.get("stock"),
+            "status": status,
+            "url": doc.get("url"),
+        }
 
     if not products:
         raise ScrapeError(f"Sin productos verificables en TodoConsolas/{label}; se conserva la publicación anterior")
@@ -2019,13 +2023,7 @@ async def main():
         # ES, El Corte Inglés, Carrefour, Fnac, ToysRUs y GAME). El resto de
         # marketplaces (UK, US) se siguen detectando y guardando en el
         # estado/snapshot para la web, pero no generan mensajes.
-        # "TC" (TodoConsolas) queda fuera de esta lista TEMPORALMENTE: se
-        # acaba de añadir con 247 productos y state.json todavía no tiene
-        # ninguna entrada "TC:" — sin este guard, la primera ejecución real
-        # trataría los 247 como "restock" nuevo y mandaría 247 alertas de
-        # golpe. Se reactiva en cuanto state.json tenga esas entradas
-        # sembradas (tras la primera ejecución real o un sembrado manual).
-        if (status_changed or stock_decreased or price_decreased) and info["marketplace_code"] in ("ES", "ECI", "CAR", "FNAC", "TRU", "GAME", "MM"):
+        if (status_changed or stock_decreased or price_decreased) and info["marketplace_code"] in ("ES", "ECI", "CAR", "FNAC", "TRU", "GAME", "MM", "TC"):
             # El nombre, el precio y (para ECI/Carrefour/Fnac) el link vienen
             # del scraping de Amazon/El Corte Inglés/Carrefour/Fnac/ToysRUs — datos
             # externos que no controlamos — y el mensaje se manda con parse_mode:

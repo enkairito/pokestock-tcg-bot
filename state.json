@@ -3044,5 +3044,404 @@
     "stock": null,
     "first_seen": "2026-09-18T18:43:50.406043+00:00",
     "price": "17,70 €"
+  },
+  "TC:189957": {
+    "name": "Mini Portafolio de Cartas Pokemon TCG",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "7,95 €"
+  },
+  "TC:191867": {
+    "name": "Mini Portafolio de Cartas Pokemon TCG Modelo Greninja",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "7,95 €"
+  },
+  "TC:209623": {
+    "name": "Coleccion Zacian EX de Paul Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "37,95 €"
+  },
+  "TC:199812": {
+    "name": "Coleccion Premium Heroes Ascendentes Pokemon TCG (LAT)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "84,95 €"
+  },
+  "TC:207414": {
+    "name": "Coleccion Coleccionista 2024 Back to School Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "34,95 €"
+  },
+  "TC:189375": {
+    "name": "ETB Corona Astral Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "67,95 €"
+  },
+  "TC:189491": {
+    "name": "Sobre Evoluciones en Paldea Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "6,95 €"
+  },
+  "TC:209625": {
+    "name": "Coleccion Ursaluna Luna Carmesi EX Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "37,95 €"
+  },
+  "TC:203478": {
+    "name": "Sobre Chispas Fulgurantes Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "5,95 €"
+  },
+  "TC:203490": {
+    "name": "Sobre Juntos de Aventuras Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "5,95 €"
+  },
+  "TC:209622": {
+    "name": "Coleccion Palafin EX Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "37,95 €"
+  },
+  "TC:209633": {
+    "name": "Coleccion Houndstone EX Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "37,95 €"
+  },
+  "TC:201199": {
+    "name": "Bundle Heroes Ascendentes Pokemon TCG (LAT)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "69,95 €"
+  },
+  "TC:209621": {
+    "name": "Lata Pokeball Octubre 2024 Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "22,95 €"
+  },
+  "TC:206179": {
+    "name": "Lata Leyendas Azules Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "32,95 €"
+  },
+  "TC:191894": {
+    "name": "Bundle Fuerzas Temporales Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "39,95 €"
+  },
+  "TC:187573": {
+    "name": "Blister Brecha Paradojica Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "19,95 €"
+  },
+  "TC:208293": {
+    "name": "Coleccion Premium Mega Zygarde EX Pokemon TCG (EN)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "79,95 €"
+  },
+  "TC:192703": {
+    "name": "Lata Destinos Paradojicos Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "29,95 €"
+  },
+  "TC:187548": {
+    "name": "Sobre Brecha Paradojica Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "5,95 €"
+  },
+  "TC:187552": {
+    "name": "Sobre Mascarada Crepuscular Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "5,95 €"
+  },
+  "TC:187565": {
+    "name": "Sobre Llamas Obsidianas Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "7,95 €"
+  },
+  "TC:187571": {
+    "name": "Sobre Corona Astral Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "5,95 €"
+  },
+  "TC:197365": {
+    "name": "Sobre Escarlata y Purpura Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "6,50 €"
+  },
+  "TC:175464": {
+    "name": "Lata 2025 Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "24,95 €"
+  },
+  "TC:209605": {
+    "name": "Lata Megaluz Lunar Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "34,95 €"
+  },
+  "TC:167256": {
+    "name": "Coleccion Grafaiai EX Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "37,95 €"
+  },
+  "TC:209631": {
+    "name": "Lata Pokeball Best Of 2021 Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "22,95 €"
+  },
+  "TC:206161": {
+    "name": "Coleccion Coleccion Cyclizar EX Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "32,95 €"
+  },
+  "TC:194174": {
+    "name": "Coleccion Figura Mega Lucario EX Pokemon TCG (LAT)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "39,95 €"
+  },
+  "TC:195948": {
+    "name": "Blister Heroes Ascendentes Pokemon TCG (LAT)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "27,95 €"
+  },
+  "TC:191908": {
+    "name": "Minilata Esplendor de Paldea Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "17,95 €"
+  },
+  "TC:201198": {
+    "name": "Baraja de Combate Tapu Koko EX o Ferroverdor EX Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "14,95 €"
+  },
+  "TC:209627": {
+    "name": "Coleccion Electrode de Hisui V Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "39,95 €"
+  },
+  "TC:208413": {
+    "name": "Coleccion Premium Mega Greninja EX Pokemon TCG (EN)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "79,95 €"
+  },
+  "TC:187553": {
+    "name": "Blister Corona Astral Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "19,95 €"
+  },
+  "TC:209628": {
+    "name": "Cofre de Aventuras Paldea Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "69,95 €"
+  },
+  "TC:187569": {
+    "name": "Blister Fabula Sombria Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "19,95 €"
+  },
+  "TC:197270": {
+    "name": "Coleccion Premium Mega Venusaur EX Pokemon TCG (LAT)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "49,95 €"
+  },
+  "TC:191889": {
+    "name": "Lata Brecha Paradojica Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "34,95 €"
+  },
+  "TC:180566": {
+    "name": "Coleccion Torneo Premium Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "54,95 €"
+  },
+  "TC:187566": {
+    "name": "Blister Fuerzas Temporales Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "19,95 €"
+  },
+  "TC:187534": {
+    "name": "Sobre Corona Astral Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "5,95 €"
+  },
+  "TC:187551": {
+    "name": "Sobre Fuerzas Temporales Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "5,95 €"
+  },
+  "TC:187536": {
+    "name": "Blister Mascarada Crepuscular Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "19,95 €"
+  },
+  "TC:191914": {
+    "name": "Bundle Fabula Sombria Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "39,95 €"
+  },
+  "TC:206995": {
+    "name": "Blister Oscuridad Absoluta Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "19,95 €"
+  },
+  "TC:208130": {
+    "name": "Bundle Celebracion 30 Aniversario Pokemon TCG (ES)",
+    "status": "preventa",
+    "stock": 0.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "34,95 €"
+  },
+  "TC:208161": {
+    "name": "Caja Album Celebracion 30 Aniversario Pokemon TCG (ES)",
+    "status": "preventa",
+    "stock": 0.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "59,95 €"
+  },
+  "TC:208156": {
+    "name": "Coleccion Premium Celebracion 30 Aniversario Pokemon TCG (ES)",
+    "status": "preventa",
+    "stock": 0.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "57,95 €"
+  },
+  "TC:208142": {
+    "name": "ETB Ultrapremium 2 Celebracion 30 Aniversario Pokemon TCG (ES)",
+    "status": "preventa",
+    "stock": 0.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "249,95 €"
+  },
+  "TC:208155": {
+    "name": "ETB Ultrapremium 1 Celebracion 30 Aniversario Pokemon TCG (ES)",
+    "status": "preventa",
+    "stock": 0.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "249,95 €"
+  },
+  "TC:208147": {
+    "name": "Coleccion Figura Mew Celebracion 30 Aniversario Pokemon TCG (ES)",
+    "status": "preventa",
+    "stock": 0.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "49,95 €"
+  },
+  "TC:208172": {
+    "name": "Coleccion Figura Mewtwo Celebracion 30 Aniversario Pokemon TCG (ES)",
+    "status": "preventa",
+    "stock": 0.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "49,95 €"
+  },
+  "TC:208129": {
+    "name": "Lata Celebracion 30 Aniversario Pokemon TCG (ES)",
+    "status": "preventa",
+    "stock": 0.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "16,95 €"
+  },
+  "TC:208157": {
+    "name": "Baraja de Combate Celebracion 30 Aniversario Pokemon TCG (ES)",
+    "status": "preventa",
+    "stock": 0.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "34,95 €"
+  },
+  "TC:197287": {
+    "name": "Blister Fuegos Fantasmales Pokemon TCG (ES)",
+    "status": "no_disponible",
+    "stock": 0.0,
+    "first_seen": "2026-09-18T22:34:28.415246+00:00",
+    "price": "19,95 €"
   }
 }
