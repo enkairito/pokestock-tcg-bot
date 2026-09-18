@@ -346,7 +346,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T10:47:55.002254+00:00",
-    "price": "109,99 €"
+    "price": "109,99 €",
+    "pending_price": "129,51 €",
+    "pending_price_count": 1
   },
   "ES:B0G86Z6QYF": {
     "name": "Mazo temático de 60 Cartas de Magic: The Gathering - Inquietante (Versión en Inglés)",
