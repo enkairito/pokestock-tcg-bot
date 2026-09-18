@@ -1499,7 +1499,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802898+00:00",
-    "price": "104,22 €"
+    "price": "104,22 €",
+    "pending_price": "104,25 €",
+    "pending_price_count": 1
   },
   "US:B0C4D4R3H8": {
     "name": "Pokémon JCC: Estuche Courrousinge-ex",
@@ -1708,7 +1710,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "137,66 €"
+    "price": "137,65 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
@@ -1826,9 +1828,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-08T14:34:56.335876+00:00",
-    "price": "54,70 €",
-    "pending_price": "55,58 €",
-    "pending_price_count": 1
+    "price": "55,58 €"
   },
   "UK:B00TA6E3KI": {
     "name": "100 Assorted Basic Pokemon TCG Energy Cards",
