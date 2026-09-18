@@ -16,9 +16,9 @@
   "ES:B0HC7Q9P41": {
     "name": "Juego de cartas de una pieza ST-35 rojo y negro Sabo | Baraja de inicio, ST-35, rojo y negro, Sabo, juego de cartas coleccionables",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "5",
     "first_seen": "2026-08-29T18:08:37.714905+00:00",
-    "price": "32,00 €"
+    "price": "26,00 €"
   },
   "ES:B0HC7FPQJM": {
     "name": "Juego de cartas de una pieza ST-31 Red Monkey.D.Luffy",
@@ -32,7 +32,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-08-29T18:08:49.282666+00:00",
-    "price": "30,00 €"
+    "price": "26,00 €"
   },
   "ES:B0CRKK3D43": {
     "name": "One Piece TCG: 500 Years In The Future - Booster Pack (OP-07) (JP) (TCG)",
@@ -65,9 +65,9 @@
   "ES:B0HC79T34C": {
     "name": "Juego de cartas de una pieza ST-33 Blue Kuzan | Baraja de inicio, ST-33, Blue Kuzan, juego de cartas coleccionables",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": null,
     "first_seen": "2026-08-29T18:09:23.560405+00:00",
-    "price": "30,00 €"
+    "price": "26,00 €"
   },
   "ES:B0FL83L295": {
     "name": "One Piece TCG Starter Deck: Ace & Newgate (ST-22) - 51 Tarjetas",
@@ -241,23 +241,21 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T20:33:38.638411+00:00",
-    "price": "436,00 €",
-    "pending_price": "451,00 €",
-    "pending_price_count": 1
+    "price": "436,00 €"
   },
   "ES:B0HFD53BDB": {
     "name": "One Piece TCG: The World's Strongest Warriors - Juego de doble paquete Vol. 12 DP-12 (2 paquetes OP-17)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "2",
     "first_seen": "2026-09-06T00:36:37.394759+00:00",
     "price": "74,32 €"
   },
   "ES:B0HC7DT1ZY": {
     "name": "Juego de cartas de una pieza Starter Deck ST-36 amarillo Eustass Captain Kid",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "4",
     "first_seen": "2026-09-08T09:40:16.326555+00:00",
-    "price": "40,01 €"
+    "price": "27,00 €"
   },
   "ES:B0DW3R4T9G": {
     "name": "BANDAI ONE PIECE - Caja de refuerzo de cartas Master and Student Bonds (OP-12) (japonés) - 24 paquetes",
