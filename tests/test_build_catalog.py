@@ -284,6 +284,24 @@ class CatalogTests(unittest.TestCase):
             build_site(root, ["magic.json"])
             self.assertFalse((root / "set").exists())
 
+    def test_build_generates_groups_review_queue_and_persistent_overrides(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "producto.html").write_text(TEMPLATE, encoding="utf-8")
+            (root / "sitemap.xml").write_text('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"/>', encoding="utf-8")
+            first_store = {**PRODUCT, "name": "Magic Tarkir Dragonstorm Booster"}
+            other_store = {**first_store, "asin": "B000000002", "marketplace": "UK"}
+            (root / "magic.json").write_text(json.dumps(self.snapshot([first_store, other_store])), encoding="utf-8")
+            changed = build_site(root, ["magic.json"])
+            self.assertIn("product-groups.json", changed)
+            self.assertIn("grouping-review.json", changed)
+            self.assertIn("product-group-overrides.json", changed)
+            groups = json.loads((root / "product-groups.json").read_text(encoding="utf-8"))
+            self.assertEqual(groups["summary"]["groups"], 1)
+            self.assertEqual(groups["summary"]["grouped_offers"], 2)
+            overrides = json.loads((root / "product-group-overrides.json").read_text(encoding="utf-8"))
+            self.assertEqual(overrides["assign"], {})
+
     def test_set_slug_is_restricted_to_safe_characters(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

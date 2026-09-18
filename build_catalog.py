@@ -14,6 +14,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 from gaming_product_filter import is_non_gaming_product
+from product_grouping import DEFAULT_OVERRIDES as DEFAULT_GROUP_OVERRIDES, build_groups
 from stock_logic import alert_changes, price_to_float
 
 SOURCES = ("products.json", "onepiece.json", "magic.json", "lorcana.json", "yugioh.json", "nintendo.json", "playstation.json", "xbox.json", "accesorios.json")
@@ -554,6 +555,22 @@ def build_site(folder, sources):
             old = products.get(key)
             if old is None or (product.get("status") != "sin_confirmar", product.get("last_seen", "")) > (old.get("status") != "sin_confirmar", old.get("last_seen", "")):
                 products[key] = product
+
+    overrides_path = folder / "product-group-overrides.json"
+    if overrides_path.exists():
+        group_overrides = read_json(overrides_path, DEFAULT_GROUP_OVERRIDES)
+    else:
+        group_overrides = DEFAULT_GROUP_OVERRIDES
+        overrides_path.write_text(json.dumps(group_overrides, ensure_ascii=False, indent=2), encoding="utf-8")
+        changed.append(overrides_path.name)
+    grouped_products, grouping_review = build_groups(list(products.values()), group_overrides)
+    for path, payload in (
+        (folder / "product-groups.json", grouped_products),
+        (folder / "grouping-review.json", grouping_review),
+    ):
+        path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+        changed.append(path.name)
+
     sets_path = folder / "sets.json"
     set_template_path = folder / "set.html"
     sets = read_json(sets_path, {}) if set_template_path.exists() else {}
