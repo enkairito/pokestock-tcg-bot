@@ -611,9 +611,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478284+00:00",
-    "price": "8,95 €",
-    "pending_price": "9,95 €",
-    "pending_price_count": 1
+    "price": "9,95 €"
   },
   "ES:B0977RRHJG": {
     "name": "Videojuego para Switch Ubisoft Mario+Rabbids Sparks of Hope",
@@ -1928,9 +1926,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688526+00:00",
-    "price": "48,00 €",
-    "pending_price": "48,01 €",
-    "pending_price_count": 1
+    "price": "48,00 €"
   },
   "ES:B0FL2GS1CT": {
     "name": "Survival Kids - Switch 2 [Nintendo Switch 2 - Key Card]",
@@ -2056,7 +2052,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
-    "price": "40,90 €"
+    "price": "40,90 €",
+    "pending_price": "46,84 €",
+    "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
     "name": "Nintendo Switch Lite - Consola Coral + Animal Crossing + 12 meses NSO",
@@ -2471,9 +2469,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689720+00:00",
-    "price": "53,60 €",
-    "pending_price": "54,60 €",
-    "pending_price_count": 1
+    "price": "54,60 €"
   },
   "ES:B0FDWT9YGP": {
     "name": "RLSOCO Funda para Nintendo Switch 2 Consola 2025 - Estuche de Viaje con 8 Ranuras para Tarjetas de Juego (Rosa)",
