@@ -15,9 +15,8 @@
   },
   "ES:B0GMRC58KQ": {
     "name": "Pokémon: Lata Mega-Charizard de JCC Pokémon: Mega-Charizard X ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null,
-    "price": "24,99 €",
     "first_seen": "2026-08-25T20:27:54.285198+00:00"
   },
   "ES:B0GMR6ZK3R": {
@@ -208,8 +207,8 @@
     "name": "Pokémon: Minilata Ciudad Luminalia: Salamence y Litleo de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
     "status": "invitacion",
     "stock": null,
-    "price": "10,99 €",
-    "first_seen": "2026-08-25T20:27:54.285139+00:00"
+    "first_seen": "2026-08-25T20:27:54.285139+00:00",
+    "price": "10,99 €"
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -729,7 +728,7 @@
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
     "price": "235,60 €"
   },
