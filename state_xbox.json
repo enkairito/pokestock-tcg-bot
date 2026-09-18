@@ -84,7 +84,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388322+00:00",
-    "price": "27,88 €"
+    "price": "19,90 €"
   },
   "ES:B01M6YIR2E": {
     "name": "Red Dead Redemption 2 (Xbox One)",
@@ -128,7 +128,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388338+00:00",
-    "price": "69,99 €"
+    "price": "49,99 €"
   },
   "ES:B08KVH51VX": {
     "name": "NEED FOR SPEED HOT PURSUIT REMASTERED",
@@ -839,9 +839,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:21:08.267403+00:00",
-    "price": "26,56 €",
-    "pending_price": "42,95 €",
-    "pending_price_count": 1
+    "price": "42,95 €"
   },
   "ES:B07M7X2JLB": {
     "name": "Dark Souls Trilogy - Xbox One [Importación inglesa]",
@@ -990,7 +988,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "35,56 €"
+    "price": "35,56 €",
+    "pending_price": "35,93 €",
+    "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1859,9 +1859,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256367+00:00",
-    "price": "44,90 €",
-    "pending_price": "49,90 €",
-    "pending_price_count": 1
+    "price": "49,90 €"
   },
   "ES:B0F83XP97Q": {
     "name": "Mafia: The Old Country Standard Edition XBX",
@@ -2569,9 +2567,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257596+00:00",
-    "price": "53,60 €",
-    "pending_price": "57,83 €",
-    "pending_price_count": 1
+    "price": "57,83 €"
   },
   "ES:B07HB851JR": {
     "name": "Xbox One soporte de pared (juego de 4 esquinas): Negro",
@@ -2725,9 +2721,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257703+00:00",
-    "price": "124,99 €",
-    "pending_price": "132,27 €",
-    "pending_price_count": 1
+    "price": "132,27 €"
   },
   "ES:B0B433VFVQ": {
     "name": "Venom Paquetes de baterías de repuesto para base de carga Xbox, blancos (Xbox Series X y S/Xbox One)",
