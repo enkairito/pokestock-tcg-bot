@@ -309,7 +309,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018808+00:00",
-    "price": "25,12 €"
+    "price": "18,98 €"
   },
   "ES:B09KTGP5C2": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition, PlayStation 4",
@@ -1150,7 +1150,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:22:34.377710+00:00",
-    "price": "24,99 €"
+    "price": "24,98 €"
   },
   "ES:B0DPHGSSWH": {
     "name": "Fenolical Soporte Delgado para PS5/PS5 con Ventilador de Refrigeración Ajustable, Soporte de Cargador de Refrigeración Vertical PS5 para PS5/PS5 Slim, Estación de Refrigeración Delgada Multifuncional",
@@ -2106,7 +2106,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498807+00:00",
-    "price": "75,17 €"
+    "price": "74,00 €"
   },
   "ES:B01H0CBMXO": {
     "name": "Electronic Arts - Titanfall 2",
@@ -2246,7 +2246,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499475+00:00",
-    "price": "21,90 €"
+    "price": "21,90 €",
+    "pending_price": "37,99 €",
+    "pending_price_count": 1
   },
   "ES:B07MNT9XFC": {
     "name": "Assassin's Creed Odyssey",
@@ -2507,7 +2509,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500079+00:00",
-    "price": "21,99 €"
+    "price": "18,99 €"
   },
   "ES:B07W6J6TG5": {
     "name": "Logitech G G335, Auriculares para Gaming con Cable | Micrófono abatible silenciar, audio 3,5 mm, almohadillas viscoelásticas, PC, PS, Xbox, Switch/Switch 2 - Negro",
@@ -3136,7 +3138,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:32:05.432903+00:00",
-    "price": "26,90 €"
+    "price": "26,90 €",
+    "pending_price": "53,94 €",
+    "pending_price_count": 1
   },
   "ES:B0C5N7L6N1": {
     "name": "MORTAL KOMBAT 1 Standard Edition (PS5)",
@@ -3185,7 +3189,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:32:05.433466+00:00",
-    "price": "92,90 €"
+    "price": "82,99 €"
   },
   "ES:B0GQ3GRR4H": {
     "name": "deleyCON 2m Cable Extensión HDMI 2.1 8K - para TV, Monitor, PS4, PS5, Xbox, Dolby Atmos Soundbar EARC HDR10+ 48Gbps Extensión Acoplador Adaptador - 8K@60Hz, 4K@120Hz/144Hz, 2K@240Hz",
@@ -3256,5 +3260,19 @@
     "stock": null,
     "first_seen": "2026-09-18T14:31:52.732499+00:00",
     "price": "31,99 €"
+  },
+  "ES:B08QNST4HV": {
+    "name": "IT TAKES TWO PS4 - PlayStation 4 [Importación italiana]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T22:31:32.294326+00:00",
+    "price": "33,61 €"
+  },
+  "ES:B09C29Y4D4": {
+    "name": "Remotto5 - Cargador para Mando de PS5 Inalámbrico - Batería Portátil para DualSense Juega Mientras Carga - Larga Duración +12 Horas de Autonomía - PS5 Accesorios",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T22:31:32.294483+00:00",
+    "price": "29,95 €"
   }
 }
