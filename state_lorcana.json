@@ -59,7 +59,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:41:42.887252+00:00",
-    "price": "60,26 €"
+    "price": "60,26 €",
+    "pending_price": "60,27 €",
+    "pending_price_count": 1
   },
   "ES:B0CFRBX7GW": {
     "name": "Disney Lorcana Trading Card Game: Set 4 – Starter Deck B",
@@ -206,7 +208,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-10T11:31:24.750843+00:00",
-    "price": "26,04 €"
+    "price": "26,03 €"
   },
   "ES:B0DTK163XP": {
     "name": "Ravensburger - Disney Lorcana TCG: Set 9 Caja Cartas Pluto | Caja para Cartas De Colección con Capacidad para 80 | Disney Lorcana con Un Diseño Único | Card Sleeves",
@@ -219,18 +221,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-10T16:33:40.832890+00:00",
-    "price": "30,75 €",
-    "pending_price": "31,73 €",
-    "pending_price_count": 1
+    "price": "31,73 €"
   },
   "ES:B0GHPRLZ7B": {
     "name": "Ravensburger Disney Lorcana TCG: Collection Starter Set - Edición Stitch - Incluye 4 paquetes de refuerzo Winterspell, cartera de cartas Rock Star y promoción de papel brillante - Guía del",
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-11T00:16:46.734698+00:00",
-    "price": "74,98 €",
-    "pending_price": "125,54 €",
-    "pending_price_count": 1
+    "price": "125,54 €"
   },
   "ES:B0CSZ6H1SN": {
     "name": "Disney Lorcana Trading Card Game – Shimmering Skies – Illumnieer's Trove",
