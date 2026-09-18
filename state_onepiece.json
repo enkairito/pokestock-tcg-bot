@@ -9,7 +9,7 @@
   "ES:B0F1SJY5S3": {
     "name": "The Best Vol. 2 Premium Booster Box PRB-02 (10) – Juego de cartas de One Piece – JP",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "3",
     "first_seen": "2026-08-29T18:08:32.013738+00:00",
     "price": "113,41 €"
   },
@@ -51,9 +51,9 @@
   "ES:B0CRY385YN": {
     "name": "One Piece TCG: Two Legends - Booster Box (OP-08) (JP) (TCG)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-08-29T18:09:10.514835+00:00",
-    "price": "169,99 €"
+    "price": "139,90 €"
   },
   "ES:B0HC7LPXB4": {
     "name": "Juego de cartas de una pieza ST-32 verde Roronoa Zoro | Baraja de inicio, ST-32, juego de cartas coleccionables, Roronoa Zoro, mazo verde",
@@ -225,9 +225,11 @@
   "ES:B0DZ25YM9N": {
     "name": "One Piece TCG Starter Deck EX: Gear 5 (ST21) - 51 Cartas, Mangas, Paquete de bonificación",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-09-03T14:54:32.874380+00:00",
-    "price": "69,00 €"
+    "price": "69,00 €",
+    "pending_price": "90,30 €",
+    "pending_price_count": 1
   },
   "ES:B0FX1Z5SPZ": {
     "name": "One Piece Card Game Egghead Crisis EB-04 Extra Booster Box (japonés) - 24 paquetes",
@@ -241,7 +243,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T20:33:38.638411+00:00",
-    "price": "436,00 €"
+    "price": "436,00 €",
+    "pending_price": "451,00 €",
+    "pending_price_count": 1
   },
   "ES:B0HFD53BDB": {
     "name": "One Piece TCG: The World's Strongest Warriors - Juego de doble paquete Vol. 12 DP-12 (2 paquetes OP-17)",
