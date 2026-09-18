@@ -503,7 +503,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "168,86 €"
+    "price": "168,86 €",
+    "pending_price": "209,72 €",
+    "pending_price_count": 1
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -987,9 +989,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "35,95 €",
-    "pending_price": "36,87 €",
-    "pending_price_count": 1
+    "price": "36,87 €"
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -2078,9 +2078,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256930+00:00",
-    "price": "18,00 €",
-    "pending_price": "20,44 €",
-    "pending_price_count": 1
+    "price": "20,44 €"
   },
   "ES:B07DP9Z1R4": {
     "name": "Assassins Creed Odyssey - Xbox one, Edición:Estándar",
@@ -2207,7 +2205,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
     "price": "23,38 €",
-    "pending_price": "24,78 €",
+    "pending_price": "24,72 €",
     "pending_price_count": 1
   },
   "ES:B08HZKQDK1": {
@@ -2847,9 +2845,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.548532+00:00",
-    "price": "21,41 €",
-    "pending_price": "21,44 €",
-    "pending_price_count": 1
+    "price": "21,44 €"
   },
   "ES:B0GHSYQHP6": {
     "name": "Life is Strange Reunion",
@@ -3077,6 +3073,8 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T08:31:31.238742+00:00",
-    "price": "18,02 €"
+    "price": "18,02 €",
+    "pending_price": "18,07 €",
+    "pending_price_count": 1
   }
 }
