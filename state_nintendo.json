@@ -161,18 +161,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.911995+00:00",
-    "price": "530,99 €",
-    "pending_price": "531,89 €",
-    "pending_price_count": 1
+    "price": "531,89 €"
   },
   "ES:B0FYHMK8N2": {
     "name": "Nintendo Switch 2 + Donkey Kong Bananza",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912002+00:00",
-    "price": "538,99 €",
-    "pending_price": "539,89 €",
-    "pending_price_count": 1
+    "price": "539,89 €"
   },
   "ES:B0FBMLXK2D": {
     "name": "Pokemon Legends: Z-A: Nintendo Switch 2 Edition",
@@ -1417,9 +1413,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850724+00:00",
-    "price": "469,00 €",
-    "pending_price": "469,90 €",
-    "pending_price_count": 1
+    "price": "469,90 €"
   },
   "ES:B0F3P3X5P2": {
     "name": "Sandisk Micro SD Express Card for Nintendo Switch 2",
@@ -1434,7 +1428,7 @@
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850774+00:00",
     "price": "66,99 €",
-    "pending_price": "68,99 €",
+    "pending_price": "69,99 €",
     "pending_price_count": 1
   },
   "ES:B0BHDDH5W1": {
@@ -1747,18 +1741,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688196+00:00",
-    "price": "525,90 €",
-    "pending_price": "526,80 €",
-    "pending_price_count": 1
+    "price": "526,80 €"
   },
   "ES:B0FYHK8329": {
     "name": "Nintendo Switch 2 + 25e eShop",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688211+00:00",
-    "price": "494,00 €",
-    "pending_price": "494,90 €",
-    "pending_price_count": 1
+    "price": "494,90 €"
   },
   "ES:B0HC3PYP2D": {
     "name": "Nintendo Switch 2 + Donkey Kong Bananza- Switch 2",
@@ -1766,7 +1756,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688228+00:00",
     "price": "535,99 €",
-    "pending_price": "538,89 €",
+    "pending_price": "539,89 €",
     "pending_price_count": 1
   },
   "ES:B0FYTQ5XLG": {
@@ -1781,7 +1771,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688262+00:00",
-    "price": "85,00 €"
+    "price": "69,99 €"
   },
   "ES:B0GY5GY45X": {
     "name": "Splatoon Raiders",
@@ -2056,7 +2046,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688744+00:00",
-    "price": "67,14 €"
+    "price": "67,06 €"
   },
   "ES:B097F6916C": {
     "name": "Nintendo Game & Watch: The Legend of Zelda console de jeux portables Or, Vert",
@@ -2077,7 +2067,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688808+00:00",
-    "price": "379,99 €"
+    "price": "299,90 €"
   },
   "ES:B084DDDNRP": {
     "name": "Nintendo - Switch - Animal Crossing: New Horizons Edition 32GB Console - Multi",
@@ -2091,7 +2081,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688827+00:00",
-    "price": "391,86 €"
+    "price": "384,04 €"
   },
   "ES:B09B85F56N": {
     "name": "Monopoly Código De Descarga Switch",
@@ -2161,7 +2151,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688994+00:00",
-    "price": "208,99 €"
+    "price": "208,99 €",
+    "pending_price": "212,99 €",
+    "pending_price_count": 1
   },
   "ES:B0CMDHWDP9": {
     "name": "Consola Switch - Color Azul Neón/Rojo Neón + Super Mario Bros. Wonder + Mario Kart 8 Deluxe",
@@ -2485,9 +2477,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689720+00:00",
-    "price": "53,62 €",
-    "pending_price": "54,60 €",
-    "pending_price_count": 1
+    "price": "53,60 €"
   },
   "ES:B0FDWT9YGP": {
     "name": "RLSOCO Funda para Nintendo Switch 2 Consola 2025 - Estuche de Viaje con 8 Ranuras para Tarjetas de Juego (Rosa)",
@@ -2761,7 +2751,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689991+00:00",
-    "price": "74,86 €"
+    "price": "74,86 €",
+    "pending_price": "75,64 €",
+    "pending_price_count": 1
   },
   "ES:B0B69K1671": {
     "name": "Volante y pedales Hori para consola Switch pack Crash-Bandicoot Nitro Fueled (Liccencia oficial)",
