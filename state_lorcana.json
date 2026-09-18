@@ -59,9 +59,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:41:42.887252+00:00",
-    "price": "60,26 €",
-    "pending_price": "60,28 €",
-    "pending_price_count": 1
+    "price": "60,28 €"
   },
   "ES:B0CFRBX7GW": {
     "name": "Disney Lorcana Trading Card Game: Set 4 – Starter Deck B",
@@ -208,7 +206,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-10T11:31:24.750843+00:00",
-    "price": "26,03 €"
+    "price": "26,03 €",
+    "pending_price": "28,86 €",
+    "pending_price_count": 1
   },
   "ES:B0DTK163XP": {
     "name": "Ravensburger - Disney Lorcana TCG: Set 9 Caja Cartas Pluto | Caja para Cartas De Colección con Capacidad para 80 | Disney Lorcana con Un Diseño Único | Card Sleeves",
