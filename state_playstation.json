@@ -309,7 +309,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018808+00:00",
-    "price": "25,12 €"
+    "price": "18,98 €"
   },
   "ES:B09KTGP5C2": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition, PlayStation 4",
@@ -1209,9 +1209,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T18:20:43.859449+00:00",
-    "price": "29,95 €",
-    "pending_price": "30,99 €",
-    "pending_price_count": 1
+    "price": "30,99 €"
   },
   "ES:B08LM3KW18": {
     "name": "Playstation Console Sony 5 Edition Digital",
@@ -1934,14 +1932,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498232+00:00",
-    "price": "55,99 €"
+    "price": "54,90 €"
   },
   "ES:B09GSQGJ2F": {
     "name": "Playstation Gran Turismo 7 [PS5]",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498253+00:00",
-    "price": "44,95 €"
+    "price": "44,95 €",
+    "pending_price": "46,47 €",
+    "pending_price_count": 1
   },
   "ES:B0GVP719SW": {
     "name": "Mortal Shell II - PS5",
@@ -2132,7 +2132,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498960+00:00",
-    "price": "39,81 €"
+    "price": "36,83 €"
   },
   "ES:B09PJ4WZWC": {
     "name": "Far Cry 6 (PS4) (PS4)",
@@ -2209,7 +2209,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499305+00:00",
-    "price": "14,99 €"
+    "price": "9,99 €"
   },
   "ES:B016WC55AE": {
     "name": "Resident Evil Origins Collection",
@@ -2307,9 +2307,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499661+00:00",
-    "price": "17,74 €",
-    "pending_price": "17,99 €",
-    "pending_price_count": 1
+    "price": "17,70 €"
   },
   "ES:B073SCS51T": {
     "name": "Resident Evil Revelations HD",
