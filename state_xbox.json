@@ -840,7 +840,7 @@
     "stock": null,
     "first_seen": "2026-09-13T00:21:08.267403+00:00",
     "price": "22,33 €",
-    "pending_price": "40,86 €",
+    "pending_price": "40,81 €",
     "pending_price_count": 1
   },
   "ES:B07M7X2JLB": {
@@ -1134,8 +1134,8 @@
     "name": "GameSir G7 Pro Mando 1000Hz con Estación de Carga para Xbox Series X|S, Xbox One, Windows 10/11 & Android – Joysticks TMR, Gatillos Ajustables & 4 Botones Programables – Oro",
     "status": "compra_directa",
     "stock": null,
-    "price": "99,99 €",
-    "first_seen": "2026-09-15T00:20:55.336236+00:00"
+    "first_seen": "2026-09-15T00:20:55.336236+00:00",
+    "price": "99,99 €"
   },
   "ES:B0D79FJHFW": {
     "name": "Power A Mando con cable Xbox Series X|S - Azul marino, mando, mando para videojuegos con cable, mando para juegos, funciona con Xbox One",
@@ -1384,9 +1384,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.318891+00:00",
-    "price": "106,00 €",
-    "pending_price": "107,00 €",
-    "pending_price_count": 1
+    "price": "107,00 €"
   },
   "ES:B08TWV3BXB": {
     "name": "JOREST Kit de Desmontar Xbox one/360/X PS4 PS5 PS3, 25pcs Set Limpieza, Herramienta Reparacion para Mando y Consola, con Destornillador PH0 y Torx T6 T8 T10, Palanca, Pinzas, Cepillo",
@@ -1479,7 +1477,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.060951+00:00",
-    "price": "563,03 €"
+    "price": "563,01 €"
   },
   "ES:B08K3F3VQG": {
     "name": "Microsoft Xbox Series X 1TB, Black",
@@ -1501,10 +1499,9 @@
   },
   "ES:B07DP8XN43": {
     "name": "SEKIRO - Shadows Die Twice - Xbox One [Importación alemana]",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:42.060966+00:00",
-    "price": "25,52 €"
+    "first_seen": "2026-09-17T00:32:42.060966+00:00"
   },
   "ES:B0DGGRTZZS": {
     "name": "Xbox Series X (1TB) Standard + EA Sports FC 25 Standard Edition",
@@ -1885,7 +1882,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256399+00:00",
-    "price": "23,22 €"
+    "price": "23,22 €",
+    "pending_price": "23,26 €",
+    "pending_price_count": 1
   },
   "ES:B0BG4WBV4M": {
     "name": "Like a Dragon: Ishin! [GRA XBOX SERIES X]",
@@ -2060,9 +2059,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256871+00:00",
-    "price": "23,77 €",
-    "pending_price": "23,99 €",
-    "pending_price_count": 1
+    "price": "23,77 €"
   },
   "ES:B08LLPD9SZ": {
     "name": "Five Nights at Freddy's: Core Collection",
@@ -2210,7 +2207,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
     "price": "23,38 €",
-    "pending_price": "24,88 €",
+    "pending_price": "24,60 €",
     "pending_price_count": 1
   },
   "ES:B08HZKQDK1": {
@@ -2239,9 +2236,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257179+00:00",
-    "price": "25,80 €",
-    "pending_price": "26,17 €",
-    "pending_price_count": 1
+    "price": "26,17 €"
   },
   "ES:B07NW92Y8Z": {
     "name": "Bloodstained - Ritual of the Night (XBox One)",
@@ -2367,9 +2362,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257440+00:00",
-    "price": "21,88 €",
-    "pending_price": "22,18 €",
-    "pending_price_count": 1
+    "price": "22,18 €"
   },
   "ES:B0F2Q8S4HN": {
     "name": "Xbox Wireless Controller + cable USB-C",
@@ -2695,13 +2688,6 @@
     "first_seen": "2026-09-17T00:32:42.257678+00:00",
     "price": "59,99 €"
   },
-  "ES:B08YB9JN25": {
-    "name": "Cableguys Stitch Soporte Mando y Movil - Figuras Soporte para movil y Mando, Compatible con Xbox, PlayStation y la mayoría de mandos estándar, Accesorios Escritorio para Setup Gaming",
-    "status": "compra_directa",
-    "stock": null,
-    "first_seen": "2026-09-17T00:32:42.257682+00:00",
-    "price": "22,14 €"
-  },
   "ES:B09BJL2Z46": {
     "name": "OIVO Baterías para Xbox One/Series X|S/Elite, 4x5580mWh Bateria Mando Xbox, Baterías Recargables para Mandos Xbox, Accesorios para Xbox One/Series X|S",
     "status": "compra_directa",
@@ -2836,9 +2822,10 @@
   },
   "ES:B08DY9R6XT": {
     "name": "Skull & Co. Skin, CQC and FPS Thumb Grips Joystick Cap Analog Stick Cover for Xbox (XSX/XB1) Controller - OD Green, 3Pairs(6pcs)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T12:31:47.225944+00:00"
+    "first_seen": "2026-09-17T12:31:47.225944+00:00",
+    "price": "9,99 €"
   },
   "ES:B0FJXYX9V5": {
     "name": "Battlefield 6 Phantom Edition XBOX Series X | Videojuegos | Castellano",
@@ -2915,7 +2902,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.548802+00:00",
-    "price": "17,99 €"
+    "price": "17,99 €",
+    "pending_price": "18,00 €",
+    "pending_price_count": 1
   },
   "ES:B087VDG2PB": {
     "name": "Assassin’s Creed Valhalla - Ultimate Edition [Xbox One, Xbox Series X] [Importación alemana]",
@@ -2957,7 +2946,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.549000+00:00",
-    "price": "92,90 €"
+    "price": "92,81 €"
   },
   "ES:B0GJ5G9K7W": {
     "name": "deleyCON Cable HDMI 2.1 8K 2m Cable de Alta Velocidad Ultra High Speed 48 Gbps con Conector Acodado (270°) - Ideal para TV, Monitor, PS4, PS5, EARC, HDR10+ - 10K/8K@60Hz, 4K@120Hz/144Hz y 2K@240Hz",
@@ -3264,5 +3253,47 @@
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.791028+00:00",
     "price": "13,95 €"
+  },
+  "ES:B07RJ1678R": {
+    "name": "Corsair NIGHTSWORD RGB Ratón de Juego FPS/MOBA con Cable - 18.000 PPP - 10 Botones Programables - Sistema de Pesas - Compatible con iCUE - PC, Mac, PS5, PS4, Xbox - Negro",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T14:31:49.729335+00:00",
+    "price": "76,96 €"
+  },
+  "ES:B0DBQRTLFN": {
+    "name": "GameSir T7 Controlador con cable para Xbox Series X|S, Xbox One y Windows 10/11, gamepad Plug and Play para juegos con joysticks y gatillos de efecto Hall, con jack de audio de 3.5 mm - Azul (Rojo)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T14:31:49.729359+00:00",
+    "price": "39,99 €"
+  },
+  "ES:B09LMTBXGG": {
+    "name": "Thrustmaster T248 Force Feedback Volante y Pedalier - XBOX y PC | Par de 3,1 Nm, Simracing avanzada, levas Mag-Shift, pedalier de 3, 25 botones de acción, pantalla integrada",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T14:31:49.729370+00:00",
+    "price": "279,58 €"
+  },
+  "ES:B09Y8H1YKL": {
+    "name": "Almohadillas de repuesto para auriculares inalámbricos Microsoft Xbox",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T14:31:49.729389+00:00",
+    "price": "16,99 €"
+  },
+  "ES:B09Y19G5ZR": {
+    "name": "EKSA Auriculares Gaming con Cable, Cascos Gaming con Microfono y Cancelacion de Ruido, 7.1 Sonido,Luz LED, Gaming Headset para PC/Switch / PS4 / PS5 / Xbox One Negro",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T14:31:49.729392+00:00",
+    "price": "36,99 €"
+  },
+  "ES:B0F5QH6G5T": {
+    "name": "eXtremeRate Carcasa Completa con Botones para Xbox One Elite Series 2 Mando - Repuesto de Carcasa Frontal y Placa Trasera con Teclas para Xbox Elite Series 2 Core (Modelo 1797) - Violeta Transparente",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T14:31:49.729396+00:00",
+    "price": "27,99 €"
   }
 }
