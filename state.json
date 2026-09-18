@@ -1393,9 +1393,9 @@
   "UK:B0F634M6PY": {
     "name": "Pokemon Juego de Cartas coleccionables - Scarlet & Violet 10 - Destined Rivals Booster",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "29,35 €",
-    "first_seen": "2026-09-04T21:32:58.802777+00:00"
+    "stock": null,
+    "first_seen": "2026-09-04T21:32:58.802777+00:00",
+    "price": "23,49 €"
   },
   "UK:B0F6PKT7RB": {
     "name": "Pokémon TCG: Unova Mini Tin – Lilligant & Whimsicott (2 paquetes de refuerzo y 1 tarjeta adhesiva)",
