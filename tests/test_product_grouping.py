@@ -29,7 +29,7 @@ class ProductGroupingTests(unittest.TestCase):
         self.assertEqual(groups["summary"]["groups"], 1)
         self.assertEqual(groups["summary"]["grouped_offers"], 2)
         self.assertEqual(review["items"], [])
-        self.assertTrue(groups["groups"][0]["url"].startswith("https://wheresthatstock.com/comparar/"))
+        self.assertTrue(groups["groups"][0]["url"].startswith("https://wheresthatstock.com/producto/"))
 
     def test_equivalent_translated_title_signature_is_conservative_but_automatic(self):
         left = product("A1", "CAR", "Pokémon Caja de Entrenador Elite Destined Rivals Español")

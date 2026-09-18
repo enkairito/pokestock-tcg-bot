@@ -272,7 +272,7 @@ def _group_payload(group_id, products, method, metadata=None):
     )
     return {
         "id": group_id,
-        "url": f"{ORIGIN}/comparar/{group_id}",
+        "url": f"{ORIGIN}/producto/{group_id}",
         "name": metadata.get("name") or canonical.get("name") or "Producto",
         "game": metadata.get("game") or canonical.get("game"),
         "category": metadata.get("category") or ((canonical.get("categories") or [None])[0]),

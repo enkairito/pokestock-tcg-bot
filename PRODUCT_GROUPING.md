@@ -6,7 +6,7 @@ Gaming y accesorios ajenos no entran en los grupos ni en la cola manual.
 
 - Una oferta mantiene su URL actual: `/producto/{tienda-id}`.
 - Un producto confirmado tendrá una URL comparadora estable:
-  `/comparar/{group-id}`.
+  `/producto/{group-id}`.
 - Las URLs de oferta no se eliminan ni redirigen automáticamente.
 
 ## Archivos generados
