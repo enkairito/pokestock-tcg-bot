@@ -281,7 +281,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-25T20:27:15.542170+00:00",
-    "price": "45,09 €"
+    "price": "38,00 €"
   },
   "ES:B0FXTY9D99": {
     "name": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Caos Creciente (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
@@ -730,7 +730,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
-    "price": "235,60 €"
+    "price": "235,60 €",
+    "pending_price": "240,99 €",
+    "pending_price_count": 1
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
@@ -812,7 +814,7 @@
   "US:B0GFZV1ZVV": {
     "name": "Pokémon TCG: Mega Evolution Order Elite Trainer Box",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "4",
     "first_seen": "2026-08-30T20:46:19.644915+00:00",
     "price": "105,42 €"
   },
@@ -3025,5 +3027,26 @@
     "status": "no_disponible",
     "stock": null,
     "first_seen": "2026-09-18T16:14:43.768568+00:00"
+  },
+  "MM:168046540": {
+    "name": "Juego de cartas - BANDAI Pokémon TCG Lata Primavera EX Surtida",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T18:43:38.766411+00:00",
+    "price": "39,00 €"
+  },
+  "MM:168046528": {
+    "name": "Juego de cartas - BANDAI Pokémon TCG Caja Mega Lucario EX, 50 cartas",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T18:43:44.649265+00:00",
+    "price": "63,30 €"
+  },
+  "MM:168046545": {
+    "name": "Juego de cartas - BANDAI Pokémon TCG Baraja Combate EX Octubre Surtida, 60 cartas",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T18:43:50.406043+00:00",
+    "price": "17,70 €"
   }
 }

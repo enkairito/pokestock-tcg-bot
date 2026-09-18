@@ -709,7 +709,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T12:27:13.469347+00:00",
-    "price": "19,45 €"
+    "price": "19,45 €",
+    "pending_price": "28,52 €",
+    "pending_price_count": 1
   },
   "ES:B0D571R8PK": {
     "name": "Volante y Pedales Hori RWA con licencia Sony PlayStation 4/5 [Nuevo modelo compatible con PS4/PS5] + Gran Turismo 7 [Playstation 5]",
@@ -2502,7 +2504,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500076+00:00",
-    "price": "19,71 €"
+    "price": "19,71 €",
+    "pending_price": "19,99 €",
+    "pending_price_count": 1
   },
   "ES:B09KLKJSQM": {
     "name": "OIVO Soporte PS5/Slim/Pro Horizontal para Consola PlayStation 5, PS5 Suporte Horizontal, Soporte PS5 Acostado, Suporte Horizonta P5 con Tornillo, Accesorios PlayStation 5, Packs de Accesorios",
@@ -2682,7 +2686,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500206+00:00",
-    "price": "11,90 €"
+    "price": "11,82 €"
   },
   "ES:B0CG17TK17": {
     "name": "JoyGeek Cargador Inalámbrica, Plegable 3 en 1 Base Cargador para i Phone 17/16/15/14/13/12/Plus/Pro MAX, Estación de Carga para AppleWatch Ultra-2, Rapida Wireless Charger para AirPods 4/Pro/3/2-Negro",
@@ -3110,9 +3114,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:32:05.432600+00:00",
-    "price": "1448,60 €",
-    "pending_price": "1499,00 €",
-    "pending_price_count": 1
+    "price": "1499,00 €"
   },
   "ES:B0GTMR7YVX": {
     "name": "Next Level Racing Flight Simulator Seat 2.0 (NLR-S045)",
@@ -3189,7 +3191,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:32:05.433466+00:00",
-    "price": "85,49 €"
+    "price": "85,49 €",
+    "pending_price": "92,90 €",
+    "pending_price_count": 1
   },
   "ES:B0GQ3GRR4H": {
     "name": "deleyCON 2m Cable Extensión HDMI 2.1 8K - para TV, Monitor, PS4, PS5, Xbox, Dolby Atmos Soundbar EARC HDR10+ 48Gbps Extensión Acoplador Adaptador - 8K@60Hz, 4K@120Hz/144Hz, 2K@240Hz",

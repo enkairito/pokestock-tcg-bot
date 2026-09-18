@@ -965,7 +965,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:30:08.918656+00:00",
-    "price": "164,99 €"
+    "price": "144,86 €"
   },
   "ES:B0DK1NY4LW": {
     "name": "AceGamer 2 Pack Mando Inalámbrico para PS4，Mando de Juego para PS4/Pro/Slim/PC，Gamepad Joystick con Turbo/Botón Trasero/Doble Vibración/6-Axis Sensor Giroscópico/Panel Táctil (Blanco o negro)",
@@ -2054,7 +2054,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
     "price": "40,90 €",
-    "pending_price": "46,84 €",
+    "pending_price": "46,74 €",
     "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
@@ -2470,7 +2470,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689720+00:00",
-    "price": "54,60 €"
+    "price": "54,60 €",
+    "pending_price": "56,83 €",
+    "pending_price_count": 1
   },
   "ES:B0FDWT9YGP": {
     "name": "RLSOCO Funda para Nintendo Switch 2 Consola 2025 - Estuche de Viaje con 8 Ranuras para Tarjetas de Juego (Rosa)",
@@ -3309,5 +3311,54 @@
     "stock": null,
     "first_seen": "2026-09-18T16:32:06.047870+00:00",
     "price": "69,50 €"
+  },
+  "ES:B0FFGKXYZ7": {
+    "name": "JSAUX Estuche para el Mando ProController de Switch 2, Funda Protectora | Estuche de transporte, funda protectora para viajes, protección integral, bolsa portátil, negro",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T18:31:57.004929+00:00",
+    "price": "19,99 €"
+  },
+  "ES:B0H1LX1V2D": {
+    "name": "GuliKit Dock Switch 2/1/Oled para Nintendo,Cargador,Base de Carga | 4K/60Hz, 100W PD, excelente enfriamiento, base ancha antivuelco, fundas, proteccion completa, firmware actualizable",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T18:31:57.004953+00:00",
+    "price": "25,72 €"
+  },
+  "ES:B0FMWMN5J5": {
+    "name": "KIWIHOME P2 Funda de Protección Acoplable a Base para Switch 2 | Diseño de Una Sola Pieza Redondeado， Funda Ergonómica con Agarre para un Agarre Más Cómodo, Solo para Switch 2 (2025, 7,9\")",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T18:31:57.004958+00:00",
+    "price": "21,99 €"
+  },
+  "ES:B0FB3QVWQT": {
+    "name": "Teyomi Funda protectora de silicona compatible con Nintendo Switch 2, Carcasa para Nintendo Switch 2 con protector de pantalla de vidrio templado, Estuche con agarre ergonómico (Morado)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T18:31:57.004963+00:00",
+    "price": "16,99 €"
+  },
+  "ES:B0GWD2PHVB": {
+    "name": "UtmostXP Carcasa Compatible con Switch 2 (Anime) | Funda Protectora Compatible con Nintendo Switch 2, Accesorios para Consola y mandos Switch 2 compatible con Dock Station",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T18:31:57.004966+00:00",
+    "price": "23,99 €"
+  },
+  "ES:B09B4MJ9H3": {
+    "name": "ivoler 4 Piezas Protector de Pantalla Compatible con Nintendo Switch OLED Modelo 7 Pulgadas 2021 Modelo, Incluye Marco de Instalación Fácil, Cristal Vidrio Templado Premium",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T18:31:57.004973+00:00",
+    "price": "7,99 €"
+  },
+  "ES:B0FKLRPYXP": {
+    "name": "Teyomi Funda Transparente Compatible con Nintendo Switch 2, Carcasa para Nintendo Switch 2, Protector de Switch 2, Funda de TPU para Joycon, 8 Tapas para Joystick, Ergonomics, Acoplable",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T18:31:57.004977+00:00",
+    "price": "13,99 €"
   }
 }
