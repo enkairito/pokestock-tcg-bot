@@ -61,6 +61,14 @@ jobs:
             echo "$FNAC_COOKIES_JSON" > fnac_cookies.json
           fi
 
+      - name: Restore GAME cookies
+        env:
+          GAME_COOKIES_JSON: ${{ secrets.GAME_COOKIES_JSON }}
+        run: |
+          if [ -n "$GAME_COOKIES_JSON" ]; then
+            echo "$GAME_COOKIES_JSON" > game_cookies.json
+          fi
+
       - name: Run stock check
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
