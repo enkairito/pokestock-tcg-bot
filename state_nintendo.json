@@ -175,7 +175,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912008+00:00",
-    "price": "56,90 €"
+    "price": "56,88 €"
   },
   "ES:B071H4KD7W": {
     "name": "Nintendo Switch Consola Rojo Neón/Azul neón 32 GB + Mario Kart 8 Deluxe",
@@ -632,7 +632,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478316+00:00",
-    "price": "36,02 €"
+    "price": "36,00 €"
   },
   "ES:B0FR451FFZ": {
     "name": "Nintendo Super Mario Galaxy + Super Mario Galaxy 2",
@@ -1292,9 +1292,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T00:23:08.150021+00:00",
-    "price": "35,27 €",
-    "pending_price": "35,31 €",
-    "pending_price_count": 1
+    "price": "35,31 €"
   },
   "ES:B0GSSQYPK3": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
@@ -1925,9 +1923,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688526+00:00",
-    "price": "48,00 €",
-    "pending_price": "48,30 €",
-    "pending_price_count": 1
+    "price": "48,00 €"
   },
   "ES:B0FL2GS1CT": {
     "name": "Survival Kids - Switch 2 [Nintendo Switch 2 - Key Card]",
@@ -1962,7 +1958,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688566+00:00",
-    "price": "39,98 €"
+    "price": "36,99 €"
   },
   "ES:B0FH14N89K": {
     "name": "Fantasy Life i La Pequeña Ladrona del Tiempo (The Girl Who Steals Time), Multi-idioma, Edición Japonesa",
@@ -2230,7 +2226,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689228+00:00",
-    "price": "69,99 €"
+    "price": "69,99 €",
+    "pending_price": "82,47 €",
+    "pending_price_count": 1
   },
   "ES:B08GMSQBDZ": {
     "name": "Pang Adventures Buster Edition",
@@ -2471,7 +2469,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689720+00:00",
     "price": "54,60 €",
-    "pending_price": "56,83 €",
+    "pending_price": "57,83 €",
     "pending_price_count": 1
   },
   "ES:B0FDWT9YGP": {
@@ -3087,9 +3085,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:31:33.624327+00:00",
-    "price": "27,08 €",
-    "pending_price": "37,00 €",
-    "pending_price_count": 1
+    "price": "37,00 €"
   },
   "ES:B0C2Z3HKG4": {
     "name": "Five Nights at Freddy's Security Breach",
@@ -3226,7 +3222,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:52.753836+00:00",
-    "price": "69,99 €"
+    "price": "65,99 €"
   },
   "ES:B0FCTL7D1N": {
     "name": "MME Tapas de Joystick compatibles con Nintendo Switch 2 | Protector de Joystick para Switch 2, Agarres para el pulgar de silicona para Switch 2, PS 4, PS5, Xbox",
@@ -3275,7 +3271,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:52.754256+00:00",
-    "price": "24,99 €"
+    "price": "23,95 €"
   },
   "ES:B07PB4JFF8": {
     "name": "Pokémon: Escudo",
@@ -3360,5 +3356,54 @@
     "stock": null,
     "first_seen": "2026-09-18T18:31:57.004977+00:00",
     "price": "13,99 €"
+  },
+  "ES:B0DBVTW25T": {
+    "name": "THQ Nordic The Eternal Life of Goldman Switch",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T20:31:55.383924+00:00",
+    "price": "29,99 €"
+  },
+  "ES:B0HD18K5FX": {
+    "name": "The Walking Dead: Streets of Survival (Nintendo Switch)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T20:31:55.383947+00:00",
+    "price": "34,99 €"
+  },
+  "ES:B0GM1R69RX": {
+    "name": "Super Bomberman Collection – Switch",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T20:31:55.383955+00:00",
+    "price": "36,99 €"
+  },
+  "ES:B08X2K5GZ2": {
+    "name": "Nintendo Miitopia Standard Nintendo Switch",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T20:31:55.383966+00:00",
+    "price": "54,45 €"
+  },
+  "ES:B0GWMGDJ24": {
+    "name": "The House in Fata Morgana: Dreams of the Revenants Edition NS",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T20:31:55.383972+00:00",
+    "price": "34,90 €"
+  },
+  "ES:B08Y6ZM72D": {
+    "name": "Pokemon Diamante Brillante",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T20:31:55.383983+00:00",
+    "price": "76,65 €"
+  },
+  "ES:B07MCW5S7R": {
+    "name": "Final Fantasy XII The Zodiac Age (Nintendo Switch)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T20:31:55.383996+00:00",
+    "price": "27,49 €"
   }
 }
