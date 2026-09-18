@@ -293,7 +293,7 @@
   "ES:B0CT5T766W": {
     "name": "Pokémon: Cofre de Coleccionista - 2022",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": null,
     "first_seen": "2026-08-25T20:27:53.163288+00:00",
     "price": "34,99 €"
   },
@@ -1292,7 +1292,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802612+00:00",
-    "price": "102,91 €"
+    "price": "102,91 €",
+    "pending_price": "103,32 €",
+    "pending_price_count": 1
   },
   "UK:B0DB7C1Z26": {
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
@@ -1709,7 +1711,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "137,55 €"
+    "price": "137,53 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
