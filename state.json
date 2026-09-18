@@ -716,7 +716,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
-    "price": "56,77 €"
+    "price": "54,50 €"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
@@ -730,9 +730,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
-    "price": "235,60 €",
-    "pending_price": "240,99 €",
-    "pending_price_count": 1
+    "price": "240,99 €"
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
@@ -765,7 +763,7 @@
   "US:B0GXJ8CSTY": {
     "name": "Pokémon TCG: Colección Premium Mega Greninja ex (1 Tarjeta Promocional Brillante, 1 Tarjeta lenticular de Gran tamaño y 8 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644858+00:00",
     "price": "82,18 €"
   },
@@ -802,7 +800,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
-    "price": "63,07 €"
+    "price": "62,97 €"
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
