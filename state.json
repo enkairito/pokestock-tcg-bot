@@ -1632,7 +1632,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280869+00:00",
-    "price": "111,97 €"
+    "price": "111,96 €"
   },
   "UK:B0DG2XTYDP": {
     "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
@@ -2930,5 +2930,12 @@
     "status": "no_disponible",
     "stock": null,
     "first_seen": "2026-09-17T12:23:06.260776+00:00"
+  },
+  "UK:B0GNCGT9KK": {
+    "name": "Pokemon: Pokemon TCG - Mega Zygarde EX - Premium Collection 2026 (TCG)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T15:23:27.918742+00:00",
+    "price": "97,59 €"
   }
 }
