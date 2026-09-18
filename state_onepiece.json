@@ -75,7 +75,7 @@
     "stock": null,
     "first_seen": "2026-08-29T18:09:29.426544+00:00",
     "price": "44,00 €",
-    "pending_price": "45,46 €",
+    "pending_price": "45,45 €",
     "pending_price_count": 1
   },
   "ES:B0GDGRWH54": {
@@ -83,9 +83,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:09:35.306058+00:00",
-    "price": "67,81 €",
-    "pending_price": "69,27 €",
-    "pending_price_count": 1
+    "price": "69,27 €"
   },
   "ES:B0FNLZG13B": {
     "name": "One Piece TCG: Caja de Refuerzo de Carry on His Will (Pedido por Adelantado)",
@@ -97,9 +95,11 @@
   "ES:B0CGR4P859": {
     "name": "Awakening of the New Era Booster Pack OP-05 - One Piece Juego de Cartas - JP",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-08-29T18:09:47.272890+00:00",
-    "price": "37,27 €"
+    "price": "37,27 €",
+    "pending_price": "37,86 €",
+    "pending_price_count": 1
   },
   "ES:B0D69TF558": {
     "name": "One Piece TCG: Two Legends - Booster Pack (OP-08) (JP) (TCG)",
@@ -148,7 +148,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-29T18:10:41.534422+00:00",
-    "price": "390,31 €"
+    "price": "382,73 €"
   },
   "ES:B0F8V1YTSP": {
     "name": "BANDAI Juego de cartas de una pieza más antiguo (OP-13) (caja) de 24 unidades",
@@ -256,9 +256,9 @@
   "ES:B0HC7DT1ZY": {
     "name": "Juego de cartas de una pieza Starter Deck ST-36 amarillo Eustass Captain Kid",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "3",
     "first_seen": "2026-09-08T09:40:16.326555+00:00",
-    "price": "40,01 €"
+    "price": "39,73 €"
   },
   "ES:B0DW3R4T9G": {
     "name": "BANDAI ONE PIECE - Caja de refuerzo de cartas Master and Student Bonds (OP-12) (japonés) - 24 paquetes",
