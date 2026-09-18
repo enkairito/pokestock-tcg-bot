@@ -504,7 +504,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "209,72 €"
+    "price": "149,99 €"
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -839,9 +839,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:21:08.267403+00:00",
-    "price": "22,33 €",
-    "pending_price": "26,56 €",
-    "pending_price_count": 1
+    "price": "26,56 €"
   },
   "ES:B07M7X2JLB": {
     "name": "Dark Souls Trilogy - Xbox One [Importación inglesa]",
@@ -922,8 +920,8 @@
     "name": "8Bitdo Ultimate C Wired Controller for Xbox, RGB Lighting Fire Ring and Hall Effect Joysticks, Compatible with Xbox Series X|S, Xbox One, Windows 10/11 - Officially Licensed (Dark Green)",
     "status": "compra_directa",
     "stock": null,
-    "price": "34,99 €",
-    "first_seen": "2026-09-13T18:21:32.459953+00:00"
+    "first_seen": "2026-09-13T18:21:32.459953+00:00",
+    "price": "34,99 €"
   },
   "ES:B07W4X1F21": {
     "name": "Sony PlayStation DualShock 4 Controller - Glacier White (Renewed)",
@@ -1476,10 +1474,9 @@
   },
   "ES:B09RQ9TF1H": {
     "name": "Xbox Series S + Cascos Stereo Xbox para Xbox Series X|S",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:42.060951+00:00",
-    "price": "563,01 €"
+    "first_seen": "2026-09-17T00:32:42.060951+00:00"
   },
   "ES:B08K3F3VQG": {
     "name": "Microsoft Xbox Series X 1TB, Black",
@@ -1699,10 +1696,9 @@
   },
   "ES:B09YVZG4FP": {
     "name": "Xbox Series S + Forza Horizon 5: Standard - Xbox Series S | Código de descarga",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:42.061092+00:00",
-    "price": "573,01 €"
+    "first_seen": "2026-09-17T00:32:42.061092+00:00"
   },
   "ES:B01KZYZMGC": {
     "name": "Xbox One - Pack Consola S 1 TB: Battlefield 1",
@@ -1835,7 +1831,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256329+00:00",
-    "price": "24,99 €"
+    "price": "24,98 €"
   },
   "ES:B0H4QL9XMT": {
     "name": "Persona 4 Revival - XSRX",
@@ -2534,7 +2530,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257578+00:00",
-    "price": "144,29 €"
+    "price": "144,29 €",
+    "pending_price": "155,86 €",
+    "pending_price_count": 1
   },
   "ES:B09YHNCQNZ": {
     "name": "Corsair HS65 SURROUND Auriculares para juegos (Sonido envolvente Dolby Audio 7.1 en PC y Mac, Micrófono omnidireccional, Tecnología SoundID de SonarWorks, Control de volumen de fácil acceso) Carbón",
@@ -2845,9 +2843,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.548532+00:00",
-    "price": "21,44 €",
-    "pending_price": "21,94 €",
-    "pending_price_count": 1
+    "price": "21,94 €"
   },
   "ES:B0GHSYQHP6": {
     "name": "Life is Strange Reunion",
@@ -3134,7 +3130,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790603+00:00",
-    "price": "32,98 €"
+    "price": "32,98 €",
+    "pending_price": "32,99 €",
+    "pending_price_count": 1
   },
   "ES:B0CW4C89FN": {
     "name": "Elden Ring: Shadow Of The Erdtree",
@@ -3267,7 +3265,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T14:31:49.729335+00:00",
-    "price": "76,95 €"
+    "price": "76,94 €"
   },
   "ES:B0DBQRTLFN": {
     "name": "GameSir T7 Controlador con cable para Xbox Series X|S, Xbox One y Windows 10/11, gamepad Plug and Play para juegos con joysticks y gatillos de efecto Hall, con jack de audio de 3.5 mm - Azul (Rojo)",
@@ -3303,5 +3301,54 @@
     "stock": null,
     "first_seen": "2026-09-18T14:31:49.729396+00:00",
     "price": "27,99 €"
+  },
+  "ES:B0GXV6HK38": {
+    "name": "Sehawei Mando inalámbrico para Xbox One,Xbox One S/X,Xbox Series S/X,PC | 2,4 GHz wireless controller , plug and play , con funciones Turbo y macro",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T18:31:46.619869+00:00",
+    "price": "39,99 €"
+  },
+  "ES:B0CMH7DR3Y": {
+    "name": "8BitDo Charging Dock for Xbox Wireless Controllers, Xbox Charging Station with Magnetic Secure Charging for Xbox Series X|S and Xbox One Controller - Officially Licensed",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T18:31:46.619888+00:00",
+    "price": "24,99 €"
+  },
+  "ES:B0F6CVPVQQ": {
+    "name": "SteelSeries Arctis Nova 3X Wireless Auriculares Gaming multiplataforma - App - Batería 40h - Controladores magnéticos de neodimio - 2,4 GHz/Bluetooth - Micro extraíble - Xbox,PS5,PC, Switch -Lavanda",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T18:31:46.619892+00:00",
+    "price": "72,73 €"
+  },
+  "ES:B0GL8DWZQK": {
+    "name": "deleyCON 1,5m Cable HDMI 2.1 8K Plano - para TV, Monitor, PS4, PS5, Xbox, Dolby Atmos Soundbar EARC, HDR10+ VRR - 48Gbps Ultra High Speed Cable - 10K/8K@60Hz, 4K@120Hz/144HZ, 2K@240HZ",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T18:31:46.619898+00:00",
+    "price": "9,80 €"
+  },
+  "ES:B094ZJ9F7X": {
+    "name": "Mcbazel Ventilador para soporte de enfriamiento Xbox Series S con indicador LED / dos puertos USB (solo para Xbox Series S)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T18:31:46.619908+00:00",
+    "price": "17,16 €"
+  },
+  "ES:B09L89MBVV": {
+    "name": "Ozeino Auriculares Gaming con Micrófono Suave, Sonido Surround Claro, Auriculares Ajustables Ligeros y Cómodos, Auriculares para PS5 PS4 PC Xbox One/X/S Switch Tablet con Luz RGB",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T18:31:46.619911+00:00",
+    "price": "29,66 €"
+  },
+  "ES:B0B219JNCJ": {
+    "name": "G-STORY Ventilador para Xbox Serie S con velocidad automática del ventilador ajustable por temperatura, pantalla LED, bajo ruido, 3 velocidades 1500/1750/2000RPM (140MM) (White)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T18:31:46.619913+00:00",
+    "price": "35,99 €"
   }
 }
