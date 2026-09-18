@@ -839,7 +839,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:21:08.267403+00:00",
-    "price": "26,56 €"
+    "price": "26,56 €",
+    "pending_price": "42,95 €",
+    "pending_price_count": 1
   },
   "ES:B07M7X2JLB": {
     "name": "Dark Souls Trilogy - Xbox One [Importación inglesa]",
@@ -988,9 +990,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "36,87 €",
-    "pending_price": "37,32 €",
-    "pending_price_count": 1
+    "price": "35,56 €"
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1859,7 +1859,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256367+00:00",
-    "price": "44,90 €"
+    "price": "44,90 €",
+    "pending_price": "49,90 €",
+    "pending_price_count": 1
   },
   "ES:B0F83XP97Q": {
     "name": "Mafia: The Old Country Standard Edition XBX",
@@ -1901,7 +1903,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256426+00:00",
-    "price": "33,90 €"
+    "price": "33,88 €"
   },
   "ES:B0FPMNXV7V": {
     "name": "007 First Light Specialist Edition - XSRX",
@@ -2027,9 +2029,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256765+00:00",
-    "price": "681,13 €",
-    "pending_price": "688,75 €",
-    "pending_price_count": 1
+    "price": "688,75 €"
   },
   "ES:B01M69F924": {
     "name": "Gioteck - Aero S Vertical Charge Hub (Xbox One S)",
@@ -2092,7 +2092,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256962+00:00",
-    "price": "46,79 €"
+    "price": "46,79 €",
+    "pending_price": "46,83 €",
+    "pending_price_count": 1
   },
   "ES:B071G3GD64": {
     "name": "Darksiders III - Xbox One [Importación alemana]",
@@ -2205,7 +2207,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
     "price": "23,38 €",
-    "pending_price": "24,60 €",
+    "pending_price": "24,46 €",
     "pending_price_count": 1
   },
   "ES:B08HZKQDK1": {
@@ -2568,7 +2570,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257596+00:00",
     "price": "53,60 €",
-    "pending_price": "54,60 €",
+    "pending_price": "57,83 €",
     "pending_price_count": 1
   },
   "ES:B07HB851JR": {
@@ -2583,9 +2585,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257603+00:00",
-    "price": "20,11 €",
-    "pending_price": "20,46 €",
-    "pending_price_count": 1
+    "price": "20,46 €"
   },
   "ES:B09SGD96L8": {
     "name": "4PCS Paletas del Controlador, Piezas del Controlador de Reemplazo de Las Paletas del Controlador de Acero Inoxidable para One Controller Series 2 Model 1797(Oro)",
@@ -2725,7 +2725,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257703+00:00",
-    "price": "124,99 €"
+    "price": "124,99 €",
+    "pending_price": "132,27 €",
+    "pending_price_count": 1
   },
   "ES:B0B433VFVQ": {
     "name": "Venom Paquetes de baterías de repuesto para base de carga Xbox, blancos (Xbox Series X y S/Xbox One)",
@@ -2906,9 +2908,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.548802+00:00",
-    "price": "17,99 €",
-    "pending_price": "18,00 €",
-    "pending_price_count": 1
+    "price": "18,00 €"
   },
   "ES:B087VDG2PB": {
     "name": "Assassin’s Creed Valhalla - Ultimate Edition [Xbox One, Xbox Series X] [Importación alemana]",
@@ -2929,7 +2929,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.548836+00:00",
-    "price": "16,89 €"
+    "price": "16,44 €"
   },
   "ES:B0731BLTC5": {
     "name": "DragonBall Fighter Z - Xbox One [Importación francesa]",
@@ -3130,9 +3130,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790603+00:00",
-    "price": "32,98 €",
-    "pending_price": "32,99 €",
-    "pending_price_count": 1
+    "price": "32,98 €"
   },
   "ES:B0CW4C89FN": {
     "name": "Elden Ring: Shadow Of The Erdtree",
@@ -3195,7 +3193,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790750+00:00",
-    "price": "9,49 €"
+    "price": "9,49 €",
+    "pending_price": "9,51 €",
+    "pending_price_count": 1
   },
   "ES:B00VWGTWU0": {
     "name": "Deus Ex: Mankind Divided Day One Edition [Importación Inglesa]",
