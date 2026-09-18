@@ -1,0 +1,85 @@
+{
+  "products": [
+    {
+      "asin": "13106193",
+      "name": "Pack Pokémon Oscuridad Absoluta 3 sobres de mejora de Megaevolución + Carta holográfica",
+      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/1d/e7/a7/11003677/1545-1.jpg",
+      "price": "19,99 €",
+      "original_price": null,
+      "link": "https://www.fnac.es/Pack-Pokemon-Oscuridad-Absoluta-3-sobres-de-mejora-de-Megaevolucion-Carta-holografica-Juegos-de-mesa/a13106193",
+      "first_seen": "2026-09-15T21:30:12.564756+00:00"
+    },
+    {
+      "asin": "12702411",
+      "name": "Pack 3 Sobres Pokemon TCG Marzo 2026",
+      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/24/dc/a2/10673188/1545-1.jpg",
+      "price": "19,99 €",
+      "original_price": null,
+      "link": "https://www.fnac.es/Pack-3-Sobres-Pokemon-TCG-Marzo-2026-Juegos-de-mesa/a12702411",
+      "first_seen": "2026-09-15T21:30:18.200576+00:00"
+    },
+    {
+      "asin": "13106194",
+      "name": "Caja 6 sobres de mejora Pokémon Megaevolución Oscuridad Absoluta",
+      "image": null,
+      "price": "34,99 €",
+      "original_price": null,
+      "link": "https://www.fnac.es/Caja-6-sobres-de-mejora-Pokemon-Megaevolucion-Oscuridad-Absoluta-Juegos-de-mesa/a13106194",
+      "first_seen": "2026-09-15T22:10:03.234645+00:00"
+    },
+    {
+      "asin": "13300140",
+      "name": "Pack Pokémon Mega Evolution Chaos Rising 3 Booster + Promo Card English",
+      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/25/ab/aa/11184933/1545-1.jpg",
+      "price": "19,99 €",
+      "original_price": null,
+      "link": "https://www.fnac.es/Pack-Pokemon-Mega-Evolution-Chaos-Rising-3-Bosster-Promo-Card-English-Juegos-de-mesa/a13300140",
+      "first_seen": "2026-09-15T22:10:08.939053+00:00"
+    },
+    {
+      "asin": "13300142",
+      "name": "Sobre Pokémon Chaos Rising English Varios modelos",
+      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/27/ab/aa/11184935/1545-1.jpg",
+      "price": "5,99 €",
+      "original_price": null,
+      "link": "https://www.fnac.es/Sobre-Pokemon-Chaos-Rising-English-Varios-modelos-Juegos-de-mesa/a13300142",
+      "first_seen": "2026-09-15T22:10:15.006297+00:00"
+    },
+    {
+      "asin": "12912794",
+      "name": "Pokémon Summer Tin Assortment Varios modelos",
+      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/f5/61/a5/10838517/1545-1.jpg",
+      "price": "34,99 €",
+      "original_price": null,
+      "link": "https://www.fnac.es/Pokemon-Summer-Tin-Assortment-Varios-modelos-Juegos-de-mesa/a12912794",
+      "first_seen": "2026-09-15T22:10:20.927642+00:00"
+    },
+    {
+      "asin": "13196814",
+      "name": "Pokémon Summer Tin Assortment English Varios modelos",
+      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/bf/34/a9/11089087/1545-1.jpg",
+      "price": "34,99 €",
+      "original_price": null,
+      "link": "https://www.fnac.es/Pokemon-Summer-Tin-Assortment-English-Varios-modelos-Juegos-de-mesa/a13196814",
+      "first_seen": "2026-09-15T21:30:44.947747+00:00"
+    },
+    {
+      "asin": "12912795",
+      "name": "Sobres Pokémon Mini Tin Assorted Varios modelos",
+      "image": "https://static.fnac-static.com/multimedia/Images/ES/NR/f6/61/a5/10838518/1545-1.jpg",
+      "price": "14,99 €",
+      "original_price": null,
+      "link": "https://www.fnac.es/Sobres-Pokemon-Mini-Tin-Assorted-Varios-modelos-Juegos-de-mesa/a12912795",
+      "first_seen": "2026-09-15T21:30:50.682515+00:00"
+    },
+    {
+      "asin": "13262399",
+      "name": "Lata sobres Bandai Pokémon EX Megaevolución Oscuridad Absoluta Surtida",
+      "image": null,
+      "price": "34,99 €",
+      "original_price": null,
+      "link": "https://www.fnac.es/Lata-sobres-Bandai-Pokemon-EX-Megaevolucion-Oscuridad-Absoluta-Surtida-Juegos-de-mesa/a13262399",
+      "first_seen": "2026-09-15T22:10:27.034934+00:00"
+    }
+  ]
+}

@@ -64,6 +64,7 @@ def isolated_run(module, fail_second_page=False, dry_run=False, observed_status=
             config["pages"] = [("first", "https://example.test/1"), ("second", "https://example.test/2")]
             stack.enter_context(patch.object(module, config_name, config))
         if module is stock:
+            stack.enter_context(patch.object(module, "FNAC_CATALOG_FILE", folder / "fnac_catalog.json"))
             config = copy.deepcopy(stock.MARKETPLACES[0])
             config["pages"] = [("first", "https://example.test/1"), ("second", "https://example.test/2")]
             config["extra_asins"] = {}
@@ -124,6 +125,25 @@ class CompleteRunTests(unittest.IsolatedAsyncioTestCase):
                     await module.main()
                 self.assertEqual(state.read_bytes(), previous_state)
                 self.assertEqual(snapshot.read_bytes(), previous_snapshot)
+
+
+class StaticFnacCatalogTests(unittest.TestCase):
+    def test_static_products_are_always_unconfirmed(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "fnac_catalog.json"
+            path.write_text(json.dumps({"products": [{
+                "asin": "123",
+                "name": "Sobre Pokémon de prueba",
+                "link": "https://www.fnac.es/producto/a123",
+                "price": "5,99 €",
+            }]}), encoding="utf-8")
+            with patch.object(stock, "FNAC_CATALOG_FILE", path):
+                products = stock.load_static_fnac_products()
+
+        self.assertEqual(set(products), {"FNAC:123"})
+        self.assertEqual(products["FNAC:123"]["status"], "sin_confirmar")
+        self.assertIsNone(products["FNAC:123"]["stock"])
+        self.assertEqual(products["FNAC:123"]["marketplace_code"], "FNAC")
 
 
 class DiscoveryTests(unittest.IsolatedAsyncioTestCase):

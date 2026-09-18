@@ -53,14 +53,6 @@ jobs:
             echo "$AMAZON_US_COOKIES_JSON" > amazon_cookies_us.json
           fi
 
-      - name: Restore Fnac cookies
-        env:
-          FNAC_COOKIES_JSON: ${{ secrets.FNAC_COOKIES_JSON }}
-        run: |
-          if [ -n "$FNAC_COOKIES_JSON" ]; then
-            echo "$FNAC_COOKIES_JSON" > fnac_cookies.json
-          fi
-
       - name: Restore GAME cookies
         env:
           GAME_COOKIES_JSON: ${{ secrets.GAME_COOKIES_JSON }}

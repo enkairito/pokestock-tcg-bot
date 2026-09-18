@@ -239,25 +239,12 @@ def toysrus_affiliate_link(url):
         f"&a={TOYSRUS_AFFILIATE_SITE_ID}&url={encoded}"
     )
 
-# Fnac, a diferencia de ECI/Carrefour, SÍ necesita cookies — devuelve un 403
-# "El acceso está restringido temporalmente" (Datadome) a cualquier request
-# sin una cookie "datadome" válida de una sesión real de navegador. Ver
-# new_context() para cómo se cargan, igual que las de Amazon. Habrá que
-# refrescarlas de vez en cuando igual que las de amazon_cookies.json — la
-# cookie "datadome" caduca.
-#
-# Filtro de la búsqueda: "pokemon cartas" + Vendedor=Fnac (evita ofertas de
-# marketplace de terceros, más difíciles de fiarse) + Marca=Bandai.
-FNAC_STORE = {
-    "code": "FNAC",
-    "flag": "",
-    "store_label": "Fnac",
-    "tag": None,
-    "cookies_file": Path(__file__).parent / "fnac_cookies.json",
-    "pages": [
-        ("Pokémon cartas", "https://www.fnac.es/SearchResult/ResultList.aspx?Search=pokemon+cartas&SFilt=1!206%2c11187!23&sft=1"),
-    ],
-}
+# Fnac queda temporalmente como catálogo estático. El runner de GitHub
+# recibe un 403 de Datadome incluso con cookies recientes, así que estos
+# productos se publican como "sin confirmar" sin visitar Fnac, actualizar
+# estado ni generar alertas. Se podrá reactivar el scraper cuando exista una
+# fuente estable.
+FNAC_CATALOG_FILE = Path(__file__).parent / "fnac_catalog.json"
 
 STATUS_COPY = {
     "compra_directa": ("#COMPRADIRECTA", "📦", "CÓMPRALO YA"),
@@ -542,6 +529,45 @@ def save_products_snapshot(products):
     write_snapshot(SNAPSHOT_FILE, products, game="Pokémon")
 
 
+def load_static_fnac_products():
+    """Carga ofertas históricas de Fnac solo para publicarlas en la web.
+
+    No se mezclan con el estado ni con las alertas: su disponibilidad se
+    presenta siempre como no confirmada hasta que el scraper pueda volver a
+    comprobar Fnac de forma fiable.
+    """
+    if not FNAC_CATALOG_FILE.exists():
+        return {}
+    data = json.loads(FNAC_CATALOG_FILE.read_text(encoding="utf-8"))
+    rows = data.get("products") if isinstance(data, dict) else None
+    if not isinstance(rows, list):
+        raise ValueError("fnac_catalog.json debe contener una lista 'products'")
+
+    products = {}
+    for row in rows:
+        product_id = str(row.get("asin") or "").strip()
+        name = str(row.get("name") or "").strip()
+        link = str(row.get("link") or "").strip()
+        if not product_id or not name or not link.startswith("https://www.fnac.es/"):
+            raise ValueError(f"Producto estático de Fnac incompleto: {product_id or '<sin id>'}")
+        products[f"FNAC:{product_id}"] = {
+            "asin": product_id,
+            "marketplace_code": "FNAC",
+            "store_label": "Fnac",
+            "flag": "",
+            "name": name,
+            "image": row.get("image"),
+            "price": row.get("price"),
+            "original_price": row.get("original_price"),
+            "status": "sin_confirmar",
+            "stock": None,
+            "link": link,
+            "categories": assign_categories(name),
+            "first_seen": row.get("first_seen"),
+        }
+    return products
+
+
 def _telegram_post(method, data, files=None):
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/{method}"
     resp = requests.post(url, data=data, files=files, timeout=15)
@@ -653,12 +679,6 @@ async def new_context(browser):
         if cookies_file.exists():
             raw_cookies = json.loads(cookies_file.read_text(encoding="utf-8"))
             await context.add_cookies(normalize_cookies(raw_cookies))
-    # Fnac no es un "marketplace" (sin ASIN/flujo de invitación) así que no
-    # vive en MARKETPLACES, pero sí necesita sus propias cookies — ver nota
-    # junto a FNAC_STORE.
-    if FNAC_STORE["cookies_file"].exists():
-        raw_cookies = json.loads(FNAC_STORE["cookies_file"].read_text(encoding="utf-8"))
-        await context.add_cookies(normalize_cookies(raw_cookies))
     # GAME tampoco es un "marketplace" — mismo motivo que Fnac arriba.
     if GAME_STORE["cookies_file"].exists():
         raw_cookies = json.loads(GAME_STORE["cookies_file"].read_text(encoding="utf-8"))
@@ -1384,93 +1404,6 @@ async def discover_todoconsolas_products(page, label, query):
     return products
 
 
-FNAC_BLOCK_MARKERS = ["el acceso está restringido", "acceso restringido temporalmente"]
-
-
-async def discover_fnac_products(page, label, base_url):
-    """Descubre productos de Fnac desde una página de búsqueda, paginando
-    con "&PageIndex=N" hasta que una página no devuelva tarjetas (en vez de
-    hacer clic en "Ver más artículos": es un <a href> normal a esa misma
-    URL, así que navegar directo es más fiable que depender de que el botón
-    esté visible/estable — descubierto el 2026-09-15 tras un click fallido
-    por un spinner de carga interceptando el clic).
-
-    Necesita las cookies de FNAC_STORE (ver new_context) — sin la cookie
-    "datadome" de una sesión real, Fnac devuelve un 403 con una página de
-    bloqueo en vez de resultados."""
-    products = {}
-    for page_index in range(1, 11):
-        url = base_url if page_index == 1 else f"{base_url}&PageIndex={page_index}"
-        response = await page.goto(url, wait_until="domcontentloaded", timeout=60000)
-        if response is None or response.status >= 400:
-            # Solo la página 1 es crítica (sin ella no hay nada que
-            # publicar). Si Datadome bloquea una página siguiente —
-            # confirmado 2026-09-15 desde el runner de GitHub Actions, con
-            # las mismas cookies que sí funcionaron en local — nos quedamos
-            # con lo ya encontrado en vez de tirar todo el check por una
-            # sola tienda "extra" que aún es frágil.
-            if page_index == 1:
-                raise ScrapeError(f"Respuesta HTTP inválida en Fnac/{label} (página {page_index}, status {response.status if response else None})")
-            print(f"⚠️ [Fnac/{label}] Página {page_index} bloqueada (status {response.status if response else None}) — me quedo con lo ya encontrado.")
-            break
-        await page.wait_for_timeout(2500)
-
-        body_text = (await page.inner_text("body")).lower()
-        if any(marker in body_text for marker in FNAC_BLOCK_MARKERS):
-            raise ScrapeError(f"Bloqueado por Fnac (Datadome) en Fnac/{label} — las cookies de fnac_cookies.json probablemente han caducado")
-        if any(marker in body_text for marker in CAPTCHA_MARKERS):
-            raise ScrapeError(f"Captcha en Fnac/{label}")
-
-        tiles = await page.eval_on_selector_all(
-            "article.Article-itemGroup",
-            """els => els.map(el => {
-                const input = el.querySelector('input[name="products"]');
-                const nameEl = el.querySelector('[data-automation-id^="product-title-label"]');
-                const imageEl = el.querySelector('img[data-automation-id^="image-mosaic-"]');
-                const priceEl = el.querySelector('.userPrice') || el.querySelector('.Article-price');
-                return {
-                    prid: input ? input.getAttribute('data-prid') : null,
-                    availability: input ? input.getAttribute('data-availability') : null,
-                    href: nameEl ? nameEl.getAttribute('href') : null,
-                    name: nameEl ? nameEl.textContent.trim() : null,
-                    // Fnac hace lazy-load de las imágenes: mientras la
-                    // tarjeta no ha entrado en pantalla, "src" es un SVG en
-                    // blanco (placeholder) y la URL real vive en
-                    // "data-lazyimage" hasta que el navegador la cambia —
-                    // descubierto 2026-09-16 al ver imágenes rotas en la web.
-                    image: imageEl ? (imageEl.getAttribute('data-lazyimage') || imageEl.src) : null,
-                    priceText: priceEl ? priceEl.textContent.trim().split('\\n')[0].trim() : null,
-                };
-            })""",
-        )
-        if not tiles:
-            break
-
-        for t in tiles:
-            product_id = t.get("prid")
-            if not product_id or product_id in products:
-                continue
-            if not t.get("name") or not t.get("href"):
-                raise ScrapeError(f"Tarjeta incompleta en Fnac/{label}: {product_id}")
-            products[product_id] = {
-                "name": t.get("name"),
-                # NOTA: "199" es el único código de disponibilidad visto con
-                # botón "Añadir a la cesta" — cualquier otro (ej. "110", que
-                # es lo único visto además hasta ahora) no tiene ni botón ni
-                # precio en la tarjeta. Revisar si aparece un tercer código.
-                "status": "compra_directa" if t.get("availability") == "199" else "no_disponible",
-                "price": t.get("priceText"),
-                "original_price": None,
-                "image": t.get("image"),
-                "stock": None,
-                "url": t.get("href"),
-            }
-
-    if not products:
-        raise ScrapeError(f"Sin productos verificables en Fnac/{label}; se conserva la publicación anterior")
-    return products
-
-
 async def check_single_product(page, asin, marketplace, include_delivery=False):
     """Comprobación individual de respaldo para productos cuya tarjeta de
     tienda no expone precio/disponibilidad directamente.
@@ -1744,64 +1677,8 @@ async def main():
             info["categories"] = assign_categories(info["name"])
             products[f"CAR:{product_id}"] = info
 
-        # A diferencia de ES/UK/US/ECI/Carrefour (que si fallan tiran todo
-        # el check a propósito, para que un fallo silencioso no pase
-        # desapercibido), Fnac todavía depende de una cookie de sesión
-        # (Datadome) que puede caducar o bloquear sin avisar — un fallo ahí
-        # no debe impedir publicar lo que sí se ha comprobado bien del
-        # resto de tiendas. Se conserva el estado anterior de Fnac hasta la
-        # siguiente ejecución que sí funcione.
-        fnac_products = {}
-        for label, url in FNAC_STORE["pages"]:
-            print(f"🔍 Descubriendo productos en la tienda (Fnac/{label})...")
-            try:
-                page_products = await discover_fnac_products(page, label, url)
-                print(f"📦 [Fnac/{label}] {len(page_products)} productos encontrados")
-                fnac_products.update(page_products)
-            except Exception as e:
-                print(f"⚠️ No se pudo cargar la página de Fnac ({label}), se omite esta vez: {e!r}")
-
-        fnac_out_of_stock = {a for a, i in fnac_products.items() if i["status"] == "no_disponible"}
-        if fnac_out_of_stock:
-            print(f"⏭️ [Fnac] Omitiendo {len(fnac_out_of_stock)} productos agotados de la web (pero sí se actualiza su estado, para poder detectar el próximo restock).")
-            for product_id in fnac_out_of_stock:
-                key = f"FNAC:{product_id}"
-                prev_first_seen = state.get(key, {}).get("first_seen")
-                state[key] = {
-                    "name": fnac_products[product_id]["name"],
-                    "status": "no_disponible",
-                    "stock": None,
-                    "first_seen": prev_first_seen or datetime.now(timezone.utc).isoformat(),
-                }
-                del fnac_products[product_id]
-
-        fnac_excluded_by_name = {
-            a for a, i in fnac_products.items() if is_excluded_by_name(i["name"])
-        }
-        if fnac_excluded_by_name:
-            print(f"⏭️ [Fnac] Omitiendo {len(fnac_excluded_by_name)} productos no relevantes por nombre (fundas/accesorios).")
-            for product_id in fnac_excluded_by_name:
-                del fnac_products[product_id]
-
-        fnac_not_pokemon = {
-            a for a, i in fnac_products.items() if not is_relevant_by_name(i["name"])
-        }
-        if fnac_not_pokemon:
-            print(f"⏭️ [Fnac] Omitiendo {len(fnac_not_pokemon)} productos ajenos a Pokémon.")
-            for product_id in fnac_not_pokemon:
-                del fnac_products[product_id]
-
-        for product_id, info in fnac_products.items():
-            info["asin"] = product_id
-            info["marketplace_code"] = FNAC_STORE["code"]
-            info["store_label"] = FNAC_STORE["store_label"]
-            info["flag"] = FNAC_STORE["flag"]
-            info["link"] = info["url"]
-            info["categories"] = assign_categories(info["name"])
-            products[f"FNAC:{product_id}"] = info
-
-        # Toys"R"Us es una fuente pública adicional. Se aísla igual que Fnac
-        # porque una caída temporal de una tienda extra no debe impedir que
+        # Toys"R"Us es una fuente pública adicional. Se aísla para que una
+        # caída temporal de una tienda extra no impida que
         # se publiquen los datos fiables de las demás. Afiliación aprobada
         # en TradeDoubler el 2026-09-18 — el enlace de compra usa el
         # deep-link (toysrus_affiliate_link), no la URL directa.
@@ -1854,7 +1731,7 @@ async def main():
             info["categories"] = assign_categories(info["name"])
             products[f"TRU:{product_id}"] = info
 
-        # GAME es una fuente pública adicional, igual de aislada que Fnac/
+        # GAME es una fuente pública adicional, igual de aislada que
         # ToysRUs — sin afiliación todavía, se usa el enlace directo.
         game_products = {}
         for label, url in GAME_STORE["pages"]:
@@ -2020,12 +1897,12 @@ async def main():
         send_failed = False
 
         # Solo se envían alertas de Telegram para tiendas españolas (Amazon
-        # ES, El Corte Inglés, Carrefour, Fnac, ToysRUs y GAME). El resto de
+        # ES, El Corte Inglés, Carrefour, ToysRUs y GAME). El resto de
         # marketplaces (UK, US) se siguen detectando y guardando en el
         # estado/snapshot para la web, pero no generan mensajes.
-        if (status_changed or stock_decreased or price_decreased) and info["marketplace_code"] in ("ES", "ECI", "CAR", "FNAC", "TRU", "GAME", "MM", "TC"):
-            # El nombre, el precio y (para ECI/Carrefour/Fnac) el link vienen
-            # del scraping de Amazon/El Corte Inglés/Carrefour/Fnac/ToysRUs — datos
+        if (status_changed or stock_decreased or price_decreased) and info["marketplace_code"] in ("ES", "ECI", "CAR", "TRU", "GAME", "MM", "TC"):
+            # El nombre, el precio y el enlace vienen del scraping de
+            # Amazon/El Corte Inglés/Carrefour/ToysRUs — datos
             # externos que no controlamos — y el mensaje se manda con parse_mode:
             # HTML, así que hay que
             # escaparlos o un título de producto con '<'/'>'/'&' rompería el
@@ -2096,8 +1973,10 @@ async def main():
         print("[DRY_RUN] Estado, snapshots e historial conservados sin cambios.")
         return
 
+    static_fnac_products = load_static_fnac_products()
+    print(f"📌 [Fnac] Publicando {len(static_fnac_products)} productos estáticos sin comprobar stock.")
     save_state(state)
-    save_products_snapshot(products)
+    save_products_snapshot({**products, **static_fnac_products})
     save_events(events)
     print("✅ Comprobación completada.")
 
