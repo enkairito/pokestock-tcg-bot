@@ -2,7 +2,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
-from build_catalog import build_site, clean_gaming_feed, match_sets, render_page, render_set_index, render_set_page, update_catalog, product_id
+from build_catalog import build_site, clean_gaming_feed, match_sets, render_group_page, render_page, render_set_index, render_set_page, update_catalog, product_id
 
 PRODUCT = {"asin": "B000000001", "marketplace": "ES", "name": "Magic Booster", "status": "compra_directa", "price": "10,00 €", "game": "Magic"}
 TEMPLATE = '<html><head><title>Producto</title><meta name="description" content=""><meta name="robots" content="noindex"></head><body><div id="product-detail">Cargando</div><!--PRODUCT-HISTORY--><!--RELATED-PRODUCTS--><script src="/producto.js"></script></body></html>'
@@ -13,6 +13,54 @@ INDEX_TEMPLATE = '<html><head><title>Sets</title><meta name="robots" content="no
 class CatalogTests(unittest.TestCase):
     def snapshot(self, products, hour=10):
         return {"updated_at": f"2026-09-08T{hour:02}:00:00Z", "products": products}
+
+    def product_group(self):
+        return {
+            "id": "pokemon-destined-rivals-etb-es-1234567890",
+            "url": "https://wheresthatstock.com/producto/pokemon-destined-rivals-etb-es-1234567890",
+            "name": "Pokémon Destined Rivals ETB Español",
+            "game": "Pokémon",
+            "offers": [
+                {
+                    "offer_id": "CAR-A1", "marketplace": "CAR", "store": "Carrefour",
+                    "name": "ETB Destined Rivals", "price": "49,99 €", "status": "compra_directa",
+                    "link": "https://example.test/carrefour", "image": "https://example.test/etb.jpg",
+                    "product_url": "https://wheresthatstock.com/producto/CAR-A1", "checked_at": "2026-09-08",
+                },
+                {
+                    "offer_id": "FNAC-B2", "marketplace": "FNAC", "store": "Fnac",
+                    "name": "ETB Destined Rivals agotada", "price": "54,99 €", "status": "no_disponible",
+                    "link": "https://example.test/fnac", "image": "https://example.test/etb-2.jpg",
+                    "product_url": "https://wheresthatstock.com/producto/FNAC-B2", "checked_at": "2026-09-07",
+                },
+            ],
+        }
+
+    def test_group_page_renders_price_comparison_seo_and_structured_data(self):
+        group = self.product_group()
+        page = render_group_page(TEMPLATE, group)
+        self.assertIn('<link rel="canonical" href="' + group["url"] + '">', page)
+        self.assertIn("Compara 2 ofertas", page)
+        self.assertIn("49,99 €", page)
+        self.assertIn("/assets/carrefour-logo.webp", page)
+        self.assertIn("/assets/fnac-logo.webp", page)
+        self.assertIn("is-unavailable", page)
+        self.assertIn('rel="noopener sponsored"', page)
+        self.assertNotIn('<script src="/producto.js"></script>', page)
+        product_schema = json.loads(page.split('<script type="application/ld+json">', 1)[1].split('</script>', 1)[0])
+        self.assertEqual(product_schema["@type"], "Product")
+        self.assertEqual(product_schema["offers"]["@type"], "AggregateOffer")
+        self.assertEqual(product_schema["offers"]["lowPrice"], "49.99")
+        self.assertEqual(product_schema["offers"]["offerCount"], 2)
+
+    def test_store_offer_page_links_and_canonicalize_to_group(self):
+        group = self.product_group()
+        product = {**PRODUCT, "asin": "A1", "marketplace": "CAR", "store_label": "Carrefour"}
+        page = render_page(TEMPLATE, product, group=group)
+        self.assertIn(f'<link rel="canonical" href="{group["url"]}">', page)
+        self.assertIn("Comparar todos los precios", page)
+        self.assertIn('/producto/FNAC-B2', page)
+        self.assertIn("esta oferta", page)
 
     def test_disappearance_preserves_details_without_claiming_sold_out(self):
         first, events = update_catalog({}, self.snapshot([PRODUCT]), "magic.json", [])
@@ -299,6 +347,14 @@ class CatalogTests(unittest.TestCase):
             groups = json.loads((root / "product-groups.json").read_text(encoding="utf-8"))
             self.assertEqual(groups["summary"]["groups"], 1)
             self.assertEqual(groups["summary"]["grouped_offers"], 2)
+            group = groups["groups"][0]
+            self.assertTrue((root / "producto" / f"{group['id']}.html").exists())
+            group_page = (root / "producto" / f"{group['id']}.html").read_text(encoding="utf-8")
+            self.assertIn("Compara 2 ofertas", group_page)
+            sitemap = (root / "sitemap-products.xml").read_text(encoding="utf-8")
+            self.assertIn(group["url"], sitemap)
+            self.assertNotIn("/producto/ES-B000000001", sitemap)
+            self.assertNotIn("/producto/UK-B000000002", sitemap)
             overrides = json.loads((root / "product-group-overrides.json").read_text(encoding="utf-8"))
             self.assertEqual(overrides["assign"], {})
 

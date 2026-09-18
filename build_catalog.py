@@ -46,6 +46,19 @@ CATEGORY_LINKS = {
     "xbox.json": ("/xbox", "Xbox"),
     "accesorios.json": ("/accesorios", "Accesorios"),
 }
+STORE_ASSETS = {
+    "ES": "/assets/amazon-logo.png",
+    "UK": "/assets/amazon-logo.png",
+    "US": "/assets/amazon-logo.png",
+    "ECI": "/assets/eci-logo.webp",
+    "CAR": "/assets/carrefour-logo.webp",
+    "FNAC": "/assets/fnac-logo.webp",
+    "TRU": "/assets/toysrus-logo.png",
+    "GAME": "/assets/game-logo.png",
+    "MM": "/assets/mediamarkt-logo.png",
+    "TC": "/assets/todoconsolas-logo.jpg",
+}
+FLAG_ASSETS = {"UK": "/assets/flags/gb.png", "US": "/assets/flags/us.png"}
 
 
 def breadcrumb_ld(*crumbs):
@@ -178,7 +191,7 @@ def _render_product_history(events):
     )
 
 
-def render_page(template, product, set_entry=None, related=None, history=None):
+def render_page(template, product, set_entry=None, related=None, history=None, group=None):
     name = html.escape(product.get("name") or "Producto")
     key = product_id(product)
     description = html.escape(f"{product.get('name', 'Producto')}: última disponibilidad observada y enlace a la tienda.", quote=True)
@@ -186,14 +199,15 @@ def render_page(template, product, set_entry=None, related=None, history=None):
     output = re.sub(r"<title>.*?</title>", lambda _: f"<title>{name} — Where's That Stock</title>", template, count=1, flags=re.S)
     output = re.sub(r'<meta name="description"[^>]*>', lambda _: f'<meta name="description" content="{description}">', output, count=1)
     output = output.replace('<meta name="robots" content="noindex">', '')
-    output = output.replace('</head>', f'<link rel="canonical" href="{ORIGIN}/producto/{key}">\n</head>', 1)
+    page_url = group.get("url") if group else f"{ORIGIN}/producto/{key}"
+    output = output.replace('</head>', f'<link rel="canonical" href="{html.escape(page_url, quote=True)}">\n</head>', 1)
     product_image = _safe_https_url(product.get("image"))
     image = product_image or f"{ORIGIN}/assets/brand/social.png"
     metadata = {
         "og:type": "website", "og:site_name": "Where's That Stock",
         "og:title": product.get("name") or "Producto",
         "og:description": f"Consulta este producto en {product.get('store_label') or 'la tienda'} y guárdalo en tus favoritos.",
-        "og:url": f"{ORIGIN}/producto/{key}", "og:image": image,
+        "og:url": page_url, "og:image": image,
         "twitter:card": "summary_large_image",
     }
     tags = "\n".join(f'<meta {"name" if label.startswith("twitter:") else "property"}="{label}" content="{html.escape(value, quote=True)}">' for label, value in metadata.items())
@@ -221,7 +235,7 @@ def render_page(template, product, set_entry=None, related=None, history=None):
     crumbs_json = breadcrumb_ld(
         ("Inicio", f"{ORIGIN}/"),
         (category_label, f"{ORIGIN}{category_path}"),
-        (product.get("name") or "Producto", f"{ORIGIN}/producto/{key}"),
+        (product.get("name") or "Producto", page_url),
     )
     output = output.replace('</head>', f'<script type="application/ld+json">{crumbs_json}</script>\n</head>', 1)
     status = _status_text(product.get("status"))
@@ -261,9 +275,189 @@ def render_page(template, product, set_entry=None, related=None, history=None):
         style = f' style="--game-color:{color}"' if color else ""
         output = output.replace("<!--SET-LINK-->", f'  <a class="back-link set-link" href="/set/{slug}"{style}>Ver todo lo de {label} →</a>', 1)
     output = output.replace("<!--SET-LINK-->", "")
+    if group:
+        output = output.replace("<!--PRODUCT-HISTORY-->", _render_group_reference(group, key) + "\n  <!--PRODUCT-HISTORY-->", 1)
     output = re.sub(r"[ \t]*<!--PRODUCT-HISTORY-->", _render_product_history(history or []), output, count=1)
     output = re.sub(r"[ \t]*<!--RELATED-PRODUCTS-->", _render_related_products(related or []), output, count=1)
     return output.replace('<script src="/producto.js"></script>', f'<script id="product-data" type="application/json">{embedded}</script>\n<script src="/producto.js"></script>')
+
+
+def _offer_is_available(offer):
+    return offer.get("status") in ACTIVE_STATUSES
+
+
+def _group_status_text(status):
+    return {
+        "compra_directa": "Disponible",
+        "invitacion": "Por invitación",
+        "preventa": "Preventa",
+    }.get(status, "No disponible")
+
+
+def _format_eur(value):
+    return f"{value:.2f}".replace(".", ",") + " €"
+
+
+def _offer_sort_key(offer):
+    price = price_to_float(offer.get("price"))
+    return (not _offer_is_available(offer), price is None, price if price is not None else float("inf"), offer.get("store") or "", offer.get("offer_id") or "")
+
+
+def _store_logo(marketplace, store, available, compact=False):
+    asset = STORE_ASSETS.get(marketplace)
+    flag = FLAG_ASSETS.get(marketplace)
+    state = "Disponible" if available else "No disponible"
+    classes = "group-store-logo" + (" is-unavailable" if not available else "") + (" is-compact" if compact else "")
+    content = (
+        f'<img src="{asset}" alt="" width="72" height="32" loading="lazy">'
+        if asset else f'<span class="group-store-fallback">{html.escape(store[:12])}</span>'
+    )
+    if flag:
+        content += f'<img class="group-store-flag" src="{flag}" alt="{html.escape(marketplace)}" width="18" height="12" loading="lazy">'
+    return f'<span class="{classes}" role="img" aria-label="{html.escape(store)}: {state}" title="{html.escape(store)} · {state}">{content}</span>'
+
+
+def _render_group_reference(group, current_offer_id):
+    offers = sorted(group.get("offers") or [], key=_offer_sort_key)
+    if len(offers) < 2:
+        return ""
+    stores = {offer.get("store") or offer.get("marketplace") or "Tienda" for offer in offers}
+    links = []
+    for offer in offers:
+        store = offer.get("store") or offer.get("marketplace") or "Tienda"
+        current = offer.get("offer_id") == current_offer_id
+        label = f'{store}: {offer.get("price") or "consultar precio"}'
+        logo = _store_logo(offer.get("marketplace"), store, _offer_is_available(offer), compact=True)
+        if current:
+            links.append(f'<span class="group-offer-chip is-current">{logo}<span>{html.escape(label)} · esta oferta</span></span>')
+        else:
+            links.append(f'<a class="group-offer-chip" href="/producto/{html.escape(offer.get("offer_id") or "", quote=True)}">{logo}<span>{html.escape(label)}</span></a>')
+    return (
+        '<section class="product-group-callout" aria-labelledby="product-group-callout-title">'
+        '<div><span class="group-kicker">Comparador de precios</span>'
+        f'<h2 id="product-group-callout-title">Disponible en {len(stores)} tiendas</h2>'
+        '<p>Esta oferta pertenece a un producto con precios de varias tiendas.</p></div>'
+        f'<a class="buy-btn" href="/producto/{html.escape(group.get("id") or "", quote=True)}">Comparar todos los precios</a>'
+        '<div class="product-group-chips">' + "".join(links) + '</div></section>'
+    )
+
+
+def render_group_page(template, group):
+    """Genera la ficha C indexable con todas las ofertas del producto."""
+    group_id = group.get("id") or ""
+    if not re.fullmatch(r"[a-z0-9][a-z0-9-]{2,95}", group_id):
+        raise ValueError("Identificador de grupo inválido")
+    raw_name = group.get("name") or "Producto Pokémon TCG"
+    name = html.escape(raw_name)
+    url = f"{ORIGIN}/producto/{group_id}"
+    offers = sorted(group.get("offers") or [], key=_offer_sort_key)
+    available = [offer for offer in offers if _offer_is_available(offer)]
+    priced = [(price_to_float(offer.get("price")), offer) for offer in available]
+    priced = [(price, offer) for price, offer in priced if price is not None]
+    best_price, best_offer = min(priced, default=(None, available[0] if available else (offers[0] if offers else None)), key=lambda item: item[0] if item[0] is not None else float("inf"))
+    image = next((_safe_https_url(offer.get("image")) for offer in ([best_offer] if best_offer else []) + offers if offer and _safe_https_url(offer.get("image"))), "")
+    stores = sorted({offer.get("store") or offer.get("marketplace") or "Tienda" for offer in offers})
+    description_text = f"Compara el precio y el stock de {raw_name} en {len(stores)} tiendas."
+    if best_price is not None:
+        description_text += f" Disponible desde {_format_eur(best_price)}."
+    description = html.escape(description_text, quote=True)
+
+    output = re.sub(r"<title>.*?</title>", lambda _: f"<title>{name}: precios y stock — Where's That Stock</title>", template, count=1, flags=re.S)
+    output = re.sub(r'<meta name="description"[^>]*>', lambda _: f'<meta name="description" content="{description}">', output, count=1)
+    output = output.replace('<meta name="robots" content="noindex">', '')
+    output = output.replace('</head>', f'<link rel="canonical" href="{url}">\n</head>', 1)
+    social_image = image or f"{ORIGIN}/assets/brand/social.png"
+    metadata = {
+        "og:type": "website", "og:site_name": "Where's That Stock",
+        "og:title": f"{raw_name}: compara precios y stock",
+        "og:description": description_text, "og:url": url, "og:image": social_image,
+        "twitter:card": "summary_large_image",
+    }
+    tags = "\n".join(f'<meta {"name" if label.startswith("twitter:") else "property"}="{label}" content="{html.escape(value, quote=True)}">' for label, value in metadata.items())
+    output = output.replace('</head>', tags + '\n</head>', 1)
+
+    schema_offers = []
+    for offer in offers:
+        schema_offer = {
+            "@type": "Offer",
+            "url": offer.get("product_url") or f"{ORIGIN}/producto/{offer.get('offer_id')}",
+            "priceCurrency": "EUR",
+            "availability": AVAILABILITY.get(offer.get("status"), "https://schema.org/OutOfStock"),
+            "seller": {"@type": "Organization", "name": offer.get("store") or offer.get("marketplace") or "Tienda"},
+        }
+        price = price_to_float(offer.get("price"))
+        if price is not None:
+            schema_offer["price"] = f"{price:.2f}"
+        schema_offers.append(schema_offer)
+    priced_values = [price_to_float(offer.get("price")) for offer in available]
+    priced_values = [price for price in priced_values if price is not None]
+    offer_schema = {"@type": "AggregateOffer", "priceCurrency": "EUR", "offerCount": len(offers), "offers": schema_offers}
+    if priced_values:
+        offer_schema.update(lowPrice=f"{min(priced_values):.2f}", highPrice=f"{max(priced_values):.2f}")
+    product_ld = {"@context": "https://schema.org", "@type": "Product", "name": raw_name, "image": social_image, "sku": group_id, "offers": offer_schema}
+    ld_json = json.dumps(product_ld, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
+    crumbs_json = breadcrumb_ld(("Inicio", f"{ORIGIN}/"), ("Pokémon TCG", f"{ORIGIN}/pokemontcg"), (raw_name, url))
+    output = output.replace('</head>', f'<script type="application/ld+json">{ld_json}</script>\n<script type="application/ld+json">{crumbs_json}</script>\n</head>', 1)
+
+    image_html = (
+        f'<img src="{html.escape(image, quote=True)}" alt="{name}" width="420" height="420" fetchpriority="high">'
+        if image else '<span class="product-image-placeholder"><span>Imagen no disponible</span></span>'
+    )
+    store_states = {}
+    for offer in offers:
+        key = offer.get("marketplace") or offer.get("store") or ""
+        current = store_states.setdefault(key, {"marketplace": offer.get("marketplace"), "store": offer.get("store") or offer.get("marketplace") or "Tienda", "available": False})
+        current["available"] = current["available"] or _offer_is_available(offer)
+    logos = "".join(_store_logo(item["marketplace"], item["store"], item["available"]) for item in store_states.values())
+    availability_text = f'{len(available)} oferta{"s" if len(available) != 1 else ""} disponible{"s" if len(available) != 1 else ""}' if available else "Sin ofertas disponibles ahora"
+    hero = (
+        '<div class="product-detail group-product-detail">'
+        f'<div class="product-detail-img product-static-image">{image_html}</div>'
+        '<div class="product-detail-body"><span class="group-kicker">Comparador Pokémon TCG</span>'
+        f'<h1>{name}</h1><p class="group-availability-summary">{html.escape(availability_text)} en {len(stores)} tiendas.</p>'
+        + (f'<div class="group-best-price"><span>Mejor precio disponible</span><strong>{_format_eur(best_price)}</strong></div>' if best_price is not None else '<div class="group-best-price"><span>Precio</span><strong>Consultar en tiendas</strong></div>')
+        + f'<div class="group-store-strip" aria-label="Tiendas que venden este producto">{logos}</div>'
+        + f'<a class="buy-btn" href="#precios">Ver precios en {len(stores)} tiendas</a></div></div>'
+    )
+    output, count = re.subn(r'(<div id="product-detail"[^>]*>).*?(</div>)', lambda match: match[1] + hero + match[2], output, count=1, flags=re.S)
+    if count != 1:
+        raise ValueError("Falta el contenedor product-detail en la plantilla")
+
+    rows = []
+    for offer in offers:
+        store = offer.get("store") or offer.get("marketplace") or "Tienda"
+        active = _offer_is_available(offer)
+        logo = _store_logo(offer.get("marketplace"), store, active)
+        status = _group_status_text(offer.get("status"))
+        offer_name = html.escape(offer.get("name") or raw_name)
+        price = html.escape(offer.get("price") or "Consultar precio")
+        product_url = f'/producto/{html.escape(offer.get("offer_id") or "", quote=True)}'
+        merchant = _safe_https_url(offer.get("link"))
+        action = (
+            f'<a class="buy-btn" href="{html.escape(merchant, quote=True)}" target="_blank" rel="noopener sponsored">Comprar</a>'
+            if active and merchant else '<span class="buy-btn disabled" aria-disabled="true">No disponible</span>'
+        )
+        rows.append(
+            f'<article class="group-offer-row{" is-unavailable" if not active else ""}">'
+            f'<div class="group-offer-store">{logo}<div><strong>{html.escape(store)}</strong><span class="badge status">{html.escape(status)}</span></div></div>'
+            f'<div class="group-offer-product"><a href="{product_url}">{offer_name}</a><span>Ver historial y detalles de esta oferta</span></div>'
+            f'<div class="group-offer-price"><strong>{price}</strong><span>{"Precio actual" if active else "Último precio observado"}</span></div>'
+            f'<div class="group-offer-actions">{action}<a class="utility-button" href="{product_url}">Ver ficha</a></div></article>'
+        )
+    comparison = (
+        '<section class="group-offers" id="precios" aria-labelledby="group-offers-title">'
+        '<div class="group-section-heading"><div><span class="group-kicker">Precios por tienda</span>'
+        f'<h2 id="group-offers-title">Compara {len(offers)} ofertas</h2></div><p>Ordenadas por disponibilidad y precio.</p></div>'
+        + "".join(rows) + '</section>'
+        '<section class="group-disclaimer"><h2>Antes de comprar</h2><p>Comprueba el idioma, el modelo y las condiciones en la tienda. Los precios y el stock pueden cambiar desde la última comprobación.</p></section>'
+    )
+    output = output.replace("<!--SET-LINK-->", "")
+    output = output.replace("<!--PRODUCT-HISTORY-->", comparison, 1)
+    output = output.replace("<!--RELATED-PRODUCTS-->", "", 1)
+    output = output.replace('<span id="live-text">Cargando...</span>', '<span id="live-text">comparando tiendas</span>')
+    output = output.replace('<script src="/producto.js"></script>', '')
+    embedded = json.dumps(group, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
+    return output.replace('</body>', f'<script id="product-group-data" type="application/json">{embedded}</script>\n</body>', 1)
 
 
 def _normalize(text):
@@ -466,7 +660,7 @@ def _write_xml(path, root):
     ET.ElementTree(root).write(path, encoding="UTF-8", xml_declaration=True)
 
 
-def write_sitemaps(folder, products, set_matches):
+def write_sitemaps(folder, products, set_matches, groups=None):
     """Separa URLs editoriales y productos comprables.
 
     Las fichas sin confirmar siguen publicadas con HTTP 200 y enlaces
@@ -491,14 +685,29 @@ def write_sitemaps(folder, products, set_matches):
 
     products_root = _new_urlset()
     product_entries = {}
+    groups = groups or []
+    grouped_offer_ids = {
+        offer.get("offer_id")
+        for group in groups for offer in group.get("offers") or []
+    }
     for key, product in sorted(products.items()):
-        if product.get("status") not in ACTIVE_STATUSES:
+        if product.get("status") not in ACTIVE_STATUSES or key in grouped_offer_ids:
             continue
         _set_sitemap_entry(
             products_root,
             product_entries,
             f"{ORIGIN}/producto/{key}",
             product.get("checked_at") or product.get("last_seen") or "",
+        )
+    for group in groups:
+        offers = group.get("offers") or []
+        if not any(_offer_is_available(offer) for offer in offers):
+            continue
+        _set_sitemap_entry(
+            products_root,
+            product_entries,
+            group.get("url") or f"{ORIGIN}/producto/{group.get('id')}",
+            max((offer.get("checked_at") or offer.get("last_seen") or "" for offer in offers), default=""),
         )
 
     index_root = ET.Element(f"{{{NS}}}sitemapindex")
@@ -604,6 +813,11 @@ def build_site(folder, sources):
 
     template = template_path.read_text(encoding="utf-8")
     (folder / "producto").mkdir(exist_ok=True)
+    groups = grouped_products.get("groups") or []
+    group_by_offer = {
+        offer.get("offer_id"): group
+        for group in groups for offer in group.get("offers") or []
+    }
     for key, product in products.items():
         name = f"producto/{key}.html"
         slug = set_owner.get(key)
@@ -611,11 +825,15 @@ def build_site(folder, sources):
         related = related_products(key, product, products)
         history = history_by_product.get(key, [])
         (folder / name).write_text(
-            render_page(template, product, entry, related=related, history=history),
+            render_page(template, product, entry, related=related, history=history, group=group_by_offer.get(key)),
             encoding="utf-8",
         )
         changed.append(name)
-    valid_product_pages = {f"{key}.html" for key in products}
+    for group in groups:
+        name = f"producto/{group['id']}.html"
+        (folder / name).write_text(render_group_page(template, group), encoding="utf-8")
+        changed.append(name)
+    valid_product_pages = {f"{key}.html" for key in products} | {f"{group['id']}.html" for group in groups}
     for path in (folder / "producto").glob("*.html"):
         if path.name not in valid_product_pages:
             path.unlink()
@@ -645,7 +863,7 @@ def build_site(folder, sources):
                 render_set_index(index_template_path.read_text(encoding="utf-8"), index_entries), encoding="utf-8")
             changed.append("set/index.html")
 
-    changed.extend(write_sitemaps(folder, products, set_matches))
+    changed.extend(write_sitemaps(folder, products, set_matches, groups))
     return changed
 
 
