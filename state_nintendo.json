@@ -1296,7 +1296,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T00:23:08.150021+00:00",
-    "price": "35,27 €"
+    "price": "35,27 €",
+    "pending_price": "35,31 €",
+    "pending_price_count": 1
   },
   "ES:B0GSSQYPK3": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
@@ -2243,7 +2245,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689228+00:00",
-    "price": "82,47 €"
+    "price": "69,99 €"
   },
   "ES:B08GMSQBDZ": {
     "name": "Pang Adventures Buster Edition",
@@ -2411,7 +2413,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689572+00:00",
-    "price": "24,99 €"
+    "price": "24,99 €",
+    "pending_price": "25,83 €",
+    "pending_price_count": 1
   },
   "ES:B0DZHKMZTD": {
     "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge Ultimate Edition (Nintendo Switch)",
@@ -2960,7 +2964,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T10:32:19.292339+00:00",
-    "price": "59,90 €"
+    "price": "49,99 €"
   },
   "ES:B0GHQX9W2G": {
     "name": "SAVAGE RAVEN by Skull & Co. Skin, CQC Thumb Grip Set Joystick Cap Analog Stick Cap for Nintendo Switch 2 Joy-con Controller - Light Purple+Light Green, 3 Pairs(6pcs)",
@@ -3222,5 +3226,12 @@
     "stock": null,
     "first_seen": "2026-09-17T16:31:34.998615+00:00",
     "price": "10,49 €"
+  },
+  "ES:B07P6QCPS8": {
+    "name": "Hollow Knight",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T08:31:24.279633+00:00",
+    "price": "27,99 €"
   }
 }
