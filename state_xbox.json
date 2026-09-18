@@ -991,9 +991,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "35,95 €",
-    "pending_price": "37,32 €",
-    "pending_price_count": 1
+    "price": "37,32 €"
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1068,7 +1066,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T00:20:55.336147+00:00",
-    "price": "40,01 €"
+    "price": "19,99 €"
   },
   "ES:B0BLZ64C5H": {
     "name": "Electronic Arts Star Wars Jedi: Survivor XBOX Series X, Videojuegos, Castellano",
@@ -1479,9 +1477,10 @@
   },
   "ES:B09RQ9TF1H": {
     "name": "Xbox Series S + Cascos Stereo Xbox para Xbox Series X|S",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:42.060951+00:00"
+    "first_seen": "2026-09-17T00:32:42.060951+00:00",
+    "price": "563,03 €"
   },
   "ES:B08K3F3VQG": {
     "name": "Microsoft Xbox Series X 1TB, Black",
@@ -1503,9 +1502,10 @@
   },
   "ES:B07DP8XN43": {
     "name": "SEKIRO - Shadows Die Twice - Xbox One [Importación alemana]",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:42.060966+00:00"
+    "first_seen": "2026-09-17T00:32:42.060966+00:00",
+    "price": "25,52 €"
   },
   "ES:B0DGGRTZZS": {
     "name": "Xbox Series X (1TB) Standard + EA Sports FC 25 Standard Edition",
@@ -1701,9 +1701,10 @@
   },
   "ES:B09YVZG4FP": {
     "name": "Xbox Series S + Forza Horizon 5: Standard - Xbox Series S | Código de descarga",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:42.061092+00:00"
+    "first_seen": "2026-09-17T00:32:42.061092+00:00",
+    "price": "573,01 €"
   },
   "ES:B01KZYZMGC": {
     "name": "Xbox One - Pack Consola S 1 TB: Battlefield 1",
@@ -2130,16 +2131,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257009+00:00",
-    "price": "15,30 €",
-    "pending_price": "16,91 €",
-    "pending_price_count": 1
+    "price": "16,91 €"
   },
   "ES:B00KJFDIP0": {
     "name": "Tekken 7",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257018+00:00",
-    "price": "27,45 €"
+    "price": "27,45 €",
+    "pending_price": "28,51 €",
+    "pending_price_count": 1
   },
   "ES:B00DW342NI": {
     "name": "Titanfall",
@@ -2160,7 +2161,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257044+00:00",
-    "price": "18,86 €"
+    "price": "18,86 €",
+    "pending_price": "26,53 €",
+    "pending_price_count": 1
   },
   "ES:B07X4X8JM4": {
     "name": "Grand Theft Auto V - Premium Edition",
@@ -2181,7 +2184,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257080+00:00",
-    "price": "8,58 €"
+    "price": "8,58 €",
+    "pending_price": "8,94 €",
+    "pending_price_count": 1
   },
   "ES:B01C8MQLDW": {
     "name": "Titanfall 2",
@@ -2209,7 +2214,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
-    "price": "23,38 €"
+    "price": "23,38 €",
+    "pending_price": "25,04 €",
+    "pending_price_count": 1
   },
   "ES:B08HZKQDK1": {
     "name": "F1 2020 - Xbox One",
@@ -2314,7 +2321,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257377+00:00",
-    "price": "160,99 €"
+    "price": "150,99 €"
   },
   "ES:B0B4SS2DNS": {
     "name": "Thrustmaster TCA Captain Pack X Airbus Edition - XBOX y PC | Con licencia oficial de Airbus y XBOX, equipo de simulación de vuelo, réplicas ergonómicas 1:1, sidestick y cuadrante",
@@ -2949,7 +2956,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.549000+00:00",
-    "price": "92,91 €"
+    "price": "92,91 €",
+    "pending_price": "97,26 €",
+    "pending_price_count": 1
   },
   "ES:B0GJ5G9K7W": {
     "name": "deleyCON Cable HDMI 2.1 8K 2m Cable de Alta Velocidad Ultra High Speed 48 Gbps con Conector Acodado (270°) - Ideal para TV, Monitor, PS4, PS5, EARC, HDR10+ - 10K/8K@60Hz, 4K@120Hz/144Hz y 2K@240Hz",
