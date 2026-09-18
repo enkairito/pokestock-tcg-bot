@@ -589,6 +589,7 @@ FLAG_FILES = {
     "CAR": Path(__file__).parent / "assets" / "flags" / "es.png",
     "FNAC": Path(__file__).parent / "assets" / "flags" / "es.png",
     "TRU": Path(__file__).parent / "assets" / "flags" / "es.png",
+    "GAME": Path(__file__).parent / "assets" / "flags" / "es.png",
     "UK": Path(__file__).parent / "assets" / "flags" / "gb.png",
     "US": Path(__file__).parent / "assets" / "flags" / "us.png",
 }
@@ -1093,6 +1094,110 @@ async def discover_toysrus_products(page, label, query):
     return products
 
 
+# GAME.es vende cromos/cartas coleccionables (incluido Pokémon) bajo su
+# categoría "Merchandising", además de videojuegos. Confirmado el
+# 2026-09-18: la búsqueda pública devuelve una rejilla real de tarjetas
+# ``.search-item`` (id="search-item-<código>"), con nombre y precio ya en
+# los atributos ``data-list-item-*`` del enlace principal — no hace falta
+# aceptar el banner de cookies para que el DOM esté poblado, solo para que
+# no lo tape visualmente (por eso el intento de clic va en un try/except,
+# sin bloquear si no aparece).
+#
+# El estado se lee del texto de ``.buy--type`` dentro de la tarjeta:
+# "Comprar" (disponible) y "Reservar" (preventa) son los únicos que hemos
+# visto usar de verdad; "Próximamente" y "ver ficha" (agotado — comprobado
+# a mano visitando la ficha, que muestra "agotado"/"avísame") se tratan
+# igual que cualquier texto desconocido: no disponible, por seguridad.
+GAME_STORE = {
+    "code": "GAME",
+    "flag": "",
+    "store_label": "GAME",
+    "tag": None,
+    "pages": [
+        ("Pokémon Aniversario", "https://www.game.es/buscar/pokemon%20aniversario"),
+    ],
+}
+GAME_ID_RE = re.compile(r"^search-item-(\d+)$")
+GAME_STATUS_MAP = {"comprar": "compra_directa", "reservar": "preventa"}
+
+
+async def discover_game_products(page, label, url):
+    response = await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+    if response is None or response.status >= 400:
+        raise ScrapeError(f"Respuesta HTTP inválida en GAME/{label}")
+    await page.wait_for_timeout(2500)
+
+    try:
+        accept_btn = await page.query_selector("#onetrust-accept-btn-handler, button:has-text('Aceptar')")
+        if accept_btn:
+            await accept_btn.click()
+            await page.wait_for_timeout(500)
+    except Exception:
+        pass
+
+    prev_count = -1
+    for _ in range(10):
+        await page.mouse.wheel(0, 2000)
+        await page.wait_for_timeout(600)
+        count = await page.eval_on_selector_all(".search-item", "els => els.length")
+        if count == prev_count:
+            break
+        prev_count = count
+
+    title = await page.title()
+    print(f"ℹ️ [GAME/{label}] Título de la página cargada: {title!r}")
+
+    body_text = (await page.inner_text("body")).lower()
+    if any(marker in body_text for marker in CAPTCHA_MARKERS):
+        raise ScrapeError(f"Captcha en GAME/{label}")
+
+    tiles = await page.eval_on_selector_all(
+        ".search-item",
+        """els => els.map(el => {
+            const link = el.querySelector('a.figure');
+            const name = link ? link.getAttribute('data-list-item-name') : null;
+            const price = link ? link.getAttribute('data-list-item-price') : null;
+            const href = link ? link.getAttribute('href') : null;
+            const img = el.querySelector('img');
+            const image = img ? (img.getAttribute('data-src') || img.src) : null;
+            const buyType = el.querySelector('.buy--type');
+            const statusText = buyType ? buyType.textContent.trim() : '';
+            return { id: el.id, name, price, href, image, statusText };
+        })""",
+    )
+
+    products = {}
+    for t in tiles:
+        match = GAME_ID_RE.match(t.get("id") or "")
+        if not match:
+            continue
+        product_id = match.group(1)
+        if product_id in products or not t.get("name") or not t.get("href"):
+            continue
+
+        status_text = _strip_accents((t.get("statusText") or "").lower())
+        price_raw = t.get("price")
+        try:
+            price = f"{float(price_raw):.2f} €".replace(".", ",") if price_raw else None
+        except ValueError:
+            price = None
+        href = t["href"]
+
+        products[product_id] = {
+            "name": t["name"],
+            "price": price,
+            "original_price": None,
+            "image": t.get("image"),
+            "stock": None,
+            "status": GAME_STATUS_MAP.get(status_text, "no_disponible"),
+            "url": href if href.startswith("http") else f"https://www.game.es{href}",
+        }
+
+    if not products:
+        raise ScrapeError(f"Sin productos verificables en GAME/{label}; se conserva la publicación anterior")
+    return products
+
+
 FNAC_BLOCK_MARKERS = ["el acceso está restringido", "acceso restringido temporalmente"]
 
 
@@ -1563,6 +1668,57 @@ async def main():
             info["categories"] = assign_categories(info["name"])
             products[f"TRU:{product_id}"] = info
 
+        # GAME es una fuente pública adicional, igual de aislada que Fnac/
+        # ToysRUs — sin afiliación todavía, se usa el enlace directo.
+        game_products = {}
+        for label, url in GAME_STORE["pages"]:
+            print(f"🔍 Descubriendo productos en la tienda (GAME/{label})...")
+            try:
+                page_products = await discover_game_products(page, label, url)
+                print(f"📦 [GAME/{label}] {len(page_products)} productos encontrados")
+                game_products.update(page_products)
+            except Exception as e:
+                print(f"⚠️ No se pudo cargar la página de GAME ({label}), se omite esta vez: {e!r}")
+
+        game_out_of_stock = {a for a, i in game_products.items() if i["status"] == "no_disponible"}
+        if game_out_of_stock:
+            print(f"⏭️ [GAME] Omitiendo {len(game_out_of_stock)} productos agotados de la web (pero sí se actualiza su estado).")
+            for product_id in game_out_of_stock:
+                key = f"GAME:{product_id}"
+                prev_first_seen = state.get(key, {}).get("first_seen")
+                state[key] = {
+                    "name": game_products[product_id]["name"],
+                    "status": "no_disponible",
+                    "stock": None,
+                    "first_seen": prev_first_seen or datetime.now(timezone.utc).isoformat(),
+                }
+                del game_products[product_id]
+
+        game_excluded_by_name = {
+            a for a, i in game_products.items() if is_excluded_by_name(i["name"])
+        }
+        if game_excluded_by_name:
+            print(f"⏭️ [GAME] Omitiendo {len(game_excluded_by_name)} productos no relevantes por nombre.")
+            for product_id in game_excluded_by_name:
+                del game_products[product_id]
+
+        game_not_pokemon = {
+            a for a, i in game_products.items() if not is_relevant_by_name(i["name"])
+        }
+        if game_not_pokemon:
+            print(f"⏭️ [GAME] Omitiendo {len(game_not_pokemon)} productos ajenos a Pokémon.")
+            for product_id in game_not_pokemon:
+                del game_products[product_id]
+
+        for product_id, info in game_products.items():
+            info["asin"] = product_id
+            info["marketplace_code"] = GAME_STORE["code"]
+            info["store_label"] = GAME_STORE["store_label"]
+            info["flag"] = GAME_STORE["flag"]
+            info["link"] = info["url"]
+            info["categories"] = assign_categories(info["name"])
+            products[f"GAME:{product_id}"] = info
+
         await browser.close()
 
     print(f"📦 Total combinado: {len(products)} productos únicos")
@@ -1590,10 +1746,10 @@ async def main():
         send_failed = False
 
         # Solo se envían alertas de Telegram para tiendas españolas (Amazon
-        # ES, El Corte Inglés, Carrefour, Fnac y ToysRUs). El resto de marketplaces
-        # (UK, US) se siguen detectando y guardando en el estado/snapshot
-        # para la web, pero no generan mensajes.
-        if (status_changed or stock_decreased or price_decreased) and info["marketplace_code"] in ("ES", "ECI", "CAR", "FNAC", "TRU"):
+        # ES, El Corte Inglés, Carrefour, Fnac, ToysRUs y GAME). El resto de
+        # marketplaces (UK, US) se siguen detectando y guardando en el
+        # estado/snapshot para la web, pero no generan mensajes.
+        if (status_changed or stock_decreased or price_decreased) and info["marketplace_code"] in ("ES", "ECI", "CAR", "FNAC", "TRU", "GAME"):
             # El nombre, el precio y (para ECI/Carrefour/Fnac) el link vienen
             # del scraping de Amazon/El Corte Inglés/Carrefour/Fnac/ToysRUs — datos
             # externos que no controlamos — y el mensaje se manda con parse_mode:
