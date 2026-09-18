@@ -1,18 +1,5 @@
 [
   {
-    "ts": "2026-09-16T16:03:21.217525+00:00",
-    "type": "price_drop",
-    "asin": "B0DB7C1Z26",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
-    "image": "https://m.media-amazon.com/images/I/81TD+vNJcJL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "116,00 €",
-    "prev_price": "116,08 €",
-    "link": "https://www.amazon.es/dp/B0DB7C1Z26?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-16T16:03:21.217579+00:00",
     "type": "price_drop",
     "asin": "B0DG8VNG1F",
@@ -778,5 +765,18 @@
     "price": "160,36 €",
     "prev_price": null,
     "link": "https://www.amazon.es/dp/B0H2N248WM?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-18T16:23:24.223408+00:00",
+    "type": "price_drop",
+    "asin": "B0GR6Q72ND",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
+    "image": "https://m.media-amazon.com/images/I/81pdaHp6Q1L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "53,37 €",
+    "prev_price": "57,92 €",
+    "link": "https://www.amazon.es/dp/B0GR6Q72ND?tag=enkairito-21"
   }
 ]
