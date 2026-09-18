@@ -22,9 +22,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.362338+00:00",
-    "price": "44,99 €",
-    "pending_price": "55,50 €",
-    "pending_price_count": 1
+    "price": "55,50 €"
   },
   "ES:B0GNB8B2NS": {
     "name": "Metal Gear Solid: Master Collection Volume 2 – Day One Edition - Xbox",
@@ -1765,9 +1763,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688262+00:00",
-    "price": "69,90 €",
-    "pending_price": "85,00 €",
-    "pending_price_count": 1
+    "price": "85,00 €"
   },
   "ES:B0GY5GY45X": {
     "name": "Splatoon Raiders",
@@ -1795,7 +1791,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688352+00:00",
-    "price": "48,48 €"
+    "price": "47,99 €"
   },
   "ES:B0FQWLSLQS": {
     "name": "Mario Tennis Fever",
@@ -1865,14 +1861,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688441+00:00",
-    "price": "83,96 €"
+    "price": "74,99 €"
   },
   "ES:B0F3DP33ZG": {
     "name": "Story of Seasons: Grand Bazaar - Switch 2",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688460+00:00",
-    "price": "38,95 €"
+    "price": "24,99 €"
   },
   "ES:B0FB46P7TC": {
     "name": "Farming Simulator - Signature Edition - Switch 2",
@@ -1928,14 +1924,18 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688526+00:00",
-    "price": "48,00 €"
+    "price": "48,00 €",
+    "pending_price": "48,30 €",
+    "pending_price_count": 1
   },
   "ES:B0FL2GS1CT": {
     "name": "Survival Kids - Switch 2 [Nintendo Switch 2 - Key Card]",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688535+00:00",
-    "price": "33,85 €"
+    "price": "33,85 €",
+    "pending_price": "34,57 €",
+    "pending_price_count": 1
   },
   "ES:B0F3NKCYC4": {
     "name": "Super Mario Party: Jamboree - Nintendo Switch 2 Edition + Jamboree TV (Switch 2)",
@@ -2273,9 +2273,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689294+00:00",
-    "price": "47,99 €",
-    "pending_price": "49,99 €",
-    "pending_price_count": 1
+    "price": "49,99 €"
   },
   "ES:B0H4RSXW3V": {
     "name": "DRAGON QUEST MONSTERS: El Reino Marchito",
