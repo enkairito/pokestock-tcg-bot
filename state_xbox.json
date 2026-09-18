@@ -597,9 +597,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:11.204439+00:00",
-    "price": "24,80 €",
-    "pending_price": "30,94 €",
-    "pending_price_count": 1
+    "price": "30,94 €"
   },
   "ES:B01M0I0K0E": {
     "name": "Assassin's Creed: The Ezio Collection - Xbox One",
@@ -847,7 +845,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:21:08.267481+00:00",
-    "price": "44,83 €"
+    "price": "44,83 €",
+    "pending_price": "44,85 €",
+    "pending_price_count": 1
   },
   "ES:B0FNY6N6XB": {
     "name": "BATTLEFIELD 6 Standard Edition | Xbox Series X|S - Código de descarga",
@@ -989,7 +989,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "37,32 €"
+    "price": "35,95 €"
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1065,7 +1065,7 @@
     "stock": null,
     "first_seen": "2026-09-15T00:20:55.336147+00:00",
     "price": "19,99 €",
-    "pending_price": "40,02 €",
+    "pending_price": "40,01 €",
     "pending_price_count": 1
   },
   "ES:B0BLZ64C5H": {
@@ -2075,14 +2075,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256914+00:00",
-    "price": "13,18 €"
+    "price": "13,18 €",
+    "pending_price": "13,28 €",
+    "pending_price_count": 1
   },
   "ES:B097ZBFDKW": {
     "name": "Demon Slayer -KIMETSU NO Yaiba- JPN (Voice) - E F I G S (Text) Box UK",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256930+00:00",
-    "price": "20,44 €"
+    "price": "18,00 €"
   },
   "ES:B07DP9Z1R4": {
     "name": "Assassins Creed Odyssey - Xbox one, Edición:Estándar",
@@ -2209,7 +2211,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
     "price": "23,38 €",
-    "pending_price": "24,98 €",
+    "pending_price": "24,84 €",
     "pending_price_count": 1
   },
   "ES:B08HZKQDK1": {
@@ -2329,7 +2331,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257416+00:00",
-    "price": "16,62 €"
+    "price": "16,62 €",
+    "pending_price": "21,13 €",
+    "pending_price_count": 1
   },
   "ES:B092J3RX5R": {
     "name": "playvital Funda Antipolvo para Xbox Series S Consola | Cubierta Vertical, Resistente al Agua, Forro Suave, Acceso Fácil a Puertos, Protección contra Polvo, Negro",
@@ -2506,7 +2510,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257557+00:00",
-    "price": "31,71 €"
+    "price": "31,67 €"
   },
   "ES:B0H454QT1B": {
     "name": "Wigearss 6 en 1 Kit de Repuesto de Botones para Mando Xbox Series X/S, Bumpers LB/RB, Gatillos LT/RT y Bisel Puerto de Carga con Destornilladores T8 T6 (NO para Xbox One)",
