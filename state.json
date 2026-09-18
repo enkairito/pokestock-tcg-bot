@@ -724,7 +724,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
-    "price": "56,87 €"
+    "price": "56,87 €",
+    "pending_price": "57,92 €",
+    "pending_price_count": 1
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -801,9 +803,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
-    "price": "62,94 €",
-    "pending_price": "63,07 €",
-    "pending_price_count": 1
+    "price": "63,07 €"
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
@@ -1542,18 +1542,16 @@
   "US:B0DVC187SP": {
     "name": "Pokemon TCG Scarlet & Violet Journey Together: Pack de 3 Booster Blister",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802930+00:00",
-    "price": "49,57 €",
-    "pending_price": "49,80 €",
-    "pending_price_count": 1
+    "price": "49,80 €"
   },
   "US:B0G5FWJ8NL": {
     "name": "Pokémon TCG: Mega Charizard Tin",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802936+00:00",
-    "price": "82,82 €"
+    "price": "82,22 €"
   },
   "US:B0F2BFSPBN": {
     "name": "Pokémon TCG: Scarlet & Violet - Destined Rivals - Paquete de 3 blíster - Zebstrika (3 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
