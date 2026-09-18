@@ -721,7 +721,7 @@
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "3",
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
     "price": "57,92 €"
   },
@@ -798,9 +798,9 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
-    "price": "71,95 €"
+    "price": "63,07 €"
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
@@ -812,7 +812,7 @@
   "US:B0GFZV1ZVV": {
     "name": "Pokémon TCG: Mega Evolution Order Elite Trainer Box",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "first_seen": "2026-08-30T20:46:19.644915+00:00",
     "price": "105,42 €"
   },
@@ -1780,9 +1780,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-08T14:34:56.335794+00:00",
-    "price": "96,87 €",
-    "pending_price": "98,75 €",
-    "pending_price_count": 1
+    "price": "98,75 €"
   },
   "UK:B0FK2BN732": {
     "name": "Pokémon Pikachu V-Union Box Edición China Limitada Coleccionista TCG",
