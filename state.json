@@ -729,7 +729,7 @@
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "3",
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
     "price": "235,60 €"
   },
@@ -1716,7 +1716,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T13:57:50.628764+00:00",
-    "price": "21,51 €"
+    "price": "21,51 €",
+    "pending_price": "21,83 €",
+    "pending_price_count": 1
   },
   "UK:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
