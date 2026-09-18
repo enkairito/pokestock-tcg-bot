@@ -22,7 +22,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.362338+00:00",
-    "price": "44,99 €"
+    "price": "44,99 €",
+    "pending_price": "55,50 €",
+    "pending_price_count": 1
   },
   "ES:B0GNB8B2NS": {
     "name": "Metal Gear Solid: Master Collection Volume 2 – Day One Edition - Xbox",
@@ -2040,7 +2042,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688744+00:00",
-    "price": "67,18 €"
+    "price": "67,14 €"
   },
   "ES:B097F6916C": {
     "name": "Nintendo Game & Watch: The Legend of Zelda console de jeux portables Or, Vert",
@@ -2271,7 +2273,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689294+00:00",
-    "price": "47,99 €"
+    "price": "47,99 €",
+    "pending_price": "49,99 €",
+    "pending_price_count": 1
   },
   "ES:B0H4RSXW3V": {
     "name": "DRAGON QUEST MONSTERS: El Reino Marchito",
@@ -2383,7 +2387,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689550+00:00",
-    "price": "25,16 €"
+    "price": "25,16 €",
+    "pending_price": "29,99 €",
+    "pending_price_count": 1
   },
   "ES:B0D7HZPLFW": {
     "name": "Looney Tunes: Wacky World of Sports - NINTENDO SWITCH",
