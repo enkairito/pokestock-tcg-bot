@@ -714,7 +714,7 @@
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
     "price": "56,77 €"
   },
@@ -1660,7 +1660,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280980+00:00",
-    "price": "46,15 €"
+    "price": "46,15 €",
+    "pending_price": "46,16 €",
+    "pending_price_count": 1
   },
   "UK:B0FTSVL3Z6": {
     "name": "Pokemon Mega Brave m1L Caja Booster Coreana 30 Sobres Cartas Originales",
