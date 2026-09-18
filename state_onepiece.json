@@ -58,9 +58,11 @@
   "ES:B0HC7LPXB4": {
     "name": "Juego de cartas de una pieza ST-32 verde Roronoa Zoro | Baraja de inicio, ST-32, juego de cartas coleccionables, Roronoa Zoro, mazo verde",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-08-29T18:09:16.260611+00:00",
-    "price": "33,00 €"
+    "price": "33,00 €",
+    "pending_price": "34,90 €",
+    "pending_price_count": 1
   },
   "ES:B0HC79T34C": {
     "name": "Juego de cartas de una pieza ST-33 Blue Kuzan | Baraja de inicio, ST-33, Blue Kuzan, juego de cartas coleccionables",
@@ -74,9 +76,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:09:29.426544+00:00",
-    "price": "42,76 €",
-    "pending_price": "42,86 €",
-    "pending_price_count": 1
+    "price": "42,86 €"
   },
   "ES:B0GDGRWH54": {
     "name": "One Piece TCG: Double Pack Set Vol. 9 (DP-09) - The Azure Sea's Seven (2 Paquetes)",
@@ -241,9 +241,11 @@
   "ES:B0HF1Z72XW": {
     "name": "One Piece TCG: The World's Strongest Warriors Booster Box (OP-17) - 24 paquetes",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "4",
     "first_seen": "2026-09-05T20:33:38.638411+00:00",
-    "price": "436,00 €"
+    "price": "436,00 €",
+    "pending_price": "451,00 €",
+    "pending_price_count": 1
   },
   "ES:B0HFD53BDB": {
     "name": "One Piece TCG: The World's Strongest Warriors - Juego de doble paquete Vol. 12 DP-12 (2 paquetes OP-17)",
@@ -256,9 +258,7 @@
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-09-08T09:40:16.326555+00:00",
-    "price": "39,64 €",
-    "pending_price": "40,01 €",
-    "pending_price_count": 1
+    "price": "40,01 €"
   },
   "ES:B0DW3R4T9G": {
     "name": "BANDAI ONE PIECE - Caja de refuerzo de cartas Master and Student Bonds (OP-12) (japonés) - 24 paquetes",
