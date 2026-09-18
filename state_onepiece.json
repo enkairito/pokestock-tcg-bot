@@ -74,7 +74,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:09:29.426544+00:00",
-    "price": "44,00 €"
+    "price": "44,00 €",
+    "pending_price": "44,07 €",
+    "pending_price_count": 1
   },
   "ES:B0GDGRWH54": {
     "name": "One Piece TCG: Double Pack Set Vol. 9 (DP-09) - The Azure Sea's Seven (2 Paquetes)",
@@ -93,11 +95,9 @@
   "ES:B0CGR4P859": {
     "name": "Awakening of the New Era Booster Pack OP-05 - One Piece Juego de Cartas - JP",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-29T18:09:47.272890+00:00",
-    "price": "37,01 €",
-    "pending_price": "37,27 €",
-    "pending_price_count": 1
+    "price": "37,27 €"
   },
   "ES:B0D69TF558": {
     "name": "One Piece TCG: Two Legends - Booster Pack (OP-08) (JP) (TCG)",
@@ -236,16 +236,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-03T18:23:03.868065+00:00",
-    "price": "195,59 €"
+    "price": "195,58 €"
   },
   "ES:B0HF1Z72XW": {
     "name": "One Piece TCG: The World's Strongest Warriors Booster Box (OP-17) - 24 paquetes",
     "status": "compra_directa",
     "stock": "4",
     "first_seen": "2026-09-05T20:33:38.638411+00:00",
-    "price": "446,00 €",
-    "pending_price": "451,00 €",
-    "pending_price_count": 1
+    "price": "451,00 €"
   },
   "ES:B0HFD53BDB": {
     "name": "One Piece TCG: The World's Strongest Warriors - Juego de doble paquete Vol. 12 DP-12 (2 paquetes OP-17)",
