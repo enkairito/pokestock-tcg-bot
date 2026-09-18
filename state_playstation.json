@@ -139,9 +139,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:18:12.685939+00:00",
-    "price": "19,90 €",
-    "pending_price": "19,99 €",
-    "pending_price_count": 1
+    "price": "19,99 €"
   },
   "ES:B0GHT1SQ3S": {
     "name": "Xeno Crisis (PS5) (EFIGS)",
@@ -437,9 +435,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018951+00:00",
-    "price": "204,99 €",
-    "pending_price": "205,00 €",
-    "pending_price_count": 1
+    "price": "205,00 €"
   },
   "ES:B0BMG2LH3W": {
     "name": "Playstation - Realidad Virtual VR2 | Gafas de Realidad Virtual Originales de Sony para PS5 con Imágenes HDR en 4K. Incluye Casco de realidad Virtual VR2 y Mandos VR2 Sense",
@@ -990,14 +986,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:24:23.390556+00:00",
-    "price": "669,00 €"
+    "price": "630,98 €"
   },
   "ES:B07JH99TG6": {
     "name": "Playstation Uncharted Collection Hits - Versión 17",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:24:23.874001+00:00",
-    "price": "18,29 €"
+    "price": "17,99 €"
   },
   "ES:B0DSWJBFM2": {
     "name": "GXTrust Forta Cascos PS5 Licencia Oficial para PlayStation 5, Azul",
@@ -1213,7 +1209,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T18:20:43.859449+00:00",
-    "price": "30,99 €"
+    "price": "30,99 €",
+    "pending_price": "33,12 €",
+    "pending_price_count": 1
   },
   "ES:B08LM3KW18": {
     "name": "Playstation Console Sony 5 Edition Digital",
@@ -2292,9 +2290,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "17,14 €",
-    "pending_price": "21,71 €",
-    "pending_price_count": 1
+    "price": "21,71 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2380,9 +2376,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499924+00:00",
-    "price": "21,91 €",
-    "pending_price": "21,92 €",
-    "pending_price_count": 1
+    "price": "21,91 €"
   },
   "ES:B07KZS61P5": {
     "name": "NieR: Automata Game of the YoRHa Edition (PlayStation PS4)",
@@ -2522,7 +2516,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500083+00:00",
-    "price": "39,99 €"
+    "price": "36,90 €"
   },
   "ES:B0DV5G3ZDN": {
     "name": "Mcbazel TMR Joystick Electromagnético de Repuesto para Mando PS5 DualSense, con Thumbsticks de Repuesto y Kit de Reparación, Anti-Drift",
@@ -2674,7 +2668,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500195+00:00",
-    "price": "8,95 €"
+    "price": "8,95 €",
+    "pending_price": "9,45 €",
+    "pending_price_count": 1
   },
   "ES:B0FNWYM43G": {
     "name": "KROM KADOER— Mando Inalámbrico Bluetooth 5.0, 15 Botones, 4 niveles de Vibración dual, 187 gramos, Indicador LED nivel batería, Compatible con PC/Switch/Switch 2/iOS/Android, Blanco",
@@ -3252,5 +3248,19 @@
     "stock": null,
     "first_seen": "2026-09-18T12:32:05.433675+00:00",
     "price": "119,99 €"
+  },
+  "ES:B00T5WF0O0": {
+    "name": "Sleeping Dogs . Definitive Edition PS4",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T14:31:52.732470+00:00",
+    "price": "21,66 €"
+  },
+  "ES:B07L674L8R": {
+    "name": "Crash Team Racing Nitro-Fueled",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T14:31:52.732499+00:00",
+    "price": "31,99 €"
   }
 }
