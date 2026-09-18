@@ -1287,6 +1287,97 @@ async def discover_mediamarkt_products(page, label, url):
     return products
 
 
+# TodoConsolas (todoconsolas.com, tienda de segunda mano en PrestaShop). El
+# enlace de campaña de Google Ads que se probó primero (con gclid/gbraid)
+# NO aplica ningún filtro server-side — cae en la portada genérica con
+# widgets de recomendación aleatorios. El buscador nativo de PrestaShop sí
+# funciona: ``/busqueda?s=pokemon+tcg``, paginado con ``&page=N`` (confirmado
+# el 2026-09-18, HTTP 200 + tarjetas reales sin necesidad de navegador para
+# el HTML, aunque aquí se usa Playwright igual que el resto por consistencia).
+# No se ha visto ningún ejemplo de producto agotado en los ~48 resultados
+# muestreados — puede que PrestaShop oculte los agotados de la búsqueda en
+# vez de marcarlos, así que "compra_directa" es el estado por defecto salvo
+# que la tarjeta lleve la etiqueta ``.preorder`` (reserva/preventa).
+TODOCONSOLAS_STORE = {
+    "code": "TC",
+    "flag": "",
+    "store_label": "TodoConsolas",
+    "tag": None,
+    "pages": [
+        ("Pokémon TCG", "https://www.todoconsolas.com/busqueda?s=pokemon+tcg"),
+    ],
+}
+TODOCONSOLAS_PRICE_RE = re.compile(r"(\d+,\d{2})\s*€")
+TODOCONSOLAS_ID_RE = re.compile(r"/(\d+)-[^/]+\.html$")
+
+
+async def discover_todoconsolas_products(page, label, base_url):
+    products = {}
+    for page_num in range(1, 21):
+        url = base_url if page_num == 1 else f"{base_url}&page={page_num}"
+        response = await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+        if response is None or response.status >= 400:
+            raise ScrapeError(f"Respuesta HTTP inválida en TodoConsolas/{label} (status {response.status if response else 'sin respuesta'})")
+        await page.wait_for_timeout(1000)
+
+        body_text = (await page.inner_text("body")).lower()
+        if any(marker in body_text for marker in CAPTCHA_MARKERS):
+            raise ScrapeError(f"Captcha en TodoConsolas/{label}")
+
+        tiles = await page.eval_on_selector_all(
+            "article.product-miniature",
+            """els => els.map(el => {
+                const link = el.querySelector('a[itemprop="item"]');
+                const name = el.querySelector('[itemprop="name"]');
+                const img = el.querySelector('.product-image img');
+                const priceBox = el.querySelector('[itemprop="price"]');
+                const preorder = el.querySelector('.preorder');
+                return {
+                    href: link ? link.getAttribute('href') : null,
+                    name: name ? name.textContent.trim() : null,
+                    image: img ? (img.getAttribute('src') || img.getAttribute('data-src')) : null,
+                    priceText: priceBox ? (priceBox.getAttribute('content') || priceBox.textContent) : null,
+                    isPreorder: !!preorder,
+                };
+            })""",
+        )
+        if not tiles:
+            break
+
+        new_count = 0
+        for t in tiles:
+            href = t.get("href")
+            name = t.get("name")
+            if not href or not name:
+                continue
+            id_match = TODOCONSOLAS_ID_RE.search(href)
+            if not id_match:
+                continue
+            product_id = id_match.group(1)
+            if product_id in products:
+                continue
+            new_count += 1
+
+            price_match = TODOCONSOLAS_PRICE_RE.search(t.get("priceText") or "")
+            price = f"{price_match.group(1)} €" if price_match else None
+
+            products[product_id] = {
+                "name": name,
+                "price": price,
+                "original_price": None,
+                "image": t.get("image"),
+                "stock": None,
+                "status": "preventa" if t.get("isPreorder") else "compra_directa",
+                "url": href if href.startswith("http") else f"https://www.todoconsolas.com{href}",
+            }
+        if new_count == 0:
+            break
+
+    if not products:
+        raise ScrapeError(f"Sin productos verificables en TodoConsolas/{label}; se conserva la publicación anterior")
+    return products
+
+
 FNAC_BLOCK_MARKERS = ["el acceso está restringido", "acceso restringido temporalmente"]
 
 
@@ -1860,6 +1951,42 @@ async def main():
             info["categories"] = assign_categories(info["name"])
             products[f"MM:{product_id}"] = info
 
+        # TodoConsolas: mismo patrón, sin afiliación todavía.
+        todoconsolas_products = {}
+        for label, url in TODOCONSOLAS_STORE["pages"]:
+            print(f"🔍 Descubriendo productos en la tienda (TodoConsolas/{label})...")
+            try:
+                page_products = await discover_todoconsolas_products(page, label, url)
+                print(f"📦 [TodoConsolas/{label}] {len(page_products)} productos encontrados")
+                todoconsolas_products.update(page_products)
+            except Exception as e:
+                print(f"⚠️ No se pudo cargar la página de TodoConsolas ({label}), se omite esta vez: {e!r}")
+
+        todoconsolas_excluded_by_name = {
+            a for a, i in todoconsolas_products.items() if is_excluded_by_name(i["name"])
+        }
+        if todoconsolas_excluded_by_name:
+            print(f"⏭️ [TodoConsolas] Omitiendo {len(todoconsolas_excluded_by_name)} productos no relevantes por nombre.")
+            for product_id in todoconsolas_excluded_by_name:
+                del todoconsolas_products[product_id]
+
+        todoconsolas_not_pokemon = {
+            a for a, i in todoconsolas_products.items() if not is_relevant_by_name(i["name"])
+        }
+        if todoconsolas_not_pokemon:
+            print(f"⏭️ [TodoConsolas] Omitiendo {len(todoconsolas_not_pokemon)} productos ajenos a Pokémon.")
+            for product_id in todoconsolas_not_pokemon:
+                del todoconsolas_products[product_id]
+
+        for product_id, info in todoconsolas_products.items():
+            info["asin"] = product_id
+            info["marketplace_code"] = TODOCONSOLAS_STORE["code"]
+            info["store_label"] = TODOCONSOLAS_STORE["store_label"]
+            info["flag"] = TODOCONSOLAS_STORE["flag"]
+            info["link"] = info["url"]
+            info["categories"] = assign_categories(info["name"])
+            products[f"TC:{product_id}"] = info
+
         await browser.close()
 
     print(f"📦 Total combinado: {len(products)} productos únicos")
@@ -1890,7 +2017,7 @@ async def main():
         # ES, El Corte Inglés, Carrefour, Fnac, ToysRUs y GAME). El resto de
         # marketplaces (UK, US) se siguen detectando y guardando en el
         # estado/snapshot para la web, pero no generan mensajes.
-        if (status_changed or stock_decreased or price_decreased) and info["marketplace_code"] in ("ES", "ECI", "CAR", "FNAC", "TRU", "GAME", "MM"):
+        if (status_changed or stock_decreased or price_decreased) and info["marketplace_code"] in ("ES", "ECI", "CAR", "FNAC", "TRU", "GAME", "MM", "TC"):
             # El nombre, el precio y (para ECI/Carrefour/Fnac) el link vienen
             # del scraping de Amazon/El Corte Inglés/Carrefour/Fnac/ToysRUs — datos
             # externos que no controlamos — y el mensaje se manda con parse_mode:
