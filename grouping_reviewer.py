@@ -229,6 +229,9 @@ def make_handler(store, token, html):
             except (ReviewError, json.JSONDecodeError, UnicodeDecodeError) as error:
                 self._json(400, {"error": str(error)})
                 return
+            except OSError as error:
+                self._json(500, {"error": f"No se pudo guardar el archivo de decisiones: {error}"})
+                return
             self._json(200, state)
 
         def log_message(self, format_string, *args):

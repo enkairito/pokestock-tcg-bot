@@ -141,7 +141,12 @@
         const response = await fetch('/api/decision', {method:'POST',headers:{'Content-Type':'application/json','X-Reviewer-Token':reviewToken},body:JSON.stringify({action,source_id:item?.offer_id,candidate_id:candidate?.offer_id})});
         const payload = await response.json(); if (!response.ok) throw new Error(payload.error || 'No se pudo guardar');
         state=payload; candidateIndex=0; itemIndex=Math.min(itemIndex,state.items.length-1); toast(action === 'undo' ? 'Decisión deshecha' : 'Decisión guardada');
-      } catch(error) { toast(error.message); } finally { busy=false; render(); }
+      } catch(error) {
+        const message = error instanceof TypeError
+          ? 'El revisor local está cerrado. Abre review_groups.bat y mantén su ventana abierta.'
+          : error.message;
+        toast(message);
+      } finally { busy=false; render(); }
     }
     $('previous').onclick=()=>{if(itemIndex>0){itemIndex--;candidateIndex=0;render();}}; $('next').onclick=()=>{if(itemIndex<state.items.length-1){itemIndex++;candidateIndex=0;render();}};
     $('undo').onclick=()=>decide('undo'); document.querySelectorAll('[data-action]').forEach(button=>button.onclick=()=>decide(button.dataset.action));
