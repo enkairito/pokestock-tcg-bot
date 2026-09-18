@@ -715,7 +715,7 @@
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
     "price": "56,77 €"
   },
@@ -1452,7 +1452,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802829+00:00",
-    "price": "101,93 €"
+    "price": "101,93 €",
+    "pending_price": "102,16 €",
+    "pending_price_count": 1
   },
   "US:B0G3CS6XB9": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Premium Poster Collection—Mega Lucario (1 Tarjeta Promocional de Aluminio, 1 póster de Doble Cara y 10 Paquetes de Refuerzo)",
@@ -1772,7 +1774,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-08T14:34:56.335771+00:00",
-    "price": "40,11 €"
+    "price": "38,64 €"
   },
   "UK:B0DG8VNG1F": {
     "name": "Pokémon TCG: Scarlet & Violet—Shrouded Fable Booster Bundle (6 Booster Packs)",
