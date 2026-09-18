@@ -192,9 +192,10 @@
   },
   "ES:B0GSSQYPK3": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
-    "status": "no_disponible",
+    "status": "invitacion",
     "stock": null,
-    "first_seen": "2026-08-25T20:27:53.163279+00:00"
+    "first_seen": "2026-08-25T20:27:53.163279+00:00",
+    "price": "29,94 €"
   },
   "ES:B0GSSJ9RB1": {
     "name": "Pokémon: Expositor de Sobres de Mejora de Megaevolución-Caos Creciente (18 Sobres de Mejora)",
@@ -798,11 +799,9 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "3",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
-    "price": "63,07 €",
-    "pending_price": "71,95 €",
-    "pending_price_count": 1
+    "price": "71,95 €"
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
@@ -1712,7 +1711,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "137,61 €"
+    "price": "137,60 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
@@ -1891,9 +1890,11 @@
   "US:B0CS12GPTB": {
     "name": "Pokemon TCG: Sword & Shield - Paquete de Refuerzo de Estrellas Brillantes (10 Tarjetas por Paquete)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
+    "first_seen": "2026-09-08T14:34:56.335946+00:00",
     "price": "42,57 €",
-    "first_seen": "2026-09-08T14:34:56.335946+00:00"
+    "pending_price": "43,80 €",
+    "pending_price_count": 1
   },
   "US:B0D4B515H1": {
     "name": "Pokémon TCG: Escarlata y Violeta - Mini Lata de fábula Envuelta - Okidogi (2 Paquetes de Refuerzo y 1 Hoja de calcomanías)",
