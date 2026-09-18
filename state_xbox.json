@@ -840,7 +840,7 @@
     "stock": null,
     "first_seen": "2026-09-13T00:21:08.267403+00:00",
     "price": "22,33 €",
-    "pending_price": "40,81 €",
+    "pending_price": "26,56 €",
     "pending_price_count": 1
   },
   "ES:B07M7X2JLB": {
@@ -990,7 +990,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "36,87 €"
+    "price": "36,87 €",
+    "pending_price": "37,32 €",
+    "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1882,9 +1884,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256399+00:00",
-    "price": "23,22 €",
-    "pending_price": "23,26 €",
-    "pending_price_count": 1
+    "price": "23,26 €"
   },
   "ES:B0BG4WBV4M": {
     "name": "Like a Dragon: Ishin! [GRA XBOX SERIES X]",
@@ -2031,7 +2031,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256765+00:00",
-    "price": "681,13 €"
+    "price": "681,13 €",
+    "pending_price": "688,75 €",
+    "pending_price_count": 1
   },
   "ES:B01M69F924": {
     "name": "Gioteck - Aero S Vertical Charge Hub (Xbox One S)",
@@ -2376,7 +2378,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257451+00:00",
-    "price": "24,99 €"
+    "price": "19,99 €"
   },
   "ES:B0DBV9YTBY": {
     "name": "Tatybo Cascos Gaming para Ps4/Ps5/PC/Switch, Auriculares Gaming con Doble Diadema Adaptable, 3D Estéreo Sonido, Cascos con Cable Ligero con Luz RGB",
@@ -2504,7 +2506,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257557+00:00",
-    "price": "31,67 €"
+    "price": "31,59 €"
   },
   "ES:B0H454QT1B": {
     "name": "Wigearss 6 en 1 Kit de Repuesto de Botones para Mando Xbox Series X/S, Bumpers LB/RB, Gatillos LT/RT y Bisel Puerto de Carga con Destornilladores T8 T6 (NO para Xbox One)",
@@ -2567,7 +2569,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257596+00:00",
-    "price": "53,60 €"
+    "price": "53,60 €",
+    "pending_price": "54,60 €",
+    "pending_price_count": 1
   },
   "ES:B07HB851JR": {
     "name": "Xbox One soporte de pared (juego de 4 esquinas): Negro",
@@ -2581,7 +2585,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257603+00:00",
-    "price": "20,11 €"
+    "price": "20,11 €",
+    "pending_price": "20,46 €",
+    "pending_price_count": 1
   },
   "ES:B09SGD96L8": {
     "name": "4PCS Paletas del Controlador, Piezas del Controlador de Reemplazo de Las Paletas del Controlador de Acero Inoxidable para One Controller Series 2 Model 1797(Oro)",
@@ -2839,7 +2845,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.548532+00:00",
-    "price": "21,44 €"
+    "price": "21,44 €",
+    "pending_price": "21,94 €",
+    "pending_price_count": 1
   },
   "ES:B0GHSYQHP6": {
     "name": "Life is Strange Reunion",
@@ -3126,7 +3134,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790603+00:00",
-    "price": "32,99 €"
+    "price": "32,98 €"
   },
   "ES:B0CW4C89FN": {
     "name": "Elden Ring: Shadow Of The Erdtree",
@@ -3259,7 +3267,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T14:31:49.729335+00:00",
-    "price": "76,96 €"
+    "price": "76,95 €"
   },
   "ES:B0DBQRTLFN": {
     "name": "GameSir T7 Controlador con cable para Xbox Series X|S, Xbox One y Windows 10/11, gamepad Plug and Play para juegos con joysticks y gatillos de efecto Hall, con jack de audio de 3.5 mm - Azul (Rojo)",
@@ -3273,7 +3281,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T14:31:49.729370+00:00",
-    "price": "279,58 €"
+    "price": "279,05 €"
   },
   "ES:B09Y8H1YKL": {
     "name": "Almohadillas de repuesto para auriculares inalámbricos Microsoft Xbox",
