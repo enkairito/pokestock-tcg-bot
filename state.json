@@ -293,7 +293,7 @@
   "ES:B0CT5T766W": {
     "name": "Pokémon: Cofre de Coleccionista - 2022",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-25T20:27:53.163288+00:00",
     "price": "34,99 €"
   },
@@ -799,7 +799,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "71,95 €"
   },
@@ -1548,9 +1548,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802936+00:00",
-    "price": "82,22 €",
-    "pending_price": "82,92 €",
-    "pending_price_count": 1
+    "price": "82,92 €"
   },
   "US:B0F2BFSPBN": {
     "name": "Pokémon TCG: Scarlet & Violet - Destined Rivals - Paquete de 3 blíster - Zebstrika (3 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
@@ -1711,7 +1709,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "137,60 €"
+    "price": "137,59 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
@@ -1892,9 +1890,7 @@
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-09-08T14:34:56.335946+00:00",
-    "price": "42,57 €",
-    "pending_price": "43,80 €",
-    "pending_price_count": 1
+    "price": "43,80 €"
   },
   "US:B0D4B515H1": {
     "name": "Pokémon TCG: Escarlata y Violeta - Mini Lata de fábula Envuelta - Okidogi (2 Paquetes de Refuerzo y 1 Hoja de calcomanías)",
