@@ -503,7 +503,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "209,72 €"
+    "price": "168,86 €"
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -845,9 +845,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:21:08.267481+00:00",
-    "price": "44,83 €",
-    "pending_price": "44,85 €",
-    "pending_price_count": 1
+    "price": "44,85 €"
   },
   "ES:B0FNY6N6XB": {
     "name": "BATTLEFIELD 6 Standard Edition | Xbox Series X|S - Código de descarga",
@@ -989,7 +987,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "35,95 €"
+    "price": "35,95 €",
+    "pending_price": "36,87 €",
+    "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1064,9 +1064,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T00:20:55.336147+00:00",
-    "price": "19,99 €",
-    "pending_price": "40,01 €",
-    "pending_price_count": 1
+    "price": "40,01 €"
   },
   "ES:B0BLZ64C5H": {
     "name": "Electronic Arts Star Wars Jedi: Survivor XBOX Series X, Videojuegos, Castellano",
@@ -1835,9 +1833,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256329+00:00",
-    "price": "24,99 €",
-    "pending_price": "25,00 €",
-    "pending_price_count": 1
+    "price": "24,99 €"
   },
   "ES:B0H4QL9XMT": {
     "name": "Persona 4 Revival - XSRX",
@@ -2075,16 +2071,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256914+00:00",
-    "price": "13,18 €",
-    "pending_price": "13,28 €",
-    "pending_price_count": 1
+    "price": "13,28 €"
   },
   "ES:B097ZBFDKW": {
     "name": "Demon Slayer -KIMETSU NO Yaiba- JPN (Voice) - E F I G S (Text) Box UK",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256930+00:00",
-    "price": "18,00 €"
+    "price": "18,00 €",
+    "pending_price": "20,44 €",
+    "pending_price_count": 1
   },
   "ES:B07DP9Z1R4": {
     "name": "Assassins Creed Odyssey - Xbox one, Edición:Estándar",
@@ -2140,7 +2136,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257018+00:00",
-    "price": "28,51 €"
+    "price": "27,45 €"
   },
   "ES:B00DW342NI": {
     "name": "Titanfall",
@@ -2211,7 +2207,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
     "price": "23,38 €",
-    "pending_price": "24,84 €",
+    "pending_price": "24,78 €",
     "pending_price_count": 1
   },
   "ES:B08HZKQDK1": {
@@ -2240,7 +2236,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257179+00:00",
-    "price": "25,80 €"
+    "price": "25,80 €",
+    "pending_price": "26,14 €",
+    "pending_price_count": 1
   },
   "ES:B07NW92Y8Z": {
     "name": "Bloodstained - Ritual of the Night (XBox One)",
@@ -2331,9 +2329,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257416+00:00",
-    "price": "16,62 €",
-    "pending_price": "21,13 €",
-    "pending_price_count": 1
+    "price": "21,13 €"
   },
   "ES:B092J3RX5R": {
     "name": "playvital Funda Antipolvo para Xbox Series S Consola | Cubierta Vertical, Resistente al Agua, Forro Suave, Acceso Fácil a Puertos, Protección contra Polvo, Negro",
@@ -2375,7 +2371,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257447+00:00",
-    "price": "57,99 €"
+    "price": "56,06 €"
   },
   "ES:B0GTBVX67G": {
     "name": "Turtle Beach Rematch Core Ghost Camo Negro - Mando con Cable - con Licencia para Xbox Series XS, Xbox One y PC - Sticks con efecto Hall, Botones de Audio, Motores de vibración y disparadores de Pulso",
@@ -2573,7 +2569,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257596+00:00",
-    "price": "53,62 €"
+    "price": "53,60 €"
   },
   "ES:B07HB851JR": {
     "name": "Xbox One soporte de pared (juego de 4 esquinas): Negro",
@@ -2851,16 +2847,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.548532+00:00",
-    "price": "21,41 €"
+    "price": "21,41 €",
+    "pending_price": "21,44 €",
+    "pending_price_count": 1
   },
   "ES:B0GHSYQHP6": {
     "name": "Life is Strange Reunion",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.548570+00:00",
-    "price": "44,23 €",
-    "pending_price": "44,33 €",
-    "pending_price_count": 1
+    "price": "44,33 €"
   },
   "ES:B0DJCHJ6D6": {
     "name": "Microsoft Flight Simulator 2024 Aviator Edition | Xbox & Windows - Código de descarga del juego",
@@ -2958,7 +2954,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.549000+00:00",
-    "price": "92,99 €"
+    "price": "92,90 €"
   },
   "ES:B0GJ5G9K7W": {
     "name": "deleyCON Cable HDMI 2.1 8K 2m Cable de Alta Velocidad Ultra High Speed 48 Gbps con Conector Acodado (270°) - Ideal para TV, Monitor, PS4, PS5, EARC, HDR10+ - 10K/8K@60Hz, 4K@120Hz/144Hz y 2K@240Hz",
@@ -3075,5 +3071,12 @@
     "status": "no_disponible",
     "stock": null,
     "first_seen": "2026-09-18T02:31:17.802160+00:00"
+  },
+  "ES:B0875394DP": {
+    "name": "Cableguys Mega-Man Figurita Gaming Rockman - Soporte para Mando o Smartphone - Cable USB Incluido - 20 cm",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T08:31:31.238742+00:00",
+    "price": "18,02 €"
   }
 }
