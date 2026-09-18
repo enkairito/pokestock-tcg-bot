@@ -1,18 +1,5 @@
 [
   {
-    "ts": "2026-09-16T15:03:05.697613+00:00",
-    "type": "price_drop",
-    "asin": "B0DB7C1Z26",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
-    "image": "https://m.media-amazon.com/images/I/81TD+vNJcJL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "116,15 €",
-    "prev_price": "116,17 €",
-    "link": "https://www.amazon.es/dp/B0DB7C1Z26?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-16T15:03:05.697656+00:00",
     "type": "price_drop",
     "asin": "B0GDYP1LRF",
@@ -778,5 +765,18 @@
     "price": "76,21 €",
     "prev_price": "77,33 €",
     "link": "https://www.amazon.es/dp/B0DGY4Z6V3?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-18T14:03:09.833967+00:00",
+    "type": "restock",
+    "asin": "B0C4D4R3H8",
+    "marketplace": "US",
+    "store_label": "Amazon USA",
+    "flag": "🇺🇸",
+    "name": "Pokémon JCC: Estuche Courrousinge-ex",
+    "image": "https://m.media-amazon.com/images/I/71uy6bduesL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "89,37 €",
+    "prev_price": null,
+    "link": "https://www.amazon.es/dp/B0C4D4R3H8?tag=enkairito-21"
   }
 ]
