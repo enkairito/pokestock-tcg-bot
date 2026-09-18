@@ -503,9 +503,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "149,99 €",
-    "pending_price": "209,72 €",
-    "pending_price_count": 1
+    "price": "209,72 €"
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -1066,7 +1064,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T00:20:55.336147+00:00",
-    "price": "19,99 €"
+    "price": "19,99 €",
+    "pending_price": "40,02 €",
+    "pending_price_count": 1
   },
   "ES:B0BLZ64C5H": {
     "name": "Electronic Arts Star Wars Jedi: Survivor XBOX Series X, Videojuegos, Castellano",
@@ -1212,9 +1212,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T04:35:41.898406+00:00",
-    "price": "8,02 €",
-    "pending_price": "12,74 €",
-    "pending_price_count": 1
+    "price": "12,74 €"
   },
   "ES:B0BLZ5HR28": {
     "name": "Star Wars Jedi: Survivor Game Xbox Series X",
@@ -2138,9 +2136,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257018+00:00",
-    "price": "27,45 €",
-    "pending_price": "28,51 €",
-    "pending_price_count": 1
+    "price": "28,51 €"
   },
   "ES:B00DW342NI": {
     "name": "Titanfall",
@@ -2161,9 +2157,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257044+00:00",
-    "price": "18,86 €",
-    "pending_price": "26,53 €",
-    "pending_price_count": 1
+    "price": "26,53 €"
   },
   "ES:B07X4X8JM4": {
     "name": "Grand Theft Auto V - Premium Edition",
@@ -2184,9 +2178,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257080+00:00",
-    "price": "8,58 €",
-    "pending_price": "8,94 €",
-    "pending_price_count": 1
+    "price": "8,94 €"
   },
   "ES:B01C8MQLDW": {
     "name": "Titanfall 2",
@@ -2215,7 +2207,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
     "price": "23,38 €",
-    "pending_price": "25,04 €",
+    "pending_price": "24,98 €",
     "pending_price_count": 1
   },
   "ES:B08HZKQDK1": {
@@ -2244,7 +2236,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257179+00:00",
-    "price": "26,14 €"
+    "price": "25,80 €"
   },
   "ES:B07NW92Y8Z": {
     "name": "Bloodstained - Ritual of the Night (XBox One)",
@@ -2482,7 +2474,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257536+00:00",
-    "price": "43,31 €"
+    "price": "43,31 €",
+    "pending_price": "44,94 €",
+    "pending_price_count": 1
   },
   "ES:B0D8KRM8P6": {
     "name": "GameSir G7 SE Controlador con Cable para Xbox Series X|S, Controlador Xbox con Joystick con Sensor de Efecto Hall, Funciona con Xbox One y Windows 10/11, con Licencia Oficial para Xbox (Azul)",
@@ -2851,7 +2845,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.548532+00:00",
-    "price": "21,39 €"
+    "price": "21,39 €",
+    "pending_price": "21,41 €",
+    "pending_price_count": 1
   },
   "ES:B0GHSYQHP6": {
     "name": "Life is Strange Reunion",
@@ -2956,9 +2952,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.549000+00:00",
-    "price": "92,91 €",
-    "pending_price": "97,26 €",
-    "pending_price_count": 1
+    "price": "97,26 €"
   },
   "ES:B0GJ5G9K7W": {
     "name": "deleyCON Cable HDMI 2.1 8K 2m Cable de Alta Velocidad Ultra High Speed 48 Gbps con Conector Acodado (270°) - Ideal para TV, Monitor, PS4, PS5, EARC, HDR10+ - 10K/8K@60Hz, 4K@120Hz/144Hz y 2K@240Hz",
@@ -3057,5 +3051,23 @@
     "stock": null,
     "first_seen": "2026-09-17T14:09:29.615247+00:00",
     "price": "19,95 €"
+  },
+  "ES:B0F8BR8MMN": {
+    "name": "Wongzaa Mando para Switch, Mandos Inalámbrico Compatible con Switch/Lite/OLED con Doble Vibración, Gyro Axis, Función de Activación y Turbo",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-18T02:31:17.802097+00:00"
+  },
+  "ES:B0F94GQ8JG": {
+    "name": "Vinkarpe Mando para Switch, L/R Mandos Inalambricos para Switch/Lite/OLED con Gyro Axis, Dual Vibración, Activation, Capture d'écran, RGB",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-18T02:31:17.802157+00:00"
+  },
+  "ES:B0F87X7P6J": {
+    "name": "Holilo Mando para Switch, Mandos Inalámbrico Compatible con Switch/OLED/Lite con Doble Vibración, Gyro Axis, Captura de Pantalla, Función de Activación",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-18T02:31:17.802160+00:00"
   }
 }
