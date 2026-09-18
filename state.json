@@ -728,9 +728,11 @@
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "4",
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
-    "price": "225,05 €"
+    "price": "225,05 €",
+    "pending_price": "235,60 €",
+    "pending_price_count": 1
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
@@ -1502,10 +1504,9 @@
   },
   "US:B0C4D4R3H8": {
     "name": "Pokémon JCC: Estuche Courrousinge-ex",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-04T21:32:58.802903+00:00",
-    "price": "89,96 €"
+    "first_seen": "2026-09-04T21:32:58.802903+00:00"
   },
   "US:B0FPNRG8GS": {
     "name": "Pokémon TCG: Mega Evolution—Phantasmal Flames Triple Pack Sneasel (1 Carta Promocional holográfica y 3 Sobres potenciadores)",
