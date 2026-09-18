@@ -1709,7 +1709,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "137,58 €"
+    "price": "137,55 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
@@ -1717,7 +1717,7 @@
     "stock": null,
     "first_seen": "2026-09-06T13:57:50.628764+00:00",
     "price": "21,51 €",
-    "pending_price": "21,55 €",
+    "pending_price": "21,57 €",
     "pending_price_count": 1
   },
   "UK:B0DLTZPNR2": {
@@ -1782,7 +1782,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-08T14:34:56.335794+00:00",
-    "price": "96,87 €"
+    "price": "96,87 €",
+    "pending_price": "98,75 €",
+    "pending_price_count": 1
   },
   "UK:B0FK2BN732": {
     "name": "Pokémon Pikachu V-Union Box Edición China Limitada Coleccionista TCG",
@@ -1894,9 +1896,7 @@
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-09-08T14:34:56.335946+00:00",
-    "price": "43,80 €",
-    "pending_price": "43,97 €",
-    "pending_price_count": 1
+    "price": "43,97 €"
   },
   "US:B0D4B515H1": {
     "name": "Pokémon TCG: Escarlata y Violeta - Mini Lata de fábula Envuelta - Okidogi (2 Paquetes de Refuerzo y 1 Hoja de calcomanías)",
