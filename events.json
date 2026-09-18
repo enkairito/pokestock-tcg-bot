@@ -1,18 +1,5 @@
 [
   {
-    "ts": "2026-09-16T14:22:58.642455+00:00",
-    "type": "price_drop",
-    "asin": "B0DB7C1Z26",
-    "marketplace": "UK",
-    "store_label": "Amazon UK",
-    "flag": "🇬🇧",
-    "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
-    "image": "https://m.media-amazon.com/images/I/81TD+vNJcJL._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
-    "price": "116,21 €",
-    "prev_price": "116,27 €",
-    "link": "https://www.amazon.es/dp/B0DB7C1Z26?tag=enkairito-21"
-  },
-  {
     "ts": "2026-09-16T14:22:58.642487+00:00",
     "type": "restock",
     "asin": "B0FSJXSPPX",
@@ -778,5 +765,18 @@
     "price": "225,05 €",
     "prev_price": null,
     "link": "https://www.amazon.es/dp/B0GZ9S9KDR?tag=enkairito-21"
+  },
+  {
+    "ts": "2026-09-18T08:02:46.853761+00:00",
+    "type": "restock",
+    "asin": "B0DDYZX1TB",
+    "marketplace": "UK",
+    "store_label": "Amazon UK",
+    "flag": "🇬🇧",
+    "name": "Pokemon TCG: Scarlet & Violet - Surging Sparks Booster Bundle",
+    "image": "https://m.media-amazon.com/images/I/817ZQoBRA3L._AC_AIweblab1378949,T3_SF480.0,480.0_PQ65_.jpg?aicid=productui-image-1",
+    "price": "102,91 €",
+    "prev_price": null,
+    "link": "https://www.amazon.es/dp/B0DDYZX1TB?tag=enkairito-21"
   }
 ]
