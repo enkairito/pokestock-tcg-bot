@@ -272,7 +272,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912093+00:00",
-    "price": "80,40 €"
+    "price": "80,33 €"
   },
   "ES:B072BZ66JL": {
     "name": "Nintendo Par Joy-Con, verde/rosa, Bluetooth Interruptor",
@@ -1825,10 +1825,9 @@
   },
   "ES:B0H4R7W5YM": {
     "name": "Fire Emblem Fortune's Weave Dagdan Collection (edición limitada) - Nintendo Switch 2",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.688400+00:00",
-    "price": "229,90 €"
+    "first_seen": "2026-09-17T00:32:50.688400+00:00"
   },
   "ES:B0FQWBC3ZT": {
     "name": "Hades II - Nintendo Switch 2 Edition",
@@ -1926,7 +1925,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688526+00:00",
-    "price": "48,00 €"
+    "price": "48,00 €",
+    "pending_price": "48,30 €",
+    "pending_price_count": 1
   },
   "ES:B0FL2GS1CT": {
     "name": "Survival Kids - Switch 2 [Nintendo Switch 2 - Key Card]",
@@ -3301,5 +3302,12 @@
     "stock": null,
     "first_seen": "2026-09-18T12:31:52.754569+00:00",
     "price": "10,48 €"
+  },
+  "ES:B0F3DY5FXR": {
+    "name": "Rune Factory: Guardians of Azuma - Switch 2",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T16:32:06.047870+00:00",
+    "price": "69,50 €"
   }
 }
