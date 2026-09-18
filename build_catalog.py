@@ -321,6 +321,18 @@ def _render_group_reference(group, current_offer_id):
     offers = sorted(group.get("offers") or [], key=_offer_sort_key)
     if len(offers) < 2:
         return ""
+    # En la ficha de una oferta basta con un acceso por tienda. Un grupo puede
+    # contener varias variantes del mismo comercio; repetir aquí el mismo logo
+    # y precio parece un duplicado. La comparadora C sigue mostrando todas.
+    offers_by_store = {}
+    for offer in offers:
+        store_key = offer.get("marketplace") or offer.get("store") or "Tienda"
+        if store_key not in offers_by_store or offer.get("offer_id") == current_offer_id:
+            offers_by_store[store_key] = offer
+    offers = sorted(
+        offers_by_store.values(),
+        key=lambda offer: (offer.get("offer_id") != current_offer_id, _offer_sort_key(offer)),
+    )
     stores = {offer.get("store") or offer.get("marketplace") or "Tienda" for offer in offers}
     links = []
     for offer in offers:

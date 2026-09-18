@@ -62,6 +62,20 @@ class CatalogTests(unittest.TestCase):
         self.assertIn('/producto/FNAC-B2', page)
         self.assertIn("esta oferta", page)
 
+    def test_store_offer_page_shows_only_one_chip_per_store(self):
+        group = self.product_group()
+        group["offers"].append({
+            "offer_id": "CAR-C3", "marketplace": "CAR", "store": "Carrefour",
+            "name": "Otra variante", "price": "39,99 €", "status": "compra_directa",
+            "link": "https://example.test/carrefour-variant",
+            "product_url": "https://wheresthatstock.com/producto/CAR-C3",
+        })
+        product = {**PRODUCT, "asin": "A1", "marketplace": "CAR", "store_label": "Carrefour"}
+        page = render_page(TEMPLATE, product, group=group)
+        self.assertIn("Disponible en 2 tiendas", page)
+        self.assertNotIn('/producto/CAR-C3', page)
+        self.assertIn('/producto/FNAC-B2', page)
+
     def test_disappearance_preserves_details_without_claiming_sold_out(self):
         first, events = update_catalog({}, self.snapshot([PRODUCT]), "magic.json", [])
         self.assertEqual(events, [])
