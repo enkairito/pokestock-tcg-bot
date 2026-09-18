@@ -342,7 +342,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912112+00:00",
-    "price": "22,99 €"
+    "price": "12,99 €"
   },
   "ES:B0F49DHSHJ": {
     "name": "Orzly Funda de Transporte para Consola Nintendo Switch 2 2025 de 7.9 Pulgadas, Funda rígida con Almacenamiento Inteligente para Accesorios y Bolsillos de Juegos, Edición de Caja de Regalo",
@@ -2035,7 +2035,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688744+00:00",
-    "price": "67,02 €"
+    "price": "66,84 €"
   },
   "ES:B097F6916C": {
     "name": "Nintendo Game & Watch: The Legend of Zelda console de jeux portables Or, Vert",
@@ -2049,9 +2049,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
-    "price": "40,90 €",
-    "pending_price": "46,74 €",
-    "pending_price_count": 1
+    "price": "40,64 €"
   },
   "ES:B0DGGSZTCX": {
     "name": "Nintendo Switch Lite - Consola Coral + Animal Crossing + 12 meses NSO",
@@ -2226,16 +2224,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689228+00:00",
-    "price": "69,99 €",
-    "pending_price": "82,47 €",
-    "pending_price_count": 1
+    "price": "82,47 €"
   },
   "ES:B08GMSQBDZ": {
     "name": "Pang Adventures Buster Edition",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689238+00:00",
-    "price": "27,19 €"
+    "price": "27,19 €",
+    "pending_price": "28,41 €",
+    "pending_price_count": 1
   },
   "ES:B08LLN1B47": {
     "name": "Five Nights at Freddy'S. Core Collection",
@@ -2270,7 +2268,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689294+00:00",
-    "price": "49,99 €"
+    "price": "47,99 €"
   },
   "ES:B0H4RSXW3V": {
     "name": "DRAGON QUEST MONSTERS: El Reino Marchito",
@@ -2468,9 +2466,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689720+00:00",
-    "price": "54,60 €",
-    "pending_price": "57,83 €",
-    "pending_price_count": 1
+    "price": "57,83 €"
   },
   "ES:B0FDWT9YGP": {
     "name": "RLSOCO Funda para Nintendo Switch 2 Consola 2025 - Estuche de Viaje con 8 Ranuras para Tarjetas de Juego (Rosa)",
@@ -2491,7 +2487,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689736+00:00",
-    "price": "33,52 €"
+    "price": "33,52 €",
+    "pending_price": "33,83 €",
+    "pending_price_count": 1
   },
   "ES:B0F6CSFTRD": {
     "name": "FINTIE Soporte de Pared para Switch 2 (2025) | Kit con 1 Soporte para Controlador, 12 Ranuras para Tarjetas de Juego, 2 Ganchos Joy-Con, Organizador de consola",
@@ -3085,7 +3083,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:31:33.624327+00:00",
-    "price": "37,00 €"
+    "price": "35,11 €"
   },
   "ES:B0C2Z3HKG4": {
     "name": "Five Nights at Freddy's Security Breach",
