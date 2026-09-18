@@ -762,10 +762,9 @@
   },
   "US:B0GXJ8CSTY": {
     "name": "Pokémon TCG: Colección Premium Mega Greninja ex (1 Tarjeta Promocional Brillante, 1 Tarjeta lenticular de Gran tamaño y 8 Paquetes de Refuerzo)",
-    "status": "compra_directa",
-    "stock": "1",
-    "first_seen": "2026-08-30T20:46:19.644858+00:00",
-    "price": "82,18 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-30T20:46:19.644858+00:00"
   },
   "US:B0DN98RVZM": {
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
@@ -798,7 +797,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "62,97 €"
   },
@@ -812,7 +811,7 @@
   "US:B0GFZV1ZVV": {
     "name": "Pokémon TCG: Mega Evolution Order Elite Trainer Box",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "3",
     "first_seen": "2026-08-30T20:46:19.644915+00:00",
     "price": "105,42 €"
   },
@@ -1826,10 +1825,9 @@
   },
   "UK:B09M48Z5NW": {
     "name": "Pokémon TCG: Baraja de Batalla V: Lycanroc contra Corviknight",
-    "status": "compra_directa",
-    "stock": "1",
-    "first_seen": "2026-09-08T14:34:56.335876+00:00",
-    "price": "55,58 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-08T14:34:56.335876+00:00"
   },
   "UK:B00TA6E3KI": {
     "name": "100 Assorted Basic Pokemon TCG Energy Cards",
