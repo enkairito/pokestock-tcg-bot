@@ -590,6 +590,7 @@ FLAG_FILES = {
     "FNAC": Path(__file__).parent / "assets" / "flags" / "es.png",
     "TRU": Path(__file__).parent / "assets" / "flags" / "es.png",
     "GAME": Path(__file__).parent / "assets" / "flags" / "es.png",
+    "MM": Path(__file__).parent / "assets" / "flags" / "es.png",
     "UK": Path(__file__).parent / "assets" / "flags" / "gb.png",
     "US": Path(__file__).parent / "assets" / "flags" / "us.png",
 }
@@ -1206,6 +1207,89 @@ async def discover_game_products(page, label, url):
     return products
 
 
+# MediaMarkt (mediamarkt.es) sirve su búsqueda ya renderizada en el HTML
+# (confirmado el 2026-09-18 con una petición HTTP directa, sin navegador: 200
+# OK, CF-Cache-Status HIT, sin challenge ni bloqueo — no hace falta cookies
+# ni pasar por la API interna como con ToysRUs). Cada tarjeta es un
+# ``article[data-test="mms-product-card"]``; el precio aparece dos veces en
+# el mismo bloque (una versión corta "39,–€" y la completa "39,00€"), así que
+# se extrae con regex sobre el texto completo en vez de fiarse de un único
+# selector. La disponibilidad se lee del sufijo de
+# ``[data-test^="mms-cofr-delivery_"]`` ("AVAILABLE" cuando hay stock; si no
+# existe ese bloque, se trata como agotado).
+MEDIAMARKT_STORE = {
+    "code": "MM",
+    "flag": "",
+    "store_label": "MediaMarkt",
+    "tag": None,
+    "pages": [
+        ("Pokémon TCG", "https://www.mediamarkt.es/es/search.html?query=pokemon%20tcg"),
+    ],
+}
+MEDIAMARKT_PRICE_RE = re.compile(r"(\d+,\d{2})\s*€")
+MEDIAMARKT_ID_RE = re.compile(r"-(\d+)\.html$")
+
+
+async def discover_mediamarkt_products(page, label, url):
+    response = await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+    if response is None or response.status >= 400:
+        raise ScrapeError(f"Respuesta HTTP inválida en MediaMarkt/{label} (status {response.status if response else 'sin respuesta'})")
+    await page.wait_for_timeout(1500)
+
+    body_text = (await page.inner_text("body")).lower()
+    if any(marker in body_text for marker in CAPTCHA_MARKERS):
+        raise ScrapeError(f"Captcha en MediaMarkt/{label}")
+
+    tiles = await page.eval_on_selector_all(
+        'article[data-test="mms-product-card"]',
+        """els => els.map(el => {
+            const link = el.querySelector('a[data-test="mms-router-link-product-list-item-link_mp"]');
+            const name = el.querySelector('[data-test="product-title"]');
+            const img = el.querySelector('[data-test="product-image"] img');
+            const priceBox = el.querySelector('[data-test="mms-price"]');
+            const delivery = el.querySelector('[data-test^="mms-cofr-delivery_"]');
+            return {
+                href: link ? link.getAttribute('href') : null,
+                name: name ? name.textContent.trim() : null,
+                image: img ? img.getAttribute('src') : null,
+                priceText: priceBox ? priceBox.textContent : null,
+                deliveryState: delivery ? delivery.getAttribute('data-test') : null,
+            };
+        })""",
+    )
+
+    products = {}
+    for t in tiles:
+        href = t.get("href")
+        name = t.get("name")
+        if not href or not name:
+            continue
+        id_match = MEDIAMARKT_ID_RE.search(href)
+        if not id_match:
+            continue
+        product_id = id_match.group(1)
+        if product_id in products:
+            continue
+
+        price_match = MEDIAMARKT_PRICE_RE.search(t.get("priceText") or "")
+        price = f"{price_match.group(1)} €" if price_match else None
+        available = bool(t.get("deliveryState") and t["deliveryState"].endswith("AVAILABLE"))
+
+        products[product_id] = {
+            "name": name,
+            "price": price,
+            "original_price": None,
+            "image": t.get("image"),
+            "stock": None,
+            "status": "compra_directa" if available else "no_disponible",
+            "url": href if href.startswith("http") else f"https://www.mediamarkt.es{href}",
+        }
+
+    if not products:
+        raise ScrapeError(f"Sin productos verificables en MediaMarkt/{label}; se conserva la publicación anterior")
+    return products
+
+
 FNAC_BLOCK_MARKERS = ["el acceso está restringido", "acceso restringido temporalmente"]
 
 
@@ -1727,6 +1811,58 @@ async def main():
             info["categories"] = assign_categories(info["name"])
             products[f"GAME:{product_id}"] = info
 
+        # MediaMarkt: mismo patrón que GAME, sin afiliación todavía.
+        mediamarkt_products = {}
+        for label, url in MEDIAMARKT_STORE["pages"]:
+            print(f"🔍 Descubriendo productos en la tienda (MediaMarkt/{label})...")
+            try:
+                page_products = await discover_mediamarkt_products(page, label, url)
+                print(f"📦 [MediaMarkt/{label}] {len(page_products)} productos encontrados")
+                mediamarkt_products.update(page_products)
+            except Exception as e:
+                print(f"⚠️ No se pudo cargar la página de MediaMarkt ({label}), se omite esta vez: {e!r}")
+
+        mediamarkt_out_of_stock = {
+            a for a, i in mediamarkt_products.items() if i["status"] == "no_disponible"
+        }
+        if mediamarkt_out_of_stock:
+            print(f"⏭️ [MediaMarkt] Omitiendo {len(mediamarkt_out_of_stock)} productos agotados de la web (pero sí se actualiza su estado).")
+            for product_id in mediamarkt_out_of_stock:
+                key = f"MM:{product_id}"
+                prev_first_seen = state.get(key, {}).get("first_seen")
+                state[key] = {
+                    "name": mediamarkt_products[product_id]["name"],
+                    "status": "no_disponible",
+                    "stock": None,
+                    "first_seen": prev_first_seen or datetime.now(timezone.utc).isoformat(),
+                }
+                del mediamarkt_products[product_id]
+
+        mediamarkt_excluded_by_name = {
+            a for a, i in mediamarkt_products.items() if is_excluded_by_name(i["name"])
+        }
+        if mediamarkt_excluded_by_name:
+            print(f"⏭️ [MediaMarkt] Omitiendo {len(mediamarkt_excluded_by_name)} productos no relevantes por nombre.")
+            for product_id in mediamarkt_excluded_by_name:
+                del mediamarkt_products[product_id]
+
+        mediamarkt_not_pokemon = {
+            a for a, i in mediamarkt_products.items() if not is_relevant_by_name(i["name"])
+        }
+        if mediamarkt_not_pokemon:
+            print(f"⏭️ [MediaMarkt] Omitiendo {len(mediamarkt_not_pokemon)} productos ajenos a Pokémon.")
+            for product_id in mediamarkt_not_pokemon:
+                del mediamarkt_products[product_id]
+
+        for product_id, info in mediamarkt_products.items():
+            info["asin"] = product_id
+            info["marketplace_code"] = MEDIAMARKT_STORE["code"]
+            info["store_label"] = MEDIAMARKT_STORE["store_label"]
+            info["flag"] = MEDIAMARKT_STORE["flag"]
+            info["link"] = info["url"]
+            info["categories"] = assign_categories(info["name"])
+            products[f"MM:{product_id}"] = info
+
         await browser.close()
 
     print(f"📦 Total combinado: {len(products)} productos únicos")
@@ -1757,7 +1893,7 @@ async def main():
         # ES, El Corte Inglés, Carrefour, Fnac, ToysRUs y GAME). El resto de
         # marketplaces (UK, US) se siguen detectando y guardando en el
         # estado/snapshot para la web, pero no generan mensajes.
-        if (status_changed or stock_decreased or price_decreased) and info["marketplace_code"] in ("ES", "ECI", "CAR", "FNAC", "TRU", "GAME"):
+        if (status_changed or stock_decreased or price_decreased) and info["marketplace_code"] in ("ES", "ECI", "CAR", "FNAC", "TRU", "GAME", "MM"):
             # El nombre, el precio y (para ECI/Carrefour/Fnac) el link vienen
             # del scraping de Amazon/El Corte Inglés/Carrefour/Fnac/ToysRUs — datos
             # externos que no controlamos — y el mensaje se manda con parse_mode:
