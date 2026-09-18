@@ -1350,9 +1350,10 @@
   },
   "ES:B0HF55Q11W": {
     "name": "PlayStation®5 Edición Digital: pack Ed. Limitada Marvel: Lobezno Amarillo de Combate",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-16T04:35:55.955905+00:00"
+    "first_seen": "2026-09-16T04:35:55.955905+00:00",
+    "price": "729,91 €"
   },
   "ES:B0D8KXMCTC": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Naranja)",
@@ -1993,7 +1994,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498367+00:00",
-    "price": "66,05 €"
+    "price": "65,18 €"
   },
   "ES:B0DKFCHCYZ": {
     "name": "Black Myth: Wukong - PS5",
@@ -2782,7 +2783,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566079+00:00",
-    "price": "31,89 €"
+    "price": "31,89 €",
+    "pending_price": "39,39 €",
+    "pending_price_count": 1
   },
   "ES:B0F2FVLP14": {
     "name": "Death end re;Quest: Code Z - Day One Edition (PS5)",
