@@ -258,7 +258,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "84,99 €"
+    "price": "84,99 €",
+    "pending_price": "99,00 €",
+    "pending_price_count": 1
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -707,9 +709,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T12:27:13.469347+00:00",
-    "price": "19,99 €",
-    "pending_price": "28,52 €",
-    "pending_price_count": 1
+    "price": "28,52 €"
   },
   "ES:B0D571R8PK": {
     "name": "Volante y Pedales Hori RWA con licencia Sony PlayStation 4/5 [Nuevo modelo compatible con PS4/PS5] + Gran Turismo 7 [Playstation 5]",
@@ -1097,7 +1097,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T18:20:21.671515+00:00",
-    "price": "819,90 €"
+    "price": "789,00 €"
   },
   "ES:B0C74Q2GWX": {
     "name": "The Crew Motorfest Limited Edition (Exclusivo Amazon) (PS4)",
@@ -1811,9 +1811,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.497931+00:00",
-    "price": "18,86 €",
-    "pending_price": "26,53 €",
-    "pending_price_count": 1
+    "price": "26,53 €"
   },
   "ES:B0DFMCFVLS": {
     "name": "The Spectrum",
@@ -1869,7 +1867,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498076+00:00",
-    "price": "29,65 €"
+    "price": "29,45 €"
   },
   "ES:B09KCP7BS8": {
     "name": "Autobahn Police Simulator 2 (Nintendo Switch)",
@@ -1939,9 +1937,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498253+00:00",
-    "price": "44,95 €",
-    "pending_price": "46,47 €",
-    "pending_price_count": 1
+    "price": "46,47 €"
   },
   "ES:B0GVP719SW": {
     "name": "Mortal Shell II - PS5",
@@ -2053,9 +2049,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498519+00:00",
-    "price": "35,90 €",
-    "pending_price": "49,95 €",
-    "pending_price_count": 1
+    "price": "49,95 €"
   },
   "ES:B0GTR8256K": {
     "name": "MOUSE: P.I. For Hire - PS5",
@@ -2503,9 +2497,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500076+00:00",
-    "price": "18,99 €",
-    "pending_price": "19,55 €",
-    "pending_price_count": 1
+    "price": "19,55 €"
   },
   "ES:B09KLKJSQM": {
     "name": "OIVO Soporte PS5/Slim/Pro Horizontal para Consola PlayStation 5, PS5 Suporte Horizontal, Soporte PS5 Acostado, Suporte Horizonta P5 con Tornillo, Accesorios PlayStation 5, Packs de Accesorios",
