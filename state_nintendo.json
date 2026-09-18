@@ -272,7 +272,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912093+00:00",
-    "price": "80,43 €"
+    "price": "80,40 €"
   },
   "ES:B072BZ66JL": {
     "name": "Nintendo Par Joy-Con, verde/rosa, Bluetooth Interruptor",
@@ -355,8 +355,8 @@
     "name": "Konix Par de mandos Joypads para Nintendo Switch y Switch OLED - Compatible con Nintendo Switch 2 - Autonomía de 8 horas - Función de vibración - Verde y azul",
     "status": "compra_directa",
     "stock": null,
-    "price": "39,17 €",
-    "first_seen": "2026-09-11T19:20:15.912116+00:00"
+    "first_seen": "2026-09-11T19:20:15.912116+00:00",
+    "price": "38,06 €"
   },
   "ES:B0F1QWSCVH": {
     "name": "Turtle Beach Airlite Fit Auriculares con Cable para Juegos en Morado fantasmal con Licencia Oficial para Todos los Nintendo Switch",
@@ -611,7 +611,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478284+00:00",
-    "price": "8,95 €"
+    "price": "8,95 €",
+    "pending_price": "9,95 €",
+    "pending_price_count": 1
   },
   "ES:B0977RRHJG": {
     "name": "Videojuego para Switch Ubisoft Mario+Rabbids Sparks of Hope",
@@ -1334,9 +1336,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T20:34:05.436549+00:00",
-    "price": "24,99 €",
-    "pending_price": "25,99 €",
-    "pending_price_count": 1
+    "price": "25,99 €"
   },
   "ES:B09V2RQ6R9": {
     "name": "AUTOUTLET Adaptador Wii a HDMI, Convertidor Wii Hdmi Cable Extensión de 20cm 1080P / 720P Full HD, Salida de Audio de 3,5mm y Cable HDMI de 1,8m, Indicador de Luz para Wii, Televisión Blanco",
@@ -1427,9 +1427,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850774+00:00",
-    "price": "66,99 €",
-    "pending_price": "69,99 €",
-    "pending_price_count": 1
+    "price": "69,99 €"
   },
   "ES:B0BHDDH5W1": {
     "name": "Nintendo Consola Switch - Color Azul Neón/Rojo Neón",
@@ -1755,9 +1753,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688228+00:00",
-    "price": "535,99 €",
-    "pending_price": "539,89 €",
-    "pending_price_count": 1
+    "price": "539,89 €"
   },
   "ES:B0FYTQ5XLG": {
     "name": "2 Piezas de Cubiertas Protectoras magnéticas para Switch2, Protectores Laterales contra arañazos, Protectores de los Bordes, Cubierta del Punto de conexión del Mango. (Azul-Naranja)",
@@ -1792,7 +1788,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688339+00:00",
-    "price": "57,00 €"
+    "price": "56,99 €"
   },
   "ES:B0H4RTBZ3S": {
     "name": "Orbitals - Nintendo Switch 2",
@@ -1841,7 +1837,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688410+00:00",
-    "price": "50,64 €"
+    "price": "48,99 €"
   },
   "ES:B0H4RY7CW1": {
     "name": "Orbitales",
@@ -2046,7 +2042,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688744+00:00",
-    "price": "67,06 €"
+    "price": "67,02 €"
   },
   "ES:B097F6916C": {
     "name": "Nintendo Game & Watch: The Legend of Zelda console de jeux portables Or, Vert",
@@ -2060,7 +2056,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
-    "price": "48,12 €"
+    "price": "40,90 €"
   },
   "ES:B0DGGSZTCX": {
     "name": "Nintendo Switch Lite - Consola Coral + Animal Crossing + 12 meses NSO",
@@ -2151,9 +2147,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688994+00:00",
-    "price": "208,99 €",
-    "pending_price": "212,99 €",
-    "pending_price_count": 1
+    "price": "212,99 €"
   },
   "ES:B0CMDHWDP9": {
     "name": "Consola Switch - Color Azul Neón/Rojo Neón + Super Mario Bros. Wonder + Mario Kart 8 Deluxe",
@@ -2477,7 +2471,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689720+00:00",
-    "price": "53,60 €"
+    "price": "53,60 €",
+    "pending_price": "54,60 €",
+    "pending_price_count": 1
   },
   "ES:B0FDWT9YGP": {
     "name": "RLSOCO Funda para Nintendo Switch 2 Consola 2025 - Estuche de Viaje con 8 Ranuras para Tarjetas de Juego (Rosa)",
@@ -2751,9 +2747,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689991+00:00",
-    "price": "74,86 €",
-    "pending_price": "75,64 €",
-    "pending_price_count": 1
+    "price": "75,64 €"
   },
   "ES:B0B69K1671": {
     "name": "Volante y pedales Hori para consola Switch pack Crash-Bandicoot Nitro Fueled (Liccencia oficial)",
@@ -3094,7 +3088,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:31:33.624327+00:00",
-    "price": "27,08 €"
+    "price": "27,08 €",
+    "pending_price": "37,00 €",
+    "pending_price_count": 1
   },
   "ES:B0C2Z3HKG4": {
     "name": "Five Nights at Freddy's Security Breach",
@@ -3225,5 +3221,89 @@
     "stock": null,
     "first_seen": "2026-09-18T08:31:24.279633+00:00",
     "price": "27,99 €"
+  },
+  "ES:B0F3NVWM37": {
+    "name": "Nintendo Switch 2 Donkey Kong Bananza",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T12:31:52.753836+00:00",
+    "price": "69,99 €"
+  },
+  "ES:B0FCTL7D1N": {
+    "name": "MME Tapas de Joystick compatibles con Nintendo Switch 2 | Protector de Joystick para Switch 2, Agarres para el pulgar de silicona para Switch 2, PS 4, PS5, Xbox",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T12:31:52.753903+00:00",
+    "price": "11,99 €"
+  },
+  "ES:B0F7RLZBYM": {
+    "name": "playvital Tapas para Joystick para Nintendo Switch 2 2025, 6 Piezas | Silicona Suave, Mejor Control, Antideslizante, Protección Diaria, Tacto Cómodo, Diseño Kawaii, Tema de Halloween",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T12:31:52.753923+00:00",
+    "price": "12,99 €"
+  },
+  "ES:B0B1DTCC1M": {
+    "name": "Nintendo Switch (versión OLED) Blanca + Mario Kart 8 Deluxe (Nintendo Switch) + Pase de pistas extras DLC (Nintendo Switch - Código de descarga)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T12:31:52.753953+00:00",
+    "price": "390,98 €"
+  },
+  "ES:B0DFWYRBP9": {
+    "name": "Fairy Tail 2 Switch",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T12:31:52.754088+00:00",
+    "price": "27,41 €"
+  },
+  "ES:B0DZJ21W8W": {
+    "name": "Under Defeat NS",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T12:31:52.754116+00:00",
+    "price": "40,89 €"
+  },
+  "ES:B0FKTB66TN": {
+    "name": "Octopath Traveler 0",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T12:31:52.754207+00:00",
+    "price": "64,65 €"
+  },
+  "ES:B0F8W235K1": {
+    "name": "Mandragora: Whispers of the Witch Tree - Switch",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T12:31:52.754256+00:00",
+    "price": "24,99 €"
+  },
+  "ES:B07PB4JFF8": {
+    "name": "Pokémon: Escudo",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T12:31:52.754266+00:00",
+    "price": "49,99 €"
+  },
+  "ES:B0F1LTR6HF": {
+    "name": "MatoSan® Tapas de Agarre para Palanca de Pulgar para Switch 2, Fundas de Silicona compatibles con Controladores Switch 2, empuñaduras ergonómicas Antideslizantes para el Pulgar (Version 1)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T12:31:52.754428+00:00",
+    "price": "9,99 €"
+  },
+  "ES:B0DDPZ2Q3C": {
+    "name": "Ozeino Cascos Gaming Inalámbricos para PC/Ps5/Ps4, Auriculares Gaming Inalámbricos de 2,4GHz Wireless+Bluetooth (Rosa)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T12:31:52.754563+00:00",
+    "price": "42,99 €"
+  },
+  "ES:B07RY36LB4": {
+    "name": "Integral Adaptador de Lector de Tarjetas de Memoria Micro SD USB3.0/USB-C Type-C OTG - Velocidades de Transferencia súper rápidas, Plug & Play y Compatible con microSDXC/microSDHC UHS-I U1 y U3",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-18T12:31:52.754569+00:00",
+    "price": "10,48 €"
   }
 }
