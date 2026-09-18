@@ -584,13 +584,10 @@ def send_telegram_photo_bytes(image_bytes, caption):
 
 
 FLAG_FILES = {
-    "ES": Path(__file__).parent / "assets" / "flags" / "es.png",
-    "ECI": Path(__file__).parent / "assets" / "flags" / "es.png",
-    "CAR": Path(__file__).parent / "assets" / "flags" / "es.png",
-    "FNAC": Path(__file__).parent / "assets" / "flags" / "es.png",
-    "TRU": Path(__file__).parent / "assets" / "flags" / "es.png",
-    "GAME": Path(__file__).parent / "assets" / "flags" / "es.png",
-    "MM": Path(__file__).parent / "assets" / "flags" / "es.png",
+    # Las tiendas españolas (ES/ECI/CAR/FNAC/TRU/GAME/MM) no llevan bandera —
+    # se da por hecho que son tiendas españolas, igual que en la web (ver
+    # FLAG_ICONS en product-utils.js). Solo UK/US la necesitan para
+    # distinguirse.
     "UK": Path(__file__).parent / "assets" / "flags" / "gb.png",
     "US": Path(__file__).parent / "assets" / "flags" / "us.png",
 }
