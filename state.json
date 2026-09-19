@@ -78,7 +78,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-25T20:27:54.285181+00:00",
-    "price": "64,98 €"
+    "price": "64,98 €",
+    "pending_price": "65,98 €",
+    "pending_price_count": 1
   },
   "ES:B0G4NQK15P": {
     "name": "Pokémon: Minilata Megaevolución-Héroes Ascendentes: Clefairy y Chikorita (1 Pegatina, 1 Tarjeta Pokémon ilustrada y 2 Sobres de Mejora)",
