@@ -258,9 +258,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "84,99 €",
-    "pending_price": "99,00 €",
-    "pending_price_count": 1
+    "price": "84,99 €"
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -416,7 +414,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018932+00:00",
-    "price": "53,62 €"
+    "price": "53,62 €",
+    "pending_price": "56,40 €",
+    "pending_price_count": 1
   },
   "ES:B0H4GT8TXL": {
     "name": "Halo: Campaign Evolved - Standard Edition – PlayStation®5 | Disco físico + descarga de contenido requerida",
@@ -1138,7 +1138,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:22:34.377644+00:00",
-    "price": "20,50 €"
+    "price": "20,48 €"
   },
   "ES:B01H25FDTI": {
     "name": "Playstation Marvel’s Spider-Man (PS4)",
@@ -1209,7 +1209,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T18:20:43.859449+00:00",
-    "price": "30,99 €"
+    "price": "30,99 €",
+    "pending_price": "31,20 €",
+    "pending_price_count": 1
   },
   "ES:B08LM3KW18": {
     "name": "Playstation Console Sony 5 Edition Digital",
@@ -1861,7 +1863,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498065+00:00",
-    "price": "22,23 €"
+    "price": "22,23 €",
+    "pending_price": "22,36 €",
+    "pending_price_count": 1
   },
   "ES:B0CJYK3MQ9": {
     "name": "Minecraft réplique Illuminating Potion Bottle 16 cm",
@@ -2107,7 +2111,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498807+00:00",
     "price": "74,00 €",
-    "pending_price": "75,17 €",
+    "pending_price": "74,42 €",
     "pending_price_count": 1
   },
   "ES:B01H0CBMXO": {
@@ -2129,7 +2133,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498960+00:00",
-    "price": "36,83 €"
+    "price": "36,83 €",
+    "pending_price": "39,81 €",
+    "pending_price_count": 1
   },
   "ES:B09PJ4WZWC": {
     "name": "Far Cry 6 (PS4) (PS4)",
@@ -2164,9 +2170,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499111+00:00",
-    "price": "16,12 €",
-    "pending_price": "19,84 €",
-    "pending_price_count": 1
+    "price": "19,84 €"
   },
   "ES:B07NRHS623": {
     "name": "The Legend of Heroes: Trails of Cold Steel III [Importación francesa]",
