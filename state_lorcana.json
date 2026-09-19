@@ -185,7 +185,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-09T11:34:34.043787+00:00",
-    "price": "54,32 €"
+    "price": "54,32 €",
+    "pending_price": "55,13 €",
+    "pending_price_count": 1
   },
   "ES:B0H6JBF9FM": {
     "name": "Ravensburger Disney Lorcana TCG: Attack of the Vine! Paquete de refuerzo individual surtido (12 tarjetas) - Tarjetas coleccionables - Ideal para fanáticos de Disney y jugadores de TCG - Adecuado para",
@@ -267,7 +269,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-13T00:16:55.094290+00:00",
-    "price": "154,34 €"
+    "price": "154,14 €"
   },
   "ES:B0DJNZVGL5": {
     "name": "Ravensburger - Disney Lorcana TCG: Mar de Azurrita, Starter Deck Ambra & Rubí 60 Cartas, Cartas de Juego Coleccionables, Juego Adultos y Niños, Edición en Italiano",
