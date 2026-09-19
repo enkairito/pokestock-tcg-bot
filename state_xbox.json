@@ -1277,7 +1277,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.017973+00:00",
-    "price": "219,00 €"
+    "price": "175,00 €"
   },
   "ES:B01M5CZKW6": {
     "name": "Konsole Xbox One S 500 Gb Weiß",
@@ -1291,7 +1291,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.318741+00:00",
-    "price": "817,17 €"
+    "price": "817,16 €"
   },
   "ES:B08FCXLB8Z": {
     "name": "Xbox Play y Kit de Carga USB",
@@ -3399,9 +3399,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T12:32:04.828014+00:00",
-    "price": "31,80 €",
-    "pending_price": "31,81 €",
-    "pending_price_count": 1
+    "price": "31,81 €"
   },
   "ES:B095PNMTGR": {
     "name": "Mars Gaming MCPX, Idioma Español, Combo Gaming 3en1 con Teclado H-Mech Iluminado, Ratón Ultraligero 10000 dpi con Software y Alfombrilla XXL, Compatible con PC, PS4, PS5, Xbox, Blanco",
