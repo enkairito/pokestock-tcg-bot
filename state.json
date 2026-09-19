@@ -1133,7 +1133,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-08-31T17:55:22.065539+00:00",
-    "price": "103,91 €"
+    "price": "103,55 €"
   },
   "US:B09CQJ564T": {
     "name": "Pokemon SAS7 Evolving Skies Eliter Trainer Box - Azul",
@@ -1632,7 +1632,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280869+00:00",
-    "price": "111,93 €"
+    "price": "111,91 €"
   },
   "UK:B0DG2XTYDP": {
     "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
@@ -1716,9 +1716,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T13:57:50.628764+00:00",
-    "price": "21,53 €",
-    "pending_price": "21,61 €",
-    "pending_price_count": 1
+    "price": "21,61 €"
   },
   "UK:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
