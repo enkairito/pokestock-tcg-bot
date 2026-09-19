@@ -258,9 +258,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "84,99 €",
-    "pending_price": "99,00 €",
-    "pending_price_count": 1
+    "price": "84,99 €"
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -709,7 +707,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T12:27:13.469347+00:00",
-    "price": "19,45 €"
+    "price": "19,45 €",
+    "pending_price": "28,52 €",
+    "pending_price_count": 1
   },
   "ES:B0D571R8PK": {
     "name": "Volante y Pedales Hori RWA con licencia Sony PlayStation 4/5 [Nuevo modelo compatible con PS4/PS5] + Gran Turismo 7 [Playstation 5]",
@@ -1074,10 +1074,9 @@
   },
   "ES:B08KKJ37F7": {
     "name": "Playstation 5 Standard Consola",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-13T12:22:28.169361+00:00",
-    "price": "589,00 €"
+    "first_seen": "2026-09-13T12:22:28.169361+00:00"
   },
   "ES:B0HJ2FHFY6": {
     "name": "PlayStation 5-Until Dawn 2 - Edición Estándar",
@@ -1283,9 +1282,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T20:34:33.327835+00:00",
-    "price": "19,00 €",
-    "pending_price": "19,90 €",
-    "pending_price_count": 1
+    "price": "19,90 €"
   },
   "ES:B0H3W5V1TN": {
     "name": "CONTROL Resonant - PS5 (Exclusiva Amazon)",
@@ -1356,7 +1353,7 @@
     "stock": null,
     "first_seen": "2026-09-16T04:35:55.955905+00:00",
     "price": "649,00 €",
-    "pending_price": "725,32 €",
+    "pending_price": "729,91 €",
     "pending_price_count": 1
   },
   "ES:B0D8KXMCTC": {
@@ -1952,7 +1949,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498263+00:00",
-    "price": "45,99 €"
+    "price": "45,99 €",
+    "pending_price": "47,99 €",
+    "pending_price_count": 1
   },
   "ES:B0DLGNT4V3": {
     "name": "Clair Obscur: Expedition 33",
