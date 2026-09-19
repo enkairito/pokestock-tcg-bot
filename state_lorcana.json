@@ -176,9 +176,9 @@
   "ES:B0DDPH3JQB": {
     "name": "Disney Lorcana Trading Card Game: Archazias Isla – Booster Display con 24 Booster Packs (en inglés)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-09-08T11:29:17.563714+00:00",
-    "price": "164,77 €"
+    "price": "163,70 €"
   },
   "ES:B0CGXJ8244": {
     "name": "Disney Lorcana Disney Lorcana TCG - Ursula's Return Ill",
@@ -206,9 +206,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-10T11:31:24.750843+00:00",
-    "price": "26,03 €",
-    "pending_price": "28,86 €",
-    "pending_price_count": 1
+    "price": "28,86 €"
   },
   "ES:B0DTK163XP": {
     "name": "Ravensburger - Disney Lorcana TCG: Set 9 Caja Cartas Pluto | Caja para Cartas De Colección con Capacidad para 80 | Disney Lorcana con Un Diseño Único | Card Sleeves",
