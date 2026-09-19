@@ -1479,7 +1479,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802880+00:00",
-    "price": "84,30 €"
+    "price": "84,30 €",
+    "pending_price": "84,97 €",
+    "pending_price_count": 1
   },
   "US:B0D8R1LW3R": {
     "name": "Pokémon TCG: Cofre de coleccionista - Scream Tail & Iron Valiant (2 Tarjetas promocionales de Aluminio, 6 Paquetes de Refuerzo y más)",
