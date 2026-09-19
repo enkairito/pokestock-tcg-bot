@@ -1614,7 +1614,7 @@
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
     "price": "91,32 €",
-    "pending_price": "106,20 €",
+    "pending_price": "106,19 €",
     "pending_price_count": 1
   },
   "UK:B0CJM4MQTT": {
@@ -1718,7 +1718,7 @@
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": null,
     "first_seen": "2026-09-06T13:57:50.628764+00:00",
     "price": "21,68 €"
   },
