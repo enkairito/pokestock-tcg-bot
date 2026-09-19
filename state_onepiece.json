@@ -75,7 +75,7 @@
     "stock": null,
     "first_seen": "2026-08-29T18:09:29.426544+00:00",
     "price": "42,86 €",
-    "pending_price": "45,45 €",
+    "pending_price": "44,15 €",
     "pending_price_count": 1
   },
   "ES:B0GDGRWH54": {
@@ -243,9 +243,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T20:33:38.638411+00:00",
-    "price": "436,00 €",
-    "pending_price": "451,00 €",
-    "pending_price_count": 1
+    "price": "436,00 €"
   },
   "ES:B0HFD53BDB": {
     "name": "One Piece TCG: The World's Strongest Warriors - Juego de doble paquete Vol. 12 DP-12 (2 paquetes OP-17)",
@@ -257,11 +255,9 @@
   "ES:B0HC7DT1ZY": {
     "name": "Juego de cartas de una pieza Starter Deck ST-36 amarillo Eustass Captain Kid",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "4",
     "first_seen": "2026-09-08T09:40:16.326555+00:00",
-    "price": "27,00 €",
-    "pending_price": "32,19 €",
-    "pending_price_count": 1
+    "price": "27,00 €"
   },
   "ES:B0DW3R4T9G": {
     "name": "BANDAI ONE PIECE - Caja de refuerzo de cartas Master and Student Bonds (OP-12) (japonés) - 24 paquetes",
