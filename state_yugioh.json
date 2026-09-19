@@ -21,7 +21,7 @@
   "ES:B0FZTZK1WF": {
     "name": "Yu-Gi-Oh! Laberinto DE Muertos 3-Pack Booster (Versión en español)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "3",
     "first_seen": "2026-09-07T17:41:03.832724+00:00",
     "price": "12,99 €"
   },
@@ -127,18 +127,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:42:22.065660+00:00",
-    "price": "11,60 €",
-    "pending_price": "12,99 €",
-    "pending_price_count": 1
+    "price": "12,99 €"
   },
   "ES:B0FBWHJR6W": {
     "name": "Yu-Gi-Oh! Doom of Dimensions Display (24)",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:42:27.815808+00:00",
-    "price": "56,40 €",
-    "pending_price": "57,07 €",
-    "pending_price_count": 1
+    "price": "57,07 €"
   },
   "ES:B0F4XZHYDY": {
     "name": "Yu-Gi-Oh! Lata Mega-Pack 2025",
