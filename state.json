@@ -796,7 +796,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "62,97 €"
   },
@@ -810,7 +810,7 @@
   "US:B0GFZV1ZVV": {
     "name": "Pokémon TCG: Mega Evolution Order Elite Trainer Box",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644915+00:00",
     "price": "105,42 €"
   },
@@ -1888,9 +1888,7 @@
     "status": "compra_directa",
     "stock": "4",
     "first_seen": "2026-09-08T14:34:56.335946+00:00",
-    "price": "44,03 €",
-    "pending_price": "44,04 €",
-    "pending_price_count": 1
+    "price": "44,04 €"
   },
   "US:B0D4B515H1": {
     "name": "Pokémon TCG: Escarlata y Violeta - Mini Lata de fábula Envuelta - Okidogi (2 Paquetes de Refuerzo y 1 Hoja de calcomanías)",
