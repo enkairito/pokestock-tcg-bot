@@ -1409,7 +1409,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850724+00:00",
-    "price": "469,90 €"
+    "price": "468,00 €"
   },
   "ES:B0F3P3X5P2": {
     "name": "Sandisk Micro SD Express Card for Nintendo Switch 2",
@@ -1763,9 +1763,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688262+00:00",
-    "price": "69,99 €",
-    "pending_price": "85,00 €",
-    "pending_price_count": 1
+    "price": "85,00 €"
   },
   "ES:B0GY5GY45X": {
     "name": "Splatoon Raiders",
@@ -2054,7 +2052,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
     "price": "40,64 €",
-    "pending_price": "42,33 €",
+    "pending_price": "42,29 €",
     "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
@@ -2062,13 +2060,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688808+00:00",
-    "price": "299,90 €"
+    "price": "299,90 €",
+    "pending_price": "379,99 €",
+    "pending_price_count": 1
   },
   "ES:B084DDDNRP": {
     "name": "Nintendo - Switch - Animal Crossing: New Horizons Edition 32GB Console - Multi",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.688819+00:00"
+    "first_seen": "2026-09-17T00:32:50.688819+00:00",
+    "price": "434,04 €"
   },
   "ES:B0FQC3P2Y1": {
     "name": "Nintendo Switch Lite Blue + Animal Crossing New Horizons",
@@ -3089,7 +3090,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:31:33.624463+00:00",
-    "price": "33,14 €"
+    "price": "32,82 €"
   },
   "ES:B01M31YZPX": {
     "name": "Nintendo - Pack 6 Tarjetas Amiibo Animal Crossing, Hello Kitty",
