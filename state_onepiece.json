@@ -46,7 +46,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:09:04.551067+00:00",
-    "price": "69,62 €"
+    "price": "69,62 €",
+    "pending_price": "69,63 €",
+    "pending_price_count": 1
   },
   "ES:B0CRY385YN": {
     "name": "One Piece TCG: Two Legends - Booster Box (OP-08) (JP) (TCG)",
@@ -158,7 +160,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:11:01.747489+00:00",
-    "price": "135,37 €"
+    "price": "135,37 €",
+    "pending_price": "136,90 €",
+    "pending_price_count": 1
   },
   "ES:B0C3RY35G6": {
     "name": "BANDAI | One Piece Card Game: Transparent Case - Standard White | Accessories | Ages 6+ | 2 Players | 20-30 Minutes Playing Time",
@@ -241,7 +245,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T20:33:38.638411+00:00",
-    "price": "436,00 €"
+    "price": "436,00 €",
+    "pending_price": "451,00 €",
+    "pending_price_count": 1
   },
   "ES:B0HFD53BDB": {
     "name": "One Piece TCG: The World's Strongest Warriors - Juego de doble paquete Vol. 12 DP-12 (2 paquetes OP-17)",
