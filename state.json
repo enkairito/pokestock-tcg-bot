@@ -716,7 +716,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
-    "price": "54,50 €"
+    "price": "54,50 €",
+    "pending_price": "56,94 €",
+    "pending_price_count": 1
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
@@ -1298,7 +1300,7 @@
   "UK:B0DB7C1Z26": {
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
     "price": "113,09 €"
   },
@@ -1314,9 +1316,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802653+00:00",
-    "price": "86,20 €",
-    "pending_price": "87,86 €",
-    "pending_price_count": 1
+    "price": "86,20 €"
   },
   "UK:B0CMZS84KP": {
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
@@ -1720,7 +1720,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T13:57:50.628764+00:00",
-    "price": "21,61 €"
+    "price": "21,57 €"
   },
   "UK:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
@@ -1784,7 +1784,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-08T14:34:56.335794+00:00",
-    "price": "98,75 €"
+    "price": "96,87 €"
   },
   "UK:B0FK2BN732": {
     "name": "Pokémon Pikachu V-Union Box Edición China Limitada Coleccionista TCG",
