@@ -84,7 +84,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388322+00:00",
-    "price": "19,90 €"
+    "price": "19,90 €",
+    "pending_price": "27,88 €",
+    "pending_price_count": 1
   },
   "ES:B01M6YIR2E": {
     "name": "Red Dead Redemption 2 (Xbox One)",
@@ -128,7 +130,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388338+00:00",
-    "price": "49,99 €"
+    "price": "47,56 €"
   },
   "ES:B08KVH51VX": {
     "name": "NEED FOR SPEED HOT PURSUIT REMASTERED",
@@ -989,7 +991,7 @@
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
     "price": "35,56 €",
-    "pending_price": "35,95 €",
+    "pending_price": "36,41 €",
     "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
@@ -1761,7 +1763,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256162+00:00",
-    "price": "17,24 €"
+    "price": "17,24 €",
+    "pending_price": "17,40 €",
+    "pending_price_count": 1
   },
   "ES:B0DN1PM22S": {
     "name": "Genérico Medallas de Bronce Oro Plata,Medallas para Niños,Medallas de Oro Ligeras para niños Medallas de al Ganador - Medallas del Cuadro de portátil Trofeo Presente para niños y Adolescentes",
@@ -1880,7 +1884,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256399+00:00",
-    "price": "23,26 €"
+    "price": "23,26 €",
+    "pending_price": "39,99 €",
+    "pending_price_count": 1
   },
   "ES:B0BG4WBV4M": {
     "name": "Like a Dragon: Ishin! [GRA XBOX SERIES X]",
@@ -1894,7 +1900,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256416+00:00",
-    "price": "23,00 €"
+    "price": "22,00 €"
   },
   "ES:B0FT3K5S46": {
     "name": "Code Vein II",
@@ -2041,9 +2047,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256831+00:00",
-    "price": "34,07 €",
-    "pending_price": "35,01 €",
-    "pending_price_count": 1
+    "price": "35,01 €"
   },
   "ES:B073FDW6WP": {
     "name": "Ace Combat 7: Skies Unknown",
@@ -2071,7 +2075,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256914+00:00",
-    "price": "13,28 €"
+    "price": "13,28 €",
+    "pending_price": "13,38 €",
+    "pending_price_count": 1
   },
   "ES:B097ZBFDKW": {
     "name": "Demon Slayer -KIMETSU NO Yaiba- JPN (Voice) - E F I G S (Text) Box UK",
@@ -2205,7 +2211,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
     "price": "23,38 €",
-    "pending_price": "24,34 €",
+    "pending_price": "24,48 €",
     "pending_price_count": 1
   },
   "ES:B08HZKQDK1": {
@@ -2234,9 +2240,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257179+00:00",
-    "price": "25,80 €",
-    "pending_price": "26,17 €",
-    "pending_price_count": 1
+    "price": "26,17 €"
   },
   "ES:B07NW92Y8Z": {
     "name": "Bloodstained - Ritual of the Night (XBox One)",
@@ -2944,7 +2948,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.549000+00:00",
-    "price": "92,81 €"
+    "price": "87,98 €"
   },
   "ES:B0GJ5G9K7W": {
     "name": "deleyCON Cable HDMI 2.1 8K 2m Cable de Alta Velocidad Ultra High Speed 48 Gbps con Conector Acodado (270°) - Ideal para TV, Monitor, PS4, PS5, EARC, HDR10+ - 10K/8K@60Hz, 4K@120Hz/144Hz y 2K@240Hz",
@@ -3110,7 +3114,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790586+00:00",
-    "price": "27,52 €"
+    "price": "27,50 €"
   },
   "ES:B0BJTSN9ZC": {
     "name": "Resident Evil 4 for for Xbox Series X S",
@@ -3257,7 +3261,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T14:31:49.729335+00:00",
-    "price": "76,94 €"
+    "price": "76,94 €",
+    "pending_price": "76,95 €",
+    "pending_price_count": 1
   },
   "ES:B0DBQRTLFN": {
     "name": "GameSir T7 Controlador con cable para Xbox Series X|S, Xbox One y Windows 10/11, gamepad Plug and Play para juegos con joysticks y gatillos de efecto Hall, con jack de audio de 3.5 mm - Azul (Rojo)",
@@ -3271,7 +3277,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T14:31:49.729370+00:00",
-    "price": "279,05 €"
+    "price": "279,05 €",
+    "pending_price": "279,61 €",
+    "pending_price_count": 1
   },
   "ES:B09Y8H1YKL": {
     "name": "Almohadillas de repuesto para auriculares inalámbricos Microsoft Xbox",
