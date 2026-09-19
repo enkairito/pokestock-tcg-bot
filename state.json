@@ -1835,9 +1835,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-08T14:34:56.335882+00:00",
-    "price": "16,87 €",
-    "pending_price": "17,07 €",
-    "pending_price_count": 1
+    "price": "17,07 €"
   },
   "US:B0F1GXTFGL": {
     "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
@@ -2003,8 +2001,8 @@
     "name": "POKEMON TCG: SCARLET AND VIOLET: PARADOX RIFT: BOOSTER PACK",
     "status": "compra_directa",
     "stock": null,
-    "price": "21,74 €",
-    "first_seen": "2026-09-10T00:17:59.806535+00:00"
+    "first_seen": "2026-09-10T00:17:59.806535+00:00",
+    "price": "21,74 €"
   },
   "US:B0DGY4Z6V3": {
     "name": "Pokemon TCG: Paradox Destinies Tin - Raging Bolt EX",
