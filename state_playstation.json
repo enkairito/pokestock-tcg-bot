@@ -1353,9 +1353,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T04:35:55.955905+00:00",
-    "price": "649,00 €",
-    "pending_price": "729,91 €",
-    "pending_price_count": 1
+    "price": "649,00 €"
   },
   "ES:B0D8KXMCTC": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Naranja)",
@@ -1863,9 +1861,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498065+00:00",
-    "price": "22,09 €",
-    "pending_price": "22,23 €",
-    "pending_price_count": 1
+    "price": "22,23 €"
   },
   "ES:B0CJYK3MQ9": {
     "name": "Minecraft réplique Illuminating Potion Bottle 16 cm",
@@ -2124,7 +2120,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498891+00:00",
-    "price": "27,80 €"
+    "price": "27,80 €",
+    "pending_price": "27,90 €",
+    "pending_price_count": 1
   },
   "ES:B07MWXG7QV": {
     "name": "Days Gone [Importación francesa]",
@@ -2181,7 +2179,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499167+00:00",
     "price": "33,87 €",
-    "pending_price": "37,93 €",
+    "pending_price": "33,88 €",
     "pending_price_count": 1
   },
   "ES:B0CJG2KCBL": {
@@ -2800,7 +2798,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566126+00:00",
-    "price": "55,05 €"
+    "price": "28,26 €"
   },
   "ES:B0CV82ZG6Z": {
     "name": "Resident Evil 4 Gold Edition",
@@ -3137,16 +3135,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:32:05.432870+00:00",
-    "price": "9,14 €"
+    "price": "9,14 €",
+    "pending_price": "9,24 €",
+    "pending_price_count": 1
   },
   "ES:B0FT8FBMK5": {
     "name": "Code Vein II",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:32:05.432903+00:00",
-    "price": "26,90 €",
-    "pending_price": "53,94 €",
-    "pending_price_count": 1
+    "price": "53,94 €"
   },
   "ES:B0C5N7L6N1": {
     "name": "MORTAL KOMBAT 1 Standard Edition (PS5)",
@@ -3195,7 +3193,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:32:05.433466+00:00",
-    "price": "82,99 €"
+    "price": "82,99 €",
+    "pending_price": "92,90 €",
+    "pending_price_count": 1
   },
   "ES:B0GQ3GRR4H": {
     "name": "deleyCON 2m Cable Extensión HDMI 2.1 8K - para TV, Monitor, PS4, PS5, Xbox, Dolby Atmos Soundbar EARC HDR10+ 48Gbps Extensión Acoplador Adaptador - 8K@60Hz, 4K@120Hz/144Hz, 2K@240Hz",
