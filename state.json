@@ -1832,9 +1832,10 @@
   },
   "UK:B00TA6E3KI": {
     "name": "100 Assorted Basic Pokemon TCG Energy Cards",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-08T14:34:56.335882+00:00"
+    "first_seen": "2026-09-08T14:34:56.335882+00:00",
+    "price": "17,07 €"
   },
   "US:B0F1GXTFGL": {
     "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
