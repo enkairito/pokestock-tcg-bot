@@ -258,7 +258,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "84,99 €"
+    "price": "84,99 €",
+    "pending_price": "99,00 €",
+    "pending_price_count": 1
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -2105,7 +2107,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498807+00:00",
     "price": "74,00 €",
-    "pending_price": "75,94 €",
+    "pending_price": "75,17 €",
     "pending_price_count": 1
   },
   "ES:B01H0CBMXO": {
@@ -2134,9 +2136,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499011+00:00",
-    "price": "23,98 €",
-    "pending_price": "27,99 €",
-    "pending_price_count": 1
+    "price": "23,98 €"
   },
   "ES:B0B47RKP8Z": {
     "name": "Juego Soul Hackers 2 PS4",
@@ -2164,7 +2164,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499111+00:00",
-    "price": "16,12 €"
+    "price": "16,12 €",
+    "pending_price": "19,84 €",
+    "pending_price_count": 1
   },
   "ES:B07NRHS623": {
     "name": "The Legend of Heroes: Trails of Cold Steel III [Importación francesa]",
@@ -2262,9 +2264,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499513+00:00",
-    "price": "22,64 €",
-    "pending_price": "22,65 €",
-    "pending_price_count": 1
+    "price": "22,65 €"
   },
   "ES:B07NJHJKGX": {
     "name": "Assassin's Creed III Remastered",
@@ -2285,18 +2285,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499578+00:00",
-    "price": "20,13 €",
-    "pending_price": "25,47 €",
-    "pending_price_count": 1
+    "price": "25,47 €"
   },
   "ES:B00N77D7WQ": {
     "name": "Metro Redux Double Pack (2033 + Last Light)",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "17,14 €",
-    "pending_price": "21,71 €",
-    "pending_price_count": 1
+    "price": "21,71 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2368,18 +2364,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499915+00:00",
-    "price": "42,47 €",
-    "pending_price": "42,57 €",
-    "pending_price_count": 1
+    "price": "42,57 €"
   },
   "ES:B07D9TFK6W": {
     "name": "Sega Mega Drive Classics",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499924+00:00",
-    "price": "21,91 €",
-    "pending_price": "21,92 €",
-    "pending_price_count": 1
+    "price": "21,91 €"
   },
   "ES:B07KZS61P5": {
     "name": "NieR: Automata Game of the YoRHa Edition (PlayStation PS4)",
@@ -2734,9 +2726,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500241+00:00",
-    "price": "23,23 €",
-    "pending_price": "23,24 €",
-    "pending_price_count": 1
+    "price": "23,24 €"
   },
   "ES:B07G2D87BV": {
     "name": "Auriculares Gaming Stereo Sony Oficial PS4 Bigben Interactive - Compatible con PS5",
@@ -3136,9 +3126,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:32:05.432870+00:00",
-    "price": "9,14 €",
-    "pending_price": "9,24 €",
-    "pending_price_count": 1
+    "price": "9,24 €"
   },
   "ES:B0FT8FBMK5": {
     "name": "Code Vein II",
@@ -3279,5 +3267,19 @@
     "stock": null,
     "first_seen": "2026-09-18T22:31:32.294483+00:00",
     "price": "29,95 €"
+  },
+  "ES:B00FKXUVME": {
+    "name": "KabelDirekt – Cable DVI Dual Link – 10m | DVI-D, 24+1 Pin, Full HD 1080p, 3D, 2560 x 1600 @ 60Hz, para los monitores, las tarjetas gráficas",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T08:31:39.573627+00:00",
+    "price": "23,49 €"
+  },
+  "ES:B0CCVMWY39": {
+    "name": "Ozeino Auriculares para Juegos, Efectos de Sonido 3D, micrófono Educativo de Ruido, Auriculares para Juegos para PS4, PS5, Xbox One, PC, Switch",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T08:31:39.573646+00:00",
+    "price": "27,99 €"
   }
 }
