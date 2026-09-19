@@ -3454,5 +3454,12 @@
     "stock": 1.0,
     "first_seen": "2026-09-19T02:03:09.680776+00:00",
     "price": "59,95 €"
+  },
+  "US:B0DY8WCBMQ": {
+    "name": "Pokemon TCG: Scarlet & Violet-Shrouded Fable Pokémon Center Elite Trainer Box",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T17:04:06.125756+00:00",
+    "price": "220,95 €"
   }
 }
