@@ -632,7 +632,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478316+00:00",
-    "price": "36,00 €"
+    "price": "36,00 €",
+    "pending_price": "36,02 €",
+    "pending_price_count": 1
   },
   "ES:B0FR451FFZ": {
     "name": "Nintendo Super Mario Galaxy + Super Mario Galaxy 2",
@@ -1867,7 +1869,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688460+00:00",
-    "price": "24,99 €"
+    "price": "24,99 €",
+    "pending_price": "38,95 €",
+    "pending_price_count": 1
   },
   "ES:B0FB46P7TC": {
     "name": "Farming Simulator - Signature Edition - Switch 2",
@@ -2037,7 +2041,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688744+00:00",
-    "price": "66,84 €"
+    "price": "66,84 €",
+    "pending_price": "66,86 €",
+    "pending_price_count": 1
   },
   "ES:B097F6916C": {
     "name": "Nintendo Game & Watch: The Legend of Zelda console de jeux portables Or, Vert",
@@ -2052,7 +2058,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
     "price": "40,64 €",
-    "pending_price": "42,29 €",
+    "pending_price": "42,25 €",
     "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
@@ -2060,9 +2066,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688808+00:00",
-    "price": "299,90 €",
-    "pending_price": "379,99 €",
-    "pending_price_count": 1
+    "price": "379,99 €"
   },
   "ES:B084DDDNRP": {
     "name": "Nintendo - Switch - Animal Crossing: New Horizons Edition 32GB Console - Multi",
@@ -3423,7 +3427,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T12:31:57.853552+00:00",
-    "price": "24,99 €"
+    "price": "24,99 €",
+    "pending_price": "46,91 €",
+    "pending_price_count": 1
   },
   "ES:B0F7RM2L28": {
     "name": "playvital Tapas para Joystick para Nintendo Switch 2 2025, 4 Piezas | Silicona Suave, Mejor Control, Antideslizante, Protección Diaria, Tacto Cómodo, Diseño Kawaii, Gatito Lindo",
