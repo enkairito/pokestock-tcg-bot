@@ -190,7 +190,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811382+00:00",
-    "price": "21,49 €"
+    "price": "21,49 €",
+    "pending_price": "21,50 €",
+    "pending_price_count": 1
   },
   "ES:B0F24WMR8Y": {
     "name": "F1 25 Standard Edition XBOX Series X- disco | Videojuegos | Castellano",
@@ -989,7 +991,7 @@
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
     "price": "35,56 €",
-    "pending_price": "35,93 €",
+    "pending_price": "35,95 €",
     "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
@@ -1065,7 +1067,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T00:20:55.336147+00:00",
-    "price": "40,01 €"
+    "price": "19,99 €"
   },
   "ES:B0BLZ64C5H": {
     "name": "Electronic Arts Star Wars Jedi: Survivor XBOX Series X, Videojuegos, Castellano",
@@ -1290,10 +1292,9 @@
   },
   "ES:B0DCD9LGHY": {
     "name": "Xbox Serie X - Edición digital de 1 TB",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-16T10:34:33.318741+00:00",
-    "price": "817,17 €"
+    "first_seen": "2026-09-16T10:34:33.318741+00:00"
   },
   "ES:B08FCXLB8Z": {
     "name": "Xbox Play y Kit de Carga USB",
@@ -1894,7 +1895,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256416+00:00",
-    "price": "22,00 €"
+    "price": "22,00 €",
+    "pending_price": "23,00 €",
+    "pending_price_count": 1
   },
   "ES:B0FT3K5S46": {
     "name": "Code Vein II",
@@ -2055,7 +2058,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256871+00:00",
-    "price": "23,77 €"
+    "price": "14,99 €"
   },
   "ES:B08LLPD9SZ": {
     "name": "Five Nights at Freddy's: Core Collection",
@@ -2090,9 +2093,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256962+00:00",
-    "price": "46,79 €",
-    "pending_price": "46,83 €",
-    "pending_price_count": 1
+    "price": "46,83 €"
   },
   "ES:B071G3GD64": {
     "name": "Darksiders III - Xbox One [Importación alemana]",
@@ -2134,7 +2135,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257018+00:00",
-    "price": "27,45 €"
+    "price": "27,45 €",
+    "pending_price": "28,51 €",
+    "pending_price_count": 1
   },
   "ES:B00DW342NI": {
     "name": "Titanfall",
@@ -2205,7 +2208,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
     "price": "23,38 €",
-    "pending_price": "24,46 €",
+    "pending_price": "24,40 €",
     "pending_price_count": 1
   },
   "ES:B08HZKQDK1": {
@@ -2234,7 +2237,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257179+00:00",
-    "price": "26,17 €"
+    "price": "25,80 €"
   },
   "ES:B07NW92Y8Z": {
     "name": "Bloodstained - Ritual of the Night (XBox One)",
@@ -2530,9 +2533,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257578+00:00",
-    "price": "144,29 €",
-    "pending_price": "155,86 €",
-    "pending_price_count": 1
+    "price": "155,86 €"
   },
   "ES:B09YHNCQNZ": {
     "name": "Corsair HS65 SURROUND Auriculares para juegos (Sonido envolvente Dolby Audio 7.1 en PC y Mac, Micrófono omnidireccional, Tecnología SoundID de SonarWorks, Control de volumen de fácil acceso) Carbón",
@@ -3187,9 +3188,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790750+00:00",
-    "price": "9,49 €",
-    "pending_price": "9,51 €",
-    "pending_price_count": 1
+    "price": "9,51 €"
   },
   "ES:B00VWGTWU0": {
     "name": "Deus Ex: Mankind Divided Day One Edition [Importación Inglesa]",
@@ -3315,7 +3314,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T18:31:46.619892+00:00",
-    "price": "72,73 €"
+    "price": "72,73 €",
+    "pending_price": "119,95 €",
+    "pending_price_count": 1
   },
   "ES:B0GL8DWZQK": {
     "name": "deleyCON 1,5m Cable HDMI 2.1 8K Plano - para TV, Monitor, PS4, PS5, Xbox, Dolby Atmos Soundbar EARC, HDR10+ VRR - 48Gbps Ultra High Speed Cable - 10K/8K@60Hz, 4K@120Hz/144HZ, 2K@240HZ",
