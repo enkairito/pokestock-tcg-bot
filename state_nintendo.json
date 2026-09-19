@@ -22,9 +22,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.362338+00:00",
-    "price": "44,99 €",
-    "pending_price": "55,50 €",
-    "pending_price_count": 1
+    "price": "55,50 €"
   },
   "ES:B0GNB8B2NS": {
     "name": "Metal Gear Solid: Master Collection Volume 2 – Day One Edition - Xbox",
@@ -36,8 +34,10 @@
     "name": "Turtle Beach Airlite Fit Auriculares con Cable para Juegos en Neón Azul y Rojo con Licencia Oficial para Todos los Nintendo Switch",
     "status": "compra_directa",
     "stock": null,
+    "first_seen": "2026-09-11T19:20:15.362342+00:00",
     "price": "19,03 €",
-    "first_seen": "2026-09-11T19:20:15.362342+00:00"
+    "pending_price": "19,04 €",
+    "pending_price_count": 1
   },
   "ES:B0FQWHWWSG": {
     "name": "Metroid Prime 4: Beyond - Switch",
@@ -1890,9 +1890,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688484+00:00",
-    "price": "39,95 €",
-    "pending_price": "47,90 €",
-    "pending_price_count": 1
+    "price": "47,90 €"
   },
   "ES:B0GWKDHTG8": {
     "name": "Tomodachi Life: Una vida de ensueño Standard | Nintendo Switch - Código de descarga",
@@ -2365,9 +2363,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689475+00:00",
-    "price": "67,86 €",
-    "pending_price": "68,47 €",
-    "pending_price_count": 1
+    "price": "68,47 €"
   },
   "ES:B0GNNPWV2C": {
     "name": "Danganronpa 2x2 (Nintendo Switch)",
@@ -2402,9 +2398,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689572+00:00",
-    "price": "24,99 €",
-    "pending_price": "25,83 €",
-    "pending_price_count": 1
+    "price": "24,99 €"
   },
   "ES:B0DZHKMZTD": {
     "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge Ultimate Edition (Nintendo Switch)",
@@ -3423,5 +3417,89 @@
     "stock": null,
     "first_seen": "2026-09-19T10:31:41.643841+00:00",
     "price": "65,99 €"
+  },
+  "ES:B0F3DP7C79": {
+    "name": "Story of Seasons: Grand Bazaar - Switch 2",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.853552+00:00",
+    "price": "24,99 €"
+  },
+  "ES:B0F7RM2L28": {
+    "name": "playvital Tapas para Joystick para Nintendo Switch 2 2025, 4 Piezas | Silicona Suave, Mejor Control, Antideslizante, Protección Diaria, Tacto Cómodo, Diseño Kawaii, Gatito Lindo",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.853717+00:00",
+    "price": "11,99 €"
+  },
+  "ES:B0H5S3JRDN": {
+    "name": "MAESTRO - Nintendo Switch",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.853818+00:00",
+    "price": "38,99 €"
+  },
+  "ES:B0FG3HRVSQ": {
+    "name": "DORA Rescate en el Bosque Tropical",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.853847+00:00",
+    "price": "29,70 €"
+  },
+  "ES:B0HBPQ7HSY": {
+    "name": "COOWPS Kit Accesorios 17-en-1 para Nintendo Switch 2, Mando Pro | Funda de Transporte, Protector de Pantalla, Agarres Joy-Con, Volantes, Estuche Tarjetas Juego y Carcasa Consola",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.854062+00:00",
+    "price": "65,99 €"
+  },
+  "ES:B0GDCC2HW6": {
+    "name": "Kit 17 en 1 de Accesorios para Nintendo Switch 2 (2025), 2 Mandos Pro | Funda de Transporte, Protector de Pantalla, Agarres Joy-Con, Volantes, Estuche para Tarjetas y Carcasa Protectora",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.854098+00:00",
+    "price": "53,78 €"
+  },
+  "ES:B0GHNF55NS": {
+    "name": "PlayVital Funda Protectora para Nintendo Switch 2 | Kawaii Carcasa Rígida de PC, Compatible con Dock y Soporte Original, Antirayaduras, Antigolpes, Órbita del Conejo Celestial",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.854120+00:00",
+    "price": "27,99 €"
+  },
+  "ES:B0F6CS7T1G": {
+    "name": "TANOOKI – Bolsa de Transporte para Switch 2, Diseño Adorable, Bonita Funda para Switch 2, Compatible con Switch/OLED/Lite, Espacio Interior para Juegos",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.854130+00:00",
+    "price": "18,99 €"
+  },
+  "ES:B0F472XCXY": {
+    "name": "SAVAGE RAVEN by Skull & Co. Skin, CQC Thumb Grip Set Joystick Cap Analog Stick Cap for Nintendo Switch 2 Joy-con Controller - Black, 3 Pairs(6pcs)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.854133+00:00",
+    "price": "11,99 €"
+  },
+  "ES:B0GXHDZ7HB": {
+    "name": "Thryvix Funda Protectora Transparente Dockable, Carcasa Rígida Antigolpes,Compatible con Nintendo Switch 2, Dos Materiales PC y TPU, Resistente, para Niños, Viaje, Regalo Cumpleaños",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.854136+00:00",
+    "price": "7,99 €"
+  },
+  "ES:B0F7RH9W6Y": {
+    "name": "playvital Funda Protectora para Nintendo Switch 2 (2025) | Carcasa Trasera de PC, Agarre de Silicona, Soporte Plegable, Tapas para Joysticks, Protección Diaria, Serie Ranger, Negro",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.854145+00:00",
+    "price": "26,99 €"
+  },
+  "ES:B0F8BKBG3K": {
+    "name": "Pozlle 3 en 1 para Nintendo Switch 2 Protector de pantalla,2 piezas de película templada HD 9H + ayuda de montaje,fácil de instalar, sin burbujas,Sensible al tacto,Resistente a los arañazos",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.854225+00:00",
+    "price": "6,78 €"
   }
 }
