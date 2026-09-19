@@ -1312,9 +1312,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802653+00:00",
-    "price": "86,16 €",
-    "pending_price": "86,18 €",
-    "pending_price_count": 1
+    "price": "86,18 €"
   },
   "UK:B0CMZS84KP": {
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
@@ -1614,7 +1612,7 @@
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
     "price": "91,32 €",
-    "pending_price": "106,19 €",
+    "pending_price": "106,17 €",
     "pending_price_count": 1
   },
   "UK:B0CJM4MQTT": {
