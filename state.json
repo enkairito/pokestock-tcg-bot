@@ -724,7 +724,7 @@
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
     "price": "53,37 €",
-    "pending_price": "53,40 €",
+    "pending_price": "57,95 €",
     "pending_price_count": 1
   },
   "US:B0GZ9S9KDR": {
@@ -801,7 +801,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
-    "price": "62,97 €"
+    "price": "62,48 €"
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
@@ -1720,9 +1720,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T13:57:50.628764+00:00",
-    "price": "21,57 €",
-    "pending_price": "21,61 €",
-    "pending_price_count": 1
+    "price": "21,61 €"
   },
   "UK:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
