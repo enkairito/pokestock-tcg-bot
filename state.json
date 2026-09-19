@@ -178,9 +178,10 @@
   },
   "ES:B0H1HDKXGH": {
     "name": "Pokémon: Lata Megaluz Lunar: Mega-Clefable ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
-    "status": "no_disponible",
+    "status": "invitacion",
     "stock": null,
-    "first_seen": "2026-08-25T20:27:53.163270+00:00"
+    "first_seen": "2026-08-25T20:27:53.163270+00:00",
+    "price": "24,99 €"
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -1611,9 +1612,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "106,15 €",
-    "pending_price": "106,19 €",
-    "pending_price_count": 1
+    "price": "106,15 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
