@@ -32,9 +32,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-08-29T18:08:49.282666+00:00",
-    "price": "26,00 €",
-    "pending_price": "30,00 €",
-    "pending_price_count": 1
+    "price": "30,00 €"
   },
   "ES:B0CRKK3D43": {
     "name": "One Piece TCG: 500 Years In The Future - Booster Pack (OP-07) (JP) (TCG)",
@@ -243,9 +241,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T20:33:38.638411+00:00",
-    "price": "436,00 €",
-    "pending_price": "451,00 €",
-    "pending_price_count": 1
+    "price": "436,00 €"
   },
   "ES:B0HFD53BDB": {
     "name": "One Piece TCG: The World's Strongest Warriors - Juego de doble paquete Vol. 12 DP-12 (2 paquetes OP-17)",
@@ -260,7 +256,7 @@
     "stock": "3",
     "first_seen": "2026-09-08T09:40:16.326555+00:00",
     "price": "27,00 €",
-    "pending_price": "31,31 €",
+    "pending_price": "31,11 €",
     "pending_price_count": 1
   },
   "ES:B0DW3R4T9G": {
