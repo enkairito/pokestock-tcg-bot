@@ -1698,7 +1698,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T20:58:26.290849+00:00",
-    "price": "70,70 €"
+    "price": "70,36 €"
   },
   "UK:B0CGCYNCR5": {
     "name": "Pokemon - SV Paradox Rift - Booster Box 36 pcs (POK85399)",
@@ -1894,7 +1894,9 @@
     "status": "compra_directa",
     "stock": "4",
     "first_seen": "2026-09-08T14:34:56.335946+00:00",
-    "price": "43,89 €"
+    "price": "43,89 €",
+    "pending_price": "43,90 €",
+    "pending_price_count": 1
   },
   "US:B0D4B515H1": {
     "name": "Pokémon TCG: Escarlata y Violeta - Mini Lata de fábula Envuelta - Okidogi (2 Paquetes de Refuerzo y 1 Hoja de calcomanías)",
