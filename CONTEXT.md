@@ -1,9 +1,17 @@
 # Contexto del proyecto (para retomar en otro ordenador)
 
 Este fichero resume el estado y las decisiones del proyecto para poder
-retomar la conversación con Claude desde cualquier máquina. Se actualiza
+retomar el trabajo desde cualquier máquina o asistente. Se actualiza
 según avanza el trabajo, no es documentación de usuario final (para eso
 está el `README.md`).
+
+Última actualización: **2026-09-19**, tras publicar las tres tandas de
+correcciones de la auditoría frontend. Es un resumen operativo, no una
+transcripción de la conversación. Para la interfaz, consultar también el
+[`README.md`](https://github.com/enkairito/wheresthatstock/blob/main/README.md)
+y [`DESIGN.md`](https://github.com/enkairito/wheresthatstock/blob/main/DESIGN.md)
+del frontend. Las notas históricas sobre scrapers, afiliaciones e incidencias
+que siguen más abajo no se han vuelto a auditar en esta sesión.
 
 ## Qué es esto
 
@@ -19,8 +27,8 @@ Dos repos conectados:
   estática desplegada en Cloudflare Workers/Pages
   (https://wheresthatstock.com/, dominio propio comprado vía Cloudflare
   Registrar) que muestra todos los
-  productos rastreados. Se alimenta de `products.json`, que este repo
-  publica automáticamente en cada ejecución del workflow (vía un PAT de
+  productos rastreados. Se alimenta de feeds JSON por juego y accesorios,
+  que este repo publica automáticamente mediante sus workflows (vía un PAT de
   ámbito reducido, secret `WHERESTHATSTOCK_TOKEN`).
 
 Marca: ambos forman parte del ecosistema **"Where's That Shiny"**
@@ -115,21 +123,35 @@ texto literal `"null"` cuando el producto no tiene precio de referencia
 
 ## Web (`wheresthatstock`)
 
-- Estática, sin backend, `fetch("products.json")`.
-- Cabecera: avatar circular (`assets/logo.jpg`) + `@wheresthatshiny` +
-  logo "Where's That Stock".
-- Filtros en desplegable (mismo patrón para ambos, vía helper JS
-  `setupFilterGroup`): **Disponibilidad** (Cómpralo ya / Con invitación —
-  se quitó la opción "No disponible" el 2026-08-24, ya no puede aparecer
-  en los datos porque `exclude_out_of_stock` es universal ahora) y
-  **Tienda** (Amazon ES 🇪🇸 / Amazon UK 🇬🇧 / Amazon USA 🇺🇸 / El Corte
-  Inglés 🇪🇸).
-- Cada tarjeta de producto: la esquina superior izquierda de la imagen
-  lleva, uno junto a otro, el logo de la tienda (`STORE_ICONS` — solo
-  Amazon por ahora, El Corte Inglés no tiene logo propio todavía) + la
-  bandera PNG real del país (`FLAG_ICONS`, mismos ficheros que usa el bot
-  para las marcas de agua de Telegram — antes era un emoji) + la etiqueta
-  de disponibilidad.
+- HTML estático, CSS propio y JavaScript vanilla; no se ha migrado a un
+  framework, API ni base de datos. Los feeds JSON cubren Pokémon, One Piece,
+  Magic, Lorcana, Yu-Gi-Oh!, Nintendo, PlayStation, Xbox y accesorios.
+  La portada combina los cinco TCG; Ofertas incluye también Gaming.
+- Identidad actual: símbolo aprobado y nombre en Manrope 500/800,
+  mayúsculas, sin acento de color. Recursos en `assets/brand/`.
+- Filtros laterales plegados por defecto en móvil, con preferencias
+  separadas para móvil y escritorio. Búsqueda, orden, tienda, estado,
+  juego, categoría, precio en euros y descuento se conservan en la URL.
+  Los controles disponibles varían por listado.
+- Estados distintos: disponible, invitación, preventa, sin confirmar y
+  agotado explícito. Ausencia del feed o fallo de consulta **no equivale a
+  agotado**. El stock procede de comprobaciones periódicas, no en tiempo real.
+- Tiendas soportadas por la interfaz: Amazon ES/UK/US, El Corte Inglés,
+  Carrefour, Fnac, Toys"R"Us, GAME, MediaMarkt y TodoConsolas. Ofertas
+  incluye controles para todas. Hay logos propios en `STORE_ICONS`;
+  solo UK/US llevan bandera, sin bandera española redundante.
+- Favoritos locales, sin cuenta, con búsqueda, sincronización entre
+  pestañas e importación/exportación. No se sincronizan entre dispositivos.
+- `build_catalog.py`, en el bot, genera fichas persistentes, comparadores
+  de productos agrupados y páginas de sets. No editar a mano `producto/`
+  ni `set/`: usar el generador y sus plantillas. `catalog-*.json` conserva
+  productos ausentes; `activity-*.json` guarda eventos por fuente.
+- Navegación compartida en `partials/navigation.html`; comprobarla con
+  `python -B scripts/sync_navigation.py --check`. Los cambios en la parcial
+  requieren ejecutar el sincronizador. Comportamiento en `header-scroll.js`.
+- Cloudflare **Workers Builds publica al actualizar `main`**. La cabecera
+  sigue siendo discreta, sin avisos de antigüedad ni desglose de fuentes.
+  Los errores de carga y reintentos aparecen dentro del contenido afectado.
 - **2026-08-25: desplegado en Cloudflare Workers/Pages con dominio propio
   (`wheresthatstock.com`, comprado vía Cloudflare Registrar) en vez de
   GitHub Pages.** Como consecuencia, el repo `wheresthatstock` ya no
@@ -140,6 +162,128 @@ texto literal `"null"` cuando el producto no tiene precio de referencia
   raíz de `wheresthatstock` (`[assets] directory = "./"`) es lo que le
   dice a Cloudflare que sirva los ficheros estáticos tal cual, sin
   tratarlo como un Worker con código.
+
+## Sesión 2026-09-19: auditoría frontend y correcciones publicadas
+
+### Alcance y estado de entrega
+
+Se comenzó con una auditoría de solo lectura de código, datos y navegación.
+Después el usuario autorizó implementar y publicar las correcciones. Para
+la última iteración pidió publicar primero cuatro bloques y dejar los
+arreglos posteriores en local hasta revisarlos; más tarde autorizó también
+su publicación. **Las tres tandas están publicadas; no queda una tanda de
+esta sesión esperando autorización.** Esto no autoriza futuras publicaciones
+ni implica que todos los posibles hallazgos de la auditoría estén resueltos.
+
+### 1. Precisión comercial y estabilidad móvil
+
+- Favoritos sustituye el catálogo completo al refrescar. Productos ausentes
+  o de fuentes fallidas conservan su nombre guardado, pero no un precio o
+  estado comprable antiguo. Una respuesta anterior no pisa otra más reciente.
+- «Sin confirmar» se mantiene en tarjetas, fichas y comparadores. Las ofertas
+  de estado desconocido se omiten de JSON-LD, en lugar de declararlas
+  `OutOfStock` o comprables; los agregados cuentan solo ofertas válidas.
+- Los precios históricos se identifican como «Último precio observado»,
+  sin descuentos ni urgencia de pocas unidades. Se preserva `last_seen`
+  cuando corresponde y no se rejuvenece una observación desconocida por
+  el mero hecho de publicar otro snapshot. No se inventan fechas ausentes.
+- Sets y su índice dejaron de consultar el feed de Pokémon para atribuir
+  a todos los juegos una fecha de actualización que no les correspondía.
+- El estado de los filtros se resuelve antes del primer renderizado y se
+  reserva espacio durante la carga del listado para evitar el salto móvil.
+- Se corrigió el generador y se regeneraron las páginas desde los catálogos
+  existentes. No se ejecutaron scrapers reales ni se reiniciaron estados.
+
+### 2. Los cuatro bloques siguientes
+
+1. **Ofertas:** filtros de GAME, MediaMarkt y TodoConsolas; los productos de
+   esas tiendas ya no quedan fuera por faltar su control en el HTML.
+2. **Móvil:** nombres completos en tarjetas; comparadores con espacio propio
+   para precio y fecha, sin comprimirlos en una columna estrecha.
+3. **Accesibilidad:** nombre y error asociado al campo de precio, mejores
+   controles táctiles y contraste, recuperación del foco al quitar filtros,
+   Escape en filtros móviles y desplegables con flechas, Inicio/Fin y Tab.
+   La cabecera no oculta el foco de teclado.
+4. **Carga:** avisos discretos y reintento en listados, portada, actividad y
+   favoritos. Se distinguen carga parcial, fallo total y cero coincidencias;
+   se preservan filtros incluso tras fallar la primera carga.
+
+### 3. Robustez y textos históricos
+
+- Validación por registro de identidad, nombre y categorías. Un registro
+  inválido no rompe los válidos: se descarta y se indica carga incompleta.
+  Un feed no vacío sin registros válidos se trata como error, no como vacío.
+  Los estados no reconocidos, incluidas claves heredadas como `__proto__`,
+  se normalizan a «sin confirmar».
+- Preferencias de vista o visibilidad de filtros dañadas recuperan valores
+  seguros, sin romper las clases de la cuadrícula ni contradecir el estado
+  aplicado antes de pintar la página.
+- La actividad describe disponibilidad detectada en una comprobación pasada,
+  no «ya está disponible». Se descartan eventos con fecha inválida, fuera
+  del margen de futuro permitido o de tipo desconocido.
+- La FAQ visible y su JSON-LD aclaran que las ofertas son observaciones
+  periódicas. Se actualizaron `README.md` y `DESIGN.md` del frontend.
+
+### Referencias para retomar
+
+- Bot: [`6d101c5`](https://github.com/enkairito/pokestock-tcg-bot/commit/6d101c5),
+  cambios en `build_catalog.py` y sus pruebas.
+- Frontend, primera tanda:
+  [`db3e95bf0`](https://github.com/enkairito/wheresthatstock/commit/db3e95bf0),
+  con páginas regeneradas y snapshots remotos conservados en las integraciones
+  posteriores, incluida `1ca8eda5a`.
+- Frontend, cuatro bloques:
+  [`8c939caca`](https://github.com/enkairito/wheresthatstock/commit/8c939caca).
+- Frontend, última tanda:
+  [`e92b2997f`](https://github.com/enkairito/wheresthatstock/commit/e92b2997f).
+  Se preparó en `fix/frontend-followup-local`, pero ya está integrada en
+  `main`; no usar la existencia de esa rama como señal de trabajo pendiente.
+
+### Validación realizada y límites
+
+- Bot: **97 pruebas** superadas al publicar el cambio del generador.
+- Frontend: **60 pruebas** superadas en la entrega final; las 54 de la tanda
+  anterior también pasaron. Comandos: `python -B -m unittest discover -s tests`
+  en cada repo y comprobación de navegación en el frontend. En esta máquina
+  Windows se usó `py -3 -B` porque el alias `python` no funcionaba.
+- Revisiones de interfaz a 390, 768, 1024 y 1440 px, incluido modo oscuro,
+  sin desbordamiento horizontal en las páginas comprobadas; pruebas de
+  teclado, errores de red, datos inválidos y respuestas solapadas.
+- Medición local de desplazamientos visuales en Chromium, viewport 390×844,
+  latencia 150 ms, descarga 200 000 bytes/s y CPU ralentizada ×4: de un CLS
+  aproximado de **0,93** antes del arreglo a **menos de 0,005** en las
+  comprobaciones posteriores. Es una medición de laboratorio, no Lighthouse
+  ni datos de usuarios reales, y no demuestra mejoras de LCP o INP.
+- Tras integrar snapshots remotos, se validaron **18 feeds/catálogos** sin
+  descartar registros reales. En producción se comprobaron también los
+  nueve feeds actuales, las nuevas funciones y ausencia de errores JavaScript
+  en los recorridos revisados.
+- Cloudflare Workers Builds y las pruebas de GitHub terminaron correctamente
+  para las publicaciones verificadas. No es una certificación WCAG completa
+  ni una garantía sobre todas las páginas y dispositivos.
+
+### Pendientes y precauciones al continuar
+
+- No queda código de estas tandas pendiente de publicar. Las mejoras futuras
+  requieren revisar su alcance y autorización; no retomar la antigua pausa
+  de publicación como si siguiera vigente.
+- Queda por medir rendimiento con datos de campo (LCP/INP/CLS) y evaluar,
+  si se prioriza, caché/peticiones y coste de renderizado de catálogos grandes.
+  No se implantó analítica ni una nueva infraestructura de datos.
+- No se hizo una refactorización global del CSS ni una certificación completa
+  de accesibilidad/SEO. No dar por cerrada toda la auditoría solo porque pasen
+  las pruebas. Este resumen no sustituye a un inventario exhaustivo de hallazgos.
+- Siguen aplazadas la API/almacenamiento persistente y la sustitución del
+  enlace de Telegram por una futura comunidad; ver decisiones más abajo.
+- Los workflows publican snapshots mientras se trabaja: antes de subir,
+  hacer `git fetch`, revisar los cambios remotos e integrarlos sin perder
+  datos. Un push rechazado por nuevos commits se resolvió integrándolos,
+  nunca forzando. Si chocan páginas generadas, regenerar con los catálogos
+  actualizados y verificar el resultado, no restaurar una versión antigua.
+- Para regenerar solo HTML a partir de catálogos existentes se utilizó
+  `build_site('../wheresthatstock', [])` desde el bot. Verificar antes las
+  rutas y las páginas que el generador podría retirar; no usar esta llamada
+  como sustituto de la publicación normal de nuevos snapshots.
 
 ## Decisiones/aprendizajes importantes
 
@@ -205,7 +349,7 @@ texto literal `"null"` cuando el producto no tiene precio de referencia
   esperar a que se note el fallo. Revisar si conviene ajustar esta
   cadencia según se acumulen más datos.
 
-## Mejoras pendientes acordadas
+## Histórico de mejoras y decisiones aplazadas
 
 ### Mejoras implementadas el 2026-09-08
 
