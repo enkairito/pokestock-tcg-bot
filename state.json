@@ -165,7 +165,7 @@
   "ES:B0GZL7PBX1": {
     "name": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Oscuridad Absoluta (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "4",
     "first_seen": "2026-08-25T20:27:53.163260+00:00",
     "price": "23,98 €"
   },
@@ -1305,9 +1305,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802645+00:00",
-    "price": "79,90 €",
-    "pending_price": "79,91 €",
-    "pending_price_count": 1
+    "price": "79,91 €"
   },
   "UK:B0FSJXSPPX": {
     "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
@@ -1492,9 +1490,9 @@
   "US:B0G5S61BHK": {
     "name": "Pokémon TCG: Mega Charizard Tin - Mega Charizard X ex (4 potenciadores y 1 Tarjeta Promocional de Aluminio)",
     "status": "compra_directa",
-    "stock": null,
-    "price": "82,20 €",
-    "first_seen": "2026-09-04T21:32:58.802892+00:00"
+    "stock": "1",
+    "first_seen": "2026-09-04T21:32:58.802892+00:00",
+    "price": "82,04 €"
   },
   "US:B0F6PQLR16": {
     "name": "Pokemon TCG Scarlet & Violet 10.5 White Flare Binder Collection Box - 5 Packs",
