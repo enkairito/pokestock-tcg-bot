@@ -1210,7 +1210,7 @@
     "stock": null,
     "first_seen": "2026-09-14T18:20:43.859449+00:00",
     "price": "30,99 €",
-    "pending_price": "31,20 €",
+    "pending_price": "33,50 €",
     "pending_price_count": 1
   },
   "ES:B08LM3KW18": {
@@ -1417,9 +1417,10 @@
   },
   "ES:B016BYTUG8": {
     "name": "PlayStation 4 (PS4) - Consola Ultimate Player 1TB Edition incl. 2 DS4 [CUH-1216B] (Importación alemana)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-16T10:36:52.312468+00:00"
+    "first_seen": "2026-09-16T10:36:52.312468+00:00",
+    "price": "209,99 €"
   },
   "ES:B07KBLNZB1": {
     "name": "Sony Playstation 4 (PS4) - Consola 500 Gb + 2 Mandos Dual Shock 4 (Edición Exclusiva Amazon)",
@@ -1437,9 +1438,10 @@
   },
   "ES:B0DJ1VN1LF": {
     "name": "PlayStation 5 - Mando Inalámbrico DualSense Colección Chroma Pearl",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-16T10:36:52.312479+00:00"
+    "first_seen": "2026-09-16T10:36:52.312479+00:00",
+    "price": "74,99 €"
   },
   "ES:B0G4M6287K": {
     "name": "Playstation Mando inalámbrico DualSense®: Edición Limitada de Genshin Impact",
@@ -1722,9 +1724,10 @@
   },
   "ES:B0BYDTWYQ2": {
     "name": "Playstation 5 Digital Consola + 2 Mandos Inalámbrico Dualsense blanco",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:37.287253+00:00"
+    "first_seen": "2026-09-17T00:32:37.287253+00:00",
+    "price": "699,00 €"
   },
   "ES:B0GCCZP7TN": {
     "name": "Pogriko Mando para PS4, Mando Inalámbrico con Luces RGB para PS4/Pro/Slim/PC, Joystick con Doble Vibración/Sensor De Giroscopio De 6 Ejes/Panel Táctil/Conector de Audio 3.5mm",
@@ -1863,9 +1866,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498065+00:00",
-    "price": "22,23 €",
-    "pending_price": "22,36 €",
-    "pending_price_count": 1
+    "price": "22,36 €"
   },
   "ES:B0CJYK3MQ9": {
     "name": "Minecraft réplique Illuminating Potion Bottle 16 cm",
@@ -1942,7 +1943,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498253+00:00",
-    "price": "46,33 €"
+    "price": "46,33 €",
+    "pending_price": "46,47 €",
+    "pending_price_count": 1
   },
   "ES:B0GVP719SW": {
     "name": "Mortal Shell II - PS5",
@@ -2110,9 +2113,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498807+00:00",
-    "price": "74,00 €",
-    "pending_price": "74,42 €",
-    "pending_price_count": 1
+    "price": "74,42 €"
   },
   "ES:B01H0CBMXO": {
     "name": "Electronic Arts - Titanfall 2",
@@ -2134,7 +2135,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498960+00:00",
     "price": "36,83 €",
-    "pending_price": "39,81 €",
+    "pending_price": "39,80 €",
     "pending_price_count": 1
   },
   "ES:B09PJ4WZWC": {
@@ -3285,5 +3286,88 @@
     "stock": null,
     "first_seen": "2026-09-19T08:31:39.573646+00:00",
     "price": "27,99 €"
+  },
+  "ES:B01M75BFQ7": {
+    "name": "Sony Playstation 4 500 GB GTA V Bundle [Importación Inglesa]",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.385498+00:00"
+  },
+  "ES:B0H7J35TM9": {
+    "name": "Dune: Awakening Edición Day 1",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.651129+00:00",
+    "price": "47,80 €"
+  },
+  "ES:B0H4HBDNT1": {
+    "name": "Stranger than Heaven - PS5",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.651164+00:00",
+    "price": "59,90 €"
+  },
+  "ES:B0B2547X6Q": {
+    "name": "White Day: A Labyrinth Named School",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.651185+00:00",
+    "price": "18,49 €"
+  },
+  "ES:B0FCYGQS7X": {
+    "name": "Trails in the Sky 1st Chapter PS5",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.651221+00:00",
+    "price": "56,20 €"
+  },
+  "ES:B08BTD27T4": {
+    "name": "UFC 4 (Import)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.651569+00:00",
+    "price": "35,82 €"
+  },
+  "ES:B0GDCYSRL4": {
+    "name": "Precisión Y Control con 2 Thumbsticks, Convexos De Altura Elevada Y Media,Comodidad Y Agarre Antideslizante,para (PS4) y (PS5)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.651614+00:00",
+    "price": "9,99 €"
+  },
+  "ES:B09XGYP7XT": {
+    "name": "eXtremeRate PlayVital Funda de Silicona para ps5 Mando | Goma Suave, Agarre Antideslizante, 6 Tapas para Joysticks, Impermeable, Resistente, Diseño 3D Tachonado, Rojo Negro",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.651735+00:00",
+    "price": "14,99 €"
+  },
+  "ES:B01N6K3BBE": {
+    "name": "Capcom Resident Evil 6 Básico PlayStation 4 vídeo - Juego (PlayStation 4, Supervivencia / Horror, M (Maduro), Soporte físico)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.651756+00:00",
+    "price": "27,44 €"
+  },
+  "ES:B0DB29KFQH": {
+    "name": "KROM KOPA 7.1 - Auriculares 50mm con Sonido 7.1 Virtual, Iluminación RGB Rainbow, Control Volumen y micrófono Integrado, Diadema Ajustable y Ligera, conexión USB, Blanco",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.651791+00:00",
+    "price": "19,99 €"
+  },
+  "ES:B0DQYGNNSM": {
+    "name": "GXTrust Ravox Cascos Gaming Inalámbricos Bluetooth + 2.4GHz, Blanco | Auriculares Inalámbricos Over-Ear para PS5 PS4 PC Switch Xbox Mobile, Altavoces 50mm, Batería de 70 Horas, Baja Latencia",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.651840+00:00",
+    "price": "34,99 €"
+  },
+  "ES:B0C5NKL1H3": {
+    "name": "indeca BUSINESS Mando Inalambrico Bluetooth Negro compatible con PS4 PS3 PC Android Windows gamepad 6 ejes con vibración doble Luz LED Joystick tactil recargable compatible juegos Shooters Dualshock",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T12:31:57.651852+00:00",
+    "price": "20,85 €"
   }
 }
