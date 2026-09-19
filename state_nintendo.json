@@ -1707,7 +1707,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688070+00:00",
-    "price": "509,00 €"
+    "price": "486,55 €"
   },
   "ES:B0H26T3Y2L": {
     "name": "Belkin Gaming Bolsa Protectora de Viaje para Nintendo Switch 2 - Lila | Bandolera, Bolso de Transporte para la Consola y Accesorios, Interior Acolchado, Diseño Ligero y con 10 Ranuras para Juegos",
@@ -2049,7 +2049,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
-    "price": "40,64 €"
+    "price": "40,64 €",
+    "pending_price": "46,58 €",
+    "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
     "name": "Nintendo Switch Lite - Consola Coral + Animal Crossing + 12 meses NSO",
@@ -2231,9 +2233,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689238+00:00",
-    "price": "27,19 €",
-    "pending_price": "28,41 €",
-    "pending_price_count": 1
+    "price": "28,41 €"
   },
   "ES:B08LLN1B47": {
     "name": "Five Nights at Freddy'S. Core Collection",
@@ -2487,9 +2487,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689736+00:00",
-    "price": "33,52 €",
-    "pending_price": "33,83 €",
-    "pending_price_count": 1
+    "price": "33,83 €"
   },
   "ES:B0F6CSFTRD": {
     "name": "FINTIE Soporte de Pared para Switch 2 (2025) | Kit con 1 Soporte para Controlador, 12 Ranuras para Tarjetas de Juego, 2 Ganchos Joy-Con, Organizador de consola",
@@ -3083,7 +3081,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:31:33.624327+00:00",
-    "price": "35,11 €"
+    "price": "35,11 €",
+    "pending_price": "37,00 €",
+    "pending_price_count": 1
   },
   "ES:B0C2Z3HKG4": {
     "name": "Five Nights at Freddy's Security Breach",
