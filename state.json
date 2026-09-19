@@ -716,18 +716,14 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
-    "price": "54,50 €",
-    "pending_price": "56,94 €",
-    "pending_price_count": 1
+    "price": "56,94 €"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
-    "price": "53,37 €",
-    "pending_price": "57,95 €",
-    "pending_price_count": 1
+    "price": "57,95 €"
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -803,7 +799,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
-    "price": "62,48 €"
+    "price": "62,34 €"
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
@@ -1135,7 +1131,7 @@
   "US:B0GR6N18F6": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "first_seen": "2026-08-31T17:55:22.065539+00:00",
     "price": "103,91 €"
   },
@@ -1720,7 +1716,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T13:57:50.628764+00:00",
-    "price": "21,57 €"
+    "price": "21,56 €"
   },
   "UK:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
