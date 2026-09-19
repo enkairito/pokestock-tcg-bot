@@ -414,9 +414,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018932+00:00",
-    "price": "53,62 €",
-    "pending_price": "56,40 €",
-    "pending_price_count": 1
+    "price": "56,40 €"
   },
   "ES:B0H4GT8TXL": {
     "name": "Halo: Campaign Evolved - Standard Edition – PlayStation®5 | Disco físico + descarga de contenido requerida",
@@ -1209,9 +1207,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T18:20:43.859449+00:00",
-    "price": "30,99 €",
-    "pending_price": "33,50 €",
-    "pending_price_count": 1
+    "price": "33,50 €"
   },
   "ES:B08LM3KW18": {
     "name": "Playstation Console Sony 5 Edition Digital",
@@ -1355,7 +1351,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T04:35:55.955905+00:00",
-    "price": "649,00 €"
+    "price": "649,00 €",
+    "pending_price": "725,32 €",
+    "pending_price_count": 1
   },
   "ES:B0D8KXMCTC": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Naranja)",
@@ -1915,7 +1913,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498199+00:00",
-    "price": "23,80 €"
+    "price": "9,90 €"
   },
   "ES:B0F24Y88V1": {
     "name": "F1 25 Standard Edition PS5 | Disco | Videojuegos | Castellano",
@@ -1943,9 +1941,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498253+00:00",
-    "price": "46,33 €",
-    "pending_price": "46,47 €",
-    "pending_price_count": 1
+    "price": "46,31 €"
   },
   "ES:B0GVP719SW": {
     "name": "Mortal Shell II - PS5",
@@ -2135,7 +2131,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498960+00:00",
     "price": "36,83 €",
-    "pending_price": "39,80 €",
+    "pending_price": "39,79 €",
     "pending_price_count": 1
   },
   "ES:B09PJ4WZWC": {
@@ -2297,7 +2293,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "21,71 €"
+    "price": "17,14 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2843,7 +2839,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566254+00:00",
-    "price": "23,17 €"
+    "price": "23,11 €"
   },
   "ES:B0H6Y3H3PL": {
     "name": "Blasphemous: Martyrs’ Edition - PlayStation 4",
@@ -3046,7 +3042,7 @@
     "stock": null,
     "first_seen": "2026-09-17T15:58:54.214850+00:00",
     "price": "21,44 €",
-    "pending_price": "29,89 €",
+    "pending_price": "28,90 €",
     "pending_price_count": 1
   },
   "ES:B079WVCY1B": {
@@ -3369,5 +3365,74 @@
     "stock": null,
     "first_seen": "2026-09-19T12:31:57.651852+00:00",
     "price": "20,85 €"
+  },
+  "ES:B0DTJ1D15B": {
+    "name": "Nacon - Rugby 25 Videojuego para PS4 [Versión Subtitulada Española]",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-19T14:32:21.044398+00:00"
+  },
+  "ES:B0C7WMBJ3Z": {
+    "name": "Playstation Marvel's Spider-Man 2",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T14:32:21.326608+00:00",
+    "price": "46,50 €"
+  },
+  "ES:B0FFTLLS8R": {
+    "name": "Turok Trilogy Bundle - PS5",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T14:32:21.326634+00:00",
+    "price": "24,99 €"
+  },
+  "ES:B0H418D6GM": {
+    "name": "Ace Combat 8: Wings Of Theve",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T14:32:21.326655+00:00",
+    "price": "69,90 €"
+  },
+  "ES:B084458Q16": {
+    "name": "Capitain Tsubasa: Rise of New Champion",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T14:32:21.327042+00:00",
+    "price": "20,75 €"
+  },
+  "ES:B07XL43NNL": {
+    "name": "PVZ Battle for Neighborville",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T14:32:21.327075+00:00",
+    "price": "19,90 €"
+  },
+  "ES:B01BGQ80BM": {
+    "name": "Odin Sphere Leifthrasir (PS4)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T14:32:21.327092+00:00",
+    "price": "39,16 €"
+  },
+  "ES:B08GDC2S5P": {
+    "name": "Mafia Trilogy Ps4",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T14:32:21.327119+00:00",
+    "price": "29,41 €"
+  },
+  "ES:B084DS3745": {
+    "name": "Mad Max",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T14:32:21.327130+00:00",
+    "price": "26,22 €"
+  },
+  "ES:B0BY45FQ24": {
+    "name": "TREK’N EAT Estofado de Carne para Viaje - Serie Rendimiento 1000+ | Comida de alto contenido energético (+1000 kcal), para actividades al aire libre y cuidados preventivos. Caducidad: 5 años.",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T14:32:21.327151+00:00",
+    "price": "14,00 €"
   }
 }
