@@ -22,7 +22,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.362338+00:00",
-    "price": "55,50 €"
+    "price": "44,99 €"
   },
   "ES:B0GNB8B2NS": {
     "name": "Metal Gear Solid: Master Collection Volume 2 – Day One Edition - Xbox",
@@ -1373,7 +1373,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T00:35:34.440322+00:00",
-    "price": "30,99 €"
+    "price": "30,99 €",
+    "pending_price": "39,52 €",
+    "pending_price_count": 1
   },
   "ES:B08KVFN4FJ": {
     "name": "NEED FOR SPEED HOT PURSUIT REMASTERED",
@@ -1707,9 +1709,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688070+00:00",
-    "price": "486,55 €",
-    "pending_price": "509,00 €",
-    "pending_price_count": 1
+    "price": "509,00 €"
   },
   "ES:B0H26T3Y2L": {
     "name": "Belkin Gaming Bolsa Protectora de Viaje para Nintendo Switch 2 - Lila | Bandolera, Bolso de Transporte para la Consola y Accesorios, Interior Acolchado, Diseño Ligero y con 10 Ranuras para Juegos",
@@ -1825,10 +1825,9 @@
   },
   "ES:B0H4R7W5YM": {
     "name": "Fire Emblem Fortune's Weave Dagdan Collection (edición limitada) - Nintendo Switch 2",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.688400+00:00",
-    "price": "89,99 €"
+    "first_seen": "2026-09-17T00:32:50.688400+00:00"
   },
   "ES:B0FQWBC3ZT": {
     "name": "Hades II - Nintendo Switch 2 Edition",
@@ -1926,18 +1925,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688526+00:00",
-    "price": "48,00 €",
-    "pending_price": "48,30 €",
-    "pending_price_count": 1
+    "price": "48,30 €"
   },
   "ES:B0FL2GS1CT": {
     "name": "Survival Kids - Switch 2 [Nintendo Switch 2 - Key Card]",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688535+00:00",
-    "price": "33,85 €",
-    "pending_price": "34,57 €",
-    "pending_price_count": 1
+    "price": "33,85 €"
   },
   "ES:B0F3NKCYC4": {
     "name": "Super Mario Party: Jamboree - Nintendo Switch 2 Edition + Jamboree TV (Switch 2)",
@@ -1979,9 +1974,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688583+00:00",
-    "price": "58,76 €",
-    "pending_price": "58,77 €",
-    "pending_price_count": 1
+    "price": "58,77 €"
   },
   "ES:B0F3P2HY7W": {
     "name": "Nintendo Amiibo Riju – The Legend of Zelda Collection",
@@ -2059,7 +2052,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
     "price": "40,64 €",
-    "pending_price": "46,52 €",
+    "pending_price": "46,46 €",
     "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
@@ -2081,7 +2074,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688827+00:00",
-    "price": "384,04 €"
+    "price": "383,94 €"
   },
   "ES:B09B85F56N": {
     "name": "Monopoly Código De Descarga Switch",
@@ -3388,7 +3381,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T20:31:55.383966+00:00",
-    "price": "54,45 €"
+    "price": "54,45 €",
+    "pending_price": "54,46 €",
+    "pending_price_count": 1
   },
   "ES:B0GWMGDJ24": {
     "name": "The House in Fata Morgana: Dreams of the Revenants Edition NS",
