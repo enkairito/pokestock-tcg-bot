@@ -796,7 +796,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "62,97 €"
   },
@@ -1317,7 +1317,9 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-04T21:32:58.802660+00:00",
-    "price": "117,84 €"
+    "price": "117,84 €",
+    "pending_price": "195,57 €",
+    "pending_price_count": 1
   },
   "UK:B0GWK631XY": {
     "name": "Pokémon TCG: Mega Moonlit Tin - Mega Gengar ex (4 potenciadores y 1 tarjeta promocional de aluminio)",
@@ -1609,7 +1611,9 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "91,32 €"
+    "price": "91,32 €",
+    "pending_price": "144,85 €",
+    "pending_price_count": 1
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -2006,7 +2010,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T09:23:08.319159+00:00",
-    "price": "77,25 €"
+    "price": "77,25 €",
+    "pending_price": "79,03 €",
+    "pending_price_count": 1
   },
   "UK:B0F6PGX3SQ": {
     "name": "Pokémon TCG: Unova Mini Tin – Krookodile & Excadrill (2 Paquetes de Refuerzo y 1 Tarjeta Adhesiva)",
