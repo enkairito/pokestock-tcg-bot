@@ -258,7 +258,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "99,00 €"
+    "price": "84,99 €"
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -986,7 +986,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:24:23.390556+00:00",
-    "price": "630,98 €"
+    "price": "630,98 €",
+    "pending_price": "669,00 €",
+    "pending_price_count": 1
   },
   "ES:B07JH99TG6": {
     "name": "Playstation Uncharted Collection Hits - Versión 17",
@@ -1351,7 +1353,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T04:35:55.955905+00:00",
-    "price": "729,91 €"
+    "price": "649,00 €"
   },
   "ES:B0D8KXMCTC": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Naranja)",
@@ -1859,7 +1861,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498065+00:00",
-    "price": "22,09 €"
+    "price": "22,09 €",
+    "pending_price": "22,23 €",
+    "pending_price_count": 1
   },
   "ES:B0CJYK3MQ9": {
     "name": "Minecraft réplique Illuminating Potion Bottle 16 cm",
@@ -2041,9 +2045,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498502+00:00",
-    "price": "21,55 €",
-    "pending_price": "21,70 €",
-    "pending_price_count": 1
+    "price": "21,70 €"
   },
   "ES:B0F2TGRRRK": {
     "name": "DRAGON QUEST I & II HD-2D Remake",
@@ -2127,7 +2129,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498960+00:00",
-    "price": "39,81 €"
+    "price": "36,83 €"
   },
   "ES:B09PJ4WZWC": {
     "name": "Far Cry 6 (PS4) (PS4)",
@@ -3138,9 +3140,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:32:05.432903+00:00",
-    "price": "26,90 €",
-    "pending_price": "53,94 €",
-    "pending_price_count": 1
+    "price": "26,90 €"
   },
   "ES:B0C5N7L6N1": {
     "name": "MORTAL KOMBAT 1 Standard Edition (PS5)",
