@@ -1479,7 +1479,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802880+00:00",
-    "price": "82,50 €"
+    "price": "82,50 €",
+    "pending_price": "85,20 €",
+    "pending_price_count": 1
   },
   "US:B0D8R1LW3R": {
     "name": "Pokémon TCG: Cofre de coleccionista - Scream Tail & Iron Valiant (2 Tarjetas promocionales de Aluminio, 6 Paquetes de Refuerzo y más)",
@@ -1611,9 +1613,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "91,32 €",
-    "pending_price": "106,17 €",
-    "pending_price_count": 1
+    "price": "106,17 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -1708,10 +1708,9 @@
   },
   "US:B0F6PMVQWQ": {
     "name": "Pokémon TCG Scarlet & Violet 10.5 Black Bolt Booster Set",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "138,05 €"
+    "first_seen": "2026-09-06T10:19:00.889053+00:00"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
