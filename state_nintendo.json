@@ -583,7 +583,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478247+00:00",
-    "price": "28,19 €"
+    "price": "27,64 €"
   },
   "ES:B01N1081RO": {
     "name": "Nintendo Mario Kart 8 Deluxe Nintendo Switch",
@@ -1373,9 +1373,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T00:35:34.440322+00:00",
-    "price": "30,99 €",
-    "pending_price": "39,52 €",
-    "pending_price_count": 1
+    "price": "39,52 €"
   },
   "ES:B08KVFN4FJ": {
     "name": "NEED FOR SPEED HOT PURSUIT REMASTERED",
@@ -1779,7 +1777,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688320+00:00",
-    "price": "59,90 €"
+    "price": "59,90 €",
+    "pending_price": "61,99 €",
+    "pending_price_count": 1
   },
   "ES:B0FR8XHR72": {
     "name": "Hyrule Warriors: Edad de encarcelamiento",
@@ -3381,9 +3381,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T20:31:55.383966+00:00",
-    "price": "54,45 €",
-    "pending_price": "54,46 €",
-    "pending_price_count": 1
+    "price": "54,45 €"
   },
   "ES:B0GWMGDJ24": {
     "name": "The House in Fata Morgana: Dreams of the Revenants Edition NS",
@@ -3405,5 +3403,12 @@
     "stock": null,
     "first_seen": "2026-09-18T20:31:55.383996+00:00",
     "price": "27,49 €"
+  },
+  "ES:B08Y6GQT1J": {
+    "name": "Pokemon Perla Reluciente",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T06:31:32.201224+00:00",
+    "price": "49,99 €"
   }
 }
