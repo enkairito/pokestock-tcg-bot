@@ -796,7 +796,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "62,97 €"
   },
@@ -1129,9 +1129,10 @@
   },
   "US:B0GR6N18F6": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-08-31T17:55:22.065539+00:00"
+    "status": "compra_directa",
+    "stock": "3",
+    "first_seen": "2026-08-31T17:55:22.065539+00:00",
+    "price": "103,91 €"
   },
   "US:B09CQJ564T": {
     "name": "Pokemon SAS7 Evolving Skies Eliter Trainer Box - Azul",
@@ -1310,7 +1311,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802653+00:00",
-    "price": "86,20 €"
+    "price": "86,20 €",
+    "pending_price": "87,86 €",
+    "pending_price_count": 1
   },
   "UK:B0CMZS84KP": {
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
