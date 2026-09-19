@@ -72,7 +72,7 @@ class CatalogTests(unittest.TestCase):
         })
         product = {**PRODUCT, "asin": "A1", "marketplace": "CAR", "store_label": "Carrefour"}
         page = render_page(TEMPLATE, product, group=group)
-        self.assertIn("Disponible en 2 tiendas", page)
+        self.assertIn("Compara 2 tiendas", page)
         self.assertNotIn('/producto/CAR-C3', page)
         self.assertIn('/producto/FNAC-B2', page)
 
@@ -117,9 +117,49 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(ld["offers"]["price"], "10.00")
         self.assertEqual(ld["offers"]["priceCurrency"], "EUR")
         for status, availability in (("preventa", "PreOrder"), ("invitacion", "LimitedAvailability"),
-                                      ("no_disponible", "OutOfStock"), ("sin_confirmar", "OutOfStock")):
+                                      ("no_disponible", "OutOfStock")):
             page = render_page(TEMPLATE, {**PRODUCT, "status": status})
             self.assertIn(f"https://schema.org/{availability}", page)
+
+    def test_unknown_availability_does_not_publish_a_sale_or_sold_out_claim(self):
+        for status in ("sin_confirmar", "unexpected"):
+            page = render_page(TEMPLATE, {**PRODUCT, "status": status})
+            ld = json.loads(page.split('<script type="application/ld+json">', 1)[1].split('</script>', 1)[0])
+            self.assertNotIn("offers", ld)
+            self.assertIn("Último precio observado", page)
+            self.assertIn("Disponibilidad sin confirmar", page)
+
+    def test_unknown_group_offer_stays_unknown_and_out_of_structured_offers(self):
+        group = self.product_group()
+        group["offers"][1]["status"] = "sin_confirmar"
+        page = render_group_page(TEMPLATE, group)
+        ld = json.loads(page.split('<script type="application/ld+json">', 1)[1].split('</script>', 1)[0])
+        self.assertEqual(ld["offers"]["offerCount"], 1)
+        self.assertNotIn("OutOfStock", page)
+        self.assertIn("Sin confirmar", page)
+        self.assertIn("Consultar en la tienda", page)
+        self.assertNotIn("Precio actual", page)
+        group["offers"][0]["status"] = "sin_confirmar"
+        page = render_group_page(TEMPLATE, group)
+        ld = json.loads(page.split('<script type="application/ld+json">', 1)[1].split('</script>', 1)[0])
+        self.assertNotIn("offers", ld)
+
+    def test_unconfirmed_snapshot_does_not_renew_last_observation(self):
+        unknown = {**PRODUCT, "status": "sin_confirmar"}
+        first, _ = update_catalog({}, self.snapshot([unknown]), "magic.json", [])
+        self.assertIsNone(first["products"][0]["last_seen"])
+        known, _ = update_catalog({}, self.snapshot([PRODUCT]), "magic.json", [])
+        missing, _ = update_catalog(known, self.snapshot([unknown], 11), "magic.json", [])
+        again, _ = update_catalog(missing, self.snapshot([unknown], 12), "magic.json", [])
+        self.assertEqual(again["products"][0]["last_seen"], known["products"][0]["last_seen"])
+
+    def test_static_historical_price_keeps_observation_date_not_missing_check_date(self):
+        page = render_page(TEMPLATE, {**PRODUCT, "status": "sin_confirmar", "last_seen": "2026-09-01T10:00:00Z", "checked_at": "2026-09-08T10:00:00Z"})
+        self.assertIn('datetime="2026-09-01T10:00:00Z"', page)
+        self.assertIn("Último precio observado", page)
+        for stamp in (None, "invalid", "2999-01-01T00:00:00Z"):
+            page = render_page(TEMPLATE, {**PRODUCT, "last_seen": stamp})
+            self.assertNotIn('<time datetime=', page)
 
     def test_product_schema_omits_price_when_unparseable_and_escapes_name(self):
         page = render_page(TEMPLATE, {**PRODUCT, "price": None, "name": '</script><script>alert("x")</script>'})

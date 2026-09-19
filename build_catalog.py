@@ -4,7 +4,7 @@ No deduce que un producto esté agotado por su ausencia: conserva su ficha
 con disponibilidad sin confirmar. Se ejecuta sobre el checkout de publicación.
 """
 import argparse
-from datetime import date
+from datetime import date, datetime, timezone
 import html
 import json
 import re
@@ -22,8 +22,8 @@ GAMING_SOURCES = {"nintendo.json", "playstation.json", "xbox.json"}
 NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
 ORIGIN = "https://wheresthatstock.com"
 ACTIVE_STATUSES = {"compra_directa", "preventa", "invitacion"}
-# "sin_confirmar" y cualquier estado nuevo caen en OutOfStock: sin confirmación
-# reciente no debe anunciarse como comprable en resultados de búsqueda.
+# Unknown availability is not evidence of OutOfStock. Unknown offers are omitted
+# from structured data, while their historical information remains visible.
 AVAILABILITY = {
     "compra_directa": "https://schema.org/InStock",
     "preventa": "https://schema.org/PreOrder",
@@ -122,6 +122,8 @@ def update_catalog(previous, snapshot, source, events):
                                "prev_price": old.get("price"), "_src": source,
                                "id": f"{key}:{stamp}:{'restock' if restock else 'price_drop'}"})
         observed = snapshot.get("source_updates", {}).get(product.get("source")) or (old.get("last_seen") if source == "accesorios.json" else None) or stamp
+        if product.get("status") not in AVAILABILITY:
+            observed = product.get("last_seen") or old.get("last_seen")
         rows[key] = {**product, "_src": source, "last_seen": observed, "checked_at": observed}
     for key, product in rows.items():
         if key not in seen and product.get("status") != "sin_confirmar":
@@ -146,6 +148,20 @@ def _status_text(status):
     }.get(status, "Disponibilidad sin confirmar")
 
 
+def _observation_html(product):
+    value = product.get("last_seen")
+    try:
+        observed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+        if observed.tzinfo is None:
+            observed = observed.replace(tzinfo=timezone.utc)
+        if observed.timestamp() > datetime.now(timezone.utc).timestamp() + 300:
+            return ""
+    except (AttributeError, ValueError, TypeError):
+        return ""
+    label = observed.astimezone(timezone.utc).strftime("%d/%m/%Y %H:%M UTC")
+    return f'<p class="observation-note">Última observación: <time datetime="{html.escape(value, quote=True)}">{label}</time></p>'
+
+
 def _render_related_products(products):
     if not products:
         return ""
@@ -162,7 +178,8 @@ def _render_related_products(products):
         cards.append(
             f'<a class="related-product-card" href="/producto/{key}">'
             f'{image_html}<span class="related-product-name">{name}</span>'
-            f'<span class="related-product-price">{price}</span></a>'
+            + ('<span class="observation-note">Último precio observado</span>' if product.get("status") not in ACTIVE_STATUSES else '')
+            + f'<span class="related-product-price">{price}</span></a>'
         )
     return (
         '<section class="related-products" aria-labelledby="related-products-title">'
@@ -218,7 +235,6 @@ def render_page(template, product, set_entry=None, related=None, history=None, g
         # Los seis snapshots (incl. UK/US) publican precio en euros; revisar
         # si algún origen empieza a traer otra moneda.
         "priceCurrency": "EUR",
-        "availability": AVAILABILITY.get(product.get("status"), "https://schema.org/OutOfStock"),
         "seller": {"@type": "Organization", "name": product.get("store_label") or "Amazon"},
     }
     price = price_to_float(product.get("price"))
@@ -227,8 +243,11 @@ def render_page(template, product, set_entry=None, related=None, history=None, g
     product_ld = {
         "@context": "https://schema.org", "@type": "Product",
         "name": product.get("name") or "Producto", "image": image,
-        "sku": product.get("asin"), "offers": offer,
+        "sku": product.get("asin"),
     }
+    if product.get("status") in AVAILABILITY:
+        offer["availability"] = AVAILABILITY[product["status"]]
+        product_ld["offers"] = offer
     ld_json = json.dumps(product_ld, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
     output = output.replace('</head>', f'<script type="application/ld+json">{ld_json}</script>\n</head>', 1)
     category_path, category_label = CATEGORY_LINKS.get(product.get("_src"), CATEGORY_LINKS["products.json"])
@@ -241,7 +260,6 @@ def render_page(template, product, set_entry=None, related=None, history=None, g
     status = _status_text(product.get("status"))
     store = html.escape(product.get("store_label") or "la tienda")
     price_text = html.escape(product.get("price") or "")
-    checked = html.escape((product.get("checked_at") or product.get("last_seen") or "")[:10])
     category_path, category_label = CATEGORY_LINKS.get(product.get("_src"), CATEGORY_LINKS["products.json"])
     image_html = (
         f'<img src="{html.escape(product_image, quote=True)}" alt="{name}" width="420" height="420" fetchpriority="high">'
@@ -254,7 +272,9 @@ def render_page(template, product, set_entry=None, related=None, history=None, g
         f'<div class="product-detail-store"><span>{store}</span><span class="badge status">{html.escape(status)}</span></div>'
         f'<h1>{name}</h1><p>{html.escape(status)}.</p>'
         f'<p class="product-context">Categoría: <a href="{category_path}">{html.escape(category_label)}</a>. '
-        f'Última comprobación: <time datetime="{checked}">{checked or "sin fecha"}</time>.</p>'
+        '</p>'
+        + _observation_html(product)
+        + ('<p class="observation-note">Último precio observado</p>' if price_text and product.get("status") not in ACTIVE_STATUSES else '')
         + (f'<div class="price-row"><span class="price">{price_text}</span></div>' if price_text else "")
     )
     link = _safe_https_url(product.get("link"))
@@ -291,7 +311,8 @@ def _group_status_text(status):
         "compra_directa": "Disponible",
         "invitacion": "Por invitación",
         "preventa": "Preventa",
-    }.get(status, "No disponible")
+        "no_disponible": "Agotado en la última comprobación",
+    }.get(status, "Sin confirmar")
 
 
 def _format_eur(value):
@@ -303,10 +324,10 @@ def _offer_sort_key(offer):
     return (not _offer_is_available(offer), price is None, price if price is not None else float("inf"), offer.get("store") or "", offer.get("offer_id") or "")
 
 
-def _store_logo(marketplace, store, available, compact=False):
+def _store_logo(marketplace, store, available, compact=False, status=None):
     asset = STORE_ASSETS.get(marketplace)
     flag = FLAG_ASSETS.get(marketplace)
-    state = "Disponible" if available else "No disponible"
+    state = _group_status_text(status) if status else ("Disponible" if available else "Sin disponibilidad confirmada")
     classes = "group-store-logo" + (" is-unavailable" if not available else "") + (" is-compact" if compact else "")
     content = (
         f'<img src="{asset}" alt="" width="72" height="32" loading="lazy">'
@@ -339,7 +360,9 @@ def _render_group_reference(group, current_offer_id):
         store = offer.get("store") or offer.get("marketplace") or "Tienda"
         current = offer.get("offer_id") == current_offer_id
         label = f'{store}: {offer.get("price") or "consultar precio"}'
-        logo = _store_logo(offer.get("marketplace"), store, _offer_is_available(offer), compact=True)
+        if not _offer_is_available(offer):
+            label += " · último precio observado"
+        logo = _store_logo(offer.get("marketplace"), store, _offer_is_available(offer), compact=True, status=offer.get("status"))
         if current:
             links.append(f'<span class="group-offer-chip is-current">{logo}<span>{html.escape(label)} · esta oferta</span></span>')
         else:
@@ -347,7 +370,7 @@ def _render_group_reference(group, current_offer_id):
     return (
         '<section class="product-group-callout" aria-labelledby="product-group-callout-title">'
         '<div><span class="group-kicker">Comparador de precios</span>'
-        f'<h2 id="product-group-callout-title">Disponible en {len(stores)} tiendas</h2>'
+        f'<h2 id="product-group-callout-title">Compara {len(stores)} tiendas</h2>'
         '<p>Esta oferta pertenece a un producto con precios de varias tiendas.</p></div>'
         f'<a class="buy-btn" href="/producto/{html.escape(group.get("id") or "", quote=True)}">Comparar todos los precios</a>'
         '<div class="product-group-chips">' + "".join(links) + '</div></section>'
@@ -390,11 +413,13 @@ def render_group_page(template, group):
 
     schema_offers = []
     for offer in offers:
+        if offer.get("status") not in AVAILABILITY:
+            continue
         schema_offer = {
             "@type": "Offer",
             "url": offer.get("product_url") or f"{ORIGIN}/producto/{offer.get('offer_id')}",
             "priceCurrency": "EUR",
-            "availability": AVAILABILITY.get(offer.get("status"), "https://schema.org/OutOfStock"),
+            "availability": AVAILABILITY[offer["status"]],
             "seller": {"@type": "Organization", "name": offer.get("store") or offer.get("marketplace") or "Tienda"},
         }
         price = price_to_float(offer.get("price"))
@@ -403,10 +428,12 @@ def render_group_page(template, group):
         schema_offers.append(schema_offer)
     priced_values = [price_to_float(offer.get("price")) for offer in available]
     priced_values = [price for price in priced_values if price is not None]
-    offer_schema = {"@type": "AggregateOffer", "priceCurrency": "EUR", "offerCount": len(offers), "offers": schema_offers}
+    offer_schema = {"@type": "AggregateOffer", "priceCurrency": "EUR", "offerCount": len(schema_offers), "offers": schema_offers}
     if priced_values:
         offer_schema.update(lowPrice=f"{min(priced_values):.2f}", highPrice=f"{max(priced_values):.2f}")
-    product_ld = {"@context": "https://schema.org", "@type": "Product", "name": raw_name, "image": social_image, "sku": group_id, "offers": offer_schema}
+    product_ld = {"@context": "https://schema.org", "@type": "Product", "name": raw_name, "image": social_image, "sku": group_id}
+    if schema_offers:
+        product_ld["offers"] = offer_schema
     ld_json = json.dumps(product_ld, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
     crumbs_json = breadcrumb_ld(("Inicio", f"{ORIGIN}/"), ("Pokémon TCG", f"{ORIGIN}/pokemontcg"), (raw_name, url))
     output = output.replace('</head>', f'<script type="application/ld+json">{ld_json}</script>\n<script type="application/ld+json">{crumbs_json}</script>\n</head>', 1)
@@ -421,7 +448,7 @@ def render_group_page(template, group):
         current = store_states.setdefault(key, {"marketplace": offer.get("marketplace"), "store": offer.get("store") or offer.get("marketplace") or "Tienda", "available": False})
         current["available"] = current["available"] or _offer_is_available(offer)
     logos = "".join(_store_logo(item["marketplace"], item["store"], item["available"]) for item in store_states.values())
-    availability_text = f'{len(available)} oferta{"s" if len(available) != 1 else ""} disponible{"s" if len(available) != 1 else ""}' if available else "Sin ofertas disponibles ahora"
+    availability_text = f'{len(available)} oferta{"s" if len(available) != 1 else ""} con disponibilidad observada' if available else "Sin ofertas con disponibilidad confirmada"
     hero = (
         '<div class="product-detail group-product-detail">'
         f'<div class="product-detail-img product-static-image">{image_html}</div>'
@@ -439,21 +466,21 @@ def render_group_page(template, group):
     for offer in offers:
         store = offer.get("store") or offer.get("marketplace") or "Tienda"
         active = _offer_is_available(offer)
-        logo = _store_logo(offer.get("marketplace"), store, active)
+        logo = _store_logo(offer.get("marketplace"), store, active, status=offer.get("status"))
         status = _group_status_text(offer.get("status"))
         offer_name = html.escape(offer.get("name") or raw_name)
         price = html.escape(offer.get("price") or "Consultar precio")
         product_url = f'/producto/{html.escape(offer.get("offer_id") or "", quote=True)}'
         merchant = _safe_https_url(offer.get("link"))
-        action = (
-            f'<a class="buy-btn" href="{html.escape(merchant, quote=True)}" target="_blank" rel="noopener sponsored">Comprar</a>'
-            if active and merchant else '<span class="buy-btn disabled" aria-disabled="true">No disponible</span>'
-        )
+        label = {"compra_directa": "Ver en tienda", "invitacion": "Solicitar invitación", "preventa": "Reservar ahora"}.get(offer.get("status"), "Consultar en la tienda")
+        action = (f'<a class="buy-btn" href="{html.escape(merchant, quote=True)}" target="_blank" rel="noopener sponsored">{label}</a>'
+                  if merchant and offer.get("status") != "no_disponible"
+                  else f'<span class="buy-btn disabled" aria-disabled="true">{html.escape(status)}</span>')
         rows.append(
             f'<article class="group-offer-row{" is-unavailable" if not active else ""}">'
             f'<div class="group-offer-store">{logo}<div><strong>{html.escape(store)}</strong><span class="badge status">{html.escape(status)}</span></div></div>'
             f'<div class="group-offer-product"><a href="{product_url}">{offer_name}</a><span>Ver historial y detalles de esta oferta</span></div>'
-            f'<div class="group-offer-price"><strong>{price}</strong><span>{"Precio actual" if active else "Último precio observado"}</span></div>'
+            f'<div class="group-offer-price"><strong>{price}</strong><span>Último precio observado</span>{_observation_html(offer)}</div>'
             f'<div class="group-offer-actions">{action}<a class="utility-button" href="{product_url}">Ver ficha</a></div></article>'
         )
     comparison = (
