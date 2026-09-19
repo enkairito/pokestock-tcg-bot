@@ -729,9 +729,11 @@
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
-    "price": "225,05 €"
+    "price": "225,05 €",
+    "pending_price": "240,97 €",
+    "pending_price_count": 1
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
