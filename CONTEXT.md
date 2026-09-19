@@ -285,6 +285,62 @@ ni implica que todos los posibles hallazgos de la auditoría estén resueltos.
   rutas y las páginas que el generador podría retirar; no usar esta llamada
   como sustituto de la publicación normal de nuevos snapshots.
 
+## Sesión 2026-09-18/19: GAME, MediaMarkt, TodoConsolas y bloqueo de Fnac
+
+Se añadieron tres tiendas nuevas al pipeline de Pokémon TCG en
+`check_stock.py` (config `<TIENDA>_STORE` + `discover_<tienda>_products` +
+bloque de fusión en `main()`, mismo patrón que las demás) y se investigó a
+fondo por qué Fnac lleva tiempo fallando:
+
+- **GAME.es**: scraping directo de `.search-item` en la página de búsqueda
+  pública, con cookie `CookieConsent` pre-aceptada (`game_cookies.json`,
+  secret `GAME_COOKIES_JSON`) para evitar el banner. Sin incidencias.
+- **MediaMarkt**: HTML servido normal (`article[data-test="mms-product-card"]`),
+  sin protección relevante. Búsqueda usada: `?query=pokemon%20tcg` (una
+  búsqueda más amplia por "pokemon" solo trae ruido — videojuegos, juegos de
+  mesa, merchandising).
+- **TodoConsolas**: ver más arriba — la API de Motive
+  (`search.api.motive.co/search`) fue la solución, no la web pública. Datos
+  clave para no tener que re-descubrirlos: `x-engine-id` fijo en el código,
+  `rows` máximo 96 (paginar con `start`), filtros reales
+  `facet_f8=Coleccionismo` + `facet_brand=The Pokemon Company` (confirmados
+  visualmente en la web: 57 resultados). El campo `f4: ["Sí"]` marca
+  "Reserva" (preventa); `availability.allow_order`/`stock` da la
+  disponibilidad real. **Antes de reactivar alertas de Telegram para una
+  tienda nueva con muchos productos, sembrar `state.json` con su estado
+  actual** (script puntual, no forma parte del repo) — si no, la primera
+  ejecución real manda una alerta por cada producto como si fuera restock.
+- **Fnac (investigación, no resuelta por esta sesión — Codex ya había
+  desactivado el scraping en vivo, ver más abajo)**: incluso con una cookie
+  `datadome` fresca exportada de una sesión real del usuario, las peticiones
+  en modo headless devuelven 403 (página de reto de Datadome, en francés,
+  plantilla genérica). En modo headed local (Windows, pantalla real) la
+  misma cookie funciona perfectamente. **La producción ya usa
+  `headless=False` + `xvfb-run`** (pantalla virtual en Linux) desde antes de
+  esta sesión, y aun así falla — es decir, Datadome distingue una pantalla
+  real de Xvfb incluso en modo "headed". No se encontró combinación de
+  cookies/parámetros que lo solucionara en el tiempo dedicado. Si se
+  retoma: no perder tiempo re-probando "cookies frescas" a secas, el
+  problema ya no es de caducidad de cookie sino de fingerprint del
+  navegador/entorno.
+- **Decisión tomada por Codex (misma ventana de tiempo)**: desactivar el
+  scraping en vivo de Fnac y sustituirlo por un catálogo estático
+  (`fnac_catalog.json`, cargado vía `load_static_fnac_products()`) que se
+  publica en la web marcado como disponibilidad "no confirmada", sin
+  mezclarse con `state.json` ni con las alertas. Ver `CONTEXT.md` de
+  `wheresthatstock` y el propio código para el estado actual — no reactivar
+  el scraping en vivo de Fnac sin resolver antes el bloqueo de Datadome.
+- **Peticiones directas a APIs de terceros (Motive, Empathy.co de ToysRUs)
+  vía `page.request.get()`** son bastante más resistentes a bloqueos que
+  renderizar la página con `page.goto()` — patrón a probar primero cuando
+  una tienda nueva dé problemas de bloqueo, antes de invertir tiempo en
+  esquivar el render completo.
+- **Afiliación**: solicitudes enviadas vía Awin para Carrefour (issue #4,
+  rechazada una vez por categorización de publisher — corregido el tipo de
+  promoción principal a "Comparador" y reenviada) y TodoConsolas (nueva,
+  sin issue todavía). Pendientes de aprobación, mismo patrón de espera que
+  El Corte Inglés.
+
 ## Decisiones/aprendizajes importantes
 
 - **`git rebase` invierte `--ours`/`--theirs`** respecto a un merge
