@@ -135,9 +135,9 @@
   "ES:B0CKX97S18": {
     "name": "BANDAI - Set One Piece Card Game : Ace/Sabo/Luffy - 0810059782457",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": null,
     "first_seen": "2026-08-29T18:10:35.785772+00:00",
-    "price": "100,31 €"
+    "price": "79,17 €"
   },
   "ES:B0G6FWHGQT": {
     "name": "One Piece TCG: The Azure Sea's Seven Booster Box (OP-14) - 24 Paquetes",
@@ -241,9 +241,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T20:33:38.638411+00:00",
-    "price": "436,00 €",
-    "pending_price": "451,00 €",
-    "pending_price_count": 1
+    "price": "436,00 €"
   },
   "ES:B0HFD53BDB": {
     "name": "One Piece TCG: The World's Strongest Warriors - Juego de doble paquete Vol. 12 DP-12 (2 paquetes OP-17)",
