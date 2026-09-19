@@ -74,9 +74,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:09:29.426544+00:00",
-    "price": "42,86 €",
-    "pending_price": "44,77 €",
-    "pending_price_count": 1
+    "price": "42,86 €"
   },
   "ES:B0GDGRWH54": {
     "name": "One Piece TCG: Double Pack Set Vol. 9 (DP-09) - The Azure Sea's Seven (2 Paquetes)",
@@ -146,9 +144,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-29T18:10:41.534422+00:00",
-    "price": "382,73 €",
-    "pending_price": "390,30 €",
-    "pending_price_count": 1
+    "price": "382,73 €"
   },
   "ES:B0F8V1YTSP": {
     "name": "BANDAI Juego de cartas de una pieza más antiguo (OP-13) (caja) de 24 unidades",
@@ -245,7 +241,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T20:33:38.638411+00:00",
-    "price": "436,00 €"
+    "price": "436,00 €",
+    "pending_price": "451,00 €",
+    "pending_price_count": 1
   },
   "ES:B0HFD53BDB": {
     "name": "One Piece TCG: The World's Strongest Warriors - Juego de doble paquete Vol. 12 DP-12 (2 paquetes OP-17)",
