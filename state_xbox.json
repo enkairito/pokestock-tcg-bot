@@ -504,7 +504,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "149,99 €"
+    "price": "149,99 €",
+    "pending_price": "209,72 €",
+    "pending_price_count": 1
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -839,9 +841,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:21:08.267403+00:00",
-    "price": "40,70 €",
-    "pending_price": "45,73 €",
-    "pending_price_count": 1
+    "price": "45,73 €"
   },
   "ES:B07M7X2JLB": {
     "name": "Dark Souls Trilogy - Xbox One [Importación inglesa]",
@@ -990,7 +990,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "37,32 €"
+    "price": "35,95 €"
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -3254,7 +3254,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T14:31:49.729335+00:00",
-    "price": "76,61 €"
+    "price": "76,57 €"
   },
   "ES:B0DBQRTLFN": {
     "name": "GameSir T7 Controlador con cable para Xbox Series X|S, Xbox One y Windows 10/11, gamepad Plug and Play para juegos con joysticks y gatillos de efecto Hall, con jack de audio de 3.5 mm - Azul (Rojo)",
@@ -3401,9 +3401,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T12:32:04.828014+00:00",
-    "price": "31,80 €",
-    "pending_price": "31,81 €",
-    "pending_price_count": 1
+    "price": "31,81 €"
   },
   "ES:B095PNMTGR": {
     "name": "Mars Gaming MCPX, Idioma Español, Combo Gaming 3en1 con Teclado H-Mech Iluminado, Ratón Ultraligero 10000 dpi con Software y Alfombrilla XXL, Compatible con PC, PS4, PS5, Xbox, Blanco",
