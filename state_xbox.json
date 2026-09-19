@@ -84,9 +84,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388322+00:00",
-    "price": "19,90 €",
-    "pending_price": "27,88 €",
-    "pending_price_count": 1
+    "price": "27,88 €"
   },
   "ES:B01M6YIR2E": {
     "name": "Red Dead Redemption 2 (Xbox One)",
@@ -565,7 +563,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:11.204384+00:00",
-    "price": "59,41 €"
+    "price": "59,41 €",
+    "pending_price": "59,99 €",
+    "pending_price_count": 1
   },
   "ES:B0829M81QT": {
     "name": "Doom Slayers Collection - Xbox One",
@@ -841,14 +841,18 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:21:08.267403+00:00",
-    "price": "40,70 €"
+    "price": "40,70 €",
+    "pending_price": "41,70 €",
+    "pending_price_count": 1
   },
   "ES:B07M7X2JLB": {
     "name": "Dark Souls Trilogy - Xbox One [Importación inglesa]",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:21:08.267481+00:00",
-    "price": "44,85 €"
+    "price": "44,85 €",
+    "pending_price": "44,87 €",
+    "pending_price_count": 1
   },
   "ES:B0FNY6N6XB": {
     "name": "BATTLEFIELD 6 Standard Edition | Xbox Series X|S - Código de descarga",
@@ -991,7 +995,7 @@
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
     "price": "35,56 €",
-    "pending_price": "36,41 €",
+    "pending_price": "39,06 €",
     "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
@@ -1067,7 +1071,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T00:20:55.336147+00:00",
-    "price": "19,99 €"
+    "price": "19,99 €",
+    "pending_price": "39,66 €",
+    "pending_price_count": 1
   },
   "ES:B0BLZ64C5H": {
     "name": "Electronic Arts Star Wars Jedi: Survivor XBOX Series X, Videojuegos, Castellano",
@@ -1749,7 +1755,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256123+00:00",
-    "price": "29,99 €"
+    "price": "29,99 €",
+    "pending_price": "30,56 €",
+    "pending_price_count": 1
   },
   "ES:B0CJCHDZ74": {
     "name": "Xbox Pack Series S + 3 Meses Game Pass Ultimate",
@@ -1763,9 +1771,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256162+00:00",
-    "price": "17,24 €",
-    "pending_price": "17,40 €",
-    "pending_price_count": 1
+    "price": "17,40 €"
   },
   "ES:B0DN1PM22S": {
     "name": "Genérico Medallas de Bronce Oro Plata,Medallas para Niños,Medallas de Oro Ligeras para niños Medallas de al Ganador - Medallas del Cuadro de portátil Trofeo Presente para niños y Adolescentes",
@@ -1884,9 +1890,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256399+00:00",
-    "price": "23,26 €",
-    "pending_price": "39,99 €",
-    "pending_price_count": 1
+    "price": "39,99 €"
   },
   "ES:B0BG4WBV4M": {
     "name": "Like a Dragon: Ishin! [GRA XBOX SERIES X]",
@@ -2047,7 +2051,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256831+00:00",
-    "price": "35,01 €"
+    "price": "35,01 €",
+    "pending_price": "43,48 €",
+    "pending_price_count": 1
   },
   "ES:B073FDW6WP": {
     "name": "Ace Combat 7: Skies Unknown",
@@ -2075,16 +2081,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256914+00:00",
-    "price": "13,28 €",
-    "pending_price": "13,38 €",
-    "pending_price_count": 1
+    "price": "13,38 €"
   },
   "ES:B097ZBFDKW": {
     "name": "Demon Slayer -KIMETSU NO Yaiba- JPN (Voice) - E F I G S (Text) Box UK",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256930+00:00",
-    "price": "20,44 €"
+    "price": "18,00 €"
   },
   "ES:B07DP9Z1R4": {
     "name": "Assassins Creed Odyssey - Xbox one, Edición:Estándar",
@@ -2140,7 +2144,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257018+00:00",
-    "price": "28,51 €"
+    "price": "28,35 €"
   },
   "ES:B00DW342NI": {
     "name": "Titanfall",
@@ -2211,7 +2215,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
     "price": "23,38 €",
-    "pending_price": "24,48 €",
+    "pending_price": "24,20 €",
     "pending_price_count": 1
   },
   "ES:B08HZKQDK1": {
@@ -3086,7 +3090,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790452+00:00",
-    "price": "23,21 €"
+    "price": "23,21 €",
+    "pending_price": "27,31 €",
+    "pending_price_count": 1
   },
   "ES:B0H37G83HF": {
     "name": "Call of Duty®: Modern Warfare® 4 - XBOX Series X | Disco físico + descarga de contenido requerida",
@@ -3156,7 +3162,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790649+00:00",
-    "price": "85,12 €"
+    "price": "85,09 €"
   },
   "ES:B0948LL1ST": {
     "name": "Lost Judgment (XBox Seriex X XSRX)",
@@ -3261,9 +3267,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T14:31:49.729335+00:00",
-    "price": "76,94 €",
-    "pending_price": "76,95 €",
-    "pending_price_count": 1
+    "price": "76,94 €"
   },
   "ES:B0DBQRTLFN": {
     "name": "GameSir T7 Controlador con cable para Xbox Series X|S, Xbox One y Windows 10/11, gamepad Plug and Play para juegos con joysticks y gatillos de efecto Hall, con jack de audio de 3.5 mm - Azul (Rojo)",
@@ -3277,9 +3281,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T14:31:49.729370+00:00",
-    "price": "279,05 €",
-    "pending_price": "279,61 €",
-    "pending_price_count": 1
+    "price": "279,61 €"
   },
   "ES:B09Y8H1YKL": {
     "name": "Almohadillas de repuesto para auriculares inalámbricos Microsoft Xbox",
