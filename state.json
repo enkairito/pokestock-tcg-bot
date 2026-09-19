@@ -1305,7 +1305,9 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802645+00:00",
-    "price": "79,90 €"
+    "price": "79,90 €",
+    "pending_price": "79,91 €",
+    "pending_price_count": 1
   },
   "UK:B0FSJXSPPX": {
     "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
@@ -1479,7 +1481,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802880+00:00",
-    "price": "84,97 €"
+    "price": "82,50 €"
   },
   "US:B0D8R1LW3R": {
     "name": "Pokémon TCG: Cofre de coleccionista - Scream Tail & Iron Valiant (2 Tarjetas promocionales de Aluminio, 6 Paquetes de Refuerzo y más)",
