@@ -22,7 +22,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.362338+00:00",
-    "price": "55,50 €"
+    "price": "47,07 €"
   },
   "ES:B0GNB8B2NS": {
     "name": "Metal Gear Solid: Master Collection Volume 2 – Day One Edition - Xbox",
@@ -1763,7 +1763,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688262+00:00",
-    "price": "69,99 €"
+    "price": "69,99 €",
+    "pending_price": "85,00 €",
+    "pending_price_count": 1
   },
   "ES:B0GY5GY45X": {
     "name": "Splatoon Raiders",
@@ -2052,7 +2054,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
     "price": "40,64 €",
-    "pending_price": "42,39 €",
+    "pending_price": "42,33 €",
     "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
@@ -2064,10 +2066,9 @@
   },
   "ES:B084DDDNRP": {
     "name": "Nintendo - Switch - Animal Crossing: New Horizons Edition 32GB Console - Multi",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.688819+00:00",
-    "price": "434,02 €"
+    "first_seen": "2026-09-17T00:32:50.688819+00:00"
   },
   "ES:B0FQC3P2Y1": {
     "name": "Nintendo Switch Lite Blue + Animal Crossing New Horizons",
@@ -2228,7 +2229,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689228+00:00",
-    "price": "82,47 €"
+    "price": "67,78 €"
   },
   "ES:B08GMSQBDZ": {
     "name": "Pang Adventures Buster Edition",
@@ -3088,7 +3089,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:31:33.624463+00:00",
-    "price": "33,79 €"
+    "price": "33,14 €"
   },
   "ES:B01M31YZPX": {
     "name": "Nintendo - Pack 6 Tarjetas Amiibo Animal Crossing, Hello Kitty",
