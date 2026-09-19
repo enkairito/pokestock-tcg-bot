@@ -504,9 +504,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "149,99 €",
-    "pending_price": "168,86 €",
-    "pending_price_count": 1
+    "price": "149,99 €"
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -565,7 +563,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:11.204384+00:00",
-    "price": "59,41 €"
+    "price": "59,41 €",
+    "pending_price": "59,99 €",
+    "pending_price_count": 1
   },
   "ES:B0829M81QT": {
     "name": "Doom Slayers Collection - Xbox One",
@@ -992,9 +992,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "35,56 €",
-    "pending_price": "37,32 €",
-    "pending_price_count": 1
+    "price": "37,32 €"
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -2080,9 +2078,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256930+00:00",
-    "price": "18,00 €",
-    "pending_price": "20,44 €",
-    "pending_price_count": 1
+    "price": "20,44 €"
   },
   "ES:B07DP9Z1R4": {
     "name": "Assassins Creed Odyssey - Xbox one, Edición:Estándar",
@@ -2124,9 +2120,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257000+00:00",
-    "price": "34,69 €",
-    "pending_price": "34,80 €",
-    "pending_price_count": 1
+    "price": "34,80 €"
   },
   "ES:B071L7VF3G": {
     "name": "Sine Mora EX",
@@ -2211,7 +2205,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
     "price": "23,38 €",
-    "pending_price": "24,14 €",
+    "pending_price": "24,12 €",
     "pending_price_count": 1
   },
   "ES:B08HZKQDK1": {
@@ -2374,7 +2368,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257447+00:00",
     "price": "56,06 €",
-    "pending_price": "56,09 €",
+    "pending_price": "57,99 €",
     "pending_price_count": 1
   },
   "ES:B0GTBVX67G": {
@@ -2538,7 +2532,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257578+00:00",
-    "price": "155,86 €"
+    "price": "155,84 €"
   },
   "ES:B09YHNCQNZ": {
     "name": "Corsair HS65 SURROUND Auriculares para juegos (Sonido envolvente Dolby Audio 7.1 en PC y Mac, Micrófono omnidireccional, Tecnología SoundID de SonarWorks, Control de volumen de fácil acceso) Carbón",
@@ -2828,10 +2822,9 @@
   },
   "ES:B08DY9R6XT": {
     "name": "Skull & Co. Skin, CQC and FPS Thumb Grips Joystick Cap Analog Stick Cover for Xbox (XSX/XB1) Controller - OD Green, 3Pairs(6pcs)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T12:31:47.225944+00:00",
-    "price": "9,99 €"
+    "first_seen": "2026-09-17T12:31:47.225944+00:00"
   },
   "ES:B0FJXYX9V5": {
     "name": "Battlefield 6 Phantom Edition XBOX Series X | Videojuegos | Castellano",
@@ -3323,9 +3316,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T18:31:46.619892+00:00",
-    "price": "72,73 €",
-    "pending_price": "119,95 €",
-    "pending_price_count": 1
+    "price": "119,95 €"
   },
   "ES:B0GL8DWZQK": {
     "name": "deleyCON 1,5m Cable HDMI 2.1 8K Plano - para TV, Monitor, PS4, PS5, Xbox, Dolby Atmos Soundbar EARC, HDR10+ VRR - 48Gbps Ultra High Speed Cable - 10K/8K@60Hz, 4K@120Hz/144HZ, 2K@240HZ",
