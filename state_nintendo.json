@@ -1707,7 +1707,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688070+00:00",
-    "price": "486,55 €"
+    "price": "486,55 €",
+    "pending_price": "509,00 €",
+    "pending_price_count": 1
   },
   "ES:B0H26T3Y2L": {
     "name": "Belkin Gaming Bolsa Protectora de Viaje para Nintendo Switch 2 - Lila | Bandolera, Bolso de Transporte para la Consola y Accesorios, Interior Acolchado, Diseño Ligero y con 10 Ranuras para Juegos",
@@ -1823,9 +1825,10 @@
   },
   "ES:B0H4R7W5YM": {
     "name": "Fire Emblem Fortune's Weave Dagdan Collection (edición limitada) - Nintendo Switch 2",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.688400+00:00"
+    "first_seen": "2026-09-17T00:32:50.688400+00:00",
+    "price": "89,99 €"
   },
   "ES:B0FQWBC3ZT": {
     "name": "Hades II - Nintendo Switch 2 Edition",
@@ -1923,14 +1926,18 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688526+00:00",
-    "price": "48,00 €"
+    "price": "48,00 €",
+    "pending_price": "48,30 €",
+    "pending_price_count": 1
   },
   "ES:B0FL2GS1CT": {
     "name": "Survival Kids - Switch 2 [Nintendo Switch 2 - Key Card]",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688535+00:00",
-    "price": "33,85 €"
+    "price": "33,85 €",
+    "pending_price": "34,57 €",
+    "pending_price_count": 1
   },
   "ES:B0F3NKCYC4": {
     "name": "Super Mario Party: Jamboree - Nintendo Switch 2 Edition + Jamboree TV (Switch 2)",
@@ -1972,7 +1979,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688583+00:00",
-    "price": "58,76 €"
+    "price": "58,76 €",
+    "pending_price": "58,77 €",
+    "pending_price_count": 1
   },
   "ES:B0F3P2HY7W": {
     "name": "Nintendo Amiibo Riju – The Legend of Zelda Collection",
@@ -2050,7 +2059,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
     "price": "40,64 €",
-    "pending_price": "46,58 €",
+    "pending_price": "46,52 €",
     "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
@@ -3081,9 +3090,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:31:33.624327+00:00",
-    "price": "35,11 €",
-    "pending_price": "37,00 €",
-    "pending_price_count": 1
+    "price": "37,00 €"
   },
   "ES:B0C2Z3HKG4": {
     "name": "Five Nights at Freddy's Security Breach",
