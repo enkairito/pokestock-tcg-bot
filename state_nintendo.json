@@ -22,7 +22,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.362338+00:00",
-    "price": "44,99 €"
+    "price": "44,99 €",
+    "pending_price": "55,50 €",
+    "pending_price_count": 1
   },
   "ES:B0GNB8B2NS": {
     "name": "Metal Gear Solid: Master Collection Volume 2 – Day One Edition - Xbox",
@@ -1832,7 +1834,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688410+00:00",
-    "price": "48,99 €"
+    "price": "44,95 €"
   },
   "ES:B0H4RY7CW1": {
     "name": "Orbitales",
@@ -1888,7 +1890,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688484+00:00",
-    "price": "39,95 €"
+    "price": "39,95 €",
+    "pending_price": "47,90 €",
+    "pending_price_count": 1
   },
   "ES:B0GWKDHTG8": {
     "name": "Tomodachi Life: Una vida de ensueño Standard | Nintendo Switch - Código de descarga",
@@ -1923,7 +1927,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688526+00:00",
-    "price": "48,30 €"
+    "price": "48,30 €",
+    "pending_price": "49,71 €",
+    "pending_price_count": 1
   },
   "ES:B0FL2GS1CT": {
     "name": "Survival Kids - Switch 2 [Nintendo Switch 2 - Key Card]",
@@ -2050,7 +2056,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
     "price": "40,64 €",
-    "pending_price": "46,34 €",
+    "pending_price": "42,49 €",
     "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
@@ -2359,7 +2365,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689475+00:00",
-    "price": "67,86 €"
+    "price": "67,86 €",
+    "pending_price": "68,47 €",
+    "pending_price_count": 1
   },
   "ES:B0GNNPWV2C": {
     "name": "Danganronpa 2x2 (Nintendo Switch)",
@@ -3088,7 +3096,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:31:33.624463+00:00",
-    "price": "35,76 €"
+    "price": "35,04 €"
   },
   "ES:B01M31YZPX": {
     "name": "Nintendo - Pack 6 Tarjetas Amiibo Animal Crossing, Hello Kitty",
@@ -3408,5 +3416,12 @@
     "stock": null,
     "first_seen": "2026-09-19T06:31:32.201224+00:00",
     "price": "49,99 €"
+  },
+  "ES:B0FKTLGLW7": {
+    "name": "Mortal Kombat: Legacy Kollection - Deluxe Edition - Switch 2",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T10:31:41.643841+00:00",
+    "price": "65,99 €"
   }
 }
