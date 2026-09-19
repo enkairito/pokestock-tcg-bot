@@ -504,7 +504,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "209,72 €"
+    "price": "149,99 €"
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -839,9 +839,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:21:08.267403+00:00",
-    "price": "45,73 €",
-    "pending_price": "46,98 €",
-    "pending_price_count": 1
+    "price": "42,95 €"
   },
   "ES:B07M7X2JLB": {
     "name": "Dark Souls Trilogy - Xbox One [Importación inglesa]",
@@ -1831,9 +1829,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256329+00:00",
-    "price": "24,98 €",
-    "pending_price": "24,99 €",
-    "pending_price_count": 1
+    "price": "24,98 €"
   },
   "ES:B0H4QL9XMT": {
     "name": "Persona 4 Revival - XSRX",
@@ -2239,9 +2235,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257198+00:00",
-    "price": "15,45 €",
-    "pending_price": "18,27 €",
-    "pending_price_count": 1
+    "price": "15,45 €"
   },
   "ES:B01NADMJXD": {
     "name": "Xbox One Final Fantasy XV Deluxe Edition",
@@ -3209,9 +3203,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790777+00:00",
-    "price": "23,17 €",
-    "pending_price": "28,66 €",
-    "pending_price_count": 1
+    "price": "28,66 €"
   },
   "ES:B07BNN4M86": {
     "name": "Assassin'S Creed: Origins",
@@ -3407,7 +3399,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T12:32:04.828014+00:00",
-    "price": "31,80 €"
+    "price": "31,80 €",
+    "pending_price": "31,81 €",
+    "pending_price_count": 1
   },
   "ES:B095PNMTGR": {
     "name": "Mars Gaming MCPX, Idioma Español, Combo Gaming 3en1 con Teclado H-Mech Iluminado, Ratón Ultraligero 10000 dpi con Software y Alfombrilla XXL, Compatible con PC, PS4, PS5, Xbox, Blanco",
