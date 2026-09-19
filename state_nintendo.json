@@ -35,9 +35,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.362342+00:00",
-    "price": "19,03 €",
-    "pending_price": "19,04 €",
-    "pending_price_count": 1
+    "price": "18,00 €"
   },
   "ES:B0FQWHWWSG": {
     "name": "Metroid Prime 4: Beyond - Switch",
@@ -184,7 +182,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912014+00:00",
-    "price": "376,65 €"
+    "price": "370,00 €"
   },
   "ES:B0CFQ99JVQ": {
     "name": "Nintendo Switch Online + Paquete de expansión (Suscripción individual) - Standard | Nintendo Switch - Código de descarga",
@@ -2054,7 +2052,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
     "price": "40,64 €",
-    "pending_price": "42,49 €",
+    "pending_price": "42,39 €",
     "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
@@ -2293,7 +2291,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689326+00:00",
-    "price": "58,99 €"
+    "price": "54,99 €"
   },
   "ES:B0H1MYYD1H": {
     "name": "Captain Tsubasa 2: World Fighters",
@@ -3090,7 +3088,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:31:33.624463+00:00",
-    "price": "35,04 €"
+    "price": "33,79 €"
   },
   "ES:B01M31YZPX": {
     "name": "Nintendo - Pack 6 Tarjetas Amiibo Animal Crossing, Hello Kitty",
@@ -3501,5 +3499,19 @@
     "stock": null,
     "first_seen": "2026-09-19T12:31:57.854225+00:00",
     "price": "6,78 €"
+  },
+  "ES:B08LB3XQ64": {
+    "name": "Final Fantasy VII & VIII Remastered NSW",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T14:32:21.853903+00:00",
+    "price": "32,73 €"
+  },
+  "ES:B0FGD7H94C": {
+    "name": "Let's Sing 2026 ESP V.+2 Mics Switch ESP",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T14:32:21.853938+00:00",
+    "price": "60,45 €"
   }
 }
