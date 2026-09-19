@@ -728,9 +728,9 @@
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
-    "price": "240,99 €"
+    "price": "225,05 €"
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
@@ -1612,7 +1612,7 @@
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
     "price": "91,32 €",
-    "pending_price": "106,21 €",
+    "pending_price": "103,89 €",
     "pending_price_count": 1
   },
   "UK:B0CJM4MQTT": {
@@ -1837,7 +1837,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-08T14:34:56.335882+00:00",
-    "price": "17,07 €"
+    "price": "16,82 €"
   },
   "US:B0F1GXTFGL": {
     "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
