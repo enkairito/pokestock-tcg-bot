@@ -258,7 +258,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "84,99 €"
+    "price": "84,99 €",
+    "pending_price": "99,00 €",
+    "pending_price_count": 1
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -707,7 +709,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T12:27:13.469347+00:00",
-    "price": "28,52 €"
+    "price": "19,45 €"
   },
   "ES:B0D571R8PK": {
     "name": "Volante y Pedales Hori RWA con licencia Sony PlayStation 4/5 [Nuevo modelo compatible con PS4/PS5] + Gran Turismo 7 [Playstation 5]",
@@ -882,7 +884,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:25:09.102575+00:00",
-    "price": "35,50 €"
+    "price": "35,48 €"
   },
   "ES:B098GSZ4Q9": {
     "name": "Streets of Rage 4. Anniversary Edition - Playstation 4",
@@ -1281,7 +1283,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T20:34:33.327835+00:00",
-    "price": "19,00 €"
+    "price": "19,00 €",
+    "pending_price": "19,90 €",
+    "pending_price_count": 1
   },
   "ES:B0H3W5V1TN": {
     "name": "CONTROL Resonant - PS5 (Exclusiva Amazon)",
@@ -1941,7 +1945,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498253+00:00",
-    "price": "46,31 €"
+    "price": "46,29 €"
   },
   "ES:B0GVP719SW": {
     "name": "Mortal Shell II - PS5",
@@ -2130,9 +2134,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498960+00:00",
-    "price": "36,83 €",
-    "pending_price": "39,79 €",
-    "pending_price_count": 1
+    "price": "39,79 €"
   },
   "ES:B09PJ4WZWC": {
     "name": "Far Cry 6 (PS4) (PS4)",
@@ -3434,5 +3436,12 @@
     "stock": null,
     "first_seen": "2026-09-19T14:32:21.327151+00:00",
     "price": "14,00 €"
+  },
+  "ES:B0CNQ3Q7PG": {
+    "name": "Orzly Estuche de Transporte para Reproductor Remoto PlayStation Portal, Accesorios para Consola PS5, protección para Viajes y Almacenamiento, Cargador de Auriculares Blanco/Negro - Edición de Regalo",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-19T16:32:14.537876+00:00",
+    "price": "23,66 €"
   }
 }
