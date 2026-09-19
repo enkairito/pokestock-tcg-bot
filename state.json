@@ -731,9 +731,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
-    "price": "225,05 €",
-    "pending_price": "240,99 €",
-    "pending_price_count": 1
+    "price": "225,05 €"
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
@@ -1709,9 +1707,10 @@
   },
   "US:B0F6PMVQWQ": {
     "name": "Pokémon TCG Scarlet & Violet 10.5 Black Bolt Booster Set",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-09-06T10:19:00.889053+00:00"
+    "status": "compra_directa",
+    "stock": "2",
+    "first_seen": "2026-09-06T10:19:00.889053+00:00",
+    "price": "138,05 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
