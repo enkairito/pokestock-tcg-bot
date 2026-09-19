@@ -504,7 +504,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "149,99 €"
+    "price": "149,99 €",
+    "pending_price": "168,86 €",
+    "pending_price_count": 1
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -563,9 +565,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:11.204384+00:00",
-    "price": "59,41 €",
-    "pending_price": "59,99 €",
-    "pending_price_count": 1
+    "price": "59,41 €"
   },
   "ES:B0829M81QT": {
     "name": "Doom Slayers Collection - Xbox One",
@@ -842,7 +842,7 @@
     "stock": null,
     "first_seen": "2026-09-13T00:21:08.267403+00:00",
     "price": "40,70 €",
-    "pending_price": "41,70 €",
+    "pending_price": "44,69 €",
     "pending_price_count": 1
   },
   "ES:B07M7X2JLB": {
@@ -850,9 +850,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:21:08.267481+00:00",
-    "price": "44,85 €",
-    "pending_price": "44,87 €",
-    "pending_price_count": 1
+    "price": "44,87 €"
   },
   "ES:B0FNY6N6XB": {
     "name": "BATTLEFIELD 6 Standard Edition | Xbox Series X|S - Código de descarga",
@@ -995,7 +993,7 @@
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
     "price": "35,56 €",
-    "pending_price": "39,06 €",
+    "pending_price": "37,32 €",
     "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
@@ -1071,9 +1069,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T00:20:55.336147+00:00",
-    "price": "19,99 €",
-    "pending_price": "39,66 €",
-    "pending_price_count": 1
+    "price": "39,66 €"
   },
   "ES:B0BLZ64C5H": {
     "name": "Electronic Arts Star Wars Jedi: Survivor XBOX Series X, Videojuegos, Castellano",
@@ -1755,9 +1751,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256123+00:00",
-    "price": "29,99 €",
-    "pending_price": "30,56 €",
-    "pending_price_count": 1
+    "price": "30,56 €"
   },
   "ES:B0CJCHDZ74": {
     "name": "Xbox Pack Series S + 3 Meses Game Pass Ultimate",
@@ -2051,9 +2045,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256831+00:00",
-    "price": "35,01 €",
-    "pending_price": "43,48 €",
-    "pending_price_count": 1
+    "price": "43,48 €"
   },
   "ES:B073FDW6WP": {
     "name": "Ace Combat 7: Skies Unknown",
@@ -2088,7 +2080,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256930+00:00",
-    "price": "18,00 €"
+    "price": "18,00 €",
+    "pending_price": "20,44 €",
+    "pending_price_count": 1
   },
   "ES:B07DP9Z1R4": {
     "name": "Assassins Creed Odyssey - Xbox one, Edición:Estándar",
@@ -2130,7 +2124,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257000+00:00",
-    "price": "34,69 €"
+    "price": "34,69 €",
+    "pending_price": "34,80 €",
+    "pending_price_count": 1
   },
   "ES:B071L7VF3G": {
     "name": "Sine Mora EX",
@@ -2144,7 +2140,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257018+00:00",
-    "price": "28,35 €"
+    "price": "27,45 €"
   },
   "ES:B00DW342NI": {
     "name": "Titanfall",
@@ -2215,7 +2211,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
     "price": "23,38 €",
-    "pending_price": "24,20 €",
+    "pending_price": "24,14 €",
     "pending_price_count": 1
   },
   "ES:B08HZKQDK1": {
@@ -2377,7 +2373,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257447+00:00",
-    "price": "56,06 €"
+    "price": "56,06 €",
+    "pending_price": "56,09 €",
+    "pending_price_count": 1
   },
   "ES:B0GTBVX67G": {
     "name": "Turtle Beach Rematch Core Ghost Camo Negro - Mando con Cable - con Licencia para Xbox Series XS, Xbox One y PC - Sticks con efecto Hall, Botones de Audio, Motores de vibración y disparadores de Pulso",
@@ -2750,7 +2748,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T08:32:35.495691+00:00",
-    "price": "26,34 €"
+    "price": "25,66 €"
   },
   "ES:B0H413YMF1": {
     "name": "Ace Combat 8: Wings Of Theve",
@@ -2847,7 +2845,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.548532+00:00",
-    "price": "21,94 €"
+    "price": "21,94 €",
+    "pending_price": "22,94 €",
+    "pending_price_count": 1
   },
   "ES:B0GHSYQHP6": {
     "name": "Life is Strange Reunion",
@@ -3090,9 +3090,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790452+00:00",
-    "price": "23,21 €",
-    "pending_price": "27,31 €",
-    "pending_price_count": 1
+    "price": "27,31 €"
   },
   "ES:B0H37G83HF": {
     "name": "Call of Duty®: Modern Warfare® 4 - XBOX Series X | Disco físico + descarga de contenido requerida",
@@ -3134,7 +3132,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790603+00:00",
-    "price": "32,98 €"
+    "price": "32,98 €",
+    "pending_price": "32,99 €",
+    "pending_price_count": 1
   },
   "ES:B0CW4C89FN": {
     "name": "Elden Ring: Shadow Of The Erdtree",
