@@ -111,7 +111,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:18:12.685903+00:00",
-    "price": "29,99 €"
+    "price": "27,89 €"
   },
   "ES:B084WLMKGT": {
     "name": "GXTrust Forze Cascos Gaming con Licencia Oficial para PlayStation, Negro | Auriculares Gaming para PS4 y PS5, Micrófono Plegable, Altavoces Activos de 50 mm, Cable Trenzado de Nailon 1.2 m",
@@ -309,9 +309,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018808+00:00",
-    "price": "18,98 €",
-    "pending_price": "25,12 €",
-    "pending_price_count": 1
+    "price": "25,12 €"
   },
   "ES:B09KTGP5C2": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition, PlayStation 4",
@@ -2106,7 +2104,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498807+00:00",
-    "price": "74,00 €"
+    "price": "74,00 €",
+    "pending_price": "75,94 €",
+    "pending_price_count": 1
   },
   "ES:B01H0CBMXO": {
     "name": "Electronic Arts - Titanfall 2",
@@ -2120,9 +2120,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498891+00:00",
-    "price": "27,80 €",
-    "pending_price": "27,90 €",
-    "pending_price_count": 1
+    "price": "27,90 €"
   },
   "ES:B07MWXG7QV": {
     "name": "Days Gone [Importación francesa]",
@@ -2136,7 +2134,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499011+00:00",
-    "price": "23,98 €"
+    "price": "23,98 €",
+    "pending_price": "27,99 €",
+    "pending_price_count": 1
   },
   "ES:B0B47RKP8Z": {
     "name": "Juego Soul Hackers 2 PS4",
@@ -2178,9 +2178,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499167+00:00",
-    "price": "33,87 €",
-    "pending_price": "33,88 €",
-    "pending_price_count": 1
+    "price": "33,83 €"
   },
   "ES:B0CJG2KCBL": {
     "name": "Rise of the Tomb Raider 20 Year Celebration",
@@ -2229,9 +2227,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499376+00:00",
-    "price": "24,50 €",
-    "pending_price": "24,90 €",
-    "pending_price_count": 1
+    "price": "24,90 €"
   },
   "ES:B08LBB79S4": {
     "name": "Final Fantasy VIII Remastered",
@@ -2259,14 +2255,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499492+00:00",
-    "price": "25,15 €"
+    "price": "25,12 €"
   },
   "ES:B07V9NP59C": {
     "name": "Remothered: Tormented Fathers",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499513+00:00",
-    "price": "22,64 €"
+    "price": "22,64 €",
+    "pending_price": "22,65 €",
+    "pending_price_count": 1
   },
   "ES:B07NJHJKGX": {
     "name": "Assassin's Creed III Remastered",
@@ -2287,14 +2285,18 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499578+00:00",
-    "price": "20,13 €"
+    "price": "20,13 €",
+    "pending_price": "25,47 €",
+    "pending_price_count": 1
   },
   "ES:B00N77D7WQ": {
     "name": "Metro Redux Double Pack (2033 + Last Light)",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "17,14 €"
+    "price": "17,14 €",
+    "pending_price": "21,71 €",
+    "pending_price_count": 1
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2340,13 +2342,6 @@
     "pending_price": "11,99 €",
     "pending_price_count": 1
   },
-  "ES:8419816167": {
-    "name": "Jojo's bizarre adventure parte 7: steel ball run 14",
-    "status": "compra_directa",
-    "stock": null,
-    "first_seen": "2026-09-17T00:32:37.499855+00:00",
-    "price": "11,40 €"
-  },
   "ES:B084XKNSBD": {
     "name": "Videogioco Warner Batman Arkham Collection - Import IT",
     "status": "compra_directa",
@@ -2373,14 +2368,18 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499915+00:00",
-    "price": "42,47 €"
+    "price": "42,47 €",
+    "pending_price": "42,57 €",
+    "pending_price_count": 1
   },
   "ES:B07D9TFK6W": {
     "name": "Sega Mega Drive Classics",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499924+00:00",
-    "price": "21,91 €"
+    "price": "21,91 €",
+    "pending_price": "21,92 €",
+    "pending_price_count": 1
   },
   "ES:B07KZS61P5": {
     "name": "NieR: Automata Game of the YoRHa Edition (PlayStation PS4)",
@@ -2450,7 +2449,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500025+00:00",
-    "price": "71,69 €"
+    "price": "71,40 €"
   },
   "ES:B01MT2B97F": {
     "name": "Capcom Resident Evil 4 Básico PlayStation 4 vídeo - Juego (PlayStation 4, Supervivencia / Horror, M (Maduro), Soporte físico)",
@@ -2735,7 +2734,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500241+00:00",
-    "price": "23,23 €"
+    "price": "23,23 €",
+    "pending_price": "23,24 €",
+    "pending_price_count": 1
   },
   "ES:B07G2D87BV": {
     "name": "Auriculares Gaming Stereo Sony Oficial PS4 Bigben Interactive - Compatible con PS5",
@@ -3193,9 +3194,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:32:05.433466+00:00",
-    "price": "82,99 €",
-    "pending_price": "92,90 €",
-    "pending_price_count": 1
+    "price": "92,90 €"
   },
   "ES:B0GQ3GRR4H": {
     "name": "deleyCON 2m Cable Extensión HDMI 2.1 8K - para TV, Monitor, PS4, PS5, Xbox, Dolby Atmos Soundbar EARC HDR10+ 48Gbps Extensión Acoplador Adaptador - 8K@60Hz, 4K@120Hz/144Hz, 2K@240Hz",
@@ -3209,7 +3208,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:32:05.433533+00:00",
-    "price": "102,00 €"
+    "price": "101,99 €"
   },
   "ES:B0DXVVTDJ7": {
     "name": "Subsonic - Mando Inalámbrico para PS5 y PC - Blanco | Ergonómico, LED RGB Programables, Vibración, Panel Táctil, Palancas Programables para PlayStation 5 y PC",
