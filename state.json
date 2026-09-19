@@ -723,13 +723,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
-    "price": "53,37 €"
+    "price": "53,37 €",
+    "pending_price": "53,40 €",
+    "pending_price_count": 1
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-08-30T20:46:19.644840+00:00"
+    "first_seen": "2026-08-30T20:46:19.644840+00:00",
+    "price": "240,99 €"
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
@@ -796,7 +799,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "62,97 €"
   },
@@ -1320,9 +1323,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-04T21:32:58.802660+00:00",
-    "price": "117,84 €",
-    "pending_price": "195,57 €",
-    "pending_price_count": 1
+    "price": "117,84 €"
   },
   "UK:B0GWK631XY": {
     "name": "Pokémon TCG: Mega Moonlit Tin - Mega Gengar ex (4 potenciadores y 1 tarjeta promocional de aluminio)",
@@ -1720,7 +1721,7 @@
     "stock": null,
     "first_seen": "2026-09-06T13:57:50.628764+00:00",
     "price": "21,57 €",
-    "pending_price": "21,68 €",
+    "pending_price": "21,61 €",
     "pending_price_count": 1
   },
   "UK:B0DLTZPNR2": {
@@ -3449,5 +3450,12 @@
     "stock": 0.0,
     "first_seen": "2026-09-18T22:34:28.415246+00:00",
     "price": "19,95 €"
+  },
+  "TC:212173": {
+    "name": "Reacondicionado: Coleccion Premium Zoroark de Hisui V-Astro Pokemon TCG (ES)",
+    "status": "compra_directa",
+    "stock": 1.0,
+    "first_seen": "2026-09-19T02:03:09.680776+00:00",
+    "price": "59,95 €"
   }
 }
