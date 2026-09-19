@@ -707,9 +707,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T12:27:13.469347+00:00",
-    "price": "19,45 €",
-    "pending_price": "28,52 €",
-    "pending_price_count": 1
+    "price": "28,52 €"
   },
   "ES:B0D571R8PK": {
     "name": "Volante y Pedales Hori RWA con licencia Sony PlayStation 4/5 [Nuevo modelo compatible con PS4/PS5] + Gran Turismo 7 [Playstation 5]",
@@ -1352,9 +1350,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T04:35:55.955905+00:00",
-    "price": "649,00 €",
-    "pending_price": "729,91 €",
-    "pending_price_count": 1
+    "price": "729,91 €"
   },
   "ES:B0D8KXMCTC": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Naranja)",
@@ -1949,9 +1945,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498263+00:00",
-    "price": "45,99 €",
-    "pending_price": "47,99 €",
-    "pending_price_count": 1
+    "price": "47,99 €"
   },
   "ES:B0DLGNT4V3": {
     "name": "Clair Obscur: Expedition 33",
@@ -2112,7 +2106,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498807+00:00",
-    "price": "74,42 €"
+    "price": "74,00 €"
   },
   "ES:B01H0CBMXO": {
     "name": "Electronic Arts - Titanfall 2",
@@ -2161,7 +2155,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499068+00:00",
-    "price": "33,63 €"
+    "price": "33,63 €",
+    "pending_price": "33,64 €",
+    "pending_price_count": 1
   },
   "ES:B08PM4PWDY": {
     "name": "Truck Simulator - On the Road Truck (PlayStation PS4): LKW - Simulator [Blu-ray]",
@@ -3378,7 +3374,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T14:32:21.326608+00:00",
-    "price": "46,50 €"
+    "price": "46,50 €",
+    "pending_price": "47,00 €",
+    "pending_price_count": 1
   },
   "ES:B0FFTLLS8R": {
     "name": "Turok Trilogy Bundle - PS5",
