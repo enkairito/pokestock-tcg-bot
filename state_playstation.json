@@ -201,7 +201,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616734+00:00",
-    "price": "210,00 €"
+    "price": "210,00 €",
+    "pending_price": "227,90 €",
+    "pending_price_count": 1
   },
   "ES:B07B9N6ZKS": {
     "name": "PS4 Slim 500 GB negro Playstation 4 – FIFA 18 + 2 mandos DualShock 4",
@@ -258,7 +260,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "84,99 €"
+    "price": "84,99 €",
+    "pending_price": "99,00 €",
+    "pending_price_count": 1
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -309,7 +313,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018808+00:00",
-    "price": "25,12 €"
+    "price": "19,79 €"
   },
   "ES:B09KTGP5C2": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition, PlayStation 4",
@@ -1352,7 +1356,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T04:35:55.955905+00:00",
-    "price": "649,00 €"
+    "price": "649,00 €",
+    "pending_price": "729,91 €",
+    "pending_price_count": 1
   },
   "ES:B0D8KXMCTC": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Naranja)",
@@ -1404,7 +1410,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.312460+00:00",
-    "price": "205,00 €"
+    "price": "205,00 €",
+    "pending_price": "212,99 €",
+    "pending_price_count": 1
   },
   "ES:B0GZVXB4DX": {
     "name": "Grand Theft Auto VI - Xbox Series X/S (Código de descarga)",
@@ -2165,9 +2173,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499111+00:00",
-    "price": "20,18 €",
-    "pending_price": "20,52 €",
-    "pending_price_count": 1
+    "price": "20,52 €"
   },
   "ES:B07NRHS623": {
     "name": "The Legend of Heroes: Trails of Cold Steel III [Importación francesa]",
@@ -3403,7 +3409,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T14:32:21.327075+00:00",
-    "price": "19,90 €"
+    "price": "19,90 €",
+    "pending_price": "21,50 €",
+    "pending_price_count": 1
   },
   "ES:B01BGQ80BM": {
     "name": "Odin Sphere Leifthrasir (PS4)",
