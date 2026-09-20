@@ -1321,7 +1321,9 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-04T21:32:58.802660+00:00",
-    "price": "117,84 €"
+    "price": "117,84 €",
+    "pending_price": "195,58 €",
+    "pending_price_count": 1
   },
   "UK:B0GWK631XY": {
     "name": "Pokémon TCG: Mega Moonlit Tin - Mega Gengar ex (4 potenciadores y 1 tarjeta promocional de aluminio)",
@@ -1615,7 +1617,9 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "106,20 €"
+    "price": "106,20 €",
+    "pending_price": "144,85 €",
+    "pending_price_count": 1
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
