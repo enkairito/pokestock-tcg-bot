@@ -35,9 +35,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.362342+00:00",
-    "price": "18,00 €",
-    "pending_price": "18,07 €",
-    "pending_price_count": 1
+    "price": "18,07 €"
   },
   "ES:B0FQWHWWSG": {
     "name": "Metroid Prime 4: Beyond - Switch",
@@ -620,7 +618,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478293+00:00",
-    "price": "28,39 €"
+    "price": "28,39 €",
+    "pending_price": "28,48 €",
+    "pending_price_count": 1
   },
   "ES:B0DFD3S5LM": {
     "name": "MySims: Colección Sofá y Mantita Switch / Switch 2 | Videojuegos | Castellano",
@@ -764,9 +764,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T06:29:23.882145+00:00",
-    "price": "20,99 €",
-    "pending_price": "21,99 €",
-    "pending_price_count": 1
+    "price": "21,99 €"
   },
   "ES:B0DB2MSGCZ": {
     "name": "NK Wireless Switch Controller - Switch 2/Lite/OLED with Wake Function, Bluetooth, 6 Axis, Turbo, Double Vibration, LED Indicators - Blue",
@@ -1766,7 +1764,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688262+00:00",
-    "price": "69,99 €"
+    "price": "69,99 €",
+    "pending_price": "85,00 €",
+    "pending_price_count": 1
   },
   "ES:B0GY5GY45X": {
     "name": "Splatoon Raiders",
@@ -2196,9 +2196,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689127+00:00",
-    "price": "47,99 €",
-    "pending_price": "49,99 €",
-    "pending_price_count": 1
+    "price": "49,99 €"
   },
   "ES:B0HHNM4RM3": {
     "name": "Final Fantasy VII Revelation",
@@ -2296,9 +2294,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689326+00:00",
-    "price": "54,99 €",
-    "pending_price": "58,99 €",
-    "pending_price_count": 1
+    "price": "58,99 €"
   },
   "ES:B0H1MYYD1H": {
     "name": "Captain Tsubasa 2: World Fighters",
