@@ -258,7 +258,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "84,99 €"
+    "price": "84,99 €",
+    "pending_price": "99,00 €",
+    "pending_price_count": 1
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -2120,9 +2122,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498891+00:00",
-    "price": "27,90 €",
-    "pending_price": "28,00 €",
-    "pending_price_count": 1
+    "price": "28,00 €"
   },
   "ES:B07MWXG7QV": {
     "name": "Days Gone [Importación francesa]",
@@ -2728,9 +2728,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500241+00:00",
-    "price": "23,24 €",
-    "pending_price": "23,25 €",
-    "pending_price_count": 1
+    "price": "23,25 €"
   },
   "ES:B07G2D87BV": {
     "name": "Auriculares Gaming Stereo Sony Oficial PS4 Bigben Interactive - Compatible con PS5",
@@ -3100,9 +3098,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T10:31:31.028252+00:00",
-    "price": "28,38 €",
-    "pending_price": "28,97 €",
-    "pending_price_count": 1
+    "price": "28,97 €"
   },
   "ES:B0FRYBZR91": {
     "name": "Sony Consola PlayStation5 Pro - 2TB",
