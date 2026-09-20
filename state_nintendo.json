@@ -1067,7 +1067,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T12:20:51.137100+00:00",
-    "price": "301,89 €"
+    "price": "301,89 €",
+    "pending_price": "369,00 €",
+    "pending_price_count": 1
   },
   "ES:B0D7F3WHPV": {
     "name": "Super Mario Party Jamboree - Nintendo Switch",
@@ -1291,7 +1293,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T00:23:08.150021+00:00",
-    "price": "35,31 €"
+    "price": "35,31 €",
+    "pending_price": "35,46 €",
+    "pending_price_count": 1
   },
   "ES:B0GSSQYPK3": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
@@ -2051,7 +2055,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
     "price": "40,00 €",
-    "pending_price": "42,05 €",
+    "pending_price": "41,99 €",
     "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
@@ -2073,7 +2077,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688827+00:00",
-    "price": "383,94 €"
+    "price": "382,01 €"
   },
   "ES:B09B85F56N": {
     "name": "Monopoly Código De Descarga Switch",
@@ -2164,9 +2168,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689031+00:00",
-    "price": "296,10 €",
-    "pending_price": "299,90 €",
-    "pending_price_count": 1
+    "price": "296,10 €"
   },
   "ES:B09J1NFWN7": {
     "name": "Nintendo Switch (versión OLED) Azul Neón/Rojo Neón + Nintendo Switch Online - 12 Meses (Código de descarga)",
@@ -2320,9 +2322,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689402+00:00",
-    "price": "55,10 €",
-    "pending_price": "59,99 €",
-    "pending_price_count": 1
+    "price": "59,99 €"
   },
   "ES:B0FKH81W82": {
     "name": "Operation Night Strikers Assault Edition NS",
