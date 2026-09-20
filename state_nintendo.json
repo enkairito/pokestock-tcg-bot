@@ -604,7 +604,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478275+00:00",
-    "price": "44,99 €"
+    "price": "44,99 €",
+    "pending_price": "54,56 €",
+    "pending_price_count": 1
   },
   "ES:B0DS1S2Z7L": {
     "name": "ivoler 4 Piezas Protector Pantalla para Nintendo Switch 2 Model 2025, instalación en 30 segundos Incluye Marco de Instalación Fácil, Cristal Vidrio Templado Premium",
@@ -618,7 +620,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478293+00:00",
-    "price": "28,57 €"
+    "price": "28,39 €"
   },
   "ES:B0DFD3S5LM": {
     "name": "MySims: Colección Sofá y Mantita Switch / Switch 2 | Videojuegos | Castellano",
@@ -1202,7 +1204,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T06:23:10.440676+00:00",
-    "price": "36,90 €"
+    "price": "36,90 €",
+    "pending_price": "37,90 €",
+    "pending_price_count": 1
   },
   "ES:B0DDTPX5DY": {
     "name": "Tatybo Cascos Gaming Inalámbricos para PC/Ps5/Ps4, Auriculares Gaming Inalámbricos con 2,4 GHz+Bluetooth 5,3 Modo Dual, 7.1 Sonido Envolvente, Duración 40Hr+",
@@ -1291,9 +1295,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T00:23:08.150021+00:00",
-    "price": "35,31 €",
-    "pending_price": "35,46 €",
-    "pending_price_count": 1
+    "price": "35,46 €"
   },
   "ES:B0GSSQYPK3": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
@@ -1514,9 +1516,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850955+00:00",
-    "price": "74,99 €",
-    "pending_price": "79,99 €",
-    "pending_price_count": 1
+    "price": "79,99 €"
   },
   "ES:B01MS7YUA7": {
     "name": "Agarre cómodo Joy-Con para Nintendo Switch: Negro",
@@ -2055,7 +2055,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
     "price": "40,00 €",
-    "pending_price": "41,93 €",
+    "pending_price": "41,87 €",
     "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
@@ -2077,9 +2077,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688827+00:00",
-    "price": "382,01 €",
-    "pending_price": "395,88 €",
-    "pending_price_count": 1
+    "price": "395,88 €"
   },
   "ES:B09B85F56N": {
     "name": "Monopoly Código De Descarga Switch",
