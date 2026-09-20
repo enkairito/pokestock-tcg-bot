@@ -721,12 +721,9 @@
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
-    "status": "compra_directa",
-    "stock": "1",
-    "first_seen": "2026-08-30T20:46:19.644837+00:00",
-    "price": "53,71 €",
-    "pending_price": "64,23 €",
-    "pending_price_count": 1
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-30T20:46:19.644837+00:00"
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -1323,9 +1320,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-04T21:32:58.802660+00:00",
-    "price": "117,84 €",
-    "pending_price": "195,58 €",
-    "pending_price_count": 1
+    "price": "117,84 €"
   },
   "UK:B0GWK631XY": {
     "name": "Pokémon TCG: Mega Moonlit Tin - Mega Gengar ex (4 potenciadores y 1 tarjeta promocional de aluminio)",
@@ -1620,7 +1615,7 @@
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
     "price": "106,20 €",
-    "pending_price": "144,85 €",
+    "pending_price": "123,44 €",
     "pending_price_count": 1
   },
   "UK:B0CJM4MQTT": {
