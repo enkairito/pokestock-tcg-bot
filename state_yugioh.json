@@ -21,7 +21,7 @@
   "ES:B0FZTZK1WF": {
     "name": "Yu-Gi-Oh! Laberinto DE Muertos 3-Pack Booster (Versión en español)",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "5",
     "first_seen": "2026-09-07T17:41:03.832724+00:00",
     "price": "12,99 €"
   },
@@ -55,9 +55,11 @@
   "ES:B0G6FW7PFW": {
     "name": "Yu-Gi-Oh! Rarity Collection V Display (24) (Versión en español)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-09-07T17:41:22.046401+00:00",
-    "price": "150,00 €"
+    "price": "150,00 €",
+    "pending_price": "160,93 €",
+    "pending_price_count": 1
   },
   "ES:B0FZV792N8": {
     "name": "Yu-Gi-Oh! Laberinto DE Muertos Display (24) (Versión en español)",
@@ -113,9 +115,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:42:10.254074+00:00",
-    "price": "30,51 €",
-    "pending_price": "30,54 €",
-    "pending_price_count": 1
+    "price": "30,54 €"
   },
   "ES:B0FMKJ7PBX": {
     "name": "YU-GI-OH! JCC EL DECK DE LAS CRÓNICAS: El Caído y El Virtuoso (Edición All-Foil)",
@@ -211,7 +211,7 @@
   "ES:B0F8NRC5WT": {
     "name": "Yu-Gi-Oh! Chronicles:Fallen & Virtuous Card Sleeves(50)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "4",
     "first_seen": "2026-09-10T11:45:06.861286+00:00",
     "price": "11,53 €"
   }
