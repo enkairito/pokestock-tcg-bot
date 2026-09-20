@@ -201,9 +201,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616734+00:00",
-    "price": "210,00 €",
-    "pending_price": "227,90 €",
-    "pending_price_count": 1
+    "price": "227,90 €"
   },
   "ES:B07B9N6ZKS": {
     "name": "PS4 Slim 500 GB negro Playstation 4 – FIFA 18 + 2 mandos DualShock 4",
@@ -260,9 +258,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "84,99 €",
-    "pending_price": "99,00 €",
-    "pending_price_count": 1
+    "price": "99,00 €"
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -313,7 +309,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018808+00:00",
-    "price": "19,79 €"
+    "price": "18,98 €"
   },
   "ES:B09KTGP5C2": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition, PlayStation 4",
@@ -971,7 +967,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:25:09.102652+00:00",
-    "price": "20,39 €"
+    "price": "20,39 €",
+    "pending_price": "23,99 €",
+    "pending_price_count": 1
   },
   "ES:B0F49RD95B": {
     "name": "Orzly Funda de Transporte para Consola Nintendo Switch 2 2025 de 7.9 Pulgadas, Funda rígida con Almacenamiento Inteligente para Accesorios y Bolsillos de Juegos, Edición de Caja de Regalo",
@@ -1356,9 +1354,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T04:35:55.955905+00:00",
-    "price": "649,00 €",
-    "pending_price": "729,91 €",
-    "pending_price_count": 1
+    "price": "729,91 €"
   },
   "ES:B0D8KXMCTC": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Naranja)",
@@ -1410,9 +1406,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.312460+00:00",
-    "price": "205,00 €",
-    "pending_price": "212,99 €",
-    "pending_price_count": 1
+    "price": "212,99 €"
   },
   "ES:B0GZVXB4DX": {
     "name": "Grand Theft Auto VI - Xbox Series X/S (Código de descarga)",
@@ -1478,7 +1472,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.312504+00:00",
-    "price": "589,00 €"
+    "price": "589,00 €",
+    "pending_price": "719,90 €",
+    "pending_price_count": 1
   },
   "ES:B00BE4HOIM": {
     "name": "Sony PlayStation 4 500GB Console (Black) [Importación inglesa]",
@@ -2138,7 +2134,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498960+00:00",
-    "price": "36,92 €"
+    "price": "36,92 €",
+    "pending_price": "43,22 €",
+    "pending_price_count": 1
   },
   "ES:B09PJ4WZWC": {
     "name": "Far Cry 6 (PS4) (PS4)",
@@ -2194,7 +2192,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499236+00:00",
-    "price": "12,99 €"
+    "price": "12,99 €",
+    "pending_price": "16,99 €",
+    "pending_price_count": 1
   },
   "ES:B00DC267Z0": {
     "name": "Kingdom Hearts III (PlayStation PS4)",
@@ -2357,7 +2357,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499889+00:00",
-    "price": "37,00 €"
+    "price": "26,70 €"
   },
   "ES:B08TJGKN5J": {
     "name": "PS4 Horizon Forbidden West",
@@ -2560,7 +2560,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500116+00:00",
-    "price": "44,19 €"
+    "price": "44,19 €",
+    "pending_price": "49,99 €",
+    "pending_price_count": 1
   },
   "ES:B0C4318D9S": {
     "name": "4 Piezas para PS5 3D Joystick Analógico de Repuesto para Play Station 5 PS5 Joystick ThumbSticks Accesorios con Herramientas de Reparación",
@@ -2712,7 +2714,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500227+00:00",
-    "price": "20,39 €"
+    "price": "20,39 €",
+    "pending_price": "23,99 €",
+    "pending_price_count": 1
   },
   "ES:B0BPXQ3DHG": {
     "name": "KDD Led Soporte Auriculares Gaming con 2 Puertos de Carga USB & 1 Tipo-C | Soporte Cascos y Mando con 3,5mm Conector de Audio, Headset Stand con 9 Modos de Luz para Accesorios Gaming PC PS4 PS5,Blanco",
@@ -3250,7 +3254,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T14:31:52.732470+00:00",
-    "price": "21,66 €"
+    "price": "21,66 €",
+    "pending_price": "21,67 €",
+    "pending_price_count": 1
   },
   "ES:B07L674L8R": {
     "name": "Crash Team Racing Nitro-Fueled",
@@ -3409,9 +3415,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T14:32:21.327075+00:00",
-    "price": "19,90 €",
-    "pending_price": "21,50 €",
-    "pending_price_count": 1
+    "price": "21,50 €"
   },
   "ES:B01BGQ80BM": {
     "name": "Odin Sphere Leifthrasir (PS4)",
