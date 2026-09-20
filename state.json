@@ -1132,7 +1132,7 @@
   "US:B0GR6N18F6": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-08-31T17:55:22.065539+00:00",
     "price": "105,67 €"
   },
@@ -1470,7 +1470,7 @@
   "US:B0G72SPRP6": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802874+00:00",
     "price": "88,29 €"
   },
@@ -1519,7 +1519,7 @@
   "US:B0CQD9VBWS": {
     "name": "Pokemon Scarlet & Violet 151 | Booster Pack",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802915+00:00",
     "price": "53,35 €"
   },
@@ -1710,7 +1710,7 @@
   "US:B0F6PMVQWQ": {
     "name": "Pokémon TCG Scarlet & Violet 10.5 Black Bolt Booster Set",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
     "price": "138,05 €"
   },
