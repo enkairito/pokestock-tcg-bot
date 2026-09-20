@@ -78,7 +78,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-25T20:27:54.285181+00:00",
-    "price": "65,98 €"
+    "price": "64,98 €"
   },
   "ES:B0G4NQK15P": {
     "name": "Pokémon: Minilata Megaevolución-Héroes Ascendentes: Clefairy y Chikorita (1 Pegatina, 1 Tarjeta Pokémon ilustrada y 2 Sobres de Mejora)",
@@ -185,10 +185,12 @@
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
-    "status": "invitacion",
+    "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-25T20:27:53.163274+00:00",
-    "price": "52,99 €"
+    "price": "52,99 €",
+    "pending_price": "75,99 €",
+    "pending_price_count": 1
   },
   "ES:B0GSSQYPK3": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
@@ -1313,9 +1315,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802653+00:00",
-    "price": "86,16 €",
-    "pending_price": "87,81 €",
-    "pending_price_count": 1
+    "price": "86,16 €"
   },
   "UK:B0CMZS84KP": {
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
@@ -1785,7 +1785,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-08T14:34:56.335794+00:00",
-    "price": "96,87 €"
+    "price": "96,87 €",
+    "pending_price": "98,75 €",
+    "pending_price_count": 1
   },
   "UK:B0FK2BN732": {
     "name": "Pokémon Pikachu V-Union Box Edición China Limitada Coleccionista TCG",
