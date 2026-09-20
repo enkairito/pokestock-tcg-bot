@@ -1067,9 +1067,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T12:20:51.137100+00:00",
-    "price": "301,89 €",
-    "pending_price": "369,00 €",
-    "pending_price_count": 1
+    "price": "369,00 €"
   },
   "ES:B0D7F3WHPV": {
     "name": "Super Mario Party Jamboree - Nintendo Switch",
@@ -1516,7 +1514,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850955+00:00",
-    "price": "74,99 €"
+    "price": "74,99 €",
+    "pending_price": "79,99 €",
+    "pending_price_count": 1
   },
   "ES:B01MS7YUA7": {
     "name": "Agarre cómodo Joy-Con para Nintendo Switch: Negro",
@@ -1766,7 +1766,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688262+00:00",
-    "price": "85,00 €"
+    "price": "69,99 €"
   },
   "ES:B0GY5GY45X": {
     "name": "Splatoon Raiders",
@@ -1891,7 +1891,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688484+00:00",
-    "price": "47,90 €"
+    "price": "39,95 €"
   },
   "ES:B0GWKDHTG8": {
     "name": "Tomodachi Life: Una vida de ensueño Standard | Nintendo Switch - Código de descarga",
@@ -2055,7 +2055,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
     "price": "40,00 €",
-    "pending_price": "41,99 €",
+    "pending_price": "41,93 €",
     "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
@@ -2077,7 +2077,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688827+00:00",
-    "price": "382,01 €"
+    "price": "382,01 €",
+    "pending_price": "395,88 €",
+    "pending_price_count": 1
   },
   "ES:B09B85F56N": {
     "name": "Monopoly Código De Descarga Switch",
