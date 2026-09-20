@@ -723,7 +723,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
-    "price": "53,93 €"
+    "price": "53,93 €",
+    "pending_price": "64,44 €",
+    "pending_price_count": 1
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -798,7 +800,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "65,19 €"
   },
@@ -1438,7 +1440,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802813+00:00",
-    "price": "23,62 €"
+    "price": "23,62 €",
+    "pending_price": "23,70 €",
+    "pending_price_count": 1
   },
   "UK:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -1519,7 +1523,7 @@
   "US:B0CQD9VBWS": {
     "name": "Pokemon Scarlet & Violet 151 | Booster Pack",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802915+00:00",
     "price": "53,35 €"
   },
@@ -1783,9 +1787,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-08T14:34:56.335794+00:00",
-    "price": "96,87 €",
-    "pending_price": "98,75 €",
-    "pending_price_count": 1
+    "price": "96,87 €"
   },
   "UK:B0FK2BN732": {
     "name": "Pokémon Pikachu V-Union Box Edición China Limitada Coleccionista TCG",
