@@ -504,9 +504,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "149,99 €",
-    "pending_price": "209,72 €",
-    "pending_price_count": 1
+    "price": "209,72 €"
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -841,7 +839,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:21:08.267403+00:00",
-    "price": "41,24 €"
+    "price": "41,24 €",
+    "pending_price": "42,24 €",
+    "pending_price_count": 1
   },
   "ES:B07M7X2JLB": {
     "name": "Dark Souls Trilogy - Xbox One [Importación inglesa]",
@@ -3255,7 +3255,7 @@
     "stock": null,
     "first_seen": "2026-09-18T14:31:49.729335+00:00",
     "price": "76,57 €",
-    "pending_price": "84,96 €",
+    "pending_price": "84,37 €",
     "pending_price_count": 1
   },
   "ES:B0DBQRTLFN": {
@@ -3593,5 +3593,12 @@
     "stock": null,
     "first_seen": "2026-09-19T14:32:18.169525+00:00",
     "price": "69,99 €"
+  },
+  "ES:B0D8KQT4DX": {
+    "name": "GameSir G7 HE Mando con Cable para Xbox y PC, Joysticks Efecto Hall, Blanco | Licencia oficial para Xbox Series X|S, Xbox One, Windows 10|11, PC, controller de videojuegos con sticks de efecto Hall",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T08:31:27.674992+00:00",
+    "price": "65,99 €"
   }
 }
