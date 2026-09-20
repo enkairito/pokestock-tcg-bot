@@ -346,9 +346,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T10:47:55.002254+00:00",
-    "price": "109,99 €",
-    "pending_price": "120,93 €",
-    "pending_price_count": 1
+    "price": "109,99 €"
   },
   "ES:B0G86Z6QYF": {
     "name": "Mazo temático de 60 Cartas de Magic: The Gathering - Inquietante (Versión en Inglés)",
@@ -389,5 +387,11 @@
     "stock": null,
     "price": "29,00 €",
     "first_seen": "2026-09-12T18:18:11.175086+00:00"
+  },
+  "ES:B0G87LPM5Y": {
+    "name": "sobre de Juego de Secretos de Strixhaven, de Magic: The Gathering (Versión en Inglés)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-20T00:16:42.713053+00:00"
   }
 }
