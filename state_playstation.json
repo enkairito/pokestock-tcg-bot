@@ -1828,7 +1828,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.497964+00:00",
-    "price": "13,52 €"
+    "price": "13,52 €",
+    "pending_price": "14,99 €",
+    "pending_price_count": 1
   },
   "ES:B09CLRJS83": {
     "name": "NIS America The Legend of Heroes: Trails to Azure Edición Deluxe (Nintendo Switch)",
@@ -1947,7 +1949,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498263+00:00",
-    "price": "47,99 €"
+    "price": "47,69 €"
   },
   "ES:B0DLGNT4V3": {
     "name": "Clair Obscur: Expedition 33",
@@ -3124,7 +3126,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:32:05.432870+00:00",
-    "price": "9,24 €"
+    "price": "9,24 €",
+    "pending_price": "9,34 €",
+    "pending_price_count": 1
   },
   "ES:B0FT8FBMK5": {
     "name": "Code Vein II",
@@ -3376,9 +3380,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T14:32:21.326608+00:00",
-    "price": "46,50 €",
-    "pending_price": "47,00 €",
-    "pending_price_count": 1
+    "price": "46,50 €"
   },
   "ES:B0FFTLLS8R": {
     "name": "Turok Trilogy Bundle - PS5",
@@ -3449,5 +3451,19 @@
     "stock": null,
     "first_seen": "2026-09-20T02:31:51.947753+00:00",
     "price": "11,99 €"
+  },
+  "ES:B09H7V5WM2": {
+    "name": "Kena: Bridge of Spirits - Deluxe Edition",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T04:31:50.447844+00:00",
+    "price": "19,99 €"
+  },
+  "ES:B0D6PFPTXH": {
+    "name": "Metal Gear Solid Delta Snake Eater D1 Edition - PS5",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T04:31:50.447883+00:00",
+    "price": "49,99 €"
   }
 }
