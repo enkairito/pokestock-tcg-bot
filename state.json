@@ -715,14 +715,14 @@
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
     "price": "56,71 €"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "4",
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
     "price": "53,93 €"
   },
@@ -1494,7 +1494,7 @@
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802892+00:00",
     "price": "80,07 €",
-    "pending_price": "81,31 €",
+    "pending_price": "80,69 €",
     "pending_price_count": 1
   },
   "US:B0F6PQLR16": {
@@ -1530,7 +1530,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802920+00:00",
-    "price": "340,67 €"
+    "price": "340,63 €"
   },
   "US:B0DSLX39J1": {
     "name": "Pokémon TCG: Scarlet & Violet - Journey Together - Paquete de 3 ampollas - Yanmega (3 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
@@ -1579,7 +1579,7 @@
   "UK:B0D9DLZ6DG": {
     "name": "Pokémon TCG: Miraidon ex Battle Deck (Ready-to-Play 60-Card Deck)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "4",
     "first_seen": "2026-09-04T22:05:43.537193+00:00",
     "price": "42,12 €"
   },
@@ -1712,7 +1712,7 @@
   "US:B0F6PMVQWQ": {
     "name": "Pokémon TCG Scarlet & Violet 10.5 Black Bolt Booster Set",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
     "price": "138,05 €"
   },
