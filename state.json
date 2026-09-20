@@ -728,7 +728,7 @@
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
     "price": "240,97 €"
   },
@@ -1776,7 +1776,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-08T14:34:56.335771+00:00",
-    "price": "38,64 €"
+    "price": "38,64 €",
+    "pending_price": "40,11 €",
+    "pending_price_count": 1
   },
   "UK:B0DG8VNG1F": {
     "name": "Pokémon TCG: Scarlet & Violet—Shrouded Fable Booster Bundle (6 Booster Packs)",
@@ -1837,10 +1839,9 @@
   },
   "UK:B00TA6E3KI": {
     "name": "100 Assorted Basic Pokemon TCG Energy Cards",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-08T14:34:56.335882+00:00",
-    "price": "16,98 €"
+    "first_seen": "2026-09-08T14:34:56.335882+00:00"
   },
   "US:B0F1GXTFGL": {
     "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
