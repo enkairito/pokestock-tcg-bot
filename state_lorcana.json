@@ -17,9 +17,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-07T17:41:04.537441+00:00",
-    "price": "37,15 €",
-    "pending_price": "38,90 €",
-    "pending_price_count": 1
+    "price": "38,90 €"
   },
   "ES:B0H8S82717": {
     "name": "Disney Lorcana TCG - Kit de iniciación para coleccionistas Rapunzel Edition",
@@ -178,7 +176,7 @@
   "ES:B0DDPH3JQB": {
     "name": "Disney Lorcana Trading Card Game: Archazias Isla – Booster Display con 24 Booster Packs (en inglés)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-09-08T11:29:17.563714+00:00",
     "price": "163,70 €"
   },
@@ -187,9 +185,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-09T11:34:34.043787+00:00",
-    "price": "55,13 €",
-    "pending_price": "56,45 €",
-    "pending_price_count": 1
+    "price": "56,45 €"
   },
   "ES:B0H6JBF9FM": {
     "name": "Ravensburger Disney Lorcana TCG: Attack of the Vine! Paquete de refuerzo individual surtido (12 tarjetas) - Tarjetas coleccionables - Ideal para fanáticos de Disney y jugadores de TCG - Adecuado para",
@@ -302,5 +298,12 @@
     "stock": null,
     "first_seen": "2026-09-17T18:16:11.318588+00:00",
     "price": "37,95 €"
+  },
+  "ES:B0DTK37TF3": {
+    "name": "Juego de Cartas coleccionables Disney Lorcana: Myths - Mufasa Playmat",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T18:16:15.865534+00:00",
+    "price": "19,99 €"
   }
 }
