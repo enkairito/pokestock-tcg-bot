@@ -165,7 +165,7 @@
   "ES:B0GZL7PBX1": {
     "name": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Oscuridad Absoluta (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": null,
     "first_seen": "2026-08-25T20:27:53.163260+00:00",
     "price": "23,98 €"
   },
@@ -293,7 +293,7 @@
   "ES:B0CT5T766W": {
     "name": "Pokémon: Cofre de Coleccionista - 2022",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-08-25T20:27:53.163288+00:00",
     "price": "34,99 €"
   },
@@ -2943,7 +2943,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T15:23:27.918742+00:00",
-    "price": "97,57 €"
+    "price": "97,56 €"
   },
   "UK:B0H2N248WM": {
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promoción exclusiva de Fennekin | 11 paquetes de refuerzo",
