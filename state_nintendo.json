@@ -618,9 +618,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478293+00:00",
-    "price": "28,39 €",
-    "pending_price": "28,48 €",
-    "pending_price_count": 1
+    "price": "28,48 €"
   },
   "ES:B0DFD3S5LM": {
     "name": "MySims: Colección Sofá y Mantita Switch / Switch 2 | Videojuegos | Castellano",
@@ -1431,7 +1429,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850805+00:00",
-    "price": "287,00 €"
+    "price": "286,00 €"
   },
   "ES:B092JL5NS2": {
     "name": "Nintendo Switch Lite Azul",
@@ -1764,9 +1762,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688262+00:00",
-    "price": "69,99 €",
-    "pending_price": "85,00 €",
-    "pending_price_count": 1
+    "price": "85,00 €"
   },
   "ES:B0GY5GY45X": {
     "name": "Splatoon Raiders",
@@ -2054,7 +2050,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
-    "price": "39,62 €"
+    "price": "39,62 €",
+    "pending_price": "41,73 €",
+    "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
     "name": "Nintendo Switch Lite - Consola Coral + Animal Crossing + 12 meses NSO",
@@ -2065,19 +2063,16 @@
   },
   "ES:B084DDDNRP": {
     "name": "Nintendo - Switch - Animal Crossing: New Horizons Edition 32GB Console - Multi",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.688819+00:00",
-    "price": "434,04 €"
+    "first_seen": "2026-09-17T00:32:50.688819+00:00"
   },
   "ES:B0FQC3P2Y1": {
     "name": "Nintendo Switch Lite Blue + Animal Crossing New Horizons",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688827+00:00",
-    "price": "395,88 €",
-    "pending_price": "406,34 €",
-    "pending_price_count": 1
+    "price": "395,88 €"
   },
   "ES:B09B85F56N": {
     "name": "Monopoly Código De Descarga Switch",
@@ -2091,7 +2086,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688852+00:00",
-    "price": "86,00 €"
+    "price": "78,65 €"
   },
   "ES:B0DP2W1NLC": {
     "name": "Markt + Technik Sonic Colours Ultimate para Switch",
@@ -3254,7 +3249,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:52.754116+00:00",
-    "price": "40,89 €"
+    "price": "31,88 €"
   },
   "ES:B0FKTB66TN": {
     "name": "Octopath Traveler 0",
@@ -3618,5 +3613,19 @@
     "stock": null,
     "first_seen": "2026-09-20T14:31:42.718291+00:00",
     "price": "19,99 €"
+  },
+  "ES:B0DMTM61XW": {
+    "name": "Nintendo Switch (versión OLED) Azul Neón/Rojo Neón & Mario & Luigi: Brothership",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T18:31:38.420892+00:00",
+    "price": "374,99 €"
+  },
+  "ES:B0FLJPDK1Y": {
+    "name": "BKELHS Slim Cover for Nintendo Switch 2 Case, Joy-con Split Design, Hard Slim Lightweight Anti-Scratch Full Protective Dockable Switch 2 Controller Case Shockproof Non-Slip for Switch 2 Accessories",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T18:31:38.421226+00:00",
+    "price": "11,99 €"
   }
 }
