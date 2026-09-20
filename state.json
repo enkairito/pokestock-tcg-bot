@@ -165,7 +165,7 @@
   "ES:B0GZL7PBX1": {
     "name": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Oscuridad Absoluta (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "first_seen": "2026-08-25T20:27:53.163260+00:00",
     "price": "23,98 €"
   },
@@ -715,7 +715,7 @@
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
     "price": "56,71 €"
   },
@@ -1134,7 +1134,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-31T17:55:22.065539+00:00",
-    "price": "103,55 €"
+    "price": "103,55 €",
+    "pending_price": "105,67 €",
+    "pending_price_count": 1
   },
   "US:B09CQJ564T": {
     "name": "Pokemon SAS7 Evolving Skies Eliter Trainer Box - Azul",
@@ -1451,7 +1453,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802829+00:00",
-    "price": "102,16 €"
+    "price": "102,16 €",
+    "pending_price": "102,97 €",
+    "pending_price_count": 1
   },
   "US:B0G3CS6XB9": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Premium Poster Collection—Mega Lucario (1 Tarjeta Promocional de Aluminio, 1 póster de Doble Cara y 10 Paquetes de Refuerzo)",
@@ -1492,9 +1496,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802892+00:00",
-    "price": "81,31 €",
-    "pending_price": "82,04 €",
-    "pending_price_count": 1
+    "price": "82,04 €"
   },
   "US:B0F6PQLR16": {
     "name": "Pokemon TCG Scarlet & Violet 10.5 White Flare Binder Collection Box - 5 Packs",
