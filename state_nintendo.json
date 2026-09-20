@@ -1934,7 +1934,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688535+00:00",
-    "price": "33,85 €"
+    "price": "33,85 €",
+    "pending_price": "34,57 €",
+    "pending_price_count": 1
   },
   "ES:B0F3NKCYC4": {
     "name": "Super Mario Party: Jamboree - Nintendo Switch 2 Edition + Jamboree TV (Switch 2)",
@@ -2053,7 +2055,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
-    "price": "40,00 €"
+    "price": "40,00 €",
+    "pending_price": "42,15 €",
+    "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
     "name": "Nintendo Switch Lite - Consola Coral + Animal Crossing + 12 meses NSO",
@@ -2193,7 +2197,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689127+00:00",
-    "price": "49,99 €"
+    "price": "47,99 €"
   },
   "ES:B0HHNM4RM3": {
     "name": "Final Fantasy VII Revelation",
