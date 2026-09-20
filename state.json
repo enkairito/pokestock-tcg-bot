@@ -186,7 +186,7 @@
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "3",
     "first_seen": "2026-08-25T20:27:53.163274+00:00",
     "price": "75,99 €"
   },
@@ -1313,9 +1313,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802653+00:00",
-    "price": "86,14 €",
-    "pending_price": "86,15 €",
-    "pending_price_count": 1
+    "price": "86,15 €"
   },
   "UK:B0CMZS84KP": {
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
@@ -1396,7 +1394,7 @@
   "UK:B0F634M6PY": {
     "name": "Pokemon Juego de Cartas coleccionables - Scarlet & Violet 10 - Destined Rivals Booster",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802777+00:00",
     "price": "23,49 €"
   },
@@ -1783,9 +1781,11 @@
   "UK:B0DG8VNG1F": {
     "name": "Pokémon TCG: Scarlet & Violet—Shrouded Fable Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-09-08T14:34:56.335794+00:00",
-    "price": "96,87 €"
+    "price": "96,87 €",
+    "pending_price": "98,75 €",
+    "pending_price_count": 1
   },
   "UK:B0FK2BN732": {
     "name": "Pokémon Pikachu V-Union Box Edición China Limitada Coleccionista TCG",
@@ -2945,7 +2945,7 @@
   "UK:B0H2N248WM": {
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promoción exclusiva de Fennekin | 11 paquetes de refuerzo",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-09-18T16:03:17.239363+00:00",
     "price": "160,36 €"
   },
