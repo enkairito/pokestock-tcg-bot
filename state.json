@@ -192,10 +192,9 @@
   },
   "ES:B0GSSQYPK3": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-08-25T20:27:53.163279+00:00",
-    "price": "29,94 €"
+    "first_seen": "2026-08-25T20:27:53.163279+00:00"
   },
   "ES:B0GSSJ9RB1": {
     "name": "Pokémon: Expositor de Sobres de Mejora de Megaevolución-Caos Creciente (18 Sobres de Mejora)",
@@ -1328,9 +1327,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802667+00:00",
-    "price": "76,25 €",
-    "pending_price": "76,93 €",
-    "pending_price_count": 1
+    "price": "76,93 €"
   },
   "UK:B0CT4HR8F9": {
     "name": "Pokémon - Juego de cartas Scarlet & Violet Night Wanderer, caja de sobres de expansión, 30 sobres (versión japonesa)",
@@ -1713,16 +1710,16 @@
   "US:B0F6PMVQWQ": {
     "name": "Pokémon TCG Scarlet & Violet 10.5 Black Bolt Booster Set",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
     "price": "138,05 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-09-06T13:57:50.628764+00:00",
-    "price": "21,65 €"
+    "price": "21,63 €"
   },
   "UK:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
@@ -2941,7 +2938,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T15:23:27.918742+00:00",
-    "price": "97,53 €"
+    "price": "97,51 €"
   },
   "UK:B0H2N248WM": {
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promoción exclusiva de Fennekin | 11 paquetes de refuerzo",
