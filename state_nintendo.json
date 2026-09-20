@@ -35,7 +35,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.362342+00:00",
-    "price": "18,00 €"
+    "price": "18,00 €",
+    "pending_price": "18,07 €",
+    "pending_price_count": 1
   },
   "ES:B0FQWHWWSG": {
     "name": "Metroid Prime 4: Beyond - Switch",
@@ -762,7 +764,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T06:29:23.882145+00:00",
-    "price": "20,99 €"
+    "price": "20,99 €",
+    "pending_price": "21,99 €",
+    "pending_price_count": 1
   },
   "ES:B0DB2MSGCZ": {
     "name": "NK Wireless Switch Controller - Switch 2/Lite/OLED with Wake Function, Bluetooth, 6 Axis, Turbo, Double Vibration, LED Indicators - Blue",
@@ -1202,9 +1206,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T06:23:10.440676+00:00",
-    "price": "36,90 €",
-    "pending_price": "37,90 €",
-    "pending_price_count": 1
+    "price": "37,90 €"
   },
   "ES:B0DDTPX5DY": {
     "name": "Tatybo Cascos Gaming Inalámbricos para PC/Ps5/Ps4, Auriculares Gaming Inalámbricos con 2,4 GHz+Bluetooth 5,3 Modo Dual, 7.1 Sonido Envolvente, Duración 40Hr+",
@@ -1521,7 +1523,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850960+00:00",
-    "price": "19,43 €"
+    "price": "15,99 €"
   },
   "ES:B0FYHR3MYZ": {
     "name": "Nintendo Switch 2 - Pro Controller Resident Evil Requiem Edition",
@@ -2052,9 +2054,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
-    "price": "40,00 €",
-    "pending_price": "41,85 €",
-    "pending_price_count": 1
+    "price": "39,62 €"
   },
   "ES:B0DGGSZTCX": {
     "name": "Nintendo Switch Lite - Consola Coral + Animal Crossing + 12 meses NSO",
@@ -2075,7 +2075,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688827+00:00",
-    "price": "395,88 €"
+    "price": "395,88 €",
+    "pending_price": "406,34 €",
+    "pending_price_count": 1
   },
   "ES:B09B85F56N": {
     "name": "Monopoly Código De Descarga Switch",
@@ -2194,7 +2196,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689127+00:00",
-    "price": "47,99 €"
+    "price": "47,99 €",
+    "pending_price": "49,99 €",
+    "pending_price_count": 1
   },
   "ES:B0HHNM4RM3": {
     "name": "Final Fantasy VII Revelation",
@@ -2292,7 +2296,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689326+00:00",
-    "price": "54,99 €"
+    "price": "54,99 €",
+    "pending_price": "58,99 €",
+    "pending_price_count": 1
   },
   "ES:B0H1MYYD1H": {
     "name": "Captain Tsubasa 2: World Fighters",
@@ -3217,9 +3223,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:52.753836+00:00",
-    "price": "65,99 €",
-    "pending_price": "73,60 €",
-    "pending_price_count": 1
+    "price": "73,60 €"
   },
   "ES:B0FCTL7D1N": {
     "name": "MME Tapas de Joystick compatibles con Nintendo Switch 2 | Protector de Joystick para Switch 2, Agarres para el pulgar de silicona para Switch 2, PS 4, PS5, Xbox",
@@ -3604,5 +3608,19 @@
     "stock": null,
     "first_seen": "2026-09-20T12:31:31.032603+00:00",
     "price": "15,99 €"
+  },
+  "ES:B0H4QT3N2M": {
+    "name": "Hot Wheels Infinite Rush - Switch 2",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T14:31:42.718093+00:00",
+    "price": "42,90 €"
+  },
+  "ES:B0FS23CJBW": {
+    "name": "Turtle Beach PlayTrek Funda de Viaje Charcoal Black para Nintendo Switch 2",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T14:31:42.718291+00:00",
+    "price": "19,99 €"
   }
 }
