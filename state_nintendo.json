@@ -674,7 +674,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478367+00:00",
-    "price": "22,99 €"
+    "price": "19,54 €"
   },
   "ES:B08FCW9VVX": {
     "name": "PDP Cable Carga y Juega con Licencia Oficial (Nintendo Switch)",
@@ -1429,9 +1429,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850805+00:00",
-    "price": "286,00 €",
-    "pending_price": "287,00 €",
-    "pending_price_count": 1
+    "price": "287,00 €"
   },
   "ES:B092JL5NS2": {
     "name": "Nintendo Switch Lite Azul",
@@ -2052,9 +2050,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
-    "price": "39,62 €",
-    "pending_price": "41,67 €",
-    "pending_price_count": 1
+    "price": "39,42 €"
   },
   "ES:B0DGGSZTCX": {
     "name": "Nintendo Switch Lite - Consola Coral + Animal Crossing + 12 meses NSO",
@@ -2074,7 +2070,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688827+00:00",
-    "price": "382,16 €"
+    "price": "370,78 €"
   },
   "ES:B09B85F56N": {
     "name": "Monopoly Código De Descarga Switch",
@@ -2088,9 +2084,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688852+00:00",
-    "price": "78,65 €",
-    "pending_price": "86,00 €",
-    "pending_price_count": 1
+    "price": "86,00 €"
   },
   "ES:B0DP2W1NLC": {
     "name": "Markt + Technik Sonic Colours Ultimate para Switch",
@@ -2524,7 +2518,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689795+00:00",
-    "price": "14,24 €"
+    "price": "14,24 €",
+    "pending_price": "14,99 €",
+    "pending_price_count": 1
   },
   "ES:B0FR95PWLS": {
     "name": "Switch 2 Funda para Nintendo Switch 2 (2025), Con 4 Cubiertas de Joystick | Carcasa Protectora de Viaje Portátil, 20 Ranuras para Juegos , Bolsa Grande Antipolvo para Switch 2 Accesorios",
@@ -2600,7 +2596,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689868+00:00",
-    "price": "6,79 €"
+    "price": "6,79 €",
+    "pending_price": "7,99 €",
+    "pending_price_count": 1
   },
   "ES:B0FNMSCDZK": {
     "name": "Younik Funda Switch 2 para NS Switch 2 (2025), Kit de 15 en 1 Accesorios Incluye Funda de Transporte con 19 Ranuras para Tarjetas de Juego, Carcasa Protectora para Consola y J-Con (Rosa)",
@@ -2824,14 +2822,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.690153+00:00",
-    "price": "9,99 €"
+    "price": "8,99 €"
   },
   "ES:B0DBLMZJRJ": {
     "name": "GameSir Cyclone 2 Mando PC Inalámbrico con Base de Carga,TMR, RGB (Negro) | Mag-Res TMR Sticks 1000Hz Report Rate Hall & Micro 2-en-1 Triggers RGB Lighting with Charging Dock for PC/Switch/iOS/Android",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.690159+00:00",
-    "price": "65,99 €"
+    "price": "62,69 €"
   },
   "ES:B0FW3K559Z": {
     "name": "4 Piezas Cubierta para Joystick Switch, Silicona Thumb Grip Set Tapones para Joystick Capuchón de Reemplazo para Joystick para Nintendo Switch, Switch Lite y Controlador OLED de Switch",
@@ -2908,7 +2906,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.690225+00:00",
-    "price": "10,49 €"
+    "price": "8,92 €"
   },
   "ES:B0FMY2Y7NH": {
     "name": "Cargador 60W USB Tipo C para Switch, Cable de 2.0 m Carga Rápida, Compatible con Switch Lite, OLED, Dock, Mando Pro, Soporte Modo TV, también para Portátil, Tableta y Móvil",
@@ -3081,7 +3079,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:31:33.624327+00:00",
-    "price": "37,00 €"
+    "price": "33,40 €"
   },
   "ES:B0C2Z3HKG4": {
     "name": "Five Nights at Freddy's Security Breach",
@@ -3253,9 +3251,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:52.754116+00:00",
-    "price": "31,88 €",
-    "pending_price": "40,89 €",
-    "pending_price_count": 1
+    "price": "40,89 €"
   },
   "ES:B0FKTB66TN": {
     "name": "Octopath Traveler 0",
