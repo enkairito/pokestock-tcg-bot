@@ -128,7 +128,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388338+00:00",
-    "price": "47,56 €"
+    "price": "47,56 €",
+    "pending_price": "48,58 €",
+    "pending_price_count": 1
   },
   "ES:B08KVH51VX": {
     "name": "NEED FOR SPEED HOT PURSUIT REMASTERED",
@@ -504,7 +506,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "149,99 €"
+    "price": "149,99 €",
+    "pending_price": "209,72 €",
+    "pending_price_count": 1
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -990,9 +994,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "35,95 €",
-    "pending_price": "39,06 €",
-    "pending_price_count": 1
+    "price": "39,06 €"
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -2942,7 +2944,7 @@
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.549000+00:00",
     "price": "87,98 €",
-    "pending_price": "92,39 €",
+    "pending_price": "92,34 €",
     "pending_price_count": 1
   },
   "ES:B0GJ5G9K7W": {
@@ -3206,10 +3208,9 @@
   },
   "ES:B01IPJC9F6": {
     "name": "Bioshock: The Collection Xbox1",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-18T12:31:56.790777+00:00",
-    "price": "27,72 €"
+    "first_seen": "2026-09-18T12:31:56.790777+00:00"
   },
   "ES:B07BNN4M86": {
     "name": "Assassin'S Creed: Origins",
@@ -3590,7 +3591,7 @@
     "stock": null,
     "first_seen": "2026-09-19T14:32:18.169515+00:00",
     "price": "14,18 €",
-    "pending_price": "14,19 €",
+    "pending_price": "14,42 €",
     "pending_price_count": 1
   },
   "ES:B07DQ9JMQF": {
@@ -3882,8 +3883,13 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.580406+00:00",
-    "price": "114,07 €",
-    "pending_price": "115,31 €",
-    "pending_price_count": 1
+    "price": "115,31 €"
+  },
+  "ES:B08R6YDQTF": {
+    "name": "EBL 2800mAh Batería de Mando, LCD Cargador para Batería Mando para Xbox One/One S/One X/One Elite",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T20:31:36.304803+00:00",
+    "price": "14,99 €"
   }
 }
