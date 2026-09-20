@@ -258,7 +258,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "84,99 €"
+    "price": "84,99 €",
+    "pending_price": "99,00 €",
+    "pending_price_count": 1
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -915,9 +917,9 @@
   "ES:B0BWYYCT48": {
     "name": "Lies of P (PlayStation 4)",
     "status": "compra_directa",
-    "stock": "2",
-    "price": "38,00 €",
-    "first_seen": "2026-09-12T18:25:09.102605+00:00"
+    "stock": null,
+    "first_seen": "2026-09-12T18:25:09.102605+00:00",
+    "price": "38,00 €"
   },
   "ES:B0CSKCHJF5": {
     "name": "Videojuego PlayStation 4 2K Games Top Spin 2K25 (FR)",
@@ -1910,7 +1912,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498199+00:00",
-    "price": "9,90 €"
+    "price": "9,90 €",
+    "pending_price": "23,80 €",
+    "pending_price_count": 1
   },
   "ES:B0F24Y88V1": {
     "name": "F1 25 Standard Edition PS5 | Disco | Videojuegos | Castellano",
@@ -2162,9 +2166,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499111+00:00",
-    "price": "19,84 €",
-    "pending_price": "20,18 €",
-    "pending_price_count": 1
+    "price": "20,18 €"
   },
   "ES:B07NRHS623": {
     "name": "The Legend of Heroes: Trails of Cold Steel III [Importación francesa]",
@@ -2255,9 +2257,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499492+00:00",
-    "price": "25,12 €",
-    "pending_price": "25,13 €",
-    "pending_price_count": 1
+    "price": "25,13 €"
   },
   "ES:B07V9NP59C": {
     "name": "Remothered: Tormented Fathers",
@@ -2285,14 +2285,18 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499578+00:00",
-    "price": "25,47 €"
+    "price": "25,47 €",
+    "pending_price": "31,77 €",
+    "pending_price_count": 1
   },
   "ES:B00N77D7WQ": {
     "name": "Metro Redux Double Pack (2033 + Last Light)",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "17,14 €"
+    "price": "17,14 €",
+    "pending_price": "21,71 €",
+    "pending_price_count": 1
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2350,7 +2354,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499889+00:00",
-    "price": "26,60 €"
+    "price": "26,60 €",
+    "pending_price": "37,00 €",
+    "pending_price_count": 1
   },
   "ES:B08TJGKN5J": {
     "name": "PS4 Horizon Forbidden West",
@@ -2364,9 +2370,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499915+00:00",
-    "price": "42,57 €",
-    "pending_price": "42,67 €",
-    "pending_price_count": 1
+    "price": "42,67 €"
   },
   "ES:B07D9TFK6W": {
     "name": "Sega Mega Drive Classics",
@@ -2534,9 +2538,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500099+00:00",
-    "price": "54,90 €",
-    "pending_price": "58,90 €",
-    "pending_price_count": 1
+    "price": "58,90 €"
   },
   "ES:B0D1KBNWHF": {
     "name": "SteelSeries Arctis Nova 5 Cascos gaming inalámbricos PC, PS5, Switch 2, móvil - Controladores magnéticos de neodimio - Más de 100 preajustes de audio - Batería de 60h - 2,4 GHz o BT - Micro Gen2.X",
@@ -2842,7 +2844,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566254+00:00",
-    "price": "23,02 €"
+    "price": "22,90 €"
   },
   "ES:B0H6Y3H3PL": {
     "name": "Blasphemous: Martyrs’ Edition - PlayStation 4",
@@ -2856,7 +2858,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566412+00:00",
-    "price": "32,53 €"
+    "price": "32,53 €",
+    "pending_price": "34,70 €",
+    "pending_price_count": 1
   },
   "ES:B0F99XSMYV": {
     "name": "Tomb Raider IV-VI Remastered Starring Lara Croft - PS4",
@@ -2877,7 +2881,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566486+00:00",
-    "price": "28,87 €"
+    "price": "28,87 €",
+    "pending_price": "28,88 €",
+    "pending_price_count": 1
   },
   "ES:B07W7KWV2Y": {
     "name": "Logitech Brio 300 Full HD Webcam con Obturador de privacidad | Micrófono reducción ruido, USB-C, certificado Zoom/Teams/Google Meet, corrección de luz automática - Grafito",
@@ -3247,9 +3253,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T14:31:52.732470+00:00",
-    "price": "21,66 €",
-    "pending_price": "21,67 €",
-    "pending_price_count": 1
+    "price": "21,66 €"
   },
   "ES:B07L674L8R": {
     "name": "Crash Team Racing Nitro-Fueled",
@@ -3465,5 +3469,130 @@
     "stock": null,
     "first_seen": "2026-09-20T04:31:50.447883+00:00",
     "price": "49,99 €"
+  },
+  "ES:B09S77D7CC": {
+    "name": "Playstation Ghost of Tsushima Director's Cut Ps4 + Tarjeta Prepago PSN 10€",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:33.830392+00:00"
+  },
+  "ES:B0CXDN5TLH": {
+    "name": "Unknown 9: Awakening",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:34.022582+00:00",
+    "price": "14,54 €"
+  },
+  "ES:B0DZHZTBK2": {
+    "name": "Under Defeat PS5",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:34.022651+00:00",
+    "price": "48,09 €"
+  },
+  "ES:B0FM8KMW5D": {
+    "name": "Snoopy & The Great Mystery Club (PlayStation 5)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:34.022667+00:00",
+    "price": "34,93 €"
+  },
+  "ES:B09NQV6TLD": {
+    "name": "Five Nights at Freddy's: Security Breach - Playstation 4",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:34.022906+00:00",
+    "price": "22,85 €"
+  },
+  "ES:B09FV343B4": {
+    "name": "Crysis Remastered Trilogy, PS4",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:34.022962+00:00",
+    "price": "25,11 €"
+  },
+  "ES:B072QXPN1S": {
+    "name": "The Crew 2 - Edición Estándar",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:34.023009+00:00",
+    "price": "23,24 €"
+  },
+  "ES:B09WY1Z2QB": {
+    "name": "Namco Bandai GHOSTWIRE: Tokyo PS5 USK: 16",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:34.023030+00:00",
+    "price": "35,12 €"
+  },
+  "ES:B0BWNCGKZL": {
+    "name": "Dredge (Deluxe Edition)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:34.023046+00:00",
+    "price": "24,59 €"
+  },
+  "ES:B019DYYU4K": {
+    "name": "Assassins Creed Chronicles (PS4)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:34.023056+00:00",
+    "price": "21,77 €"
+  },
+  "ES:B07CR925JB": {
+    "name": "Resident Evil Origins Collection",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:34.023066+00:00",
+    "price": "19,94 €"
+  },
+  "ES:B00V374RPI": {
+    "name": "Onechanbara Z2: Chaos [Importación Inglesa]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:34.023075+00:00",
+    "price": "37,85 €"
+  },
+  "ES:B0DJ1VG6DW": {
+    "name": "Sony PlayStation 5 - Mando Inalámbrico DualSense Colección Chroma Teal",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:34.023099+00:00",
+    "price": "77,99 €"
+  },
+  "ES:B0GQ3JPJZH": {
+    "name": "deleyCON 0,5m Cable Extensión HDMI 2.1 8K - para TV, Monitor, PS4, PS5, Xbox, Dolby Atmos Soundbar EARC HDR10+ 48Gbps Extensión Acoplador Adaptador - 8K@60Hz, 4K@120Hz/144Hz, 2K@240Hz",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:34.023171+00:00",
+    "price": "4,31 €"
+  },
+  "ES:B0FLXVSVBY": {
+    "name": "Tolesum Kit de Reparación de Joysticks TMR para Mando PS5, 2 Joysticks Analógicos con Tapas, Destornillador y Herramientas, Tecnología TMR de Respuesta Rápida",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:34.023190+00:00",
+    "price": "10,29 €"
+  },
+  "ES:B0DPFL99LF": {
+    "name": "Dreamil Tapas de Joystick de Silicona 8 Piezas Tapas de Mando Antideslizantes Material de Silicona de Alta Calidad Agarres para Sticks de Controlador para PS5/PS4/PS3 (Negro/Blanco)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:34.023274+00:00",
+    "price": "6,99 €"
+  },
+  "ES:B0CLYN1SBK": {
+    "name": "The G-Lab Keyz Hydrogen - Teclado Gaming Semimecánico 60% RGB QWERTY ES | Con Cable USB, Formato 60% Compacto, Semimecánico, Retroiluminación Multicolor, Silencioso",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:34.023285+00:00",
+    "price": "13,69 €"
+  },
+  "ES:B0C6K4N2Z3": {
+    "name": "CUZKC 16PC Thumb Grips Accessories for Xbox One Series Switch PRO Playstation 5 Controller Accessories PS4 PS5 Controller Accessories Joystick Sticks,ps5 Joystick Accessories",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:34.023299+00:00",
+    "price": "6,49 €"
   }
 }
