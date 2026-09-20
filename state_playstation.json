@@ -258,9 +258,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "84,99 €",
-    "pending_price": "99,00 €",
-    "pending_price_count": 1
+    "price": "99,00 €"
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -840,9 +838,10 @@
   },
   "ES:B0CQMF3VJK": {
     "name": "Playstation 5 Consola Digital Modelo Slim y 2 Mandos Inalámbrico Dualsense",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-12T18:25:08.666128+00:00"
+    "first_seen": "2026-09-12T18:25:08.666128+00:00",
+    "price": "689,00 €"
   },
   "ES:B01HF8V7SI": {
     "name": "Sony PlayStation 4 (PS4) 500 GB Consola - (Reacondicionado Certificado) - Chasis C",
@@ -2285,18 +2284,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499578+00:00",
-    "price": "25,47 €",
-    "pending_price": "31,77 €",
-    "pending_price_count": 1
+    "price": "31,77 €"
   },
   "ES:B00N77D7WQ": {
     "name": "Metro Redux Double Pack (2033 + Last Light)",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "17,14 €",
-    "pending_price": "21,71 €",
-    "pending_price_count": 1
+    "price": "17,14 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2354,9 +2349,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499889+00:00",
-    "price": "26,60 €",
-    "pending_price": "37,00 €",
-    "pending_price_count": 1
+    "price": "37,00 €"
   },
   "ES:B08TJGKN5J": {
     "name": "PS4 Horizon Forbidden West",
@@ -2858,9 +2851,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566412+00:00",
-    "price": "32,53 €",
-    "pending_price": "34,70 €",
-    "pending_price_count": 1
+    "price": "34,70 €"
   },
   "ES:B0F99XSMYV": {
     "name": "Tomb Raider IV-VI Remastered Starring Lara Croft - PS4",
@@ -2881,9 +2872,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566486+00:00",
-    "price": "28,87 €",
-    "pending_price": "28,88 €",
-    "pending_price_count": 1
+    "price": "28,88 €"
   },
   "ES:B07W7KWV2Y": {
     "name": "Logitech Brio 300 Full HD Webcam con Obturador de privacidad | Micrófono reducción ruido, USB-C, certificado Zoom/Teams/Google Meet, corrección de luz automática - Grafito",
@@ -3092,7 +3081,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T06:31:41.554832+00:00",
-    "price": "48,86 €"
+    "price": "42,97 €"
   },
   "ES:B0CJG3TYMZ": {
     "name": "Shadow of the Tomb Raider Definitive Edition",
@@ -3516,7 +3505,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:34.023009+00:00",
-    "price": "23,24 €"
+    "price": "23,24 €",
+    "pending_price": "23,32 €",
+    "pending_price_count": 1
   },
   "ES:B09WY1Z2QB": {
     "name": "Namco Bandai GHOSTWIRE: Tokyo PS5 USK: 16",
@@ -3594,5 +3585,19 @@
     "stock": null,
     "first_seen": "2026-09-20T12:31:34.023299+00:00",
     "price": "6,49 €"
+  },
+  "ES:B0FN7ZG39D": {
+    "name": "Playstation Consola 5 Digital Chassis E",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T14:31:41.680065+00:00",
+    "price": "599,00 €"
+  },
+  "ES:B0D5LMPBS4": {
+    "name": "QRD Controlador inalámbrico Spark N5 para PS4 Pro Slim, PS3, PS2, Steam Deck, PC, Windows, Mac, iOS, Android TV Box, joystick de control de efecto Hall con altavoz y micrófono, macro N1 y N2, turbo",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T14:31:41.680671+00:00",
+    "price": "39,89 €"
   }
 }
