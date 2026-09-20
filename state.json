@@ -69,7 +69,7 @@
   "ES:B0DT7D5K1X": {
     "name": "Pokémon Colección prémium Bellibolt ex de e-Nigma de JCC Pokémon (1 Carta holográfica con ilustración expandida, 6 Sobres de Mejora y Figuras acrílicas)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-08-25T20:27:54.285177+00:00",
     "price": "47,63 €"
   },
@@ -165,7 +165,7 @@
   "ES:B0GZL7PBX1": {
     "name": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Oscuridad Absoluta (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "4",
     "first_seen": "2026-08-25T20:27:53.163260+00:00",
     "price": "23,98 €"
   },
@@ -282,9 +282,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-25T20:27:15.542170+00:00",
-    "price": "43,97 €",
-    "pending_price": "45,09 €",
-    "pending_price_count": 1
+    "price": "45,09 €"
   },
   "ES:B0FXTY9D99": {
     "name": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Caos Creciente (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
@@ -1134,7 +1132,7 @@
   "US:B0GR6N18F6": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-08-31T17:55:22.065539+00:00",
     "price": "105,67 €"
   },
@@ -1637,7 +1635,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280869+00:00",
-    "price": "111,89 €"
+    "price": "111,88 €"
   },
   "UK:B0DG2XTYDP": {
     "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
@@ -1712,7 +1710,7 @@
   "US:B0F6PMVQWQ": {
     "name": "Pokémon TCG Scarlet & Violet 10.5 Black Bolt Booster Set",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
     "price": "138,05 €"
   },
@@ -3463,14 +3461,14 @@
   "US:B0DY8WCBMQ": {
     "name": "Pokemon TCG: Scarlet & Violet-Shrouded Fable Pokémon Center Elite Trainer Box",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-09-19T17:04:06.125756+00:00",
     "price": "220,95 €"
   },
   "US:B0FVFYXXQM": {
     "name": "Pokemon Chinese Gem Pack Volume 3 Booster Box - CBB3C",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": null,
     "first_seen": "2026-09-20T12:43:36.301545+00:00",
     "price": "113,98 €"
   }
