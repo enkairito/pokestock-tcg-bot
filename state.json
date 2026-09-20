@@ -800,7 +800,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "63,55 €"
   },
@@ -1560,9 +1560,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802941+00:00",
-    "price": "73,40 €",
-    "pending_price": "73,46 €",
-    "pending_price_count": 1
+    "price": "73,46 €"
   },
   "US:B0D92YXKBH": {
     "name": "Pokemon TCG: Scarlet & Violet—151 Mini Tin – Electabuzz and Magnemite (2 Booster Packs, 1 Coin & 1 Art Card)",
@@ -1720,10 +1718,9 @@
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
-    "status": "compra_directa",
-    "stock": "1",
-    "first_seen": "2026-09-06T13:57:50.628764+00:00",
-    "price": "21,63 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-06T13:57:50.628764+00:00"
   },
   "UK:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
