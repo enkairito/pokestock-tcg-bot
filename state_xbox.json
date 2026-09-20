@@ -128,9 +128,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388338+00:00",
-    "price": "47,56 €",
-    "pending_price": "49,99 €",
-    "pending_price_count": 1
+    "price": "49,99 €"
   },
   "ES:B08KVH51VX": {
     "name": "NEED FOR SPEED HOT PURSUIT REMASTERED",
@@ -991,7 +989,7 @@
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
     "price": "35,95 €",
-    "pending_price": "42,03 €",
+    "pending_price": "38,75 €",
     "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
@@ -1292,9 +1290,10 @@
   },
   "ES:B0DCD9LGHY": {
     "name": "Xbox Serie X - Edición digital de 1 TB",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-16T10:34:33.318741+00:00"
+    "first_seen": "2026-09-16T10:34:33.318741+00:00",
+    "price": "817,12 €"
   },
   "ES:B08FCXLB8Z": {
     "name": "Xbox Play y Kit de Carga USB",
@@ -2786,7 +2785,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T08:32:35.495962+00:00",
-    "price": "22,00 €"
+    "price": "14,76 €"
   },
   "ES:B08PSVXJ29": {
     "name": "Mcbazel Kit 13 en 1 con Palancas de Metal para Xbox Elite Series 2, Kit de Reemplazo con Botones Magnéticos, 6 Palancas Magnéticas, 4 Paletas Traseras y 2 D-Pads para Xbox Elite Series 2, Negro",
@@ -3255,7 +3254,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T14:31:49.729335+00:00",
-    "price": "76,57 €"
+    "price": "76,57 €",
+    "pending_price": "84,99 €",
+    "pending_price_count": 1
   },
   "ES:B0DBQRTLFN": {
     "name": "GameSir T7 Controlador con cable para Xbox Series X|S, Xbox One y Windows 10/11, gamepad Plug and Play para juegos con joysticks y gatillos de efecto Hall, con jack de audio de 3.5 mm - Azul (Rojo)",
@@ -3402,7 +3403,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T12:32:04.828014+00:00",
-    "price": "31,81 €"
+    "price": "31,81 €",
+    "pending_price": "39,99 €",
+    "pending_price_count": 1
   },
   "ES:B095PNMTGR": {
     "name": "Mars Gaming MCPX, Idioma Español, Combo Gaming 3en1 con Teclado H-Mech Iluminado, Ratón Ultraligero 10000 dpi con Software y Alfombrilla XXL, Compatible con PC, PS4, PS5, Xbox, Blanco",
