@@ -69,7 +69,7 @@
   "ES:B0DT7D5K1X": {
     "name": "Pokémon Colección prémium Bellibolt ex de e-Nigma de JCC Pokémon (1 Carta holográfica con ilustración expandida, 6 Sobres de Mejora y Figuras acrílicas)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-25T20:27:54.285177+00:00",
     "price": "47,63 €"
   },
@@ -730,9 +730,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
-    "price": "225,05 €",
-    "pending_price": "240,97 €",
-    "pending_price_count": 1
+    "price": "240,97 €"
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
@@ -767,7 +765,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644858+00:00",
-    "price": "77,48 €"
+    "price": "77,40 €"
   },
   "US:B0DN98RVZM": {
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
@@ -1398,7 +1396,7 @@
   "UK:B0F634M6PY": {
     "name": "Pokemon Juego de Cartas coleccionables - Scarlet & Violet 10 - Destined Rivals Booster",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "3",
     "first_seen": "2026-09-04T21:32:58.802777+00:00",
     "price": "23,49 €"
   },
@@ -3464,10 +3462,9 @@
   },
   "US:B0DY8WCBMQ": {
     "name": "Pokemon TCG: Scarlet & Violet-Shrouded Fable Pokémon Center Elite Trainer Box",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-19T17:04:06.125756+00:00",
-    "price": "220,95 €"
+    "first_seen": "2026-09-19T17:04:06.125756+00:00"
   },
   "US:B0FVFYXXQM": {
     "name": "Pokemon Chinese Gem Pack Volume 3 Booster Box - CBB3C",
