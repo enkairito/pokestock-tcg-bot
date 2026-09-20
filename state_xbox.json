@@ -129,7 +129,7 @@
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388338+00:00",
     "price": "47,56 €",
-    "pending_price": "48,58 €",
+    "pending_price": "49,99 €",
     "pending_price_count": 1
   },
   "ES:B08KVH51VX": {
@@ -381,7 +381,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811694+00:00",
-    "price": "34,99 €"
+    "price": "34,99 €",
+    "pending_price": "37,78 €",
+    "pending_price_count": 1
   },
   "ES:B0C7GW9F88": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Blanco)",
@@ -430,7 +432,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811725+00:00",
-    "price": "139,99 €"
+    "price": "139,99 €",
+    "pending_price": "199,99 €",
+    "pending_price_count": 1
   },
   "ES:B0CGY46386": {
     "name": "PDP Xbox Afterglow Wave Wired Controller Blue",
@@ -506,9 +510,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "149,99 €",
-    "pending_price": "209,72 €",
-    "pending_price_count": 1
+    "price": "209,72 €"
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -637,7 +639,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:11.204492+00:00",
-    "price": "21,99 €"
+    "price": "19,93 €"
   },
   "ES:B09DPR2LZW": {
     "name": "Ozeino Cascos Gaming, Auriculares Gaming con Micrófono Rotatorio, Luz RGB, Premium Stereo, Orejeras Ligero Cómodo, para Ps4 Ps5 Xbox PC Switch Tableta Laptop",
@@ -1294,10 +1296,9 @@
   },
   "ES:B0DCD9LGHY": {
     "name": "Xbox Serie X - Edición digital de 1 TB",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-16T10:34:33.318741+00:00",
-    "price": "817,12 €"
+    "first_seen": "2026-09-16T10:34:33.318741+00:00"
   },
   "ES:B08FCXLB8Z": {
     "name": "Xbox Play y Kit de Carga USB",
@@ -1367,7 +1368,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.318882+00:00",
-    "price": "8,49 €"
+    "price": "8,49 €",
+    "pending_price": "9,99 €",
+    "pending_price_count": 1
   },
   "ES:B08K9WQ849": {
     "name": "Venom Base de carga doble con 2 paquetes de baterías recargables - Negro (Xbox Series X y S/Xbox One)",
@@ -1983,7 +1986,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256532+00:00",
-    "price": "56,95 €"
+    "price": "56,95 €",
+    "pending_price": "59,99 €",
+    "pending_price_count": 1
   },
   "ES:B095PPY2KN": {
     "name": "Mars Gaming MCPX, Idioma Español, Combo Gaming 3en1 con Teclado H-Mech Iluminado, Ratón Ultraligero 10000 dpi con Software y Alfombrilla XXL, Compatible con PC, PS4, PS5, Xbox, Negro",
@@ -2423,7 +2428,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257501+00:00",
-    "price": "24,95 €"
+    "price": "24,95 €",
+    "pending_price": "24,99 €",
+    "pending_price_count": 1
   },
   "ES:B00YXO5U40": {
     "name": "Turtle Beach Recon 50X Auriculares Gaming Xbox Series X|S, Xbox One, PS4, PS5 y PC",
@@ -2944,7 +2951,7 @@
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.549000+00:00",
     "price": "87,98 €",
-    "pending_price": "92,34 €",
+    "pending_price": "97,75 €",
     "pending_price_count": 1
   },
   "ES:B0GJ5G9K7W": {
@@ -3590,9 +3597,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T14:32:18.169515+00:00",
-    "price": "14,18 €",
-    "pending_price": "14,42 €",
-    "pending_price_count": 1
+    "price": "14,42 €"
   },
   "ES:B07DQ9JMQF": {
     "name": "Sekiro: Shadows Die Twice",
@@ -3841,7 +3846,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.580275+00:00",
-    "price": "19,99 €"
+    "price": "19,99 €",
+    "pending_price": "21,38 €",
+    "pending_price_count": 1
   },
   "ES:B09TFTHT28": {
     "name": "JBL Quantum 100X Auriculares para gaming con diadema, con micrófono de brazo desmontable, apropiados para Playstation y compatibles con otras consolas, en negro y verde",
