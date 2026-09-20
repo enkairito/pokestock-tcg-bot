@@ -504,7 +504,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "149,99 €"
+    "price": "149,99 €",
+    "pending_price": "209,72 €",
+    "pending_price_count": 1
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -839,7 +841,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:21:08.267403+00:00",
-    "price": "42,95 €"
+    "price": "41,24 €"
   },
   "ES:B07M7X2JLB": {
     "name": "Dark Souls Trilogy - Xbox One [Importación inglesa]",
@@ -988,9 +990,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "35,95 €",
-    "pending_price": "37,32 €",
-    "pending_price_count": 1
+    "price": "37,32 €"
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1290,9 +1290,10 @@
   },
   "ES:B0DCD9LGHY": {
     "name": "Xbox Serie X - Edición digital de 1 TB",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-16T10:34:33.318741+00:00"
+    "first_seen": "2026-09-16T10:34:33.318741+00:00",
+    "price": "817,12 €"
   },
   "ES:B08FCXLB8Z": {
     "name": "Xbox Play y Kit de Carga USB",
@@ -2069,9 +2070,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256914+00:00",
-    "price": "13,38 €",
-    "pending_price": "13,48 €",
-    "pending_price_count": 1
+    "price": "13,48 €"
   },
   "ES:B097ZBFDKW": {
     "name": "Demon Slayer -KIMETSU NO Yaiba- JPN (Voice) - E F I G S (Text) Box UK",
@@ -2786,9 +2785,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T08:32:35.495962+00:00",
-    "price": "14,76 €",
-    "pending_price": "23,41 €",
-    "pending_price_count": 1
+    "price": "23,41 €"
   },
   "ES:B08PSVXJ29": {
     "name": "Mcbazel Kit 13 en 1 con Palancas de Metal para Xbox Elite Series 2, Kit de Reemplazo con Botones Magnéticos, 6 Palancas Magnéticas, 4 Paletas Traseras y 2 D-Pads para Xbox Elite Series 2, Negro",
@@ -2844,9 +2841,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.548570+00:00",
-    "price": "44,43 €",
-    "pending_price": "44,53 €",
-    "pending_price_count": 1
+    "price": "44,53 €"
   },
   "ES:B0DJCHJ6D6": {
     "name": "Microsoft Flight Simulator 2024 Aviator Edition | Xbox & Windows - Código de descarga del juego",
