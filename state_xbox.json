@@ -990,7 +990,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "35,95 €"
+    "price": "35,95 €",
+    "pending_price": "39,06 €",
+    "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1290,9 +1292,10 @@
   },
   "ES:B0DCD9LGHY": {
     "name": "Xbox Serie X - Edición digital de 1 TB",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-16T10:34:33.318741+00:00"
+    "first_seen": "2026-09-16T10:34:33.318741+00:00",
+    "price": "817,12 €"
   },
   "ES:B08FCXLB8Z": {
     "name": "Xbox Play y Kit de Carga USB",
@@ -2939,7 +2942,7 @@
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.549000+00:00",
     "price": "87,98 €",
-    "pending_price": "92,45 €",
+    "pending_price": "92,39 €",
     "pending_price_count": 1
   },
   "ES:B0GJ5G9K7W": {
@@ -3586,7 +3589,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T14:32:18.169515+00:00",
-    "price": "14,18 €"
+    "price": "14,18 €",
+    "pending_price": "14,19 €",
+    "pending_price_count": 1
   },
   "ES:B07DQ9JMQF": {
     "name": "Sekiro: Shadows Die Twice",
@@ -3772,7 +3777,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579852+00:00",
-    "price": "11,84 €"
+    "price": "11,06 €"
   },
   "ES:B0C23V86YJ": {
     "name": "Destroy All Humans! 2 - Reprobed: Single Player Juego para Xbox One",
@@ -3877,6 +3882,8 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.580406+00:00",
-    "price": "114,07 €"
+    "price": "114,07 €",
+    "pending_price": "115,31 €",
+    "pending_price_count": 1
   }
 }
