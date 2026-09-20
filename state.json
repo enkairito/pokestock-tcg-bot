@@ -293,7 +293,7 @@
   "ES:B0CT5T766W": {
     "name": "Pokémon: Cofre de Coleccionista - 2022",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-25T20:27:53.163288+00:00",
     "price": "34,99 €"
   },
@@ -715,7 +715,7 @@
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "3",
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
     "price": "56,71 €"
   },
@@ -1718,7 +1718,9 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-06T13:57:50.628764+00:00",
-    "price": "21,68 €"
+    "price": "21,68 €",
+    "pending_price": "21,70 €",
+    "pending_price_count": 1
   },
   "UK:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
