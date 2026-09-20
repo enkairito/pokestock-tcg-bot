@@ -799,7 +799,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "3",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "63,55 €"
   },
@@ -1307,7 +1307,9 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802645+00:00",
-    "price": "79,87 €"
+    "price": "79,87 €",
+    "pending_price": "79,91 €",
+    "pending_price_count": 1
   },
   "UK:B0FSJXSPPX": {
     "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
@@ -1491,7 +1493,7 @@
   "US:B0G5S61BHK": {
     "name": "Pokémon TCG: Mega Charizard Tin - Mega Charizard X ex (4 potenciadores y 1 Tarjeta Promocional de Aluminio)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802892+00:00",
     "price": "82,04 €"
   },
@@ -1719,7 +1721,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-06T13:57:50.628764+00:00",
-    "price": "21,68 €"
+    "price": "21,66 €"
   },
   "UK:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
@@ -3464,5 +3466,12 @@
     "stock": "2",
     "first_seen": "2026-09-19T17:04:06.125756+00:00",
     "price": "220,95 €"
+  },
+  "US:B0FVFYXXQM": {
+    "name": "Pokemon Chinese Gem Pack Volume 3 Booster Box - CBB3C",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:43:36.301545+00:00",
+    "price": "113,98 €"
   }
 }
