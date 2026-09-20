@@ -176,18 +176,18 @@
   "ES:B0DDPH3JQB": {
     "name": "Disney Lorcana Trading Card Game: Archazias Isla – Booster Display con 24 Booster Packs (en inglés)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-09-08T11:29:17.563714+00:00",
-    "price": "163,70 €"
+    "price": "163,70 €",
+    "pending_price": "164,77 €",
+    "pending_price_count": 1
   },
   "ES:B0CGXJ8244": {
     "name": "Disney Lorcana Disney Lorcana TCG - Ursula's Return Ill",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-09T11:34:34.043787+00:00",
-    "price": "54,32 €",
-    "pending_price": "55,13 €",
-    "pending_price_count": 1
+    "price": "55,13 €"
   },
   "ES:B0H6JBF9FM": {
     "name": "Ravensburger Disney Lorcana TCG: Attack of the Vine! Paquete de refuerzo individual surtido (12 tarjetas) - Tarjetas coleccionables - Ideal para fanáticos de Disney y jugadores de TCG - Adecuado para",
@@ -226,9 +226,11 @@
   "ES:B0GHPRLZ7B": {
     "name": "Ravensburger Disney Lorcana TCG: Collection Starter Set - Edición Stitch - Incluye 4 paquetes de refuerzo Winterspell, cartera de cartas Rock Star y promoción de papel brillante - Guía del",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-09-11T00:16:46.734698+00:00",
-    "price": "74,98 €"
+    "price": "74,98 €",
+    "pending_price": "75,33 €",
+    "pending_price_count": 1
   },
   "ES:B0CSZ6H1SN": {
     "name": "Disney Lorcana Trading Card Game – Shimmering Skies – Illumnieer's Trove",
@@ -249,7 +251,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T06:17:10.925508+00:00",
-    "price": "152,33 €"
+    "price": "151,27 €"
   },
   "ES:B0FKNHR6TM": {
     "name": "Ravensburger - Disney Lorcana TCG: Set 9 Starter Set | Juegos De Cartas Adultos Y Niños con 60 Cartas Disney Lorcana | Juegos Niños 8 Años O Más Coleccionables | Regalos Originales",
