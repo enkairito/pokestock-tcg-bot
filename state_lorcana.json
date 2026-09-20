@@ -59,7 +59,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:41:42.887252+00:00",
-    "price": "60,28 €"
+    "price": "60,28 €",
+    "pending_price": "60,29 €",
+    "pending_price_count": 1
   },
   "ES:B0CFRBX7GW": {
     "name": "Disney Lorcana Trading Card Game: Set 4 – Starter Deck B",
@@ -178,9 +180,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-08T11:29:17.563714+00:00",
-    "price": "163,70 €",
-    "pending_price": "164,77 €",
-    "pending_price_count": 1
+    "price": "164,77 €"
   },
   "ES:B0CGXJ8244": {
     "name": "Disney Lorcana Disney Lorcana TCG - Ursula's Return Ill",
@@ -226,10 +226,10 @@
   "ES:B0GHPRLZ7B": {
     "name": "Ravensburger Disney Lorcana TCG: Collection Starter Set - Edición Stitch - Incluye 4 paquetes de refuerzo Winterspell, cartera de cartas Rock Star y promoción de papel brillante - Guía del",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "4",
     "first_seen": "2026-09-11T00:16:46.734698+00:00",
     "price": "74,98 €",
-    "pending_price": "75,33 €",
+    "pending_price": "75,83 €",
     "pending_price_count": 1
   },
   "ES:B0CSZ6H1SN": {
