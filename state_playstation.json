@@ -258,7 +258,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "99,00 €"
+    "price": "84,99 €"
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -875,8 +875,8 @@
     "name": "Sonic Superstars (Playstation 4) (Includes Comic Style Character Skins - Exclusive to Amazon.co.uk)",
     "status": "compra_directa",
     "stock": null,
-    "price": "23,57 €",
-    "first_seen": "2026-09-12T18:25:09.102560+00:00"
+    "first_seen": "2026-09-12T18:25:09.102560+00:00",
+    "price": "23,56 €"
   },
   "ES:B09GSPDV8K": {
     "name": "Playstation Gran Turismo 7 [PS4]",
@@ -1073,9 +1073,10 @@
   },
   "ES:B08KKJ37F7": {
     "name": "Playstation 5 Standard Consola",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-13T12:22:28.169361+00:00"
+    "first_seen": "2026-09-13T12:22:28.169361+00:00",
+    "price": "589,00 €"
   },
   "ES:B0HJ2FHFY6": {
     "name": "PlayStation 5-Until Dawn 2 - Edición Estándar",
@@ -1763,9 +1764,10 @@
   },
   "ES:B0F626C64F": {
     "name": "Soporte de Pared para PS5 con Ventilador & Cargador Mando, Compatible con Consolas PS 5/Slim/Pro, Soporte de Refrigeración para PS5 con 3 Velocidades & Luz Ambiental RGB Accesorios, Negro",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:37.287282+00:00"
+    "first_seen": "2026-09-17T00:32:37.287282+00:00",
+    "price": "31,99 €"
   },
   "ES:B0DKJ4FNJW": {
     "name": "CSWXIO Mando para PS4, Controlador Inalámbrico con Luces para PS4/Pro/Slim/PC, Doble Vibración/Giroscopio De 6 Ejes/Conector de Audio 3.5mm",
@@ -1911,9 +1913,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498199+00:00",
-    "price": "9,90 €",
-    "pending_price": "23,80 €",
-    "pending_price_count": 1
+    "price": "23,80 €"
   },
   "ES:B0F24Y88V1": {
     "name": "F1 25 Standard Edition PS5 | Disco | Videojuegos | Castellano",
@@ -2130,7 +2130,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498960+00:00",
-    "price": "38,95 €"
+    "price": "36,92 €"
   },
   "ES:B09PJ4WZWC": {
     "name": "Far Cry 6 (PS4) (PS4)",
@@ -2342,7 +2342,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499872+00:00",
-    "price": "36,17 €"
+    "price": "36,17 €",
+    "pending_price": "36,25 €",
+    "pending_price_count": 1
   },
   "ES:B0CGV26PYK": {
     "name": "Red Dead Redemption - PS4",
@@ -3505,9 +3507,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:34.023009+00:00",
-    "price": "23,24 €",
-    "pending_price": "23,32 €",
-    "pending_price_count": 1
+    "price": "23,24 €"
   },
   "ES:B09WY1Z2QB": {
     "name": "Namco Bandai GHOSTWIRE: Tokyo PS5 USK: 16",
@@ -3599,5 +3599,40 @@
     "stock": null,
     "first_seen": "2026-09-20T14:31:41.680671+00:00",
     "price": "39,89 €"
+  },
+  "ES:B0FJXWB78M": {
+    "name": "Battlefield 6 Standard Edition PS5 | Videojuegos | Castellano",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T16:31:45.788425+00:00",
+    "price": "48,67 €"
+  },
+  "ES:B0BNYSHHJJ": {
+    "name": "God of War Ragnarök",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T16:31:45.788733+00:00",
+    "price": "34,01 €"
+  },
+  "ES:B0F82LKMGD": {
+    "name": "xiruiubao Soporte Mando Pared, Soporte para Controlador de Juegos, Universal Gancho Pared para Mandos Xbox/PS4/PS5/Switch y Auriculares, Accesorios Gaming, 3 Piezas",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T16:31:45.788998+00:00",
+    "price": "13,99 €"
+  },
+  "ES:B09Y266R6P": {
+    "name": "EKSA E1000 Cascos Gaming USB para PC, Over Ear Auriculares Gaming con Cable, Micrófono con Cancelación de Ruido, Sonido Envolvente 7.1, Luz RGB para Consola PS4 / PS5,Laptop",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T16:31:45.789003+00:00",
+    "price": "36,99 €"
+  },
+  "ES:B0CMHH4J5M": {
+    "name": "MANDO INALAMBRICO COMPATIBLE PARA SONY PLAY STATION 2 DUALSHOCK 2 PS2 PILAS ROJO",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T16:31:45.789007+00:00",
+    "price": "21,99 €"
   }
 }
