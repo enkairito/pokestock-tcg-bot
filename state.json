@@ -165,7 +165,7 @@
   "ES:B0GZL7PBX1": {
     "name": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Oscuridad Absoluta (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-08-25T20:27:53.163260+00:00",
     "price": "23,98 €"
   },
@@ -714,16 +714,16 @@
   },
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-08-30T20:46:19.644833+00:00",
-    "price": "56,74 €"
+    "first_seen": "2026-08-30T20:46:19.644833+00:00"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-08-30T20:46:19.644837+00:00"
+    "status": "compra_directa",
+    "stock": "2",
+    "first_seen": "2026-08-30T20:46:19.644837+00:00",
+    "price": "53,93 €"
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
