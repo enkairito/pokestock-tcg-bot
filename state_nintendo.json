@@ -161,14 +161,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.911995+00:00",
-    "price": "531,89 €"
+    "price": "520,99 €"
   },
   "ES:B0FYHMK8N2": {
     "name": "Nintendo Switch 2 + Donkey Kong Bananza",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912002+00:00",
-    "price": "539,89 €"
+    "price": "528,99 €"
   },
   "ES:B0FBMLXK2D": {
     "name": "Pokemon Legends: Z-A: Nintendo Switch 2 Edition",
@@ -604,7 +604,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478275+00:00",
-    "price": "54,56 €"
+    "price": "44,99 €"
   },
   "ES:B0DS1S2Z7L": {
     "name": "ivoler 4 Piezas Protector Pantalla para Nintendo Switch 2 Model 2025, instalación en 30 segundos Incluye Marco de Instalación Fácil, Cristal Vidrio Templado Premium",
@@ -1331,7 +1331,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T20:34:05.436549+00:00",
-    "price": "25,99 €"
+    "price": "25,69 €"
   },
   "ES:B09V2RQ6R9": {
     "name": "AUTOUTLET Adaptador Wii a HDMI, Convertidor Wii Hdmi Cable Extensión de 20cm 1080P / 720P Full HD, Salida de Audio de 3,5mm y Cable HDMI de 1,8m, Indicador de Luz para Wii, Televisión Blanco",
@@ -1408,7 +1408,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850724+00:00",
-    "price": "468,00 €"
+    "price": "459,00 €"
   },
   "ES:B0F3P3X5P2": {
     "name": "Sandisk Micro SD Express Card for Nintendo Switch 2",
@@ -1429,7 +1429,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850805+00:00",
-    "price": "286,00 €"
+    "price": "286,00 €",
+    "pending_price": "287,00 €",
+    "pending_price_count": 1
   },
   "ES:B092JL5NS2": {
     "name": "Nintendo Switch Lite Azul",
@@ -1727,28 +1729,28 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688184+00:00",
-    "price": "730,00 €"
+    "price": "649,99 €"
   },
   "ES:B0HC3WZQYK": {
     "name": "Nintendo Switch 2 + Pokemon Legends: Z Switch 2 Edition",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688196+00:00",
-    "price": "526,80 €"
+    "price": "515,90 €"
   },
   "ES:B0FYHK8329": {
     "name": "Nintendo Switch 2 + 25e eShop",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688211+00:00",
-    "price": "494,90 €"
+    "price": "484,00 €"
   },
   "ES:B0HC3PYP2D": {
     "name": "Nintendo Switch 2 + Donkey Kong Bananza- Switch 2",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688228+00:00",
-    "price": "539,89 €"
+    "price": "528,99 €"
   },
   "ES:B0FYTQ5XLG": {
     "name": "2 Piezas de Cubiertas Protectoras magnéticas para Switch2, Protectores Laterales contra arañazos, Protectores de los Bordes, Cubierta del Punto de conexión del Mango. (Azul-Naranja)",
@@ -2051,7 +2053,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
     "price": "39,62 €",
-    "pending_price": "41,73 €",
+    "pending_price": "41,67 €",
     "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
@@ -2072,7 +2074,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688827+00:00",
-    "price": "395,88 €"
+    "price": "382,16 €"
   },
   "ES:B09B85F56N": {
     "name": "Monopoly Código De Descarga Switch",
@@ -2086,7 +2088,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688852+00:00",
-    "price": "78,65 €"
+    "price": "78,65 €",
+    "pending_price": "86,00 €",
+    "pending_price_count": 1
   },
   "ES:B0DP2W1NLC": {
     "name": "Markt + Technik Sonic Colours Ultimate para Switch",
@@ -3249,7 +3253,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:52.754116+00:00",
-    "price": "31,88 €"
+    "price": "31,88 €",
+    "pending_price": "40,89 €",
+    "pending_price_count": 1
   },
   "ES:B0FKTB66TN": {
     "name": "Octopath Traveler 0",
