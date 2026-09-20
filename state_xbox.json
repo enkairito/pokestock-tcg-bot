@@ -23,7 +23,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388298+00:00",
-    "price": "1079,60 €"
+    "price": "1074,99 €"
   },
   "ES:B0H9SKZKGV": {
     "name": "Pokémon: Lata Megapotencia: Mega-Dragonite ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
@@ -287,8 +287,8 @@
     "name": "Turtle Beach Maneta de simulación universal VelocityOne Flightstick para Xbox Series X|S y Xbox One | PC Windows 10/11",
     "status": "compra_directa",
     "stock": null,
-    "price": "119,00 €",
-    "first_seen": "2026-09-11T19:25:04.811596+00:00"
+    "first_seen": "2026-09-11T19:25:04.811596+00:00",
+    "price": "119,00 €"
   },
   "ES:B08VPTBZHR": {
     "name": "Microsoft Mass Effect Legendary Edition - Xbox One/Series X",
@@ -504,7 +504,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "149,99 €"
+    "price": "149,99 €",
+    "pending_price": "209,72 €",
+    "pending_price_count": 1
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -603,9 +605,9 @@
   "ES:B01M0I0K0E": {
     "name": "Assassin's Creed: The Ezio Collection - Xbox One",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "36,00 €",
-    "first_seen": "2026-09-12T00:28:11.204448+00:00"
+    "stock": null,
+    "first_seen": "2026-09-12T00:28:11.204448+00:00",
+    "price": "36,00 €"
   },
   "ES:B0829LYZ5T": {
     "name": "Doom Slayers Collection - Xbox One",
@@ -880,8 +882,10 @@
     "name": "Turtle Beach VelocityOne Flight, el sistema de control universal para Xbox Series X|S y Xbox One | PC con Windows 10/11",
     "status": "compra_directa",
     "stock": null,
+    "first_seen": "2026-09-13T06:22:40.824880+00:00",
     "price": "299,99 €",
-    "first_seen": "2026-09-13T06:22:40.824880+00:00"
+    "pending_price": "330,00 €",
+    "pending_price_count": 1
   },
   "ES:B0BN3GFBG7": {
     "name": "10PCS Magnetic Card Holder 35PT Soporte de Tarjeta UV Protectoras Funda Plástica Dura de Tarjeta Transparentes Cartas Coleccionables Marco para Magic, MTG, Deportes, Béisbol, Fútbol",
@@ -899,10 +903,10 @@
   },
   "ES:B0H342QF4Z": {
     "name": "Hollow Knight: Silksong - Xbox",
-    "status": "preventa",
+    "status": "compra_directa",
     "stock": null,
-    "price": "39,90 €",
-    "first_seen": "2026-09-13T12:21:12.631509+00:00"
+    "first_seen": "2026-09-13T12:21:12.631509+00:00",
+    "price": "39,90 €"
   },
   "ES:B08Z9Q7K68": {
     "name": "Scarlet Nexus (Xbox One)",
@@ -990,9 +994,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "37,32 €",
-    "pending_price": "38,41 €",
-    "pending_price_count": 1
+    "price": "36,87 €"
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1143,8 +1145,8 @@
     "name": "Power A Mando con cable Xbox Series X|S - Azul marino, mando, mando para videojuegos con cable, mando para juegos, funciona con Xbox One",
     "status": "compra_directa",
     "stock": null,
-    "price": "29,99 €",
-    "first_seen": "2026-09-15T00:20:55.336238+00:00"
+    "first_seen": "2026-09-15T00:20:55.336238+00:00",
+    "price": "24,90 €"
   },
   "ES:B08F436VBJ": {
     "name": "Power A, Mando con cable Xbox Series X|S - Blanco",
@@ -1281,9 +1283,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.017973+00:00",
-    "price": "175,00 €",
-    "pending_price": "219,00 €",
-    "pending_price_count": 1
+    "price": "219,00 €"
   },
   "ES:B01M5CZKW6": {
     "name": "Konsole Xbox One S 500 Gb Weiß",
@@ -2165,7 +2165,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257052+00:00",
-    "price": "23,99 €"
+    "price": "23,99 €",
+    "pending_price": "24,79 €",
+    "pending_price_count": 1
   },
   "ES:B0BKSHRYVG": {
     "name": "Microsoft Flight Simulator 40th Anniversary - Premium Deluxe Edition | Xbox & Windows 10 - Código de descarga",
@@ -2207,7 +2209,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
-    "price": "24,12 €"
+    "price": "24,12 €",
+    "pending_price": "24,34 €",
+    "pending_price_count": 1
   },
   "ES:B08HZKQDK1": {
     "name": "F1 2020 - Xbox One",
@@ -2368,7 +2372,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257447+00:00",
-    "price": "57,99 €"
+    "price": "56,31 €"
   },
   "ES:B0GTBVX67G": {
     "name": "Turtle Beach Rematch Core Ghost Camo Negro - Mando con Cable - con Licencia para Xbox Series XS, Xbox One y PC - Sticks con efecto Hall, Botones de Audio, Motores de vibración y disparadores de Pulso",
@@ -2943,7 +2947,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.549000+00:00",
-    "price": "87,98 €"
+    "price": "87,98 €",
+    "pending_price": "92,62 €",
+    "pending_price_count": 1
   },
   "ES:B0GJ5G9K7W": {
     "name": "deleyCON Cable HDMI 2.1 8K 2m Cable de Alta Velocidad Ultra High Speed 48 Gbps con Conector Acodado (270°) - Ideal para TV, Monitor, PS4, PS5, EARC, HDR10+ - 10K/8K@60Hz, 4K@120Hz/144Hz y 2K@240Hz",
@@ -3604,5 +3610,282 @@
     "stock": null,
     "first_seen": "2026-09-20T08:31:27.674992+00:00",
     "price": "65,99 €"
+  },
+  "ES:B0H3W49TNL": {
+    "name": "Tomb Raider: Legacy of Atlantis Deluxe Edition - XSRX",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.269334+00:00"
+  },
+  "ES:B072MZBLCW": {
+    "name": "Metro: Exodus - Day One Edition",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.269367+00:00"
+  },
+  "ES:B07YQF7J9B": {
+    "name": "Xbox One X 1TB Console - Star Wars Jedi: Fallen Order Bundle - Xbox One [Importación inglesa]",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.269401+00:00"
+  },
+  "ES:B0CM5XXY7L": {
+    "name": "Avatar: Frontiers of Pandora Standard | Xbox Series X|S - Código de descarga",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579455+00:00",
+    "price": "29,99 €"
+  },
+  "ES:B093PY4WLX": {
+    "name": "Resident Evil: Village (Xbox Series X) (Xbox Series X)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579514+00:00",
+    "price": "29,60 €"
+  },
+  "ES:B09CLW9GV2": {
+    "name": "S.T.A.L.K.E.R. 2 Heart of Chornobyl - Xbox One",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579528+00:00",
+    "price": "59,99 €"
+  },
+  "ES:B09GGJD7D6": {
+    "name": "Destroy All Humans 2: Reprobed XSRX INT",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579540+00:00",
+    "price": "14,73 €"
+  },
+  "ES:B0GVSSF6ZQ": {
+    "name": "Shenmue III Enhanced - Xbox Series X",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579550+00:00",
+    "price": "36,99 €"
+  },
+  "ES:B0FGD5M81X": {
+    "name": "Let's Sing 2026 ESP V. XBX ESP",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579561+00:00",
+    "price": "28,95 €"
+  },
+  "ES:B0CB6SBFHT": {
+    "name": "EA SPORTS FC 24 Standard Edition Xbox One / Xbox Series X | Videojuegos | Castellano",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579572+00:00",
+    "price": "20,30 €"
+  },
+  "ES:B0H84138F6": {
+    "name": "UNBEATABLE BREAKOUT EDITION - PS5",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579591+00:00",
+    "price": "39,99 €"
+  },
+  "ES:B0F94FF3YL": {
+    "name": "7 Days to Die - Console Edition - Xbox",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579601+00:00",
+    "price": "28,31 €"
+  },
+  "ES:B0GSFRB7PX": {
+    "name": "Darksiders Warmastered - XSRX",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579612+00:00",
+    "price": "29,99 €"
+  },
+  "ES:B08WDW8615": {
+    "name": "Judgment",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579622+00:00",
+    "price": "26,49 €"
+  },
+  "ES:B0GX6Q1HW2": {
+    "name": "Gothic 2 Classic - XSRX",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579632+00:00",
+    "price": "26,99 €"
+  },
+  "ES:B0C3RW1CRV": {
+    "name": "Armored Core Vi Fires Of Rubicon - Collector'S Edition",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579643+00:00",
+    "price": "153,00 €"
+  },
+  "ES:B0CGRRK9Q4": {
+    "name": "Persona 3 Reload: juego para Xbox Series X y Xbox One",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579654+00:00",
+    "price": "29,90 €"
+  },
+  "ES:B0BGQ9TNRM": {
+    "name": "Scars Above (Xbox Series X)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579664+00:00",
+    "price": "11,89 €"
+  },
+  "ES:B0CY2XCY59": {
+    "name": "MotoGP 24 Day One Edition XBX PES",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579675+00:00",
+    "price": "35,99 €"
+  },
+  "ES:B0C5DRWDGD": {
+    "name": "Pitufos Kart, Edición Estándar, Xbox One",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579685+00:00",
+    "price": "30,90 €"
+  },
+  "ES:B0CW18RSKS": {
+    "name": "MX vs ATV Legends - 2024 Monster Energy Supercross Edition",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579696+00:00",
+    "price": "28,70 €"
+  },
+  "ES:B0G2CYHWWD": {
+    "name": "Ghost Master Resurrection - Xbox",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579706+00:00",
+    "price": "24,99 €"
+  },
+  "ES:B09SZX7NFN": {
+    "name": "Klonoa Phantasy Reverie Series (Xbox One)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579828+00:00",
+    "price": "21,08 €"
+  },
+  "ES:B00HQCQ1SA": {
+    "name": "Alien: Isolation [Importación Inglesa]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579840+00:00",
+    "price": "33,36 €"
+  },
+  "ES:B07T14YQYZ": {
+    "name": "Destroy All Humans - Xbox One",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579852+00:00",
+    "price": "11,84 €"
+  },
+  "ES:B0C23V86YJ": {
+    "name": "Destroy All Humans! 2 - Reprobed: Single Player Juego para Xbox One",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579872+00:00",
+    "price": "17,64 €"
+  },
+  "ES:B07DPHZ4GX": {
+    "name": "Square Enix Kingdom Hearts III, Xbox One vídeo - Juego (Xbox One, Xbox One, Acción / RPG, E10 + (Everyone 10 +))",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579883+00:00",
+    "price": "18,03 €"
+  },
+  "ES:B01ARP03FY": {
+    "name": "Call Of Duty Black Ops III - Standard Edition [Importación Italiana]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579894+00:00",
+    "price": "21,56 €"
+  },
+  "ES:B07D9WVXBY": {
+    "name": "Sega Megadrive Collection",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579904+00:00",
+    "price": "28,85 €"
+  },
+  "ES:B0869RRFHC": {
+    "name": "Fable III | Xbox 360 - Código de descarga",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579914+00:00",
+    "price": "19,99 €"
+  },
+  "ES:B0792LL798": {
+    "name": "Gears of War 4 [Importación francesa]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579923+00:00",
+    "price": "19,00 €"
+  },
+  "ES:B07DQWLQQ2": {
+    "name": "Megaman 11 para Xbox One - Edición Estándar",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.579933+00:00",
+    "price": "44,65 €"
+  },
+  "ES:B07G5XJLWK": {
+    "name": "Logitech G Pro Ratón Gaming Inalámbrico | Ratón gaming ultraligero HERO 25K, 25,600 DPI, RGB, 4-8 botones, batería larga, POWERPLAY, PC/Mac - Negro",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.580156+00:00",
+    "price": "133,49 €"
+  },
+  "ES:B00YXO5UKY": {
+    "name": "Turtle Beach Recon 50P Auriculares Gaming PS5, PS4, Xbox Series X|S, Xbox One y PC",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.580275+00:00",
+    "price": "19,99 €"
+  },
+  "ES:B09TFTHT28": {
+    "name": "JBL Quantum 100X Auriculares para gaming con diadema, con micrófono de brazo desmontable, apropiados para Playstation y compatibles con otras consolas, en negro y verde",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.580288+00:00",
+    "price": "39,99 €"
+  },
+  "ES:B0F4XQ6D1L": {
+    "name": "Mars Gaming MWH-RSX, Volante SimRacing con Force Feedback y Motor Dual, Set 3 Pedales con Resistencia Progresiva, Palanca Cambios en H y 12 Marchas, 14 Botones Personalizables, PC/PS4/Xbox Series X|S",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.580318+00:00",
+    "price": "179,90 €"
+  },
+  "ES:B007KGISK6": {
+    "name": "Ubisoft RealTone - Cable para Rocksmith",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.580376+00:00",
+    "price": "69,99 €"
+  },
+  "ES:B0BWJM9SJJ": {
+    "name": "Mcbazel Adaptador Xbox Kinect para convertidor de Sensor Kinect 2.0 con Fuente de alimentación Compatible con Xbox One Slim/Xbox One X/Win11/ 8/8.1/10 con Enchufe Europeo",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.580382+00:00",
+    "price": "28,99 €"
+  },
+  "ES:B0BRTXSTK2": {
+    "name": "Skull & Co. Skin, CQC and FPS Thumb Grips Joystick Cap Analog Stick Cover for Xbox (XSX/XB1) Controller - Neon Blue, 3Pairs(6pcs)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.580389+00:00",
+    "price": "9,99 €"
+  },
+  "ES:B07ZV7SDQX": {
+    "name": "Cooler Master MH650 Auriculares Gaming Headset Sonido Entorno Virtual 7.1 - Compatible Varias Plataformas con Audio Drivers Neodimio de 50mm, Mic Ultra-Clear Boom y Estructura Portátil - USB Tipo A",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:37.580406+00:00",
+    "price": "114,07 €"
   }
 }
