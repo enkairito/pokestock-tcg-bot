@@ -23,7 +23,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388298+00:00",
-    "price": "1074,99 €"
+    "price": "1074,60 €"
   },
   "ES:B0H9SKZKGV": {
     "name": "Pokémon: Lata Megapotencia: Mega-Dragonite ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
@@ -504,9 +504,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "149,99 €",
-    "pending_price": "209,72 €",
-    "pending_price_count": 1
+    "price": "149,99 €"
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -883,9 +881,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T06:22:40.824880+00:00",
-    "price": "299,99 €",
-    "pending_price": "330,00 €",
-    "pending_price_count": 1
+    "price": "330,00 €"
   },
   "ES:B0BN3GFBG7": {
     "name": "10PCS Magnetic Card Holder 35PT Soporte de Tarjeta UV Protectoras Funda Plástica Dura de Tarjeta Transparentes Cartas Coleccionables Marco para Magic, MTG, Deportes, Béisbol, Fútbol",
@@ -1294,10 +1290,9 @@
   },
   "ES:B0DCD9LGHY": {
     "name": "Xbox Serie X - Edición digital de 1 TB",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-16T10:34:33.318741+00:00",
-    "price": "817,12 €"
+    "first_seen": "2026-09-16T10:34:33.318741+00:00"
   },
   "ES:B08FCXLB8Z": {
     "name": "Xbox Play y Kit de Carga USB",
@@ -2165,9 +2160,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257052+00:00",
-    "price": "23,99 €",
-    "pending_price": "24,79 €",
-    "pending_price_count": 1
+    "price": "24,79 €"
   },
   "ES:B0BKSHRYVG": {
     "name": "Microsoft Flight Simulator 40th Anniversary - Premium Deluxe Edition | Xbox & Windows 10 - Código de descarga",
@@ -2209,9 +2202,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
-    "price": "24,12 €",
-    "pending_price": "24,34 €",
-    "pending_price_count": 1
+    "price": "24,12 €"
   },
   "ES:B08HZKQDK1": {
     "name": "F1 2020 - Xbox One",
@@ -2779,7 +2770,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T08:32:35.495764+00:00",
-    "price": "37,01 €"
+    "price": "37,01 €",
+    "pending_price": "48,00 €",
+    "pending_price_count": 1
   },
   "ES:B0D7NFQ4DW": {
     "name": "EA SPORTS FC 25 Standard Edition | Xbox One/Series X|S - Download Code",
@@ -2948,7 +2941,7 @@
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.549000+00:00",
     "price": "87,98 €",
-    "pending_price": "92,62 €",
+    "pending_price": "92,53 €",
     "pending_price_count": 1
   },
   "ES:B0GJ5G9K7W": {
