@@ -309,9 +309,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018808+00:00",
-    "price": "18,98 €",
-    "pending_price": "25,12 €",
-    "pending_price_count": 1
+    "price": "25,12 €"
   },
   "ES:B09KTGP5C2": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition, PlayStation 4",
@@ -1828,9 +1826,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.497964+00:00",
-    "price": "13,52 €",
-    "pending_price": "14,99 €",
-    "pending_price_count": 1
+    "price": "13,52 €"
   },
   "ES:B09CLRJS83": {
     "name": "NIS America The Legend of Heroes: Trails to Azure Edición Deluxe (Nintendo Switch)",
@@ -1949,7 +1945,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498263+00:00",
-    "price": "47,69 €"
+    "price": "45,99 €"
   },
   "ES:B0DLGNT4V3": {
     "name": "Clair Obscur: Expedition 33",
@@ -2110,9 +2106,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498807+00:00",
-    "price": "69,00 €",
-    "pending_price": "74,00 €",
-    "pending_price_count": 1
+    "price": "74,00 €"
   },
   "ES:B01H0CBMXO": {
     "name": "Electronic Arts - Titanfall 2",
@@ -2126,14 +2120,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498891+00:00",
-    "price": "27,90 €"
+    "price": "27,90 €",
+    "pending_price": "28,00 €",
+    "pending_price_count": 1
   },
   "ES:B07MWXG7QV": {
     "name": "Days Gone [Importación francesa]",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498960+00:00",
-    "price": "39,79 €"
+    "price": "39,76 €"
   },
   "ES:B09PJ4WZWC": {
     "name": "Far Cry 6 (PS4) (PS4)",
@@ -2182,7 +2178,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499167+00:00",
-    "price": "33,83 €"
+    "price": "32,73 €"
   },
   "ES:B0CJG2KCBL": {
     "name": "Rise of the Tomb Raider 20 Year Celebration",
@@ -2259,14 +2255,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499492+00:00",
-    "price": "25,12 €"
+    "price": "25,12 €",
+    "pending_price": "25,13 €",
+    "pending_price_count": 1
   },
   "ES:B07V9NP59C": {
     "name": "Remothered: Tormented Fathers",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499513+00:00",
-    "price": "22,65 €"
+    "price": "22,60 €"
   },
   "ES:B07NJHJKGX": {
     "name": "Assassin's Creed III Remastered",
@@ -2366,7 +2364,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499915+00:00",
-    "price": "42,57 €"
+    "price": "42,57 €",
+    "pending_price": "42,67 €",
+    "pending_price_count": 1
   },
   "ES:B07D9TFK6W": {
     "name": "Sega Mega Drive Classics",
@@ -2728,7 +2728,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500241+00:00",
-    "price": "23,24 €"
+    "price": "23,24 €",
+    "pending_price": "23,25 €",
+    "pending_price_count": 1
   },
   "ES:B07G2D87BV": {
     "name": "Auriculares Gaming Stereo Sony Oficial PS4 Bigben Interactive - Compatible con PS5",
@@ -3098,7 +3100,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T10:31:31.028252+00:00",
-    "price": "28,38 €"
+    "price": "28,38 €",
+    "pending_price": "28,97 €",
+    "pending_price_count": 1
   },
   "ES:B0FRYBZR91": {
     "name": "Sony Consola PlayStation5 Pro - 2TB",
@@ -3126,16 +3130,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:32:05.432870+00:00",
-    "price": "9,24 €",
-    "pending_price": "9,34 €",
-    "pending_price_count": 1
+    "price": "9,34 €"
   },
   "ES:B0FT8FBMK5": {
     "name": "Code Vein II",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:32:05.432903+00:00",
-    "price": "53,94 €"
+    "price": "38,30 €"
   },
   "ES:B0C5N7L6N1": {
     "name": "MORTAL KOMBAT 1 Standard Edition (PS5)",
@@ -3247,7 +3249,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T14:31:52.732470+00:00",
-    "price": "21,66 €"
+    "price": "21,66 €",
+    "pending_price": "21,67 €",
+    "pending_price_count": 1
   },
   "ES:B07L674L8R": {
     "name": "Crash Team Racing Nitro-Fueled",
@@ -3323,9 +3327,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T12:31:57.651569+00:00",
-    "price": "35,82 €",
-    "pending_price": "38,67 €",
-    "pending_price_count": 1
+    "price": "38,67 €"
   },
   "ES:B0GDCYSRL4": {
     "name": "Precisión Y Control con 2 Thumbsticks, Convexos De Altura Elevada Y Media,Comodidad Y Agarre Antideslizante,para (PS4) y (PS5)",
