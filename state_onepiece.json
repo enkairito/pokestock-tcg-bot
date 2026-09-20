@@ -46,9 +46,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:09:04.551067+00:00",
-    "price": "69,62 €",
-    "pending_price": "69,63 €",
-    "pending_price_count": 1
+    "price": "69,63 €"
   },
   "ES:B0CRY385YN": {
     "name": "One Piece TCG: Two Legends - Booster Box (OP-08) (JP) (TCG)",
@@ -76,9 +74,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:09:29.426544+00:00",
-    "price": "44,70 €",
-    "pending_price": "46,39 €",
-    "pending_price_count": 1
+    "price": "42,86 €"
   },
   "ES:B0GDGRWH54": {
     "name": "One Piece TCG: Double Pack Set Vol. 9 (DP-09) - The Azure Sea's Seven (2 Paquetes)",
@@ -162,7 +158,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:11:01.747489+00:00",
-    "price": "136,89 €"
+    "price": "136,89 €",
+    "pending_price": "137,17 €",
+    "pending_price_count": 1
   },
   "ES:B0C3RY35G6": {
     "name": "BANDAI | One Piece Card Game: Transparent Case - Standard White | Accessories | Ages 6+ | 2 Players | 20-30 Minutes Playing Time",
@@ -235,18 +233,17 @@
   },
   "ES:B0FX1Z5SPZ": {
     "name": "One Piece Card Game Egghead Crisis EB-04 Extra Booster Box (japonés) - 24 paquetes",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-03T18:23:03.868065+00:00"
+    "first_seen": "2026-09-03T18:23:03.868065+00:00",
+    "price": "195,58 €"
   },
   "ES:B0HF1Z72XW": {
     "name": "One Piece TCG: The World's Strongest Warriors Booster Box (OP-17) - 24 paquetes",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T20:33:38.638411+00:00",
-    "price": "436,00 €",
-    "pending_price": "451,00 €",
-    "pending_price_count": 1
+    "price": "436,00 €"
   },
   "ES:B0HFD53BDB": {
     "name": "One Piece TCG: The World's Strongest Warriors - Juego de doble paquete Vol. 12 DP-12 (2 paquetes OP-17)",
@@ -261,7 +258,7 @@
     "stock": "2",
     "first_seen": "2026-09-08T09:40:16.326555+00:00",
     "price": "27,00 €",
-    "pending_price": "28,94 €",
+    "pending_price": "28,79 €",
     "pending_price_count": 1
   },
   "ES:B0DW3R4T9G": {
