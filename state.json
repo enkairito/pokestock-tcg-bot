@@ -1133,7 +1133,7 @@
   "US:B0GR6N18F6": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-31T17:55:22.065539+00:00",
     "price": "103,55 €"
   },
@@ -1554,7 +1554,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802936+00:00",
-    "price": "82,47 €"
+    "price": "78,83 €"
   },
   "US:B0F2BFSPBN": {
     "name": "Pokémon TCG: Scarlet & Violet - Destined Rivals - Paquete de 3 blíster - Zebstrika (3 Paquetes de Refuerzo y 1 Tarjeta Promocional de Aluminio)",
@@ -2923,7 +2923,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:43:57.912076+00:00",
-    "price": "107,15 €"
+    "price": "107,15 €",
+    "pending_price": "109,15 €",
+    "pending_price_count": 1
   },
   "US:B0DLQXNQDH": {
     "name": "Pokémon TCG: Scarlet & Violet - Prismatic Evolutions Mini Tin - Jolteon (2 Paquetes de Refuerzo y 1 Moneda)",
