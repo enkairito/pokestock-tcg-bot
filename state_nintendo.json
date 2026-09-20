@@ -762,7 +762,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T06:29:23.882145+00:00",
-    "price": "21,99 €"
+    "price": "20,99 €"
   },
   "ES:B0DB2MSGCZ": {
     "name": "NK Wireless Switch Controller - Switch 2/Lite/OLED with Wake Function, Bluetooth, 6 Axis, Turbo, Double Vibration, LED Indicators - Blue",
@@ -1916,9 +1916,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688518+00:00",
-    "price": "21,32 €",
-    "pending_price": "21,33 €",
-    "pending_price_count": 1
+    "price": "21,33 €"
   },
   "ES:B0FBMHQ8LS": {
     "name": "Nintendo Switch Pokemon Legenden Z-A - Nintendo Switch 2 Edition",
@@ -1934,9 +1932,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688535+00:00",
-    "price": "33,85 €",
-    "pending_price": "34,57 €",
-    "pending_price_count": 1
+    "price": "34,57 €"
   },
   "ES:B0F3NKCYC4": {
     "name": "Super Mario Party: Jamboree - Nintendo Switch 2 Edition + Jamboree TV (Switch 2)",
@@ -2056,7 +2052,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
     "price": "40,00 €",
-    "pending_price": "42,15 €",
+    "pending_price": "42,09 €",
     "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
@@ -2744,7 +2740,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689991+00:00",
-    "price": "75,64 €"
+    "price": "75,64 €",
+    "pending_price": "75,71 €",
+    "pending_price_count": 1
   },
   "ES:B0B69K1671": {
     "name": "Volante y pedales Hori para consola Switch pack Crash-Bandicoot Nitro Fueled (Liccencia oficial)",
