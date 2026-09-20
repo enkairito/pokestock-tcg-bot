@@ -721,9 +721,11 @@
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
-    "price": "53,60 €"
+    "price": "53,60 €",
+    "pending_price": "64,15 €",
+    "pending_price_count": 1
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -1558,7 +1560,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802941+00:00",
-    "price": "73,40 €"
+    "price": "73,40 €",
+    "pending_price": "73,46 €",
+    "pending_price_count": 1
   },
   "US:B0D92YXKBH": {
     "name": "Pokemon TCG: Scarlet & Violet—151 Mini Tin – Electabuzz and Magnemite (2 Booster Packs, 1 Coin & 1 Art Card)",
