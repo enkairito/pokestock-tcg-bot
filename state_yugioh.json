@@ -57,9 +57,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-07T17:41:22.046401+00:00",
-    "price": "150,00 €",
-    "pending_price": "160,93 €",
-    "pending_price_count": 1
+    "price": "160,93 €"
   },
   "ES:B0FZV792N8": {
     "name": "Yu-Gi-Oh! Laberinto DE Muertos Display (24) (Versión en español)",
@@ -157,7 +155,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:42:56.065562+00:00",
-    "price": "103,69 €"
+    "price": "103,69 €",
+    "pending_price": "106,44 €",
+    "pending_price_count": 1
   },
   "ES:B0F7RVS8MR": {
     "name": "Yu-Gi-Oh! Cazadores de la Justicia 3-Pack Booster",
@@ -211,7 +211,7 @@
   "ES:B0F8NRC5WT": {
     "name": "Yu-Gi-Oh! Chronicles:Fallen & Virtuous Card Sleeves(50)",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "5",
     "first_seen": "2026-09-10T11:45:06.861286+00:00",
     "price": "11,53 €"
   }
