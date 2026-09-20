@@ -724,9 +724,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
-    "price": "53,93 €",
-    "pending_price": "64,44 €",
-    "pending_price_count": 1
+    "price": "64,44 €"
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -1475,7 +1473,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802874+00:00",
-    "price": "85,64 €"
+    "price": "85,64 €",
+    "pending_price": "88,29 €",
+    "pending_price_count": 1
   },
   "US:B0G72QBTBJ": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Emboar ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
@@ -2942,7 +2942,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T15:23:27.918742+00:00",
-    "price": "97,59 €"
+    "price": "97,57 €"
   },
   "UK:B0H2N248WM": {
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promoción exclusiva de Fennekin | 11 paquetes de refuerzo",
