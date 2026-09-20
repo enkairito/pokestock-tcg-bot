@@ -715,15 +715,16 @@
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
     "price": "56,71 €"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-08-30T20:46:19.644837+00:00"
+    "status": "compra_directa",
+    "stock": "3",
+    "first_seen": "2026-08-30T20:46:19.644837+00:00",
+    "price": "53,93 €"
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -1493,7 +1494,7 @@
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802892+00:00",
     "price": "80,07 €",
-    "pending_price": "82,04 €",
+    "pending_price": "81,31 €",
     "pending_price_count": 1
   },
   "US:B0F6PQLR16": {
@@ -2919,9 +2920,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:43:57.912076+00:00",
-    "price": "107,15 €",
-    "pending_price": "109,15 €",
-    "pending_price_count": 1
+    "price": "107,15 €"
   },
   "US:B0DLQXNQDH": {
     "name": "Pokémon TCG: Scarlet & Violet - Prismatic Evolutions Mini Tin - Jolteon (2 Paquetes de Refuerzo y 1 Moneda)",
