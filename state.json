@@ -1313,7 +1313,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802653+00:00",
-    "price": "86,16 €"
+    "price": "86,16 €",
+    "pending_price": "87,81 €",
+    "pending_price_count": 1
   },
   "UK:B0CMZS84KP": {
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
@@ -1614,9 +1616,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "106,20 €",
-    "pending_price": "123,44 €",
-    "pending_price_count": 1
+    "price": "123,44 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -1897,7 +1897,7 @@
     "stock": "4",
     "first_seen": "2026-09-08T14:34:56.335946+00:00",
     "price": "43,89 €",
-    "pending_price": "44,04 €",
+    "pending_price": "44,06 €",
     "pending_price_count": 1
   },
   "US:B0D4B515H1": {
