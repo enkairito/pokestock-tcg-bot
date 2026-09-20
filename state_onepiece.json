@@ -11,7 +11,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:08:32.013738+00:00",
-    "price": "113,95 €"
+    "price": "113,95 €",
+    "pending_price": "114,28 €",
+    "pending_price_count": 1
   },
   "ES:B0HC7Q9P41": {
     "name": "Juego de cartas de una pieza ST-35 rojo y negro Sabo | Baraja de inicio, ST-35, rojo y negro, Sabo, juego de cartas coleccionables",
@@ -95,7 +97,9 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-08-29T18:09:47.272890+00:00",
-    "price": "37,93 €"
+    "price": "37,93 €",
+    "pending_price": "38,03 €",
+    "pending_price_count": 1
   },
   "ES:B0D69TF558": {
     "name": "One Piece TCG: Two Legends - Booster Pack (OP-08) (JP) (TCG)",
@@ -158,7 +162,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:11:01.747489+00:00",
-    "price": "136,88 €"
+    "price": "136,88 €",
+    "pending_price": "136,89 €",
+    "pending_price_count": 1
   },
   "ES:B0C3RY35G6": {
     "name": "BANDAI | One Piece Card Game: Transparent Case - Standard White | Accessories | Ages 6+ | 2 Players | 20-30 Minutes Playing Time",
@@ -241,7 +247,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T20:33:38.638411+00:00",
-    "price": "436,00 €"
+    "price": "436,00 €",
+    "pending_price": "451,00 €",
+    "pending_price_count": 1
   },
   "ES:B0HFD53BDB": {
     "name": "One Piece TCG: The World's Strongest Warriors - Juego de doble paquete Vol. 12 DP-12 (2 paquetes OP-17)",
@@ -256,7 +264,7 @@
     "stock": "2",
     "first_seen": "2026-09-08T09:40:16.326555+00:00",
     "price": "27,00 €",
-    "pending_price": "29,36 €",
+    "pending_price": "29,15 €",
     "pending_price_count": 1
   },
   "ES:B0DW3R4T9G": {
