@@ -799,7 +799,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "63,55 €"
   },
@@ -1307,9 +1307,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802645+00:00",
-    "price": "79,87 €",
-    "pending_price": "79,91 €",
-    "pending_price_count": 1
+    "price": "79,91 €"
   },
   "UK:B0FSJXSPPX": {
     "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
@@ -1328,9 +1326,11 @@
   "UK:B0GWK631XY": {
     "name": "Pokémon TCG: Mega Moonlit Tin - Mega Gengar ex (4 potenciadores y 1 tarjeta promocional de aluminio)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
+    "first_seen": "2026-09-04T21:32:58.802667+00:00",
     "price": "76,25 €",
-    "first_seen": "2026-09-04T21:32:58.802667+00:00"
+    "pending_price": "76,93 €",
+    "pending_price_count": 1
   },
   "UK:B0CT4HR8F9": {
     "name": "Pokémon - Juego de cartas Scarlet & Violet Night Wanderer, caja de sobres de expansión, 30 sobres (versión japonesa)",
@@ -1486,9 +1486,10 @@
   },
   "US:B0D8R1LW3R": {
     "name": "Pokémon TCG: Cofre de coleccionista - Scream Tail & Iron Valiant (2 Tarjetas promocionales de Aluminio, 6 Paquetes de Refuerzo y más)",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-09-04T21:32:58.802885+00:00"
+    "status": "compra_directa",
+    "stock": "5",
+    "first_seen": "2026-09-04T21:32:58.802885+00:00",
+    "price": "98,47 €"
   },
   "US:B0G5S61BHK": {
     "name": "Pokémon TCG: Mega Charizard Tin - Mega Charizard X ex (4 potenciadores y 1 Tarjeta Promocional de Aluminio)",
@@ -1721,7 +1722,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-06T13:57:50.628764+00:00",
-    "price": "21,66 €"
+    "price": "21,65 €"
   },
   "UK:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
