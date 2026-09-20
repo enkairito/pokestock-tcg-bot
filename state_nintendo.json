@@ -934,10 +934,9 @@
   },
   "ES:B0DW8WQ8L2": {
     "name": "JSAUX Protector Pantalla Ultra HD para Nintendo Switch 2, Pack de 3 | Cristal templado 9H, Instalación sin burbujas, Marco de montaje, Alta claridad HD, Colores vivos originales",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-12T18:30:08.918485+00:00",
-    "price": "8,99 €"
+    "first_seen": "2026-09-12T18:30:08.918485+00:00"
   },
   "ES:B0CXDYCKVS": {
     "name": "Teenage Mutant Ninja Turtles: Mutantes desencadenados - Switch",
@@ -1932,7 +1931,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688535+00:00",
-    "price": "34,57 €"
+    "price": "33,85 €"
   },
   "ES:B0F3NKCYC4": {
     "name": "Super Mario Party: Jamboree - Nintendo Switch 2 Edition + Jamboree TV (Switch 2)",
@@ -2052,7 +2051,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
     "price": "40,00 €",
-    "pending_price": "42,09 €",
+    "pending_price": "42,05 €",
     "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
@@ -2165,7 +2164,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689031+00:00",
-    "price": "296,10 €"
+    "price": "296,10 €",
+    "pending_price": "299,90 €",
+    "pending_price_count": 1
   },
   "ES:B09J1NFWN7": {
     "name": "Nintendo Switch (versión OLED) Azul Neón/Rojo Neón + Nintendo Switch Online - 12 Meses (Código de descarga)",
@@ -2319,7 +2320,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689402+00:00",
-    "price": "55,10 €"
+    "price": "55,10 €",
+    "pending_price": "59,99 €",
+    "pending_price_count": 1
   },
   "ES:B0FKH81W82": {
     "name": "Operation Night Strikers Assault Edition NS",
@@ -2575,10 +2578,9 @@
   },
   "ES:B0FCYL8GG3": {
     "name": "JSAUX Empuñadura de Carga Magnética para JoyPads Switch 2 | Carga Durante el Juego, Acople Magnético, PC+ABS, Estado LED Rojo/Verde, Diseño Compacto, Cable de Carga de 1,5 m",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.689850+00:00",
-    "price": "15,99 €"
+    "first_seen": "2026-09-17T00:32:50.689850+00:00"
   },
   "ES:B0FDH2HK6V": {
     "name": "NK Mando PRO Switch Inalámbrico- Wireless Pro Switch Controller con Función Macro/Wake/Turbo/Gyro Axis/Doble Vibración/RGB Light - Color Negro/Rojo/Azul",
@@ -2652,10 +2654,9 @@
   },
   "ES:B0FCYHDC4R": {
     "name": "JSAUX Funda Protectora Dividida para Switch 2, Agarre y Cubierta Frontal | Anticaídas, Compatible con Dock, Agarre Ergonómico Antideslizante, Uso del Soporte, Cubierta PC, Marco TPU, 10 Tarjetas",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.689913+00:00",
-    "price": "29,99 €"
+    "first_seen": "2026-09-17T00:32:50.689913+00:00"
   },
   "ES:B00LG0I9ZQ": {
     "name": "8BitDo 64 Bluetooth Controller for Analogue 3D, Switch, Switch 2, Windows, and Android (Grey)",
@@ -2740,9 +2741,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689991+00:00",
-    "price": "75,64 €",
-    "pending_price": "75,71 €",
-    "pending_price_count": 1
+    "price": "75,71 €"
   },
   "ES:B0B69K1671": {
     "name": "Volante y pedales Hori para consola Switch pack Crash-Bandicoot Nitro Fueled (Liccencia oficial)",
