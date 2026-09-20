@@ -128,7 +128,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388338+00:00",
-    "price": "49,99 €"
+    "price": "47,56 €"
   },
   "ES:B08KVH51VX": {
     "name": "NEED FOR SPEED HOT PURSUIT REMASTERED",
@@ -989,7 +989,7 @@
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
     "price": "35,95 €",
-    "pending_price": "38,75 €",
+    "pending_price": "37,32 €",
     "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
@@ -1290,10 +1290,9 @@
   },
   "ES:B0DCD9LGHY": {
     "name": "Xbox Serie X - Edición digital de 1 TB",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-16T10:34:33.318741+00:00",
-    "price": "817,12 €"
+    "first_seen": "2026-09-16T10:34:33.318741+00:00"
   },
   "ES:B08FCXLB8Z": {
     "name": "Xbox Play y Kit de Carga USB",
@@ -1498,9 +1497,10 @@
   },
   "ES:B07DP8XN43": {
     "name": "SEKIRO - Shadows Die Twice - Xbox One [Importación alemana]",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:42.060966+00:00"
+    "first_seen": "2026-09-17T00:32:42.060966+00:00",
+    "price": "25,47 €"
   },
   "ES:B0DGGRTZZS": {
     "name": "Xbox Series X (1TB) Standard + EA Sports FC 25 Standard Edition",
@@ -2069,7 +2069,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256914+00:00",
-    "price": "13,38 €"
+    "price": "13,38 €",
+    "pending_price": "13,48 €",
+    "pending_price_count": 1
   },
   "ES:B097ZBFDKW": {
     "name": "Demon Slayer -KIMETSU NO Yaiba- JPN (Voice) - E F I G S (Text) Box UK",
@@ -2409,10 +2411,9 @@
   },
   "ES:B0FVLVQJH1": {
     "name": "JSAUX Funda De Transporte De Gran Capacidad para ROG Xbox Ally/Ally X | Carcasa Rígida, Dos Niveles para Consola Y Accesorios, Forro Suave, Protección Joysticks, Ranuras SD/micro SD, BG0136",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:42.257492+00:00",
-    "price": "29,99 €"
+    "first_seen": "2026-09-17T00:32:42.257492+00:00"
   },
   "ES:B07RDQBFXY": {
     "name": "Corsair Harpoon Pro RGB Ratón Ligero con Cable para Juegos FPS/MOBA - Negro | 12.000 PPP, 6 Botones Programables, Compatible con iCUE, PC, Mac, PS5, PS4, Xbox",
@@ -2785,7 +2786,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T08:32:35.495962+00:00",
-    "price": "14,76 €"
+    "price": "14,76 €",
+    "pending_price": "23,41 €",
+    "pending_price_count": 1
   },
   "ES:B08PSVXJ29": {
     "name": "Mcbazel Kit 13 en 1 con Palancas de Metal para Xbox Elite Series 2, Kit de Reemplazo con Botones Magnéticos, 6 Palancas Magnéticas, 4 Paletas Traseras y 2 D-Pads para Xbox Elite Series 2, Negro",
@@ -2841,7 +2844,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.548570+00:00",
-    "price": "44,43 €"
+    "price": "44,43 €",
+    "pending_price": "44,53 €",
+    "pending_price_count": 1
   },
   "ES:B0DJCHJ6D6": {
     "name": "Microsoft Flight Simulator 2024 Aviator Edition | Xbox & Windows - Código de descarga del juego",
@@ -3205,7 +3210,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790777+00:00",
-    "price": "28,66 €"
+    "price": "27,72 €"
   },
   "ES:B07BNN4M86": {
     "name": "Assassin'S Creed: Origins",
@@ -3255,7 +3260,7 @@
     "stock": null,
     "first_seen": "2026-09-18T14:31:49.729335+00:00",
     "price": "76,57 €",
-    "pending_price": "84,99 €",
+    "pending_price": "84,96 €",
     "pending_price_count": 1
   },
   "ES:B0DBQRTLFN": {
@@ -3403,9 +3408,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T12:32:04.828014+00:00",
-    "price": "31,81 €",
-    "pending_price": "39,99 €",
-    "pending_price_count": 1
+    "price": "39,99 €"
   },
   "ES:B095PNMTGR": {
     "name": "Mars Gaming MCPX, Idioma Español, Combo Gaming 3en1 con Teclado H-Mech Iluminado, Ratón Ultraligero 10000 dpi con Software y Alfombrilla XXL, Compatible con PC, PS4, PS5, Xbox, Blanco",
@@ -3587,7 +3590,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T14:32:18.169515+00:00",
-    "price": "15,47 €"
+    "price": "14,18 €"
   },
   "ES:B07DQ9JMQF": {
     "name": "Sekiro: Shadows Die Twice",
