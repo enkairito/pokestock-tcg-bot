@@ -258,9 +258,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "84,99 €",
-    "pending_price": "99,00 €",
-    "pending_price_count": 1
+    "price": "84,99 €"
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -2129,7 +2127,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498960+00:00",
-    "price": "39,76 €"
+    "price": "38,95 €"
   },
   "ES:B09PJ4WZWC": {
     "name": "Far Cry 6 (PS4) (PS4)",
@@ -2164,7 +2162,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499111+00:00",
-    "price": "19,84 €"
+    "price": "19,84 €",
+    "pending_price": "20,18 €",
+    "pending_price_count": 1
   },
   "ES:B07NRHS623": {
     "name": "The Legend of Heroes: Trails of Cold Steel III [Importación francesa]",
@@ -2534,7 +2534,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500099+00:00",
-    "price": "54,90 €"
+    "price": "54,90 €",
+    "pending_price": "58,90 €",
+    "pending_price_count": 1
   },
   "ES:B0D1KBNWHF": {
     "name": "SteelSeries Arctis Nova 5 Cascos gaming inalámbricos PC, PS5, Switch 2, móvil - Controladores magnéticos de neodimio - Más de 100 preajustes de audio - Batería de 60h - 2,4 GHz o BT - Micro Gen2.X",
@@ -2840,7 +2842,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566254+00:00",
-    "price": "23,11 €"
+    "price": "23,02 €"
   },
   "ES:B0H6Y3H3PL": {
     "name": "Blasphemous: Martyrs’ Edition - PlayStation 4",
