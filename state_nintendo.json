@@ -126,7 +126,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.911952+00:00",
-    "price": "65,95 €"
+    "price": "59,97 €"
   },
   "ES:B0F8WRHMGT": {
     "name": "Belkin Gaming Bolsa de Viaje Bolsillo para AirTag Nintendo Switch 2 Carbón | Funda de Transporte Compacta y Ligera, Carcasa Rígida e Interior Acolchado, Bolsillo para Tarjetas de Juegos, para Viajar",
@@ -604,9 +604,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478275+00:00",
-    "price": "44,99 €",
-    "pending_price": "54,56 €",
-    "pending_price_count": 1
+    "price": "54,56 €"
   },
   "ES:B0DS1S2Z7L": {
     "name": "ivoler 4 Piezas Protector Pantalla para Nintendo Switch 2 Model 2025, instalación en 30 segundos Incluye Marco de Instalación Fácil, Cristal Vidrio Templado Premium",
@@ -2055,7 +2053,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
     "price": "40,00 €",
-    "pending_price": "41,87 €",
+    "pending_price": "41,85 €",
     "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
@@ -3219,7 +3217,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:52.753836+00:00",
-    "price": "65,99 €"
+    "price": "65,99 €",
+    "pending_price": "73,60 €",
+    "pending_price_count": 1
   },
   "ES:B0FCTL7D1N": {
     "name": "MME Tapas de Joystick compatibles con Nintendo Switch 2 | Protector de Joystick para Switch 2, Agarres para el pulgar de silicona para Switch 2, PS 4, PS5, Xbox",
@@ -3514,5 +3514,95 @@
     "stock": null,
     "first_seen": "2026-09-19T14:32:21.853938+00:00",
     "price": "60,45 €"
+  },
+  "ES:B09Z3KWD55": {
+    "name": "Nintendo Switch Sports (Nintendo Switch) + Nintendo Switch Online - 12 Meses (Código de descarga)",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:30.849985+00:00"
+  },
+  "ES:B0FR9G4N9S": {
+    "name": "Metroid Prime 4: Beyond [PEGI] (barra de juego Deutsch) (Nintendo Switch 2)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:31.031929+00:00",
+    "price": "54,99 €"
+  },
+  "ES:B0H1P1XVYT": {
+    "name": "Yoshi and the Mysterious Book Standard | Nintendo Switch 2 - Código de descarga",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:31.031960+00:00",
+    "price": "59,99 €"
+  },
+  "ES:B0GXB2FGKL": {
+    "name": "PORTHOLIC 5 en 1 Estación de acoplamiento para Nintendo Switch 2, base de TV portátil con salida HDMI 4K a 120Hz, carga PD de 60 W, puertos USB 3.0 y USB 2.0, interruptor de modo de un solo toque",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:31.032046+00:00",
+    "price": "29,99 €"
+  },
+  "ES:B0F7RKSYQZ": {
+    "name": "playvital Tapas para Joystick para Nintendo Switch 2 2025, 4 Piezas | Silicona Suave, Mejor Control, Antideslizante, Protección Diaria, Tacto Cómodo, Diseño Kawaii, Oso & Conejo",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:31.032061+00:00",
+    "price": "11,99 €"
+  },
+  "ES:B09VQ2GPK9": {
+    "name": "Mario + Rabbids Kingdom Battle + Tarjeta online",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:31.032369+00:00",
+    "price": "44,90 €"
+  },
+  "ES:B0GY924GV5": {
+    "name": "Dementium The Ward NS",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:31.032434+00:00",
+    "price": "29,99 €"
+  },
+  "ES:B07B5WB745": {
+    "name": "Crash Bandicoot - Nintendo Switch [Importación italiana]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:31.032461+00:00",
+    "price": "34,55 €"
+  },
+  "ES:B0F7RNPRKV": {
+    "name": "playvital Funda Protectora para Nintendo Switch 2 (2025) | Carcasa Rígida, Compatible con Dock, con Soporte Plegable y Tapas de Joysticks, Antigolpes, Color Sólido, Verde Matcha",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:31.032527+00:00",
+    "price": "22,99 €"
+  },
+  "ES:B0F8KSRRNM": {
+    "name": "Spigen Funda Nano Pop Pro Compatible con Nintendo Switch 2 2025 - Blueberry Navy",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:31.032562+00:00",
+    "price": "6,84 €"
+  },
+  "ES:B0F3YXTMPF": {
+    "name": "RDS - Funda con licencia para Nintendo Switch 2, Nintendo Switch OLED y Nintendo. Sistema Game Traveler Deluxe. Capacidad para 12 tarjetas de juego y funda para tarjetas microSD con capacidad para 2",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:31.032578+00:00",
+    "price": "29,90 €"
+  },
+  "ES:B0GDD499NM": {
+    "name": "AceGamer 2pcs mandos inalámbricos para Switch 2/Switch/Lite/OLED, mando inalámbrico Pro con joystick Hall/giroscopio de 6 ejes/función de activación/botón programable/ajustes de vibración/aviso de bat",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:31.032600+00:00",
+    "price": "39,99 €"
+  },
+  "ES:B0FCRR6W8R": {
+    "name": "Cargador Switch 2/OLED/Lite/Steam Deck USB-C 60W, Carga Rápida Tipo C 1,5m | USB-C 60W (PD): carga Switch, Switch 2, OLED, Lite, Steam Deck y mando Pro. Salida 5-20V, cable 1,5 m. Protección múltiple.",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T12:31:31.032603+00:00",
+    "price": "15,99 €"
   }
 }
