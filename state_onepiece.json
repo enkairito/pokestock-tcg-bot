@@ -11,7 +11,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:08:32.013738+00:00",
-    "price": "113,41 €"
+    "price": "113,41 €",
+    "pending_price": "113,95 €",
+    "pending_price_count": 1
   },
   "ES:B0HC7Q9P41": {
     "name": "Juego de cartas de una pieza ST-35 rojo y negro Sabo | Baraja de inicio, ST-35, rojo y negro, Sabo, juego de cartas coleccionables",
@@ -74,9 +76,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:09:29.426544+00:00",
-    "price": "44,15 €",
-    "pending_price": "48,06 €",
-    "pending_price_count": 1
+    "price": "43,28 €"
   },
   "ES:B0GDGRWH54": {
     "name": "One Piece TCG: Double Pack Set Vol. 9 (DP-09) - The Azure Sea's Seven (2 Paquetes)",
@@ -97,9 +97,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:09:47.272890+00:00",
-    "price": "37,86 €",
-    "pending_price": "38,21 €",
-    "pending_price_count": 1
+    "price": "38,21 €"
   },
   "ES:B0D69TF558": {
     "name": "One Piece TCG: Two Legends - Booster Pack (OP-08) (JP) (TCG)",
@@ -245,14 +243,12 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T20:33:38.638411+00:00",
-    "price": "436,00 €",
-    "pending_price": "451,00 €",
-    "pending_price_count": 1
+    "price": "436,00 €"
   },
   "ES:B0HFD53BDB": {
     "name": "One Piece TCG: The World's Strongest Warriors - Juego de doble paquete Vol. 12 DP-12 (2 paquetes OP-17)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "1",
     "first_seen": "2026-09-06T00:36:37.394759+00:00",
     "price": "74,32 €"
   },
@@ -262,7 +258,7 @@
     "stock": "2",
     "first_seen": "2026-09-08T09:40:16.326555+00:00",
     "price": "27,00 €",
-    "pending_price": "29,87 €",
+    "pending_price": "29,72 €",
     "pending_price_count": 1
   },
   "ES:B0DW3R4T9G": {
