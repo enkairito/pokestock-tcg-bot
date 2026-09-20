@@ -309,7 +309,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018808+00:00",
-    "price": "18,98 €"
+    "price": "18,98 €",
+    "pending_price": "25,12 €",
+    "pending_price_count": 1
   },
   "ES:B09KTGP5C2": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition, PlayStation 4",
@@ -1422,9 +1424,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.312471+00:00",
-    "price": "200,00 €",
-    "pending_price": "203,99 €",
-    "pending_price_count": 1
+    "price": "203,99 €"
   },
   "ES:B073QRG1YR": {
     "name": "Sony PlayStation 4 Slim 500GB Negro Wifi - Videoconsolas (PlayStation 4, Negro, 8192 MB, GDDR5, GDDR5, AMD Jaguar)",
@@ -2108,7 +2108,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498807+00:00",
-    "price": "69,00 €"
+    "price": "69,00 €",
+    "pending_price": "74,00 €",
+    "pending_price_count": 1
   },
   "ES:B01H0CBMXO": {
     "name": "Electronic Arts - Titanfall 2",
@@ -2997,7 +2999,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:31:53.613366+00:00",
-    "price": "159,99 €"
+    "price": "151,14 €"
   },
   "ES:B09JNYCXP7": {
     "name": "OIVO Soporte PS5/Slim/Pro Horizontal para Consola PlayStation 5, PS5 Suporte Horizontal, Soporte PS5 Acostado, Suporte Horizonta P5 con Tornillo, Accesorios PlayStation 5, Packs de Accesorios, Negro",
@@ -3317,7 +3319,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T12:31:57.651569+00:00",
-    "price": "35,82 €"
+    "price": "35,82 €",
+    "pending_price": "38,67 €",
+    "pending_price_count": 1
   },
   "ES:B0GDCYSRL4": {
     "name": "Precisión Y Control con 2 Thumbsticks, Convexos De Altura Elevada Y Media,Comodidad Y Agarre Antideslizante,para (PS4) y (PS5)",
@@ -3402,9 +3406,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T14:32:21.327075+00:00",
-    "price": "19,90 €",
-    "pending_price": "21,50 €",
-    "pending_price_count": 1
+    "price": "19,90 €"
   },
   "ES:B01BGQ80BM": {
     "name": "Odin Sphere Leifthrasir (PS4)",
@@ -3440,5 +3442,12 @@
     "stock": null,
     "first_seen": "2026-09-19T16:32:14.537876+00:00",
     "price": "23,66 €"
+  },
+  "ES:B0FS1DS9ZK": {
+    "name": "MatoSan Thumbstick - Juego de 4 tapones de silicona de repuesto compatibles con PS5 PS4 Xbox Series 8BitDo Controller - Agarre antideslizante para un control más preciso - Tapas protectoras para palos",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T02:31:51.947753+00:00",
+    "price": "11,99 €"
   }
 }
