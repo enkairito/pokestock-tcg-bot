@@ -1352,7 +1352,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T04:35:55.955905+00:00",
-    "price": "729,91 €"
+    "price": "649,00 €"
   },
   "ES:B0D8KXMCTC": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Naranja)",
@@ -1484,7 +1484,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.312514+00:00",
-    "price": "175,00 €"
+    "price": "172,00 €"
   },
   "ES:B010TNVS1W": {
     "name": "PlayStation 4 - Konsole (500GB, schwarz) [CUH-1216A]",
@@ -2165,7 +2165,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499111+00:00",
-    "price": "20,18 €"
+    "price": "20,18 €",
+    "pending_price": "20,52 €",
+    "pending_price_count": 1
   },
   "ES:B07NRHS623": {
     "name": "The Legend of Heroes: Trails of Cold Steel III [Importación francesa]",
@@ -2342,9 +2344,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499872+00:00",
-    "price": "36,17 €",
-    "pending_price": "36,25 €",
-    "pending_price_count": 1
+    "price": "36,25 €"
   },
   "ES:B0CGV26PYK": {
     "name": "Red Dead Redemption - PS4",
@@ -3634,5 +3634,19 @@
     "stock": null,
     "first_seen": "2026-09-20T16:31:45.789007+00:00",
     "price": "21,99 €"
+  },
+  "ES:B0H1N7YF14": {
+    "name": "Control Ultimate Edition - SPA",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T18:31:45.155715+00:00",
+    "price": "28,99 €"
+  },
+  "ES:B0DK1JL97Y": {
+    "name": "tonhui Soporte de Pared para PS5/PS5 Slim/PS5 Pro | Con soporte para controlador y auriculares – Accesorios PS5 de metal y polímero resistente a los arañazos - Negro",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-20T18:31:45.156329+00:00",
+    "price": "29,99 €"
   }
 }
