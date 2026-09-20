@@ -128,7 +128,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388338+00:00",
-    "price": "47,56 €"
+    "price": "47,56 €",
+    "pending_price": "49,99 €",
+    "pending_price_count": 1
   },
   "ES:B08KVH51VX": {
     "name": "NEED FOR SPEED HOT PURSUIT REMASTERED",
@@ -988,7 +990,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "35,95 €"
+    "price": "35,95 €",
+    "pending_price": "42,03 €",
+    "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1288,10 +1292,9 @@
   },
   "ES:B0DCD9LGHY": {
     "name": "Xbox Serie X - Edición digital de 1 TB",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-16T10:34:33.318741+00:00",
-    "price": "817,16 €"
+    "first_seen": "2026-09-16T10:34:33.318741+00:00"
   },
   "ES:B08FCXLB8Z": {
     "name": "Xbox Play y Kit de Carga USB",
