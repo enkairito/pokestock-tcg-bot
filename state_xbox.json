@@ -504,7 +504,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "209,72 €"
+    "price": "149,99 €"
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -840,7 +840,7 @@
     "stock": null,
     "first_seen": "2026-09-13T00:21:08.267403+00:00",
     "price": "41,24 €",
-    "pending_price": "42,24 €",
+    "pending_price": "44,24 €",
     "pending_price_count": 1
   },
   "ES:B07M7X2JLB": {
@@ -990,7 +990,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "37,32 €"
+    "price": "37,32 €",
+    "pending_price": "38,41 €",
+    "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1279,7 +1281,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.017973+00:00",
-    "price": "175,00 €"
+    "price": "175,00 €",
+    "pending_price": "219,00 €",
+    "pending_price_count": 1
   },
   "ES:B01M5CZKW6": {
     "name": "Konsole Xbox One S 500 Gb Weiß",
