@@ -159,7 +159,7 @@
     "stock": null,
     "first_seen": "2026-08-29T18:11:01.747489+00:00",
     "price": "136,89 €",
-    "pending_price": "137,17 €",
+    "pending_price": "138,65 €",
     "pending_price_count": 1
   },
   "ES:B0C3RY35G6": {
@@ -236,14 +236,18 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-03T18:23:03.868065+00:00",
-    "price": "195,58 €"
+    "price": "195,58 €",
+    "pending_price": "196,74 €",
+    "pending_price_count": 1
   },
   "ES:B0HF1Z72XW": {
     "name": "One Piece TCG: The World's Strongest Warriors Booster Box (OP-17) - 24 paquetes",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T20:33:38.638411+00:00",
-    "price": "436,00 €"
+    "price": "436,00 €",
+    "pending_price": "451,00 €",
+    "pending_price_count": 1
   },
   "ES:B0HFD53BDB": {
     "name": "One Piece TCG: The World's Strongest Warriors - Juego de doble paquete Vol. 12 DP-12 (2 paquetes OP-17)",
@@ -258,7 +262,7 @@
     "stock": "2",
     "first_seen": "2026-09-08T09:40:16.326555+00:00",
     "price": "27,00 €",
-    "pending_price": "28,79 €",
+    "pending_price": "28,61 €",
     "pending_price_count": 1
   },
   "ES:B0DW3R4T9G": {
