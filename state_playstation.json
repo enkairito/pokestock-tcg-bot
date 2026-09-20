@@ -1402,7 +1402,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.312460+00:00",
-    "price": "210,00 €"
+    "price": "205,00 €"
   },
   "ES:B0GZVXB4DX": {
     "name": "Grand Theft Auto VI - Xbox Series X/S (Código de descarga)",
@@ -1422,7 +1422,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.312471+00:00",
-    "price": "200,00 €"
+    "price": "200,00 €",
+    "pending_price": "203,99 €",
+    "pending_price_count": 1
   },
   "ES:B073QRG1YR": {
     "name": "Sony PlayStation 4 Slim 500GB Negro Wifi - Videoconsolas (PlayStation 4, Negro, 8192 MB, GDDR5, GDDR5, AMD Jaguar)",
@@ -2106,7 +2108,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498807+00:00",
-    "price": "74,00 €"
+    "price": "69,00 €"
   },
   "ES:B01H0CBMXO": {
     "name": "Electronic Arts - Titanfall 2",
@@ -2708,9 +2710,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500230+00:00",
-    "price": "6,95 €",
-    "pending_price": "14,95 €",
-    "pending_price_count": 1
+    "price": "14,95 €"
   },
   "ES:B07GS6ZS8J": {
     "name": "Logitech G G502 Hero Ratón Gaming con Cable Alto Rendimiento | Captor HERO 25K, 25,600 DPI, RGB, Peso Personalizable, 11 Botones Programables, Memoria Integrada, PC/Mac - Negro",
