@@ -16,7 +16,7 @@
   "ES:B0HC7Q9P41": {
     "name": "Juego de cartas de una pieza ST-35 rojo y negro Sabo | Baraja de inicio, ST-35, rojo y negro, Sabo, juego de cartas coleccionables",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "3",
     "first_seen": "2026-08-29T18:08:37.714905+00:00",
     "price": "26,00 €"
   },
@@ -30,7 +30,7 @@
   "ES:B0HC746FKY": {
     "name": "Juego de cartas de una pieza ST-34 Purple Charlotte Katakuri | Baraja de inicio, ST-34, Charlotte Katakuri, morado, juego de cartas coleccionables",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-29T18:08:49.282666+00:00",
     "price": "30,00 €"
   },
@@ -46,7 +46,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:09:04.551067+00:00",
-    "price": "69,63 €"
+    "price": "69,62 €"
   },
   "ES:B0CRY385YN": {
     "name": "One Piece TCG: Two Legends - Booster Box (OP-08) (JP) (TCG)",
@@ -58,7 +58,7 @@
   "ES:B0HC7LPXB4": {
     "name": "Juego de cartas de una pieza ST-32 verde Roronoa Zoro | Baraja de inicio, ST-32, juego de cartas coleccionables, Roronoa Zoro, mazo verde",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "1",
     "first_seen": "2026-08-29T18:09:16.260611+00:00",
     "price": "33,00 €"
   },
@@ -190,9 +190,11 @@
   "ES:B0F85W59Y4": {
     "name": "One Piece TCG - Juego de cartas Vol. 1-2 (arte al azar)",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "3",
+    "first_seen": "2026-08-30T23:39:08.354427+00:00",
     "price": "125,48 €",
-    "first_seen": "2026-08-30T23:39:08.354427+00:00"
+    "pending_price": "126,80 €",
+    "pending_price_count": 1
   },
   "ES:B0D6BCCM35": {
     "name": "Two Legends Booster OP-08 - Juego de cartas de una pieza",
@@ -240,7 +242,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T20:33:38.638411+00:00",
-    "price": "451,00 €"
+    "price": "436,00 €"
   },
   "ES:B0HFD53BDB": {
     "name": "One Piece TCG: The World's Strongest Warriors - Juego de doble paquete Vol. 12 DP-12 (2 paquetes OP-17)",
@@ -252,7 +254,7 @@
   "ES:B0HC7DT1ZY": {
     "name": "Juego de cartas de una pieza Starter Deck ST-36 amarillo Eustass Captain Kid",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "3",
     "first_seen": "2026-09-08T09:40:16.326555+00:00",
     "price": "27,00 €"
   },
