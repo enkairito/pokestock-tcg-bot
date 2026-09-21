@@ -379,7 +379,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811694+00:00",
-    "price": "44,99 €"
+    "price": "37,81 €"
   },
   "ES:B0C7GW9F88": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Blanco)",
@@ -428,7 +428,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811725+00:00",
-    "price": "199,99 €"
+    "price": "149,99 €"
   },
   "ES:B0CGY46386": {
     "name": "PDP Xbox Afterglow Wave Wired Controller Blue",
@@ -504,9 +504,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "149,99 €",
-    "pending_price": "209,72 €",
-    "pending_price_count": 1
+    "price": "209,72 €"
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -565,7 +563,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:11.204384+00:00",
-    "price": "59,41 €"
+    "price": "59,41 €",
+    "pending_price": "59,99 €",
+    "pending_price_count": 1
   },
   "ES:B0829M81QT": {
     "name": "Doom Slayers Collection - Xbox One",
@@ -850,7 +850,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:21:08.267481+00:00",
-    "price": "44,87 €"
+    "price": "44,75 €"
   },
   "ES:B0FNY6N6XB": {
     "name": "BATTLEFIELD 6 Standard Edition | Xbox Series X|S - Código de descarga",
@@ -992,7 +992,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "38,62 €"
+    "price": "37,32 €"
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1095,9 +1095,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T00:20:55.336217+00:00",
-    "price": "24,90 €",
-    "pending_price": "29,99 €",
-    "pending_price_count": 1
+    "price": "29,99 €"
   },
   "ES:B0HCTQNBN8": {
     "name": "8BitDo Ultimate Charging Dock for Xbox Controllers, Gears of War: E-Day | Officially Licensed, Wireless Charging, Keep Original Battery Door, XBOX Series X|S & XBOX One Controllers, 1000mAh Battery",
@@ -1294,10 +1292,9 @@
   },
   "ES:B0DCD9LGHY": {
     "name": "Xbox Serie X - Edición digital de 1 TB",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-16T10:34:33.318741+00:00",
-    "price": "817,92 €"
+    "first_seen": "2026-09-16T10:34:33.318741+00:00"
   },
   "ES:B08FCXLB8Z": {
     "name": "Xbox Play y Kit de Carga USB",
@@ -2074,7 +2071,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256914+00:00",
-    "price": "13,48 €"
+    "price": "13,48 €",
+    "pending_price": "13,58 €",
+    "pending_price_count": 1
   },
   "ES:B097ZBFDKW": {
     "name": "Demon Slayer -KIMETSU NO Yaiba- JPN (Voice) - E F I G S (Text) Box UK",
@@ -2943,7 +2942,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.549000+00:00",
-    "price": "97,75 €"
+    "price": "92,98 €"
   },
   "ES:B0GJ5G9K7W": {
     "name": "deleyCON Cable HDMI 2.1 8K 2m Cable de Alta Velocidad Ultra High Speed 48 Gbps con Conector Acodado (270°) - Ideal para TV, Monitor, PS4, PS5, EARC, HDR10+ - 10K/8K@60Hz, 4K@120Hz/144Hz y 2K@240Hz",
@@ -3174,7 +3173,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790702+00:00",
-    "price": "11,93 €"
+    "price": "11,92 €"
   },
   "ES:B0847NVBHQ": {
     "name": "USAopoly USODC129000 Star Wars: Dark Side Rising, Mixed Colours",
@@ -3188,9 +3187,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790750+00:00",
-    "price": "9,51 €",
-    "pending_price": "9,69 €",
-    "pending_price_count": 1
+    "price": "9,69 €"
   },
   "ES:B00VWGTWU0": {
     "name": "Deus Ex: Mankind Divided Day One Edition [Importación Inglesa]",
@@ -3569,7 +3566,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T14:32:18.169481+00:00",
-    "price": "21,82 €"
+    "price": "21,81 €"
   },
   "ES:B01AH2F07S": {
     "name": "Quantum Break [Importación Francesa]",
@@ -3685,7 +3682,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579601+00:00",
-    "price": "28,31 €"
+    "price": "28,31 €",
+    "pending_price": "28,41 €",
+    "pending_price_count": 1
   },
   "ES:B0GSFRB7PX": {
     "name": "Darksiders Warmastered - XSRX",
@@ -3776,7 +3775,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579852+00:00",
-    "price": "11,06 €"
+    "price": "11,06 €",
+    "pending_price": "11,16 €",
+    "pending_price_count": 1
   },
   "ES:B0C23V86YJ": {
     "name": "Destroy All Humans! 2 - Reprobed: Single Player Juego para Xbox One",
