@@ -309,9 +309,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018808+00:00",
-    "price": "18,98 €",
-    "pending_price": "25,12 €",
-    "pending_price_count": 1
+    "price": "25,12 €"
   },
   "ES:B09KTGP5C2": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition, PlayStation 4",
@@ -1354,7 +1352,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T04:35:55.955905+00:00",
-    "price": "729,91 €"
+    "price": "649,00 €"
   },
   "ES:B0D8KXMCTC": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Naranja)",
@@ -1859,9 +1857,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498055+00:00",
-    "price": "35,85 €",
-    "pending_price": "38,27 €",
-    "pending_price_count": 1
+    "price": "35,85 €"
   },
   "ES:B00FB5K3UG": {
     "name": "Sonic and Sega All-Stars Racing Essentials (PlayStation 3) [Importación inglesa]",
@@ -2127,7 +2123,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498891+00:00",
-    "price": "28,00 €"
+    "price": "28,00 €",
+    "pending_price": "28,10 €",
+    "pending_price_count": 1
   },
   "ES:B07MWXG7QV": {
     "name": "Days Gone [Importación francesa]",
@@ -2135,7 +2133,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498960+00:00",
     "price": "36,92 €",
-    "pending_price": "46,10 €",
+    "pending_price": "37,66 €",
     "pending_price_count": 1
   },
   "ES:B09PJ4WZWC": {
@@ -2186,7 +2184,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499167+00:00",
     "price": "32,73 €",
-    "pending_price": "37,93 €",
+    "pending_price": "32,74 €",
     "pending_price_count": 1
   },
   "ES:B0CJG2KCBL": {
@@ -2264,7 +2262,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499492+00:00",
-    "price": "25,13 €"
+    "price": "25,13 €",
+    "pending_price": "25,99 €",
+    "pending_price_count": 1
   },
   "ES:B07V9NP59C": {
     "name": "Remothered: Tormented Fathers",
@@ -2357,9 +2357,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499889+00:00",
-    "price": "26,70 €",
-    "pending_price": "37,00 €",
-    "pending_price_count": 1
+    "price": "37,00 €"
   },
   "ES:B08TJGKN5J": {
     "name": "PS4 Horizon Forbidden West",
@@ -2373,14 +2371,18 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499915+00:00",
-    "price": "42,67 €"
+    "price": "42,67 €",
+    "pending_price": "42,77 €",
+    "pending_price_count": 1
   },
   "ES:B07D9TFK6W": {
     "name": "Sega Mega Drive Classics",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499924+00:00",
-    "price": "21,91 €"
+    "price": "21,91 €",
+    "pending_price": "21,92 €",
+    "pending_price_count": 1
   },
   "ES:B07KZS61P5": {
     "name": "NieR: Automata Game of the YoRHa Edition (PlayStation PS4)",
@@ -2882,7 +2884,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566486+00:00",
-    "price": "28,88 €"
+    "price": "28,87 €"
   },
   "ES:B07W7KWV2Y": {
     "name": "Logitech Brio 300 Full HD Webcam con Obturador de privacidad | Micrófono reducción ruido, USB-C, certificado Zoom/Teams/Google Meet, corrección de luz automática - Grafito",
@@ -3133,7 +3135,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:32:05.432870+00:00",
-    "price": "9,34 €"
+    "price": "9,34 €",
+    "pending_price": "9,44 €",
+    "pending_price_count": 1
   },
   "ES:B0FT8FBMK5": {
     "name": "Code Vein II",
@@ -3508,7 +3512,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:34.022962+00:00",
-    "price": "25,11 €"
+    "price": "25,10 €"
   },
   "ES:B072QXPN1S": {
     "name": "The Crew 2 - Edición Estándar",
