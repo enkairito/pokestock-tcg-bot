@@ -967,9 +967,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:25:09.102652+00:00",
-    "price": "20,39 €",
-    "pending_price": "23,99 €",
-    "pending_price_count": 1
+    "price": "23,99 €"
   },
   "ES:B0F49RD95B": {
     "name": "Orzly Funda de Transporte para Consola Nintendo Switch 2 2025 de 7.9 Pulgadas, Funda rígida con Almacenamiento Inteligente para Accesorios y Bolsillos de Juegos, Edición de Caja de Regalo",
@@ -1472,9 +1470,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.312504+00:00",
-    "price": "589,00 €",
-    "pending_price": "719,90 €",
-    "pending_price_count": 1
+    "price": "719,90 €"
   },
   "ES:B00BE4HOIM": {
     "name": "Sony PlayStation 4 500GB Console (Black) [Importación inglesa]",
@@ -1844,17 +1840,18 @@
   },
   "ES:B0FS1ZYDRW": {
     "name": "Sony Consola PlayStation5 STD Bundle EA FC26",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:37.498022+00:00",
-    "price": "759,99 €"
+    "first_seen": "2026-09-17T00:32:37.498022+00:00"
   },
   "ES:B0CRYXTL82": {
     "name": "Retro Games THE400 Mini Consola Retro",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498034+00:00",
-    "price": "69,40 €"
+    "price": "69,40 €",
+    "pending_price": "90,93 €",
+    "pending_price_count": 1
   },
   "ES:B08TJQY9JD": {
     "name": "Playstation Gran Turismo 7 | Standard Edition [Playstation 4]",
@@ -2560,9 +2557,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500116+00:00",
-    "price": "44,19 €",
-    "pending_price": "49,99 €",
-    "pending_price_count": 1
+    "price": "49,99 €"
   },
   "ES:B0C4318D9S": {
     "name": "4 Piezas para PS5 3D Joystick Analógico de Repuesto para Play Station 5 PS5 Joystick ThumbSticks Accesorios con Herramientas de Reparación",
@@ -2714,9 +2709,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500227+00:00",
-    "price": "20,39 €",
-    "pending_price": "23,99 €",
-    "pending_price_count": 1
+    "price": "23,99 €"
   },
   "ES:B0BPXQ3DHG": {
     "name": "KDD Led Soporte Auriculares Gaming con 2 Puertos de Carga USB & 1 Tipo-C | Soporte Cascos y Mando con 3,5mm Conector de Audio, Headset Stand con 9 Modos de Luz para Accesorios Gaming PC PS4 PS5,Blanco",
