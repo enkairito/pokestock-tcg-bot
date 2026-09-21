@@ -541,7 +541,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478184+00:00",
-    "price": "57,99 €"
+    "price": "57,99 €",
+    "pending_price": "59,99 €",
+    "pending_price_count": 1
   },
   "ES:B0H4RM453L": {
     "name": "Nintendo Switch Sports Resort - Nintendo Switch 2",
@@ -1655,9 +1657,10 @@
   },
   "ES:B0H4RTWHD5": {
     "name": "Xenoblade Chronicles 2 - Nintendo Switch 2",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.318936+00:00"
+    "first_seen": "2026-09-17T00:32:50.318936+00:00",
+    "price": "59,90 €"
   },
   "ES:B0CQLNSGH4": {
     "name": "[Sin Deriva] GuliKit KK3 Max Controlador Bluetooth, Kingkong 3 Max Controlador Inalámbrico para Switch/Switch OLED, Joystick/Disparadores Efecto Hall, Maglev/rotor/vibración HD, Adaptador Hyperlink",
@@ -1762,7 +1765,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688262+00:00",
-    "price": "85,00 €"
+    "price": "69,99 €"
   },
   "ES:B0GY5GY45X": {
     "name": "Splatoon Raiders",
@@ -1931,9 +1934,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688535+00:00",
-    "price": "33,85 €",
-    "pending_price": "34,57 €",
-    "pending_price_count": 1
+    "price": "34,57 €"
   },
   "ES:B0F3NKCYC4": {
     "name": "Super Mario Party: Jamboree - Nintendo Switch 2 Edition + Jamboree TV (Switch 2)",
@@ -2052,7 +2053,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
-    "price": "39,42 €"
+    "price": "39,32 €"
   },
   "ES:B0DGGSZTCX": {
     "name": "Nintendo Switch Lite - Consola Coral + Animal Crossing + 12 meses NSO",
@@ -2072,7 +2073,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688827+00:00",
-    "price": "370,78 €"
+    "price": "349,02 €"
   },
   "ES:B09B85F56N": {
     "name": "Monopoly Código De Descarga Switch",
