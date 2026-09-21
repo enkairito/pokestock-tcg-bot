@@ -1313,7 +1313,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802653+00:00",
-    "price": "86,15 €"
+    "price": "86,14 €"
   },
   "UK:B0CMZS84KP": {
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
@@ -1514,9 +1514,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802909+00:00",
-    "price": "69,80 €",
-    "pending_price": "69,95 €",
-    "pending_price_count": 1
+    "price": "69,95 €"
   },
   "US:B0CQD9VBWS": {
     "name": "Pokemon Scarlet & Violet 151 | Booster Pack",
