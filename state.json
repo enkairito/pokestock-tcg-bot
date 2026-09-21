@@ -728,7 +728,7 @@
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
     "price": "240,97 €"
   },
@@ -1491,7 +1491,7 @@
   "US:B0G5S61BHK": {
     "name": "Pokémon TCG: Mega Charizard Tin - Mega Charizard X ex (4 potenciadores y 1 Tarjeta Promocional de Aluminio)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "first_seen": "2026-09-04T21:32:58.802892+00:00",
     "price": "82,04 €"
   },
@@ -1635,7 +1635,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280869+00:00",
-    "price": "111,86 €"
+    "price": "111,85 €"
   },
   "UK:B0DG2XTYDP": {
     "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
@@ -2943,9 +2943,10 @@
   },
   "UK:B0H2N248WM": {
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promoción exclusiva de Fennekin | 11 paquetes de refuerzo",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-09-18T16:03:17.239363+00:00"
+    "status": "compra_directa",
+    "stock": "2",
+    "first_seen": "2026-09-18T16:03:17.239363+00:00",
+    "price": "160,36 €"
   },
   "GAME:266950": {
     "name": "Caja de Colección cartas Pokemon con Poster 30 Aniversario (Castellano)",
