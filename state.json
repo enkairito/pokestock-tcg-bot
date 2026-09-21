@@ -729,7 +729,7 @@
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
     "price": "240,97 €"
   },
@@ -1785,9 +1785,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-08T14:34:56.335794+00:00",
-    "price": "96,87 €",
-    "pending_price": "98,75 €",
-    "pending_price_count": 1
+    "price": "98,75 €"
   },
   "UK:B0FK2BN732": {
     "name": "Pokémon Pikachu V-Union Box Edición China Limitada Coleccionista TCG",
