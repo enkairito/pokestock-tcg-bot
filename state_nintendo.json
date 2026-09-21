@@ -161,14 +161,18 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.911995+00:00",
-    "price": "520,99 €"
+    "price": "520,99 €",
+    "pending_price": "531,89 €",
+    "pending_price_count": 1
   },
   "ES:B0FYHMK8N2": {
     "name": "Nintendo Switch 2 + Donkey Kong Bananza",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912002+00:00",
-    "price": "528,99 €"
+    "price": "528,99 €",
+    "pending_price": "539,89 €",
+    "pending_price_count": 1
   },
   "ES:B0FBMLXK2D": {
     "name": "Pokemon Legends: Z-A: Nintendo Switch 2 Edition",
@@ -541,9 +545,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478184+00:00",
-    "price": "57,99 €",
-    "pending_price": "59,99 €",
-    "pending_price_count": 1
+    "price": "59,99 €"
   },
   "ES:B0H4RM453L": {
     "name": "Nintendo Switch Sports Resort - Nintendo Switch 2",
@@ -1410,7 +1412,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850724+00:00",
-    "price": "459,00 €"
+    "price": "459,00 €",
+    "pending_price": "467,00 €",
+    "pending_price_count": 1
   },
   "ES:B0F3P3X5P2": {
     "name": "Sandisk Micro SD Express Card for Nintendo Switch 2",
@@ -1737,21 +1741,27 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688196+00:00",
-    "price": "515,90 €"
+    "price": "515,90 €",
+    "pending_price": "526,80 €",
+    "pending_price_count": 1
   },
   "ES:B0FYHK8329": {
     "name": "Nintendo Switch 2 + 25e eShop",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688211+00:00",
-    "price": "484,00 €"
+    "price": "484,00 €",
+    "pending_price": "494,90 €",
+    "pending_price_count": 1
   },
   "ES:B0HC3PYP2D": {
     "name": "Nintendo Switch 2 + Donkey Kong Bananza- Switch 2",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688228+00:00",
-    "price": "528,99 €"
+    "price": "528,99 €",
+    "pending_price": "539,89 €",
+    "pending_price_count": 1
   },
   "ES:B0FYTQ5XLG": {
     "name": "2 Piezas de Cubiertas Protectoras magnéticas para Switch2, Protectores Laterales contra arañazos, Protectores de los Bordes, Cubierta del Punto de conexión del Mango. (Azul-Naranja)",
@@ -1821,7 +1831,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688391+00:00",
-    "price": "79,50 €"
+    "price": "64,99 €"
   },
   "ES:B0H4R7W5YM": {
     "name": "Fire Emblem Fortune's Weave Dagdan Collection (edición limitada) - Nintendo Switch 2",
@@ -1841,7 +1851,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688418+00:00",
-    "price": "51,81 €"
+    "price": "51,70 €"
   },
   "ES:B0FN4F4L55": {
     "name": "Kirby Air Riders - Switch 2",
@@ -2053,7 +2063,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
-    "price": "39,32 €"
+    "price": "39,26 €"
   },
   "ES:B0DGGSZTCX": {
     "name": "Nintendo Switch Lite - Consola Coral + Animal Crossing + 12 meses NSO",
@@ -2073,7 +2083,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688827+00:00",
-    "price": "349,02 €"
+    "price": "338,61 €"
   },
   "ES:B09B85F56N": {
     "name": "Monopoly Código De Descarga Switch",
