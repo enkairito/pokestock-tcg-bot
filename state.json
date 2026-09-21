@@ -1134,7 +1134,7 @@
   "US:B0GR6N18F6": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "1",
     "first_seen": "2026-08-31T17:55:22.065539+00:00",
     "price": "105,67 €"
   },
@@ -1219,9 +1219,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-02T22:24:23.588723+00:00",
-    "price": "177,70 €",
-    "pending_price": "177,72 €",
-    "pending_price_count": 1
+    "price": "177,72 €"
   },
   "US:B0GP8HSDCJ": {
     "name": "Pokemon TCG: Mega Evolution Ascended Heroes Pokemon Center Elite Trainer Box | AH PKC ETB | Promo exclusivo de N's Zekrom | 11 paquetes de refuerzo",
@@ -1497,7 +1495,7 @@
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-09-04T21:32:58.802892+00:00",
-    "price": "82,04 €"
+    "price": "81,31 €"
   },
   "US:B0F6PQLR16": {
     "name": "Pokemon TCG Scarlet & Violet 10.5 White Flare Binder Collection Box - 5 Packs",
@@ -1523,7 +1521,7 @@
   "US:B0CQD9VBWS": {
     "name": "Pokemon Scarlet & Violet 151 | Booster Pack",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "5",
     "first_seen": "2026-09-04T21:32:58.802915+00:00",
     "price": "53,35 €"
   },
@@ -1616,7 +1614,7 @@
   "UK:B0DLQJ613B": {
     "name": "Pokémon TCG: Scarlet & Violet—Prismatic Evolutions Poster Collection",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
     "price": "123,44 €"
   },
