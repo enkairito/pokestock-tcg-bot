@@ -46,9 +46,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:09:04.551067+00:00",
-    "price": "69,62 €",
-    "pending_price": "69,63 €",
-    "pending_price_count": 1
+    "price": "69,63 €"
   },
   "ES:B0CRY385YN": {
     "name": "One Piece TCG: Two Legends - Booster Box (OP-08) (JP) (TCG)",
@@ -94,10 +92,9 @@
   },
   "ES:B0CGR4P859": {
     "name": "Awakening of the New Era Booster Pack OP-05 - One Piece Juego de Cartas - JP",
-    "status": "compra_directa",
-    "stock": "2",
-    "first_seen": "2026-08-29T18:09:47.272890+00:00",
-    "price": "38,03 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-29T18:09:47.272890+00:00"
   },
   "ES:B0D69TF558": {
     "name": "One Piece TCG: Two Legends - Booster Pack (OP-08) (JP) (TCG)",
