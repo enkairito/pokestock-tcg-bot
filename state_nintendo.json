@@ -1931,7 +1931,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688535+00:00",
-    "price": "33,85 €"
+    "price": "33,85 €",
+    "pending_price": "34,57 €",
+    "pending_price_count": 1
   },
   "ES:B0F3NKCYC4": {
     "name": "Super Mario Party: Jamboree - Nintendo Switch 2 Edition + Jamboree TV (Switch 2)",
@@ -2518,9 +2520,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689795+00:00",
-    "price": "14,24 €",
-    "pending_price": "14,99 €",
-    "pending_price_count": 1
+    "price": "14,99 €"
   },
   "ES:B0FR95PWLS": {
     "name": "Switch 2 Funda para Nintendo Switch 2 (2025), Con 4 Cubiertas de Joystick | Carcasa Protectora de Viaje Portátil, 20 Ranuras para Juegos , Bolsa Grande Antipolvo para Switch 2 Accesorios",
@@ -2596,9 +2596,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689868+00:00",
-    "price": "6,79 €",
-    "pending_price": "7,99 €",
-    "pending_price_count": 1
+    "price": "7,99 €"
   },
   "ES:B0FNMSCDZK": {
     "name": "Younik Funda Switch 2 para NS Switch 2 (2025), Kit de 15 en 1 Accesorios Incluye Funda de Transporte con 19 Ranuras para Tarjetas de Juego, Carcasa Protectora para Consola y J-Con (Rosa)",
@@ -3079,7 +3077,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:31:33.624327+00:00",
-    "price": "33,40 €"
+    "price": "33,40 €",
+    "pending_price": "37,00 €",
+    "pending_price_count": 1
   },
   "ES:B0C2Z3HKG4": {
     "name": "Five Nights at Freddy's Security Breach",
