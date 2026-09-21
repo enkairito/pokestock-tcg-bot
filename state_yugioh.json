@@ -134,9 +134,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:42:27.815808+00:00",
-    "price": "57,07 €",
-    "pending_price": "57,79 €",
-    "pending_price_count": 1
+    "price": "57,79 €"
   },
   "ES:B0F4XZHYDY": {
     "name": "Yu-Gi-Oh! Lata Mega-Pack 2025",
@@ -164,7 +162,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:43:03.241003+00:00",
-    "price": "8,49 €"
+    "price": "8,49 €",
+    "pending_price": "8,50 €",
+    "pending_price_count": 1
   },
   "ES:B0H5QPPWP4": {
     "name": "Más allá de la Valentía Yu-Gi-Oh! JUEGO DE CARTAS COLECCIONABLE 3-Pack Booster (Versión en español)",
@@ -211,7 +211,7 @@
   "ES:B0F8NRC5WT": {
     "name": "Yu-Gi-Oh! Chronicles:Fallen & Virtuous Card Sleeves(50)",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": null,
     "first_seen": "2026-09-10T11:45:06.861286+00:00",
     "price": "11,53 €"
   }
