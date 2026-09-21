@@ -1013,10 +1013,11 @@
     "first_seen": "2026-08-30T23:02:53.911735+00:00"
   },
   "US:B0H6DTXPK1": {
-    "name": "Pokémon TCG: Mega Evolución: lata de héroes ascendidos",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-08-30T23:03:24.893535+00:00"
+    "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Tin",
+    "status": "compra_directa",
+    "stock": "4",
+    "first_seen": "2026-08-30T23:03:24.893535+00:00",
+    "price": "82,58 €"
   },
   "ES:B0D6WLDCZF": {
     "name": "BANDAI PC50533 Pokémon TCG: Back to School Collector's Chest, Multicolor, Collectible for Anime Lovers, Spanish Version",
@@ -1493,7 +1494,7 @@
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-09-04T21:32:58.802892+00:00",
-    "price": "82,04 €"
+    "price": "81,31 €"
   },
   "US:B0F6PQLR16": {
     "name": "Pokemon TCG Scarlet & Violet 10.5 White Flare Binder Collection Box - 5 Packs",
@@ -1519,7 +1520,7 @@
   "US:B0CQD9VBWS": {
     "name": "Pokemon Scarlet & Violet 151 | Booster Pack",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "4",
     "first_seen": "2026-09-04T21:32:58.802915+00:00",
     "price": "53,35 €"
   },
@@ -2943,10 +2944,9 @@
   },
   "UK:B0H2N248WM": {
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promoción exclusiva de Fennekin | 11 paquetes de refuerzo",
-    "status": "compra_directa",
-    "stock": "2",
-    "first_seen": "2026-09-18T16:03:17.239363+00:00",
-    "price": "160,36 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-18T16:03:17.239363+00:00"
   },
   "GAME:266950": {
     "name": "Caja de Colección cartas Pokemon con Poster 30 Aniversario (Castellano)",
