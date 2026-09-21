@@ -717,9 +717,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
-    "price": "56,71 €",
-    "pending_price": "57,02 €",
-    "pending_price_count": 1
+    "price": "57,02 €"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
@@ -768,7 +766,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644858+00:00",
-    "price": "77,40 €"
+    "price": "77,40 €",
+    "pending_price": "77,60 €",
+    "pending_price_count": 1
   },
   "US:B0DN98RVZM": {
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
@@ -1136,7 +1136,7 @@
   "US:B0GR6N18F6": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "first_seen": "2026-08-31T17:55:22.065539+00:00",
     "price": "105,67 €"
   },
