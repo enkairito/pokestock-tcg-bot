@@ -128,9 +128,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388338+00:00",
-    "price": "47,56 €",
-    "pending_price": "49,99 €",
-    "pending_price_count": 1
+    "price": "49,99 €"
   },
   "ES:B08KVH51VX": {
     "name": "NEED FOR SPEED HOT PURSUIT REMASTERED",
@@ -382,7 +380,7 @@
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811694+00:00",
     "price": "34,99 €",
-    "pending_price": "37,78 €",
+    "pending_price": "44,99 €",
     "pending_price_count": 1
   },
   "ES:B0C7GW9F88": {
@@ -432,9 +430,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811725+00:00",
-    "price": "139,99 €",
-    "pending_price": "199,99 €",
-    "pending_price_count": 1
+    "price": "199,99 €"
   },
   "ES:B0CGY46386": {
     "name": "PDP Xbox Afterglow Wave Wired Controller Blue",
@@ -510,7 +506,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "209,72 €"
+    "price": "149,99 €"
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -569,7 +565,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:11.204384+00:00",
-    "price": "59,41 €"
+    "price": "59,41 €",
+    "pending_price": "59,99 €",
+    "pending_price_count": 1
   },
   "ES:B0829M81QT": {
     "name": "Doom Slayers Collection - Xbox One",
@@ -996,7 +994,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "39,06 €"
+    "price": "39,06 €",
+    "pending_price": "39,75 €",
+    "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1368,9 +1368,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.318882+00:00",
-    "price": "8,49 €",
-    "pending_price": "9,99 €",
-    "pending_price_count": 1
+    "price": "9,99 €"
   },
   "ES:B08K9WQ849": {
     "name": "Venom Base de carga doble con 2 paquetes de baterías recargables - Negro (Xbox Series X y S/Xbox One)",
@@ -1986,9 +1984,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256532+00:00",
-    "price": "56,95 €",
-    "pending_price": "59,99 €",
-    "pending_price_count": 1
+    "price": "59,99 €"
   },
   "ES:B095PPY2KN": {
     "name": "Mars Gaming MCPX, Idioma Español, Combo Gaming 3en1 con Teclado H-Mech Iluminado, Ratón Ultraligero 10000 dpi con Software y Alfombrilla XXL, Compatible con PC, PS4, PS5, Xbox, Negro",
@@ -2428,9 +2424,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257501+00:00",
-    "price": "24,95 €",
-    "pending_price": "24,99 €",
-    "pending_price_count": 1
+    "price": "24,99 €"
   },
   "ES:B00YXO5U40": {
     "name": "Turtle Beach Recon 50X Auriculares Gaming Xbox Series X|S, Xbox One, PS4, PS5 y PC",
@@ -2803,7 +2797,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T08:32:35.496011+00:00",
-    "price": "19,99 €"
+    "price": "16,99 €"
   },
   "ES:B08HL9S7FB": {
     "name": "Orzly Auriculares Gaming Compatible con PS5, PS4, PC, Xbox, Nintendo Switch, con microfono, Sonido Premiun RGB Luz LED, cancelación de Ruido - Hornet RXH -20 Siberia Edicion",
@@ -2950,9 +2944,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.549000+00:00",
-    "price": "87,98 €",
-    "pending_price": "97,75 €",
-    "pending_price_count": 1
+    "price": "97,75 €"
   },
   "ES:B0GJ5G9K7W": {
     "name": "deleyCON Cable HDMI 2.1 8K 2m Cable de Alta Velocidad Ultra High Speed 48 Gbps con Conector Acodado (270°) - Ideal para TV, Monitor, PS4, PS5, EARC, HDR10+ - 10K/8K@60Hz, 4K@120Hz/144Hz y 2K@240Hz",
@@ -3197,7 +3189,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790750+00:00",
-    "price": "9,51 €"
+    "price": "9,51 €",
+    "pending_price": "9,69 €",
+    "pending_price_count": 1
   },
   "ES:B00VWGTWU0": {
     "name": "Deus Ex: Mankind Divided Day One Edition [Importación Inglesa]",
@@ -3846,9 +3840,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.580275+00:00",
-    "price": "19,99 €",
-    "pending_price": "21,38 €",
-    "pending_price_count": 1
+    "price": "21,38 €"
   },
   "ES:B09TFTHT28": {
     "name": "JBL Quantum 100X Auriculares para gaming con diadema, con micrófono de brazo desmontable, apropiados para Playstation y compatibles con otras consolas, en negro y verde",
