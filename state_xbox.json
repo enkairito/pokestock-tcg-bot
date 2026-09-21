@@ -128,7 +128,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388338+00:00",
-    "price": "49,99 €"
+    "price": "48,58 €"
   },
   "ES:B08KVH51VX": {
     "name": "NEED FOR SPEED HOT PURSUIT REMASTERED",
@@ -379,9 +379,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811694+00:00",
-    "price": "34,99 €",
-    "pending_price": "44,99 €",
-    "pending_price_count": 1
+    "price": "44,99 €"
   },
   "ES:B0C7GW9F88": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Blanco)",
@@ -506,7 +504,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "149,99 €"
+    "price": "149,99 €",
+    "pending_price": "209,72 €",
+    "pending_price_count": 1
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -565,9 +565,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:11.204384+00:00",
-    "price": "59,41 €",
-    "pending_price": "59,99 €",
-    "pending_price_count": 1
+    "price": "59,41 €"
   },
   "ES:B0829M81QT": {
     "name": "Doom Slayers Collection - Xbox One",
@@ -994,9 +992,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "39,06 €",
-    "pending_price": "39,75 €",
-    "pending_price_count": 1
+    "price": "38,62 €"
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1099,7 +1095,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T00:20:55.336217+00:00",
-    "price": "24,90 €"
+    "price": "24,90 €",
+    "pending_price": "29,99 €",
+    "pending_price_count": 1
   },
   "ES:B0HCTQNBN8": {
     "name": "8BitDo Ultimate Charging Dock for Xbox Controllers, Gears of War: E-Day | Officially Licensed, Wireless Charging, Keep Original Battery Door, XBOX Series X|S & XBOX One Controllers, 1000mAh Battery",
@@ -1296,9 +1294,10 @@
   },
   "ES:B0DCD9LGHY": {
     "name": "Xbox Serie X - Edición digital de 1 TB",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-16T10:34:33.318741+00:00"
+    "first_seen": "2026-09-16T10:34:33.318741+00:00",
+    "price": "817,92 €"
   },
   "ES:B08FCXLB8Z": {
     "name": "Xbox Play y Kit de Carga USB",
@@ -3890,5 +3889,12 @@
     "stock": null,
     "first_seen": "2026-09-20T20:31:36.304803+00:00",
     "price": "14,99 €"
+  },
+  "ES:B0F6D237Y6": {
+    "name": "SteelSeries Arctis Nova 3X Wireless Gaming-Headset – App-Steuerung – 40 Std. Akku – Neodym-Magnet-Treiber – 2,4 GHz/Bluetooth – Abnehmbares Mikrofon – Xbox, PS5, PC, Switch, Mobilgeräte Aqua",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-21T02:33:21.112136+00:00",
+    "price": "79,99 €"
   }
 }
