@@ -186,7 +186,7 @@
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "3",
     "first_seen": "2026-08-25T20:27:53.163274+00:00",
     "price": "75,99 €"
   },
@@ -293,7 +293,7 @@
   "ES:B0CT5T766W": {
     "name": "Pokémon: Cofre de Coleccionista - 2022",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "4",
     "first_seen": "2026-08-25T20:27:53.163288+00:00",
     "price": "34,99 €"
   },
@@ -1514,12 +1514,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802909+00:00",
-    "price": "69,80 €"
+    "price": "69,80 €",
+    "pending_price": "69,95 €",
+    "pending_price_count": 1
   },
   "US:B0CQD9VBWS": {
     "name": "Pokemon Scarlet & Violet 151 | Booster Pack",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "3",
     "first_seen": "2026-09-04T21:32:58.802915+00:00",
     "price": "53,35 €"
   },
