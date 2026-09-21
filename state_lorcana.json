@@ -17,7 +17,9 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-07T17:41:04.537441+00:00",
-    "price": "38,90 €"
+    "price": "38,90 €",
+    "pending_price": "38,96 €",
+    "pending_price_count": 1
   },
   "ES:B0H8S82717": {
     "name": "Disney Lorcana TCG - Kit de iniciación para coleccionistas Rapunzel Edition",
@@ -85,9 +87,11 @@
   "ES:B0H8S9YZQH": {
     "name": "Disney Lorcana TCG: Ataque de la zarcilla! - Cofre del Tesoro de Luminari (Español)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-09-07T17:42:06.427643+00:00",
-    "price": "62,48 €"
+    "price": "62,48 €",
+    "pending_price": "77,80 €",
+    "pending_price_count": 1
   },
   "ES:B0GK896YXF": {
     "name": "Disney Lorcana Trading Card Game: Winterspell - Booster Pack (en inglés)",
