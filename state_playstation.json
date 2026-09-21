@@ -258,7 +258,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "99,00 €"
+    "price": "84,99 €"
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -309,7 +309,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018808+00:00",
-    "price": "18,98 €"
+    "price": "18,98 €",
+    "pending_price": "25,12 €",
+    "pending_price_count": 1
   },
   "ES:B09KTGP5C2": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition, PlayStation 4",
@@ -1840,25 +1842,26 @@
   },
   "ES:B0FS1ZYDRW": {
     "name": "Sony Consola PlayStation5 STD Bundle EA FC26",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:37.498022+00:00"
+    "first_seen": "2026-09-17T00:32:37.498022+00:00",
+    "price": "759,99 €"
   },
   "ES:B0CRYXTL82": {
     "name": "Retro Games THE400 Mini Consola Retro",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498034+00:00",
-    "price": "69,40 €",
-    "pending_price": "90,93 €",
-    "pending_price_count": 1
+    "price": "90,93 €"
   },
   "ES:B08TJQY9JD": {
     "name": "Playstation Gran Turismo 7 | Standard Edition [Playstation 4]",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498055+00:00",
-    "price": "35,85 €"
+    "price": "35,85 €",
+    "pending_price": "38,27 €",
+    "pending_price_count": 1
   },
   "ES:B00FB5K3UG": {
     "name": "Sonic and Sega All-Stars Racing Essentials (PlayStation 3) [Importación inglesa]",
@@ -2132,7 +2135,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498960+00:00",
     "price": "36,92 €",
-    "pending_price": "43,22 €",
+    "pending_price": "46,10 €",
     "pending_price_count": 1
   },
   "ES:B09PJ4WZWC": {
@@ -2182,16 +2185,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499167+00:00",
-    "price": "32,73 €"
+    "price": "32,73 €",
+    "pending_price": "37,93 €",
+    "pending_price_count": 1
   },
   "ES:B0CJG2KCBL": {
     "name": "Rise of the Tomb Raider 20 Year Celebration",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499236+00:00",
-    "price": "12,99 €",
-    "pending_price": "16,99 €",
-    "pending_price_count": 1
+    "price": "16,99 €"
   },
   "ES:B00DC267Z0": {
     "name": "Kingdom Hearts III (PlayStation PS4)",
@@ -2354,7 +2357,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499889+00:00",
-    "price": "26,70 €"
+    "price": "26,70 €",
+    "pending_price": "37,00 €",
+    "pending_price_count": 1
   },
   "ES:B08TJGKN5J": {
     "name": "PS4 Horizon Forbidden West",
@@ -2730,7 +2735,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500241+00:00",
-    "price": "23,25 €"
+    "price": "22,77 €"
   },
   "ES:B07G2D87BV": {
     "name": "Auriculares Gaming Stereo Sony Oficial PS4 Bigben Interactive - Compatible con PS5",
@@ -3247,9 +3252,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T14:31:52.732470+00:00",
-    "price": "21,66 €",
-    "pending_price": "21,67 €",
-    "pending_price_count": 1
+    "price": "21,66 €"
   },
   "ES:B07L674L8R": {
     "name": "Crash Team Racing Nitro-Fueled",
@@ -3408,7 +3411,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T14:32:21.327075+00:00",
-    "price": "21,50 €"
+    "price": "19,90 €"
   },
   "ES:B01BGQ80BM": {
     "name": "Odin Sphere Leifthrasir (PS4)",
@@ -3610,7 +3613,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T16:31:45.788425+00:00",
-    "price": "48,67 €"
+    "price": "48,20 €"
   },
   "ES:B0BNYSHHJJ": {
     "name": "God of War Ragnarök",
