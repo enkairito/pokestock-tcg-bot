@@ -21,7 +21,7 @@
   "ES:B0FZTZK1WF": {
     "name": "Yu-Gi-Oh! Laberinto DE Muertos 3-Pack Booster (Versión en español)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "4",
     "first_seen": "2026-09-07T17:41:03.832724+00:00",
     "price": "12,99 €"
   },
@@ -48,9 +48,11 @@
   "ES:B0G3PNLTSV": {
     "name": "Yu-Gi-Oh! Barajas Modernas Legendarias 2026 (Versión en español)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-09-07T17:41:16.156428+00:00",
-    "price": "31,50 €"
+    "price": "31,50 €",
+    "pending_price": "31,99 €",
+    "pending_price_count": 1
   },
   "ES:B0G6FW7PFW": {
     "name": "Yu-Gi-Oh! Rarity Collection V Display (24) (Versión en español)",
@@ -106,14 +108,18 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:42:04.032044+00:00",
-    "price": "90,81 €"
+    "price": "90,81 €",
+    "pending_price": "90,95 €",
+    "pending_price_count": 1
   },
   "ES:B0FMKLLV58": {
     "name": "YU-GI-OH! JCC Barajas Legendarias 5D's (Versión en español)",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:42:10.254074+00:00",
-    "price": "30,54 €"
+    "price": "30,54 €",
+    "pending_price": "30,75 €",
+    "pending_price_count": 1
   },
   "ES:B0FMKJ7PBX": {
     "name": "YU-GI-OH! JCC EL DECK DE LAS CRÓNICAS: El Caído y El Virtuoso (Edición All-Foil)",
@@ -155,16 +161,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:42:56.065562+00:00",
-    "price": "106,44 €"
+    "price": "106,44 €",
+    "pending_price": "107,58 €",
+    "pending_price_count": 1
   },
   "ES:B0F7RVS8MR": {
     "name": "Yu-Gi-Oh! Cazadores de la Justicia 3-Pack Booster",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:43:03.241003+00:00",
-    "price": "8,49 €",
-    "pending_price": "8,50 €",
-    "pending_price_count": 1
+    "price": "8,50 €"
   },
   "ES:B0H5QPPWP4": {
     "name": "Más allá de la Valentía Yu-Gi-Oh! JUEGO DE CARTAS COLECCIONABLE 3-Pack Booster (Versión en español)",
