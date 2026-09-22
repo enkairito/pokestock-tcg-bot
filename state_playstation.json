@@ -1227,7 +1227,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T00:20:12.441018+00:00",
-    "price": "219,99 €"
+    "price": "219,00 €"
   },
   "ES:B0BZJFJM16": {
     "name": "Sonic Origins Plus (PlayStation 4)",
@@ -1260,9 +1260,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T20:34:33.056472+00:00",
-    "price": "210,00 €",
-    "pending_price": "225,90 €",
-    "pending_price_count": 1
+    "price": "225,90 €"
   },
   "ES:B0756HTQHJ": {
     "name": "PlayStation 4 Pro (PS4) - Consola de 1 TB + FIFA 18 (Importación alemana)",
@@ -2105,7 +2103,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498742+00:00",
-    "price": "34,23 €"
+    "price": "23,49 €"
   },
   "ES:B097B1ZJ5T": {
     "name": "Nintendo Game & Watch: The Legend of Zelda",
@@ -2168,7 +2166,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499111+00:00",
-    "price": "16,68 €"
+    "price": "16,68 €",
+    "pending_price": "28,36 €",
+    "pending_price_count": 1
   },
   "ES:B07NRHS623": {
     "name": "The Legend of Heroes: Trails of Cold Steel III [Importación francesa]",
@@ -2844,9 +2844,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566254+00:00",
-    "price": "22,90 €",
-    "pending_price": "22,99 €",
-    "pending_price_count": 1
+    "price": "22,99 €"
   },
   "ES:B0H6Y3H3PL": {
     "name": "Blasphemous: Martyrs’ Edition - PlayStation 4",
@@ -3801,5 +3799,12 @@
     "stock": null,
     "first_seen": "2026-09-22T18:31:38.450277+00:00",
     "price": "12,99 €"
+  },
+  "ES:B07R9YY7M2": {
+    "name": "Leisure Suit Larry - Drams mojados no secan Juego de PS4",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T20:31:34.280572+00:00",
+    "price": "29,90 €"
   }
 }
