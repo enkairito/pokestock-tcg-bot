@@ -724,9 +724,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
-    "price": "62,00 €",
-    "pending_price": "62,36 €",
-    "pending_price_count": 1
+    "price": "62,36 €"
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -1318,7 +1316,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802653+00:00",
-    "price": "86,10 €"
+    "price": "86,09 €"
   },
   "UK:B0CMZS84KP": {
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
