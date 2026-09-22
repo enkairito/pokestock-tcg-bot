@@ -555,7 +555,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478206+00:00",
-    "price": "50,90 €"
+    "price": "49,99 €"
   },
   "ES:B0FJM752T3": {
     "name": "Nintendo Switch 2 con Pokémon Legends Z-A",
@@ -965,7 +965,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:30:08.918656+00:00",
-    "price": "143,88 €"
+    "price": "143,88 €",
+    "pending_price": "164,99 €",
+    "pending_price_count": 1
   },
   "ES:B0DK1NY4LW": {
     "name": "AceGamer 2 Pack Mando Inalámbrico para PS4，Mando de Juego para PS4/Pro/Slim/PC，Gamepad Joystick con Turbo/Botón Trasero/Doble Vibración/6-Axis Sensor Giroscópico/Panel Táctil (Blanco o negro)",
@@ -1292,9 +1294,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T00:23:08.150021+00:00",
-    "price": "35,46 €",
-    "pending_price": "35,47 €",
-    "pending_price_count": 1
+    "price": "35,47 €"
   },
   "ES:B0GSSQYPK3": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
@@ -1628,10 +1628,9 @@
   },
   "ES:B0H4RGWS3G": {
     "name": "Xenoblade Chronicles 3 - Nintendo Switch 2",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.318924+00:00",
-    "price": "59,90 €"
+    "first_seen": "2026-09-17T00:32:50.318924+00:00"
   },
   "ES:B0BYCH3M2M": {
     "name": "Gulikit Hall Effect Sense Joystick Reemplazo para JoyCon (No Deriva), Joystick Izquierdo/Derecho Joy con Kit de Reparación Accesorios para Switch/Switch OLED/Switch Lite (Color aleatorio-Thumbsticks)",
@@ -1732,7 +1731,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688184+00:00",
     "price": "649,99 €",
-    "pending_price": "669,99 €",
+    "pending_price": "730,00 €",
     "pending_price_count": 1
   },
   "ES:B0HC3WZQYK": {
@@ -1824,9 +1823,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688391+00:00",
-    "price": "64,99 €",
-    "pending_price": "79,50 €",
-    "pending_price_count": 1
+    "price": "79,50 €"
   },
   "ES:B0H4R7W5YM": {
     "name": "Fire Emblem Fortune's Weave Dagdan Collection (edición limitada) - Nintendo Switch 2",
@@ -2058,7 +2055,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
     "price": "39,26 €",
-    "pending_price": "48,12 €",
+    "pending_price": "59,50 €",
     "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
@@ -2408,9 +2405,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689584+00:00",
-    "price": "36,97 €",
-    "pending_price": "41,90 €",
-    "pending_price_count": 1
+    "price": "41,90 €"
   },
   "ES:B0CXQ9JM4L": {
     "name": "Luigi's Mansion 2 HD",
@@ -3444,7 +3439,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T12:31:57.853818+00:00",
-    "price": "38,99 €"
+    "price": "36,99 €"
   },
   "ES:B0FG3HRVSQ": {
     "name": "DORA Rescate en el Bosque Tropical",
