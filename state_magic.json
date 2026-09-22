@@ -204,10 +204,9 @@
   },
   "ES:B0GWS582CC": {
     "name": "Draft Night de Magic: The Gathering | El Hobbit (Versión en Inglés)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-07T10:45:54.488487+00:00",
-    "price": "134,99 €"
+    "first_seen": "2026-09-07T10:45:54.488487+00:00"
   },
   "ES:B0GWS8DC8C": {
     "name": "Bundle de Regalo de Magic: The Gathering | El Hobbit | Juego de Cartas Intercambiables y coleccionables (Versión en Inglés)",
@@ -346,9 +345,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T10:47:55.002254+00:00",
-    "price": "109,99 €",
-    "pending_price": "120,92 €",
-    "pending_price_count": 1
+    "price": "109,99 €"
   },
   "ES:B0G86Z6QYF": {
     "name": "Mazo temático de 60 Cartas de Magic: The Gathering - Inquietante (Versión en Inglés)",
@@ -366,9 +363,8 @@
   },
   "ES:B0GWS7LP2Y": {
     "name": "sobre de Juego de Magic: The Gathering | El Hobbit (Versión en Español)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "price": "7,00 €",
     "first_seen": "2026-09-08T11:19:18.638626+00:00"
   },
   "ES:B0GXGXJ55L": {
