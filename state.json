@@ -1638,7 +1638,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280869+00:00",
-    "price": "111,74 €"
+    "price": "111,72 €"
   },
   "UK:B0DG2XTYDP": {
     "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
@@ -1712,16 +1712,19 @@
   },
   "US:B0F6PMVQWQ": {
     "name": "Pokémon TCG Scarlet & Violet 10.5 Black Bolt Booster Set",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-06T10:19:00.889053+00:00"
+    "first_seen": "2026-09-06T10:19:00.889053+00:00",
+    "price": "140,86 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T13:57:50.628764+00:00",
-    "price": "21,60 €"
+    "price": "21,60 €",
+    "pending_price": "21,65 €",
+    "pending_price_count": 1
   },
   "UK:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
