@@ -381,7 +381,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811694+00:00",
-    "price": "37,81 €"
+    "price": "37,81 €",
+    "pending_price": "44,99 €",
+    "pending_price_count": 1
   },
   "ES:B0C7GW9F88": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Blanco)",
@@ -506,7 +508,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "149,99 €"
+    "price": "149,99 €",
+    "pending_price": "211,88 €",
+    "pending_price_count": 1
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -850,9 +854,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:21:08.267481+00:00",
-    "price": "44,75 €",
-    "pending_price": "45,37 €",
-    "pending_price_count": 1
+    "price": "45,37 €"
   },
   "ES:B0FNY6N6XB": {
     "name": "BATTLEFIELD 6 Standard Edition | Xbox Series X|S - Código de descarga",
@@ -994,7 +996,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "35,05 €"
+    "price": "34,86 €"
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1146,9 +1148,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T00:20:55.336238+00:00",
-    "price": "24,90 €",
-    "pending_price": "29,99 €",
-    "pending_price_count": 1
+    "price": "29,99 €"
   },
   "ES:B08F436VBJ": {
     "name": "Power A, Mando con cable Xbox Series X|S - Blanco",
@@ -1285,14 +1285,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.017973+00:00",
-    "price": "219,00 €"
+    "price": "209,00 €"
   },
   "ES:B01M5CZKW6": {
     "name": "Konsole Xbox One S 500 Gb Weiß",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.017975+00:00",
-    "price": "149,99 €"
+    "price": "149,99 €",
+    "pending_price": "155,00 €",
+    "pending_price_count": 1
   },
   "ES:B0DCD9LGHY": {
     "name": "Xbox Serie X - Edición digital de 1 TB",
@@ -2017,7 +2019,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256652+00:00",
-    "price": "24,90 €"
+    "price": "16,19 €"
   },
   "ES:B00ZIW2SB4": {
     "name": "Destiny: El Rey De Los Poseídos - Edición Legendaria",
@@ -2214,7 +2216,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
     "price": "24,12 €",
-    "pending_price": "25,14 €",
+    "pending_price": "25,08 €",
     "pending_price_count": 1
   },
   "ES:B08HZKQDK1": {
@@ -2509,7 +2511,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257557+00:00",
-    "price": "31,15 €"
+    "price": "31,06 €"
   },
   "ES:B0H454QT1B": {
     "name": "Wigearss 6 en 1 Kit de Repuesto de Botones para Mando Xbox Series X/S, Bumpers LB/RB, Gatillos LT/RT y Bisel Puerto de Carga con Destornilladores T8 T6 (NO para Xbox One)",
@@ -2796,9 +2798,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T08:32:35.495962+00:00",
-    "price": "22,00 €",
-    "pending_price": "23,46 €",
-    "pending_price_count": 1
+    "price": "23,46 €"
   },
   "ES:B08PSVXJ29": {
     "name": "Mcbazel Kit 13 en 1 con Palancas de Metal para Xbox Elite Series 2, Kit de Reemplazo con Botones Magnéticos, 6 Palancas Magnéticas, 4 Paletas Traseras y 2 D-Pads para Xbox Elite Series 2, Negro",
@@ -2952,7 +2952,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.549000+00:00",
-    "price": "90,96 €"
+    "price": "90,89 €"
   },
   "ES:B0GJ5G9K7W": {
     "name": "deleyCON Cable HDMI 2.1 8K 2m Cable de Alta Velocidad Ultra High Speed 48 Gbps con Conector Acodado (270°) - Ideal para TV, Monitor, PS4, PS5, EARC, HDR10+ - 10K/8K@60Hz, 4K@120Hz/144Hz y 2K@240Hz",
@@ -3183,9 +3183,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790702+00:00",
-    "price": "11,92 €",
-    "pending_price": "11,94 €",
-    "pending_price_count": 1
+    "price": "11,94 €"
   },
   "ES:B0847NVBHQ": {
     "name": "USAopoly USODC129000 Star Wars: Dark Side Rising, Mixed Colours",
@@ -3599,9 +3597,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T14:32:18.169515+00:00",
-    "price": "14,42 €",
-    "pending_price": "14,67 €",
-    "pending_price_count": 1
+    "price": "14,67 €"
   },
   "ES:B07DQ9JMQF": {
     "name": "Sekiro: Shadows Die Twice",
@@ -3789,9 +3785,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579852+00:00",
-    "price": "11,06 €",
-    "pending_price": "11,26 €",
-    "pending_price_count": 1
+    "price": "11,26 €"
   },
   "ES:B0C23V86YJ": {
     "name": "Destroy All Humans! 2 - Reprobed: Single Player Juego para Xbox One",
@@ -3812,9 +3806,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579894+00:00",
-    "price": "21,56 €",
-    "pending_price": "21,93 €",
-    "pending_price_count": 1
+    "price": "21,93 €"
   },
   "ES:B07D9WVXBY": {
     "name": "Sega Megadrive Collection",
