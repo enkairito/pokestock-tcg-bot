@@ -35,9 +35,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.362342+00:00",
-    "price": "18,07 €",
-    "pending_price": "19,04 €",
-    "pending_price_count": 1
+    "price": "19,04 €"
   },
   "ES:B0FQWHWWSG": {
     "name": "Metroid Prime 4: Beyond - Switch",
@@ -128,7 +126,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.911952+00:00",
-    "price": "59,97 €"
+    "price": "52,95 €"
   },
   "ES:B0F8WRHMGT": {
     "name": "Belkin Gaming Bolsa de Viaje Bolsillo para AirTag Nintendo Switch 2 Carbón | Funda de Transporte Compacta y Ligera, Carcasa Rígida e Interior Acolchado, Bolsillo para Tarjetas de Juegos, para Viajar",
@@ -620,7 +618,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478293+00:00",
-    "price": "28,48 €"
+    "price": "27,99 €"
   },
   "ES:B0DFD3S5LM": {
     "name": "MySims: Colección Sofá y Mantita Switch / Switch 2 | Videojuegos | Castellano",
@@ -634,7 +632,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478316+00:00",
-    "price": "36,00 €"
+    "price": "35,93 €"
   },
   "ES:B0FR451FFZ": {
     "name": "Nintendo Super Mario Galaxy + Super Mario Galaxy 2",
@@ -967,9 +965,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:30:08.918656+00:00",
-    "price": "144,86 €",
-    "pending_price": "164,99 €",
-    "pending_price_count": 1
+    "price": "143,88 €"
   },
   "ES:B0DK1NY4LW": {
     "name": "AceGamer 2 Pack Mando Inalámbrico para PS4，Mando de Juego para PS4/Pro/Slim/PC，Gamepad Joystick con Turbo/Botón Trasero/Doble Vibración/6-Axis Sensor Giroscópico/Panel Táctil (Blanco o negro)",
@@ -1024,9 +1020,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T06:20:31.930101+00:00",
-    "price": "210,00 €",
-    "pending_price": "261,94 €",
-    "pending_price_count": 1
+    "price": "261,94 €"
   },
   "ES:B0FTG3C43P": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Fuegos Fantasmales de JCC Pokémon (6 Sobres de Mejora)",
@@ -1298,7 +1292,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T00:23:08.150021+00:00",
-    "price": "35,46 €"
+    "price": "35,46 €",
+    "pending_price": "35,47 €",
+    "pending_price_count": 1
   },
   "ES:B0GSSQYPK3": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
@@ -1324,9 +1320,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T20:34:05.436537+00:00",
-    "price": "20,90 €",
-    "pending_price": "20,99 €",
-    "pending_price_count": 1
+    "price": "20,99 €"
   },
   "ES:B01N3374BH": {
     "name": "Nintendo - Joy-Con Soporte Carga",
@@ -1634,9 +1628,10 @@
   },
   "ES:B0H4RGWS3G": {
     "name": "Xenoblade Chronicles 3 - Nintendo Switch 2",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.318924+00:00"
+    "first_seen": "2026-09-17T00:32:50.318924+00:00",
+    "price": "59,90 €"
   },
   "ES:B0BYCH3M2M": {
     "name": "Gulikit Hall Effect Sense Joystick Reemplazo para JoyCon (No Deriva), Joystick Izquierdo/Derecho Joy con Kit de Reparación Accesorios para Switch/Switch OLED/Switch Lite (Color aleatorio-Thumbsticks)",
@@ -1773,9 +1768,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688262+00:00",
-    "price": "69,99 €",
-    "pending_price": "83,65 €",
-    "pending_price_count": 1
+    "price": "83,65 €"
   },
   "ES:B0GY5GY45X": {
     "name": "Splatoon Raiders",
@@ -1831,7 +1824,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688391+00:00",
-    "price": "64,99 €"
+    "price": "64,99 €",
+    "pending_price": "79,50 €",
+    "pending_price_count": 1
   },
   "ES:B0H4R7W5YM": {
     "name": "Fire Emblem Fortune's Weave Dagdan Collection (edición limitada) - Nintendo Switch 2",
@@ -1852,7 +1847,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688418+00:00",
-    "price": "51,70 €"
+    "price": "51,68 €"
   },
   "ES:B0FN4F4L55": {
     "name": "Kirby Air Riders - Switch 2",
@@ -1936,9 +1931,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688526+00:00",
-    "price": "48,30 €",
-    "pending_price": "49,71 €",
-    "pending_price_count": 1
+    "price": "48,30 €"
   },
   "ES:B0FL2GS1CT": {
     "name": "Survival Kids - Switch 2 [Nintendo Switch 2 - Key Card]",
@@ -2065,7 +2058,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
     "price": "39,26 €",
-    "pending_price": "59,50 €",
+    "pending_price": "48,12 €",
     "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
@@ -2121,9 +2114,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688909+00:00",
-    "price": "439,90 €",
-    "pending_price": "439,99 €",
-    "pending_price_count": 1
+    "price": "439,99 €"
   },
   "ES:B07CLLRCTR": {
     "name": "Nintendo Switch rojo/azul neón 32 GB Pack + Mario Kart 8 Deluxe + Donkey Kong: Tropical Freeze",
@@ -2249,7 +2240,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689238+00:00",
-    "price": "28,41 €"
+    "price": "27,19 €"
   },
   "ES:B08LLN1B47": {
     "name": "Five Nights at Freddy'S. Core Collection",
@@ -2298,7 +2289,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689316+00:00",
-    "price": "54,99 €"
+    "price": "49,99 €"
   },
   "ES:B01MZ977QM": {
     "name": "The Legend of Zelda Breath of the Wild",
@@ -2417,7 +2408,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689584+00:00",
-    "price": "36,97 €"
+    "price": "36,97 €",
+    "pending_price": "41,90 €",
+    "pending_price_count": 1
   },
   "ES:B0CXQ9JM4L": {
     "name": "Luigi's Mansion 2 HD",
@@ -2780,9 +2773,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.690017+00:00",
-    "price": "33,99 €",
-    "pending_price": "35,99 €",
-    "pending_price_count": 1
+    "price": "35,99 €"
   },
   "ES:B0H36Q93T2": {
     "name": "Lemorele Adaptador USB-C a HDMI 2 m, 4K@60Hz, Compatible con Switch 2 | HDMI 2.0, PD hasta 100W y Plug & Play; compatible con Steam Deck y ROG Ally, requiere USB-C con DisplayPort Alt Mode",
@@ -3125,7 +3116,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:31:33.624547+00:00",
-    "price": "34,32 €"
+    "price": "34,24 €"
   },
   "ES:B0DMTLFG2X": {
     "name": "Little Kitty, Big City - Switch",
@@ -3146,7 +3137,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T15:58:54.631826+00:00",
-    "price": "8,97 €"
+    "price": "8,97 €",
+    "pending_price": "9,89 €",
+    "pending_price_count": 1
   },
   "ES:B0DF2NF4H3": {
     "name": "Broken Sword - La Leyenda de los Templarios: Reforged - NINTENDO SWITCH",
@@ -3437,7 +3430,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T12:31:57.853552+00:00",
-    "price": "46,91 €"
+    "price": "46,88 €"
   },
   "ES:B0F7RM2L28": {
     "name": "playvital Tapas para Joystick para Nintendo Switch 2 2025, 4 Piezas | Silicona Suave, Mejor Control, Antideslizante, Protección Diaria, Tacto Cómodo, Diseño Kawaii, Gatito Lindo",
@@ -3528,7 +3521,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T14:32:21.853938+00:00",
-    "price": "60,45 €"
+    "price": "58,41 €"
   },
   "ES:B09Z3KWD55": {
     "name": "Nintendo Switch Sports (Nintendo Switch) + Nintendo Switch Online - 12 Meses (Código de descarga)",
@@ -3682,5 +3675,61 @@
     "stock": null,
     "first_seen": "2026-09-22T16:31:32.614749+00:00",
     "price": "15,99 €"
+  },
+  "ES:B0HK2GK8P5": {
+    "name": "Fire Emblem: Fortune's Weave Standard | Nintendo Switch 2 - Código de descarga",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T18:31:43.446731+00:00",
+    "price": "69,99 €"
+  },
+  "ES:B0F3ND1QBB": {
+    "name": "Mario Kart World",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T18:31:43.446771+00:00",
+    "price": "81,65 €"
+  },
+  "ES:B0F3DS3P2M": {
+    "name": "Rune Factory: Guardians of Azuma - Switch 2",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T18:31:43.446788+00:00",
+    "price": "59,40 €"
+  },
+  "ES:B0GKFMK3R8": {
+    "name": "Resident Evil 9: Requiem - Switch 2",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T18:31:43.446797+00:00",
+    "price": "69,99 €"
+  },
+  "ES:B0FK7YV5RB": {
+    "name": "PAC-MAN WORLD 2 Re-PAC - Nintendo Switch 2",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T18:31:43.446816+00:00",
+    "price": "45,75 €"
+  },
+  "ES:B0CZ7HGLXG": {
+    "name": "Talisman: El Juego de Aventuras y fantasía, 5.ª Edición - Versión en español",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T18:31:43.447144+00:00",
+    "price": "37,49 €"
+  },
+  "ES:B0DCJX27LF": {
+    "name": "Square Enix Final Fantasy I-VI Collection Anniversary Edition (Nintendo Switch) [versión en inglés]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T18:31:43.447173+00:00",
+    "price": "53,51 €"
+  },
+  "ES:B0BFFHHR67": {
+    "name": "Persona 5 Royal Switch",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T18:31:43.447183+00:00",
+    "price": "37,89 €"
   }
 }
