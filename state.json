@@ -717,25 +717,23 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
-    "price": "57,02 €",
-    "pending_price": "57,16 €",
-    "pending_price_count": 1
+    "price": "57,16 €"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
-    "price": "62,00 €"
+    "price": "62,00 €",
+    "pending_price": "62,36 €",
+    "pending_price_count": 1
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
-    "price": "240,97 €",
-    "pending_price": "245,39 €",
-    "pending_price_count": 1
+    "price": "245,39 €"
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
@@ -803,7 +801,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "63,55 €"
   },
@@ -819,9 +817,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644915+00:00",
-    "price": "105,42 €",
-    "pending_price": "105,94 €",
-    "pending_price_count": 1
+    "price": "105,94 €"
   },
   "US:B0G3CY83L5": {
     "name": "Pokémon TCG: Caja de entrenamiento de élite de héroes ascendidos de Mega Evolution",
@@ -1142,9 +1138,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-31T17:55:22.065539+00:00",
-    "price": "105,67 €",
-    "pending_price": "107,15 €",
-    "pending_price_count": 1
+    "price": "107,15 €"
   },
   "US:B09CQJ564T": {
     "name": "Pokemon SAS7 Evolving Skies Eliter Trainer Box - Azul",
@@ -1303,9 +1297,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802612+00:00",
-    "price": "103,31 €",
-    "pending_price": "108,71 €",
-    "pending_price_count": 1
+    "price": "108,71 €"
   },
   "UK:B0DB7C1Z26": {
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
@@ -1423,9 +1415,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802789+00:00",
-    "price": "24,07 €",
-    "pending_price": "24,54 €",
-    "pending_price_count": 1
+    "price": "24,54 €"
   },
   "UK:B0BCPRFMQH": {
     "name": "Pokemon - Silver Tempest Booster Pack",
@@ -1452,7 +1442,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802813+00:00",
-    "price": "23,68 €"
+    "price": "23,63 €"
   },
   "UK:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -1466,9 +1456,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802829+00:00",
-    "price": "102,97 €",
-    "pending_price": "103,96 €",
-    "pending_price_count": 1
+    "price": "103,96 €"
   },
   "US:B0G3CS6XB9": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Premium Poster Collection—Mega Lucario (1 Tarjeta Promocional de Aluminio, 1 póster de Doble Cara y 10 Paquetes de Refuerzo)",
@@ -1509,9 +1497,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-04T21:32:58.802892+00:00",
-    "price": "80,69 €",
-    "pending_price": "82,04 €",
-    "pending_price_count": 1
+    "price": "82,04 €"
   },
   "US:B0F6PQLR16": {
     "name": "Pokemon TCG Scarlet & Violet 10.5 White Flare Binder Collection Box - 5 Packs",
@@ -1667,7 +1653,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280932+00:00",
-    "price": "23,79 €"
+    "price": "23,70 €"
   },
   "UK:B0FVYJPBWW": {
     "name": "Pokémon Chinese Dark Crystal Blaze CSV5C Slim Booster Box",
@@ -2955,9 +2941,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T15:23:27.918742+00:00",
-    "price": "97,01 €",
-    "pending_price": "97,18 €",
-    "pending_price_count": 1
+    "price": "97,18 €"
   },
   "UK:B0H2N248WM": {
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promoción exclusiva de Fennekin | 11 paquetes de refuerzo",
@@ -3489,5 +3473,12 @@
     "stock": "1",
     "first_seen": "2026-09-20T12:43:36.301545+00:00",
     "price": "113,98 €"
+  },
+  "UK:B0CS12GPTB": {
+    "name": "Pokemon TCG: Sword & Shield - Paquete de Refuerzo de Estrellas Brillantes (10 Tarjetas por Paquete)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T15:43:03.351084+00:00",
+    "price": "33,13 €"
   }
 }
