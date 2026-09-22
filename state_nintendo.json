@@ -35,7 +35,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.362342+00:00",
-    "price": "18,07 €"
+    "price": "18,07 €",
+    "pending_price": "19,04 €",
+    "pending_price_count": 1
   },
   "ES:B0FQWHWWSG": {
     "name": "Metroid Prime 4: Beyond - Switch",
@@ -161,18 +163,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.911995+00:00",
-    "price": "520,99 €",
-    "pending_price": "531,89 €",
-    "pending_price_count": 1
+    "price": "511,99 €"
   },
   "ES:B0FYHMK8N2": {
     "name": "Nintendo Switch 2 + Donkey Kong Bananza",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912002+00:00",
-    "price": "528,99 €",
-    "pending_price": "539,89 €",
-    "pending_price_count": 1
+    "price": "519,99 €"
   },
   "ES:B0FBMLXK2D": {
     "name": "Pokemon Legends: Z-A: Nintendo Switch 2 Edition",
@@ -324,8 +322,8 @@
     "name": "ivoler Funda para Nintendo Switch 2, Funda Protectora Dura de Lujo para Interruptor portátil, Funda Protectora para la Consola Nintendo Switch 2, y Otros Accesorios Contiene 20 Cartuchos de Juego",
     "status": "compra_directa",
     "stock": null,
-    "price": "28,99 €",
-    "first_seen": "2026-09-11T19:20:15.912107+00:00"
+    "first_seen": "2026-09-11T19:20:15.912107+00:00",
+    "price": "28,99 €"
   },
   "ES:B0F3JVK9N6": {
     "name": "Joy-Con 2 Wheel (2 uds)",
@@ -615,7 +613,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478284+00:00",
-    "price": "9,95 €"
+    "price": "8,95 €"
   },
   "ES:B0977RRHJG": {
     "name": "Videojuego para Switch Ubisoft Mario+Rabbids Sparks of Hope",
@@ -938,9 +936,10 @@
   },
   "ES:B0DW8WQ8L2": {
     "name": "JSAUX Protector Pantalla Ultra HD para Nintendo Switch 2, Pack de 3 | Cristal templado 9H, Instalación sin burbujas, Marco de montaje, Alta claridad HD, Colores vivos originales",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-12T18:30:08.918485+00:00"
+    "first_seen": "2026-09-12T18:30:08.918485+00:00",
+    "price": "8,99 €"
   },
   "ES:B0CXDYCKVS": {
     "name": "Teenage Mutant Ninja Turtles: Mutantes desencadenados - Switch",
@@ -968,7 +967,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:30:08.918656+00:00",
-    "price": "144,86 €"
+    "price": "144,86 €",
+    "pending_price": "164,99 €",
+    "pending_price_count": 1
   },
   "ES:B0DK1NY4LW": {
     "name": "AceGamer 2 Pack Mando Inalámbrico para PS4，Mando de Juego para PS4/Pro/Slim/PC，Gamepad Joystick con Turbo/Botón Trasero/Doble Vibración/6-Axis Sensor Giroscópico/Panel Táctil (Blanco o negro)",
@@ -1023,7 +1024,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T06:20:31.930101+00:00",
-    "price": "210,00 €"
+    "price": "210,00 €",
+    "pending_price": "261,94 €",
+    "pending_price_count": 1
   },
   "ES:B0FTG3C43P": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Fuegos Fantasmales de JCC Pokémon (6 Sobres de Mejora)",
@@ -1071,7 +1074,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T12:20:51.137100+00:00",
-    "price": "369,00 €"
+    "price": "301,89 €"
   },
   "ES:B0D7F3WHPV": {
     "name": "Super Mario Party Jamboree - Nintendo Switch",
@@ -1234,7 +1237,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:43.539297+00:00",
-    "price": "39,79 €"
+    "price": "38,06 €"
   },
   "ES:B0CZLC2DKY": {
     "name": "Funmo mando wii, Mando a distancia control remoto, Remote MotionPlus Controller Remote para Wii/Wii U (C)",
@@ -1321,7 +1324,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T20:34:05.436537+00:00",
-    "price": "20,90 €"
+    "price": "20,90 €",
+    "pending_price": "20,99 €",
+    "pending_price_count": 1
   },
   "ES:B01N3374BH": {
     "name": "Nintendo - Joy-Con Soporte Carga",
@@ -1335,7 +1340,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T20:34:05.436549+00:00",
-    "price": "25,69 €"
+    "price": "24,99 €"
   },
   "ES:B09V2RQ6R9": {
     "name": "AUTOUTLET Adaptador Wii a HDMI, Convertidor Wii Hdmi Cable Extensión de 20cm 1080P / 720P Full HD, Salida de Audio de 3,5mm y Cable HDMI de 1,8m, Indicador de Luz para Wii, Televisión Blanco",
@@ -1412,9 +1417,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850724+00:00",
-    "price": "459,00 €",
-    "pending_price": "467,00 €",
-    "pending_price_count": 1
+    "price": "450,00 €"
   },
   "ES:B0F3P3X5P2": {
     "name": "Sandisk Micro SD Express Card for Nintendo Switch 2",
@@ -1661,10 +1664,9 @@
   },
   "ES:B0H4RTWHD5": {
     "name": "Xenoblade Chronicles 2 - Nintendo Switch 2",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.318936+00:00",
-    "price": "59,90 €"
+    "first_seen": "2026-09-17T00:32:50.318936+00:00"
   },
   "ES:B0CQLNSGH4": {
     "name": "[Sin Deriva] GuliKit KK3 Max Controlador Bluetooth, Kingkong 3 Max Controlador Inalámbrico para Switch/Switch OLED, Joystick/Disparadores Efecto Hall, Maglev/rotor/vibración HD, Adaptador Hyperlink",
@@ -1734,34 +1736,30 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688184+00:00",
-    "price": "649,99 €"
+    "price": "649,99 €",
+    "pending_price": "669,99 €",
+    "pending_price_count": 1
   },
   "ES:B0HC3WZQYK": {
     "name": "Nintendo Switch 2 + Pokemon Legends: Z Switch 2 Edition",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688196+00:00",
-    "price": "515,90 €",
-    "pending_price": "526,80 €",
-    "pending_price_count": 1
+    "price": "506,90 €"
   },
   "ES:B0FYHK8329": {
     "name": "Nintendo Switch 2 + 25e eShop",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688211+00:00",
-    "price": "484,00 €",
-    "pending_price": "494,90 €",
-    "pending_price_count": 1
+    "price": "475,00 €"
   },
   "ES:B0HC3PYP2D": {
     "name": "Nintendo Switch 2 + Donkey Kong Bananza- Switch 2",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688228+00:00",
-    "price": "528,99 €",
-    "pending_price": "539,89 €",
-    "pending_price_count": 1
+    "price": "519,99 €"
   },
   "ES:B0FYTQ5XLG": {
     "name": "2 Piezas de Cubiertas Protectoras magnéticas para Switch2, Protectores Laterales contra arañazos, Protectores de los Bordes, Cubierta del Punto de conexión del Mango. (Azul-Naranja)",
@@ -1775,7 +1773,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688262+00:00",
-    "price": "69,99 €"
+    "price": "69,99 €",
+    "pending_price": "83,65 €",
+    "pending_price_count": 1
   },
   "ES:B0GY5GY45X": {
     "name": "Splatoon Raiders",
@@ -1796,7 +1796,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688339+00:00",
-    "price": "56,99 €"
+    "price": "55,90 €"
   },
   "ES:B0H4RTBZ3S": {
     "name": "Orbitals - Nintendo Switch 2",
@@ -1835,9 +1835,10 @@
   },
   "ES:B0H4R7W5YM": {
     "name": "Fire Emblem Fortune's Weave Dagdan Collection (edición limitada) - Nintendo Switch 2",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.688400+00:00"
+    "first_seen": "2026-09-17T00:32:50.688400+00:00",
+    "price": "213,46 €"
   },
   "ES:B0FQWBC3ZT": {
     "name": "Hades II - Nintendo Switch 2 Edition",
@@ -1858,7 +1859,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688425+00:00",
-    "price": "55,85 €"
+    "price": "55,75 €"
   },
   "ES:B0GRWHCZ4R": {
     "name": "Pokémon Edición Rojo Fuego Standard | Nintendo Switch - Código de descarga",
@@ -2063,14 +2064,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
-    "price": "39,26 €"
+    "price": "39,26 €",
+    "pending_price": "59,50 €",
+    "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
     "name": "Nintendo Switch Lite - Consola Coral + Animal Crossing + 12 meses NSO",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688808+00:00",
-    "price": "379,99 €"
+    "price": "299,90 €"
   },
   "ES:B084DDDNRP": {
     "name": "Nintendo - Switch - Animal Crossing: New Horizons Edition 32GB Console - Multi",
@@ -2083,7 +2086,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688827+00:00",
-    "price": "338,61 €"
+    "price": "329,90 €"
   },
   "ES:B09B85F56N": {
     "name": "Monopoly Código De Descarga Switch",
@@ -2118,7 +2121,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688909+00:00",
-    "price": "439,90 €"
+    "price": "439,90 €",
+    "pending_price": "439,99 €",
+    "pending_price_count": 1
   },
   "ES:B07CLLRCTR": {
     "name": "Nintendo Switch rojo/azul neón 32 GB Pack + Mario Kart 8 Deluxe + Donkey Kong: Tropical Freeze",
@@ -2775,7 +2780,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.690017+00:00",
-    "price": "33,99 €"
+    "price": "33,99 €",
+    "pending_price": "35,99 €",
+    "pending_price_count": 1
   },
   "ES:B0H36Q93T2": {
     "name": "Lemorele Adaptador USB-C a HDMI 2 m, 4K@60Hz, Compatible con Switch 2 | HDMI 2.0, PD hasta 100W y Plug & Play; compatible con Steam Deck y ROG Ally, requiere USB-C con DisplayPort Alt Mode",
@@ -3640,5 +3647,40 @@
     "stock": null,
     "first_seen": "2026-09-20T18:31:38.421226+00:00",
     "price": "11,99 €"
+  },
+  "ES:B0DXPR47FR": {
+    "name": "FINTIE Funda Transporte Compatible con Switch 2 (2025) | Funda de Transporte con 20 Soportes para Tarjetas de Juego y Correa para la Consola y Sus Accesorios, Negro",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T16:31:32.614590+00:00",
+    "price": "11,99 €"
+  },
+  "ES:B0F7RMPBRY": {
+    "name": "playvital Funda Protectora para Nintendo Switch 2 (2025) | Carcasa Rígida, Compatible con Dock, con Soporte Plegable y Tapas de Joysticks, Antigolpes, Color Sólido, Amarillo Antiguo",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T16:31:32.614641+00:00",
+    "price": "22,99 €"
+  },
+  "ES:B0DM18Q2M1": {
+    "name": "8BitDo Ultimate 2C Bluetooth Controller for Switch, Wireless Controller with 6-Axis Motion Control, Rumble Vibration, Refined D-Pad and Bumpers, and Hall Effect Joysticks (Pink)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T16:31:32.614644+00:00",
+    "price": "29,99 €"
+  },
+  "ES:B0H4LR1WV7": {
+    "name": "UTMOSTXP Carcasa Compatible con Switch 2 (Flores) | Funda Protectora Compatible con Nintendo Switch 2, Accesorios para Consola y mandos Switch 2 compatible con Dock Station",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T16:31:32.614677+00:00",
+    "price": "23,99 €"
+  },
+  "ES:B0DRJQKFRX": {
+    "name": "ivoler Funda Compatible con Nintendo Switch 2, Estuche de Transporte con 12 Cartuchos de Juego, Funda Protectora rígida de Viaje para Consola Nintendo Switch 2 y Accesorios",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T16:31:32.614749+00:00",
+    "price": "15,99 €"
   }
 }
