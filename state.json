@@ -1016,7 +1016,7 @@
   "US:B0H6DTXPK1": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Tin",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": null,
     "first_seen": "2026-08-30T23:03:24.893535+00:00",
     "price": "81,69 €"
   },
@@ -1219,7 +1219,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-02T22:24:23.588723+00:00",
-    "price": "177,72 €"
+    "price": "177,71 €"
   },
   "US:B0GP8HSDCJ": {
     "name": "Pokemon TCG: Mega Evolution Ascended Heroes Pokemon Center Elite Trainer Box | AH PKC ETB | Promo exclusivo de N's Zekrom | 11 paquetes de refuerzo",
@@ -1722,9 +1722,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T13:57:50.628764+00:00",
-    "price": "21,60 €",
-    "pending_price": "21,65 €",
-    "pending_price_count": 1
+    "price": "21,65 €"
   },
   "UK:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
