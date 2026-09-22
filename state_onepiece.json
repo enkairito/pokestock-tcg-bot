@@ -230,10 +230,9 @@
   },
   "ES:B0FX1Z5SPZ": {
     "name": "One Piece Card Game Egghead Crisis EB-04 Extra Booster Box (japonés) - 24 paquetes",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-03T18:23:03.868065+00:00",
-    "price": "195,58 €"
+    "first_seen": "2026-09-03T18:23:03.868065+00:00"
   },
   "ES:B0HF1Z72XW": {
     "name": "One Piece TCG: The World's Strongest Warriors Booster Box (OP-17) - 24 paquetes",
@@ -303,6 +302,8 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T10:06:21.592603+00:00",
-    "price": "162,78 €"
+    "price": "162,78 €",
+    "pending_price": "166,72 €",
+    "pending_price_count": 1
   }
 }
