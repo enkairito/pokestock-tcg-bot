@@ -101,10 +101,9 @@
   },
   "ES:B0CQD377LS": {
     "name": "Seagate 5TB Game Drive para PlayStation | USB 3.0 (STLV5000202) | Disco duro con licencia oficial para PlayStation. Archive juegos de PS5. Juega juegos de PS4 directamente. LED azul. 3 años",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-11T19:18:12.685892+00:00",
-    "price": "195,99 €"
+    "first_seen": "2026-09-11T19:18:12.685892+00:00"
   },
   "ES:B0D98BDG3S": {
     "name": "EA SPORTS FC 25 Standard Edition PS4 | Videojuegos | Castellano",
@@ -201,7 +200,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616734+00:00",
-    "price": "227,90 €"
+    "price": "225,90 €"
   },
   "ES:B07B9N6ZKS": {
     "name": "PS4 Slim 500 GB negro Playstation 4 – FIFA 18 + 2 mandos DualShock 4",
@@ -302,9 +301,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018791+00:00",
-    "price": "58,00 €",
-    "pending_price": "69,99 €",
-    "pending_price_count": 1
+    "price": "69,99 €"
   },
   "ES:B01M9COSMD": {
     "name": "Red Dead Redemption 2 (PS4)",
@@ -451,9 +448,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018957+00:00",
-    "price": "33,99 €",
-    "pending_price": "35,99 €",
-    "pending_price_count": 1
+    "price": "35,99 €"
   },
   "ES:B0BKW3BYFR": {
     "name": "AceGamer Controlador Inalámbrico Para Ps4, Controlador De Juego Compatible Con Ps4/Pro/Slim/Pc, Con Turbobotón/Botón Trasero/Doble Vibración/Sensor De Giroscopio De 6 Ejes/Panel Táctil",
@@ -1100,9 +1095,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T18:20:21.671515+00:00",
-    "price": "789,00 €",
-    "pending_price": "819,90 €",
-    "pending_price_count": 1
+    "price": "789,00 €"
   },
   "ES:B0C74Q2GWX": {
     "name": "The Crew Motorfest Limited Edition (Exclusivo Amazon) (PS4)",
@@ -1268,7 +1261,7 @@
     "stock": null,
     "first_seen": "2026-09-15T20:34:33.056472+00:00",
     "price": "210,00 €",
-    "pending_price": "227,90 €",
+    "pending_price": "225,90 €",
     "pending_price_count": 1
   },
   "ES:B0756HTQHJ": {
@@ -1361,7 +1354,7 @@
     "stock": null,
     "first_seen": "2026-09-16T04:35:55.955905+00:00",
     "price": "649,00 €",
-    "pending_price": "725,32 €",
+    "pending_price": "729,91 €",
     "pending_price_count": 1
   },
   "ES:B0D8KXMCTC": {
@@ -2112,9 +2105,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498742+00:00",
-    "price": "23,49 €",
-    "pending_price": "34,23 €",
-    "pending_price_count": 1
+    "price": "34,23 €"
   },
   "ES:B097B1ZJ5T": {
     "name": "Nintendo Game & Watch: The Legend of Zelda",
@@ -2135,18 +2126,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498891+00:00",
-    "price": "28,00 €",
-    "pending_price": "28,20 €",
-    "pending_price_count": 1
+    "price": "28,20 €"
   },
   "ES:B07MWXG7QV": {
     "name": "Days Gone [Importación francesa]",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498960+00:00",
-    "price": "36,92 €",
-    "pending_price": "46,10 €",
-    "pending_price_count": 1
+    "price": "46,10 €"
   },
   "ES:B09PJ4WZWC": {
     "name": "Far Cry 6 (PS4) (PS4)",
@@ -2202,7 +2189,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499236+00:00",
-    "price": "16,99 €"
+    "price": "12,99 €"
   },
   "ES:B00DC267Z0": {
     "name": "Kingdom Hearts III (PlayStation PS4)",
@@ -2272,9 +2259,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499492+00:00",
-    "price": "25,13 €",
-    "pending_price": "26,00 €",
-    "pending_price_count": 1
+    "price": "26,00 €"
   },
   "ES:B07V9NP59C": {
     "name": "Remothered: Tormented Fathers",
@@ -2323,7 +2308,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499661+00:00",
-    "price": "17,70 €"
+    "price": "17,70 €",
+    "pending_price": "17,99 €",
+    "pending_price_count": 1
   },
   "ES:B073SCS51T": {
     "name": "Resident Evil Revelations HD",
@@ -2381,9 +2368,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499915+00:00",
-    "price": "42,67 €",
-    "pending_price": "42,87 €",
-    "pending_price_count": 1
+    "price": "42,87 €"
   },
   "ES:B07D9TFK6W": {
     "name": "Sega Mega Drive Classics",
@@ -2453,9 +2438,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500022+00:00",
-    "price": "16,99 €",
-    "pending_price": "17,99 €",
-    "pending_price_count": 1
+    "price": "17,99 €"
   },
   "ES:B07SKJCFXF": {
     "name": "Xbox Controlador inalmbrico de la serie prxima generacin - Negro carbn/Negro",
@@ -2525,9 +2508,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500079+00:00",
-    "price": "18,99 €",
-    "pending_price": "21,99 €",
-    "pending_price_count": 1
+    "price": "21,99 €"
   },
   "ES:B07W6J6TG5": {
     "name": "Logitech G G335, Auriculares para Gaming con Cable | Micrófono abatible silenciar, audio 3,5 mm, almohadillas viscoelásticas, PC, PS, Xbox, Switch/Switch 2 - Negro",
@@ -2749,7 +2730,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500241+00:00",
-    "price": "22,77 €"
+    "price": "22,77 €",
+    "pending_price": "22,81 €",
+    "pending_price_count": 1
   },
   "ES:B07G2D87BV": {
     "name": "Auriculares Gaming Stereo Sony Oficial PS4 Bigben Interactive - Compatible con PS5",
@@ -2862,7 +2845,7 @@
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566254+00:00",
     "price": "22,90 €",
-    "pending_price": "23,70 €",
+    "pending_price": "22,99 €",
     "pending_price_count": 1
   },
   "ES:B0H6Y3H3PL": {
@@ -2877,7 +2860,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566412+00:00",
-    "price": "34,70 €"
+    "price": "32,53 €"
   },
   "ES:B0F99XSMYV": {
     "name": "Tomb Raider IV-VI Remastered Starring Lara Croft - PS4",
@@ -3072,7 +3055,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T15:58:54.214876+00:00",
-    "price": "23,43 €"
+    "price": "23,41 €"
   },
   "ES:B07F7GSX53": {
     "name": "Middle - Earth: Shadow Of Mordor",
@@ -3286,9 +3269,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T22:31:32.294326+00:00",
-    "price": "33,61 €",
-    "pending_price": "38,85 €",
-    "pending_price_count": 1
+    "price": "38,85 €"
   },
   "ES:B09C29Y4D4": {
     "name": "Remotto5 - Cargador para Mando de PS5 Inalámbrico - Batería Portátil para DualSense Juega Mientras Carga - Larga Duración +12 Horas de Autonomía - PS5 Accesorios",
@@ -3322,9 +3303,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T12:31:57.651129+00:00",
-    "price": "47,80 €",
-    "pending_price": "47,99 €",
-    "pending_price_count": 1
+    "price": "47,99 €"
   },
   "ES:B0H4HBDNT1": {
     "name": "Stranger than Heaven - PS5",
@@ -3574,7 +3553,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:34.023075+00:00",
-    "price": "37,85 €"
+    "price": "37,85 €",
+    "pending_price": "42,27 €",
+    "pending_price_count": 1
   },
   "ES:B0DJ1VG6DW": {
     "name": "Sony PlayStation 5 - Mando Inalámbrico DualSense Colección Chroma Teal",
@@ -3792,5 +3773,33 @@
     "stock": null,
     "first_seen": "2026-09-22T16:31:43.341590+00:00",
     "price": "26,99 €"
+  },
+  "ES:B082BL75FZ": {
+    "name": "Playstation Minecraft",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T18:31:38.449983+00:00",
+    "price": "44,90 €"
+  },
+  "ES:B0776YMQN1": {
+    "name": "Red Dead Redemption 2",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T18:31:38.450032+00:00",
+    "price": "27,47 €"
+  },
+  "ES:B0B2CX12NY": {
+    "name": "Paladone Pelota Anti-Estrés de Controlador PlayStation - Juguete de Alivio para Gamers, Producto Oficial",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T18:31:38.450182+00:00",
+    "price": "13,93 €"
+  },
+  "ES:B0FDB8TFQM": {
+    "name": "NEWDERY Tapas de Repuesto para Joystick para Mando de PS5/PS4 | Juego de tapas de silicona antideslizantes, compatibles con mando de PS5/PS4, color negro, paquete de 10 unidades",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T18:31:38.450277+00:00",
+    "price": "12,99 €"
   }
 }
