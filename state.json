@@ -731,7 +731,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
-    "price": "245,39 €"
+    "price": "245,39 €",
+    "pending_price": "245,40 €",
+    "pending_price_count": 1
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
@@ -1279,7 +1281,7 @@
   "ES:B0FMYKCKK6": {
     "name": "Pokémon: Colección Poderes Supremos de JCC Pokémon: Terapagos ex (3 Cartas holográfica de promoción, 18 Paquetes de Mejora)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "first_seen": "2026-09-04T15:11:54.795786+00:00",
     "price": "141,41 €"
   },
@@ -1327,10 +1329,9 @@
   },
   "UK:B0GWK631XY": {
     "name": "Pokémon TCG: Mega Moonlit Tin - Mega Gengar ex (4 potenciadores y 1 tarjeta promocional de aluminio)",
-    "status": "compra_directa",
-    "stock": "1",
-    "first_seen": "2026-09-04T21:32:58.802667+00:00",
-    "price": "76,93 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-04T21:32:58.802667+00:00"
   },
   "UK:B0CT4HR8F9": {
     "name": "Pokémon - Juego de cartas Scarlet & Violet Night Wanderer, caja de sobres de expansión, 30 sobres (versión japonesa)",
@@ -1831,10 +1832,11 @@
     "first_seen": "2026-09-08T14:34:56.335866+00:00"
   },
   "UK:B09M48Z5NW": {
-    "name": "Pokémon TCG: Baraja de Batalla V: Lycanroc contra Corviknight",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-09-08T14:34:56.335876+00:00"
+    "name": "Pokemon TCG: V Battle Deck: Lycanroc vs. Corviknight",
+    "status": "compra_directa",
+    "stock": "1",
+    "first_seen": "2026-09-08T14:34:56.335876+00:00",
+    "price": "59,76 €"
   },
   "UK:B00TA6E3KI": {
     "name": "100 Assorted Basic Pokemon TCG Energy Cards",
