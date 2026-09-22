@@ -111,7 +111,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:18:12.685903+00:00",
-    "price": "27,89 €"
+    "price": "26,39 €"
   },
   "ES:B084WLMKGT": {
     "name": "GXTrust Forze Cascos Gaming con Licencia Oficial para PlayStation, Negro | Auriculares Gaming para PS4 y PS5, Micrófono Plegable, Altavoces Activos de 50 mm, Cable Trenzado de Nailon 1.2 m",
@@ -302,7 +302,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018791+00:00",
-    "price": "58,00 €"
+    "price": "58,00 €",
+    "pending_price": "69,99 €",
+    "pending_price_count": 1
   },
   "ES:B01M9COSMD": {
     "name": "Red Dead Redemption 2 (PS4)",
@@ -354,7 +356,7 @@
     "price": "42,99 €"
   },
   "ES:B0FKN5F96V": {
-    "name": "Logitech G G29 SE Driving Force Wheel and Shifter para Playstation & PC | Volante de carreras y pedales, Force Feedback, Cuero auténtico + Palanca de cambio - Para PS5, PS4 y PC, Mac - Negro",
+    "name": "Logitech G G29 SE Driving Force Wheel y Shifter para Playstation & PC | Volante de carreras y pedales, Force Feedback, Cuero auténtico + Palanca de cambio - Para PS5, PS4 y PC, Mac - Negro",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018877+00:00",
@@ -449,7 +451,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018957+00:00",
-    "price": "33,99 €"
+    "price": "33,99 €",
+    "pending_price": "35,99 €",
+    "pending_price_count": 1
   },
   "ES:B0BKW3BYFR": {
     "name": "AceGamer Controlador Inalámbrico Para Ps4, Controlador De Juego Compatible Con Ps4/Pro/Slim/Pc, Con Turbobotón/Botón Trasero/Doble Vibración/Sensor De Giroscopio De 6 Ejes/Panel Táctil",
@@ -707,7 +711,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T12:27:13.469347+00:00",
-    "price": "28,52 €"
+    "price": "24,90 €"
   },
   "ES:B0D571R8PK": {
     "name": "Volante y Pedales Hori RWA con licencia Sony PlayStation 4/5 [Nuevo modelo compatible con PS4/PS5] + Gran Turismo 7 [Playstation 5]",
@@ -883,7 +887,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:25:09.102575+00:00",
-    "price": "35,48 €"
+    "price": "34,77 €"
   },
   "ES:B098GSZ4Q9": {
     "name": "Streets of Rage 4. Anniversary Edition - Playstation 4",
@@ -987,7 +991,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:24:23.390556+00:00",
-    "price": "669,00 €"
+    "price": "651,99 €"
   },
   "ES:B07JH99TG6": {
     "name": "Playstation Uncharted Collection Hits - Versión 17",
@@ -1096,7 +1100,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T18:20:21.671515+00:00",
-    "price": "789,00 €"
+    "price": "789,00 €",
+    "pending_price": "819,90 €",
+    "pending_price_count": 1
   },
   "ES:B0C74Q2GWX": {
     "name": "The Crew Motorfest Limited Edition (Exclusivo Amazon) (PS4)",
@@ -1224,7 +1230,7 @@
     "first_seen": "2026-09-15T00:20:12.440978+00:00"
   },
   "ES:B07W7KFFFF": {
-    "name": "Logitech G G923 Racing Wheel and Pedals for Playstation & PC | Force Feedback TRUEFORCE, 1.000 Hz, respuesta eficaz, doble embrague, volante auténtico, PS5, PS4, PC, Mac - Negro",
+    "name": "Logitech G G923 Racing Wheel y Pedals para Playstation & PC - Negro | Force Feedback TRUEFORCE, 1.000 Hz, respuesta eficaz, doble embrague, volante auténtico, PS5, PS4, PC, Mac",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T00:20:12.441018+00:00",
@@ -1261,7 +1267,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T20:34:33.056472+00:00",
-    "price": "210,00 €"
+    "price": "210,00 €",
+    "pending_price": "227,90 €",
+    "pending_price_count": 1
   },
   "ES:B0756HTQHJ": {
     "name": "PlayStation 4 Pro (PS4) - Consola de 1 TB + FIFA 18 (Importación alemana)",
@@ -1352,7 +1360,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T04:35:55.955905+00:00",
-    "price": "649,00 €"
+    "price": "649,00 €",
+    "pending_price": "725,32 €",
+    "pending_price_count": 1
   },
   "ES:B0D8KXMCTC": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Naranja)",
@@ -1470,7 +1480,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.312504+00:00",
-    "price": "719,90 €"
+    "price": "589,00 €"
   },
   "ES:B00BE4HOIM": {
     "name": "Sony PlayStation 4 500GB Console (Black) [Importación inglesa]",
@@ -1526,7 +1536,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.714181+00:00",
-    "price": "789,91 €"
+    "price": "566,70 €"
   },
   "ES:B0C9YS6H22": {
     "name": "2x cable de carga para mando PS4, cable de 2m para Playstation 4, Sony PS4, PS4 Slim, mandos Microsoft Xbox One, cable de carga micro USB, azul-negro",
@@ -1850,7 +1860,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498034+00:00",
-    "price": "90,93 €"
+    "price": "90,51 €"
   },
   "ES:B08TJQY9JD": {
     "name": "Playstation Gran Turismo 7 | Standard Edition [Playstation 4]",
@@ -1941,7 +1951,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498253+00:00",
-    "price": "46,29 €"
+    "price": "45,06 €"
   },
   "ES:B0GVP719SW": {
     "name": "Mortal Shell II - PS5",
@@ -2102,7 +2112,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498742+00:00",
-    "price": "23,49 €"
+    "price": "23,49 €",
+    "pending_price": "34,23 €",
+    "pending_price_count": 1
   },
   "ES:B097B1ZJ5T": {
     "name": "Nintendo Game & Watch: The Legend of Zelda",
@@ -2124,7 +2136,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498891+00:00",
     "price": "28,00 €",
-    "pending_price": "28,10 €",
+    "pending_price": "28,20 €",
     "pending_price_count": 1
   },
   "ES:B07MWXG7QV": {
@@ -2133,7 +2145,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498960+00:00",
     "price": "36,92 €",
-    "pending_price": "37,66 €",
+    "pending_price": "46,10 €",
     "pending_price_count": 1
   },
   "ES:B09PJ4WZWC": {
@@ -2169,7 +2181,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499111+00:00",
-    "price": "20,52 €"
+    "price": "16,68 €"
   },
   "ES:B07NRHS623": {
     "name": "The Legend of Heroes: Trails of Cold Steel III [Importación francesa]",
@@ -2183,9 +2195,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499167+00:00",
-    "price": "32,73 €",
-    "pending_price": "32,74 €",
-    "pending_price_count": 1
+    "price": "32,73 €"
   },
   "ES:B0CJG2KCBL": {
     "name": "Rise of the Tomb Raider 20 Year Celebration",
@@ -2263,7 +2273,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499492+00:00",
     "price": "25,13 €",
-    "pending_price": "25,99 €",
+    "pending_price": "26,00 €",
     "pending_price_count": 1
   },
   "ES:B07V9NP59C": {
@@ -2292,7 +2302,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499578+00:00",
-    "price": "31,77 €"
+    "price": "26,38 €"
   },
   "ES:B00N77D7WQ": {
     "name": "Metro Redux Double Pack (2033 + Last Light)",
@@ -2372,7 +2382,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499915+00:00",
     "price": "42,67 €",
-    "pending_price": "42,77 €",
+    "pending_price": "42,87 €",
     "pending_price_count": 1
   },
   "ES:B07D9TFK6W": {
@@ -2380,9 +2390,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499924+00:00",
-    "price": "21,91 €",
-    "pending_price": "21,92 €",
-    "pending_price_count": 1
+    "price": "19,98 €"
   },
   "ES:B07KZS61P5": {
     "name": "NieR: Automata Game of the YoRHa Edition (PlayStation PS4)",
@@ -2445,7 +2453,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500022+00:00",
-    "price": "16,99 €"
+    "price": "16,99 €",
+    "pending_price": "17,99 €",
+    "pending_price_count": 1
   },
   "ES:B07SKJCFXF": {
     "name": "Xbox Controlador inalmbrico de la serie prxima generacin - Negro carbn/Negro",
@@ -2515,7 +2525,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500079+00:00",
-    "price": "18,99 €"
+    "price": "18,99 €",
+    "pending_price": "21,99 €",
+    "pending_price_count": 1
   },
   "ES:B07W6J6TG5": {
     "name": "Logitech G G335, Auriculares para Gaming con Cable | Micrófono abatible silenciar, audio 3,5 mm, almohadillas viscoelásticas, PC, PS, Xbox, Switch/Switch 2 - Negro",
@@ -2849,7 +2861,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566254+00:00",
-    "price": "22,90 €"
+    "price": "22,90 €",
+    "pending_price": "23,70 €",
+    "pending_price_count": 1
   },
   "ES:B0H6Y3H3PL": {
     "name": "Blasphemous: Martyrs’ Edition - PlayStation 4",
@@ -3093,7 +3107,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T06:31:41.554832+00:00",
-    "price": "42,97 €"
+    "price": "42,97 €",
+    "pending_price": "48,86 €",
+    "pending_price_count": 1
   },
   "ES:B0CJG3TYMZ": {
     "name": "Shadow of the Tomb Raider Definitive Edition",
@@ -3270,7 +3286,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T22:31:32.294326+00:00",
-    "price": "33,61 €"
+    "price": "33,61 €",
+    "pending_price": "38,85 €",
+    "pending_price_count": 1
   },
   "ES:B09C29Y4D4": {
     "name": "Remotto5 - Cargador para Mando de PS5 Inalámbrico - Batería Portátil para DualSense Juega Mientras Carga - Larga Duración +12 Horas de Autonomía - PS5 Accesorios",
@@ -3304,7 +3322,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T12:31:57.651129+00:00",
-    "price": "47,80 €"
+    "price": "47,80 €",
+    "pending_price": "47,99 €",
+    "pending_price_count": 1
   },
   "ES:B0H4HBDNT1": {
     "name": "Stranger than Heaven - PS5",
@@ -3660,5 +3680,117 @@
     "stock": null,
     "first_seen": "2026-09-20T18:31:45.156329+00:00",
     "price": "29,99 €"
+  },
+  "ES:B0DT9PKJGZ": {
+    "name": "Arcade1Up X-Men Stool",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T16:31:43.340906+00:00",
+    "price": "99,99 €"
+  },
+  "ES:B0CM28TCD7": {
+    "name": "Hard to Get (DA) (GP9589)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T16:31:43.340950+00:00",
+    "price": "40,37 €"
+  },
+  "ES:B0H33TT5FT": {
+    "name": "Hollow Knight: Silksong - PS5",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T16:31:43.341110+00:00",
+    "price": "39,90 €"
+  },
+  "ES:B0H4VJ3C58": {
+    "name": "Kingdom Hearts Collection [I~III]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T16:31:43.341118+00:00",
+    "price": "69,90 €"
+  },
+  "ES:B0GX6QGFD8": {
+    "name": "MotoGP 26 - PS5",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T16:31:43.341126+00:00",
+    "price": "44,99 €"
+  },
+  "ES:B0FR9STSLH": {
+    "name": "Wobbledogs - PS4",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T16:31:43.341318+00:00",
+    "price": "19,99 €"
+  },
+  "ES:B07XYKD82Y": {
+    "name": "Gang Beasts",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T16:31:43.341346+00:00",
+    "price": "26,89 €"
+  },
+  "ES:B088VCBBQR": {
+    "name": "Mafia Trilogy - PlayStation 4 [Importación alemana]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T16:31:43.341356+00:00",
+    "price": "25,13 €"
+  },
+  "ES:B0CJK4BQLX": {
+    "name": "Como un drag�n Riqueza infinita - Juego de PS4",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T16:31:43.341391+00:00",
+    "price": "26,04 €"
+  },
+  "ES:B07D1WG57C": {
+    "name": "Far Cry 3 Classic Edition - PlayStation 4 [Importación inglesa]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T16:31:43.341417+00:00",
+    "price": "28,90 €"
+  },
+  "ES:B09GYHZXZB": {
+    "name": "Farming Simulator 22 - PlayStation 4",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T16:31:43.341423+00:00",
+    "price": "30,85 €"
+  },
+  "ES:B0CF2PVV1D": {
+    "name": "Videojuego PlayStation 4 Activision Call of Duty: Modern Warfare 3 - Cross-Gen Edition (FR)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T16:31:43.341429+00:00",
+    "price": "42,18 €"
+  },
+  "ES:B0DRJXD493": {
+    "name": "Basesailor para PS5 Pro Controller Charger Cable 2M 2Pack,Xbox Series X|S | Core Cable de carga USB tipo C para Nintendo Switch 2/OLED/Lite,Elite Series 2,para PlayStation 5 DualSense Controller",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T16:31:43.341510+00:00",
+    "price": "11,99 €"
+  },
+  "ES:B0F6CYX87N": {
+    "name": "MYSTILUCK Mando Inalámbrico para PS4/PS3/Pro/PC/MAC/iOS/Android/Steam Deck, Gamepad con iluminación RGB 7 Colore/Joystick Effect Hall/Doble Vibración/Turbo/Conector para Auriculares/Batería 1500 mAh",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T16:31:43.341570+00:00",
+    "price": "20,39 €"
+  },
+  "ES:B0D47CDR8J": {
+    "name": "KROM KANJI – Auriculares Gaming Inalámbricos con Conexión Bluetooth 5.3, 2.4 GHz y USB, Drivers 40 mm, Micrófono Omnidireccional, Control Volumen, Mute en Auricular, Diadema Ajustable y Ligera – Negro",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T16:31:43.341576+00:00",
+    "price": "29,77 €"
+  },
+  "ES:B0CCVS1GLB": {
+    "name": "Ozeino Auriculares para Juegos con micrófono, Sonido Envolvente 3D, con cancelación de Ruido, Luces RGB, Color Rosa",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T16:31:43.341590+00:00",
+    "price": "26,99 €"
   }
 }
