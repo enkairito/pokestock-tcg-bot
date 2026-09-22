@@ -301,14 +301,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018791+00:00",
-    "price": "69,99 €"
+    "price": "58,00 €"
   },
   "ES:B01M9COSMD": {
     "name": "Red Dead Redemption 2 (PS4)",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018808+00:00",
-    "price": "25,12 €"
+    "price": "18,98 €"
   },
   "ES:B09KTGP5C2": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition, PlayStation 4",
@@ -2354,7 +2354,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499889+00:00",
-    "price": "37,00 €"
+    "price": "24,03 €"
   },
   "ES:B08TJGKN5J": {
     "name": "PS4 Horizon Forbidden West",
@@ -3267,7 +3267,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T22:31:32.294326+00:00",
-    "price": "38,85 €"
+    "price": "33,61 €"
   },
   "ES:B09C29Y4D4": {
     "name": "Remotto5 - Cargador para Mando de PS5 Inalámbrico - Batería Portátil para DualSense Juega Mientras Carga - Larga Duración +12 Horas de Autonomía - PS5 Accesorios",
@@ -3551,9 +3551,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:34.023075+00:00",
-    "price": "37,85 €",
-    "pending_price": "42,27 €",
-    "pending_price_count": 1
+    "price": "42,27 €"
   },
   "ES:B0DJ1VG6DW": {
     "name": "Sony PlayStation 5 - Mando Inalámbrico DualSense Colección Chroma Teal",
@@ -3707,7 +3705,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:43.341346+00:00",
-    "price": "26,89 €"
+    "price": "26,89 €",
+    "pending_price": "26,92 €",
+    "pending_price_count": 1
   },
   "ES:B088VCBBQR": {
     "name": "Mafia Trilogy - PlayStation 4 [Importación alemana]",
