@@ -321,7 +321,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912107+00:00",
-    "price": "28,99 €"
+    "price": "27,54 €"
   },
   "ES:B0F3JVK9N6": {
     "name": "Joy-Con 2 Wheel (2 uds)",
@@ -611,7 +611,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478284+00:00",
-    "price": "8,95 €"
+    "price": "8,95 €",
+    "pending_price": "9,95 €",
+    "pending_price_count": 1
   },
   "ES:B0977RRHJG": {
     "name": "Videojuego para Switch Ubisoft Mario+Rabbids Sparks of Hope",
@@ -653,7 +655,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478344+00:00",
-    "price": "69,99 €"
+    "price": "69,99 €",
+    "pending_price": "72,82 €",
+    "pending_price_count": 1
   },
   "ES:B0F2FG3X9D": {
     "name": "HEYSTOP Funda para Nintendo Switch 2, Kit de Estuche Protector con Carcasa para PC y Carcasa de TPU para el Control de Switch 2, Diseño de Gran Capacidad para Accesorios de Nintendo Switch 2",
@@ -965,9 +969,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:30:08.918656+00:00",
-    "price": "143,88 €",
-    "pending_price": "164,99 €",
-    "pending_price_count": 1
+    "price": "164,99 €"
   },
   "ES:B0DK1NY4LW": {
     "name": "AceGamer 2 Pack Mando Inalámbrico para PS4，Mando de Juego para PS4/Pro/Slim/PC，Gamepad Joystick con Turbo/Botón Trasero/Doble Vibración/6-Axis Sensor Giroscópico/Panel Táctil (Blanco o negro)",
@@ -1730,9 +1732,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688184+00:00",
-    "price": "649,99 €",
-    "pending_price": "730,00 €",
-    "pending_price_count": 1
+    "price": "730,00 €"
   },
   "ES:B0HC3WZQYK": {
     "name": "Nintendo Switch 2 + Pokemon Legends: Z Switch 2 Edition",
@@ -2055,7 +2055,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688769+00:00",
     "price": "39,26 €",
-    "pending_price": "59,50 €",
+    "pending_price": "48,12 €",
     "pending_price_count": 1
   },
   "ES:B0DGGSZTCX": {
@@ -2720,7 +2720,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689969+00:00",
-    "price": "15,99 €"
+    "price": "15,19 €"
   },
   "ES:B0CJN1Y673": {
     "name": "PALPOW Estuche Juegos Switch Compatible con Nintendo Switch 2 Guardar 48 Juegos & 48 Tarjetas de Micro SD, Funda Juegos Switch 2, Caja Porta Juegos Switch 2 - Rojo",
@@ -3516,7 +3516,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T14:32:21.853938+00:00",
-    "price": "58,41 €"
+    "price": "57,80 €"
   },
   "ES:B09Z3KWD55": {
     "name": "Nintendo Switch Sports (Nintendo Switch) + Nintendo Switch Online - 12 Meses (Código de descarga)",
@@ -3726,5 +3726,19 @@
     "stock": null,
     "first_seen": "2026-09-22T18:31:43.447183+00:00",
     "price": "37,89 €"
+  },
+  "ES:B0F3JNJXQ5": {
+    "name": "Nintendo Switch 2 Cámara HD con Micrófono Integrado y Conexión USB-C",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T22:31:44.760478+00:00",
+    "price": "35,37 €"
+  },
+  "ES:B0F7RMCMLD": {
+    "name": "playvital Funda Protectora para Nintendo Switch 2 (2025) - Gatito Lindo | Agarre de Silicona, Carcasa Trasera de PC, Soporte Plegable, Tapas para Joysticks, Protección para Consola, Rosa",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-22T22:31:44.760987+00:00",
+    "price": "27,99 €"
   }
 }
