@@ -293,7 +293,7 @@
   "ES:B0CT5T766W": {
     "name": "Pokémon: Cofre de Coleccionista - 2022",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-25T20:27:53.163288+00:00",
     "price": "34,99 €"
   },
@@ -728,9 +728,11 @@
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
-    "price": "225,00 €"
+    "price": "225,00 €",
+    "pending_price": "250,97 €",
+    "pending_price_count": 1
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
@@ -1014,9 +1016,10 @@
   },
   "US:B0H6DTXPK1": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Tin",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-08-30T23:03:24.893535+00:00"
+    "first_seen": "2026-08-30T23:03:24.893535+00:00",
+    "price": "81,69 €"
   },
   "ES:B0D6WLDCZF": {
     "name": "BANDAI PC50533 Pokémon TCG: Back to School Collector's Chest, Multicolor, Collectible for Anime Lovers, Spanish Version",
@@ -2021,7 +2024,7 @@
   "UK:B0F6PGX3SQ": {
     "name": "Pokémon TCG: Unova Mini Tin – Krookodile & Excadrill (2 Paquetes de Refuerzo y 1 Tarjeta Adhesiva)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-09-12T20:22:49.294754+00:00",
     "price": "41,48 €"
   },
