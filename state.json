@@ -1539,9 +1539,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802930+00:00",
-    "price": "49,80 €",
-    "pending_price": "49,84 €",
-    "pending_price_count": 1
+    "price": "49,84 €"
   },
   "US:B0G5FWJ8NL": {
     "name": "Pokémon TCG: Mega Charizard Tin",
@@ -1611,7 +1609,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "118,19 €"
+    "price": "118,16 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
