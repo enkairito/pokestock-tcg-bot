@@ -83,7 +83,7 @@
   "ES:B0FTM57WTW": {
     "name": "Yu-Gi-Oh! JCC EL DECK DE LAS CRÓNICAS: Encantadoras de Espíritus (Edición All-Foil) (Versión en español)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-09-07T17:41:46.061595+00:00",
     "price": "19,99 €"
   },
@@ -113,9 +113,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:42:10.254074+00:00",
-    "price": "30,54 €",
-    "pending_price": "30,76 €",
-    "pending_price_count": 1
+    "price": "30,76 €"
   },
   "ES:B0FMKJ7PBX": {
     "name": "YU-GI-OH! JCC EL DECK DE LAS CRÓNICAS: El Caído y El Virtuoso (Edición All-Foil)",
@@ -143,9 +141,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:42:33.643560+00:00",
-    "price": "19,99 €",
-    "pending_price": "25,00 €",
-    "pending_price_count": 1
+    "price": "25,00 €"
   },
   "ES:B0DZ6R3699": {
     "name": "Yu-Gi-Oh! Batallas de Leyenda: Tumulto de Monstruos 3- Pack Booster",
@@ -159,9 +155,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:42:56.065562+00:00",
-    "price": "106,44 €",
-    "pending_price": "107,76 €",
-    "pending_price_count": 1
+    "price": "107,76 €"
   },
   "ES:B0F7RVS8MR": {
     "name": "Yu-Gi-Oh! Cazadores de la Justicia 3-Pack Booster",
