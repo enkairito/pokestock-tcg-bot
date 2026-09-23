@@ -1583,9 +1583,10 @@
   },
   "UK:B0DH53TQCC": {
     "name": "Pokemon Scarlet & Violet Stellar Crown Booster Pack",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-04T22:05:43.537215+00:00"
+    "first_seen": "2026-09-04T22:05:43.537215+00:00",
+    "price": "26,49 €"
   },
   "UK:B0DBHJPLVB": {
     "name": "Pokémon TCG: Miraidon ex Deluxe Battle Deck (Ready-to-Play 60-Card Deck & Accessories)",
@@ -3505,7 +3506,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T13:03:29.958614+00:00",
-    "price": "48,53 €"
+    "price": "39,73 €"
   },
   "MM:184574537": {
     "name": "Cartas - THE POKÉMON COMPANY Pack Pokémon 3 sobres TCG con pegatinas especiales 30º Aniversario",
