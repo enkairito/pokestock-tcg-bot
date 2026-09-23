@@ -721,9 +721,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
-    "price": "64,21 €",
-    "pending_price": "66,79 €",
-    "pending_price_count": 1
+    "price": "66,79 €"
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -1493,7 +1491,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802892+00:00",
-    "price": "82,04 €"
+    "price": "82,03 €"
   },
   "US:B0F6PQLR16": {
     "name": "Pokemon TCG Scarlet & Violet 10.5 White Flare Binder Collection Box - 5 Packs",
@@ -1593,7 +1591,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T22:05:43.537225+00:00",
-    "price": "31,41 €"
+    "price": "31,41 €",
+    "pending_price": "31,47 €",
+    "pending_price_count": 1
   },
   "US:B0GM7H8GCW": {
     "name": "Pokemon Blade Awakened CSV7C | Chino simplificado | Booster Box | Más de 15 años",
@@ -1712,7 +1712,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "137,17 €"
+    "price": "137,17 €",
+    "pending_price": "140,86 €",
+    "pending_price_count": 1
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
