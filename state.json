@@ -1432,7 +1432,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802807+00:00",
-    "price": "32,27 €"
+    "price": "32,27 €",
+    "pending_price": "32,48 €",
+    "pending_price_count": 1
   },
   "UK:B0BJ7F5RNY": {
     "name": "Pokémon- Deoxys (60 Cards, Ready to Play) Baraja de Batalla V, Multicolor, zeraora (699-17149)",
