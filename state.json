@@ -798,7 +798,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "4",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "72,33 €"
   },
@@ -1614,7 +1614,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "118,57 €"
+    "price": "118,56 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -1790,7 +1790,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-08T14:34:56.335801+00:00",
-    "price": "89,25 €"
+    "price": "89,25 €",
+    "pending_price": "89,39 €",
+    "pending_price_count": 1
   },
   "UK:B0CF1MDBS5": {
     "name": "Pokemon - Scarlet & Violet: High Class Pack Shiny Treasure ex - Booster Box",
