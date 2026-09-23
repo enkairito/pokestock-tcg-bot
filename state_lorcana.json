@@ -59,14 +59,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:41:42.887252+00:00",
-    "price": "60,85 €"
+    "price": "60,85 €",
+    "pending_price": "60,89 €",
+    "pending_price_count": 1
   },
   "ES:B0CFRBX7GW": {
     "name": "Disney Lorcana Trading Card Game: Set 4 – Starter Deck B",
     "status": "compra_directa",
     "stock": null,
-    "price": "15,65 €",
-    "first_seen": "2026-09-07T17:41:48.708513+00:00"
+    "first_seen": "2026-09-07T17:41:48.708513+00:00",
+    "price": "15,65 €"
   },
   "ES:B0H1DNGSJS": {
     "name": "Disney Lorcana TCG - Booster Capítulo 12: Otratos Desconocidos - Versión en español",
@@ -148,9 +150,11 @@
   "ES:B0GWH99LCS": {
     "name": "Disney Lorcana TCG: Desconocido Wild - Mazo de Inicio para Dos Jugadores Inglés",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": null,
+    "first_seen": "2026-09-07T17:43:01.799827+00:00",
     "price": "29,99 €",
-    "first_seen": "2026-09-07T17:43:01.799827+00:00"
+    "pending_price": "33,77 €",
+    "pending_price_count": 1
   },
   "ES:B0CSZ553QK": {
     "name": "Ravensburger Disney Lorcana TCG: Preludio, Juego de Cartas para Adultos y Niños +8 años [Versión Inglesa]",
@@ -162,7 +166,7 @@
   "ES:B0GZWFQMDV": {
     "name": "Disney Lorcana TCG: Wilds Unknown - Illumineers´ Trove (Inglés)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "first_seen": "2026-09-08T04:49:59.026479+00:00",
     "price": "128,31 €"
   },
@@ -185,9 +189,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-09T11:34:34.043787+00:00",
-    "price": "56,45 €",
-    "pending_price": "57,06 €",
-    "pending_price_count": 1
+    "price": "57,06 €"
   },
   "ES:B0H6JBF9FM": {
     "name": "Ravensburger Disney Lorcana TCG: Attack of the Vine! Paquete de refuerzo individual surtido (12 tarjetas) - Tarjetas coleccionables - Ideal para fanáticos de Disney y jugadores de TCG - Adecuado para",
