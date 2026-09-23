@@ -1084,7 +1084,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T12:20:51.137152+00:00",
-    "price": "24,31 €"
+    "price": "24,25 €"
   },
   "ES:B0F2TN43GH": {
     "name": "Nintendo Switch 2 - The Legend of Zelda Edition",
@@ -1766,7 +1766,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688262+00:00",
-    "price": "83,65 €"
+    "price": "83,65 €",
+    "pending_price": "85,00 €",
+    "pending_price_count": 1
   },
   "ES:B0GY5GY45X": {
     "name": "Splatoon Raiders",
@@ -2143,7 +2145,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688994+00:00",
-    "price": "183,00 €"
+    "price": "183,00 €",
+    "pending_price": "239,99 €",
+    "pending_price_count": 1
   },
   "ES:B0CMDHWDP9": {
     "name": "Consola Switch - Color Azul Neón/Rojo Neón + Super Mario Bros. Wonder + Mario Kart 8 Deluxe",
@@ -2549,7 +2553,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689823+00:00",
-    "price": "19,99 €"
+    "price": "16,28 €"
   },
   "ES:B0F3Z8PVFB": {
     "name": "Game Traveler RDS Industries - Funda de Lujo para Nintendo Switch 2, OLED y Sistemas de Nintendo Switch. Negro, con Capacidad para 12 Tarjetas de Juego y 2 Fundas para Tarjetas microSD",
@@ -3514,7 +3518,7 @@
     "stock": null,
     "first_seen": "2026-09-19T14:32:21.853938+00:00",
     "price": "56,40 €",
-    "pending_price": "56,88 €",
+    "pending_price": "56,89 €",
     "pending_price_count": 1
   },
   "ES:B09Z3KWD55": {
