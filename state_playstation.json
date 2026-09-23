@@ -104,9 +104,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:18:12.685892+00:00",
-    "price": "195,99 €",
-    "pending_price": "217,41 €",
-    "pending_price_count": 1
+    "price": "217,41 €"
   },
   "ES:B0D98BDG3S": {
     "name": "EA SPORTS FC 25 Standard Edition PS4 | Videojuegos | Castellano",
@@ -1099,9 +1097,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T18:20:21.671515+00:00",
-    "price": "789,00 €",
-    "pending_price": "829,00 €",
-    "pending_price_count": 1
+    "price": "829,00 €"
   },
   "ES:B0C74Q2GWX": {
     "name": "The Crew Motorfest Limited Edition (Exclusivo Amazon) (PS4)",
@@ -1215,9 +1211,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T18:20:43.859449+00:00",
-    "price": "30,99 €",
-    "pending_price": "31,54 €",
-    "pending_price_count": 1
+    "price": "31,54 €"
   },
   "ES:B08LM3KW18": {
     "name": "Playstation Console Sony 5 Edition Digital",
@@ -1433,7 +1427,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.312471+00:00",
-    "price": "203,99 €"
+    "price": "200,00 €"
   },
   "ES:B073QRG1YR": {
     "name": "Sony PlayStation 4 Slim 500GB Negro Wifi - Videoconsolas (PlayStation 4, Negro, 8192 MB, GDDR5, GDDR5, AMD Jaguar)",
@@ -1535,7 +1529,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.714181+00:00",
-    "price": "789,91 €"
+    "price": "789,91 €",
+    "pending_price": "799,91 €",
+    "pending_price_count": 1
   },
   "ES:B0C9YS6H22": {
     "name": "2x cable de carga para mando PS4, cable de 2m para Playstation 4, Sony PS4, PS4 Slim, mandos Microsoft Xbox One, cable de carga micro USB, azul-negro",
@@ -2265,9 +2261,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499492+00:00",
-    "price": "24,06 €",
-    "pending_price": "24,59 €",
-    "pending_price_count": 1
+    "price": "24,59 €"
   },
   "ES:B07V9NP59C": {
     "name": "Remothered: Tormented Fathers",
@@ -2303,7 +2297,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
     "price": "17,14 €",
-    "pending_price": "21,71 €",
+    "pending_price": "24,99 €",
     "pending_price_count": 1
   },
   "ES:B01LCF27VQ": {
