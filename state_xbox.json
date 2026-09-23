@@ -504,7 +504,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "211,88 €"
+    "price": "149,99 €"
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -1628,9 +1628,10 @@
   },
   "ES:B07QM6VCK3": {
     "name": "Microsoft Xbox One S 1TB - All Digital Edition [Konsole ohne optisches Laufwerk]",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:42.061044+00:00"
+    "first_seen": "2026-09-17T00:32:42.061044+00:00",
+    "price": "226,73 €"
   },
   "ES:B07W45Q9DM": {
     "name": "Xbox One X Gears 5 Limited Edition bundle (1TB) [Importación inglesa]",
@@ -2073,7 +2074,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256914+00:00",
-    "price": "12,98 €"
+    "price": "12,98 €",
+    "pending_price": "13,08 €",
+    "pending_price_count": 1
   },
   "ES:B097ZBFDKW": {
     "name": "Demon Slayer -KIMETSU NO Yaiba- JPN (Voice) - E F I G S (Text) Box UK",
@@ -2207,7 +2210,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
     "price": "24,12 €",
-    "pending_price": "25,04 €",
+    "pending_price": "24,98 €",
     "pending_price_count": 1
   },
   "ES:B08HZKQDK1": {
@@ -2789,9 +2792,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T08:32:35.495962+00:00",
-    "price": "22,00 €",
-    "pending_price": "23,46 €",
-    "pending_price_count": 1
+    "price": "23,46 €"
   },
   "ES:B08PSVXJ29": {
     "name": "Mcbazel Kit 13 en 1 con Palancas de Metal para Xbox Elite Series 2, Kit de Reemplazo con Botones Magnéticos, 6 Palancas Magnéticas, 4 Paletas Traseras y 2 D-Pads para Xbox Elite Series 2, Negro",
@@ -3771,14 +3772,18 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579840+00:00",
-    "price": "28,29 €"
+    "price": "28,29 €",
+    "pending_price": "29,71 €",
+    "pending_price_count": 1
   },
   "ES:B07T14YQYZ": {
     "name": "Destroy All Humans - Xbox One",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579852+00:00",
-    "price": "10,48 €"
+    "price": "10,48 €",
+    "pending_price": "10,58 €",
+    "pending_price_count": 1
   },
   "ES:B0C23V86YJ": {
     "name": "Destroy All Humans! 2 - Reprobed: Single Player Juego para Xbox One",
