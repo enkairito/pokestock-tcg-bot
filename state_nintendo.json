@@ -35,7 +35,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.362342+00:00",
-    "price": "18,16 €"
+    "price": "18,16 €",
+    "pending_price": "19,04 €",
+    "pending_price_count": 1
   },
   "ES:B0FQWHWWSG": {
     "name": "Metroid Prime 4: Beyond - Switch",
@@ -265,7 +267,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912091+00:00",
-    "price": "74,99 €"
+    "price": "70,00 €"
   },
   "ES:B07VFTVVWX": {
     "name": "Nintendo Switch Joy-Con-Controller, links blau/rechts, neongelb [Videospiel]",
@@ -632,7 +634,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478316+00:00",
-    "price": "35,93 €"
+    "price": "35,88 €"
   },
   "ES:B0FR451FFZ": {
     "name": "Nintendo Super Mario Galaxy + Super Mario Galaxy 2",
@@ -1822,9 +1824,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688391+00:00",
-    "price": "75,01 €",
-    "pending_price": "75,60 €",
-    "pending_price_count": 1
+    "price": "75,60 €"
   },
   "ES:B0H4R7W5YM": {
     "name": "Fire Emblem Fortune's Weave Dagdan Collection (edición limitada) - Nintendo Switch 2",
@@ -2145,7 +2145,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688994+00:00",
-    "price": "181,98 €"
+    "price": "181,98 €",
+    "pending_price": "239,99 €",
+    "pending_price_count": 1
   },
   "ES:B0CMDHWDP9": {
     "name": "Consola Switch - Color Azul Neón/Rojo Neón + Super Mario Bros. Wonder + Mario Kart 8 Deluxe",
@@ -2363,7 +2365,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689475+00:00",
     "price": "68,47 €",
-    "pending_price": "74,90 €",
+    "pending_price": "77,28 €",
     "pending_price_count": 1
   },
   "ES:B0GNNPWV2C": {
@@ -2769,9 +2771,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.690017+00:00",
-    "price": "35,99 €",
-    "pending_price": "36,99 €",
-    "pending_price_count": 1
+    "price": "36,99 €"
   },
   "ES:B0H36Q93T2": {
     "name": "Lemorele Adaptador USB-C a HDMI 2 m, 4K@60Hz, Compatible con Switch 2 | HDMI 2.0, PD hasta 100W y Plug & Play; compatible con Steam Deck y ROG Ally, requiere USB-C con DisplayPort Alt Mode",
@@ -3114,7 +3114,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:31:33.624547+00:00",
-    "price": "34,24 €"
+    "price": "34,24 €",
+    "pending_price": "34,27 €",
+    "pending_price_count": 1
   },
   "ES:B0DMTLFG2X": {
     "name": "Little Kitty, Big City - Switch",
@@ -3590,9 +3592,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:31.032562+00:00",
-    "price": "6,84 €",
-    "pending_price": "25,99 €",
-    "pending_price_count": 1
+    "price": "25,99 €"
   },
   "ES:B0F3YXTMPF": {
     "name": "RDS - Funda con licencia para Nintendo Switch 2, Nintendo Switch OLED y Nintendo. Sistema Game Traveler Deluxe. Capacidad para 12 tarjetas de juego y funda para tarjetas microSD con capacidad para 2",
@@ -3774,6 +3774,27 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T12:32:07.776007+00:00",
-    "price": "24,22 €"
+    "price": "21,70 €"
+  },
+  "ES:B0CWV767JV": {
+    "name": "Outer Wilds: Archaeologist Edition - Switch",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T14:33:05.330805+00:00",
+    "price": "39,99 €"
+  },
+  "ES:B0F94GC872": {
+    "name": "DigiCharge Funda de transporte para Nintendo Switch 2 y accesorios – Funda de transporte rígida portátil protectora de viaje para Nintendo Switch 2 (2025) - Negro",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T14:33:05.330956+00:00",
+    "price": "8,79 €"
+  },
+  "ES:B0H8RM5BTQ": {
+    "name": "PlayVital Funda Protectora para Nintendo Switch 2 | Carcasa Rígida de PC, Compatible con Dock y Soporte Original, Con Tapas de Joysticks, Antigolpes, Violeta Suave & Verde Menta",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T14:33:05.330969+00:00",
+    "price": "22,99 €"
   }
 }
