@@ -1468,7 +1468,7 @@
   "US:B0G72SPRP6": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802874+00:00",
     "price": "86,48 €"
   },
@@ -1489,7 +1489,7 @@
   "US:B0G5S61BHK": {
     "name": "Pokémon TCG: Mega Charizard Tin - Mega Charizard X ex (4 potenciadores y 1 Tarjeta Promocional de Aluminio)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802892+00:00",
     "price": "82,04 €"
   },
@@ -1505,7 +1505,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802903+00:00",
-    "price": "89,37 €"
+    "price": "89,37 €",
+    "pending_price": "89,41 €",
+    "pending_price_count": 1
   },
   "US:B0FPNRG8GS": {
     "name": "Pokémon TCG: Mega Evolution—Phantasmal Flames Triple Pack Sneasel (1 Carta Promocional holográfica y 3 Sobres potenciadores)",
