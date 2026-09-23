@@ -291,10 +291,9 @@
   },
   "ES:B0CT5T766W": {
     "name": "Pokémon: Cofre de Coleccionista - 2022",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-08-25T20:27:53.163288+00:00",
-    "price": "34,99 €"
+    "first_seen": "2026-08-25T20:27:53.163288+00:00"
   },
   "ECI:A201235759": {
     "name": "Lata Pokémon Jcc Bandai Modelos Surtidos",
@@ -481,9 +480,10 @@
   },
   "ES:B0DT7D8W4N": {
     "name": "Pokémon Colección Especial Charizard ex (1 Carta holográfica de promoción, 2 Cartas holográficas, 1 Carta lenticular de Gran tamaño con Efecto 3D y 5 Sobres de Mejora)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-08-27T14:04:51.386716+00:00"
+    "first_seen": "2026-08-27T14:04:51.386716+00:00",
+    "price": "77,00 €"
   },
   "ECI:A200971014": {
     "name": "Cartas Sv10 Boosters Rivales Predestinados Pokémon Bandai modelos surtidos",
@@ -3517,6 +3517,8 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T19:03:39.712695+00:00",
-    "price": "47,06 €"
+    "price": "47,06 €",
+    "pending_price": "54,07 €",
+    "pending_price_count": 1
   }
 }
