@@ -141,9 +141,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811253+00:00",
-    "price": "49,99 €",
-    "pending_price": "54,99 €",
-    "pending_price_count": 1
+    "price": "54,99 €"
   },
   "ES:B0FGK7Y5PN": {
     "name": "EA SPORTS FC 26 Standard Edition XBOX Series X / XBOX One -disco | Videojuegos | Castellano",
@@ -506,7 +504,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "149,99 €"
+    "price": "149,99 €",
+    "pending_price": "211,88 €",
+    "pending_price_count": 1
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -682,9 +682,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T06:28:31.691493+00:00",
-    "price": "41,88 €",
-    "pending_price": "41,98 €",
-    "pending_price_count": 1
+    "price": "41,98 €"
   },
   "ES:B0F1V7VGP9": {
     "name": "Xbox Controlador inalámbrico - DOOM: The Dark Ages Limited Edition Series X|S, One, PC y dispositivos habilitados para la nube",
@@ -995,7 +993,7 @@
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
     "price": "34,49 €",
-    "pending_price": "35,86 €",
+    "pending_price": "35,78 €",
     "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
@@ -1296,9 +1294,10 @@
   },
   "ES:B0DCD9LGHY": {
     "name": "Xbox Serie X - Edición digital de 1 TB",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-16T10:34:33.318741+00:00"
+    "first_seen": "2026-09-16T10:34:33.318741+00:00",
+    "price": "818,25 €"
   },
   "ES:B08FCXLB8Z": {
     "name": "Xbox Play y Kit de Carga USB",
@@ -2209,9 +2208,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
-    "price": "24,12 €",
-    "pending_price": "24,76 €",
-    "pending_price_count": 1
+    "price": "24,76 €"
   },
   "ES:B08HZKQDK1": {
     "name": "F1 2020 - Xbox One",
@@ -2330,9 +2327,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257416+00:00",
-    "price": "21,13 €",
-    "pending_price": "21,34 €",
-    "pending_price_count": 1
+    "price": "21,34 €"
   },
   "ES:B092J3RX5R": {
     "name": "playvital Funda Antipolvo para Xbox Series S Consola | Cubierta Vertical, Resistente al Agua, Forro Suave, Acceso Fácil a Puertos, Protección contra Polvo, Negro",
@@ -3572,7 +3567,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T14:32:18.169481+00:00",
-    "price": "21,77 €"
+    "price": "21,76 €"
   },
   "ES:B01AH2F07S": {
     "name": "Quantum Break [Importación Francesa]",
@@ -3774,7 +3769,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579840+00:00",
-    "price": "29,71 €"
+    "price": "28,29 €"
   },
   "ES:B07T14YQYZ": {
     "name": "Destroy All Humans - Xbox One",
@@ -3802,7 +3797,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579894+00:00",
-    "price": "21,93 €"
+    "price": "21,93 €",
+    "pending_price": "22,27 €",
+    "pending_price_count": 1
   },
   "ES:B07D9WVXBY": {
     "name": "Sega Megadrive Collection",
@@ -3844,7 +3841,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.580275+00:00",
-    "price": "21,28 €"
+    "price": "21,28 €",
+    "pending_price": "21,30 €",
+    "pending_price_count": 1
   },
   "ES:B09TFTHT28": {
     "name": "JBL Quantum 100X Auriculares para gaming con diadema, con micrófono de brazo desmontable, apropiados para Playstation y compatibles con otras consolas, en negro y verde",
@@ -3963,7 +3962,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:37.525052+00:00",
-    "price": "12,00 €"
+    "price": "11,80 €"
   },
   "ES:B01F5D1MLC": {
     "name": "FIFA 17 - Standard Edition (Xbox One)",
