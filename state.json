@@ -1537,10 +1537,10 @@
   "US:B0DVC187SP": {
     "name": "Pokemon TCG Scarlet & Violet Journey Together: Pack de 3 Booster Blister",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802930+00:00",
     "price": "49,80 €",
-    "pending_price": "49,82 €",
+    "pending_price": "49,84 €",
     "pending_price_count": 1
   },
   "US:B0G5FWJ8NL": {
@@ -3503,7 +3503,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T13:03:29.958614+00:00",
-    "price": "39,73 €"
+    "price": "33,09 €"
   },
   "MM:184574537": {
     "name": "Cartas - THE POKÉMON COMPANY Pack Pokémon 3 sobres TCG con pegatinas especiales 30º Aniversario",
