@@ -22,9 +22,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.362338+00:00",
-    "price": "47,07 €",
-    "pending_price": "47,91 €",
-    "pending_price_count": 1
+    "price": "47,91 €"
   },
   "ES:B0GNB8B2NS": {
     "name": "Metal Gear Solid: Master Collection Volume 2 – Day One Edition - Xbox",
@@ -1072,7 +1070,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T12:20:51.137100+00:00",
-    "price": "301,89 €"
+    "price": "301,89 €",
+    "pending_price": "369,00 €",
+    "pending_price_count": 1
   },
   "ES:B0D7F3WHPV": {
     "name": "Super Mario Party Jamboree - Nintendo Switch",
@@ -1517,7 +1517,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850955+00:00",
-    "price": "84,99 €"
+    "price": "79,90 €"
   },
   "ES:B01MS7YUA7": {
     "name": "Agarre cómodo Joy-Con para Nintendo Switch: Negro",
@@ -2027,7 +2027,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688704+00:00",
-    "price": "334,00 €"
+    "price": "316,00 €"
   },
   "ES:B085SPRQSQ": {
     "name": "Nintendo Switch Lite - Consola Coral",
@@ -2103,7 +2103,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688897+00:00",
-    "price": "381,99 €"
+    "price": "363,99 €"
   },
   "ES:B0BDGSPP7H": {
     "name": "Nintendo Switch OLED Edición Limitada Pokémon Escarlata y Púrpura",
@@ -3242,7 +3242,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:52.753953+00:00",
-    "price": "408,98 €"
+    "price": "390,98 €"
   },
   "ES:B0DFWYRBP9": {
     "name": "Fairy Tail 2 Switch",
