@@ -104,7 +104,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:18:12.685892+00:00",
-    "price": "217,41 €"
+    "price": "195,99 €"
   },
   "ES:B0D98BDG3S": {
     "name": "EA SPORTS FC 25 Standard Edition PS4 | Videojuegos | Castellano",
@@ -2109,7 +2109,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498807+00:00",
-    "price": "74,00 €"
+    "price": "74,00 €",
+    "pending_price": "75,94 €",
+    "pending_price_count": 1
   },
   "ES:B01H0CBMXO": {
     "name": "Electronic Arts - Titanfall 2",
@@ -2179,9 +2181,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499167+00:00",
-    "price": "32,73 €",
-    "pending_price": "33,83 €",
-    "pending_price_count": 1
+    "price": "33,83 €"
   },
   "ES:B0CJG2KCBL": {
     "name": "Rise of the Tomb Raider 20 Year Celebration",
@@ -2727,7 +2727,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500241+00:00",
-    "price": "22,81 €"
+    "price": "22,79 €"
   },
   "ES:B07G2D87BV": {
     "name": "Auriculares Gaming Stereo Sony Oficial PS4 Bigben Interactive - Compatible con PS5",
@@ -3171,7 +3171,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:32:05.433410+00:00",
-    "price": "32,38 €"
+    "price": "32,38 €",
+    "pending_price": "32,39 €",
+    "pending_price_count": 1
   },
   "ES:B0GPDBG8G5": {
     "name": "Neptunia Virtual Stars – Limited Edition (PS4)",
@@ -3700,9 +3702,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:43.341346+00:00",
-    "price": "28,10 €",
-    "pending_price": "29,36 €",
-    "pending_price_count": 1
+    "price": "28,10 €"
   },
   "ES:B088VCBBQR": {
     "name": "Mafia Trilogy - PlayStation 4 [Importación alemana]",
