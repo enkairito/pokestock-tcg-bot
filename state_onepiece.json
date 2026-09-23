@@ -46,9 +46,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:09:04.551067+00:00",
-    "price": "69,62 €",
-    "pending_price": "69,63 €",
-    "pending_price_count": 1
+    "price": "69,63 €"
   },
   "ES:B0CRY385YN": {
     "name": "One Piece TCG: Two Legends - Booster Box (OP-08) (JP) (TCG)",
@@ -138,9 +136,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-08-29T18:10:35.785772+00:00",
-    "price": "79,17 €",
-    "pending_price": "100,31 €",
-    "pending_price_count": 1
+    "price": "100,31 €"
   },
   "ES:B0G6FWHGQT": {
     "name": "One Piece TCG: The Azure Sea's Seven Booster Box (OP-14) - 24 Paquetes",
