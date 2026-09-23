@@ -50,9 +50,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:41:16.156428+00:00",
-    "price": "31,50 €",
-    "pending_price": "31,99 €",
-    "pending_price_count": 1
+    "price": "31,99 €"
   },
   "ES:B0G6FW7PFW": {
     "name": "Yu-Gi-Oh! Rarity Collection V Display (24) (Versión en español)",
@@ -108,9 +106,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:42:04.032044+00:00",
-    "price": "90,81 €",
-    "pending_price": "90,95 €",
-    "pending_price_count": 1
+    "price": "90,95 €"
   },
   "ES:B0FMKLLV58": {
     "name": "YU-GI-OH! JCC Barajas Legendarias 5D's (Versión en español)",
@@ -118,7 +114,7 @@
     "stock": null,
     "first_seen": "2026-09-07T17:42:10.254074+00:00",
     "price": "30,54 €",
-    "pending_price": "30,75 €",
+    "pending_price": "30,76 €",
     "pending_price_count": 1
   },
   "ES:B0FMKJ7PBX": {
@@ -147,7 +143,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:42:33.643560+00:00",
-    "price": "19,99 €"
+    "price": "19,99 €",
+    "pending_price": "25,00 €",
+    "pending_price_count": 1
   },
   "ES:B0DZ6R3699": {
     "name": "Yu-Gi-Oh! Batallas de Leyenda: Tumulto de Monstruos 3- Pack Booster",
@@ -162,7 +160,7 @@
     "stock": null,
     "first_seen": "2026-09-07T17:42:56.065562+00:00",
     "price": "106,44 €",
-    "pending_price": "107,58 €",
+    "pending_price": "107,76 €",
     "pending_price_count": 1
   },
   "ES:B0F7RVS8MR": {
