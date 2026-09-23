@@ -1612,7 +1612,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "118,27 €"
+    "price": "118,23 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -1947,9 +1947,10 @@
   },
   "ES:B0H8T5GC4W": {
     "name": "Pokémon: Caja de Entrenador Élite de Celebración 30.º Aniversario de JCC Pokémon (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
-    "status": "no_disponible",
+    "status": "invitacion",
     "stock": null,
-    "first_seen": "2026-09-09T13:27:46.776826+00:00"
+    "first_seen": "2026-09-09T13:27:46.776826+00:00",
+    "price": "52,99 €"
   },
   "ES:B0H8SWNVWT": {
     "name": "Pokémon: Colección Sylveon ex de Celebración 30.º Aniversario de JCC Pokémon (1 Carta holográfica de promoción, 1 Carta holográfica de Gran tamaño y 4 Sobres de Mejora)",
