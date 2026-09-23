@@ -1833,7 +1833,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-08T14:34:56.335876+00:00",
-    "price": "58,91 €"
+    "price": "58,70 €"
   },
   "UK:B00TA6E3KI": {
     "name": "100 Assorted Basic Pokemon TCG Energy Cards",
@@ -3506,5 +3506,12 @@
     "stock": null,
     "first_seen": "2026-09-23T13:03:29.958614+00:00",
     "price": "48,53 €"
+  },
+  "MM:184574537": {
+    "name": "Cartas - THE POKÉMON COMPANY Pack Pokémon 3 sobres TCG con pegatinas especiales 30º Aniversario",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T16:43:24.705683+00:00",
+    "price": "75,00 €"
   }
 }
