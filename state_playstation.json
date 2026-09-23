@@ -111,7 +111,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:18:12.685903+00:00",
-    "price": "26,39 €"
+    "price": "26,39 €",
+    "pending_price": "29,99 €",
+    "pending_price_count": 1
   },
   "ES:B084WLMKGT": {
     "name": "GXTrust Forze Cascos Gaming con Licencia Oficial para PlayStation, Negro | Auriculares Gaming para PS4 y PS5, Micrófono Plegable, Altavoces Activos de 50 mm, Cable Trenzado de Nailon 1.2 m",
@@ -296,7 +298,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018779+00:00",
-    "price": "26,35 €"
+    "price": "18,99 €"
   },
   "ES:B0F6D5BS17": {
     "name": "PlayStation 5-Ghost of Yotei - Edición Estándar",
@@ -317,7 +319,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018821+00:00",
-    "price": "33,98 €"
+    "price": "25,99 €"
   },
   "ES:B07HNR4ZZD": {
     "name": "Sony PlayStation 4 Slim 500 Go, Avec 1 manette sans fil DUALSHOCK 4 V2, Châssis F, Noir (Jet Black) [Importación francesa]",
@@ -471,7 +473,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018964+00:00",
-    "price": "7,99 €"
+    "price": "7,21 €"
   },
   "ES:B0DT1C2X3F": {
     "name": "Superer 3,0M Cable Micro USB Compatible con Sony Mando PS4",
@@ -1097,7 +1099,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T18:20:21.671515+00:00",
-    "price": "829,00 €"
+    "price": "689,00 €"
   },
   "ES:B0C74Q2GWX": {
     "name": "The Crew Motorfest Limited Edition (Exclusivo Amazon) (PS4)",
@@ -1138,9 +1140,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:22:34.377644+00:00",
-    "price": "20,48 €",
-    "pending_price": "20,49 €",
-    "pending_price_count": 1
+    "price": "20,49 €"
   },
   "ES:B01H25FDTI": {
     "name": "Playstation Marvel’s Spider-Man (PS4)",
@@ -1154,7 +1154,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:22:34.377710+00:00",
-    "price": "24,98 €"
+    "price": "24,98 €",
+    "pending_price": "25,02 €",
+    "pending_price_count": 1
   },
   "ES:B0DPHGSSWH": {
     "name": "Fenolical Soporte Delgado para PS5/PS5 con Ventilador de Refrigeración Ajustable, Soporte de Cargador de Refrigeración Vertical PS5 para PS5/PS5 Slim, Estación de Refrigeración Delgada Multifuncional",
@@ -1529,9 +1531,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.714181+00:00",
-    "price": "789,91 €",
-    "pending_price": "799,91 €",
-    "pending_price_count": 1
+    "price": "799,91 €"
   },
   "ES:B0C9YS6H22": {
     "name": "2x cable de carga para mando PS4, cable de 2m para Playstation 4, Sony PS4, PS4 Slim, mandos Microsoft Xbox One, cable de carga micro USB, azul-negro",
@@ -2114,7 +2114,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498807+00:00",
-    "price": "75,94 €"
+    "price": "64,94 €"
   },
   "ES:B01H0CBMXO": {
     "name": "Electronic Arts - Titanfall 2",
@@ -2296,9 +2296,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "17,14 €",
-    "pending_price": "24,99 €",
-    "pending_price_count": 1
+    "price": "24,99 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2356,7 +2354,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499889+00:00",
-    "price": "37,00 €"
+    "price": "37,00 €",
+    "pending_price": "37,88 €",
+    "pending_price_count": 1
   },
   "ES:B08TJGKN5J": {
     "name": "PS4 Horizon Forbidden West",
@@ -2531,7 +2531,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500096+00:00",
-    "price": "16,14 €"
+    "price": "16,14 €",
+    "pending_price": "16,99 €",
+    "pending_price_count": 1
   },
   "ES:B0FP9KCM6N": {
     "name": "VEVOR Soporte para Volante de Carreras Ajustable y Plegable, Compatible con Logitech G29, G27, G920 y G923, Thrustmaster T300RS, T300GT, T248, TS-PC y TSXW Gaming Cockpit. Pedales no Incluidos",
@@ -2669,7 +2671,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500195+00:00",
-    "price": "9,45 €"
+    "price": "8,95 €"
   },
   "ES:B0FNWYM43G": {
     "name": "KROM KADOER— Mando Inalámbrico Bluetooth 5.0, 15 Botones, 4 niveles de Vibración dual, 187 gramos, Indicador LED nivel batería, Compatible con PC/Switch/Switch 2/iOS/Android, Blanco",
