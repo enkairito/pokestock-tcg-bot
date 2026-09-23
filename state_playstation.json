@@ -309,9 +309,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018808+00:00",
-    "price": "18,98 €",
-    "pending_price": "25,12 €",
-    "pending_price_count": 1
+    "price": "25,12 €"
   },
   "ES:B09KTGP5C2": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition, PlayStation 4",
@@ -2105,9 +2103,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498742+00:00",
-    "price": "23,49 €",
-    "pending_price": "34,23 €",
-    "pending_price_count": 1
+    "price": "34,23 €"
   },
   "ES:B097B1ZJ5T": {
     "name": "Nintendo Game & Watch: The Legend of Zelda",
@@ -2128,9 +2124,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498891+00:00",
-    "price": "28,20 €",
-    "pending_price": "28,30 €",
-    "pending_price_count": 1
+    "price": "28,30 €"
   },
   "ES:B07MWXG7QV": {
     "name": "Days Gone [Importación francesa]",
@@ -2265,7 +2259,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499492+00:00",
-    "price": "26,00 €"
+    "price": "26,00 €",
+    "pending_price": "26,06 €",
+    "pending_price_count": 1
   },
   "ES:B07V9NP59C": {
     "name": "Remothered: Tormented Fathers",
@@ -2314,9 +2310,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499661+00:00",
-    "price": "17,70 €",
-    "pending_price": "17,99 €",
-    "pending_price_count": 1
+    "price": "17,99 €"
   },
   "ES:B073SCS51T": {
     "name": "Resident Evil Revelations HD",
@@ -2374,9 +2368,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499915+00:00",
-    "price": "42,87 €",
-    "pending_price": "42,97 €",
-    "pending_price_count": 1
+    "price": "42,97 €"
   },
   "ES:B07D9TFK6W": {
     "name": "Sega Mega Drive Classics",
@@ -2710,7 +2702,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500223+00:00",
-    "price": "74,05 €"
+    "price": "74,05 €",
+    "pending_price": "106,44 €",
+    "pending_price_count": 1
   },
   "ES:B0GDXWB1ZG": {
     "name": "SZPACMATE Mando Inalámbrico para PS4/PS3/Switch 1/PC/Steam Deck | Joystick Efecto Hall, Iluminación RGB 8 Colores, Batería 1000 mAh, Giroscopio 6 Ejes, Turbo, Doble Vibración, Programables",
@@ -2850,7 +2844,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566254+00:00",
-    "price": "22,99 €"
+    "price": "22,99 €",
+    "pending_price": "23,72 €",
+    "pending_price_count": 1
   },
   "ES:B0H6Y3H3PL": {
     "name": "Blasphemous: Martyrs’ Edition - PlayStation 4",
@@ -3274,7 +3270,7 @@
     "stock": null,
     "first_seen": "2026-09-18T22:31:32.294326+00:00",
     "price": "33,61 €",
-    "pending_price": "36,38 €",
+    "pending_price": "38,85 €",
     "pending_price_count": 1
   },
   "ES:B09C29Y4D4": {
@@ -3713,7 +3709,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:43.341346+00:00",
-    "price": "28,28 €"
+    "price": "28,10 €"
   },
   "ES:B088VCBBQR": {
     "name": "Mafia Trilogy - PlayStation 4 [Importación alemana]",
