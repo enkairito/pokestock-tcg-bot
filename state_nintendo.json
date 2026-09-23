@@ -35,7 +35,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.362342+00:00",
-    "price": "19,04 €"
+    "price": "18,16 €"
   },
   "ES:B0FQWHWWSG": {
     "name": "Metroid Prime 4: Beyond - Switch",
@@ -126,7 +126,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.911952+00:00",
-    "price": "52,95 €"
+    "price": "52,90 €"
   },
   "ES:B0F8WRHMGT": {
     "name": "Belkin Gaming Bolsa de Viaje Bolsillo para AirTag Nintendo Switch 2 Carbón | Funda de Transporte Compacta y Ligera, Carcasa Rígida e Interior Acolchado, Bolsillo para Tarjetas de Juegos, para Viajar",
@@ -534,7 +534,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478175+00:00",
-    "price": "34,99 €"
+    "price": "34,90 €"
   },
   "ES:B0FQWBD5MT": {
     "name": "Super Mario Galaxy + Super Mario Galaxy 2 - Switch",
@@ -569,7 +569,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478229+00:00",
-    "price": "34,99 €"
+    "price": "34,90 €"
   },
   "ES:B0BV27FTTF": {
     "name": "Aukuoy RCM Jig para Nintendo Switch, Herramientas de Cortocircuito de Herramienta RCM utilizadas para Cambiar el Juego de Archivo GBA/FBA",
@@ -1294,9 +1294,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T00:23:08.150021+00:00",
-    "price": "35,47 €",
-    "pending_price": "35,82 €",
-    "pending_price_count": 1
+    "price": "35,82 €"
   },
   "ES:B0GSSQYPK3": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
@@ -1630,10 +1628,9 @@
   },
   "ES:B0H4RGWS3G": {
     "name": "Xenoblade Chronicles 3 - Nintendo Switch 2",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.318924+00:00",
-    "price": "59,90 €"
+    "first_seen": "2026-09-17T00:32:50.318924+00:00"
   },
   "ES:B0BYCH3M2M": {
     "name": "Gulikit Hall Effect Sense Joystick Reemplazo para JoyCon (No Deriva), Joystick Izquierdo/Derecho Joy con Kit de Reparación Accesorios para Switch/Switch OLED/Switch Lite (Color aleatorio-Thumbsticks)",
@@ -1825,7 +1822,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688391+00:00",
-    "price": "75,01 €"
+    "price": "75,01 €",
+    "pending_price": "75,60 €",
+    "pending_price_count": 1
   },
   "ES:B0H4R7W5YM": {
     "name": "Fire Emblem Fortune's Weave Dagdan Collection (edición limitada) - Nintendo Switch 2",
@@ -2028,9 +2027,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688704+00:00",
-    "price": "316,00 €",
-    "pending_price": "334,00 €",
-    "pending_price_count": 1
+    "price": "334,00 €"
   },
   "ES:B085SPRQSQ": {
     "name": "Nintendo Switch Lite - Consola Coral",
@@ -2106,9 +2103,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688897+00:00",
-    "price": "363,99 €",
-    "pending_price": "381,99 €",
-    "pending_price_count": 1
+    "price": "381,99 €"
   },
   "ES:B0BDGSPP7H": {
     "name": "Nintendo Switch OLED Edición Limitada Pokémon Escarlata y Púrpura",
@@ -2150,7 +2145,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688994+00:00",
-    "price": "212,99 €"
+    "price": "181,98 €"
   },
   "ES:B0CMDHWDP9": {
     "name": "Consola Switch - Color Azul Neón/Rojo Neón + Super Mario Bros. Wonder + Mario Kart 8 Deluxe",
@@ -2220,7 +2215,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689198+00:00",
-    "price": "55,50 €"
+    "price": "53,99 €"
   },
   "ES:B07DDSHSF1": {
     "name": "Pokémon: Let's Go, Pikachu!",
@@ -2367,7 +2362,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689475+00:00",
-    "price": "68,47 €"
+    "price": "68,47 €",
+    "pending_price": "74,90 €",
+    "pending_price_count": 1
   },
   "ES:B0GNNPWV2C": {
     "name": "Danganronpa 2x2 (Nintendo Switch)",
@@ -2772,7 +2769,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.690017+00:00",
-    "price": "35,99 €"
+    "price": "35,99 €",
+    "pending_price": "36,99 €",
+    "pending_price_count": 1
   },
   "ES:B0H36Q93T2": {
     "name": "Lemorele Adaptador USB-C a HDMI 2 m, 4K@60Hz, Compatible con Switch 2 | HDMI 2.0, PD hasta 100W y Plug & Play; compatible con Steam Deck y ROG Ally, requiere USB-C con DisplayPort Alt Mode",
@@ -3247,9 +3246,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:52.753953+00:00",
-    "price": "390,98 €",
-    "pending_price": "408,98 €",
-    "pending_price_count": 1
+    "price": "408,98 €"
   },
   "ES:B0DFWYRBP9": {
     "name": "Fairy Tail 2 Switch",
@@ -3593,7 +3590,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:31.032562+00:00",
-    "price": "6,84 €"
+    "price": "6,84 €",
+    "pending_price": "25,99 €",
+    "pending_price_count": 1
   },
   "ES:B0F3YXTMPF": {
     "name": "RDS - Funda con licencia para Nintendo Switch 2, Nintendo Switch OLED y Nintendo. Sistema Game Traveler Deluxe. Capacidad para 12 tarjetas de juego y funda para tarjetas microSD con capacidad para 2",
@@ -3762,5 +3761,19 @@
     "stock": null,
     "first_seen": "2026-09-23T04:31:39.110017+00:00",
     "price": "19,36 €"
+  },
+  "ES:B0F65YTY6B": {
+    "name": "Puyo Puyo Tetris 2S - Nintendo Switch 2",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:32:07.775720+00:00",
+    "price": "38,13 €"
+  },
+  "ES:B0DJRCJ655": {
+    "name": "Phantom Breaker : Battle Grounds Ultimate - D1 Edition - NINTENDO SWITCH",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:32:07.776007+00:00",
+    "price": "24,22 €"
   }
 }
