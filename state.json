@@ -1277,10 +1277,9 @@
   },
   "ES:B0FMYKCKK6": {
     "name": "Pokémon: Colección Poderes Supremos de JCC Pokémon: Terapagos ex (3 Cartas holográfica de promoción, 18 Paquetes de Mejora)",
-    "status": "compra_directa",
-    "stock": "2",
-    "first_seen": "2026-09-04T15:11:54.795786+00:00",
-    "price": "141,41 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-04T15:11:54.795786+00:00"
   },
   "US:B0BCN6HZR3": {
     "name": "Pokémon TCG: Caja de entrenador de élite Espada y Escudo Tempestad Plateada",
@@ -1615,7 +1614,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "118,59 €"
+    "price": "118,57 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
