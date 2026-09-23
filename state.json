@@ -291,10 +291,9 @@
   },
   "ES:B0CT5T766W": {
     "name": "Pokémon: Cofre de Coleccionista - 2022",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-08-25T20:27:53.163288+00:00",
-    "price": "34,99 €"
+    "first_seen": "2026-08-25T20:27:53.163288+00:00"
   },
   "ECI:A201235759": {
     "name": "Lata Pokémon Jcc Bandai Modelos Surtidos",
@@ -3518,8 +3517,6 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T19:03:39.712695+00:00",
-    "price": "47,06 €",
-    "pending_price": "54,07 €",
-    "pending_price_count": 1
+    "price": "54,07 €"
   }
 }
