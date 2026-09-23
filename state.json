@@ -796,7 +796,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "72,00 €"
   },
@@ -1435,7 +1435,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802813+00:00",
-    "price": "23,63 €"
+    "price": "23,63 €",
+    "pending_price": "23,68 €",
+    "pending_price_count": 1
   },
   "UK:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -1611,7 +1613,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "118,42 €"
+    "price": "118,36 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
