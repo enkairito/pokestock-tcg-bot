@@ -760,10 +760,9 @@
   },
   "US:B0GXJ8CSTY": {
     "name": "Pokémon TCG: Colección Premium Mega Greninja ex (1 Tarjeta Promocional Brillante, 1 Tarjeta lenticular de Gran tamaño y 8 Paquetes de Refuerzo)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-08-30T20:46:19.644858+00:00",
-    "price": "77,48 €"
+    "first_seen": "2026-08-30T20:46:19.644858+00:00"
   },
   "US:B0DN98RVZM": {
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
@@ -1591,9 +1590,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T22:05:43.537225+00:00",
-    "price": "31,41 €",
-    "pending_price": "31,47 €",
-    "pending_price_count": 1
+    "price": "31,47 €"
   },
   "US:B0GM7H8GCW": {
     "name": "Pokemon Blade Awakened CSV7C | Chino simplificado | Booster Box | Más de 15 años",
@@ -1614,7 +1611,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "118,30 €"
+    "price": "118,28 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -1712,9 +1709,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "137,17 €",
-    "pending_price": "140,86 €",
-    "pending_price_count": 1
+    "price": "140,86 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
@@ -1771,9 +1766,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-08T05:38:28.180394+00:00",
-    "price": "31,39 €",
-    "pending_price": "31,57 €",
-    "pending_price_count": 1
+    "price": "31,57 €"
   },
   "UK:B0FS98MMML": {
     "name": "Pokémon TCG: Booster Pack de 10 Cartas Mega Evolution Flames Phantasmal Mangas",
@@ -2034,8 +2027,8 @@
     "name": "Pokemon TCG: Scarlet & Violet - Paradox Rift Checklane Blister Pack (Sinistea)",
     "status": "compra_directa",
     "stock": "1",
-    "price": "36,37 €",
-    "first_seen": "2026-09-13T01:20:06.971633+00:00"
+    "first_seen": "2026-09-13T01:20:06.971633+00:00",
+    "price": "35,63 €"
   },
   "US:B0DSLX3SXT": {
     "name": "Pokemon TCG: Scarlet & Violet—Journey Together Booster Build & Battle Box",
@@ -3518,5 +3511,12 @@
     "stock": null,
     "first_seen": "2026-09-23T16:43:24.705683+00:00",
     "price": "75,00 €"
+  },
+  "UK:B0FXVLH7QM": {
+    "name": "Pokemon TCG: 1 Tarjeta Pokemon de Grado Aleatorio (Beckett, PSA o CGC), Grado 8 o Superior (inglés o japonés)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T19:03:39.712695+00:00",
+    "price": "47,06 €"
   }
 }
