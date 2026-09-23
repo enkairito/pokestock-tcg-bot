@@ -304,10 +304,9 @@
   },
   "ECI:A201235763": {
     "name": "Sobre de mejora Megaevolucion Oscuridad Absoluta Pokémon JCC Bandai Modelos surtidos",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-08-25T20:27:54.285302+00:00",
-    "price": "5,99 €"
+    "first_seen": "2026-08-25T20:27:54.285302+00:00"
   },
   "ECI:A201235760": {
     "name": "Caja de entrenador Elite Oscuridad Absoluta Pokemon JCC Bandai",
@@ -1614,7 +1613,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "118,43 €"
+    "price": "118,42 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -1712,7 +1711,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "140,86 €"
+    "price": "137,17 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
