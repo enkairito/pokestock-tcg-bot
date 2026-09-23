@@ -128,7 +128,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388338+00:00",
-    "price": "49,99 €"
+    "price": "48,58 €"
   },
   "ES:B08KVH51VX": {
     "name": "NEED FOR SPEED HOT PURSUIT REMASTERED",
@@ -141,7 +141,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811253+00:00",
-    "price": "49,99 €"
+    "price": "49,99 €",
+    "pending_price": "54,99 €",
+    "pending_price_count": 1
   },
   "ES:B0FGK7Y5PN": {
     "name": "EA SPORTS FC 26 Standard Edition XBOX Series X / XBOX One -disco | Videojuegos | Castellano",
@@ -681,7 +683,7 @@
     "stock": null,
     "first_seen": "2026-09-12T06:28:31.691493+00:00",
     "price": "41,88 €",
-    "pending_price": "41,89 €",
+    "pending_price": "41,98 €",
     "pending_price_count": 1
   },
   "ES:B0F1V7VGP9": {
@@ -993,7 +995,7 @@
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
     "price": "34,49 €",
-    "pending_price": "39,06 €",
+    "pending_price": "35,86 €",
     "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
@@ -1069,7 +1071,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T00:20:55.336147+00:00",
-    "price": "39,66 €"
+    "price": "38,02 €"
   },
   "ES:B0BLZ64C5H": {
     "name": "Electronic Arts Star Wars Jedi: Survivor XBOX Series X, Videojuegos, Castellano",
@@ -2074,9 +2076,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256914+00:00",
-    "price": "12,98 €",
-    "pending_price": "13,08 €",
-    "pending_price_count": 1
+    "price": "13,08 €"
   },
   "ES:B097ZBFDKW": {
     "name": "Demon Slayer -KIMETSU NO Yaiba- JPN (Voice) - E F I G S (Text) Box UK",
@@ -2210,7 +2210,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
     "price": "24,12 €",
-    "pending_price": "24,98 €",
+    "pending_price": "24,76 €",
     "pending_price_count": 1
   },
   "ES:B08HZKQDK1": {
@@ -2330,7 +2330,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257416+00:00",
-    "price": "21,13 €"
+    "price": "21,13 €",
+    "pending_price": "21,34 €",
+    "pending_price_count": 1
   },
   "ES:B092J3RX5R": {
     "name": "playvital Funda Antipolvo para Xbox Series S Consola | Cubierta Vertical, Resistente al Agua, Forro Suave, Acceso Fácil a Puertos, Protección contra Polvo, Negro",
@@ -3772,18 +3774,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579840+00:00",
-    "price": "28,29 €",
-    "pending_price": "29,71 €",
-    "pending_price_count": 1
+    "price": "29,71 €"
   },
   "ES:B07T14YQYZ": {
     "name": "Destroy All Humans - Xbox One",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579852+00:00",
-    "price": "10,48 €",
-    "pending_price": "10,58 €",
-    "pending_price_count": 1
+    "price": "10,58 €"
   },
   "ES:B0C23V86YJ": {
     "name": "Destroy All Humans! 2 - Reprobed: Single Player Juego para Xbox One",
