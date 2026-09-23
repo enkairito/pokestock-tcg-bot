@@ -707,7 +707,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T12:27:13.469347+00:00",
-    "price": "24,90 €"
+    "price": "19,99 €"
   },
   "ES:B0D571R8PK": {
     "name": "Volante y Pedales Hori RWA con licencia Sony PlayStation 4/5 [Nuevo modelo compatible con PS4/PS5] + Gran Turismo 7 [Playstation 5]",
@@ -841,9 +841,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:25:08.666128+00:00",
-    "price": "589,77 €",
-    "pending_price": "689,00 €",
-    "pending_price_count": 1
+    "price": "689,00 €"
   },
   "ES:B01HF8V7SI": {
     "name": "Sony PlayStation 4 (PS4) 500 GB Consola - (Reacondicionado Certificado) - Chasis C",
@@ -885,7 +883,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:25:09.102575+00:00",
-    "price": "34,77 €"
+    "price": "34,68 €"
   },
   "ES:B098GSZ4Q9": {
     "name": "Streets of Rage 4. Anniversary Edition - Playstation 4",
@@ -1838,13 +1836,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.497984+00:00",
-    "price": "57,92 €"
+    "price": "57,90 €"
   },
   "ES:B0FS1ZYDRW": {
     "name": "Sony Consola PlayStation5 STD Bundle EA FC26",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:37.498022+00:00"
+    "first_seen": "2026-09-17T00:32:37.498022+00:00",
+    "price": "759,99 €"
   },
   "ES:B0CRYXTL82": {
     "name": "Retro Games THE400 Mini Consola Retro",
@@ -1942,7 +1941,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498253+00:00",
-    "price": "45,06 €"
+    "price": "44,86 €"
   },
   "ES:B0GVP719SW": {
     "name": "Mortal Shell II - PS5",
@@ -2181,7 +2180,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499167+00:00",
     "price": "32,73 €",
-    "pending_price": "32,74 €",
+    "pending_price": "33,83 €",
     "pending_price_count": 1
   },
   "ES:B0CJG2KCBL": {
@@ -2259,9 +2258,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499492+00:00",
-    "price": "26,00 €",
-    "pending_price": "26,06 €",
-    "pending_price_count": 1
+    "price": "24,06 €"
   },
   "ES:B07V9NP59C": {
     "name": "Remothered: Tormented Fathers",
@@ -2702,9 +2699,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500223+00:00",
-    "price": "74,05 €",
-    "pending_price": "106,44 €",
-    "pending_price_count": 1
+    "price": "106,44 €"
   },
   "ES:B0GDXWB1ZG": {
     "name": "SZPACMATE Mando Inalámbrico para PS4/PS3/Switch 1/PC/Steam Deck | Joystick Efecto Hall, Iluminación RGB 8 Colores, Batería 1000 mAh, Giroscopio 6 Ejes, Turbo, Doble Vibración, Programables",
@@ -2844,9 +2839,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566254+00:00",
-    "price": "22,99 €",
-    "pending_price": "23,72 €",
-    "pending_price_count": 1
+    "price": "23,72 €"
   },
   "ES:B0H6Y3H3PL": {
     "name": "Blasphemous: Martyrs’ Edition - PlayStation 4",
@@ -2881,7 +2874,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566486+00:00",
-    "price": "28,87 €"
+    "price": "28,47 €"
   },
   "ES:B07W7KWV2Y": {
     "name": "Logitech Brio 300 Full HD Webcam con Obturador de privacidad | Micrófono reducción ruido, USB-C, certificado Zoom/Teams/Google Meet, corrección de luz automática - Grafito",
@@ -3269,9 +3262,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T22:31:32.294326+00:00",
-    "price": "33,61 €",
-    "pending_price": "38,85 €",
-    "pending_price_count": 1
+    "price": "38,85 €"
   },
   "ES:B09C29Y4D4": {
     "name": "Remotto5 - Cargador para Mando de PS5 Inalámbrico - Batería Portátil para DualSense Juega Mientras Carga - Larga Duración +12 Horas de Autonomía - PS5 Accesorios",
@@ -3709,7 +3700,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:43.341346+00:00",
-    "price": "28,10 €"
+    "price": "28,10 €",
+    "pending_price": "29,36 €",
+    "pending_price_count": 1
   },
   "ES:B088VCBBQR": {
     "name": "Mafia Trilogy - PlayStation 4 [Importación alemana]",
