@@ -1295,7 +1295,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802612+00:00",
-    "price": "108,71 €"
+    "price": "107,52 €"
   },
   "UK:B0DB7C1Z26": {
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
@@ -1316,7 +1316,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802653+00:00",
-    "price": "86,08 €"
+    "price": "86,08 €",
+    "pending_price": "86,09 €",
+    "pending_price_count": 1
   },
   "UK:B0CMZS84KP": {
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
@@ -1656,7 +1658,7 @@
   "UK:B0FVYJPBWW": {
     "name": "Pokémon Chinese Dark Crystal Blaze CSV5C Slim Booster Box",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-09-05T05:18:07.280940+00:00",
     "price": "95,70 €"
   },
