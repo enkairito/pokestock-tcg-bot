@@ -309,7 +309,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018808+00:00",
-    "price": "18,98 €"
+    "price": "18,98 €",
+    "pending_price": "25,12 €",
+    "pending_price_count": 1
   },
   "ES:B09KTGP5C2": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition, PlayStation 4",
@@ -841,7 +843,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:25:08.666128+00:00",
-    "price": "589,77 €"
+    "price": "589,77 €",
+    "pending_price": "689,00 €",
+    "pending_price_count": 1
   },
   "ES:B01HF8V7SI": {
     "name": "Sony PlayStation 4 (PS4) 500 GB Consola - (Reacondicionado Certificado) - Chasis C",
@@ -1526,9 +1530,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.714181+00:00",
-    "price": "566,70 €",
-    "pending_price": "789,91 €",
-    "pending_price_count": 1
+    "price": "789,91 €"
   },
   "ES:B0C9YS6H22": {
     "name": "2x cable de carga para mando PS4, cable de 2m para Playstation 4, Sony PS4, PS4 Slim, mandos Microsoft Xbox One, cable de carga micro USB, azul-negro",
@@ -2103,7 +2105,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498742+00:00",
-    "price": "23,49 €"
+    "price": "23,49 €",
+    "pending_price": "34,23 €",
+    "pending_price_count": 1
   },
   "ES:B097B1ZJ5T": {
     "name": "Nintendo Game & Watch: The Legend of Zelda",
@@ -2124,7 +2128,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498891+00:00",
-    "price": "28,20 €"
+    "price": "28,20 €",
+    "pending_price": "28,30 €",
+    "pending_price_count": 1
   },
   "ES:B07MWXG7QV": {
     "name": "Days Gone [Importación francesa]",
@@ -2181,7 +2187,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499167+00:00",
     "price": "32,73 €",
-    "pending_price": "40,33 €",
+    "pending_price": "32,74 €",
     "pending_price_count": 1
   },
   "ES:B0CJG2KCBL": {
@@ -2354,9 +2360,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499889+00:00",
-    "price": "24,03 €",
-    "pending_price": "37,00 €",
-    "pending_price_count": 1
+    "price": "37,00 €"
   },
   "ES:B08TJGKN5J": {
     "name": "PS4 Horizon Forbidden West",
@@ -2370,7 +2374,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499915+00:00",
-    "price": "42,87 €"
+    "price": "42,87 €",
+    "pending_price": "42,97 €",
+    "pending_price_count": 1
   },
   "ES:B07D9TFK6W": {
     "name": "Sega Mega Drive Classics",
@@ -3267,7 +3273,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T22:31:32.294326+00:00",
-    "price": "33,61 €"
+    "price": "33,61 €",
+    "pending_price": "36,38 €",
+    "pending_price_count": 1
   },
   "ES:B09C29Y4D4": {
     "name": "Remotto5 - Cargador para Mando de PS5 Inalámbrico - Batería Portátil para DualSense Juega Mientras Carga - Larga Duración +12 Horas de Autonomía - PS5 Accesorios",
@@ -3705,7 +3713,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:43.341346+00:00",
-    "price": "30,28 €"
+    "price": "28,28 €"
   },
   "ES:B088VCBBQR": {
     "name": "Mafia Trilogy - PlayStation 4 [Importación alemana]",
