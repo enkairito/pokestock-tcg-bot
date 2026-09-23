@@ -1515,9 +1515,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850955+00:00",
-    "price": "79,99 €",
-    "pending_price": "84,99 €",
-    "pending_price_count": 1
+    "price": "84,99 €"
   },
   "ES:B01MS7YUA7": {
     "name": "Agarre cómodo Joy-Con para Nintendo Switch: Negro",
@@ -3515,7 +3513,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T14:32:21.853938+00:00",
-    "price": "56,65 €"
+    "price": "56,40 €"
   },
   "ES:B09Z3KWD55": {
     "name": "Nintendo Switch Sports (Nintendo Switch) + Nintendo Switch Online - 12 Meses (Código de descarga)",
@@ -3739,5 +3737,19 @@
     "stock": null,
     "first_seen": "2026-09-22T22:31:44.760987+00:00",
     "price": "27,99 €"
+  },
+  "ES:B0CBNP1MDJ": {
+    "name": "PDP Official Wireless Deluxe Controller Nintendo Switch GLOW - Super Icons",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T04:31:39.109983+00:00",
+    "price": "25,00 €"
+  },
+  "ES:B09F2J37V4": {
+    "name": "GEEKHAVE Mando Inalámbrico para Switch/Switch 2/Lite/OLED/PC; Controller Switch Pro con Iluminación RGB 7 Colore Cambiantes/Gatillos Effect Hall/Doble Vibración/Turbo, Joystick Ergonómico Preciso",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T04:31:39.110017+00:00",
+    "price": "19,36 €"
   }
 }
