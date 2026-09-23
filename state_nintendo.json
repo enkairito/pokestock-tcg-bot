@@ -1063,9 +1063,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T12:20:51.136983+00:00",
-    "price": "67,99 €",
-    "pending_price": "69,99 €",
-    "pending_price_count": 1
+    "price": "69,99 €"
   },
   "ES:B0DGGTYDLJ": {
     "name": "Nintendo Switch Lite - Consola Azul Turquesa + Animal Crossing + 12 meses NSO",
@@ -1172,7 +1170,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T00:22:00.458029+00:00",
-    "price": "25,99 €"
+    "price": "13,83 €"
   },
   "ES:B0FVXJ8VK3": {
     "name": "ivoler Carcasa Protectora para Nintendo Switch 2﻿, Funda Agarre Acoplable con Magnético, Grip Case y 2 Protectores de Pantalla - Translúcida",
@@ -1297,7 +1295,7 @@
     "stock": null,
     "first_seen": "2026-09-15T00:23:08.150021+00:00",
     "price": "35,47 €",
-    "pending_price": "35,73 €",
+    "pending_price": "35,82 €",
     "pending_price_count": 1
   },
   "ES:B0GSSQYPK3": {
@@ -1632,9 +1630,10 @@
   },
   "ES:B0H4RGWS3G": {
     "name": "Xenoblade Chronicles 3 - Nintendo Switch 2",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.318924+00:00"
+    "first_seen": "2026-09-17T00:32:50.318924+00:00",
+    "price": "59,90 €"
   },
   "ES:B0BYCH3M2M": {
     "name": "Gulikit Hall Effect Sense Joystick Reemplazo para JoyCon (No Deriva), Joystick Izquierdo/Derecho Joy con Kit de Reparación Accesorios para Switch/Switch OLED/Switch Lite (Color aleatorio-Thumbsticks)",
@@ -1826,7 +1825,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688391+00:00",
-    "price": "79,50 €"
+    "price": "75,01 €"
   },
   "ES:B0H4R7W5YM": {
     "name": "Fire Emblem Fortune's Weave Dagdan Collection (edición limitada) - Nintendo Switch 2",
@@ -2029,7 +2028,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688704+00:00",
-    "price": "316,00 €"
+    "price": "316,00 €",
+    "pending_price": "334,00 €",
+    "pending_price_count": 1
   },
   "ES:B085SPRQSQ": {
     "name": "Nintendo Switch Lite - Consola Coral",
@@ -2105,7 +2106,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688897+00:00",
-    "price": "363,99 €"
+    "price": "363,99 €",
+    "pending_price": "381,99 €",
+    "pending_price_count": 1
   },
   "ES:B0BDGSPP7H": {
     "name": "Nintendo Switch OLED Edición Limitada Pokémon Escarlata y Púrpura",
@@ -2322,7 +2325,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689402+00:00",
-    "price": "59,99 €"
+    "price": "53,03 €"
   },
   "ES:B0FKH81W82": {
     "name": "Operation Night Strikers Assault Edition NS",
@@ -2728,7 +2731,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689979+00:00",
-    "price": "19,99 €"
+    "price": "17,09 €"
   },
   "ES:B0DKSXN5PB": {
     "name": "Switch TV Dock, Dock Switch Compatible con Nintendo Switch/OLED Cargador de Joypads, Base Switch con 4K/1080P HDMI, Carga Docking Station Multifuncional 7 Colores LED/Puertos USB 3.0, Negro",
@@ -2832,7 +2835,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.690159+00:00",
-    "price": "62,69 €"
+    "price": "61,99 €"
   },
   "ES:B0FW3K559Z": {
     "name": "4 Piezas Cubierta para Joystick Switch, Silicona Thumb Grip Set Tapones para Joystick Capuchón de Reemplazo para Joystick para Nintendo Switch, Switch Lite y Controlador OLED de Switch",
@@ -2881,7 +2884,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.690204+00:00",
-    "price": "16,99 €"
+    "price": "14,56 €"
   },
   "ES:B0DDPYNGXW": {
     "name": "Ozeino Cascos Gaming Inalámbricos para PC/Ps5/Ps4, Auriculares Gaming Inalámbricos de 2,4GHz Wireless+Bluetooth, Baja Latencia Calidad de Sonido sin Pérdidas, Duración 30Hr+",
@@ -3244,7 +3247,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:52.753953+00:00",
-    "price": "390,98 €"
+    "price": "390,98 €",
+    "pending_price": "408,98 €",
+    "pending_price_count": 1
   },
   "ES:B0DFWYRBP9": {
     "name": "Fairy Tail 2 Switch",
@@ -3518,7 +3523,7 @@
     "stock": null,
     "first_seen": "2026-09-19T14:32:21.853938+00:00",
     "price": "56,40 €",
-    "pending_price": "56,62 €",
+    "pending_price": "56,98 €",
     "pending_price_count": 1
   },
   "ES:B09Z3KWD55": {
