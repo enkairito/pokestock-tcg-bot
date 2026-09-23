@@ -717,7 +717,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
-    "price": "57,16 €"
+    "price": "57,16 €",
+    "pending_price": "59,29 €",
+    "pending_price_count": 1
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
@@ -1295,7 +1297,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802612+00:00",
-    "price": "107,52 €"
+    "price": "107,40 €"
   },
   "UK:B0DB7C1Z26": {
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
@@ -1432,9 +1434,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802807+00:00",
-    "price": "32,27 €",
-    "pending_price": "32,48 €",
-    "pending_price_count": 1
+    "price": "32,48 €"
   },
   "UK:B0BJ7F5RNY": {
     "name": "Pokémon- Deoxys (60 Cards, Ready to Play) Baraja de Batalla V, Multicolor, zeraora (699-17149)",
