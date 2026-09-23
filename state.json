@@ -78,7 +78,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-25T20:27:54.285181+00:00",
-    "price": "64,98 €"
+    "price": "64,98 €",
+    "pending_price": "65,98 €",
+    "pending_price_count": 1
   },
   "ES:B0G4NQK15P": {
     "name": "Pokémon: Minilata Megaevolución-Héroes Ascendentes: Clefairy y Chikorita (1 Pegatina, 1 Tarjeta Pokémon ilustrada y 2 Sobres de Mejora)",
@@ -1467,10 +1469,9 @@
   },
   "US:B0G72SPRP6": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
-    "status": "compra_directa",
-    "stock": "2",
-    "first_seen": "2026-09-04T21:32:58.802874+00:00",
-    "price": "86,48 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-04T21:32:58.802874+00:00"
   },
   "US:B0G72QBTBJ": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Emboar ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
@@ -1767,7 +1768,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-08T05:38:28.180394+00:00",
-    "price": "31,39 €"
+    "price": "31,39 €",
+    "pending_price": "31,57 €",
+    "pending_price_count": 1
   },
   "UK:B0FS98MMML": {
     "name": "Pokémon TCG: Booster Pack de 10 Cartas Mega Evolution Flames Phantasmal Mangas",
@@ -3504,9 +3507,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T13:03:29.958614+00:00",
-    "price": "39,73 €",
-    "pending_price": "42,86 €",
-    "pending_price_count": 1
+    "price": "42,86 €"
   },
   "MM:184574537": {
     "name": "Cartas - THE POKÉMON COMPANY Pack Pokémon 3 sobres TCG con pegatinas especiales 30º Aniversario",
