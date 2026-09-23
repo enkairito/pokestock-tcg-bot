@@ -15,9 +15,11 @@
   "ES:B0GWDXZ12H": {
     "name": "Ravensburger Disney Lorcana - Juego de cartas coleccionables para adultos y niños a partir de 8 años - Set 12: Wilds Unknown - Deck para 2 jugadores",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": null,
     "first_seen": "2026-09-07T17:41:04.537441+00:00",
-    "price": "39,01 €"
+    "price": "39,01 €",
+    "pending_price": "41,50 €",
+    "pending_price_count": 1
   },
   "ES:B0H8S82717": {
     "name": "Disney Lorcana TCG - Kit de iniciación para coleccionistas Rapunzel Edition",
@@ -59,14 +61,12 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:41:42.887252+00:00",
-    "price": "60,85 €",
-    "pending_price": "60,89 €",
-    "pending_price_count": 1
+    "price": "60,89 €"
   },
   "ES:B0CFRBX7GW": {
     "name": "Disney Lorcana Trading Card Game: Set 4 – Starter Deck B",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-09-07T17:41:48.708513+00:00",
     "price": "15,65 €"
   },
@@ -150,10 +150,10 @@
   "ES:B0GWH99LCS": {
     "name": "Disney Lorcana TCG: Desconocido Wild - Mazo de Inicio para Dos Jugadores Inglés",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-09-07T17:43:01.799827+00:00",
     "price": "29,99 €",
-    "pending_price": "33,77 €",
+    "pending_price": "39,99 €",
     "pending_price_count": 1
   },
   "ES:B0CSZ553QK": {
@@ -189,7 +189,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-09T11:34:34.043787+00:00",
-    "price": "57,06 €"
+    "price": "57,06 €",
+    "pending_price": "62,32 €",
+    "pending_price_count": 1
   },
   "ES:B0H6JBF9FM": {
     "name": "Ravensburger Disney Lorcana TCG: Attack of the Vine! Paquete de refuerzo individual surtido (12 tarjetas) - Tarjetas coleccionables - Ideal para fanáticos de Disney y jugadores de TCG - Adecuado para",
