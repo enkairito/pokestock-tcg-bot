@@ -90,7 +90,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:18:12.685827+00:00",
-    "price": "19,99 €"
+    "price": "19,90 €"
   },
   "ES:B08B4HHNNM": {
     "name": "Playstation Sackboy: Una Aventura a lo Grande - PlayStation 5",
@@ -139,7 +139,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:18:12.685939+00:00",
-    "price": "19,99 €"
+    "price": "19,90 €"
   },
   "ES:B0GHT1SQ3S": {
     "name": "Xeno Crisis (PS5) (EFIGS)",
@@ -293,9 +293,10 @@
   },
   "ES:B09X5TX9CN": {
     "name": "Grand Theft Auto V - PlayStation 5",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-12T00:28:04.018779+00:00"
+    "first_seen": "2026-09-12T00:28:04.018779+00:00",
+    "price": "26,35 €"
   },
   "ES:B0F6D5BS17": {
     "name": "PlayStation 5-Ghost of Yotei - Edición Estándar",
@@ -883,7 +884,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:25:09.102575+00:00",
-    "price": "34,68 €"
+    "price": "34,58 €"
   },
   "ES:B098GSZ4Q9": {
     "name": "Streets of Rage 4. Anniversary Edition - Playstation 4",
@@ -949,11 +950,11 @@
     "first_seen": "2026-09-12T18:25:09.102642+00:00"
   },
   "ES:B0HFNW25H5": {
-    "name": "Stage Tour Game + Kramer Wireless Guitar Controller Bundle para PlayStation 5",
-    "status": "preventa",
+    "name": "Stage Tour Game + Kramer Guitar Controller Bundle for PlayStation 5 (Physical Disc)",
+    "status": "compra_directa",
     "stock": null,
-    "price": "134,99 €",
-    "first_seen": "2026-09-12T18:25:09.102649+00:00"
+    "first_seen": "2026-09-12T18:25:09.102649+00:00",
+    "price": "134,99 €"
   },
   "ES:B0FH7FZQ36": {
     "name": "PlayStation 5 - Auriculares inalámbricos PULSE Elite White con estuche",
@@ -1137,7 +1138,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:22:34.377644+00:00",
-    "price": "20,48 €"
+    "price": "20,48 €",
+    "pending_price": "20,49 €",
+    "pending_price_count": 1
   },
   "ES:B01H25FDTI": {
     "name": "Playstation Marvel’s Spider-Man (PS4)",
@@ -1208,7 +1211,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T18:20:43.859449+00:00",
-    "price": "33,50 €"
+    "price": "30,99 €"
   },
   "ES:B08LM3KW18": {
     "name": "Playstation Console Sony 5 Edition Digital",
@@ -2004,7 +2007,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498377+00:00",
-    "price": "55,99 €"
+    "price": "55,90 €"
   },
   "ES:B0G7L9ZPX1": {
     "name": "PRAGMATA - PS5",
@@ -2109,9 +2112,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498807+00:00",
-    "price": "74,00 €",
-    "pending_price": "75,94 €",
-    "pending_price_count": 1
+    "price": "75,94 €"
   },
   "ES:B01H0CBMXO": {
     "name": "Electronic Arts - Titanfall 2",
@@ -2188,7 +2189,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499236+00:00",
-    "price": "12,99 €"
+    "price": "12,99 €",
+    "pending_price": "16,99 €",
+    "pending_price_count": 1
   },
   "ES:B00DC267Z0": {
     "name": "Kingdom Hearts III (PlayStation PS4)",
@@ -2216,7 +2219,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499326+00:00",
-    "price": "16,99 €"
+    "price": "14,99 €"
   },
   "ES:B0CJG319N6": {
     "name": "Tomb Raider Definitive Edition",
@@ -2344,7 +2347,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499872+00:00",
-    "price": "36,25 €"
+    "price": "36,12 €"
   },
   "ES:B0CGV26PYK": {
     "name": "Red Dead Redemption - PS4",
@@ -2874,7 +2877,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566486+00:00",
-    "price": "28,47 €"
+    "price": "28,46 €"
   },
   "ES:B07W7KWV2Y": {
     "name": "Logitech Brio 300 Full HD Webcam con Obturador de privacidad | Micrófono reducción ruido, USB-C, certificado Zoom/Teams/Google Meet, corrección de luz automática - Grafito",
@@ -3083,9 +3086,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T06:31:41.554832+00:00",
-    "price": "42,97 €",
-    "pending_price": "48,86 €",
-    "pending_price_count": 1
+    "price": "48,86 €"
   },
   "ES:B0CJG3TYMZ": {
     "name": "Shadow of the Tomb Raider Definitive Edition",
@@ -3319,7 +3320,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T12:31:57.651221+00:00",
-    "price": "56,20 €"
+    "price": "52,95 €"
   },
   "ES:B08BTD27T4": {
     "name": "UFC 4 (Import)",
@@ -3688,7 +3689,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:43.341126+00:00",
-    "price": "44,99 €"
+    "price": "44,90 €"
   },
   "ES:B0FR9STSLH": {
     "name": "Wobbledogs - PS4",
@@ -3801,5 +3802,68 @@
     "stock": null,
     "first_seen": "2026-09-22T20:31:34.280572+00:00",
     "price": "29,90 €"
+  },
+  "ES:B0HJX7DCCC": {
+    "name": "The Alters Complete Edition",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:32:02.398938+00:00",
+    "price": "39,99 €"
+  },
+  "ES:B0GZ45D83C": {
+    "name": "Star Wars Galactic Racer PS5",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:32:02.399026+00:00",
+    "price": "52,90 €"
+  },
+  "ES:B0HJQXKD1V": {
+    "name": "Asylum",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:32:02.399049+00:00",
+    "price": "32,99 €"
+  },
+  "ES:B0HJH5LHKN": {
+    "name": "Eternal Anima - PS5",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:32:02.399086+00:00",
+    "price": "49,99 €"
+  },
+  "ES:B0D4QNH5RL": {
+    "name": "Tomb Raider 1-3 Remastered Starring Lara Croft - PS5",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:32:02.399256+00:00",
+    "price": "19,99 €"
+  },
+  "ES:B018209X7U": {
+    "name": "Ps4 Bloodborne - Game Of The Year Edition",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:32:02.399521+00:00",
+    "price": "32,28 €"
+  },
+  "ES:B091CDGP76": {
+    "name": "Oddworld Soulstorm Ps4",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:32:02.399563+00:00",
+    "price": "22,82 €"
+  },
+  "ES:B01M6578D4": {
+    "name": "Resident Evil 6",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:32:02.399607+00:00",
+    "price": "18,14 €"
+  },
+  "ES:B09819JB26": {
+    "name": "Blood Bowl 3 - Ps4",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:32:02.399652+00:00",
+    "price": "8,99 €"
   }
 }
