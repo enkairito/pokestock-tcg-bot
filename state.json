@@ -291,10 +291,9 @@
   },
   "ES:B0CT5T766W": {
     "name": "Pokémon: Cofre de Coleccionista - 2022",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-08-25T20:27:53.163288+00:00",
-    "price": "34,99 €"
+    "first_seen": "2026-08-25T20:27:53.163288+00:00"
   },
   "ECI:A201235759": {
     "name": "Lata Pokémon Jcc Bandai Modelos Surtidos",
@@ -722,7 +721,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
-    "price": "62,36 €"
+    "price": "62,36 €",
+    "pending_price": "64,21 €",
+    "pending_price_count": 1
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -1469,7 +1470,7 @@
   "US:B0G72SPRP6": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802874+00:00",
     "price": "86,48 €"
   },
@@ -2646,9 +2647,10 @@
   },
   "TRU:K1102944": {
     "name": "Pokémon - Lata Mega Charizard X/Y ex  (esp) - Varios modelos",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-16T19:13:53.773884+00:00"
+    "first_seen": "2026-09-16T19:13:53.773884+00:00",
+    "price": "34,99 €"
   },
   "TRU:K1104398": {
     "name": "Pokémon - Megaevolución: Caos Creciente - Lote 6 sobres de mejora (Español)",
