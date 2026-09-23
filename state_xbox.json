@@ -992,7 +992,7 @@
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
     "price": "34,49 €",
-    "pending_price": "35,51 €",
+    "pending_price": "35,44 €",
     "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
@@ -1255,7 +1255,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.017964+00:00",
-    "price": "145,00 €"
+    "price": "139,49 €"
   },
   "ES:B07252FGBF": {
     "name": "Xbox One X - Consola 4K HDR [Importación Italiana]",
@@ -1282,7 +1282,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.017973+00:00",
-    "price": "184,99 €"
+    "price": "173,20 €"
   },
   "ES:B01M5CZKW6": {
     "name": "Konsole Xbox One S 500 Gb Weiß",
@@ -1849,7 +1849,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256348+00:00",
-    "price": "84,90 €"
+    "price": "71,99 €"
   },
   "ES:B0F947WN6P": {
     "name": "Orcs Must Die! Deathtrap - Xbox Series X",
@@ -2206,7 +2206,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
-    "price": "24,74 €"
+    "price": "24,68 €"
   },
   "ES:B08HZKQDK1": {
     "name": "F1 2020 - Xbox One",
@@ -2899,9 +2899,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.548802+00:00",
-    "price": "12,00 €",
-    "pending_price": "18,00 €",
-    "pending_price_count": 1
+    "price": "18,00 €"
   },
   "ES:B087VDG2PB": {
     "name": "Assassin’s Creed Valhalla - Ultimate Edition [Xbox One, Xbox Series X] [Importación alemana]",
@@ -3776,7 +3774,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579852+00:00",
-    "price": "10,52 €"
+    "price": "10,52 €",
+    "pending_price": "10,56 €",
+    "pending_price_count": 1
   },
   "ES:B0C23V86YJ": {
     "name": "Destroy All Humans! 2 - Reprobed: Single Player Juego para Xbox One",
@@ -4350,5 +4350,12 @@
     "stock": null,
     "first_seen": "2026-09-23T12:31:48.397788+00:00",
     "price": "95,99 €"
+  },
+  "ES:B0BKQ3HMK4": {
+    "name": "playvital Pegatinas para Xbox Series X/S y One Botón Home, 60 Piezas",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T18:31:49.442024+00:00",
+    "price": "28,55 €"
   }
 }
