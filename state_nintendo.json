@@ -611,9 +611,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478284+00:00",
-    "price": "8,95 €",
-    "pending_price": "9,95 €",
-    "pending_price_count": 1
+    "price": "9,95 €"
   },
   "ES:B0977RRHJG": {
     "name": "Videojuego para Switch Ubisoft Mario+Rabbids Sparks of Hope",
@@ -1517,7 +1515,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850955+00:00",
-    "price": "79,99 €"
+    "price": "79,99 €",
+    "pending_price": "84,99 €",
+    "pending_price_count": 1
   },
   "ES:B01MS7YUA7": {
     "name": "Agarre cómodo Joy-Con para Nintendo Switch: Negro",
@@ -1654,9 +1654,10 @@
   },
   "ES:B0FQC3TB8Z": {
     "name": "Nintendo Switch Lite Turquoise + Animal Crossing New Horizons",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.318933+00:00"
+    "first_seen": "2026-09-17T00:32:50.318933+00:00",
+    "price": "185,16 €"
   },
   "ES:B0H4RTWHD5": {
     "name": "Xenoblade Chronicles 2 - Nintendo Switch 2",
@@ -3514,7 +3515,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T14:32:21.853938+00:00",
-    "price": "57,02 €"
+    "price": "56,65 €"
   },
   "ES:B09Z3KWD55": {
     "name": "Nintendo Switch Sports (Nintendo Switch) + Nintendo Switch Online - 12 Meses (Código de descarga)",
