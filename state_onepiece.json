@@ -74,7 +74,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:09:29.426544+00:00",
-    "price": "45,13 €"
+    "price": "45,13 €",
+    "pending_price": "46,61 €",
+    "pending_price_count": 1
   },
   "ES:B0GDGRWH54": {
     "name": "One Piece TCG: Double Pack Set Vol. 9 (DP-09) - The Azure Sea's Seven (2 Paquetes)",
