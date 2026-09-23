@@ -128,7 +128,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388338+00:00",
-    "price": "48,58 €"
+    "price": "48,22 €"
   },
   "ES:B08KVH51VX": {
     "name": "NEED FOR SPEED HOT PURSUIT REMASTERED",
@@ -414,16 +414,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811715+00:00",
-    "price": "51,99 €",
-    "pending_price": "52,04 €",
-    "pending_price_count": 1
+    "price": "52,04 €"
   },
   "ES:B08Y1FGT6D": {
     "name": "Mcbazel Adaptador Inalámbrico Xbox One para PC/Windows 7/8/8.1/10/11, Receptor USB Compatible con Mandos Xbox One/S/X/Elite/Elite 2/Series S/X",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811720+00:00",
-    "price": "20,99 €"
+    "price": "19,99 €"
   },
   "ES:B0DB96KTGL": {
     "name": "Turtle Beach Stealth 700 Azul Cobalto Xbox Auriculares de Juego Inalámbricos con 80hr Batería, Altavoces de 60 mm, Transmisores Duales y Bluetooth para Xbox Series X o S, Xbox One, PC y móviles",
@@ -506,9 +504,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "149,99 €",
-    "pending_price": "211,88 €",
-    "pending_price_count": 1
+    "price": "149,99 €"
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -684,7 +680,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T06:28:31.691493+00:00",
-    "price": "41,98 €"
+    "price": "41,88 €"
   },
   "ES:B0F1V7VGP9": {
     "name": "Xbox Controlador inalámbrico - DOOM: The Dark Ages Limited Edition Series X|S, One, PC y dispositivos habilitados para la nube",
@@ -697,8 +693,8 @@
     "name": "8Bitdo Ultimate Mini Wired Controller for Xbox with RGB Lighting Fire Ring, Hall Effect Joysticks and Triggers, for Xbox Series X|S, Xbox One, Windows 10/11 - Officially Licensed (Translucent Green)",
     "status": "compra_directa",
     "stock": null,
-    "price": "34,29 €",
-    "first_seen": "2026-09-12T06:28:31.691532+00:00"
+    "first_seen": "2026-09-12T06:28:31.691532+00:00",
+    "price": "34,03 €"
   },
   "ES:B0FLLL1ZD8": {
     "name": "Xbox Controlador inalámbrico para juegos - Heart Breaker Special Edition - Xbox Series X|S, Xbox One, PC y dispositivos habilitados para la nube",
@@ -958,9 +954,10 @@
   },
   "ES:B0HFNKCPX3": {
     "name": "Stage Tour Game + Kramer Wireless Guitar Controller Bundle para Xbox Series X|S",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-14T00:22:37.466285+00:00"
+    "first_seen": "2026-09-14T00:22:37.466285+00:00",
+    "price": "134,99 €"
   },
   "ES:B0FB3T6JYJ": {
     "name": "Pack de 10 Protectores Gold para Pokemon Elite Trainer Box - Funda Caja Pokemon ETB 0,5mm Grosor - Protección UV para Tus Cajas PKMN",
@@ -995,7 +992,7 @@
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
     "price": "34,49 €",
-    "pending_price": "35,71 €",
+    "pending_price": "35,64 €",
     "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
@@ -1441,7 +1438,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.318911+00:00",
-    "price": "79,99 €"
+    "price": "56,99 €"
   },
   "ES:B0BKGKMLH2": {
     "name": "Playstation - Mando Inalámbrico DualSense Edge | Mando Original Sony para PS5 con Botones y Joysticks Ultracustomizables y Perfiles de Controles Personalizados. - Color Blanco",
@@ -1854,9 +1851,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256348+00:00",
-    "price": "71,99 €",
-    "pending_price": "84,90 €",
-    "pending_price_count": 1
+    "price": "84,90 €"
   },
   "ES:B0F947WN6P": {
     "name": "Orcs Must Die! Deathtrap - Xbox Series X",
@@ -1933,7 +1928,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256453+00:00",
-    "price": "17,93 €"
+    "price": "17,00 €"
   },
   "ES:B0DCGCMC7B": {
     "name": "Dragon Age: The Veilguard Standard Edition XBOX Series X | Videojuegos | Castellano",
@@ -2493,14 +2488,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257546+00:00",
-    "price": "109,99 €"
+    "price": "89,99 €"
   },
   "ES:B0FFP4SLQZ": {
     "name": "Turtle Beach Rematch Advanced Brillo Blue Kitsune Mando de juego con cable. Con licencia para Xbox con botones reemplazables, gatillos ultracortos y controles de Audio",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257553+00:00",
-    "price": "39,99 €"
+    "price": "29,99 €"
   },
   "ES:B0FBRKFLRV": {
     "name": "Grupo Erik Soporte Mando PS5 y Auriculares Cyberpunk - Soporte Mando XBOX, PS4, PS5 para Escritorio Gamer | Accesorios PS5, Setup Gamer Regalos (16 x 20 x 27,5 cm)",
@@ -2759,7 +2754,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T08:32:35.495729+00:00",
-    "price": "37,74 €"
+    "price": "37,29 €"
   },
   "ES:B0DG34VSQY": {
     "name": "Deliver At All Costs - Xbox (Versión inglesa)",
@@ -2794,7 +2789,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T08:32:35.495962+00:00",
-    "price": "23,46 €"
+    "price": "14,76 €"
   },
   "ES:B08PSVXJ29": {
     "name": "Mcbazel Kit 13 en 1 con Palancas de Metal para Xbox Elite Series 2, Kit de Reemplazo con Botones Magnéticos, 6 Palancas Magnéticas, 4 Paletas Traseras y 2 D-Pads para Xbox Elite Series 2, Negro",
@@ -2864,7 +2859,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.548611+00:00",
-    "price": "16,96 €"
+    "price": "16,93 €"
   },
   "ES:B0F7HQNHVV": {
     "name": "Project Motor Racing - Xbox",
@@ -2906,7 +2901,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.548802+00:00",
-    "price": "18,00 €"
+    "price": "12,00 €"
   },
   "ES:B087VDG2PB": {
     "name": "Assassin’s Creed Valhalla - Ultimate Edition [Xbox One, Xbox Series X] [Importación alemana]",
@@ -3107,9 +3102,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790575+00:00",
-    "price": "17,00 €",
-    "pending_price": "21,52 €",
-    "pending_price_count": 1
+    "price": "21,52 €"
   },
   "ES:B0DN6CP9KP": {
     "name": "POPPY PLAYTIME TRIPLE PACK - XBOX SERIES X/ONE",
@@ -3846,7 +3839,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.580275+00:00",
-    "price": "21,30 €"
+    "price": "21,30 €",
+    "pending_price": "21,97 €",
+    "pending_price_count": 1
   },
   "ES:B09TFTHT28": {
     "name": "JBL Quantum 100X Auriculares para gaming con diadema, con micrófono de brazo desmontable, apropiados para Playstation y compatibles con otras consolas, en negro y verde",
@@ -4168,5 +4163,194 @@
     "stock": null,
     "first_seen": "2026-09-23T00:31:43.963361+00:00",
     "price": "9,99 €"
+  },
+  "ES:B0GZ4JMN1L": {
+    "name": "Star Wars Galactic Racer XSRX",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.396946+00:00",
+    "price": "52,90 €"
+  },
+  "ES:B0DHD7FJ8Q": {
+    "name": "Xbox – Juego Microsoft Flight Simulator 2024 – Premium Deluxe SteelBook® Edition – Código Digital",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397088+00:00",
+    "price": "127,00 €"
+  },
+  "ES:B0GMS5DTV1": {
+    "name": "Directive 8020 Deluxe Edition",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397116+00:00",
+    "price": "44,99 €"
+  },
+  "ES:B0FDBR3332": {
+    "name": "Borderlands 4 XBS, Standard",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397134+00:00",
+    "price": "35,86 €"
+  },
+  "ES:B0DL6JG931": {
+    "name": "Atomfall (Xbox Series X)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397145+00:00",
+    "price": "42,44 €"
+  },
+  "ES:B0BCQBSL7F": {
+    "name": "WARNER BROS Hogwarts Legacy Xbox Series X (Edición Exclusiva Amazon)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397161+00:00",
+    "price": "35,11 €"
+  },
+  "ES:B0CXFCFBV8": {
+    "name": "Unknown 9: Awakening (Compatible with Xbox One) /Xbox X",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397173+00:00",
+    "price": "15,00 €"
+  },
+  "ES:B09D8NL824": {
+    "name": "Call of Duty: Vanguard [Xbox Series X-S]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397184+00:00",
+    "price": "28,92 €"
+  },
+  "ES:B0GM1TGB9V": {
+    "name": "Super Bomberman Collection – Xbox",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397194+00:00",
+    "price": "39,99 €"
+  },
+  "ES:B01HDVF9I6": {
+    "name": "Batman: Arkham Knight - Game Of The Year Edition",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397234+00:00",
+    "price": "45,65 €"
+  },
+  "ES:B01N7U9HB3": {
+    "name": "Battle Chasers Nightwar XBO",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397272+00:00",
+    "price": "11,46 €"
+  },
+  "ES:B089MY96C6": {
+    "name": "Edición limitada de Far Cry 6 (exclusiva de Amazon.co.uk) (Xbox One/Series X)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397282+00:00",
+    "price": "33,15 €"
+  },
+  "ES:B00YTVNBDY": {
+    "name": "Fallout 4 [Importación Francesa]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397292+00:00",
+    "price": "27,99 €"
+  },
+  "ES:B00CXLHI5E": {
+    "name": "Destiny - Standard Edition [Importación Francesa]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397349+00:00",
+    "price": "10,06 €"
+  },
+  "ES:B09GW1SVSY": {
+    "name": "eXtremeRate Joysticks para Xbox Series S X Control Palancas Analogicos Joystick Reemplazable para Xbox One Repuesto para Pulgar Thumbsticks para Xbox One S/X/Estandard/Elite Mando(Rojo Carmín)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397644+00:00",
+    "price": "11,99 €"
+  },
+  "ES:B0GJ5KLXVC": {
+    "name": "deleyCON Cable HDMI 2.1 8K 1,5m Cable de Alta Velocidad Ultra High Speed 48 Gbps con Conector Acodado (270°) - Ideal para TV, Monitor, PS4, PS5, EARC, HDR10+ - 10K/8K@60Hz, 4K@120Hz/144Hz y 2K@240Hz",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397662+00:00",
+    "price": "9,28 €"
+  },
+  "ES:B0DVRGCRTG": {
+    "name": "Mando con cable PowerA Advantage Plus para Xbox Series X|S - Rubí, con licencia oficial, controles analógicos de altura regulable, controles analógicos con efecto Hall, botones asignables",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397669+00:00",
+    "price": "33,29 €"
+  },
+  "ES:B0G6K9K5CV": {
+    "name": "LVVIL Funda para ASUS ROG Xbox Ally & X Box Ally X 2025, Funda de Transporte para Consola ROG Xbox con Protector de Pantalla & Tapa de Joystick, Rígida Portátil Case Protector ROG Ally X Accesorios",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397682+00:00",
+    "price": "22,99 €"
+  },
+  "ES:B0D1TV3HGB": {
+    "name": "8Bitdo Ultimate C Wired Controller for Xbox, RGB Lighting Fire Ring and Hall Effect Joysticks, Compatible with Xbox Series X|S, Xbox One, Windows 10/11 - Officially Licensed (Dark Gray)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397689+00:00",
+    "price": "34,99 €"
+  },
+  "ES:B0CYWLSCFW": {
+    "name": "Turtle Beach Stealth 500 Negro Xbox Auriculares de Juego inalámbricos con 40hr Batería y Bluetooth para Xbox Series X|S y Xbox One",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397698+00:00",
+    "price": "69,99 €"
+  },
+  "ES:B0DM63GGWG": {
+    "name": "eXtremeRate Carcasa para Xbox One Elite Protectora Placa Frontal Reemplazo Kit Cubierta Shell Funda para Xbox One Elite Series 2 Modelo 1797 Control-Incluye Anillos de Joysticks(New Hope Gray)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397746+00:00",
+    "price": "18,99 €"
+  },
+  "ES:B0CP5G4SKN": {
+    "name": "eXtremeRate Carcasa Trasera para Xbox Elite Series 2 Mando Accesorios Placa Inferior de Repuesto Shell Cover Cubierta para Xbox Elite Series 2 Core Modelo 1797 Mando-No Incluye Control(Negro)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397753+00:00",
+    "price": "23,99 €"
+  },
+  "ES:B0CPTQ2NSK": {
+    "name": "Hzxkqmil Carcasa Delantera y Trasera para Xbox Elite Series 2 Controller | Cubierta Frontal Concha Inferior Accesorios de Reparación con Destornillador para Xbox Elite Series 2 y Elite 2 Core Edition",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397757+00:00",
+    "price": "37,99 €"
+  },
+  "ES:B0DB1SHWC1": {
+    "name": "Hzxkqmil Kit de Carcasa Completa de Recambio para Xbox One S/X Controller | Cubierta Frontal Concha Trasera Tapa de la Batería Rieles Laterales Botones Accesorios para Xbox One S/X Mando (Modelo 1708)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397760+00:00",
+    "price": "25,24 €"
+  },
+  "ES:B08MDR8T9R": {
+    "name": "Playrealm FPS Thumbstick Grip Agarres para el Pulgar Extensor Y Impresión Caucho Silicona Apretón Cubrir 2 juegos para Controlador Xbox Series X/S y Xbox One (Secreto De Cthulhu)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397773+00:00",
+    "price": "15,76 €"
+  },
+  "ES:B092QVFHY5": {
+    "name": "Adhiper A40 Repuesto de Cable,línea de Audio con función de Silencio,para Astro A10/A40/A50,también Funciona con Auriculares para Juegos A40 TR,Controlador Xbox One,PS4 Gozahad(2m /6,6 pies)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397781+00:00",
+    "price": "10,99 €"
+  },
+  "ES:B0B7RKNDKS": {
+    "name": "NITHO Drive Pro ONE Volante Gaming con Pedales & Palanca para PC/PS4/Xbox | Giro de 270°, vibración, palanca secuencial separada, Zero Dead Zone, para PC, Xbox One, Xbox Series X|S, PS4, Switch",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T12:31:48.397788+00:00",
+    "price": "95,99 €"
   }
 }
