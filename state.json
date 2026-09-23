@@ -728,7 +728,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
-    "price": "250,97 €"
+    "price": "250,97 €",
+    "pending_price": "250,98 €",
+    "pending_price_count": 1
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
@@ -1488,7 +1490,7 @@
   "US:B0G5S61BHK": {
     "name": "Pokémon TCG: Mega Charizard Tin - Mega Charizard X ex (4 potenciadores y 1 Tarjeta Promocional de Aluminio)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "3",
     "first_seen": "2026-09-04T21:32:58.802892+00:00",
     "price": "82,03 €"
   },
@@ -1611,7 +1613,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "118,23 €"
+    "price": "118,19 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -1742,8 +1744,10 @@
     "name": "Pokemon TCG: Scarlet & Violet Azure Legends Tin - Dialga ex (5 Packs)",
     "status": "compra_directa",
     "stock": null,
+    "first_seen": "2026-09-07T19:01:37.274384+00:00",
     "price": "76,90 €",
-    "first_seen": "2026-09-07T19:01:37.274384+00:00"
+    "pending_price": "77,69 €",
+    "pending_price_count": 1
   },
   "UK:B0FJSCW2VH": {
     "name": "Pokemon Paradise Dragona sv7a Caja de refuerzo coreana",
@@ -3503,7 +3507,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T13:03:29.958614+00:00",
-    "price": "32,75 €"
+    "price": "32,75 €",
+    "pending_price": "34,72 €",
+    "pending_price_count": 1
   },
   "MM:184574537": {
     "name": "Cartas - THE POKÉMON COMPANY Pack Pokémon 3 sobres TCG con pegatinas especiales 30º Aniversario",
