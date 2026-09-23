@@ -22,7 +22,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.362338+00:00",
-    "price": "47,07 €"
+    "price": "47,07 €",
+    "pending_price": "47,91 €",
+    "pending_price_count": 1
   },
   "ES:B0GNB8B2NS": {
     "name": "Metal Gear Solid: Master Collection Volume 2 – Day One Edition - Xbox",
@@ -35,9 +37,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.362342+00:00",
-    "price": "18,16 €",
-    "pending_price": "19,04 €",
-    "pending_price_count": 1
+    "price": "18,16 €"
   },
   "ES:B0FQWHWWSG": {
     "name": "Metroid Prime 4: Beyond - Switch",
@@ -1085,8 +1085,8 @@
     "name": "Sonic Origins Plus (Nintendo Switch)",
     "status": "compra_directa",
     "stock": null,
-    "price": "24,82 €",
-    "first_seen": "2026-09-13T12:20:51.137152+00:00"
+    "first_seen": "2026-09-13T12:20:51.137152+00:00",
+    "price": "24,31 €"
   },
   "ES:B0F2TN43GH": {
     "name": "Nintendo Switch 2 - The Legend of Zelda Edition",
@@ -1434,7 +1434,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850805+00:00",
-    "price": "287,00 €"
+    "price": "282,00 €"
   },
   "ES:B092JL5NS2": {
     "name": "Nintendo Switch Lite Azul",
@@ -1824,7 +1824,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688391+00:00",
-    "price": "75,60 €"
+    "price": "64,99 €"
   },
   "ES:B0H4R7W5YM": {
     "name": "Fire Emblem Fortune's Weave Dagdan Collection (edición limitada) - Nintendo Switch 2",
@@ -1866,7 +1866,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688441+00:00",
-    "price": "74,99 €"
+    "price": "74,90 €"
   },
   "ES:B0F3DP33ZG": {
     "name": "Story of Seasons: Grand Bazaar - Switch 2",
@@ -1950,7 +1950,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688550+00:00",
-    "price": "24,99 €"
+    "price": "24,90 €"
   },
   "ES:B0F67CFW4G": {
     "name": "Yakuza 0 Director's Cut - Nintendo Switch 2",
@@ -2145,9 +2145,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688994+00:00",
-    "price": "181,98 €",
-    "pending_price": "239,99 €",
-    "pending_price_count": 1
+    "price": "239,99 €"
   },
   "ES:B0CMDHWDP9": {
     "name": "Consola Switch - Color Azul Neón/Rojo Neón + Super Mario Bros. Wonder + Mario Kart 8 Deluxe",
@@ -2364,9 +2362,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689475+00:00",
-    "price": "68,47 €",
-    "pending_price": "77,28 €",
-    "pending_price_count": 1
+    "price": "64,84 €"
   },
   "ES:B0GNNPWV2C": {
     "name": "Danganronpa 2x2 (Nintendo Switch)",
@@ -3114,9 +3110,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:31:33.624547+00:00",
-    "price": "34,24 €",
-    "pending_price": "34,27 €",
-    "pending_price_count": 1
+    "price": "34,27 €"
   },
   "ES:B0DMTLFG2X": {
     "name": "Little Kitty, Big City - Switch",
@@ -3522,7 +3516,7 @@
     "stock": null,
     "first_seen": "2026-09-19T14:32:21.853938+00:00",
     "price": "56,40 €",
-    "pending_price": "56,98 €",
+    "pending_price": "56,88 €",
     "pending_price_count": 1
   },
   "ES:B09Z3KWD55": {
@@ -3767,7 +3761,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T12:32:07.775720+00:00",
-    "price": "38,13 €"
+    "price": "37,55 €"
   },
   "ES:B0DJRCJ655": {
     "name": "Phantom Breaker : Battle Grounds Ultimate - D1 Edition - NINTENDO SWITCH",
@@ -3796,5 +3790,12 @@
     "stock": null,
     "first_seen": "2026-09-23T14:33:05.330969+00:00",
     "price": "22,99 €"
+  },
+  "ES:B0CW3LJWV1": {
+    "name": "THQ Nordic Disney Epic Mickey Rebrushed, para Nintendo Switch",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T16:32:18.383261+00:00",
+    "price": "35,19 €"
   }
 }
