@@ -101,9 +101,10 @@
   },
   "ES:B0CQD377LS": {
     "name": "Seagate 5TB Game Drive para PlayStation | USB 3.0 (STLV5000202) | Disco duro con licencia oficial para PlayStation. Archive juegos de PS5. Juega juegos de PS4 directamente. LED azul. 3 años",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-11T19:18:12.685892+00:00"
+    "first_seen": "2026-09-11T19:18:12.685892+00:00",
+    "price": "217,41 €"
   },
   "ES:B0D98BDG3S": {
     "name": "EA SPORTS FC 25 Standard Edition PS4 | Videojuegos | Castellano",
@@ -301,9 +302,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018791+00:00",
-    "price": "58,00 €",
-    "pending_price": "69,99 €",
-    "pending_price_count": 1
+    "price": "69,99 €"
   },
   "ES:B01M9COSMD": {
     "name": "Red Dead Redemption 2 (PS4)",
@@ -2181,7 +2180,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499167+00:00",
-    "price": "32,73 €"
+    "price": "32,73 €",
+    "pending_price": "40,33 €",
+    "pending_price_count": 1
   },
   "ES:B0CJG2KCBL": {
     "name": "Rise of the Tomb Raider 20 Year Celebration",
@@ -2353,7 +2354,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499889+00:00",
-    "price": "24,03 €"
+    "price": "24,03 €",
+    "pending_price": "37,00 €",
+    "pending_price_count": 1
   },
   "ES:B08TJGKN5J": {
     "name": "PS4 Horizon Forbidden West",
@@ -2729,9 +2732,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500241+00:00",
-    "price": "22,77 €",
-    "pending_price": "22,81 €",
-    "pending_price_count": 1
+    "price": "22,81 €"
   },
   "ES:B07G2D87BV": {
     "name": "Auriculares Gaming Stereo Sony Oficial PS4 Bigben Interactive - Compatible con PS5",
@@ -3704,9 +3705,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:43.341346+00:00",
-    "price": "26,89 €",
-    "pending_price": "30,28 €",
-    "pending_price_count": 1
+    "price": "30,28 €"
   },
   "ES:B088VCBBQR": {
     "name": "Mafia Trilogy - PlayStation 4 [Importación alemana]",
