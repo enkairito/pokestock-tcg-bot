@@ -192,10 +192,9 @@
   },
   "ES:B0GSSQYPK3": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-08-25T20:27:53.163279+00:00",
-    "price": "29,94 €"
+    "first_seen": "2026-08-25T20:27:53.163279+00:00"
   },
   "ES:B0GSSJ9RB1": {
     "name": "Pokémon: Expositor de Sobres de Mejora de Megaevolución-Caos Creciente (18 Sobres de Mejora)",
@@ -293,7 +292,7 @@
   "ES:B0CT5T766W": {
     "name": "Pokémon: Cofre de Coleccionista - 2022",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-08-25T20:27:53.163288+00:00",
     "price": "34,99 €"
   },
@@ -730,9 +729,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
-    "price": "225,00 €",
-    "pending_price": "250,97 €",
-    "pending_price_count": 1
+    "price": "250,97 €"
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
