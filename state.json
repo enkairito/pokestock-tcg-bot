@@ -291,9 +291,10 @@
   },
   "ES:B0CT5T766W": {
     "name": "Pokémon: Cofre de Coleccionista - 2022",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-08-25T20:27:53.163288+00:00"
+    "first_seen": "2026-08-25T20:27:53.163288+00:00",
+    "price": "34,99 €"
   },
   "ECI:A201235759": {
     "name": "Lata Pokémon Jcc Bandai Modelos Surtidos",
@@ -1946,10 +1947,9 @@
   },
   "ES:B0H8T5GC4W": {
     "name": "Pokémon: Caja de Entrenador Élite de Celebración 30.º Aniversario de JCC Pokémon (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
-    "status": "invitacion",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-09T13:27:46.776826+00:00",
-    "price": "52,99 €"
+    "first_seen": "2026-09-09T13:27:46.776826+00:00"
   },
   "ES:B0H8SWNVWT": {
     "name": "Pokémon: Colección Sylveon ex de Celebración 30.º Aniversario de JCC Pokémon (1 Carta holográfica de promoción, 1 Carta holográfica de Gran tamaño y 4 Sobres de Mejora)",
