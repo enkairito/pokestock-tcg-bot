@@ -471,10 +471,9 @@
   },
   "ES:B0C643MGKG": {
     "name": "Pokémon: Palkia Forma Origen de la Liga VSTAR",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-08-27T14:04:49.802902+00:00",
-    "price": "52,21 €"
+    "first_seen": "2026-08-27T14:04:49.802902+00:00"
   },
   "ES:B0FY3165VP": {
     "name": "Pokémon: Colección ultraprémium Mega-Charizard X ex (2 Cartas holográficas de promoción, 18 Sobres de Mejora y Accesorios prémium)",
@@ -717,9 +716,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
-    "price": "57,16 €",
-    "pending_price": "59,29 €",
-    "pending_price_count": 1
+    "price": "59,29 €"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
