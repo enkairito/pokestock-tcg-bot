@@ -1449,7 +1449,7 @@
   "US:B0F2BCG1Y5": {
     "name": "Pokémon TCG: Scarlet & Violet—Destined Rivals Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802829+00:00",
     "price": "102,95 €"
   },
@@ -1470,7 +1470,7 @@
   "US:B0G72SPRP6": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802874+00:00",
     "price": "86,48 €"
   },
@@ -3483,10 +3483,9 @@
   },
   "US:B0DLQL7GZF": {
     "name": "Pokémon TCG: Scarlet & Violet - Mini Lata de evoluciones prismáticas - Espeon",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-22T19:23:04.349991+00:00",
-    "price": "68,99 €"
+    "first_seen": "2026-09-22T19:23:04.349991+00:00"
   },
   "ECI:A200971036": {
     "name": "Sobre cartas Pokémon Expansion Chispas fulgurantes Pokémon Bandai modelos surtidos",
