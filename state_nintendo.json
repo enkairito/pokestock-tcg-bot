@@ -1063,7 +1063,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T12:20:51.136983+00:00",
-    "price": "67,99 €"
+    "price": "67,99 €",
+    "pending_price": "69,99 €",
+    "pending_price_count": 1
   },
   "ES:B0DGGTYDLJ": {
     "name": "Nintendo Switch Lite - Consola Azul Turquesa + Animal Crossing + 12 meses NSO",
@@ -1654,9 +1656,10 @@
   },
   "ES:B0FQC3TB8Z": {
     "name": "Nintendo Switch Lite Turquoise + Animal Crossing New Horizons",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.318933+00:00"
+    "first_seen": "2026-09-17T00:32:50.318933+00:00",
+    "price": "185,16 €"
   },
   "ES:B0H4RTWHD5": {
     "name": "Xenoblade Chronicles 2 - Nintendo Switch 2",
