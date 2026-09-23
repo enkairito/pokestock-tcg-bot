@@ -796,7 +796,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "3",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "72,33 €"
   },
@@ -1581,10 +1581,9 @@
   },
   "UK:B0DH53TQCC": {
     "name": "Pokemon Scarlet & Violet Stellar Crown Booster Pack",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-04T22:05:43.537215+00:00",
-    "price": "26,49 €"
+    "first_seen": "2026-09-04T22:05:43.537215+00:00"
   },
   "UK:B0DBHJPLVB": {
     "name": "Pokémon TCG: Miraidon ex Deluxe Battle Deck (Ready-to-Play 60-Card Deck & Accessories)",
@@ -1765,9 +1764,9 @@
   "US:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": null,
     "first_seen": "2026-09-08T05:38:28.180394+00:00",
-    "price": "34,36 €"
+    "price": "31,39 €"
   },
   "UK:B0FS98MMML": {
     "name": "Pokémon TCG: Booster Pack de 10 Cartas Mega Evolution Flames Phantasmal Mangas",
@@ -2020,7 +2019,7 @@
   "UK:B0F6PGX3SQ": {
     "name": "Pokémon TCG: Unova Mini Tin – Krookodile & Excadrill (2 Paquetes de Refuerzo y 1 Tarjeta Adhesiva)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-09-12T20:22:49.294754+00:00",
     "price": "41,48 €"
   },
