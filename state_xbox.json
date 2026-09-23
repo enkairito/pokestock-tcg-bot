@@ -414,7 +414,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811715+00:00",
-    "price": "51,99 €"
+    "price": "51,99 €",
+    "pending_price": "52,04 €",
+    "pending_price_count": 1
   },
   "ES:B08Y1FGT6D": {
     "name": "Mcbazel Adaptador Inalámbrico Xbox One para PC/Windows 7/8/8.1/10/11, Receptor USB Compatible con Mandos Xbox One/S/X/Elite/Elite 2/Series S/X",
@@ -993,7 +995,7 @@
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
     "price": "34,49 €",
-    "pending_price": "35,78 €",
+    "pending_price": "35,71 €",
     "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
@@ -1256,7 +1258,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.017964+00:00",
-    "price": "139,49 €"
+    "price": "139,49 €",
+    "pending_price": "145,00 €",
+    "pending_price_count": 1
   },
   "ES:B07252FGBF": {
     "name": "Xbox One X - Consola 4K HDR [Importación Italiana]",
@@ -1799,10 +1803,9 @@
   },
   "ES:B0GNBHG63X": {
     "name": "Castlevania: Belmont's Curse-Midnight Edition - Xbox",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:42.256266+00:00",
-    "price": "34,90 €"
+    "first_seen": "2026-09-17T00:32:42.256266+00:00"
   },
   "ES:B0HHNQ1YTW": {
     "name": "Final Fantasy VII Revelation - Launch Edition",
@@ -1851,7 +1854,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256348+00:00",
-    "price": "71,99 €"
+    "price": "71,99 €",
+    "pending_price": "84,90 €",
+    "pending_price_count": 1
   },
   "ES:B0F947WN6P": {
     "name": "Orcs Must Die! Deathtrap - Xbox Series X",
@@ -2355,7 +2360,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257436+00:00",
-    "price": "37,82 €"
+    "price": "37,73 €"
   },
   "ES:B0B52191TF": {
     "name": "Cubierta de Filtro de Polvo para Series X Host, Cubierta de Filtro de Disipación de Calor Y Protección contra el Polvo con Soporte de Almacenamiento Retráctil VR(Negro)",
@@ -2614,7 +2619,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257634+00:00",
-    "price": "15,15 €"
+    "price": "13,67 €"
   },
   "ES:B0CPS9W9FK": {
     "name": "POFET Juego de Botones magnéticos de Intercambio 6 en 1, Controlador de Juegos, palancas de Repuesto, Agarre para Xbox One Elite Series 2",
@@ -3102,7 +3107,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790575+00:00",
-    "price": "17,00 €"
+    "price": "17,00 €",
+    "pending_price": "21,52 €",
+    "pending_price_count": 1
   },
   "ES:B0DN6CP9KP": {
     "name": "POPPY PLAYTIME TRIPLE PACK - XBOX SERIES X/ONE",
@@ -3797,9 +3804,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579894+00:00",
-    "price": "21,93 €",
-    "pending_price": "22,27 €",
-    "pending_price_count": 1
+    "price": "22,27 €"
   },
   "ES:B07D9WVXBY": {
     "name": "Sega Megadrive Collection",
@@ -3841,9 +3846,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.580275+00:00",
-    "price": "21,28 €",
-    "pending_price": "21,30 €",
-    "pending_price_count": 1
+    "price": "21,30 €"
   },
   "ES:B09TFTHT28": {
     "name": "JBL Quantum 100X Auriculares para gaming con diadema, con micrófono de brazo desmontable, apropiados para Playstation y compatibles con otras consolas, en negro y verde",
