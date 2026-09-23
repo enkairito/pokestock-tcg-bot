@@ -260,9 +260,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "84,99 €",
-    "pending_price": "99,00 €",
-    "pending_price_count": 1
+    "price": "99,00 €"
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -712,9 +710,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T12:27:13.469347+00:00",
-    "price": "19,99 €",
-    "pending_price": "28,52 €",
-    "pending_price_count": 1
+    "price": "19,59 €"
   },
   "ES:B0D571R8PK": {
     "name": "Volante y Pedales Hori RWA con licencia Sony PlayStation 4/5 [Nuevo modelo compatible con PS4/PS5] + Gran Turismo 7 [Playstation 5]",
@@ -917,8 +913,8 @@
     "name": "Sony Interactive Entertainment The Last of Us Part II Standard PlayStation 4",
     "status": "compra_directa",
     "stock": null,
-    "price": "33,95 €",
-    "first_seen": "2026-09-12T18:25:09.102599+00:00"
+    "first_seen": "2026-09-12T18:25:09.102599+00:00",
+    "price": "33,95 €"
   },
   "ES:B0BWYYCT48": {
     "name": "Lies of P (PlayStation 4)",
@@ -1103,7 +1099,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T18:20:21.671515+00:00",
-    "price": "789,00 €"
+    "price": "789,00 €",
+    "pending_price": "829,00 €",
+    "pending_price_count": 1
   },
   "ES:B0C74Q2GWX": {
     "name": "The Crew Motorfest Limited Edition (Exclusivo Amazon) (PS4)",
@@ -1210,14 +1208,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T18:20:43.859408+00:00",
-    "price": "68,99 €"
+    "price": "68,90 €"
   },
   "ES:B01M5DZ525": {
     "name": "Red Dead Redemption 2 for PlayStation 4",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T18:20:43.859449+00:00",
-    "price": "30,99 €"
+    "price": "30,99 €",
+    "pending_price": "31,54 €",
+    "pending_price_count": 1
   },
   "ES:B08LM3KW18": {
     "name": "Playstation Console Sony 5 Edition Digital",
@@ -1479,9 +1479,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.312504+00:00",
-    "price": "589,00 €",
-    "pending_price": "590,00 €",
-    "pending_price_count": 1
+    "price": "589,00 €"
   },
   "ES:B00BE4HOIM": {
     "name": "Sony PlayStation 4 500GB Console (Black) [Importación inglesa]",
@@ -2267,7 +2265,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499492+00:00",
-    "price": "24,06 €"
+    "price": "24,06 €",
+    "pending_price": "24,59 €",
+    "pending_price_count": 1
   },
   "ES:B07V9NP59C": {
     "name": "Remothered: Tormented Fathers",
@@ -2302,7 +2302,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "17,14 €"
+    "price": "17,14 €",
+    "pending_price": "21,71 €",
+    "pending_price_count": 1
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2708,7 +2710,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500223+00:00",
-    "price": "106,44 €"
+    "price": "105,18 €"
   },
   "ES:B0GDXWB1ZG": {
     "name": "SZPACMATE Mando Inalámbrico para PS4/PS3/Switch 1/PC/Steam Deck | Joystick Efecto Hall, Iluminación RGB 8 Colores, Batería 1000 mAh, Giroscopio 6 Ejes, Turbo, Doble Vibración, Programables",
@@ -3506,7 +3508,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:34.022906+00:00",
-    "price": "22,85 €"
+    "price": "22,80 €"
   },
   "ES:B09FV343B4": {
     "name": "Crysis Remastered Trilogy, PS4",
@@ -3906,5 +3908,26 @@
     "stock": null,
     "first_seen": "2026-09-23T16:31:42.049809+00:00",
     "price": "21,97 €"
+  },
+  "ES:B098X27T93": {
+    "name": "GHOST OF TSUSHIMA DIRECTOR'S CUT- PS4",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T18:32:14.205973+00:00",
+    "price": "33,29 €"
+  },
+  "ES:B08639KXLY": {
+    "name": "Assetto Corsa Competizione",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T18:32:14.206024+00:00",
+    "price": "22,34 €"
+  },
+  "ES:B08BPTKHJH": {
+    "name": "Crash Bandicoot 4 - It's About Time",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T18:32:14.206040+00:00",
+    "price": "33,83 €"
   }
 }
