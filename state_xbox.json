@@ -128,9 +128,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388338+00:00",
-    "price": "48,58 €",
-    "pending_price": "49,99 €",
-    "pending_price_count": 1
+    "price": "49,99 €"
   },
   "ES:B08KVH51VX": {
     "name": "NEED FOR SPEED HOT PURSUIT REMASTERED",
@@ -506,9 +504,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "149,99 €",
-    "pending_price": "211,88 €",
-    "pending_price_count": 1
+    "price": "211,88 €"
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -684,7 +680,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T06:28:31.691493+00:00",
-    "price": "41,88 €"
+    "price": "41,88 €",
+    "pending_price": "41,89 €",
+    "pending_price_count": 1
   },
   "ES:B0F1V7VGP9": {
     "name": "Xbox Controlador inalámbrico - DOOM: The Dark Ages Limited Edition Series X|S, One, PC y dispositivos habilitados para la nube",
@@ -995,7 +993,7 @@
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
     "price": "34,49 €",
-    "pending_price": "39,16 €",
+    "pending_price": "39,06 €",
     "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
@@ -1296,10 +1294,9 @@
   },
   "ES:B0DCD9LGHY": {
     "name": "Xbox Serie X - Edición digital de 1 TB",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-16T10:34:33.318741+00:00",
-    "price": "818,25 €"
+    "first_seen": "2026-09-16T10:34:33.318741+00:00"
   },
   "ES:B08FCXLB8Z": {
     "name": "Xbox Play y Kit de Carga USB",
@@ -1852,7 +1849,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256348+00:00",
-    "price": "84,90 €"
+    "price": "71,99 €"
   },
   "ES:B0F947WN6P": {
     "name": "Orcs Must Die! Deathtrap - Xbox Series X",
@@ -1985,9 +1982,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256532+00:00",
-    "price": "59,99 €",
-    "pending_price": "84,95 €",
-    "pending_price_count": 1
+    "price": "84,95 €"
   },
   "ES:B095PPY2KN": {
     "name": "Mars Gaming MCPX, Idioma Español, Combo Gaming 3en1 con Teclado H-Mech Iluminado, Ratón Ultraligero 10000 dpi con Software y Alfombrilla XXL, Compatible con PC, PS4, PS5, Xbox, Negro",
@@ -2212,7 +2207,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
     "price": "24,12 €",
-    "pending_price": "24,90 €",
+    "pending_price": "25,04 €",
     "pending_price_count": 1
   },
   "ES:B08HZKQDK1": {
@@ -2794,7 +2789,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T08:32:35.495962+00:00",
-    "price": "22,00 €"
+    "price": "22,00 €",
+    "pending_price": "23,46 €",
+    "pending_price_count": 1
   },
   "ES:B08PSVXJ29": {
     "name": "Mcbazel Kit 13 en 1 con Palancas de Metal para Xbox Elite Series 2, Kit de Reemplazo con Botones Magnéticos, 6 Palancas Magnéticas, 4 Paletas Traseras y 2 D-Pads para Xbox Elite Series 2, Negro",
@@ -3774,7 +3771,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579840+00:00",
-    "price": "33,36 €"
+    "price": "28,29 €"
   },
   "ES:B07T14YQYZ": {
     "name": "Destroy All Humans - Xbox One",
@@ -3970,7 +3967,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:37.525061+00:00",
-    "price": "10,09 €"
+    "price": "4,90 €"
   },
   "ES:B0DJCJCX4L": {
     "name": "Microsoft Flight Simulator 2024 Standard │ Xbox y Windows - Código de descarga del juego",
