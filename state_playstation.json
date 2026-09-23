@@ -450,7 +450,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018957+00:00",
-    "price": "35,99 €"
+    "price": "35,99 €",
+    "pending_price": "36,99 €",
+    "pending_price_count": 1
   },
   "ES:B0BKW3BYFR": {
     "name": "AceGamer Controlador Inalámbrico Para Ps4, Controlador De Juego Compatible Con Ps4/Pro/Slim/Pc, Con Turbobotón/Botón Trasero/Doble Vibración/Sensor De Giroscopio De 6 Ejes/Panel Táctil",
@@ -485,7 +487,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018968+00:00",
-    "price": "228,00 €"
+    "price": "228,00 €",
+    "pending_price": "229,00 €",
+    "pending_price_count": 1
   },
   "ES:B01LBH9ILW": {
     "name": "Dualshock 4 Wireless Controller - Jet Black - PlayStation 4",
@@ -1473,7 +1477,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.312504+00:00",
-    "price": "589,00 €"
+    "price": "589,00 €",
+    "pending_price": "590,00 €",
+    "pending_price_count": 1
   },
   "ES:B00BE4HOIM": {
     "name": "Sony PlayStation 4 500GB Console (Black) [Importación inglesa]",
@@ -2189,9 +2195,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499236+00:00",
-    "price": "12,99 €",
-    "pending_price": "16,99 €",
-    "pending_price_count": 1
+    "price": "16,99 €"
   },
   "ES:B00DC267Z0": {
     "name": "Kingdom Hearts III (PlayStation PS4)",
