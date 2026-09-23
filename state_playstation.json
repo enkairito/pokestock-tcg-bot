@@ -104,7 +104,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:18:12.685892+00:00",
-    "price": "195,99 €"
+    "price": "195,99 €",
+    "pending_price": "217,41 €",
+    "pending_price_count": 1
   },
   "ES:B0D98BDG3S": {
     "name": "EA SPORTS FC 25 Standard Edition PS4 | Videojuegos | Castellano",
@@ -258,7 +260,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "84,99 €"
+    "price": "84,99 €",
+    "pending_price": "99,00 €",
+    "pending_price_count": 1
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -450,9 +454,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018957+00:00",
-    "price": "35,99 €",
-    "pending_price": "36,99 €",
-    "pending_price_count": 1
+    "price": "36,99 €"
   },
   "ES:B0BKW3BYFR": {
     "name": "AceGamer Controlador Inalámbrico Para Ps4, Controlador De Juego Compatible Con Ps4/Pro/Slim/Pc, Con Turbobotón/Botón Trasero/Doble Vibración/Sensor De Giroscopio De 6 Ejes/Panel Táctil",
@@ -487,9 +489,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018968+00:00",
-    "price": "228,00 €",
-    "pending_price": "229,00 €",
-    "pending_price_count": 1
+    "price": "229,00 €"
   },
   "ES:B01LBH9ILW": {
     "name": "Dualshock 4 Wireless Controller - Jet Black - PlayStation 4",
@@ -712,7 +712,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T12:27:13.469347+00:00",
-    "price": "19,99 €"
+    "price": "19,99 €",
+    "pending_price": "28,52 €",
+    "pending_price_count": 1
   },
   "ES:B0D571R8PK": {
     "name": "Volante y Pedales Hori RWA con licencia Sony PlayStation 4/5 [Nuevo modelo compatible con PS4/PS5] + Gran Turismo 7 [Playstation 5]",
@@ -888,7 +890,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:25:09.102575+00:00",
-    "price": "34,58 €"
+    "price": "34,48 €"
   },
   "ES:B098GSZ4Q9": {
     "name": "Streets of Rage 4. Anniversary Edition - Playstation 4",
@@ -1950,7 +1952,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498253+00:00",
-    "price": "44,86 €"
+    "price": "44,54 €"
   },
   "ES:B0GVP719SW": {
     "name": "Mortal Shell II - PS5",
@@ -2881,14 +2883,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566486+00:00",
-    "price": "28,46 €"
+    "price": "28,18 €"
   },
   "ES:B07W7KWV2Y": {
     "name": "Logitech Brio 300 Full HD Webcam con Obturador de privacidad | Micrófono reducción ruido, USB-C, certificado Zoom/Teams/Google Meet, corrección de luz automática - Grafito",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:31:53.613077+00:00",
-    "price": "52,95 €"
+    "price": "47,99 €"
   },
   "ES:B09NM9DTTC": {
     "name": "KIWIHOME Ventilador para PS5, Silencioso, Velocidad Automática, USB 3.0 | Apto para PS5 Disc/Digital sin Líneas de División en el Panel. No para PS5 Slim 2023 o Pro 2024. Blanco",
@@ -3869,5 +3871,40 @@
     "stock": null,
     "first_seen": "2026-09-23T12:32:02.399652+00:00",
     "price": "8,99 €"
+  },
+  "ES:B0DSPWT99L": {
+    "name": "PlayStation 5 - Auriculares inalámbricos PULSE Elite™ – Midnight Black",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T16:31:42.049700+00:00",
+    "price": "134,99 €"
+  },
+  "ES:B0DSPQXDQ5": {
+    "name": "Playstation 5 - Auriculares de botón inalámbricos Pulse Explore™ – Midnight Black",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T16:31:42.049726+00:00",
+    "price": "152,00 €"
+  },
+  "ES:B0CBNBC34X": {
+    "name": "FRTEC - Dragon Ball Custom Kit Licencia Oficial, Carcasa Rígida + Grips + Sticker Touchpad para DualSense, PS5",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T16:31:42.049729+00:00",
+    "price": "14,90 €"
+  },
+  "ES:B098XPRSYT": {
+    "name": "Unicview Soporte para volante Logitech G29 G920 G923 incluye soporte caja de cambios, Thrustmaster T150 T500 T300 TX TH8A, PS4 PS5, Xbox Fanatec Clubsport, Totalmente ajustable, Plegable",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T16:31:42.049801+00:00",
+    "price": "102,32 €"
+  },
+  "ES:B00YXO5UKY": {
+    "name": "Turtle Beach Recon 50P Auriculares Gaming PS5, PS4, Xbox Series X|S, Xbox One y PC",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-23T16:31:42.049809+00:00",
+    "price": "21,97 €"
   }
 }
