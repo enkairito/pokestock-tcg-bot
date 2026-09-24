@@ -1765,9 +1765,9 @@
   "US:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-09-08T05:38:28.180394+00:00",
-    "price": "31,57 €"
+    "price": "31,28 €"
   },
   "UK:B0FS98MMML": {
     "name": "Pokémon TCG: Booster Pack de 10 Cartas Mega Evolution Flames Phantasmal Mangas",
@@ -3554,5 +3554,12 @@
     "stock": null,
     "first_seen": "2026-09-24T03:23:36.529801+00:00",
     "price": "32,97 €"
+  },
+  "UK:B0G5FWJ8NL": {
+    "name": "Pokémon TCG: Mega Charizard Tin",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T06:03:20.047645+00:00",
+    "price": "71,78 €"
   }
 }
