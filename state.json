@@ -716,10 +716,9 @@
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-08-30T20:46:19.644837+00:00",
-    "price": "66,66 €"
+    "first_seen": "2026-08-30T20:46:19.644837+00:00"
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -796,7 +795,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
-    "price": "71,86 €"
+    "price": "71,86 €",
+    "pending_price": "72,87 €",
+    "pending_price_count": 1
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
@@ -1013,9 +1014,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T23:03:24.893535+00:00",
-    "price": "78,87 €",
-    "pending_price": "79,97 €",
-    "pending_price_count": 1
+    "price": "79,97 €"
   },
   "ES:B0D6WLDCZF": {
     "name": "BANDAI PC50533 Pokémon TCG: Back to School Collector's Chest, Multicolor, Collectible for Anime Lovers, Spanish Version",
@@ -1477,14 +1476,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802880+00:00",
-    "price": "84,93 €"
+    "price": "84,93 €",
+    "pending_price": "88,69 €",
+    "pending_price_count": 1
   },
   "US:B0D8R1LW3R": {
     "name": "Pokémon TCG: Cofre de coleccionista - Scream Tail & Iron Valiant (2 Tarjetas promocionales de Aluminio, 6 Paquetes de Refuerzo y más)",
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-09-04T21:32:58.802885+00:00",
-    "price": "98,40 €"
+    "price": "98,39 €"
   },
   "US:B0G5S61BHK": {
     "name": "Pokémon TCG: Mega Charizard Tin - Mega Charizard X ex (4 potenciadores y 1 Tarjeta Promocional de Aluminio)",
@@ -1959,10 +1960,12 @@
   },
   "ES:B0H8SWNVWT": {
     "name": "Pokémon: Colección Sylveon ex de Celebración 30.º Aniversario de JCC Pokémon (1 Carta holográfica de promoción, 1 Carta holográfica de Gran tamaño y 4 Sobres de Mejora)",
-    "status": "invitacion",
-    "stock": null,
+    "status": "compra_directa",
+    "stock": "2",
     "first_seen": "2026-09-09T13:27:52.661446+00:00",
-    "price": "24,99 €"
+    "price": "24,99 €",
+    "pending_price": "32,95 €",
+    "pending_price_count": 1
   },
   "ES:B0H8SY1NB9": {
     "name": "Pokémon: Colección Greninja ex de Celebración 30.º Aniversario de JCC Pokémon (1 Carta holográfica de promoción, 1 Carta holográfica de Gran tamaño y 4 Sobres de Mejora)",
@@ -1987,10 +1990,12 @@
   },
   "ES:B0H8SXC5L9": {
     "name": "Pokémon: Colección con póster de Celebración 30.º Aniversario de JCC Pokémon (3 Cartas de promoción, 1 póster y 3 Sobres de Mejora)",
-    "status": "invitacion",
+    "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-09T13:28:17.096102+00:00",
-    "price": "23,99 €"
+    "price": "23,99 €",
+    "pending_price": "32,95 €",
+    "pending_price_count": 1
   },
   "ES:B0H8SZX85C": {
     "name": "Pokémon: Colección con Pegatinas Especiales de Celebración 30.º Aniversario: Exeggutor de Alola de JCC Pokémon (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
@@ -2925,7 +2930,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:43:57.912076+00:00",
-    "price": "98,16 €"
+    "price": "98,09 €"
   },
   "US:B0DLQXNQDH": {
     "name": "Pokémon TCG: Scarlet & Violet - Prismatic Evolutions Mini Tin - Jolteon (2 Paquetes de Refuerzo y 1 Moneda)",
