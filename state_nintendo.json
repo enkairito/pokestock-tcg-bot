@@ -35,9 +35,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.362342+00:00",
-    "price": "18,16 €",
-    "pending_price": "19,04 €",
-    "pending_price_count": 1
+    "price": "19,04 €"
   },
   "ES:B0FQWHWWSG": {
     "name": "Metroid Prime 4: Beyond - Switch",
@@ -177,7 +175,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912008+00:00",
-    "price": "56,88 €"
+    "price": "56,88 €",
+    "pending_price": "56,97 €",
+    "pending_price_count": 1
   },
   "ES:B071H4KD7W": {
     "name": "Nintendo Switch Consola Rojo Neón/Azul neón 32 GB + Mario Kart 8 Deluxe",
@@ -267,7 +267,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912091+00:00",
-    "price": "70,00 €"
+    "price": "70,00 €",
+    "pending_price": "74,99 €",
+    "pending_price_count": 1
   },
   "ES:B07VFTVVWX": {
     "name": "Nintendo Switch Joy-Con-Controller, links blau/rechts, neongelb [Videospiel]",
@@ -1740,7 +1742,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688196+00:00",
-    "price": "506,90 €"
+    "price": "506,90 €",
+    "pending_price": "506,99 €",
+    "pending_price_count": 1
   },
   "ES:B0FYHK8329": {
     "name": "Nintendo Switch 2 + 25e eShop",
@@ -1782,7 +1786,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688320+00:00",
-    "price": "59,90 €"
+    "price": "56,90 €"
   },
   "ES:B0FR8XHR72": {
     "name": "Hyrule Warriors: Edad de encarcelamiento",
@@ -1852,7 +1856,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688425+00:00",
-    "price": "55,75 €"
+    "price": "55,73 €"
   },
   "ES:B0GRWHCZ4R": {
     "name": "Pokémon Edición Rojo Fuego Standard | Nintendo Switch - Código de descarga",
@@ -2215,9 +2219,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689198+00:00",
-    "price": "53,99 €",
-    "pending_price": "55,99 €",
-    "pending_price_count": 1
+    "price": "55,99 €"
   },
   "ES:B07DDSHSF1": {
     "name": "Pokémon: Let's Go, Pikachu!",
@@ -2406,7 +2408,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689584+00:00",
-    "price": "41,90 €"
+    "price": "32,99 €"
   },
   "ES:B0CXQ9JM4L": {
     "name": "Luigi's Mansion 2 HD",
@@ -2578,9 +2580,10 @@
   },
   "ES:B0FCYL8GG3": {
     "name": "JSAUX Empuñadura de Carga Magnética para JoyPads Switch 2 | Carga Durante el Juego, Acople Magnético, PC+ABS, Estado LED Rojo/Verde, Diseño Compacto, Cable de Carga de 1,5 m",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.689850+00:00"
+    "first_seen": "2026-09-17T00:32:50.689850+00:00",
+    "price": "15,99 €"
   },
   "ES:B0FDH2HK6V": {
     "name": "NK Mando PRO Switch Inalámbrico- Wireless Pro Switch Controller con Función Macro/Wake/Turbo/Gyro Axis/Doble Vibración/RGB Light - Color Negro/Rojo/Azul",
@@ -3770,9 +3773,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T12:32:07.776007+00:00",
-    "price": "21,70 €",
-    "pending_price": "26,77 €",
-    "pending_price_count": 1
+    "price": "26,77 €"
   },
   "ES:B0CWV767JV": {
     "name": "Outer Wilds: Archaeologist Edition - Switch",
