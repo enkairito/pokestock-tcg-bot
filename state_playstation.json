@@ -111,9 +111,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:18:12.685903+00:00",
-    "price": "26,39 €",
-    "pending_price": "29,99 €",
-    "pending_price_count": 1
+    "price": "29,99 €"
   },
   "ES:B084WLMKGT": {
     "name": "GXTrust Forze Cascos Gaming con Licencia Oficial para PlayStation, Negro | Auriculares Gaming para PS4 y PS5, Micrófono Plegable, Altavoces Activos de 50 mm, Cable Trenzado de Nailon 1.2 m",
@@ -260,7 +258,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "99,00 €"
+    "price": "84,99 €"
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -312,7 +310,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018808+00:00",
-    "price": "25,12 €"
+    "price": "18,98 €"
   },
   "ES:B09KTGP5C2": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition, PlayStation 4",
@@ -710,7 +708,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T12:27:13.469347+00:00",
-    "price": "19,59 €"
+    "price": "19,59 €",
+    "pending_price": "28,52 €",
+    "pending_price_count": 1
   },
   "ES:B0D571R8PK": {
     "name": "Volante y Pedales Hori RWA con licencia Sony PlayStation 4/5 [Nuevo modelo compatible con PS4/PS5] + Gran Turismo 7 [Playstation 5]",
@@ -1099,7 +1099,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T18:20:21.671515+00:00",
-    "price": "689,00 €"
+    "price": "689,00 €",
+    "pending_price": "829,00 €",
+    "pending_price_count": 1
   },
   "ES:B0C74Q2GWX": {
     "name": "The Crew Motorfest Limited Edition (Exclusivo Amazon) (PS4)",
@@ -1154,9 +1156,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:22:34.377710+00:00",
-    "price": "24,98 €",
-    "pending_price": "25,02 €",
-    "pending_price_count": 1
+    "price": "25,02 €"
   },
   "ES:B0DPHGSSWH": {
     "name": "Fenolical Soporte Delgado para PS5/PS5 con Ventilador de Refrigeración Ajustable, Soporte de Cargador de Refrigeración Vertical PS5 para PS5/PS5 Slim, Estación de Refrigeración Delgada Multifuncional",
@@ -2354,9 +2354,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499889+00:00",
-    "price": "37,00 €",
-    "pending_price": "37,88 €",
-    "pending_price_count": 1
+    "price": "37,88 €"
   },
   "ES:B08TJGKN5J": {
     "name": "PS4 Horizon Forbidden West",
@@ -3253,7 +3251,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T14:31:52.732470+00:00",
-    "price": "21,66 €"
+    "price": "21,42 €"
   },
   "ES:B07L674L8R": {
     "name": "Crash Team Racing Nitro-Fueled",
@@ -3670,9 +3668,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:43.340950+00:00",
-    "price": "40,37 €",
-    "pending_price": "46,41 €",
-    "pending_price_count": 1
+    "price": "46,41 €"
   },
   "ES:B0H33TT5FT": {
     "name": "Hollow Knight: Silksong - PS5",
@@ -3854,7 +3850,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T12:32:02.399563+00:00",
-    "price": "22,82 €"
+    "price": "22,82 €",
+    "pending_price": "22,83 €",
+    "pending_price_count": 1
   },
   "ES:B01M6578D4": {
     "name": "Resident Evil 6",
