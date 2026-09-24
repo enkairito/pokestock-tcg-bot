@@ -797,9 +797,9 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
-    "price": "72,87 €"
+    "price": "72,84 €"
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
@@ -1299,7 +1299,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "113,09 €"
+    "price": "112,23 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1311,7 +1311,7 @@
   "UK:B0FSJXSPPX": {
     "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802653+00:00",
     "price": "86,09 €"
   },
@@ -1485,7 +1485,9 @@
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-09-04T21:32:58.802885+00:00",
-    "price": "98,39 €"
+    "price": "98,39 €",
+    "pending_price": "99,85 €",
+    "pending_price_count": 1
   },
   "US:B0G5S61BHK": {
     "name": "Pokémon TCG: Mega Charizard Tin - Mega Charizard X ex (4 potenciadores y 1 Tarjeta Promocional de Aluminio)",
@@ -3516,7 +3518,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T16:43:24.705683+00:00",
-    "price": "72,91 €"
+    "price": "72,90 €"
   },
   "UK:B0FXVLH7QM": {
     "name": "Pokemon TCG: 1 Tarjeta Pokemon de Grado Aleatorio (Beckett, PSA o CGC), Grado 8 o Superior (inglés o japonés)",
@@ -3560,7 +3562,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T03:23:36.529801+00:00",
-    "price": "66,86 €"
+    "price": "65,06 €"
   },
   "UK:B0G5FWJ8NL": {
     "name": "Pokémon TCG: Mega Charizard Tin",
@@ -3596,5 +3598,12 @@
     "stock": "3",
     "first_seen": "2026-09-24T13:43:07.693439+00:00",
     "price": "46,27 €"
+  },
+  "UK:B0FJS1YLTR": {
+    "name": "Pokemon Ancient Roar sv4K Caja de refuerzo coreana",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T19:03:08.156121+00:00",
+    "price": "83,84 €"
   }
 }
