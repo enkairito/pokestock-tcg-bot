@@ -104,16 +104,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:18:12.685892+00:00",
-    "price": "195,99 €",
-    "pending_price": "217,41 €",
-    "pending_price_count": 1
+    "price": "217,41 €"
   },
   "ES:B0D98BDG3S": {
     "name": "EA SPORTS FC 25 Standard Edition PS4 | Videojuegos | Castellano",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:18:12.685903+00:00",
-    "price": "29,99 €"
+    "price": "13,74 €"
   },
   "ES:B084WLMKGT": {
     "name": "GXTrust Forze Cascos Gaming con Licencia Oficial para PlayStation, Negro | Auriculares Gaming para PS4 y PS5, Micrófono Plegable, Altavoces Activos de 50 mm, Cable Trenzado de Nailon 1.2 m",
@@ -260,7 +258,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "84,99 €"
+    "price": "83,29 €"
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -888,7 +886,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:25:09.102575+00:00",
-    "price": "34,31 €"
+    "price": "34,09 €"
   },
   "ES:B098GSZ4Q9": {
     "name": "Streets of Rage 4. Anniversary Edition - Playstation 4",
@@ -1357,7 +1355,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T04:35:55.955905+00:00",
-    "price": "729,91 €"
+    "price": "649,00 €"
   },
   "ES:B0D8KXMCTC": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Naranja)",
@@ -1579,7 +1577,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T16:33:57.520021+00:00",
-    "price": "49,99 €"
+    "price": "49,99 €",
+    "pending_price": "53,99 €",
+    "pending_price_count": 1
   },
   "ES:B0HJ9SJF63": {
     "name": "Apple Funda de Silicona con MagSafe para el iPhone 18 Pro - Burdeos",
@@ -1876,9 +1876,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498076+00:00",
-    "price": "29,45 €",
-    "pending_price": "31,47 €",
-    "pending_price_count": 1
+    "price": "31,47 €"
   },
   "ES:B09KCP7BS8": {
     "name": "Autobahn Police Simulator 2 (Nintendo Switch)",
@@ -1948,7 +1946,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498253+00:00",
-    "price": "44,50 €"
+    "price": "44,33 €"
   },
   "ES:B0GVP719SW": {
     "name": "Mortal Shell II - PS5",
@@ -2298,7 +2296,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "25,37 €"
+    "price": "25,29 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2704,7 +2702,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500223+00:00",
-    "price": "105,18 €"
+    "price": "105,18 €",
+    "pending_price": "106,44 €",
+    "pending_price_count": 1
   },
   "ES:B0GDXWB1ZG": {
     "name": "SZPACMATE Mando Inalámbrico para PS4/PS3/Switch 1/PC/Steam Deck | Joystick Efecto Hall, Iluminación RGB 8 Colores, Batería 1000 mAh, Giroscopio 6 Ejes, Turbo, Doble Vibración, Programables",
@@ -2767,9 +2767,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500260+00:00",
-    "price": "58,24 €",
-    "pending_price": "60,95 €",
-    "pending_price_count": 1
+    "price": "58,24 €"
   },
   "ES:B0DDFYW6QV": {
     "name": "Mcbazel Cable de Carga PS Vita Cable de Datos USB Cable de Reemplazo Compatible con PS Vita, PSVita 1000-1.2M",
@@ -2881,7 +2879,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566486+00:00",
-    "price": "28,17 €"
+    "price": "27,88 €"
   },
   "ES:B07W7KWV2Y": {
     "name": "Logitech Brio 300 Full HD Webcam con Obturador de privacidad | Micrófono reducción ruido, USB-C, certificado Zoom/Teams/Google Meet, corrección de luz automática - Grafito",
@@ -3588,7 +3586,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:34.023285+00:00",
-    "price": "13,69 €"
+    "price": "13,69 €",
+    "pending_price": "18,69 €",
+    "pending_price_count": 1
   },
   "ES:B0C6K4N2Z3": {
     "name": "CUZKC 16PC Thumb Grips Accessories for Xbox One Series Switch PRO Playstation 5 Controller Accessories PS4 PS5 Controller Accessories Joystick Sticks,ps5 Joystick Accessories",
@@ -3925,5 +3925,12 @@
     "stock": null,
     "first_seen": "2026-09-23T18:32:14.206040+00:00",
     "price": "33,83 €"
+  },
+  "ES:B09YRBZZQ3": {
+    "name": "MAYFLASH Magic-S Pro 2 Adaptador USB Bluetooth Inalámbrico para PS4, Switch/Switch 2, macOS, Windows, Raspberry Pi, Compatible con Xbox Series X & S Controller, PS5 Controller y Más",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T10:32:05.278601+00:00",
+    "price": "28,99 €"
   }
 }
