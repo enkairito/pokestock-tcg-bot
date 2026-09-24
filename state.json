@@ -1606,7 +1606,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T22:05:43.537336+00:00",
-    "price": "28,68 €"
+    "price": "28,68 €",
+    "pending_price": "29,05 €",
+    "pending_price_count": 1
   },
   "UK:B0DLQJ613B": {
     "name": "Pokémon TCG: Scarlet & Violet—Prismatic Evolutions Poster Collection",
@@ -3560,7 +3562,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T03:23:36.529801+00:00",
-    "price": "65,06 €"
+    "price": "65,01 €"
   },
   "UK:B0G5FWJ8NL": {
     "name": "Pokémon TCG: Mega Charizard Tin",
