@@ -8,7 +8,7 @@
   "ES:B0FSLTCVFJ": {
     "name": "Ravensburger - Disney Lorcana TCG: Set 10 Whispers In The Well | Juegos De Cartas Adultos Y Niños con 60 Cartas Disney Lorcana | Juegos De Mesa Niños 10 Años Coleccionables | Regalos Originales",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-09-07T17:41:03.615084+00:00",
     "price": "19,99 €"
   },
@@ -59,7 +59,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:41:42.887252+00:00",
-    "price": "60,89 €"
+    "price": "60,89 €",
+    "pending_price": "60,91 €",
+    "pending_price_count": 1
   },
   "ES:B0CFRBX7GW": {
     "name": "Disney Lorcana Trading Card Game: Set 4 – Starter Deck B",
