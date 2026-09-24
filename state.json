@@ -280,7 +280,9 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-08-25T20:27:15.542170+00:00",
-    "price": "45,09 €"
+    "price": "45,09 €",
+    "pending_price": "45,10 €",
+    "pending_price_count": 1
   },
   "ES:B0FXTY9D99": {
     "name": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Caos Creciente (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
@@ -794,7 +796,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "4",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "72,84 €"
   },
@@ -1129,7 +1131,7 @@
   "US:B0GR6N18F6": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "4",
     "first_seen": "2026-08-31T17:55:22.065539+00:00",
     "price": "107,12 €"
   },
@@ -1489,7 +1491,9 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-04T21:32:58.802892+00:00",
-    "price": "82,03 €"
+    "price": "82,03 €",
+    "pending_price": "83,18 €",
+    "pending_price_count": 1
   },
   "US:B0F6PQLR16": {
     "name": "Pokemon TCG Scarlet & Violet 10.5 White Flare Binder Collection Box - 5 Packs",
@@ -3557,7 +3561,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T03:23:36.529801+00:00",
-    "price": "65,00 €"
+    "price": "64,95 €"
   },
   "UK:B0G5FWJ8NL": {
     "name": "Pokémon TCG: Mega Charizard Tin",
