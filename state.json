@@ -797,7 +797,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "72,00 €"
   },
@@ -3547,5 +3547,12 @@
     "stock": null,
     "first_seen": "2026-09-24T03:03:05.279782+00:00",
     "price": "29,98 €"
+  },
+  "MM:184574546": {
+    "name": "Cartas - POKÉMON Pokémon TCG 30 Aniversario Blíster 2 Sobres Sorpresa",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T03:23:36.529801+00:00",
+    "price": "32,97 €"
   }
 }
