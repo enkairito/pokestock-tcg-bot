@@ -78,7 +78,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-25T20:27:54.285181+00:00",
-    "price": "65,98 €"
+    "price": "64,98 €"
   },
   "ES:B0G4NQK15P": {
     "name": "Pokémon: Minilata Megaevolución-Héroes Ascendentes: Clefairy y Chikorita (1 Pegatina, 1 Tarjeta Pokémon ilustrada y 2 Sobres de Mejora)",
@@ -1832,14 +1832,18 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-08T14:34:56.335876+00:00",
-    "price": "58,70 €"
+    "price": "58,70 €",
+    "pending_price": "59,54 €",
+    "pending_price_count": 1
   },
   "UK:B00TA6E3KI": {
     "name": "100 Assorted Basic Pokemon TCG Energy Cards",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-08T14:34:56.335882+00:00",
-    "price": "16,98 €"
+    "price": "16,98 €",
+    "pending_price": "17,09 €",
+    "pending_price_count": 1
   },
   "US:B0F1GXTFGL": {
     "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
@@ -2014,7 +2018,7 @@
     "stock": null,
     "first_seen": "2026-09-12T09:23:08.319159+00:00",
     "price": "73,29 €",
-    "pending_price": "79,30 €",
+    "pending_price": "74,11 €",
     "pending_price_count": 1
   },
   "UK:B0F6PGX3SQ": {
@@ -2940,9 +2944,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T15:23:27.918742+00:00",
-    "price": "97,21 €",
-    "pending_price": "102,32 €",
-    "pending_price_count": 1
+    "price": "102,32 €"
   },
   "UK:B0H2N248WM": {
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promoción exclusiva de Fennekin | 11 paquetes de refuerzo",
