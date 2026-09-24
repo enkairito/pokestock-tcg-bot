@@ -845,7 +845,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:25:08.666128+00:00",
-    "price": "588,61 €"
+    "price": "588,61 €",
+    "pending_price": "689,00 €",
+    "pending_price_count": 1
   },
   "ES:B01HF8V7SI": {
     "name": "Sony PlayStation 4 (PS4) 500 GB Consola - (Reacondicionado Certificado) - Chasis C",
@@ -1155,7 +1157,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:22:34.377710+00:00",
-    "price": "25,02 €"
+    "price": "23,46 €"
   },
   "ES:B0DPHGSSWH": {
     "name": "Fenolical Soporte Delgado para PS5/PS5 con Ventilador de Refrigeración Ajustable, Soporte de Cargador de Refrigeración Vertical PS5 para PS5/PS5 Slim, Estación de Refrigeración Delgada Multifuncional",
@@ -1530,7 +1532,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.714181+00:00",
-    "price": "566,70 €"
+    "price": "566,70 €",
+    "pending_price": "799,91 €",
+    "pending_price_count": 1
   },
   "ES:B0C9YS6H22": {
     "name": "2x cable de carga para mando PS4, cable de 2m para Playstation 4, Sony PS4, PS4 Slim, mandos Microsoft Xbox One, cable de carga micro USB, azul-negro",
@@ -1825,7 +1829,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.497942+00:00",
-    "price": "127,99 €"
+    "price": "126,99 €"
   },
   "ES:B084CJ2FPD": {
     "name": "Warborn",
@@ -2217,9 +2221,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499326+00:00",
-    "price": "14,99 €",
-    "pending_price": "16,99 €",
-    "pending_price_count": 1
+    "price": "16,99 €"
   },
   "ES:B0CJG319N6": {
     "name": "Tomb Raider Definitive Edition",
@@ -2296,7 +2298,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "25,03 €"
+    "price": "24,97 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2585,7 +2587,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500131+00:00",
-    "price": "10,71 €"
+    "price": "10,71 €",
+    "pending_price": "16,99 €",
+    "pending_price_count": 1
   },
   "ES:B0FH2S4S95": {
     "name": "Subsonic - Mando Inalámbrico para PS5 y PC - Verde Militar | Ergonómico, LED RGB Programables, Vibración, Panel Táctil, Palancas Programables para PlayStation 5 y PC",
@@ -2877,9 +2881,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566486+00:00",
-    "price": "27,87 €",
-    "pending_price": "27,88 €",
-    "pending_price_count": 1
+    "price": "27,88 €"
   },
   "ES:B07W7KWV2Y": {
     "name": "Logitech Brio 300 Full HD Webcam con Obturador de privacidad | Micrófono reducción ruido, USB-C, certificado Zoom/Teams/Google Meet, corrección de luz automática - Grafito",
@@ -3141,7 +3143,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:32:05.432903+00:00",
-    "price": "38,30 €"
+    "price": "38,11 €"
   },
   "ES:B0C5N7L6N1": {
     "name": "MORTAL KOMBAT 1 Standard Edition (PS5)",
