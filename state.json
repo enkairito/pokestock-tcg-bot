@@ -1983,10 +1983,10 @@
   },
   "ES:B0H8SXC5L9": {
     "name": "Pokémon: Colección con póster de Celebración 30.º Aniversario de JCC Pokémon (3 Cartas de promoción, 1 póster y 3 Sobres de Mejora)",
-    "status": "compra_directa",
-    "stock": "1",
+    "status": "invitacion",
+    "stock": null,
     "first_seen": "2026-09-09T13:28:17.096102+00:00",
-    "price": "32,95 €"
+    "price": "23,99 €"
   },
   "ES:B0H8SZX85C": {
     "name": "Pokémon: Colección con Pegatinas Especiales de Celebración 30.º Aniversario: Exeggutor de Alola de JCC Pokémon (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
@@ -3526,7 +3526,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T22:23:24.398027+00:00",
-    "price": "56,17 €"
+    "price": "56,17 €",
+    "pending_price": "56,94 €",
+    "pending_price_count": 1
   },
   "UK:B0GHJP1TDX": {
     "name": "Pokemon Scorching Skies CS3.5C | Chino simplificado | Booster Box | Más de 15 años",
