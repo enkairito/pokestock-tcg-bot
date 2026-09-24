@@ -762,9 +762,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644858+00:00",
-    "price": "77,48 €",
-    "pending_price": "78,57 €",
-    "pending_price_count": 1
+    "price": "78,57 €"
   },
   "US:B0DN98RVZM": {
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
@@ -797,7 +795,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "72,84 €"
   },
@@ -1313,7 +1311,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802653+00:00",
-    "price": "86,09 €"
+    "price": "86,09 €",
+    "pending_price": "86,25 €",
+    "pending_price_count": 1
   },
   "UK:B0CMZS84KP": {
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
@@ -1485,9 +1485,7 @@
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-09-04T21:32:58.802885+00:00",
-    "price": "98,39 €",
-    "pending_price": "99,85 €",
-    "pending_price_count": 1
+    "price": "99,85 €"
   },
   "US:B0G5S61BHK": {
     "name": "Pokémon TCG: Mega Charizard Tin - Mega Charizard X ex (4 potenciadores y 1 Tarjeta Promocional de Aluminio)",
@@ -2945,7 +2943,7 @@
   "UK:B0GNCGT9KK": {
     "name": "Pokemon: Pokemon TCG - Mega Zygarde EX - Premium Collection 2026 (TCG)",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "4",
     "first_seen": "2026-09-18T15:23:27.918742+00:00",
     "price": "102,32 €"
   },
