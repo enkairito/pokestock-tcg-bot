@@ -46,7 +46,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:09:04.551067+00:00",
-    "price": "69,63 €"
+    "price": "69,62 €"
   },
   "ES:B0CRY385YN": {
     "name": "One Piece TCG: Two Legends - Booster Box (OP-08) (JP) (TCG)",
@@ -203,7 +203,7 @@
   "ES:B0GDHHS7CR": {
     "name": "One Piece TCG - Juego de Lata Vol. 2-2 Paquetes (Arte al Azar)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-08-31T22:30:46.273546+00:00",
     "price": "102,80 €"
   },
