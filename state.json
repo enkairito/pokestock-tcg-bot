@@ -324,10 +324,9 @@
   },
   "ECI:A201235761": {
     "name": "Pack de tres sobres Megaevolucion Oscuridad Absoluta Pokémon JCC Bandai",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-08-25T20:27:54.285314+00:00",
-    "price": "19,99 €"
+    "first_seen": "2026-08-25T20:27:54.285314+00:00"
   },
   "ECI:A200971013": {
     "name": "Sobre cartas Pokémon Expansion Juntos de Aventuras Pokémon Bandai Modelos surtidos",
@@ -1632,7 +1631,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280869+00:00",
-    "price": "111,62 €"
+    "price": "111,61 €"
   },
   "UK:B0DG2XTYDP": {
     "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
