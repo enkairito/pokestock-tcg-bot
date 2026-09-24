@@ -716,9 +716,10 @@
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-08-30T20:46:19.644837+00:00"
+    "status": "compra_directa",
+    "stock": "2",
+    "first_seen": "2026-08-30T20:46:19.644837+00:00",
+    "price": "62,46 €"
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -795,9 +796,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
-    "price": "71,86 €",
-    "pending_price": "72,87 €",
-    "pending_price_count": 1
+    "price": "72,87 €"
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
@@ -1497,9 +1496,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802898+00:00",
-    "price": "104,25 €",
-    "pending_price": "105,73 €",
-    "pending_price_count": 1
+    "price": "105,73 €"
   },
   "US:B0C4D4R3H8": {
     "name": "Pokémon JCC: Estuche Courrousinge-ex",
@@ -1711,9 +1708,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "140,86 €",
-    "pending_price": "142,86 €",
-    "pending_price_count": 1
+    "price": "142,86 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
@@ -3589,5 +3584,12 @@
     "stock": null,
     "first_seen": "2026-09-24T10:43:18.146669+00:00",
     "price": "14,99 €"
+  },
+  "UK:B0DR25TJNN": {
+    "name": "Pokémon 2024 TCG World Championships Deck",
+    "status": "compra_directa",
+    "stock": "3",
+    "first_seen": "2026-09-24T13:43:07.693439+00:00",
+    "price": "46,27 €"
   }
 }
