@@ -1295,7 +1295,7 @@
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.318741+00:00",
     "price": "818,25 €",
-    "pending_price": "830,16 €",
+    "pending_price": "830,22 €",
     "pending_price_count": 1
   },
   "ES:B08FCXLB8Z": {
@@ -2207,7 +2207,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
-    "price": "24,40 €"
+    "price": "24,36 €"
   },
   "ES:B08HZKQDK1": {
     "name": "F1 2020 - Xbox One",
@@ -2354,9 +2354,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257436+00:00",
-    "price": "37,73 €",
-    "pending_price": "38,24 €",
-    "pending_price_count": 1
+    "price": "38,24 €"
   },
   "ES:B0B52191TF": {
     "name": "Cubierta de Filtro de Polvo para Series X Host, Cubierta de Filtro de Disipación de Calor Y Protección contra el Polvo con Soporte de Almacenamiento Retráctil VR(Negro)",
@@ -3780,7 +3778,7 @@
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579852+00:00",
     "price": "10,52 €",
-    "pending_price": "13,58 €",
+    "pending_price": "11,85 €",
     "pending_price_count": 1
   },
   "ES:B0C23V86YJ": {
@@ -3963,9 +3961,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:37.525052+00:00",
-    "price": "11,80 €",
-    "pending_price": "11,95 €",
-    "pending_price_count": 1
+    "price": "11,95 €"
   },
   "ES:B01F5D1MLC": {
     "name": "FIFA 17 - Standard Edition (Xbox One)",
@@ -4251,7 +4247,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T12:31:48.397282+00:00",
-    "price": "33,15 €"
+    "price": "33,02 €"
   },
   "ES:B00YTVNBDY": {
     "name": "Fallout 4 [Importación Francesa]",
