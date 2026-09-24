@@ -796,7 +796,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "4",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "72,00 €"
   },
@@ -810,7 +810,7 @@
   "US:B0GFZV1ZVV": {
     "name": "Pokémon TCG: Mega Evolution Order Elite Trainer Box",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-08-30T20:46:19.644915+00:00",
     "price": "105,94 €"
   },
@@ -1630,7 +1630,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280869+00:00",
-    "price": "111,68 €"
+    "price": "111,65 €"
   },
   "UK:B0DG2XTYDP": {
     "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
