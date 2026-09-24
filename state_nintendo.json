@@ -35,7 +35,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.362342+00:00",
-    "price": "18,16 €"
+    "price": "18,16 €",
+    "pending_price": "19,04 €",
+    "pending_price_count": 1
   },
   "ES:B0FQWHWWSG": {
     "name": "Metroid Prime 4: Beyond - Switch",
@@ -265,9 +267,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912091+00:00",
-    "price": "70,00 €",
-    "pending_price": "74,99 €",
-    "pending_price_count": 1
+    "price": "70,00 €"
   },
   "ES:B07VFTVVWX": {
     "name": "Nintendo Switch Joy-Con-Controller, links blau/rechts, neongelb [Videospiel]",
@@ -736,9 +736,10 @@
   },
   "ES:B0HJ91G9GH": {
     "name": "Zelda Ocarina Of Time - Nintendo Switch 2",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-12T06:29:23.379261+00:00"
+    "first_seen": "2026-09-12T06:29:23.379261+00:00",
+    "price": "59,90 €"
   },
   "ES:B0FTG4DGK7": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Fuegos Fantasmales de JCC Pokémon (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -2214,7 +2215,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689198+00:00",
-    "price": "53,99 €"
+    "price": "53,99 €",
+    "pending_price": "55,99 €",
+    "pending_price_count": 1
   },
   "ES:B07DDSHSF1": {
     "name": "Pokémon: Let's Go, Pikachu!",
@@ -3515,7 +3518,7 @@
     "stock": null,
     "first_seen": "2026-09-19T14:32:21.853938+00:00",
     "price": "56,40 €",
-    "pending_price": "56,89 €",
+    "pending_price": "57,51 €",
     "pending_price_count": 1
   },
   "ES:B09Z3KWD55": {
@@ -3768,7 +3771,7 @@
     "stock": null,
     "first_seen": "2026-09-23T12:32:07.776007+00:00",
     "price": "21,70 €",
-    "pending_price": "27,02 €",
+    "pending_price": "26,77 €",
     "pending_price_count": 1
   },
   "ES:B0CWV767JV": {
