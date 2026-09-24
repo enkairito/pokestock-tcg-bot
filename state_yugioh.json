@@ -2,7 +2,7 @@
   "ES:B0G6FLRDDN": {
     "name": "Yu-Gi-Oh! Rarity Collection V 3-Pack Booster (Versión en español)",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": null,
     "first_seen": "2026-09-07T17:41:03.832697+00:00",
     "price": "19,99 €"
   },
@@ -36,7 +36,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:41:03.967973+00:00",
-    "price": "12,99 €"
+    "price": "12,99 €",
+    "pending_price": "13,49 €",
+    "pending_price_count": 1
   },
   "ES:B0GBWYQKKV": {
     "name": "Yu-Gi-Oh! Dominio Abrasador Display (24) (Versión en español)",
@@ -83,7 +85,7 @@
   "ES:B0FTM57WTW": {
     "name": "Yu-Gi-Oh! JCC EL DECK DE LAS CRÓNICAS: Encantadoras de Espíritus (Edición All-Foil) (Versión en español)",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "5",
     "first_seen": "2026-09-07T17:41:46.061595+00:00",
     "price": "19,99 €"
   },
@@ -134,7 +136,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:42:27.815808+00:00",
-    "price": "57,79 €"
+    "price": "57,79 €",
+    "pending_price": "57,94 €",
+    "pending_price_count": 1
   },
   "ES:B0F4XZHYDY": {
     "name": "Yu-Gi-Oh! Lata Mega-Pack 2025",
@@ -209,8 +213,8 @@
   "ES:B0F8NRC5WT": {
     "name": "Yu-Gi-Oh! Chronicles:Fallen & Virtuous Card Sleeves(50)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "1",
     "first_seen": "2026-09-10T11:45:06.861286+00:00",
-    "price": "11,24 €"
+    "price": "10,58 €"
   }
 }
