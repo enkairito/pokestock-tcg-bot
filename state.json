@@ -724,10 +724,9 @@
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-08-30T20:46:19.644840+00:00",
-    "price": "250,98 €"
+    "first_seen": "2026-08-30T20:46:19.644840+00:00"
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
@@ -795,7 +794,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "72,87 €"
   },
@@ -3514,7 +3513,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T16:43:24.705683+00:00",
-    "price": "72,96 €"
+    "price": "72,91 €"
   },
   "UK:B0FXVLH7QM": {
     "name": "Pokemon TCG: 1 Tarjeta Pokemon de Grado Aleatorio (Beckett, PSA o CGC), Grado 8 o Superior (inglés o japonés)",
