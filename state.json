@@ -796,7 +796,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "5",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "72,00 €"
   },
@@ -1609,7 +1609,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "118,16 €"
+    "price": "118,14 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -3510,9 +3510,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T16:43:24.705683+00:00",
-    "price": "69,08 €",
-    "pending_price": "73,21 €",
-    "pending_price_count": 1
+    "price": "73,21 €"
   },
   "UK:B0FXVLH7QM": {
     "name": "Pokemon TCG: 1 Tarjeta Pokemon de Grado Aleatorio (Beckett, PSA o CGC), Grado 8 o Superior (inglés o japonés)",
@@ -3540,6 +3538,8 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T23:03:45.412933+00:00",
-    "price": "200,42 €"
+    "price": "200,42 €",
+    "pending_price": "212,45 €",
+    "pending_price_count": 1
   }
 }
