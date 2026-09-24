@@ -1323,9 +1323,10 @@
   },
   "UK:B0GWK631XY": {
     "name": "Pokémon TCG: Mega Moonlit Tin - Mega Gengar ex (4 potenciadores y 1 tarjeta promocional de aluminio)",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-09-04T21:32:58.802667+00:00"
+    "status": "compra_directa",
+    "stock": "1",
+    "first_seen": "2026-09-04T21:32:58.802667+00:00",
+    "price": "76,50 €"
   },
   "UK:B0CT4HR8F9": {
     "name": "Pokémon - Juego de cartas Scarlet & Violet Night Wanderer, caja de sobres de expansión, 30 sobres (versión japonesa)",
