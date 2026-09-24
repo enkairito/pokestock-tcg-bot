@@ -104,7 +104,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:18:12.685892+00:00",
-    "price": "217,41 €"
+    "price": "195,99 €"
   },
   "ES:B0D98BDG3S": {
     "name": "EA SPORTS FC 25 Standard Edition PS4 | Videojuegos | Castellano",
@@ -258,7 +258,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "84,99 €"
+    "price": "84,99 €",
+    "pending_price": "99,00 €",
+    "pending_price_count": 1
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -310,14 +312,18 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018808+00:00",
-    "price": "18,98 €"
+    "price": "18,98 €",
+    "pending_price": "25,12 €",
+    "pending_price_count": 1
   },
   "ES:B09KTGP5C2": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition, PlayStation 4",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018821+00:00",
-    "price": "25,99 €"
+    "price": "25,99 €",
+    "pending_price": "33,98 €",
+    "pending_price_count": 1
   },
   "ES:B07HNR4ZZD": {
     "name": "Sony PlayStation 4 Slim 500 Go, Avec 1 manette sans fil DUALSHOCK 4 V2, Châssis F, Noir (Jet Black) [Importación francesa]",
@@ -708,9 +714,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T12:27:13.469347+00:00",
-    "price": "19,59 €",
-    "pending_price": "28,52 €",
-    "pending_price_count": 1
+    "price": "28,52 €"
   },
   "ES:B0D571R8PK": {
     "name": "Volante y Pedales Hori RWA con licencia Sony PlayStation 4/5 [Nuevo modelo compatible con PS4/PS5] + Gran Turismo 7 [Playstation 5]",
@@ -1099,9 +1103,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T18:20:21.671515+00:00",
-    "price": "689,00 €",
-    "pending_price": "829,00 €",
-    "pending_price_count": 1
+    "price": "829,00 €"
   },
   "ES:B0C74Q2GWX": {
     "name": "The Crew Motorfest Limited Edition (Exclusivo Amazon) (PS4)",
@@ -2107,7 +2109,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498742+00:00",
-    "price": "23,49 €"
+    "price": "23,49 €",
+    "pending_price": "34,23 €",
+    "pending_price_count": 1
   },
   "ES:B097B1ZJ5T": {
     "name": "Nintendo Game & Watch: The Legend of Zelda",
@@ -2296,7 +2300,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "24,99 €"
+    "price": "24,99 €",
+    "pending_price": "25,39 €",
+    "pending_price_count": 1
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2877,7 +2883,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566486+00:00",
-    "price": "28,18 €"
+    "price": "28,17 €"
   },
   "ES:B07W7KWV2Y": {
     "name": "Logitech Brio 300 Full HD Webcam con Obturador de privacidad | Micrófono reducción ruido, USB-C, certificado Zoom/Teams/Google Meet, corrección de luz automática - Grafito",
@@ -3696,7 +3702,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:43.341318+00:00",
-    "price": "19,99 €"
+    "price": "8,23 €"
   },
   "ES:B07XYKD82Y": {
     "name": "Gang Beasts",
@@ -3850,9 +3856,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T12:32:02.399563+00:00",
-    "price": "22,82 €",
-    "pending_price": "22,83 €",
-    "pending_price_count": 1
+    "price": "22,82 €"
   },
   "ES:B01M6578D4": {
     "name": "Resident Evil 6",
