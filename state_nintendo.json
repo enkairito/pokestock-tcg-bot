@@ -265,7 +265,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912091+00:00",
-    "price": "70,00 €"
+    "price": "70,00 €",
+    "pending_price": "74,99 €",
+    "pending_price_count": 1
   },
   "ES:B07VFTVVWX": {
     "name": "Nintendo Switch Joy-Con-Controller, links blau/rechts, neongelb [Videospiel]",
@@ -734,10 +736,9 @@
   },
   "ES:B0HJ91G9GH": {
     "name": "Zelda Ocarina Of Time - Nintendo Switch 2",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-12T06:29:23.379261+00:00",
-    "price": "59,90 €"
+    "first_seen": "2026-09-12T06:29:23.379261+00:00"
   },
   "ES:B0FTG4DGK7": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Fuegos Fantasmales de JCC Pokémon (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -1766,9 +1767,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688262+00:00",
-    "price": "83,65 €",
-    "pending_price": "85,00 €",
-    "pending_price_count": 1
+    "price": "85,00 €"
   },
   "ES:B0GY5GY45X": {
     "name": "Splatoon Raiders",
@@ -2145,9 +2144,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688994+00:00",
-    "price": "183,00 €",
-    "pending_price": "239,99 €",
-    "pending_price_count": 1
+    "price": "239,99 €"
   },
   "ES:B0CMDHWDP9": {
     "name": "Consola Switch - Color Azul Neón/Rojo Neón + Super Mario Bros. Wonder + Mario Kart 8 Deluxe",
