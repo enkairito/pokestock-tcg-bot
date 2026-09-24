@@ -1707,7 +1707,7 @@
   "US:B0F6PMVQWQ": {
     "name": "Pokémon TCG Scarlet & Violet 10.5 Black Bolt Booster Set",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
     "price": "140,86 €"
   },
