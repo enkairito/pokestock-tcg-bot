@@ -1013,7 +1013,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T23:03:24.893535+00:00",
-    "price": "78,87 €"
+    "price": "78,87 €",
+    "pending_price": "79,97 €",
+    "pending_price_count": 1
   },
   "ES:B0D6WLDCZF": {
     "name": "BANDAI PC50533 Pokémon TCG: Back to School Collector's Chest, Multicolor, Collectible for Anime Lovers, Spanish Version",
@@ -1516,9 +1518,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802915+00:00",
-    "price": "53,35 €",
-    "pending_price": "54,07 €",
-    "pending_price_count": 1
+    "price": "54,07 €"
   },
   "US:B0D1RKJM6K": {
     "name": "Pokemon TCG: Scarlet & Violet - Paquete de refuerzo de destinos paldeanos",
