@@ -23,7 +23,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388298+00:00",
-    "price": "1074,60 €"
+    "price": "1070,00 €"
   },
   "ES:B0H9SKZKGV": {
     "name": "Pokémon: Lata Megapotencia: Mega-Dragonite ex de JCC Pokémon (4 Sobres de Mejora y 1 Carta holográfica de promoción)",
@@ -504,7 +504,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "211,88 €"
+    "price": "149,99 €"
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -554,9 +554,9 @@
   "ES:B08N3J9D55": {
     "name": "Mass Effect Legendary Edition [GRA XBOX ONE]",
     "status": "compra_directa",
-    "stock": "3",
-    "price": "26,99 €",
-    "first_seen": "2026-09-12T00:28:11.204371+00:00"
+    "stock": null,
+    "first_seen": "2026-09-12T00:28:11.204371+00:00",
+    "price": "26,99 €"
   },
   "ES:B09C92RJN7": {
     "name": "Xbox Cascos Stereo Series X|S",
@@ -806,9 +806,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:26:21.308767+00:00",
-    "price": "29,99 €",
-    "pending_price": "46,42 €",
-    "pending_price_count": 1
+    "price": "46,42 €"
   },
   "ES:B0C7RGHKZ5": {
     "name": "Sonic Superstars (Xbox Series X) (Includes Comic Style Character Skins - Exclusive to Amazon.co.uk)",
@@ -850,9 +848,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:21:08.267481+00:00",
-    "price": "45,37 €",
-    "pending_price": "45,48 €",
-    "pending_price_count": 1
+    "price": "45,48 €"
   },
   "ES:B0FNY6N6XB": {
     "name": "BATTLEFIELD 6 Standard Edition | Xbox Series X|S - Código de descarga",
@@ -1257,9 +1253,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.017964+00:00",
-    "price": "139,49 €",
-    "pending_price": "145,00 €",
-    "pending_price_count": 1
+    "price": "145,00 €"
   },
   "ES:B07252FGBF": {
     "name": "Xbox One X - Consola 4K HDR [Importación Italiana]",
@@ -1300,7 +1294,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.318741+00:00",
-    "price": "818,25 €"
+    "price": "818,25 €",
+    "pending_price": "830,16 €",
+    "pending_price_count": 1
   },
   "ES:B08FCXLB8Z": {
     "name": "Xbox Play y Kit de Carga USB",
@@ -2211,9 +2207,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
-    "price": "24,52 €",
-    "pending_price": "24,72 €",
-    "pending_price_count": 1
+    "price": "24,40 €"
   },
   "ES:B08HZKQDK1": {
     "name": "F1 2020 - Xbox One",
@@ -2360,7 +2354,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257436+00:00",
-    "price": "37,73 €"
+    "price": "37,73 €",
+    "pending_price": "38,24 €",
+    "pending_price_count": 1
   },
   "ES:B0B52191TF": {
     "name": "Cubierta de Filtro de Polvo para Series X Host, Cubierta de Filtro de Disipación de Calor Y Protección contra el Polvo con Soporte de Almacenamiento Retráctil VR(Negro)",
@@ -3784,7 +3780,7 @@
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579852+00:00",
     "price": "10,52 €",
-    "pending_price": "11,85 €",
+    "pending_price": "13,58 €",
     "pending_price_count": 1
   },
   "ES:B0C23V86YJ": {
@@ -3967,7 +3963,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:37.525052+00:00",
-    "price": "11,80 €"
+    "price": "11,80 €",
+    "pending_price": "11,95 €",
+    "pending_price_count": 1
   },
   "ES:B01F5D1MLC": {
     "name": "FIFA 17 - Standard Edition (Xbox One)",
@@ -4484,5 +4482,88 @@
     "stock": null,
     "first_seen": "2026-09-24T12:31:36.578698+00:00",
     "price": "64,99 €"
+  },
+  "ES:B07GPK7RML": {
+    "name": "Metro Exodus - Edition Limitée Aurora [Importación francesa]",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-24T14:31:53.226329+00:00"
+  },
+  "ES:B0H5WS37RG": {
+    "name": "Hellraiser Revival Day One Edition - XSRX",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T14:31:53.505285+00:00",
+    "price": "39,90 €"
+  },
+  "ES:B0H6XVMH39": {
+    "name": "Dragon's Dogma 2 Dark Arisen - XSRX",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T14:31:53.505307+00:00",
+    "price": "44,99 €"
+  },
+  "ES:B07QQGJHD3": {
+    "name": "Star Wars Jedi: Fallen Order - Xbox One [Importación inglesa]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T14:31:53.505508+00:00",
+    "price": "20,25 €"
+  },
+  "ES:B09867DNJ9": {
+    "name": "DEMON SLAYER HINOKAMI.XONE/XSX",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T14:31:53.505567+00:00",
+    "price": "23,38 €"
+  },
+  "ES:B0792TNQ7X": {
+    "name": "Assassin's Creed Rogue Remastered - Xbox One [Importación inglesa]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T14:31:53.505577+00:00",
+    "price": "24,84 €"
+  },
+  "ES:B071JM1XZB": {
+    "name": "Darksiders III - Xbox one",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T14:31:53.505587+00:00",
+    "price": "12,12 €"
+  },
+  "ES:B096WCYKP6": {
+    "name": "Sonic Colours Ultimate with Baby Sonic Keychain (Exclusive to Amazon.co.UK) (Xbox One)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T14:31:53.505595+00:00",
+    "price": "34,88 €"
+  },
+  "ES:B082T7RXL1": {
+    "name": "My Hero : One's Justice 2 pour Xbox One - Xbox One [Importación francesa]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T14:31:53.505603+00:00",
+    "price": "14,49 €"
+  },
+  "ES:B016R85ECW": {
+    "name": "Far Cry Primal [Importación Francesa]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T14:31:53.505612+00:00",
+    "price": "21,00 €"
+  },
+  "ES:B07DKGXHKW": {
+    "name": "Wolfenstein Younglood - Xbox One [Importación inglesa]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T14:31:53.505619+00:00",
+    "price": "15,05 €"
+  },
+  "ES:B09GYGQHL4": {
+    "name": "Farming Simulator 22 (Xbox One) (Xbox One)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T14:31:53.505744+00:00",
+    "price": "23,98 €"
   }
 }
