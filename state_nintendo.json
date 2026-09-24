@@ -265,7 +265,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912091+00:00",
-    "price": "74,99 €"
+    "price": "70,00 €"
   },
   "ES:B07VFTVVWX": {
     "name": "Nintendo Switch Joy-Con-Controller, links blau/rechts, neongelb [Videospiel]",
@@ -734,9 +734,10 @@
   },
   "ES:B0HJ91G9GH": {
     "name": "Zelda Ocarina Of Time - Nintendo Switch 2",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-12T06:29:23.379261+00:00"
+    "first_seen": "2026-09-12T06:29:23.379261+00:00",
+    "price": "59,90 €"
   },
   "ES:B0FTG4DGK7": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Fuegos Fantasmales de JCC Pokémon (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -2177,9 +2178,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689099+00:00",
-    "price": "56,99 €",
-    "pending_price": "57,90 €",
-    "pending_price_count": 1
+    "price": "57,90 €"
   },
   "ES:B07NQR3LKW": {
     "name": "The Legend of Zelda Links Awakening Remake",
@@ -3507,7 +3506,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T14:32:21.853903+00:00",
-    "price": "32,73 €"
+    "price": "32,73 €",
+    "pending_price": "34,68 €",
+    "pending_price_count": 1
   },
   "ES:B0FGD7H94C": {
     "name": "Let's Sing 2026 ESP V.+2 Mics Switch ESP",
