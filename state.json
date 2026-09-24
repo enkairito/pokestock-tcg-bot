@@ -280,9 +280,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-08-25T20:27:15.542170+00:00",
-    "price": "45,09 €",
-    "pending_price": "45,10 €",
-    "pending_price_count": 1
+    "price": "45,09 €"
   },
   "ES:B0FXTY9D99": {
     "name": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Caos Creciente (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
@@ -713,9 +711,10 @@
   },
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-08-30T20:46:19.644833+00:00"
+    "status": "compra_directa",
+    "stock": "1",
+    "first_seen": "2026-08-30T20:46:19.644833+00:00",
+    "price": "59,22 €"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
@@ -726,9 +725,10 @@
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-08-30T20:46:19.644840+00:00"
+    "first_seen": "2026-08-30T20:46:19.644840+00:00",
+    "price": "254,62 €"
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
@@ -1491,9 +1491,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-04T21:32:58.802892+00:00",
-    "price": "82,03 €",
-    "pending_price": "83,18 €",
-    "pending_price_count": 1
+    "price": "83,18 €"
   },
   "US:B0F6PQLR16": {
     "name": "Pokemon TCG Scarlet & Violet 10.5 White Flare Binder Collection Box - 5 Packs",
@@ -1614,7 +1612,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "122,23 €"
+    "price": "122,21 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -1698,7 +1696,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T20:58:26.290849+00:00",
-    "price": "70,36 €"
+    "price": "70,36 €",
+    "pending_price": "71,34 €",
+    "pending_price_count": 1
   },
   "UK:B0CGCYNCR5": {
     "name": "Pokemon - SV Paradox Rift - Booster Box 36 pcs (POK85399)",
@@ -1716,10 +1716,9 @@
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-06T13:57:50.628764+00:00",
-    "price": "21,65 €"
+    "first_seen": "2026-09-06T13:57:50.628764+00:00"
   },
   "UK:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
@@ -2411,7 +2410,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-16T18:43:05.692265+00:00",
-    "price": "84,16 €"
+    "price": "81,32 €"
   },
   "TRU:K1105105": {
     "name": "Pokémon - Escarlata y Púrpura: Rivales Predestinados - Sobre de Mejora - Español (Varios modelos)",
@@ -2944,7 +2943,7 @@
   "UK:B0GNCGT9KK": {
     "name": "Pokemon: Pokemon TCG - Mega Zygarde EX - Premium Collection 2026 (TCG)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "4",
     "first_seen": "2026-09-18T15:23:27.918742+00:00",
     "price": "102,32 €"
   },
