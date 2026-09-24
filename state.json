@@ -359,9 +359,10 @@
   },
   "ECI:A200805922": {
     "name": "Caja Colección Premium Mega-Zygarde EX JCC Pokémon Bandai",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-08-25T20:27:54.285327+00:00"
+    "first_seen": "2026-08-25T20:27:54.285327+00:00",
+    "price": "59,99 €"
   },
   "ECI:A200971009": {
     "name": "Sobres Cartas Pokémon. Expansión Evoluciones En Paldea Pokémon Bandai modelos surtidos",
@@ -1537,7 +1538,7 @@
   "US:B0DVC187SP": {
     "name": "Pokemon TCG Scarlet & Violet Journey Together: Pack de 3 Booster Blister",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-09-04T21:32:58.802930+00:00",
     "price": "49,84 €"
   },
@@ -3539,5 +3540,12 @@
     "stock": null,
     "first_seen": "2026-09-23T23:03:45.412933+00:00",
     "price": "212,45 €"
+  },
+  "US:B0DC651JYB": {
+    "name": "Pokémon TCG: ex Battle Deck (Tapu Koko ex OR Iron Leaves ex)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T03:03:05.279782+00:00",
+    "price": "29,98 €"
   }
 }
