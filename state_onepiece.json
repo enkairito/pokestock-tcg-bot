@@ -46,9 +46,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:09:04.551067+00:00",
-    "price": "69,62 €",
-    "pending_price": "69,63 €",
-    "pending_price_count": 1
+    "price": "69,63 €"
   },
   "ES:B0CRY385YN": {
     "name": "One Piece TCG: Two Legends - Booster Box (OP-08) (JP) (TCG)",
@@ -296,17 +294,13 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T07:06:05.028651+00:00",
-    "price": "115,64 €",
-    "pending_price": "117,49 €",
-    "pending_price_count": 1
+    "price": "117,49 €"
   },
   "ES:B0H6CBCB3B": {
     "name": "The Time of Battle OP-16 - Juego de cartas coleccionables de una sola pieza DP-11",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T10:06:21.592603+00:00",
-    "price": "162,78 €",
-    "pending_price": "166,72 €",
-    "pending_price_count": 1
+    "price": "166,72 €"
   }
 }
