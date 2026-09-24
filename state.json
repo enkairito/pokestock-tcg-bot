@@ -1429,7 +1429,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802807+00:00",
-    "price": "32,48 €"
+    "price": "32,48 €",
+    "pending_price": "32,50 €",
+    "pending_price_count": 1
   },
   "UK:B0BJ7F5RNY": {
     "name": "Pokémon- Deoxys (60 Cards, Ready to Play) Baraja de Batalla V, Multicolor, zeraora (699-17149)",
@@ -1447,9 +1449,10 @@
   },
   "US:B0F2BCG1Y5": {
     "name": "Pokémon TCG: Scarlet & Violet—Destined Rivals Booster Bundle (6 Booster Packs)",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-09-04T21:32:58.802829+00:00"
+    "status": "compra_directa",
+    "stock": "2",
+    "first_seen": "2026-09-04T21:32:58.802829+00:00",
+    "price": "103,95 €"
   },
   "US:B0G3CS6XB9": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Premium Poster Collection—Mega Lucario (1 Tarjeta Promocional de Aluminio, 1 póster de Doble Cara y 10 Paquetes de Refuerzo)",
@@ -1706,7 +1709,7 @@
   "US:B0F6PMVQWQ": {
     "name": "Pokémon TCG Scarlet & Violet 10.5 Black Bolt Booster Set",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
     "price": "140,86 €"
   },
@@ -3569,7 +3572,9 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-24T09:23:31.922756+00:00",
-    "price": "49,72 €"
+    "price": "49,72 €",
+    "pending_price": "53,47 €",
+    "pending_price_count": 1
   },
   "US:B0DSSSRQVZ": {
     "name": "Pokemon TCG: Scarlet & Violet—Journey Together Enhanced Booster Display Box (36 Packs)",
