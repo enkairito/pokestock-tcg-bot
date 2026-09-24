@@ -1841,7 +1841,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-08T14:34:56.335882+00:00",
-    "price": "17,05 €"
+    "price": "16,87 €"
   },
   "US:B0F1GXTFGL": {
     "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
@@ -1958,10 +1958,10 @@
   },
   "ES:B0H8SWNVWT": {
     "name": "Pokémon: Colección Sylveon ex de Celebración 30.º Aniversario de JCC Pokémon (1 Carta holográfica de promoción, 1 Carta holográfica de Gran tamaño y 4 Sobres de Mejora)",
-    "status": "compra_directa",
-    "stock": "2",
+    "status": "invitacion",
+    "stock": null,
     "first_seen": "2026-09-09T13:27:52.661446+00:00",
-    "price": "32,95 €"
+    "price": "24,99 €"
   },
   "ES:B0H8SY1NB9": {
     "name": "Pokémon: Colección Greninja ex de Celebración 30.º Aniversario de JCC Pokémon (1 Carta holográfica de promoción, 1 Carta holográfica de Gran tamaño y 4 Sobres de Mejora)",
@@ -3578,7 +3578,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T09:23:31.922784+00:00",
-    "price": "325,47 €"
+    "price": "325,47 €",
+    "pending_price": "330,20 €",
+    "pending_price_count": 1
   },
   "ECI:A200804709": {
     "name": "Mini Lata Megaevolucion Caos Creciente JCC Pokémon Bandai Modelos surtidos",
