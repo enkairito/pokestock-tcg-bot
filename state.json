@@ -1880,9 +1880,11 @@
   "US:B0F67LMLFY": {
     "name": "Pokemon TCG: Scarlet & Violet Azure Legends Tin - Xerneas ex (5 Packs)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "2",
+    "first_seen": "2026-09-08T14:34:56.335933+00:00",
     "price": "90,69 €",
-    "first_seen": "2026-09-08T14:34:56.335933+00:00"
+    "pending_price": "91,67 €",
+    "pending_price_count": 1
   },
   "US:B08DVCNV3W": {
     "name": "Pokemon Sword and Shield Darkness Ablaze Booster Pack (1 Booster Pack)",
