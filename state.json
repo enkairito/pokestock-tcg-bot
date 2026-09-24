@@ -715,9 +715,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
-    "price": "59,29 €",
-    "pending_price": "59,30 €",
-    "pending_price_count": 1
+    "price": "59,30 €"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
@@ -799,7 +797,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "72,00 €"
   },
@@ -2942,9 +2940,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T15:23:27.918742+00:00",
-    "price": "97,18 €",
-    "pending_price": "97,21 €",
-    "pending_price_count": 1
+    "price": "97,21 €"
   },
   "UK:B0H2N248WM": {
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promoción exclusiva de Fennekin | 11 paquetes de refuerzo",
