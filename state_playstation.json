@@ -711,7 +711,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T12:27:13.469347+00:00",
-    "price": "28,52 €"
+    "price": "19,94 €"
   },
   "ES:B0D571R8PK": {
     "name": "Volante y Pedales Hori RWA con licencia Sony PlayStation 4/5 [Nuevo modelo compatible con PS4/PS5] + Gran Turismo 7 [Playstation 5]",
@@ -887,7 +887,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:25:09.102575+00:00",
-    "price": "34,09 €"
+    "price": "33,90 €"
   },
   "ES:B098GSZ4Q9": {
     "name": "Streets of Rage 4. Anniversary Edition - Playstation 4",
@@ -1874,9 +1874,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498076+00:00",
-    "price": "31,47 €",
-    "pending_price": "32,39 €",
-    "pending_price_count": 1
+    "price": "32,39 €"
   },
   "ES:B09KCP7BS8": {
     "name": "Autobahn Police Simulator 2 (Nintendo Switch)",
@@ -2219,7 +2217,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499326+00:00",
-    "price": "14,99 €"
+    "price": "14,99 €",
+    "pending_price": "16,99 €",
+    "pending_price_count": 1
   },
   "ES:B0CJG319N6": {
     "name": "Tomb Raider Definitive Edition",
@@ -2296,7 +2296,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "25,15 €"
+    "price": "25,03 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2877,7 +2877,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566486+00:00",
-    "price": "27,87 €"
+    "price": "27,87 €",
+    "pending_price": "27,88 €",
+    "pending_price_count": 1
   },
   "ES:B07W7KWV2Y": {
     "name": "Logitech Brio 300 Full HD Webcam con Obturador de privacidad | Micrófono reducción ruido, USB-C, certificado Zoom/Teams/Google Meet, corrección de luz automática - Grafito",
@@ -3079,7 +3081,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T15:58:54.214922+00:00",
-    "price": "43,46 €"
+    "price": "43,46 €",
+    "pending_price": "45,56 €",
+    "pending_price_count": 1
   },
   "ES:B0CK4K7FMX": {
     "name": "Rebirth - Greatest Hits (Ltd. Gold 2lp)",
@@ -3950,7 +3954,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T12:31:51.828132+00:00",
-    "price": "26,67 €"
+    "price": "26,62 €"
   },
   "ES:B0FNR2YPLP": {
     "name": "LATEC Mando para PS4, Mando Inalámbrico PS4 con Bluetooth, 2 Botones de Programación Macro, 6-Axis Sensor Giroscópico, Doble Vibración, Panel Táctil, Rosa",
@@ -3993,5 +3997,33 @@
     "stock": null,
     "first_seen": "2026-09-24T16:31:35.359669+00:00",
     "price": "79,99 €"
+  },
+  "ES:B00YY00FLG": {
+    "name": "Assassin's Creed Syndicate [Importación Italiana]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T18:32:02.970502+00:00",
+    "price": "20,63 €"
+  },
+  "ES:B0CB6VXYDQ": {
+    "name": "EA SPORTS FC 24 Standard Edition PS4 | Videojuegos | Castellano",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T18:32:02.970554+00:00",
+    "price": "21,36 €"
+  },
+  "ES:B07Z5KJGQT": {
+    "name": "Ps4 Overcooked! + Overcooked! 2 - Double Pack",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T18:32:02.970614+00:00",
+    "price": "23,32 €"
+  },
+  "ES:B07FDKXD85": {
+    "name": "Yakuza Zero - Edición Estándar",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T18:32:02.970641+00:00",
+    "price": "20,11 €"
   }
 }
