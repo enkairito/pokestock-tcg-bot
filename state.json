@@ -710,10 +710,9 @@
   },
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
-    "status": "compra_directa",
-    "stock": "1",
-    "first_seen": "2026-08-30T20:46:19.644833+00:00",
-    "price": "57,38 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-30T20:46:19.644833+00:00"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
@@ -724,9 +723,10 @@
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-08-30T20:46:19.644840+00:00"
+    "first_seen": "2026-08-30T20:46:19.644840+00:00",
+    "price": "250,98 €"
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
@@ -1013,9 +1013,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T23:03:24.893535+00:00",
-    "price": "78,17 €",
-    "pending_price": "78,87 €",
-    "pending_price_count": 1
+    "price": "78,87 €"
   },
   "ES:B0D6WLDCZF": {
     "name": "BANDAI PC50533 Pokémon TCG: Back to School Collector's Chest, Multicolor, Collectible for Anime Lovers, Spanish Version",
@@ -1448,7 +1446,7 @@
   "US:B0F2BCG1Y5": {
     "name": "Pokémon TCG: Scarlet & Violet—Destined Rivals Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802829+00:00",
     "price": "103,95 €"
   },
@@ -2017,7 +2015,7 @@
     "stock": null,
     "first_seen": "2026-09-12T09:23:08.319159+00:00",
     "price": "73,29 €",
-    "pending_price": "74,11 €",
+    "pending_price": "79,57 €",
     "pending_price_count": 1
   },
   "UK:B0F6PGX3SQ": {
