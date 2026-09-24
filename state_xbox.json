@@ -128,9 +128,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388338+00:00",
-    "price": "48,22 €",
-    "pending_price": "49,99 €",
-    "pending_price_count": 1
+    "price": "49,99 €"
   },
   "ES:B08KVH51VX": {
     "name": "NEED FOR SPEED HOT PURSUIT REMASTERED",
@@ -234,9 +232,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811447+00:00",
-    "price": "41,71 €",
-    "pending_price": "45,02 €",
-    "pending_price_count": 1
+    "price": "45,02 €"
   },
   "ES:B07C8MRZFS": {
     "name": "Tom Clancy's The Division 2 (Xbox One) [Importación Inglesa] - Juegos en Español",
@@ -508,7 +504,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "149,99 €"
+    "price": "149,99 €",
+    "pending_price": "211,88 €",
+    "pending_price_count": 1
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -996,7 +994,7 @@
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
     "price": "34,49 €",
-    "pending_price": "35,32 €",
+    "pending_price": "35,95 €",
     "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
@@ -1286,7 +1284,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.017973+00:00",
-    "price": "166,49 €"
+    "price": "166,49 €",
+    "pending_price": "209,00 €",
+    "pending_price_count": 1
   },
   "ES:B01M5CZKW6": {
     "name": "Konsole Xbox One S 500 Gb Weiß",
@@ -1770,9 +1770,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256162+00:00",
-    "price": "17,40 €",
-    "pending_price": "17,70 €",
-    "pending_price_count": 1
+    "price": "17,70 €"
   },
   "ES:B0DN1PM22S": {
     "name": "Genérico Medallas de Bronce Oro Plata,Medallas para Niños,Medallas de Oro Ligeras para niños Medallas de al Ganador - Medallas del Cuadro de portátil Trofeo Presente para niños y Adolescentes",
@@ -1834,16 +1832,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256320+00:00",
-    "price": "25,95 €"
+    "price": "24,58 €"
   },
   "ES:B0BJV1V458": {
     "name": "Resident Evil 4 for PlayStation 4",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256329+00:00",
-    "price": "24,98 €",
-    "pending_price": "25,02 €",
-    "pending_price_count": 1
+    "price": "25,02 €"
   },
   "ES:B0H4QL9XMT": {
     "name": "Persona 4 Revival - XSRX",
@@ -1857,7 +1853,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256348+00:00",
-    "price": "71,99 €"
+    "price": "71,99 €",
+    "pending_price": "84,90 €",
+    "pending_price_count": 1
   },
   "ES:B0F947WN6P": {
     "name": "Orcs Must Die! Deathtrap - Xbox Series X",
@@ -2214,7 +2212,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
-    "price": "24,60 €"
+    "price": "24,52 €"
   },
   "ES:B08HZKQDK1": {
     "name": "F1 2020 - Xbox One",
@@ -2347,9 +2345,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257428+00:00",
-    "price": "47,65 €",
-    "pending_price": "47,66 €",
-    "pending_price_count": 1
+    "price": "47,66 €"
   },
   "ES:B0C52X3QXG": {
     "name": "playvital Funda Antipolvo para Xbox Series S Consola | Cubierta Horizontal, Resistente al Agua, Forro Suave, Acceso Fácil a Puertos, Protección contra Polvo, Nebulosa Azul",
@@ -3110,7 +3106,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790575+00:00",
-    "price": "21,52 €"
+    "price": "21,52 €",
+    "pending_price": "21,64 €",
+    "pending_price_count": 1
   },
   "ES:B0DN6CP9KP": {
     "name": "POPPY PLAYTIME TRIPLE PACK - XBOX SERIES X/ONE",
@@ -3785,7 +3783,7 @@
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579852+00:00",
     "price": "10,52 €",
-    "pending_price": "10,59 €",
+    "pending_price": "10,64 €",
     "pending_price_count": 1
   },
   "ES:B0C23V86YJ": {
@@ -4010,7 +4008,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:37.525123+00:00",
-    "price": "12,79 €"
+    "price": "12,74 €"
   },
   "ES:B077S36YHR": {
     "name": "Call of Duty WWII",
@@ -4247,7 +4245,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T12:31:48.397272+00:00",
-    "price": "5,98 €"
+    "price": "5,86 €"
   },
   "ES:B089MY96C6": {
     "name": "Edición limitada de Far Cry 6 (exclusiva de Amazon.co.uk) (Xbox One/Series X)",
@@ -4345,9 +4343,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T12:31:48.397773+00:00",
-    "price": "15,76 €",
-    "pending_price": "18,03 €",
-    "pending_price_count": 1
+    "price": "18,03 €"
   },
   "ES:B092QVFHY5": {
     "name": "Adhiper A40 Repuesto de Cable,línea de Audio con función de Silencio,para Astro A10/A40/A50,también Funciona con Auriculares para Juegos A40 TR,Controlador Xbox One,PS4 Gozahad(2m /6,6 pies)",
@@ -4369,5 +4365,33 @@
     "stock": null,
     "first_seen": "2026-09-23T18:31:49.442024+00:00",
     "price": "28,55 €"
+  },
+  "ES:B0FDWYTMMB": {
+    "name": "La casa de munecas de Gabby: Listos para la fiesta - Xbox",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T00:31:40.274271+00:00",
+    "price": "24,42 €"
+  },
+  "ES:B0CK1D5FWL": {
+    "name": "Xbox Minecraft con 3500 Minecoins - Serie X, Uno",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T00:31:40.274310+00:00",
+    "price": "36,65 €"
+  },
+  "ES:B0CFLZTDFC": {
+    "name": "The Walking Dead: Destinies",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T00:31:40.274326+00:00",
+    "price": "23,46 €"
+  },
+  "ES:B0B9YTYMC9": {
+    "name": "Warner Bros Interactive Entertainment UK Hogwarts Legacy PS5 (Amazon Exclusive)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T00:31:40.274339+00:00",
+    "price": "24,01 €"
   }
 }
