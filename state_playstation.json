@@ -487,7 +487,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018968+00:00",
-    "price": "229,00 €"
+    "price": "228,98 €"
   },
   "ES:B01LBH9ILW": {
     "name": "Dualshock 4 Wireless Controller - Jet Black - PlayStation 4",
@@ -845,7 +845,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:25:08.666128+00:00",
-    "price": "689,00 €"
+    "price": "588,61 €"
   },
   "ES:B01HF8V7SI": {
     "name": "Sony PlayStation 4 (PS4) 500 GB Consola - (Reacondicionado Certificado) - Chasis C",
@@ -1356,9 +1356,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T04:35:55.955905+00:00",
-    "price": "649,00 €",
-    "pending_price": "729,91 €",
-    "pending_price_count": 1
+    "price": "729,91 €"
   },
   "ES:B0D8KXMCTC": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Naranja)",
@@ -1876,7 +1874,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498076+00:00",
-    "price": "31,47 €"
+    "price": "31,47 €",
+    "pending_price": "32,39 €",
+    "pending_price_count": 1
   },
   "ES:B09KCP7BS8": {
     "name": "Autobahn Police Simulator 2 (Nintendo Switch)",
@@ -3598,7 +3598,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T14:31:41.680065+00:00",
-    "price": "590,00 €"
+    "price": "589,00 €"
   },
   "ES:B0D5LMPBS4": {
     "name": "QRD Controlador inalámbrico Spark N5 para PS4 Pro Slim, PS3, PS2, Steam Deck, PC, Windows, Mac, iOS, Android TV Box, joystick de control de efecto Hall con altavoz y micrófono, macro N1 y N2, turbo",
@@ -3979,5 +3979,19 @@
     "stock": null,
     "first_seen": "2026-09-24T14:31:38.859269+00:00",
     "price": "44,90 €"
+  },
+  "ES:B0CTCG29DN": {
+    "name": "KIWIHOME Ventilador para PS5 Slim, 3 Grandes Ventiladores, Velocidad Auto | Para PS5 Slim Disc/Digital 2023 con 1 Línea Horizontal. No Apto para PS5 2020 o Pro 2024, Negro & Blanco",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T16:31:35.359515+00:00",
+    "price": "28,99 €"
+  },
+  "ES:B0GFX59W87": {
+    "name": "Playstation Mando inalámbrico DualSense®: Colección Hyperpop - Rhythm Blue",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T16:31:35.359669+00:00",
+    "price": "79,99 €"
   }
 }
