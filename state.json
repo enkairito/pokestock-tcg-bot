@@ -725,7 +725,7 @@
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
     "price": "250,98 €"
   },
@@ -1501,10 +1501,9 @@
   },
   "US:B0C4D4R3H8": {
     "name": "Pokémon JCC: Estuche Courrousinge-ex",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-04T21:32:58.802903+00:00",
-    "price": "89,59 €"
+    "first_seen": "2026-09-04T21:32:58.802903+00:00"
   },
   "US:B0FPNRG8GS": {
     "name": "Pokémon TCG: Mega Evolution—Phantasmal Flames Triple Pack Sneasel (1 Carta Promocional holográfica y 3 Sobres potenciadores)",
@@ -1539,7 +1538,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802930+00:00",
-    "price": "49,84 €"
+    "price": "49,84 €",
+    "pending_price": "51,35 €",
+    "pending_price_count": 1
   },
   "US:B0G5FWJ8NL": {
     "name": "Pokémon TCG: Mega Charizard Tin",
@@ -2939,7 +2940,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T15:23:27.918742+00:00",
-    "price": "97,21 €"
+    "price": "97,21 €",
+    "pending_price": "102,32 €",
+    "pending_price_count": 1
   },
   "UK:B0H2N248WM": {
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promoción exclusiva de Fennekin | 11 paquetes de refuerzo",
