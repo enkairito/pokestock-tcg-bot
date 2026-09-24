@@ -104,7 +104,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:18:12.685892+00:00",
-    "price": "195,99 €"
+    "price": "195,99 €",
+    "pending_price": "217,41 €",
+    "pending_price_count": 1
   },
   "ES:B0D98BDG3S": {
     "name": "EA SPORTS FC 25 Standard Edition PS4 | Videojuegos | Castellano",
@@ -258,9 +260,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "84,99 €",
-    "pending_price": "99,00 €",
-    "pending_price_count": 1
+    "price": "99,00 €"
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -298,7 +298,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018779+00:00",
-    "price": "18,99 €"
+    "price": "18,99 €",
+    "pending_price": "26,35 €",
+    "pending_price_count": 1
   },
   "ES:B0F6D5BS17": {
     "name": "PlayStation 5-Ghost of Yotei - Edición Estándar",
@@ -312,18 +314,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018808+00:00",
-    "price": "18,98 €",
-    "pending_price": "25,12 €",
-    "pending_price_count": 1
+    "price": "25,12 €"
   },
   "ES:B09KTGP5C2": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition, PlayStation 4",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018821+00:00",
-    "price": "25,99 €",
-    "pending_price": "33,98 €",
-    "pending_price_count": 1
+    "price": "33,98 €"
   },
   "ES:B07HNR4ZZD": {
     "name": "Sony PlayStation 4 Slim 500 Go, Avec 1 manette sans fil DUALSHOCK 4 V2, Châssis F, Noir (Jet Black) [Importación francesa]",
@@ -1878,7 +1876,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498076+00:00",
-    "price": "29,45 €"
+    "price": "29,45 €",
+    "pending_price": "29,51 €",
+    "pending_price_count": 1
   },
   "ES:B09KCP7BS8": {
     "name": "Autobahn Police Simulator 2 (Nintendo Switch)",
@@ -1913,7 +1913,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498178+00:00",
-    "price": "81,99 €"
+    "price": "74,99 €"
   },
   "ES:B0CD79TKSR": {
     "name": "Nacon - Robocop: Rogue City para PS5 [Versión Subtitulada Española]",
@@ -2109,9 +2109,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498742+00:00",
-    "price": "23,49 €",
-    "pending_price": "34,23 €",
-    "pending_price_count": 1
+    "price": "34,23 €"
   },
   "ES:B097B1ZJ5T": {
     "name": "Nintendo Game & Watch: The Legend of Zelda",
@@ -2132,7 +2130,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498891+00:00",
-    "price": "28,30 €"
+    "price": "28,30 €",
+    "pending_price": "28,40 €",
+    "pending_price_count": 1
   },
   "ES:B07MWXG7QV": {
     "name": "Days Gone [Importación francesa]",
@@ -2188,7 +2188,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499167+00:00",
-    "price": "33,83 €"
+    "price": "32,74 €"
   },
   "ES:B0CJG2KCBL": {
     "name": "Rise of the Tomb Raider 20 Year Celebration",
@@ -2300,9 +2300,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "24,99 €",
-    "pending_price": "25,39 €",
-    "pending_price_count": 1
+    "price": "25,39 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2771,7 +2769,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500260+00:00",
-    "price": "58,24 €"
+    "price": "58,24 €",
+    "pending_price": "60,95 €",
+    "pending_price_count": 1
   },
   "ES:B0DDFYW6QV": {
     "name": "Mcbazel Cable de Carga PS Vita Cable de Datos USB Cable de Reemplazo Compatible con PS Vita, PSVita 1000-1.2M",
@@ -3092,7 +3092,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T06:31:41.554832+00:00",
-    "price": "48,86 €"
+    "price": "48,86 €",
+    "pending_price": "49,15 €",
+    "pending_price_count": 1
   },
   "ES:B0CJG3TYMZ": {
     "name": "Shadow of the Tomb Raider Definitive Edition",
@@ -3765,7 +3767,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:43.341576+00:00",
-    "price": "29,77 €"
+    "price": "24,77 €"
   },
   "ES:B0CCVS1GLB": {
     "name": "Ozeino Auriculares para Juegos con micrófono, Sonido Envolvente 3D, con cancelación de Ruido, Luces RGB, Color Rosa",
