@@ -46,9 +46,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:09:04.551067+00:00",
-    "price": "69,62 €",
-    "pending_price": "69,63 €",
-    "pending_price_count": 1
+    "price": "69,63 €"
   },
   "ES:B0CRY385YN": {
     "name": "One Piece TCG: Two Legends - Booster Box (OP-08) (JP) (TCG)",
@@ -287,9 +285,9 @@
   "ES:B0D46M9DHD": {
     "name": "Caja de refuerzo OP-09 de One Piece TCG, Cuatro Emperadores",
     "status": "compra_directa",
-    "stock": "1",
-    "price": "215,48 €",
-    "first_seen": "2026-09-14T13:06:49.208476+00:00"
+    "stock": null,
+    "first_seen": "2026-09-14T13:06:49.208476+00:00",
+    "price": "215,48 €"
   },
   "ES:B0G6J9VPN2": {
     "name": "Banai One Piece Start Deck EX Luffy & Ace - Juego de cartas (ST-30)",
