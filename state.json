@@ -796,7 +796,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "72,00 €"
   },
@@ -812,9 +812,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644915+00:00",
-    "price": "105,94 €",
-    "pending_price": "106,23 €",
-    "pending_price_count": 1
+    "price": "106,23 €"
   },
   "US:B0G3CY83L5": {
     "name": "Pokémon TCG: Caja de entrenamiento de élite de héroes ascendidos de Mega Evolution",
@@ -1507,9 +1505,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802903+00:00",
-    "price": "89,41 €",
-    "pending_price": "89,59 €",
-    "pending_price_count": 1
+    "price": "89,59 €"
   },
   "US:B0FPNRG8GS": {
     "name": "Pokémon TCG: Mega Evolution—Phantasmal Flames Triple Pack Sneasel (1 Carta Promocional holográfica y 3 Sobres potenciadores)",
@@ -2407,9 +2403,9 @@
   "UK:B0FLP56YW2": {
     "name": "Pokémon TCG: Kit de Herramientas para Entrenadores",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "1",
     "first_seen": "2026-09-16T18:43:05.692265+00:00",
-    "price": "94,60 €"
+    "price": "83,44 €"
   },
   "TRU:K1105105": {
     "name": "Pokémon - Escarlata y Púrpura: Rivales Predestinados - Sobre de Mejora - Español (Varios modelos)",
