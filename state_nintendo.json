@@ -265,7 +265,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912091+00:00",
-    "price": "74,99 €"
+    "price": "70,00 €"
   },
   "ES:B07VFTVVWX": {
     "name": "Nintendo Switch Joy-Con-Controller, links blau/rechts, neongelb [Videospiel]",
@@ -1471,7 +1471,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850873+00:00",
-    "price": "49,99 €"
+    "price": "46,99 €"
   },
   "ES:B091VTT67M": {
     "name": "Nintendo Switch Leyendas Pokemon: Arceus",
@@ -2218,7 +2218,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689210+00:00",
-    "price": "48,90 €"
+    "price": "48,90 €",
+    "pending_price": "49,98 €",
+    "pending_price_count": 1
   },
   "ES:B0H44WGVQJ": {
     "name": "Elden Ring Tarnished Edition",
@@ -3237,7 +3239,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:52.753953+00:00",
-    "price": "390,98 €"
+    "price": "387,98 €"
   },
   "ES:B0DFWYRBP9": {
     "name": "Fairy Tail 2 Switch",
