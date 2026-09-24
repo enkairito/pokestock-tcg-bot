@@ -128,7 +128,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388338+00:00",
-    "price": "49,99 €"
+    "price": "48,22 €"
   },
   "ES:B08KVH51VX": {
     "name": "NEED FOR SPEED HOT PURSUIT REMASTERED",
@@ -991,7 +991,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "35,95 €"
+    "price": "35,94 €"
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1280,9 +1280,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.017973+00:00",
-    "price": "166,49 €",
-    "pending_price": "209,00 €",
-    "pending_price_count": 1
+    "price": "209,00 €"
   },
   "ES:B01M5CZKW6": {
     "name": "Konsole Xbox One S 500 Gb Weiß",
@@ -1982,9 +1980,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256532+00:00",
-    "price": "85,95 €",
-    "pending_price": "89,97 €",
-    "pending_price_count": 1
+    "price": "89,97 €"
   },
   "ES:B095PPY2KN": {
     "name": "Mars Gaming MCPX, Idioma Español, Combo Gaming 3en1 con Teclado H-Mech Iluminado, Ratón Ultraligero 10000 dpi con Software y Alfombrilla XXL, Compatible con PC, PS4, PS5, Xbox, Negro",
@@ -2005,7 +2001,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256571+00:00",
-    "price": "20,90 €"
+    "price": "20,90 €",
+    "pending_price": "21,90 €",
+    "pending_price_count": 1
   },
   "ES:B09D9VTB5M": {
     "name": "World War Z: Aftermath",
@@ -2075,7 +2073,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256914+00:00",
-    "price": "13,08 €"
+    "price": "13,08 €",
+    "pending_price": "13,18 €",
+    "pending_price_count": 1
   },
   "ES:B097ZBFDKW": {
     "name": "Demon Slayer -KIMETSU NO Yaiba- JPN (Voice) - E F I G S (Text) Box UK",
@@ -2341,7 +2341,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257428+00:00",
-    "price": "47,66 €"
+    "price": "42,93 €"
   },
   "ES:B0C52X3QXG": {
     "name": "playvital Funda Antipolvo para Xbox Series S Consola | Cubierta Horizontal, Resistente al Agua, Forro Suave, Acceso Fácil a Puertos, Protección contra Polvo, Nebulosa Azul",
@@ -3769,7 +3769,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579840+00:00",
-    "price": "25,57 €"
+    "price": "25,55 €"
   },
   "ES:B07T14YQYZ": {
     "name": "Destroy All Humans - Xbox One",
@@ -3777,7 +3777,7 @@
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579852+00:00",
     "price": "10,52 €",
-    "pending_price": "11,85 €",
+    "pending_price": "13,60 €",
     "pending_price_count": 1
   },
   "ES:B0C23V86YJ": {
@@ -4281,7 +4281,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T12:31:48.397669+00:00",
-    "price": "33,29 €"
+    "price": "33,29 €",
+    "pending_price": "33,31 €",
+    "pending_price_count": 1
   },
   "ES:B0G6K9K5CV": {
     "name": "LVVIL Funda para ASUS ROG Xbox Ally & X Box Ally X 2025, Funda de Transporte para Consola ROG Xbox con Protector de Pantalla & Tapa de Joystick, Rígida Portátil Case Protector ROG Ally X Accesorios",
