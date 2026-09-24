@@ -991,7 +991,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "35,68 €"
+    "price": "35,60 €"
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1230,7 +1230,7 @@
   },
   "ES:B0HDQ2LRS9": {
     "name": "Xbox Mando inalámbrico Gears of War: Edición Limitada E-Day Series X|S, One, PCs, televisores, móviles y más",
-    "status": "preventa",
+    "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T06:35:30.156933+00:00",
     "price": "89,99 €"
@@ -1294,9 +1294,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.318741+00:00",
-    "price": "818,25 €",
-    "pending_price": "830,22 €",
-    "pending_price_count": 1
+    "price": "830,22 €"
   },
   "ES:B08FCXLB8Z": {
     "name": "Xbox Play y Kit de Carga USB",
@@ -2165,7 +2163,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257052+00:00",
-    "price": "23,99 €"
+    "price": "23,99 €",
+    "pending_price": "24,00 €",
+    "pending_price_count": 1
   },
   "ES:B0BKSHRYVG": {
     "name": "Microsoft Flight Simulator 40th Anniversary - Premium Deluxe Edition | Xbox & Windows 10 - Código de descarga",
@@ -2207,7 +2207,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
-    "price": "24,36 €"
+    "price": "24,32 €"
   },
   "ES:B08HZKQDK1": {
     "name": "F1 2020 - Xbox One",
@@ -3065,9 +3065,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T08:31:31.238742+00:00",
-    "price": "18,02 €",
-    "pending_price": "18,11 €",
-    "pending_price_count": 1
+    "price": "17,98 €"
   },
   "ES:B0D6G1BKS3": {
     "name": "Alan Wake 2 Deluxe Edition - Xbox",
@@ -3777,9 +3775,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579852+00:00",
-    "price": "10,52 €",
-    "pending_price": "11,85 €",
-    "pending_price_count": 1
+    "price": "11,85 €"
   },
   "ES:B0C23V86YJ": {
     "name": "Destroy All Humans! 2 - Reprobed: Single Player Juego para Xbox One",
@@ -4561,5 +4557,11 @@
     "stock": null,
     "first_seen": "2026-09-24T14:31:53.505744+00:00",
     "price": "23,98 €"
+  },
+  "ES:B0HFPCCXRV": {
+    "name": "Xbox Mando inalámbrico X25 Special Edition Series X|S, One, PC, televisores, dispositivos móviles y más",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-24T18:31:45.271524+00:00"
   }
 }
