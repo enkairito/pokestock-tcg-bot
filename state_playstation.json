@@ -111,7 +111,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:18:12.685903+00:00",
-    "price": "13,74 €"
+    "price": "13,74 €",
+    "pending_price": "29,99 €",
+    "pending_price_count": 1
   },
   "ES:B084WLMKGT": {
     "name": "GXTrust Forze Cascos Gaming con Licencia Oficial para PlayStation, Negro | Auriculares Gaming para PS4 y PS5, Micrófono Plegable, Altavoces Activos de 50 mm, Cable Trenzado de Nailon 1.2 m",
@@ -614,9 +616,10 @@
   },
   "ES:B0GXL8QVM6": {
     "name": "Assassin's Creed Black Flag Resynced Standard Edition (PS5)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-12T06:27:48.504534+00:00"
+    "first_seen": "2026-09-12T06:27:48.504534+00:00",
+    "price": "56,99 €"
   },
   "ES:B0BWYXHTK7": {
     "name": "Lies of P (PS5)",
@@ -1529,7 +1532,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.714181+00:00",
-    "price": "799,91 €"
+    "price": "566,70 €"
   },
   "ES:B0C9YS6H22": {
     "name": "2x cable de carga para mando PS4, cable de 2m para Playstation 4, Sony PS4, PS4 Slim, mandos Microsoft Xbox One, cable de carga micro USB, azul-negro",
@@ -1577,9 +1580,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T16:33:57.520021+00:00",
-    "price": "49,99 €",
-    "pending_price": "53,99 €",
-    "pending_price_count": 1
+    "price": "53,99 €"
   },
   "ES:B0HJ9SJF63": {
     "name": "Apple Funda de Silicona con MagSafe para el iPhone 18 Pro - Burdeos",
@@ -1799,7 +1800,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.497857+00:00",
-    "price": "115,99 €"
+    "price": "115,99 €",
+    "pending_price": "125,18 €",
+    "pending_price_count": 1
   },
   "ES:B0C6YL35FL": {
     "name": "Nacon Revolution 5 Pro",
@@ -2296,7 +2299,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "25,29 €"
+    "price": "25,23 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2681,7 +2684,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500206+00:00",
-    "price": "11,82 €"
+    "price": "11,82 €",
+    "pending_price": "16,85 €",
+    "pending_price_count": 1
   },
   "ES:B0CG17TK17": {
     "name": "JoyGeek Cargador Inalámbrica, Plegable 3 en 1 Base Cargador para i Phone 17/16/15/14/13/12/Plus/Pro MAX, Estación de Carga para AppleWatch Ultra-2, Rapida Wireless Charger para AirPods 4/Pro/3/2-Negro",
@@ -2702,9 +2707,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500223+00:00",
-    "price": "105,18 €",
-    "pending_price": "106,44 €",
-    "pending_price_count": 1
+    "price": "106,44 €"
   },
   "ES:B0GDXWB1ZG": {
     "name": "SZPACMATE Mando Inalámbrico para PS4/PS3/Switch 1/PC/Steam Deck | Joystick Efecto Hall, Iluminación RGB 8 Colores, Batería 1000 mAh, Giroscopio 6 Ejes, Turbo, Doble Vibración, Programables",
@@ -2844,7 +2847,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566254+00:00",
-    "price": "23,72 €"
+    "price": "23,71 €"
   },
   "ES:B0H6Y3H3PL": {
     "name": "Blasphemous: Martyrs’ Edition - PlayStation 4",
@@ -2879,7 +2882,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566486+00:00",
-    "price": "27,88 €"
+    "price": "27,87 €"
   },
   "ES:B07W7KWV2Y": {
     "name": "Logitech Brio 300 Full HD Webcam con Obturador de privacidad | Micrófono reducción ruido, USB-C, certificado Zoom/Teams/Google Meet, corrección de luz automática - Grafito",
@@ -3174,9 +3177,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:32:05.433410+00:00",
-    "price": "32,38 €",
-    "pending_price": "32,39 €",
-    "pending_price_count": 1
+    "price": "30,36 €"
   },
   "ES:B0GPDBG8G5": {
     "name": "Neptunia Virtual Stars – Limited Edition (PS4)",
@@ -3616,7 +3617,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T16:31:45.788425+00:00",
-    "price": "48,20 €"
+    "price": "48,20 €",
+    "pending_price": "48,67 €",
+    "pending_price_count": 1
   },
   "ES:B0BNYSHHJJ": {
     "name": "God of War Ragnarök",
@@ -3932,5 +3935,40 @@
     "stock": null,
     "first_seen": "2026-09-24T10:32:05.278601+00:00",
     "price": "28,99 €"
+  },
+  "ES:B0GXFFJ72J": {
+    "name": "Red Dead Redemption PS5",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T12:31:51.828004+00:00",
+    "price": "32,90 €"
+  },
+  "ES:B00JAHX55G": {
+    "name": "Assassin's Creed: Unity",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T12:31:51.828123+00:00",
+    "price": "22,90 €"
+  },
+  "ES:B086YVL1CS": {
+    "name": "Resident Evil 3: Remake",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T12:31:51.828132+00:00",
+    "price": "26,67 €"
+  },
+  "ES:B0FNR2YPLP": {
+    "name": "LATEC Mando para PS4, Mando Inalámbrico PS4 con Bluetooth, 2 Botones de Programación Macro, 6-Axis Sensor Giroscópico, Doble Vibración, Panel Táctil, Rosa",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T12:31:51.828236+00:00",
+    "price": "25,26 €"
+  },
+  "ES:B0B7X6PWMR": {
+    "name": "SteelSeries Arctis Nova 1P - Cascos PS5 Con Cable y Multisistema - Controladores Hi-Fi - Audio espacial 360° - Almohadillas de espuma con memoria - PS5, PS4, PC, Xbox - Blanco",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T12:31:51.828270+00:00",
+    "price": "34,99 €"
   }
 }
