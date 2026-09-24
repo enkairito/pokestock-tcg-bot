@@ -265,10 +265,9 @@
   },
   "ES:B0GWDS3WTY": {
     "name": "Pokémon: Colección prémium Mega-Zygarde ex (1 Carta de promoción, 1 Carta de Gran tamaño con Efecto 3D, 1 Pegatina Especial y 8 Sobres de Mejora)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-08-25T20:27:15.542174+00:00",
-    "price": "46,99 €"
+    "first_seen": "2026-08-25T20:27:15.542174+00:00"
   },
   "ES:B0GGJ1QQNZ": {
     "name": "Pokémon: Lote de latas Poké Ball de JCC Pokémon: Poké, Honor y Acopio (9 Sobres de Mejora de JCC Pokémon y 6 Hojas con Pegatinas)",
@@ -721,7 +720,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
-    "price": "62,46 €"
+    "price": "60,94 €"
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -1131,7 +1130,7 @@
   "US:B0GR6N18F6": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "first_seen": "2026-08-31T17:55:22.065539+00:00",
     "price": "107,12 €"
   },
@@ -1605,16 +1604,14 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T22:05:43.537336+00:00",
-    "price": "28,68 €",
-    "pending_price": "29,05 €",
-    "pending_price_count": 1
+    "price": "29,05 €"
   },
   "UK:B0DLQJ613B": {
     "name": "Pokémon TCG: Scarlet & Violet—Prismatic Evolutions Poster Collection",
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "122,31 €"
+    "price": "122,26 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -3563,7 +3560,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T03:23:36.529801+00:00",
-    "price": "65,01 €"
+    "price": "65,00 €"
   },
   "UK:B0G5FWJ8NL": {
     "name": "Pokémon TCG: Mega Charizard Tin",
@@ -3606,5 +3603,12 @@
     "stock": null,
     "first_seen": "2026-09-24T19:03:08.156121+00:00",
     "price": "83,84 €"
+  },
+  "US:B0H7818RCM": {
+    "name": "Pokémon TCG: 30th Celebration Pokémon ex Box",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T21:03:14.298681+00:00",
+    "price": "97,61 €"
   }
 }
