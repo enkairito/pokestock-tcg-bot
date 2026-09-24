@@ -711,7 +711,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T12:27:13.469347+00:00",
-    "price": "19,94 €"
+    "price": "19,94 €",
+    "pending_price": "28,52 €",
+    "pending_price_count": 1
   },
   "ES:B0D571R8PK": {
     "name": "Volante y Pedales Hori RWA con licencia Sony PlayStation 4/5 [Nuevo modelo compatible con PS4/PS5] + Gran Turismo 7 [Playstation 5]",
@@ -845,9 +847,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:25:08.666128+00:00",
-    "price": "588,61 €",
-    "pending_price": "689,00 €",
-    "pending_price_count": 1
+    "price": "689,00 €"
   },
   "ES:B01HF8V7SI": {
     "name": "Sony PlayStation 4 (PS4) 500 GB Consola - (Reacondicionado Certificado) - Chasis C",
@@ -1410,7 +1410,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.312460+00:00",
-    "price": "212,99 €"
+    "price": "212,99 €",
+    "pending_price": "225,90 €",
+    "pending_price_count": 1
   },
   "ES:B0GZVXB4DX": {
     "name": "Grand Theft Auto VI - Xbox Series X/S (Código de descarga)",
@@ -1532,9 +1534,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.714181+00:00",
-    "price": "566,70 €",
-    "pending_price": "799,91 €",
-    "pending_price_count": 1
+    "price": "799,91 €"
   },
   "ES:B0C9YS6H22": {
     "name": "2x cable de carga para mando PS4, cable de 2m para Playstation 4, Sony PS4, PS4 Slim, mandos Microsoft Xbox One, cable de carga micro USB, azul-negro",
@@ -2109,7 +2109,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498742+00:00",
-    "price": "34,23 €"
+    "price": "23,49 €"
   },
   "ES:B097B1ZJ5T": {
     "name": "Nintendo Game & Watch: The Legend of Zelda",
@@ -2298,7 +2298,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "24,97 €"
+    "price": "24,91 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2489,7 +2489,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500062+00:00",
-    "price": "49,99 €"
+    "price": "42,86 €"
   },
   "ES:B0BN44PQ43": {
     "name": "Playstation - Stick Module para Dualsense Edge | JoyStick Intercambiable, Accesorio Original Sony Para el Mando Inalámbrico DualSense Edge de PS5",
@@ -2587,9 +2587,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500131+00:00",
-    "price": "10,71 €",
-    "pending_price": "16,99 €",
-    "pending_price_count": 1
+    "price": "16,99 €"
   },
   "ES:B0FH2S4S95": {
     "name": "Subsonic - Mando Inalámbrico para PS5 y PC - Verde Militar | Ergonómico, LED RGB Programables, Vibración, Panel Táctil, Palancas Programables para PlayStation 5 y PC",
@@ -2692,7 +2690,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500210+00:00",
-    "price": "25,72 €"
+    "price": "25,72 €",
+    "pending_price": "29,99 €",
+    "pending_price_count": 1
   },
   "ES:B0CZXX98X7": {
     "name": "Razer Blackshark V2 X (PlayStation) - Auriculares con Cable para Consola PlayStation (PS5) (240g, Micrófono cardioide, Diafragmas de 50mm, Cancelación pasiva del Ruido, Conector de 3,5 mm, PC) Negro",
@@ -3963,7 +3963,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T12:31:51.828236+00:00",
-    "price": "25,26 €"
+    "price": "25,26 €",
+    "pending_price": "27,99 €",
+    "pending_price_count": 1
   },
   "ES:B0B7X6PWMR": {
     "name": "SteelSeries Arctis Nova 1P - Cascos PS5 Con Cable y Multisistema - Controladores Hi-Fi - Audio espacial 360° - Almohadillas de espuma con memoria - PS5, PS4, PC, Xbox - Blanco",
