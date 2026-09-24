@@ -794,7 +794,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "3",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "72,87 €"
   },
@@ -1011,7 +1011,7 @@
   "US:B0H6DTXPK1": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Tin",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "first_seen": "2026-08-30T23:03:24.893535+00:00",
     "price": "79,97 €"
   },
@@ -1214,9 +1214,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-02T22:24:23.588723+00:00",
-    "price": "177,71 €",
-    "pending_price": "180,27 €",
-    "pending_price_count": 1
+    "price": "180,27 €"
   },
   "US:B0GP8HSDCJ": {
     "name": "Pokemon TCG: Mega Evolution Ascended Heroes Pokemon Center Elite Trainer Box | AH PKC ETB | Promo exclusivo de N's Zekrom | 11 paquetes de refuerzo",
@@ -1447,10 +1445,9 @@
   },
   "US:B0F2BCG1Y5": {
     "name": "Pokémon TCG: Scarlet & Violet—Destined Rivals Booster Bundle (6 Booster Packs)",
-    "status": "compra_directa",
-    "stock": "1",
-    "first_seen": "2026-09-04T21:32:58.802829+00:00",
-    "price": "103,95 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-04T21:32:58.802829+00:00"
   },
   "US:B0G3CS6XB9": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Premium Poster Collection—Mega Lucario (1 Tarjeta Promocional de Aluminio, 1 póster de Doble Cara y 10 Paquetes de Refuerzo)",
@@ -1633,7 +1630,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280869+00:00",
-    "price": "111,05 €"
+    "price": "111,04 €"
   },
   "UK:B0DG2XTYDP": {
     "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
@@ -3578,9 +3575,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T09:23:31.922784+00:00",
-    "price": "325,47 €",
-    "pending_price": "330,20 €",
-    "pending_price_count": 1
+    "price": "330,20 €"
   },
   "ECI:A200804709": {
     "name": "Mini Lata Megaevolucion Caos Creciente JCC Pokémon Bandai Modelos surtidos",
