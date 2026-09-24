@@ -265,9 +265,10 @@
   },
   "ES:B0GWDS3WTY": {
     "name": "Pokémon: Colección prémium Mega-Zygarde ex (1 Carta de promoción, 1 Carta de Gran tamaño con Efecto 3D, 1 Pegatina Especial y 8 Sobres de Mejora)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-08-25T20:27:15.542174+00:00"
+    "first_seen": "2026-08-25T20:27:15.542174+00:00",
+    "price": "46,99 €"
   },
   "ES:B0GGJ1QQNZ": {
     "name": "Pokémon: Lote de latas Poké Ball de JCC Pokémon: Poké, Honor y Acopio (9 Sobres de Mejora de JCC Pokémon y 6 Hojas con Pegatinas)",
@@ -1476,7 +1477,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802880+00:00",
-    "price": "88,69 €"
+    "price": "87,41 €"
   },
   "US:B0D8R1LW3R": {
     "name": "Pokémon TCG: Cofre de coleccionista - Scream Tail & Iron Valiant (2 Tarjetas promocionales de Aluminio, 6 Paquetes de Refuerzo y más)",
@@ -2411,7 +2412,7 @@
     "stock": "1",
     "first_seen": "2026-09-16T18:43:05.692265+00:00",
     "price": "81,32 €",
-    "pending_price": "86,30 €",
+    "pending_price": "85,57 €",
     "pending_price_count": 1
   },
   "TRU:K1105105": {
