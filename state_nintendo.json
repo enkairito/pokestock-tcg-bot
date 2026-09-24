@@ -22,7 +22,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.362338+00:00",
-    "price": "47,91 €"
+    "price": "44,99 €"
   },
   "ES:B0GNB8B2NS": {
     "name": "Metal Gear Solid: Master Collection Volume 2 – Day One Edition - Xbox",
@@ -265,7 +265,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912091+00:00",
-    "price": "64,05 €"
+    "price": "64,05 €",
+    "pending_price": "74,99 €",
+    "pending_price_count": 1
   },
   "ES:B07VFTVVWX": {
     "name": "Nintendo Switch Joy-Con-Controller, links blau/rechts, neongelb [Videospiel]",
@@ -569,7 +571,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478229+00:00",
-    "price": "34,90 €"
+    "price": "29,39 €"
   },
   "ES:B0BV27FTTF": {
     "name": "Aukuoy RCM Jig para Nintendo Switch, Herramientas de Cortocircuito de Herramienta RCM utilizadas para Cambiar el Juego de Archivo GBA/FBA",
@@ -632,7 +634,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478316+00:00",
-    "price": "35,88 €"
+    "price": "35,83 €"
   },
   "ES:B0FR451FFZ": {
     "name": "Nintendo Super Mario Galaxy + Super Mario Galaxy 2",
@@ -732,9 +734,10 @@
   },
   "ES:B0HJ91G9GH": {
     "name": "Zelda Ocarina Of Time - Nintendo Switch 2",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-12T06:29:23.379261+00:00"
+    "first_seen": "2026-09-12T06:29:23.379261+00:00",
+    "price": "59,90 €"
   },
   "ES:B0FTG4DGK7": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Fuegos Fantasmales de JCC Pokémon (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -1735,9 +1738,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688196+00:00",
-    "price": "506,90 €",
-    "pending_price": "506,99 €",
-    "pending_price_count": 1
+    "price": "506,99 €"
   },
   "ES:B0FYHK8329": {
     "name": "Nintendo Switch 2 + 25e eShop",
@@ -2142,7 +2143,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688994+00:00",
-    "price": "239,99 €"
+    "price": "183,00 €"
   },
   "ES:B0CMDHWDP9": {
     "name": "Consola Switch - Color Azul Neón/Rojo Neón + Super Mario Bros. Wonder + Mario Kart 8 Deluxe",
@@ -2359,9 +2360,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689475+00:00",
-    "price": "64,84 €",
-    "pending_price": "67,86 €",
-    "pending_price_count": 1
+    "price": "67,86 €"
   },
   "ES:B0GNNPWV2C": {
     "name": "Danganronpa 2x2 (Nintendo Switch)",
@@ -3131,9 +3130,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T15:58:54.631826+00:00",
-    "price": "8,97 €",
-    "pending_price": "9,89 €",
-    "pending_price_count": 1
+    "price": "8,93 €"
   },
   "ES:B0DF2NF4H3": {
     "name": "Broken Sword - La Leyenda de los Templarios: Reforged - NINTENDO SWITCH",
@@ -3797,5 +3794,12 @@
     "stock": null,
     "first_seen": "2026-09-23T16:32:18.383261+00:00",
     "price": "35,19 €"
+  },
+  "ES:B09BBWTPP2": {
+    "name": "Meridiem Games - Ori - The Collection",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T14:31:33.611775+00:00",
+    "price": "39,99 €"
   }
 }
