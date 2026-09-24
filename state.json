@@ -411,9 +411,10 @@
   },
   "ES:B0DNN99WQV": {
     "name": "Pokémon Lote de Paquetes de Mejora de Escarlata y Púrpura-Chispas Fulgurantes de JCC Pokémon (6 Paquetes de Mejora)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-08-25T20:27:15.542172+00:00"
+    "first_seen": "2026-08-25T20:27:15.542172+00:00",
+    "price": "29,94 €"
   },
   "ES:B0G7JDFL9J": {
     "name": "Pokémon: Colección Mega-Emboar ex de Megaevolución-Héroes Ascendentes (1 Carta holográfica de promoción, 1 Carta de Gran tamaño con Efecto 3D y 4 Sobres de Mejora)",
@@ -794,7 +795,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "72,87 €"
   },
@@ -1011,7 +1012,7 @@
   "US:B0H6DTXPK1": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Tin",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "4",
     "first_seen": "2026-08-30T23:03:24.893535+00:00",
     "price": "79,97 €"
   },
@@ -1445,9 +1446,10 @@
   },
   "US:B0F2BCG1Y5": {
     "name": "Pokémon TCG: Scarlet & Violet—Destined Rivals Booster Bundle (6 Booster Packs)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-04T21:32:58.802829+00:00"
+    "first_seen": "2026-09-04T21:32:58.802829+00:00",
+    "price": "105,42 €"
   },
   "US:B0G3CS6XB9": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Premium Poster Collection—Mega Lucario (1 Tarjeta Promocional de Aluminio, 1 póster de Doble Cara y 10 Paquetes de Refuerzo)",
@@ -1838,7 +1840,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-08T14:34:56.335882+00:00",
-    "price": "16,87 €"
+    "price": "16,82 €"
   },
   "US:B0F1GXTFGL": {
     "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
@@ -3512,7 +3514,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T16:43:24.705683+00:00",
-    "price": "72,97 €"
+    "price": "72,96 €"
   },
   "UK:B0FXVLH7QM": {
     "name": "Pokemon TCG: 1 Tarjeta Pokemon de Grado Aleatorio (Beckett, PSA o CGC), Grado 8 o Superior (inglés o japonés)",
