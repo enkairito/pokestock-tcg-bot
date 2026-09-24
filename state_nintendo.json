@@ -175,9 +175,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912008+00:00",
-    "price": "56,88 €",
-    "pending_price": "56,97 €",
-    "pending_price_count": 1
+    "price": "56,97 €"
   },
   "ES:B071H4KD7W": {
     "name": "Nintendo Switch Consola Rojo Neón/Azul neón 32 GB + Mario Kart 8 Deluxe",
@@ -267,9 +265,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912091+00:00",
-    "price": "70,00 €",
-    "pending_price": "74,99 €",
-    "pending_price_count": 1
+    "price": "64,05 €"
   },
   "ES:B07VFTVVWX": {
     "name": "Nintendo Switch Joy-Con-Controller, links blau/rechts, neongelb [Videospiel]",
@@ -657,9 +653,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478344+00:00",
-    "price": "69,99 €",
-    "pending_price": "72,82 €",
-    "pending_price_count": 1
+    "price": "69,99 €"
   },
   "ES:B0F2FG3X9D": {
     "name": "HEYSTOP Funda para Nintendo Switch 2, Kit de Estuche Protector con Carcasa para PC y Carcasa de TPU para el Control de Switch 2, Diseño de Gran Capacidad para Accesorios de Nintendo Switch 2",
@@ -738,10 +732,9 @@
   },
   "ES:B0HJ91G9GH": {
     "name": "Zelda Ocarina Of Time - Nintendo Switch 2",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-12T06:29:23.379261+00:00",
-    "price": "59,90 €"
+    "first_seen": "2026-09-12T06:29:23.379261+00:00"
   },
   "ES:B0FTG4DGK7": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Fuegos Fantasmales de JCC Pokémon (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -2366,7 +2359,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689475+00:00",
-    "price": "64,84 €"
+    "price": "64,84 €",
+    "pending_price": "67,86 €",
+    "pending_price_count": 1
   },
   "ES:B0GNNPWV2C": {
     "name": "Danganronpa 2x2 (Nintendo Switch)",
@@ -2940,7 +2935,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T10:32:19.292304+00:00",
-    "price": "54,99 €"
+    "price": "49,99 €"
   },
   "ES:B07HCRY5L9": {
     "name": "Luigi's Mansion 3, Edición: Estándar - Nintendo Switch",
