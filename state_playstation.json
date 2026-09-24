@@ -990,7 +990,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:24:23.390556+00:00",
-    "price": "651,99 €"
+    "price": "650,99 €"
   },
   "ES:B07JH99TG6": {
     "name": "Playstation Uncharted Collection Hits - Versión 17",
@@ -2107,7 +2107,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498742+00:00",
-    "price": "34,23 €"
+    "price": "23,49 €"
   },
   "ES:B097B1ZJ5T": {
     "name": "Nintendo Game & Watch: The Legend of Zelda",
@@ -2531,9 +2531,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500096+00:00",
-    "price": "16,14 €",
-    "pending_price": "16,99 €",
-    "pending_price_count": 1
+    "price": "16,99 €"
   },
   "ES:B0FP9KCM6N": {
     "name": "VEVOR Soporte para Volante de Carreras Ajustable y Plegable, Compatible con Logitech G29, G27, G920 y G923, Thrustmaster T300RS, T300GT, T248, TS-PC y TSXW Gaming Cockpit. Pedales no Incluidos",
@@ -3672,7 +3670,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:43.340950+00:00",
-    "price": "40,37 €"
+    "price": "40,37 €",
+    "pending_price": "46,41 €",
+    "pending_price_count": 1
   },
   "ES:B0H33TT5FT": {
     "name": "Hollow Knight: Silksong - PS5",
