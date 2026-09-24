@@ -799,7 +799,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
-    "price": "72,00 €"
+    "price": "71,86 €"
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
@@ -2921,9 +2921,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:43:57.912076+00:00",
-    "price": "98,16 €",
-    "pending_price": "99,75 €",
-    "pending_price_count": 1
+    "price": "99,75 €"
   },
   "US:B0DLQXNQDH": {
     "name": "Pokémon TCG: Scarlet & Violet - Prismatic Evolutions Mini Tin - Jolteon (2 Paquetes de Refuerzo y 1 Moneda)",
@@ -3514,7 +3512,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T16:43:24.705683+00:00",
-    "price": "73,10 €"
+    "price": "73,09 €"
   },
   "UK:B0FXVLH7QM": {
     "name": "Pokemon TCG: 1 Tarjeta Pokemon de Grado Aleatorio (Beckett, PSA o CGC), Grado 8 o Superior (inglés o japonés)",
