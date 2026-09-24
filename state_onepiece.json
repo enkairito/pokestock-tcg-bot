@@ -225,7 +225,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-03T14:54:32.874380+00:00",
-    "price": "89,32 €"
+    "price": "89,32 €",
+    "pending_price": "90,58 €",
+    "pending_price_count": 1
   },
   "ES:B0FX1Z5SPZ": {
     "name": "One Piece Card Game Egghead Crisis EB-04 Extra Booster Box (japonés) - 24 paquetes",
