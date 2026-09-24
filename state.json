@@ -1131,9 +1131,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-31T17:55:22.065539+00:00",
-    "price": "105,62 €",
-    "pending_price": "107,12 €",
-    "pending_price_count": 1
+    "price": "107,12 €"
   },
   "US:B09CQJ564T": {
     "name": "Pokemon SAS7 Evolving Skies Eliter Trainer Box - Azul",
@@ -1216,7 +1214,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-02T22:24:23.588723+00:00",
-    "price": "177,71 €"
+    "price": "177,71 €",
+    "pending_price": "180,27 €",
+    "pending_price_count": 1
   },
   "US:B0GP8HSDCJ": {
     "name": "Pokemon TCG: Mega Evolution Ascended Heroes Pokemon Center Elite Trainer Box | AH PKC ETB | Promo exclusivo de N's Zekrom | 11 paquetes de refuerzo",
@@ -1305,7 +1305,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802645+00:00",
-    "price": "79,91 €"
+    "price": "79,87 €"
   },
   "UK:B0FSJXSPPX": {
     "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
@@ -1633,7 +1633,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280869+00:00",
-    "price": "111,61 €"
+    "price": "111,05 €"
   },
   "UK:B0DG2XTYDP": {
     "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
@@ -3475,9 +3475,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-20T12:43:36.301545+00:00",
-    "price": "113,96 €",
-    "pending_price": "115,58 €",
-    "pending_price_count": 1
+    "price": "115,58 €"
   },
   "UK:B0CS12GPTB": {
     "name": "Pokemon TCG: Sword & Shield - Paquete de Refuerzo de Estrellas Brillantes (10 Tarjetas por Paquete)",
@@ -3517,7 +3515,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T16:43:24.705683+00:00",
-    "price": "73,02 €"
+    "price": "72,97 €"
   },
   "UK:B0FXVLH7QM": {
     "name": "Pokemon TCG: 1 Tarjeta Pokemon de Grado Aleatorio (Beckett, PSA o CGC), Grado 8 o Superior (inglés o japonés)",
