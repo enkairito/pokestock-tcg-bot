@@ -379,9 +379,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811694+00:00",
-    "price": "37,86 €",
-    "pending_price": "37,94 €",
-    "pending_price_count": 1
+    "price": "37,94 €"
   },
   "ES:B0C7GW9F88": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Blanco)",
@@ -995,7 +993,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "35,78 €"
+    "price": "35,73 €"
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1389,7 +1387,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.318891+00:00",
-    "price": "94,99 €"
+    "price": "94,99 €",
+    "pending_price": "99,99 €",
+    "pending_price_count": 1
   },
   "ES:B08TWV3BXB": {
     "name": "JOREST Kit de Desmontar Xbox one/360/X PS4 PS5 PS3, 25pcs Set Limpieza, Herramienta Reparacion para Mando y Consola, con Destornillador PH0 y Torx T6 T8 T10, Palanca, Pinzas, Cepillo",
@@ -2006,9 +2006,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256571+00:00",
-    "price": "20,90 €",
-    "pending_price": "21,90 €",
-    "pending_price_count": 1
+    "price": "21,90 €"
   },
   "ES:B09D9VTB5M": {
     "name": "World War Z: Aftermath",
@@ -2395,7 +2393,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257459+00:00",
-    "price": "20,99 €"
+    "price": "19,99 €"
   },
   "ES:B0F5GRCTLT": {
     "name": "SteelSeries Arctis Nova 3P Wireless Auriculares Gaming multiplataforma - App - Batería 40h - Controladores magnéticos de neodimio - 2,4 GHz/Bluetooth - Micro extraíble - PS5, PS4, PC, Switch -Negro",
@@ -2864,7 +2862,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.548611+00:00",
-    "price": "16,93 €"
+    "price": "16,77 €"
   },
   "ES:B0F7HQNHVV": {
     "name": "Project Motor Racing - Xbox",
