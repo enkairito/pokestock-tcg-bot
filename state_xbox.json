@@ -211,7 +211,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811418+00:00",
-    "price": "69,99 €"
+    "price": "55,99 €"
   },
   "ES:B09SH8QWFW": {
     "name": "KlsyChry Vertical Stand for Xbox Series X Game Console Accessories Dock Mount Supporter Base Holder Cradle (Black)",
@@ -991,7 +991,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
-    "price": "35,94 €"
+    "price": "35,86 €"
   },
   "ES:B0F7RNNYZY": {
     "name": "playvital Funda Protectora para Nintendo Switch 2 (2025)",
@@ -1826,7 +1826,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256320+00:00",
-    "price": "24,58 €"
+    "price": "24,58 €",
+    "pending_price": "46,96 €",
+    "pending_price_count": 1
   },
   "ES:B0BJV1V458": {
     "name": "Resident Evil 4 for PlayStation 4",
@@ -1980,7 +1982,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256532+00:00",
-    "price": "89,97 €"
+    "price": "81,59 €"
   },
   "ES:B095PPY2KN": {
     "name": "Mars Gaming MCPX, Idioma Español, Combo Gaming 3en1 con Teclado H-Mech Iluminado, Ratón Ultraligero 10000 dpi con Software y Alfombrilla XXL, Compatible con PC, PS4, PS5, Xbox, Negro",
@@ -2073,9 +2075,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256914+00:00",
-    "price": "13,08 €",
-    "pending_price": "13,18 €",
-    "pending_price_count": 1
+    "price": "13,18 €"
   },
   "ES:B097ZBFDKW": {
     "name": "Demon Slayer -KIMETSU NO Yaiba- JPN (Voice) - E F I G S (Text) Box UK",
@@ -3769,7 +3769,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579840+00:00",
-    "price": "25,55 €"
+    "price": "23,52 €"
   },
   "ES:B07T14YQYZ": {
     "name": "Destroy All Humans - Xbox One",
@@ -3777,7 +3777,7 @@
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579852+00:00",
     "price": "10,52 €",
-    "pending_price": "13,60 €",
+    "pending_price": "13,62 €",
     "pending_price_count": 1
   },
   "ES:B0C23V86YJ": {
