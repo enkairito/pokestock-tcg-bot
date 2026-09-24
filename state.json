@@ -2920,7 +2920,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:43:57.912076+00:00",
-    "price": "99,75 €"
+    "price": "98,16 €"
   },
   "US:B0DLQXNQDH": {
     "name": "Pokémon TCG: Scarlet & Violet - Prismatic Evolutions Mini Tin - Jolteon (2 Paquetes de Refuerzo y 1 Moneda)",
@@ -3513,7 +3513,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T16:43:24.705683+00:00",
-    "price": "73,09 €"
+    "price": "73,03 €"
   },
   "UK:B0FXVLH7QM": {
     "name": "Pokemon TCG: 1 Tarjeta Pokemon de Grado Aleatorio (Beckett, PSA o CGC), Grado 8 o Superior (inglés o japonés)",
@@ -3562,6 +3562,20 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T06:03:20.047645+00:00",
-    "price": "71,78 €"
+    "price": "71,75 €"
+  },
+  "UK:B0CV7YRG96": {
+    "name": "Pokémon TCG: Scarlet & Violet—Temporal Forces Triple Pack – Cyclizar (3 Booster Packs & 1 Foil Promo Card)",
+    "status": "compra_directa",
+    "stock": "2",
+    "first_seen": "2026-09-24T09:23:31.922756+00:00",
+    "price": "49,72 €"
+  },
+  "US:B0DSSSRQVZ": {
+    "name": "Pokemon TCG: Scarlet & Violet—Journey Together Enhanced Booster Display Box (36 Packs)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T09:23:31.922784+00:00",
+    "price": "325,47 €"
   }
 }
