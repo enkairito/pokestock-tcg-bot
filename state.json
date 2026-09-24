@@ -1707,7 +1707,7 @@
   "US:B0F6PMVQWQ": {
     "name": "Pokémon TCG Scarlet & Violet 10.5 Black Bolt Booster Set",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
     "price": "140,86 €"
   },
@@ -3570,9 +3570,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-24T09:23:31.922756+00:00",
-    "price": "49,72 €",
-    "pending_price": "53,47 €",
-    "pending_price_count": 1
+    "price": "53,47 €"
   },
   "US:B0DSSSRQVZ": {
     "name": "Pokemon TCG: Scarlet & Violet—Journey Together Enhanced Booster Display Box (36 Packs)",
