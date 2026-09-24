@@ -504,9 +504,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "149,99 €",
-    "pending_price": "211,88 €",
-    "pending_price_count": 1
+    "price": "149,99 €"
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -1737,10 +1735,9 @@
   },
   "ES:B00FRD9VQE": {
     "name": "Xbox One 500Gb, Opaca [Importación Italiana]",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:42.061114+00:00",
-    "price": "139,99 €"
+    "first_seen": "2026-09-17T00:32:42.061114+00:00"
   },
   "ES:B0CMXQKT82": {
     "name": "Xbox Series X + Call of Duty Modern Warfare III Cross-Gen Bundle for Xbox One and Xbox Series X/S",
@@ -1850,7 +1847,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256348+00:00",
-    "price": "84,90 €"
+    "price": "69,11 €"
   },
   "ES:B0F947WN6P": {
     "name": "Orcs Must Die! Deathtrap - Xbox Series X",
@@ -2895,7 +2892,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T12:31:47.548687+00:00",
-    "price": "99,99 €"
+    "price": "89,99 €"
   },
   "ES:B00ITGZCK0": {
     "name": "Batman Arkham Knight",
@@ -3063,12 +3060,12 @@
     "first_seen": "2026-09-18T02:31:17.802160+00:00"
   },
   "ES:B0875394DP": {
-    "name": "Cableguys Mega-Man Figurita Gaming Rockman - Soporte para Mando o Smartphone - Cable USB Incluido - 20 cm",
+    "name": "Cable Guys - Capcom Mega Man Gaming Accessories Holder & Phone Holder for Most Controller (Xbox, Play Station, Nintendo Switch) & Phone",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T08:31:31.238742+00:00",
     "price": "17,98 €",
-    "pending_price": "18,21 €",
+    "pending_price": "18,17 €",
     "pending_price_count": 1
   },
   "ES:B0D6G1BKS3": {
@@ -3117,7 +3114,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790594+00:00",
-    "price": "26,13 €"
+    "price": "23,46 €"
   },
   "ES:B0CW3KL79L": {
     "name": "THQ Nordic Disney Epic Mickey Rebrushed, para Xbox Series X y S",
@@ -3779,7 +3776,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579852+00:00",
-    "price": "11,85 €"
+    "price": "11,85 €",
+    "pending_price": "13,48 €",
+    "pending_price_count": 1
   },
   "ES:B0C23V86YJ": {
     "name": "Destroy All Humans! 2 - Reprobed: Single Player Juego para Xbox One",
@@ -4038,7 +4037,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:37.525369+00:00",
-    "price": "169,95 €"
+    "price": "169,95 €",
+    "pending_price": "199,95 €",
+    "pending_price_count": 1
   },
   "ES:B09PT92QL1": {
     "name": "MAYFLASH Magic NS 2 Adaptador USB Bluetooth inalámbrico Compatible con Switch/Switch 2, Steam Deck, Windows, Raspberry Pi, Xbox Series X & S Bluetooth Controller, PS5 Controller y más",
@@ -4567,5 +4568,40 @@
     "status": "no_disponible",
     "stock": null,
     "first_seen": "2026-09-24T18:31:45.271524+00:00"
+  },
+  "ES:B08HP49V26": {
+    "name": "Immortals Fenyx Rising Limited Edition Amazon XBOX X",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T22:31:41.897693+00:00",
+    "price": "15,99 €"
+  },
+  "ES:B0CB4H5KTK": {
+    "name": "Jujutsu Kaisen Cursed Clash, XBOX",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T22:31:41.897720+00:00",
+    "price": "18,24 €"
+  },
+  "ES:B0H1HX5PZP": {
+    "name": "Directiva 8020 (PlayStation 5)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T22:31:41.897733+00:00",
+    "price": "54,09 €"
+  },
+  "ES:B0GX2VZ32P": {
+    "name": "Gothic 3 Classic - XSRX",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T22:31:41.897744+00:00",
+    "price": "26,99 €"
+  },
+  "ES:B097SLK29W": {
+    "name": "Elex II Xsrx Int",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T22:31:41.897754+00:00",
+    "price": "16,62 €"
   }
 }
