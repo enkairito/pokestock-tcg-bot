@@ -36,9 +36,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:41:03.967973+00:00",
-    "price": "12,99 €",
-    "pending_price": "13,49 €",
-    "pending_price_count": 1
+    "price": "13,49 €"
   },
   "ES:B0GBWYQKKV": {
     "name": "Yu-Gi-Oh! Dominio Abrasador Display (24) (Versión en español)",
@@ -57,9 +55,11 @@
   "ES:B0G6FW7PFW": {
     "name": "Yu-Gi-Oh! Rarity Collection V Display (24) (Versión en español)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-09-07T17:41:22.046401+00:00",
-    "price": "150,00 €"
+    "price": "150,00 €",
+    "pending_price": "160,93 €",
+    "pending_price_count": 1
   },
   "ES:B0FZV792N8": {
     "name": "Yu-Gi-Oh! Laberinto DE Muertos Display (24) (Versión en español)",
@@ -136,9 +136,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:42:27.815808+00:00",
-    "price": "57,79 €",
-    "pending_price": "57,94 €",
-    "pending_price_count": 1
+    "price": "57,94 €"
   },
   "ES:B0F4XZHYDY": {
     "name": "Yu-Gi-Oh! Lata Mega-Pack 2025",
@@ -213,8 +211,10 @@
   "ES:B0F8NRC5WT": {
     "name": "Yu-Gi-Oh! Chronicles:Fallen & Virtuous Card Sleeves(50)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-09-10T11:45:06.861286+00:00",
-    "price": "10,58 €"
+    "price": "10,58 €",
+    "pending_price": "11,53 €",
+    "pending_price_count": 1
   }
 }
