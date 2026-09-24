@@ -1429,9 +1429,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802807+00:00",
-    "price": "32,48 €",
-    "pending_price": "32,50 €",
-    "pending_price_count": 1
+    "price": "32,50 €"
   },
   "UK:B0BJ7F5RNY": {
     "name": "Pokémon- Deoxys (60 Cards, Ready to Play) Baraja de Batalla V, Multicolor, zeraora (699-17149)",
@@ -3460,8 +3458,8 @@
   },
   "TC:212173": {
     "name": "Reacondicionado: Coleccion Premium Zoroark de Hisui V-Astro Pokemon TCG (ES)",
-    "status": "compra_directa",
-    "stock": 1.0,
+    "status": "no_disponible",
+    "stock": 0.0,
     "first_seen": "2026-09-19T02:03:09.680776+00:00",
     "price": "59,95 €"
   },
@@ -3582,5 +3580,12 @@
     "stock": null,
     "first_seen": "2026-09-24T09:23:31.922784+00:00",
     "price": "325,47 €"
+  },
+  "ECI:A200804709": {
+    "name": "Mini Lata Megaevolucion Caos Creciente JCC Pokémon Bandai Modelos surtidos",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-24T10:43:18.146669+00:00",
+    "price": "14,99 €"
   }
 }
