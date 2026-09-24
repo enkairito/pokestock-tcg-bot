@@ -762,7 +762,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644858+00:00",
-    "price": "77,48 €"
+    "price": "77,48 €",
+    "pending_price": "78,57 €",
+    "pending_price_count": 1
   },
   "US:B0DN98RVZM": {
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
@@ -795,7 +797,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "72,87 €"
   },
@@ -1660,7 +1662,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280980+00:00",
-    "price": "46,16 €"
+    "price": "46,16 €",
+    "pending_price": "46,78 €",
+    "pending_price_count": 1
   },
   "UK:B0FTSVL3Z6": {
     "name": "Pokemon Mega Brave m1L Caja Booster Coreana 30 Sobres Cartas Originales",
@@ -3558,7 +3562,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T03:23:36.529801+00:00",
-    "price": "32,97 €"
+    "price": "32,97 €",
+    "pending_price": "66,86 €",
+    "pending_price_count": 1
   },
   "UK:B0G5FWJ8NL": {
     "name": "Pokémon TCG: Mega Charizard Tin",
