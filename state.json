@@ -1301,7 +1301,7 @@
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
     "price": "112,23 €",
-    "pending_price": "114,41 €",
+    "pending_price": "113,52 €",
     "pending_price_count": 1
   },
   "UK:B0DC2BK8QG": {
@@ -1468,7 +1468,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802853+00:00",
-    "price": "136,50 €"
+    "price": "136,50 €",
+    "pending_price": "138,45 €",
+    "pending_price_count": 1
   },
   "US:B0G72SPRP6": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
@@ -1488,7 +1490,9 @@
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-09-04T21:32:58.802885+00:00",
-    "price": "99,85 €"
+    "price": "99,85 €",
+    "pending_price": "99,86 €",
+    "pending_price_count": 1
   },
   "US:B0G5S61BHK": {
     "name": "Pokémon TCG: Mega Charizard Tin - Mega Charizard X ex (4 potenciadores y 1 Tarjeta Promocional de Aluminio)",
@@ -2415,7 +2419,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-16T18:43:05.692265+00:00",
-    "price": "84,86 €"
+    "price": "84,16 €"
   },
   "TRU:K1105105": {
     "name": "Pokémon - Escarlata y Púrpura: Rivales Predestinados - Sobre de Mejora - Español (Varios modelos)",
@@ -2930,7 +2934,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:43:57.912076+00:00",
-    "price": "98,09 €"
+    "price": "98,09 €",
+    "pending_price": "99,83 €",
+    "pending_price_count": 1
   },
   "US:B0DLQXNQDH": {
     "name": "Pokémon TCG: Scarlet & Violet - Prismatic Evolutions Mini Tin - Jolteon (2 Paquetes de Refuerzo y 1 Moneda)",
