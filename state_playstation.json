@@ -1017,7 +1017,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:24:23.874103+00:00",
-    "price": "39,99 €"
+    "price": "39,90 €"
   },
   "ES:B0DSWGPHB4": {
     "name": "GXTrust Forta Cascos PS5 Licencia Oficial para PlayStation 5, Rosado",
@@ -1815,9 +1815,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.497931+00:00",
-    "price": "26,53 €",
-    "pending_price": "26,72 €",
-    "pending_price_count": 1
+    "price": "26,72 €"
   },
   "ES:B0DFMCFVLS": {
     "name": "The Spectrum",
@@ -2293,7 +2291,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "24,45 €"
+    "price": "24,43 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2512,9 +2510,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500083+00:00",
-    "price": "36,90 €",
-    "pending_price": "39,99 €",
-    "pending_price_count": 1
+    "price": "39,99 €"
   },
   "ES:B0DV5G3ZDN": {
     "name": "Mcbazel TMR Joystick Electromagnético de Repuesto para Mando PS5 DualSense, con Thumbsticks de Repuesto y Kit de Reparación, Anti-Drift",
@@ -2876,7 +2872,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566486+00:00",
-    "price": "27,87 €"
+    "price": "27,87 €",
+    "pending_price": "27,88 €",
+    "pending_price_count": 1
   },
   "ES:B07W7KWV2Y": {
     "name": "Logitech Brio 300 Full HD Webcam con Obturador de privacidad | Micrófono reducción ruido, USB-C, certificado Zoom/Teams/Google Meet, corrección de luz automática - Grafito",
