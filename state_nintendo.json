@@ -35,7 +35,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.362342+00:00",
-    "price": "19,04 €"
+    "price": "17,97 €"
   },
   "ES:B0FQWHWWSG": {
     "name": "Metroid Prime 4: Beyond - Switch",
@@ -161,18 +161,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.911995+00:00",
-    "price": "511,98 €",
-    "pending_price": "531,89 €",
-    "pending_price_count": 1
+    "price": "531,89 €"
   },
   "ES:B0FYHMK8N2": {
     "name": "Nintendo Switch 2 + Donkey Kong Bananza",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912002+00:00",
-    "price": "519,98 €",
-    "pending_price": "539,89 €",
-    "pending_price_count": 1
+    "price": "539,89 €"
   },
   "ES:B0FBMLXK2D": {
     "name": "Pokemon Legends: Z-A: Nintendo Switch 2 Edition",
@@ -269,9 +265,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912091+00:00",
-    "price": "70,00 €",
-    "pending_price": "74,99 €",
-    "pending_price_count": 1
+    "price": "70,00 €"
   },
   "ES:B07VFTVVWX": {
     "name": "Nintendo Switch Joy-Con-Controller, links blau/rechts, neongelb [Videospiel]",
@@ -638,7 +632,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478316+00:00",
-    "price": "35,00 €"
+    "price": "35,00 €",
+    "pending_price": "35,80 €",
+    "pending_price_count": 1
   },
   "ES:B0FR451FFZ": {
     "name": "Nintendo Super Mario Galaxy + Super Mario Galaxy 2",
@@ -1066,7 +1062,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T12:20:51.136983+00:00",
-    "price": "69,99 €"
+    "price": "69,90 €"
   },
   "ES:B0DGGTYDLJ": {
     "name": "Nintendo Switch Lite - Consola Azul Turquesa + Animal Crossing + 12 meses NSO",
@@ -1414,9 +1410,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850724+00:00",
-    "price": "449,99 €",
-    "pending_price": "467,00 €",
-    "pending_price_count": 1
+    "price": "467,00 €"
   },
   "ES:B0F3P3X5P2": {
     "name": "Sandisk Micro SD Express Card for Nintendo Switch 2",
@@ -1430,7 +1424,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850774+00:00",
-    "price": "69,99 €"
+    "price": "69,90 €"
   },
   "ES:B0BHDDH5W1": {
     "name": "Nintendo Consola Switch - Color Azul Neón/Rojo Neón",
@@ -1743,18 +1737,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688196+00:00",
-    "price": "506,98 €",
-    "pending_price": "526,89 €",
-    "pending_price_count": 1
+    "price": "526,89 €"
   },
   "ES:B0FYHK8329": {
     "name": "Nintendo Switch 2 + 25e eShop",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688211+00:00",
-    "price": "474,99 €",
-    "pending_price": "494,90 €",
-    "pending_price_count": 1
+    "price": "494,90 €"
   },
   "ES:B0HC3PYP2D": {
     "name": "Nintendo Switch 2 + Donkey Kong Bananza- Switch 2",
@@ -1762,7 +1752,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688228+00:00",
     "price": "519,98 €",
-    "pending_price": "539,89 €",
+    "pending_price": "539,80 €",
     "pending_price_count": 1
   },
   "ES:B0FYTQ5XLG": {
@@ -2086,7 +2076,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688827+00:00",
     "price": "329,90 €",
-    "pending_price": "398,20 €",
+    "pending_price": "375,58 €",
     "pending_price_count": 1
   },
   "ES:B09B85F56N": {
@@ -2201,7 +2191,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689114+00:00",
-    "price": "49,99 €"
+    "price": "49,99 €",
+    "pending_price": "54,99 €",
+    "pending_price_count": 1
   },
   "ES:B09GWPYXVH": {
     "name": "Kirby y la Tierra Olvidada",
@@ -3489,10 +3481,9 @@
   },
   "ES:B0F472XCXY": {
     "name": "SAVAGE RAVEN by Skull & Co. Skin, CQC Thumb Grip Set Joystick Cap Analog Stick Cap for Nintendo Switch 2 Joy-con Controller - Black, 3 Pairs(6pcs)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-19T12:31:57.854133+00:00",
-    "price": "11,99 €"
+    "first_seen": "2026-09-19T12:31:57.854133+00:00"
   },
   "ES:B0GXHDZ7HB": {
     "name": "Thryvix Funda Protectora Transparente Dockable, Carcasa Rígida Antigolpes,Compatible con Nintendo Switch 2, Dos Materiales PC y TPU, Resistente, para Niños, Viaje, Regalo Cumpleaños",
