@@ -258,9 +258,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "83,29 €",
-    "pending_price": "102,09 €",
-    "pending_price_count": 1
+    "price": "102,09 €"
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -298,9 +296,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018779+00:00",
-    "price": "18,99 €",
-    "pending_price": "26,35 €",
-    "pending_price_count": 1
+    "price": "26,35 €"
   },
   "ES:B0F6D5BS17": {
     "name": "PlayStation 5-Ghost of Yotei - Edición Estándar",
@@ -315,7 +311,7 @@
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018808+00:00",
     "price": "19,99 €",
-    "pending_price": "25,12 €",
+    "pending_price": "22,79 €",
     "pending_price_count": 1
   },
   "ES:B09KTGP5C2": {
@@ -328,9 +324,9 @@
   "ES:B07HNR4ZZD": {
     "name": "Sony PlayStation 4 Slim 500 Go, Avec 1 manette sans fil DUALSHOCK 4 V2, Châssis F, Noir (Jet Black) [Importación francesa]",
     "status": "compra_directa",
-    "stock": "2",
-    "price": "494,08 €",
-    "first_seen": "2026-09-12T00:28:04.018828+00:00"
+    "stock": null,
+    "first_seen": "2026-09-12T00:28:04.018828+00:00",
+    "price": "199,90 €"
   },
   "ES:B0GRWCXP1F": {
     "name": "GXTrust Forta Cascos Inalámbricos Licencia PlayStation 5, Negro/Blanco",
@@ -456,7 +452,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018957+00:00",
-    "price": "36,99 €"
+    "price": "33,99 €"
   },
   "ES:B0BKW3BYFR": {
     "name": "AceGamer Controlador Inalámbrico Para Ps4, Controlador De Juego Compatible Con Ps4/Pro/Slim/Pc, Con Turbobotón/Botón Trasero/Doble Vibración/Sensor De Giroscopio De 6 Ejes/Panel Táctil",
@@ -1159,7 +1155,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:22:34.377710+00:00",
-    "price": "23,46 €"
+    "price": "23,46 €",
+    "pending_price": "23,48 €",
+    "pending_price_count": 1
   },
   "ES:B0DPHGSSWH": {
     "name": "Fenolical Soporte Delgado para PS5/PS5 con Ventilador de Refrigeración Ajustable, Soporte de Cargador de Refrigeración Vertical PS5 para PS5/PS5 Slim, Estación de Refrigeración Delgada Multifuncional",
@@ -1593,10 +1591,9 @@
   },
   "ES:B09ZM9RV4F": {
     "name": "Playtation 5 Digital Edition PS.5 Consola (Disco*Free)- U Deal",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-16T20:35:25.732737+00:00",
-    "price": "589,00 €"
+    "first_seen": "2026-09-16T20:35:25.732737+00:00"
   },
   "ES:B0FYHR3MYZ": {
     "name": "Nintendo Switch 2 - Pro Controller Resident Evil Requiem Edition",
@@ -1857,7 +1854,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498034+00:00",
-    "price": "90,51 €"
+    "price": "83,49 €"
   },
   "ES:B08TJQY9JD": {
     "name": "Playstation Gran Turismo 7 | Standard Edition [Playstation 4]",
@@ -1878,7 +1875,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498076+00:00",
-    "price": "31,47 €"
+    "price": "29,46 €"
   },
   "ES:B09KCP7BS8": {
     "name": "Autobahn Police Simulator 2 (Nintendo Switch)",
@@ -1948,7 +1945,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498253+00:00",
-    "price": "44,33 €"
+    "price": "36,90 €"
   },
   "ES:B0GVP719SW": {
     "name": "Mortal Shell II - PS5",
@@ -2130,9 +2127,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498891+00:00",
-    "price": "28,40 €",
-    "pending_price": "28,50 €",
-    "pending_price_count": 1
+    "price": "28,50 €"
   },
   "ES:B07MWXG7QV": {
     "name": "Days Gone [Importación francesa]",
@@ -2188,9 +2183,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499167+00:00",
-    "price": "32,73 €",
-    "pending_price": "40,33 €",
-    "pending_price_count": 1
+    "price": "32,73 €"
   },
   "ES:B0CJG2KCBL": {
     "name": "Rise of the Tomb Raider 20 Year Celebration",
@@ -2302,7 +2295,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "24,73 €"
+    "price": "24,65 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -3620,9 +3613,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T16:31:45.788425+00:00",
-    "price": "48,20 €",
-    "pending_price": "48,67 €",
-    "pending_price_count": 1
+    "price": "48,67 €"
   },
   "ES:B0BNYSHHJJ": {
     "name": "God of War Ragnarök",
@@ -3958,9 +3949,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T12:31:51.828132+00:00",
-    "price": "26,62 €",
-    "pending_price": "26,72 €",
-    "pending_price_count": 1
+    "price": "26,72 €"
   },
   "ES:B0FNR2YPLP": {
     "name": "LATEC Mando para PS4, Mando Inalámbrico PS4 con Bluetooth, 2 Botones de Programación Macro, 6-Axis Sensor Giroscópico, Doble Vibración, Panel Táctil, Rosa",
