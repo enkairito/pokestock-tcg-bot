@@ -161,14 +161,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.911995+00:00",
-    "price": "511,99 €"
+    "price": "511,98 €"
   },
   "ES:B0FYHMK8N2": {
     "name": "Nintendo Switch 2 + Donkey Kong Bananza",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912002+00:00",
-    "price": "519,99 €"
+    "price": "519,98 €"
   },
   "ES:B0FBMLXK2D": {
     "name": "Pokemon Legends: Z-A: Nintendo Switch 2 Edition",
@@ -569,7 +569,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478229+00:00",
-    "price": "34,90 €"
+    "price": "29,39 €"
   },
   "ES:B0BV27FTTF": {
     "name": "Aukuoy RCM Jig para Nintendo Switch, Herramientas de Cortocircuito de Herramienta RCM utilizadas para Cambiar el Juego de Archivo GBA/FBA",
@@ -1331,7 +1331,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T20:34:05.436549+00:00",
-    "price": "24,99 €"
+    "price": "24,69 €"
   },
   "ES:B09V2RQ6R9": {
     "name": "AUTOUTLET Adaptador Wii a HDMI, Convertidor Wii Hdmi Cable Extensión de 20cm 1080P / 720P Full HD, Salida de Audio de 3,5mm y Cable HDMI de 1,8m, Indicador de Luz para Wii, Televisión Blanco",
@@ -1408,7 +1408,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850724+00:00",
-    "price": "450,00 €"
+    "price": "449,99 €"
   },
   "ES:B0F3P3X5P2": {
     "name": "Sandisk Micro SD Express Card for Nintendo Switch 2",
@@ -1735,21 +1735,21 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688196+00:00",
-    "price": "506,99 €"
+    "price": "506,98 €"
   },
   "ES:B0FYHK8329": {
     "name": "Nintendo Switch 2 + 25e eShop",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688211+00:00",
-    "price": "475,00 €"
+    "price": "474,99 €"
   },
   "ES:B0HC3PYP2D": {
     "name": "Nintendo Switch 2 + Donkey Kong Bananza- Switch 2",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688228+00:00",
-    "price": "519,99 €"
+    "price": "519,98 €"
   },
   "ES:B0FYTQ5XLG": {
     "name": "2 Piezas de Cubiertas Protectoras magnéticas para Switch2, Protectores Laterales contra arañazos, Protectores de los Bordes, Cubierta del Punto de conexión del Mango. (Azul-Naranja)",
@@ -1840,7 +1840,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688418+00:00",
-    "price": "51,68 €"
+    "price": "51,63 €"
   },
   "ES:B0FN4F4L55": {
     "name": "Kirby Air Riders - Switch 2",
@@ -2734,9 +2734,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689991+00:00",
-    "price": "75,71 €",
-    "pending_price": "76,76 €",
-    "pending_price_count": 1
+    "price": "76,76 €"
   },
   "ES:B0B69K1671": {
     "name": "Volante y pedales Hori para consola Switch pack Crash-Bandicoot Nitro Fueled (Liccencia oficial)",
@@ -3707,9 +3705,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T18:31:43.447144+00:00",
-    "price": "37,49 €",
-    "pending_price": "39,99 €",
-    "pending_price_count": 1
+    "price": "39,99 €"
   },
   "ES:B0DCJX27LF": {
     "name": "Square Enix Final Fantasy I-VI Collection Anniversary Edition (Nintendo Switch) [versión en inglés]",
