@@ -128,7 +128,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388338+00:00",
-    "price": "48,22 €"
+    "price": "48,22 €",
+    "pending_price": "49,99 €",
+    "pending_price_count": 1
   },
   "ES:B08KVH51VX": {
     "name": "NEED FOR SPEED HOT PURSUIT REMASTERED",
@@ -176,9 +178,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811357+00:00",
-    "price": "52,90 €",
-    "pending_price": "52,99 €",
-    "pending_price_count": 1
+    "price": "52,99 €"
   },
   "ES:B0FX3895S9": {
     "name": "Assassin's Creed Shadows (Xbox Series X)",
@@ -246,9 +246,11 @@
   "ES:B083T65GQX": {
     "name": "Batman Arkham Collection (Standard Edition) - Xbox One [Importación inglesa]",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
+    "first_seen": "2026-09-11T19:25:04.811467+00:00",
     "price": "33,93 €",
-    "first_seen": "2026-09-11T19:25:04.811467+00:00"
+    "pending_price": "44,20 €",
+    "pending_price_count": 1
   },
   "ES:B0CF2T3CQ2": {
     "name": "Videojuego Xbox One/Series X Activision Call of Duty: Modern Warfare 3 (FR)",
@@ -1152,7 +1154,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T00:20:55.336240+00:00",
-    "price": "24,90 €"
+    "price": "24,90 €",
+    "pending_price": "29,99 €",
+    "pending_price_count": 1
   },
   "ES:B0DWL7FZ3W": {
     "name": "PowerA Controlador simétrico con cable para Xbox Series X|S - Azul, licencia oficial, diseño de palanca de pulgar en línea, compatible con Windows 10/11, motores duales Rumble, disparadores de impulso",
@@ -1387,9 +1391,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.318891+00:00",
-    "price": "102,00 €",
-    "pending_price": "103,00 €",
-    "pending_price_count": 1
+    "price": "103,00 €"
   },
   "ES:B08TWV3BXB": {
     "name": "JOREST Kit de Desmontar Xbox one/360/X PS4 PS5 PS3, 25pcs Set Limpieza, Herramienta Reparacion para Mando y Consola, con Destornillador PH0 y Torx T6 T8 T10, Palanca, Pinzas, Cepillo",
@@ -1837,9 +1839,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256329+00:00",
-    "price": "23,46 €",
-    "pending_price": "23,48 €",
-    "pending_price_count": 1
+    "price": "23,48 €"
   },
   "ES:B0H4QL9XMT": {
     "name": "Persona 4 Revival - XSRX",
@@ -1986,7 +1986,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256532+00:00",
-    "price": "89,97 €"
+    "price": "89,97 €",
+    "pending_price": "89,99 €",
+    "pending_price_count": 1
   },
   "ES:B095PPY2KN": {
     "name": "Mars Gaming MCPX, Idioma Español, Combo Gaming 3en1 con Teclado H-Mech Iluminado, Ratón Ultraligero 10000 dpi con Software y Alfombrilla XXL, Compatible con PC, PS4, PS5, Xbox, Negro",
@@ -2000,7 +2002,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256560+00:00",
-    "price": "58,99 €"
+    "price": "58,99 €",
+    "pending_price": "59,95 €",
+    "pending_price_count": 1
   },
   "ES:B08Z5H2H4F": {
     "name": "Venom Paquete doble de baterías recargables de alta capacidad de 1100 mAh, color negro (Xbox Series X y S/Xbox One)",
@@ -2126,7 +2130,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257000+00:00",
-    "price": "34,80 €"
+    "price": "28,51 €"
   },
   "ES:B071L7VF3G": {
     "name": "Sine Mora EX",
@@ -2371,7 +2375,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257447+00:00",
-    "price": "56,31 €"
+    "price": "56,15 €"
   },
   "ES:B0GTBVX67G": {
     "name": "Turtle Beach Rematch Core Ghost Camo Negro - Mando con Cable - con Licencia para Xbox Series XS, Xbox One y PC - Sticks con efecto Hall, Botones de Audio, Motores de vibración y disparadores de Pulso",
@@ -2417,9 +2421,10 @@
   },
   "ES:B0FVLVQJH1": {
     "name": "JSAUX Funda De Transporte De Gran Capacidad para ROG Xbox Ally/Ally X | Carcasa Rígida, Dos Niveles para Consola Y Accesorios, Forro Suave, Protección Joysticks, Ranuras SD/micro SD, BG0136",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:42.257492+00:00"
+    "first_seen": "2026-09-17T00:32:42.257492+00:00",
+    "price": "29,99 €"
   },
   "ES:B07RDQBFXY": {
     "name": "Corsair Harpoon Pro RGB Ratón Ligero con Cable para Juegos FPS/MOBA - Negro | 12.000 PPP, 6 Botones Programables, Compatible con iCUE, PC, Mac, PS5, PS4, Xbox",
@@ -3537,7 +3542,7 @@
     "price": "45,99 €"
   },
   "ES:B0H7JTHNRN": {
-    "name": "The Mound: Omen of Cthulhu Standard édition (Standard, Xbox Series X)",
+    "name": "Nacon The Mound: Omen of Cthulhu Edición Deluxe Videojuego para XBOX series X",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T14:32:18.169268+00:00",
@@ -3780,7 +3785,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579852+00:00",
-    "price": "11,85 €"
+    "price": "11,85 €",
+    "pending_price": "13,56 €",
+    "pending_price_count": 1
   },
   "ES:B0C23V86YJ": {
     "name": "Destroy All Humans! 2 - Reprobed: Single Player Juego para Xbox One",
@@ -4220,7 +4227,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T12:31:48.397184+00:00",
-    "price": "28,92 €"
+    "price": "28,92 €",
+    "pending_price": "29,04 €",
+    "pending_price_count": 1
   },
   "ES:B0GM1TGB9V": {
     "name": "Super Bomberman Collection – Xbox",
@@ -4506,7 +4515,7 @@
     "stock": null,
     "first_seen": "2026-09-24T14:31:53.505508+00:00",
     "price": "20,25 €",
-    "pending_price": "23,71 €",
+    "pending_price": "27,51 €",
     "pending_price_count": 1
   },
   "ES:B09867DNJ9": {
@@ -4607,5 +4616,156 @@
     "price": "16,62 €",
     "pending_price": "16,72 €",
     "pending_price_count": 1
+  },
+  "ES:B00ZRK9UKO": {
+    "name": "Gears of War 4 - Xbox One [Importación alemana]",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:13.951655+00:00"
+  },
+  "ES:B07TMRSSFK": {
+    "name": "Assassin's Creed Odyssey + Assassin's Creed Origins - Xbox One [Importación alemana]",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:13.951680+00:00"
+  },
+  "ES:B00I9WV4OM": {
+    "name": "Halo: The Master Chief Collection [Importación Inglesa]",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:13.951689+00:00"
+  },
+  "ES:B08KDKZ539": {
+    "name": "MICSOFX ENGRANAJES TÁCTICOS - XX",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:14.644468+00:00",
+    "price": "27,90 €"
+  },
+  "ES:B0C74KPKRD": {
+    "name": "Prince of Persia: The Lost Crown (Xbox One/Series X)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:14.644546+00:00",
+    "price": "19,99 €"
+  },
+  "ES:B0F8C1Z3NG": {
+    "name": "Mafia: The Old Country XBS",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:14.644579+00:00",
+    "price": "39,75 €"
+  },
+  "ES:B0CG1WVCQZ": {
+    "name": "C.o.D Modern Warfare III XBX ESP",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:14.644592+00:00",
+    "price": "25,25 €"
+  },
+  "ES:B08WQP4B71": {
+    "name": "Mass Effect Legendary Edition Xbox One/Xbox SX",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:14.644780+00:00",
+    "price": "29,95 €"
+  },
+  "ES:B0FWNDYM7J": {
+    "name": "PLANTS VS ZOMBIES: PVZ REPLANTED Standard | Xbox One/Series X|S - Codice de descarga",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:14.644798+00:00",
+    "price": "19,99 €"
+  },
+  "ES:B0C8VX4BWF": {
+    "name": "Starfield Premium Edition | Xbox & Windows 10/11 - Código de descarga",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:14.644813+00:00",
+    "price": "41,99 €"
+  },
+  "ES:B077TZX4V9": {
+    "name": "8-Bit Armies",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:14.644826+00:00",
+    "price": "8,40 €"
+  },
+  "ES:B00TV108AG": {
+    "name": "Xbox1 Batman : Arkham Knight D1 Edition (harley quinn dlc)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:14.644836+00:00",
+    "price": "19,27 €"
+  },
+  "ES:B094R5V2YZ": {
+    "name": "Lost Judgment",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:14.644846+00:00",
+    "price": "55,96 €"
+  },
+  "ES:B01AVGIGZI": {
+    "name": "Warner Bros Mortal Kombat XL Xbox One Básico Xbox One Inglés vídeo - Juego (Xbox One, Lucha, Modo multijugador, M (Maduro))",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:14.644855+00:00",
+    "price": "32,79 €"
+  },
+  "ES:B00ZSCCPTY": {
+    "name": "Gears Of War 4 [Importación Francesa]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:14.644915+00:00",
+    "price": "24,89 €"
+  },
+  "ES:B01LCF27MU": {
+    "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:14.644931+00:00",
+    "price": "22,45 €"
+  },
+  "ES:B07YYVXMJ5": {
+    "name": "Assassin's Creed III Remastered & Liberation Remastered",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:14.644941+00:00",
+    "price": "32,94 €"
+  },
+  "ES:B0DVZ9D58R": {
+    "name": "Turtle Beach Stealth 600 Morado Xbox Auriculares de Juego Inalámbricos con 80hr Batería, Altavoces de 50 mm y Bluetooth para Xbox Series X o S, Xbox One y PC",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:14.645069+00:00",
+    "price": "89,99 €"
+  },
+  "ES:B0GJ5KJBS8": {
+    "name": "deleyCON Cable HDMI 2.1 8K 3,0m Cable de Alta Velocidad Ultra High Speed 48 Gbps con Conector Acodado (270°) - Ideal para TV, Monitor, PS4, PS5, EARC, HDR10+ - 10K/8K@60Hz, 4K@120Hz/144Hz y 2K@240Hz",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:14.645073+00:00",
+    "price": "11,39 €"
+  },
+  "ES:B0D5LPJ2NN": {
+    "name": "8BitDo Charging Dock for Xbox Wireless Controllers, Xbox Charging Station with Magnetic Secure Charging for Xbox Series X|S and Xbox One Controller - Officially Licensed (White)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:14.645090+00:00",
+    "price": "24,99 €"
+  },
+  "ES:B0C9RLWNJB": {
+    "name": "KontrolFreek CQC Classic Grips para Mando Xbox | 2X Gomas Protectoras Low-Rise para Xbox Series X|S & Xbox One | Agilidad & Control Mejorados",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:14.645166+00:00",
+    "price": "12,99 €"
+  },
+  "ES:B07W1G95PH": {
+    "name": "Ablet Boom - Cable de micrófono Boompro compatible con Sennheiser HD598, HD598Cs, HD560s, HD598SE, HD620S, HD400PRO, HD599, Xbox One, PlayStation PS4, PC (150 cm)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:14.645172+00:00",
+    "price": "22,71 €"
   }
 }
