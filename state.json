@@ -1613,7 +1613,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "122,95 €"
+    "price": "122,92 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -3594,7 +3594,7 @@
   "UK:B0DR25TJNN": {
     "name": "Pokémon 2024 TCG World Championships Deck",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "first_seen": "2026-09-24T13:43:07.693439+00:00",
     "price": "46,27 €"
   },
