@@ -17,7 +17,9 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-07T17:41:04.537441+00:00",
-    "price": "39,01 €"
+    "price": "39,01 €",
+    "pending_price": "39,02 €",
+    "pending_price_count": 1
   },
   "ES:B0H8S82717": {
     "name": "Disney Lorcana TCG - Kit de iniciación para coleccionistas Rapunzel Edition",
@@ -226,9 +228,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T00:16:46.734698+00:00",
-    "price": "74,98 €",
-    "pending_price": "79,90 €",
-    "pending_price_count": 1
+    "price": "79,90 €"
   },
   "ES:B0CSZ6H1SN": {
     "name": "Disney Lorcana Trading Card Game – Shimmering Skies – Illumnieer's Trove",
@@ -307,5 +307,12 @@
     "stock": null,
     "first_seen": "2026-09-20T18:16:15.865534+00:00",
     "price": "19,99 €"
+  },
+  "ES:B0DTK2ZQ4D": {
+    "name": "Ravensburger - Disney Lorcana TCG: Set 9 Fundas Cartas De Colección Pluto | 65 Fundas para Cartas Disney Lorcana con Un Diseño Único | Card Sleeves Mickey De Un Tamaño De 63 X 88mm",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T18:16:53.229336+00:00",
+    "price": "11,28 €"
   }
 }
