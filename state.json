@@ -1291,18 +1291,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802612+00:00",
-    "price": "107,40 €",
-    "pending_price": "108,69 €",
-    "pending_price_count": 1
+    "price": "108,69 €"
   },
   "UK:B0DB7C1Z26": {
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "113,52 €",
-    "pending_price": "115,72 €",
-    "pending_price_count": 1
+    "price": "113,52 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1317,7 +1313,7 @@
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802653+00:00",
     "price": "89,60 €",
-    "pending_price": "91,32 €",
+    "pending_price": "90,98 €",
     "pending_price_count": 1
   },
   "UK:B0CMZS84KP": {
@@ -1562,7 +1558,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802941+00:00",
-    "price": "73,46 €"
+    "price": "73,46 €",
+    "pending_price": "74,49 €",
+    "pending_price_count": 1
   },
   "US:B0D92YXKBH": {
     "name": "Pokemon TCG: Scarlet & Violet—151 Mini Tin – Electabuzz and Magnemite (2 Booster Packs, 1 Coin & 1 Art Card)",
@@ -1618,7 +1616,9 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "122,20 €"
+    "price": "122,20 €",
+    "pending_price": "123,00 €",
+    "pending_price_count": 1
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -1639,7 +1639,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280869+00:00",
-    "price": "111,01 €"
+    "price": "110,98 €"
   },
   "UK:B0DG2XTYDP": {
     "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
@@ -2415,7 +2415,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-16T18:43:05.692265+00:00",
-    "price": "84,16 €"
+    "price": "83,44 €"
   },
   "TRU:K1105105": {
     "name": "Pokémon - Escarlata y Púrpura: Rivales Predestinados - Sobre de Mejora - Español (Varios modelos)",
@@ -2931,7 +2931,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:43:57.912076+00:00",
     "price": "98,09 €",
-    "pending_price": "99,83 €",
+    "pending_price": "98,14 €",
     "pending_price_count": 1
   },
   "US:B0DLQXNQDH": {
@@ -3057,7 +3057,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T18:43:44.649265+00:00",
-    "price": "63,30 €"
+    "price": "60,37 €"
   },
   "MM:168046545": {
     "name": "Juego de cartas - BANDAI Pokémon TCG Baraja Combate EX Octubre Surtida, 60 cartas",
@@ -3523,7 +3523,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T16:43:24.705683+00:00",
-    "price": "72,84 €"
+    "price": "72,83 €"
   },
   "UK:B0FXVLH7QM": {
     "name": "Pokemon TCG: 1 Tarjeta Pokemon de Grado Aleatorio (Beckett, PSA o CGC), Grado 8 o Superior (inglés o japonés)",
@@ -3567,7 +3567,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T03:23:36.529801+00:00",
-    "price": "27,48 €"
+    "price": "27,48 €",
+    "pending_price": "64,81 €",
+    "pending_price_count": 1
   },
   "UK:B0G5FWJ8NL": {
     "name": "Pokémon TCG: Mega Charizard Tin",
