@@ -796,9 +796,11 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
-    "price": "72,84 €"
+    "price": "72,84 €",
+    "pending_price": "73,23 €",
+    "pending_price_count": 1
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
@@ -1311,9 +1313,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802653+00:00",
-    "price": "87,91 €",
-    "pending_price": "89,60 €",
-    "pending_price_count": 1
+    "price": "89,60 €"
   },
   "UK:B0CMZS84KP": {
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
@@ -1485,9 +1485,7 @@
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-09-04T21:32:58.802885+00:00",
-    "price": "99,85 €",
-    "pending_price": "99,86 €",
-    "pending_price_count": 1
+    "price": "99,86 €"
   },
   "US:B0G5S61BHK": {
     "name": "Pokémon TCG: Mega Charizard Tin - Mega Charizard X ex (4 potenciadores y 1 Tarjeta Promocional de Aluminio)",
@@ -2931,9 +2929,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:43:57.912076+00:00",
-    "price": "98,09 €",
-    "pending_price": "99,83 €",
-    "pending_price_count": 1
+    "price": "98,09 €"
   },
   "US:B0DLQXNQDH": {
     "name": "Pokémon TCG: Scarlet & Violet - Prismatic Evolutions Mini Tin - Jolteon (2 Paquetes de Refuerzo y 1 Moneda)",
