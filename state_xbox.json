@@ -1385,9 +1385,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.318891+00:00",
-    "price": "99,99 €",
-    "pending_price": "102,00 €",
-    "pending_price_count": 1
+    "price": "102,00 €"
   },
   "ES:B08TWV3BXB": {
     "name": "JOREST Kit de Desmontar Xbox one/360/X PS4 PS5 PS3, 25pcs Set Limpieza, Herramienta Reparacion para Mando y Consola, con Destornillador PH0 y Torx T6 T8 T10, Palanca, Pinzas, Cepillo",
@@ -1898,9 +1896,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256416+00:00",
-    "price": "22,00 €",
-    "pending_price": "23,00 €",
-    "pending_price_count": 1
+    "price": "23,00 €"
   },
   "ES:B0FT3K5S46": {
     "name": "Code Vein II",
@@ -1977,14 +1973,18 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256523+00:00",
-    "price": "13,25 €"
+    "price": "13,25 €",
+    "pending_price": "18,77 €",
+    "pending_price_count": 1
   },
   "ES:B083JL8CLF": {
     "name": "Corsair Scimitar Elite RGB Óptico MOBA/MMO Ratón para Juegos - Negro | 18.000 PPP Óptico Sensor, 17 Botones Programables, Retroiluminación RGB Dinámica en Cuatro Zonas, Forma Contorneada",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256532+00:00",
-    "price": "81,59 €"
+    "price": "81,59 €",
+    "pending_price": "89,97 €",
+    "pending_price_count": 1
   },
   "ES:B095PPY2KN": {
     "name": "Mars Gaming MCPX, Idioma Español, Combo Gaming 3en1 con Teclado H-Mech Iluminado, Ratón Ultraligero 10000 dpi con Software y Alfombrilla XXL, Compatible con PC, PS4, PS5, Xbox, Negro",
@@ -2208,9 +2208,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257137+00:00",
-    "price": "24,32 €",
-    "pending_price": "28,97 €",
-    "pending_price_count": 1
+    "price": "28,97 €"
   },
   "ES:B08HZKQDK1": {
     "name": "F1 2020 - Xbox One",
@@ -3069,7 +3067,7 @@
     "stock": null,
     "first_seen": "2026-09-18T08:31:31.238742+00:00",
     "price": "17,98 €",
-    "pending_price": "18,21 €",
+    "pending_price": "18,11 €",
     "pending_price_count": 1
   },
   "ES:B0D6G1BKS3": {
@@ -4248,7 +4246,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T12:31:48.397282+00:00",
-    "price": "33,02 €"
+    "price": "31,47 €"
   },
   "ES:B00YTVNBDY": {
     "name": "Fallout 4 [Importación Francesa]",
