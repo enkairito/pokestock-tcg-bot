@@ -26,7 +26,7 @@
     "price": "12,99 €"
   },
   "ES:B0GQ56GD7T": {
-    "name": "Yu-Gi-Oh! Batallas de Leyenda: Galería Gloriosa Yu-Gi-Oh JUEGO DE CARTAS COLECCIONABLE Display (24) (Versión en español)",
+    "name": "Yu-Gi-Oh! Batallas de Leyenda: Galería Gloriosa Yu-Gi-Oh Juego DE Cartas Coleccionable Display (24) (Versión en español)",
     "status": "no_disponible",
     "stock": null,
     "first_seen": "2026-09-07T17:41:03.832726+00:00"
@@ -113,9 +113,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:42:10.254074+00:00",
-    "price": "30,76 €",
-    "pending_price": "30,78 €",
-    "pending_price_count": 1
+    "price": "30,78 €"
   },
   "ES:B0FMKJ7PBX": {
     "name": "YU-GI-OH! JCC EL DECK DE LAS CRÓNICAS: El Caído y El Virtuoso (Edición All-Foil)",
