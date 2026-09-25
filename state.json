@@ -798,9 +798,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
-    "price": "72,84 €",
-    "pending_price": "73,23 €",
-    "pending_price_count": 1
+    "price": "73,23 €"
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
@@ -1415,9 +1413,11 @@
   "UK:B0BCPRFMQH": {
     "name": "Pokemon - Silver Tempest Booster Pack",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": null,
+    "first_seen": "2026-09-04T21:32:58.802795+00:00",
     "price": "31,52 €",
-    "first_seen": "2026-09-04T21:32:58.802795+00:00"
+    "pending_price": "33,77 €",
+    "pending_price_count": 1
   },
   "UK:B0BXJT92PT": {
     "name": "Pokémon- Origin Forme Palkia VSTAR Baraja de Batalla de la Liga, Multicolor (290-85236)",
@@ -1465,7 +1465,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802853+00:00",
-    "price": "138,45 €"
+    "price": "138,45 €",
+    "pending_price": "138,47 €",
+    "pending_price_count": 1
   },
   "US:B0G72SPRP6": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
@@ -1709,7 +1711,7 @@
   "US:B0F6PMVQWQ": {
     "name": "Pokémon TCG Scarlet & Violet 10.5 Black Bolt Booster Set",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
     "price": "142,86 €"
   },
@@ -2413,7 +2415,7 @@
     "stock": "1",
     "first_seen": "2026-09-16T18:43:05.692265+00:00",
     "price": "84,16 €",
-    "pending_price": "97,38 €",
+    "pending_price": "85,57 €",
     "pending_price_count": 1
   },
   "TRU:K1105105": {
@@ -3564,7 +3566,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T03:23:36.529801+00:00",
-    "price": "64,87 €"
+    "price": "32,97 €"
   },
   "UK:B0G5FWJ8NL": {
     "name": "Pokémon TCG: Mega Charizard Tin",
