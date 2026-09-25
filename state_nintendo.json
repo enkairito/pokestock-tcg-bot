@@ -161,14 +161,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.911995+00:00",
-    "price": "531,89 €"
+    "price": "519,99 €"
   },
   "ES:B0FYHMK8N2": {
     "name": "Nintendo Switch 2 + Donkey Kong Bananza",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912002+00:00",
-    "price": "539,89 €"
+    "price": "527,99 €"
   },
   "ES:B0FBMLXK2D": {
     "name": "Pokemon Legends: Z-A: Nintendo Switch 2 Edition",
@@ -266,7 +266,7 @@
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912091+00:00",
     "price": "70,00 €",
-    "pending_price": "82,99 €",
+    "pending_price": "85,77 €",
     "pending_price_count": 1
   },
   "ES:B07VFTVVWX": {
@@ -734,9 +734,10 @@
   },
   "ES:B0HJ91G9GH": {
     "name": "Zelda Ocarina Of Time - Nintendo Switch 2",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-12T06:29:23.379261+00:00"
+    "first_seen": "2026-09-12T06:29:23.379261+00:00",
+    "price": "59,90 €"
   },
   "ES:B0FTG4DGK7": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Fuegos Fantasmales de JCC Pokémon (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -1410,7 +1411,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850724+00:00",
-    "price": "467,00 €"
+    "price": "458,00 €"
   },
   "ES:B0F3P3X5P2": {
     "name": "Sandisk Micro SD Express Card for Nintendo Switch 2",
@@ -1472,7 +1473,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850873+00:00",
-    "price": "49,99 €"
+    "price": "46,90 €"
   },
   "ES:B091VTT67M": {
     "name": "Nintendo Switch Leyendas Pokemon: Arceus",
@@ -1737,21 +1738,21 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688196+00:00",
-    "price": "526,89 €"
+    "price": "514,99 €"
   },
   "ES:B0FYHK8329": {
     "name": "Nintendo Switch 2 + 25e eShop",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688211+00:00",
-    "price": "494,90 €"
+    "price": "483,00 €"
   },
   "ES:B0HC3PYP2D": {
     "name": "Nintendo Switch 2 + Donkey Kong Bananza- Switch 2",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688228+00:00",
-    "price": "539,80 €"
+    "price": "527,90 €"
   },
   "ES:B0FYTQ5XLG": {
     "name": "2 Piezas de Cubiertas Protectoras magnéticas para Switch2, Protectores Laterales contra arañazos, Protectores de los Bordes, Cubierta del Punto de conexión del Mango. (Azul-Naranja)",
@@ -1765,7 +1766,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688262+00:00",
-    "price": "85,00 €"
+    "price": "84,65 €"
   },
   "ES:B0GY5GY45X": {
     "name": "Splatoon Raiders",
@@ -1919,7 +1920,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688518+00:00",
-    "price": "21,33 €"
+    "price": "21,32 €"
   },
   "ES:B0FBMHQ8LS": {
     "name": "Nintendo Switch Pokemon Legenden Z-A - Nintendo Switch 2 Edition",
@@ -2025,7 +2026,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688704+00:00",
     "price": "316,00 €",
-    "pending_price": "339,99 €",
+    "pending_price": "338,44 €",
     "pending_price_count": 1
   },
   "ES:B085SPRQSQ": {
@@ -2075,9 +2076,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688827+00:00",
-    "price": "329,90 €",
-    "pending_price": "364,39 €",
-    "pending_price_count": 1
+    "price": "329,90 €"
   },
   "ES:B09B85F56N": {
     "name": "Monopoly Código De Descarga Switch",
@@ -2105,7 +2104,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688897+00:00",
-    "price": "363,90 €"
+    "price": "363,90 €",
+    "pending_price": "386,34 €",
+    "pending_price_count": 1
   },
   "ES:B0BDGSPP7H": {
     "name": "Nintendo Switch OLED Edición Limitada Pokémon Escarlata y Púrpura",
