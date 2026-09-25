@@ -1711,7 +1711,9 @@
     "status": "compra_directa",
     "stock": "4",
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "142,86 €"
+    "price": "142,86 €",
+    "pending_price": "143,40 €",
+    "pending_price_count": 1
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
@@ -3615,5 +3617,12 @@
     "status": "no_disponible",
     "stock": null,
     "first_seen": "2026-09-25T11:23:25.256719+00:00"
+  },
+  "US:B0H8SV3WJ8": {
+    "name": "Pokémon TCG: 30th Celebration Elite Trainer Box (1 Tarjeta Promocional de Arte Completo, 9 Paquetes de Refuerzo y Accesorios Premium)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T12:03:26.978532+00:00",
+    "price": "239,40 €"
   }
 }
