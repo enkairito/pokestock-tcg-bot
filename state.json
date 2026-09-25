@@ -1769,9 +1769,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-08T05:38:28.180394+00:00",
-    "price": "31,28 €",
-    "pending_price": "31,80 €",
-    "pending_price_count": 1
+    "price": "31,80 €"
   },
   "UK:B0FS98MMML": {
     "name": "Pokémon TCG: Booster Pack de 10 Cartas Mega Evolution Flames Phantasmal Mangas",
