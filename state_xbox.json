@@ -176,7 +176,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811357+00:00",
-    "price": "52,90 €"
+    "price": "52,90 €",
+    "pending_price": "52,99 €",
+    "pending_price_count": 1
   },
   "ES:B0FX3895S9": {
     "name": "Assassin's Creed Shadows (Xbox Series X)",
@@ -1294,9 +1296,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.318741+00:00",
-    "price": "830,22 €",
-    "pending_price": "830,26 €",
-    "pending_price_count": 1
+    "price": "830,26 €"
   },
   "ES:B08FCXLB8Z": {
     "name": "Xbox Play y Kit de Carga USB",
@@ -1387,7 +1387,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.318891+00:00",
-    "price": "102,00 €"
+    "price": "102,00 €",
+    "pending_price": "103,00 €",
+    "pending_price_count": 1
   },
   "ES:B08TWV3BXB": {
     "name": "JOREST Kit de Desmontar Xbox one/360/X PS4 PS5 PS3, 25pcs Set Limpieza, Herramienta Reparacion para Mando y Consola, con Destornillador PH0 y Torx T6 T8 T10, Palanca, Pinzas, Cepillo",
@@ -1835,7 +1837,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256329+00:00",
-    "price": "23,46 €"
+    "price": "23,46 €",
+    "pending_price": "23,48 €",
+    "pending_price_count": 1
   },
   "ES:B0H4QL9XMT": {
     "name": "Persona 4 Revival - XSRX",
@@ -1849,9 +1853,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256348+00:00",
-    "price": "69,11 €",
-    "pending_price": "71,99 €",
-    "pending_price_count": 1
+    "price": "71,99 €"
   },
   "ES:B0F947WN6P": {
     "name": "Orcs Must Die! Deathtrap - Xbox Series X",
@@ -3066,7 +3068,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T08:31:31.238742+00:00",
-    "price": "17,93 €"
+    "price": "17,93 €",
+    "pending_price": "18,16 €",
+    "pending_price_count": 1
   },
   "ES:B0D6G1BKS3": {
     "name": "Alan Wake 2 Deluxe Edition - Xbox",
@@ -3776,9 +3780,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579852+00:00",
-    "price": "11,85 €",
-    "pending_price": "13,62 €",
-    "pending_price_count": 1
+    "price": "11,85 €"
   },
   "ES:B0C23V86YJ": {
     "name": "Destroy All Humans! 2 - Reprobed: Single Player Juego para Xbox One",
@@ -4503,7 +4505,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T14:31:53.505508+00:00",
-    "price": "20,25 €"
+    "price": "20,25 €",
+    "pending_price": "23,71 €",
+    "pending_price_count": 1
   },
   "ES:B09867DNJ9": {
     "name": "DEMON SLAYER HINOKAMI.XONE/XSX",
