@@ -317,9 +317,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018821+00:00",
-    "price": "22,60 €",
-    "pending_price": "26,99 €",
-    "pending_price_count": 1
+    "price": "26,99 €"
   },
   "ES:B07HNR4ZZD": {
     "name": "Sony PlayStation 4 Slim 500 Go, Avec 1 manette sans fil DUALSHOCK 4 V2, Châssis F, Noir (Jet Black) [Importación francesa]",
@@ -1155,9 +1153,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:22:34.377710+00:00",
-    "price": "23,46 €",
-    "pending_price": "23,48 €",
-    "pending_price_count": 1
+    "price": "23,48 €"
   },
   "ES:B0DPHGSSWH": {
     "name": "Fenolical Soporte Delgado para PS5/PS5 con Ventilador de Refrigeración Ajustable, Soporte de Cargador de Refrigeración Vertical PS5 para PS5/PS5 Slim, Estación de Refrigeración Delgada Multifuncional",
@@ -1207,7 +1203,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T18:20:43.859408+00:00",
-    "price": "68,90 €"
+    "price": "56,90 €"
   },
   "ES:B01M5DZ525": {
     "name": "Red Dead Redemption 2 for PlayStation 4",
@@ -1819,7 +1815,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.497931+00:00",
-    "price": "26,53 €"
+    "price": "26,53 €",
+    "pending_price": "26,72 €",
+    "pending_price_count": 1
   },
   "ES:B0DFMCFVLS": {
     "name": "The Spectrum",
@@ -1952,7 +1950,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498263+00:00",
-    "price": "45,99 €"
+    "price": "45,90 €"
   },
   "ES:B0DLGNT4V3": {
     "name": "Clair Obscur: Expedition 33",
@@ -2113,7 +2111,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498807+00:00",
-    "price": "64,94 €"
+    "price": "64,93 €"
   },
   "ES:B01H0CBMXO": {
     "name": "Electronic Arts - Titanfall 2",
@@ -2295,7 +2293,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "24,49 €"
+    "price": "24,45 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2514,7 +2512,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500083+00:00",
-    "price": "36,90 €"
+    "price": "36,90 €",
+    "pending_price": "39,99 €",
+    "pending_price_count": 1
   },
   "ES:B0DV5G3ZDN": {
     "name": "Mcbazel TMR Joystick Electromagnético de Repuesto para Mando PS5 DualSense, con Thumbsticks de Repuesto y Kit de Reparación, Anti-Drift",
@@ -4076,5 +4076,26 @@
     "stock": null,
     "first_seen": "2026-09-25T08:32:16.627027+00:00",
     "price": "43,09 €"
+  },
+  "ES:B071KFSQPG": {
+    "name": "ARK: Survival Evolved",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T14:31:52.740488+00:00",
+    "price": "20,75 €"
+  },
+  "ES:B01MFFGRVP": {
+    "name": "Kingdom Hearts Hd 1.5 + 2.5 Remix",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T14:31:52.740535+00:00",
+    "price": "24,24 €"
+  },
+  "ES:B07SV4S75P": {
+    "name": "Final Fantasy VII : Remake - Import UK - PlayStation 4 [Importación francesa]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T14:31:52.740551+00:00",
+    "price": "28,24 €"
   }
 }
