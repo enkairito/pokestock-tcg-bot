@@ -310,16 +310,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018808+00:00",
-    "price": "19,99 €",
-    "pending_price": "22,79 €",
-    "pending_price_count": 1
+    "price": "18,00 €"
   },
   "ES:B09KTGP5C2": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition, PlayStation 4",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018821+00:00",
-    "price": "33,98 €"
+    "price": "26,99 €"
   },
   "ES:B07HNR4ZZD": {
     "name": "Sony PlayStation 4 Slim 500 Go, Avec 1 manette sans fil DUALSHOCK 4 V2, Châssis F, Noir (Jet Black) [Importación francesa]",
@@ -1214,7 +1212,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T18:20:43.859449+00:00",
-    "price": "31,54 €"
+    "price": "30,99 €"
   },
   "ES:B08LM3KW18": {
     "name": "Playstation Console Sony 5 Edition Digital",
@@ -1726,10 +1724,9 @@
   },
   "ES:B0BYDTWYQ2": {
     "name": "Playstation 5 Digital Consola + 2 Mandos Inalámbrico Dualsense blanco",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:37.287253+00:00",
-    "price": "699,00 €"
+    "first_seen": "2026-09-17T00:32:37.287253+00:00"
   },
   "ES:B0GCCZP7TN": {
     "name": "Pogriko Mando para PS4, Mando Inalámbrico con Luces RGB para PS4/Pro/Slim/PC, Joystick con Doble Vibración/Sensor De Giroscopio De 6 Ejes/Panel Táctil/Conector de Audio 3.5mm",
@@ -1875,7 +1872,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498076+00:00",
-    "price": "29,46 €"
+    "price": "29,46 €",
+    "pending_price": "31,47 €",
+    "pending_price_count": 1
   },
   "ES:B09KCP7BS8": {
     "name": "Autobahn Police Simulator 2 (Nintendo Switch)",
@@ -2225,7 +2224,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499345+00:00",
-    "price": "14,69 €"
+    "price": "14,69 €",
+    "pending_price": "14,99 €",
+    "pending_price_count": 1
   },
   "ES:B0C3VT9TFF": {
     "name": "Videojuego PlayStation 5 Warner Games",
@@ -2274,7 +2275,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499533+00:00",
-    "price": "26,99 €"
+    "price": "25,09 €"
   },
   "ES:B089BCQD3B": {
     "name": "Mafia Trilogy - PlayStation 4 [Importación italiana]",
@@ -2295,7 +2296,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "24,65 €"
+    "price": "24,61 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2981,7 +2982,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:31:53.613339+00:00",
-    "price": "25,26 €"
+    "price": "25,26 €",
+    "pending_price": "27,99 €",
+    "pending_price_count": 1
   },
   "ES:B075YBBQMM": {
     "name": "OIVO - Cargador para Mando PS4, estación de Carga con Mando PS 4 con Chip de Carga de 1,8 Horas, estación Mando Sony PlayStation 4/PS4/Pro/slim",
@@ -3669,7 +3672,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:43.340950+00:00",
-    "price": "46,41 €"
+    "price": "39,78 €"
   },
   "ES:B0H33TT5FT": {
     "name": "Hollow Knight: Silksong - PS5",
@@ -3725,7 +3728,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:43.341417+00:00",
-    "price": "28,90 €"
+    "price": "27,35 €"
   },
   "ES:B09GYHZXZB": {
     "name": "Farming Simulator 22 - PlayStation 4",
@@ -3935,7 +3938,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T12:31:51.828004+00:00",
-    "price": "32,90 €"
+    "price": "32,90 €",
+    "pending_price": "32,99 €",
+    "pending_price_count": 1
   },
   "ES:B00JAHX55G": {
     "name": "Assassin's Creed: Unity",
@@ -4034,5 +4039,47 @@
     "stock": null,
     "first_seen": "2026-09-25T04:32:16.016343+00:00",
     "price": "39,99 €"
+  },
+  "ES:B0H41JRRVF": {
+    "name": "Onimusha Way of the Sword Premium Deluxe Steelbook (PlayStation 5)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:16.626510+00:00",
+    "price": "94,46 €"
+  },
+  "ES:B07HKJQSGR": {
+    "name": "Sony PlayStation 4 500GB Console (Black) with Red Dead Redemption 2 Bundle [Importación inglesa]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:16.626605+00:00",
+    "price": "184,90 €"
+  },
+  "ES:B08BD8CVJ2": {
+    "name": "It Takes Two PS4 | Videojuegos | Castellano",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:16.626878+00:00",
+    "price": "37,29 €"
+  },
+  "ES:B07K11MSQ6": {
+    "name": "Uncharted : The Nathan Drake Collection HITS [Importación francesa]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:16.626899+00:00",
+    "price": "21,84 €"
+  },
+  "ES:B072QYKYWR": {
+    "name": "Dragon Ball FighterZ",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:16.626915+00:00",
+    "price": "14,99 €"
+  },
+  "ES:B0DDPYNGXW": {
+    "name": "Ozeino Cascos Gaming Inalámbricos para PC/Ps5/Ps4, Auriculares Gaming Inalámbricos de 2,4GHz Wireless+Bluetooth, Baja Latencia Calidad de Sonido sin Pérdidas, Duración 30Hr+",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:16.627027+00:00",
+    "price": "43,09 €"
   }
 }
