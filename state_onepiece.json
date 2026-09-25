@@ -205,7 +205,9 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-08-31T22:30:46.273546+00:00",
-    "price": "102,80 €"
+    "price": "102,80 €",
+    "pending_price": "104,24 €",
+    "pending_price_count": 1
   },
   "ES:B0HDTCPRQN": {
     "name": "One Piece Card Game Illustration Box Vol. 7 (IB-07) - 4 paquetes, promociones",
