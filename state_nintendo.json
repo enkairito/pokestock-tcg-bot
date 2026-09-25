@@ -265,9 +265,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912091+00:00",
-    "price": "70,00 €",
-    "pending_price": "74,99 €",
-    "pending_price_count": 1
+    "price": "74,99 €"
   },
   "ES:B07VFTVVWX": {
     "name": "Nintendo Switch Joy-Con-Controller, links blau/rechts, neongelb [Videospiel]",
@@ -571,9 +569,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478229+00:00",
-    "price": "29,39 €",
-    "pending_price": "34,90 €",
-    "pending_price_count": 1
+    "price": "34,90 €"
   },
   "ES:B0BV27FTTF": {
     "name": "Aukuoy RCM Jig para Nintendo Switch, Herramientas de Cortocircuito de Herramienta RCM utilizadas para Cambiar el Juego de Archivo GBA/FBA",
@@ -1893,7 +1889,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688484+00:00",
-    "price": "39,95 €"
+    "price": "39,90 €"
   },
   "ES:B0GWKDHTG8": {
     "name": "Tomodachi Life: Una vida de ensueño Standard | Nintendo Switch - Código de descarga",
@@ -3690,7 +3686,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T18:31:43.446788+00:00",
-    "price": "59,40 €"
+    "price": "58,81 €"
   },
   "ES:B0GKFMK3R8": {
     "name": "Resident Evil 9: Requiem - Switch 2",
@@ -3711,7 +3707,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T18:31:43.447144+00:00",
-    "price": "37,49 €"
+    "price": "37,49 €",
+    "pending_price": "39,99 €",
+    "pending_price_count": 1
   },
   "ES:B0DCJX27LF": {
     "name": "Square Enix Final Fantasy I-VI Collection Anniversary Edition (Nintendo Switch) [versión en inglés]",
