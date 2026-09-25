@@ -220,7 +220,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616761+00:00",
-    "price": "633,99 €"
+    "price": "589,00 €"
   },
   "ES:B0GYSGQ9R8": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Gallade y Goomy de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -317,7 +317,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018821+00:00",
-    "price": "22,60 €"
+    "price": "22,60 €",
+    "pending_price": "26,99 €",
+    "pending_price_count": 1
   },
   "ES:B07HNR4ZZD": {
     "name": "Sony PlayStation 4 Slim 500 Go, Avec 1 manette sans fil DUALSHOCK 4 V2, Châssis F, Noir (Jet Black) [Importación francesa]",
@@ -352,7 +354,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018871+00:00",
-    "price": "42,99 €"
+    "price": "42,90 €"
   },
   "ES:B0FKN5F96V": {
     "name": "Logitech G G29 SE Driving Force Wheel y Shifter para Playstation & PC | Volante de carreras y pedales, Force Feedback, Cuero auténtico + Palanca de cambio - Para PS5, PS4 y PC, Mac - Negro",
@@ -885,9 +887,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:25:09.102575+00:00",
-    "price": "33,90 €",
-    "pending_price": "34,00 €",
-    "pending_price_count": 1
+    "price": "34,00 €"
   },
   "ES:B098GSZ4Q9": {
     "name": "Streets of Rage 4. Anniversary Edition - Playstation 4",
@@ -1430,7 +1430,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.312471+00:00",
-    "price": "200,00 €"
+    "price": "195,00 €"
   },
   "ES:B073QRG1YR": {
     "name": "Sony PlayStation 4 Slim 500GB Negro Wifi - Videoconsolas (PlayStation 4, Negro, 8192 MB, GDDR5, GDDR5, AMD Jaguar)",
@@ -1729,7 +1729,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.287253+00:00",
-    "price": "699,00 €"
+    "price": "689,00 €"
   },
   "ES:B0GCCZP7TN": {
     "name": "Pogriko Mando para PS4, Mando Inalámbrico con Luces RGB para PS4/Pro/Slim/PC, Joystick con Doble Vibración/Sensor De Giroscopio De 6 Ejes/Panel Táctil/Conector de Audio 3.5mm",
@@ -2008,9 +2008,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498377+00:00",
-    "price": "55,90 €",
-    "pending_price": "55,99 €",
-    "pending_price_count": 1
+    "price": "55,90 €"
   },
   "ES:B0G7L9ZPX1": {
     "name": "PRAGMATA - PS5",
@@ -2052,9 +2050,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498502+00:00",
-    "price": "21,70 €",
-    "pending_price": "21,78 €",
-    "pending_price_count": 1
+    "price": "21,78 €"
   },
   "ES:B0F2TGRRRK": {
     "name": "DRAGON QUEST I & II HD-2D Remake",
@@ -2264,9 +2260,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499492+00:00",
-    "price": "24,59 €",
-    "pending_price": "24,72 €",
-    "pending_price_count": 1
+    "price": "24,72 €"
   },
   "ES:B07V9NP59C": {
     "name": "Remothered: Tormented Fathers",
@@ -2301,7 +2295,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "24,53 €"
+    "price": "24,49 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -3093,7 +3087,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T06:31:41.554832+00:00",
-    "price": "49,15 €"
+    "price": "43,47 €"
   },
   "ES:B0CJG3TYMZ": {
     "name": "Shadow of the Tomb Raider Definitive Edition",
