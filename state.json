@@ -711,9 +711,10 @@
   },
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-08-30T20:46:19.644833+00:00"
+    "status": "compra_directa",
+    "stock": "1",
+    "first_seen": "2026-08-30T20:46:19.644833+00:00",
+    "price": "59,13 €"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
@@ -762,7 +763,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644858+00:00",
-    "price": "78,57 €"
+    "price": "78,57 €",
+    "pending_price": "78,70 €",
+    "pending_price_count": 1
   },
   "US:B0DN98RVZM": {
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
@@ -1313,9 +1316,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802653+00:00",
-    "price": "86,25 €",
-    "pending_price": "87,91 €",
-    "pending_price_count": 1
+    "price": "87,91 €"
   },
   "UK:B0CMZS84KP": {
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
@@ -2416,9 +2417,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-16T18:43:05.692265+00:00",
-    "price": "80,61 €",
-    "pending_price": "84,86 €",
-    "pending_price_count": 1
+    "price": "84,86 €"
   },
   "TRU:K1105105": {
     "name": "Pokémon - Escarlata y Púrpura: Rivales Predestinados - Sobre de Mejora - Español (Varios modelos)",
@@ -2933,9 +2932,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:43:57.912076+00:00",
-    "price": "98,09 €",
-    "pending_price": "99,83 €",
-    "pending_price_count": 1
+    "price": "98,09 €"
   },
   "US:B0DLQXNQDH": {
     "name": "Pokémon TCG: Scarlet & Violet - Prismatic Evolutions Mini Tin - Jolteon (2 Paquetes de Refuerzo y 1 Moneda)",
