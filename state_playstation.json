@@ -1504,10 +1504,9 @@
   },
   "ES:B0GZH9BJYD": {
     "name": "Grand Theft Auto VI - PlayStation 5 (Código de descarga)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-16T10:36:52.714063+00:00",
-    "price": "79,90 €"
+    "first_seen": "2026-09-16T10:36:52.714063+00:00"
   },
   "ES:B07HGBNWTY": {
     "name": "Playstation 4 Consola versión Slim (PS4)| Capacidad 500GB | Chasis tipo F | Color negro",
@@ -1955,7 +1954,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498274+00:00",
-    "price": "39,99 €"
+    "price": "39,90 €"
   },
   "ES:B0FR4T3L3D": {
     "name": "Dragon Quest VII: Reimagined",
@@ -2291,7 +2290,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "24,43 €"
+    "price": "24,41 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2872,9 +2871,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566486+00:00",
-    "price": "27,87 €",
-    "pending_price": "27,88 €",
-    "pending_price_count": 1
+    "price": "27,88 €"
   },
   "ES:B07W7KWV2Y": {
     "name": "Logitech Brio 300 Full HD Webcam con Obturador de privacidad | Micrófono reducción ruido, USB-C, certificado Zoom/Teams/Google Meet, corrección de luz automática - Grafito",
@@ -3171,7 +3168,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:32:05.433410+00:00",
-    "price": "30,36 €"
+    "price": "30,36 €",
+    "pending_price": "35,99 €",
+    "pending_price_count": 1
   },
   "ES:B0GPDBG8G5": {
     "name": "Neptunia Virtual Stars – Limited Edition (PS4)",
@@ -3933,7 +3932,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T12:31:51.828004+00:00",
-    "price": "32,99 €"
+    "price": "32,90 €"
   },
   "ES:B00JAHX55G": {
     "name": "Assassin's Creed: Unity",
@@ -4045,7 +4044,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-25T08:32:16.626605+00:00",
-    "price": "184,90 €"
+    "price": "184,90 €",
+    "pending_price": "186,90 €",
+    "pending_price_count": 1
   },
   "ES:B08BD8CVJ2": {
     "name": "It Takes Two PS4 | Videojuegos | Castellano",
