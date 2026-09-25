@@ -746,11 +746,13 @@
     "first_seen": "2026-08-30T20:46:19.644847+00:00"
   },
   "US:B0GW2DK37Q": {
-    "name": "Pokémon TCG: Colección de Ilustraciones de Primera Partner —Serie 2",
+    "name": "Pokémon TCG: First Partner Illustration Collection—Series 2 (3 Tarjetas promocionales, 2 Paquetes de Refuerzo y 1 Hoja de calcomanías)",
     "status": "compra_directa",
     "stock": null,
+    "first_seen": "2026-08-30T20:46:19.644851+00:00",
     "price": "34,40 €",
-    "first_seen": "2026-08-30T20:46:19.644851+00:00"
+    "pending_price": "52,76 €",
+    "pending_price_count": 1
   },
   "US:B0G2FVLXVL": {
     "name": "Pokémon TCG: Colección del Día de Pokémon 2026",
@@ -1945,10 +1947,12 @@
   },
   "ES:B0H8SX832W": {
     "name": "Pokémon: Álbum para Colecciones de Celebración 30.º Aniversario de JCC Pokémon (1 álbum y 5 Sobres de Mejora)",
-    "status": "invitacion",
-    "stock": null,
+    "status": "compra_directa",
+    "stock": "2",
     "first_seen": "2026-09-09T13:27:40.795579+00:00",
-    "price": "44,99 €"
+    "price": "44,99 €",
+    "pending_price": "64,95 €",
+    "pending_price_count": 1
   },
   "ES:B0H8T5GC4W": {
     "name": "Pokémon: Caja de Entrenador Élite de Celebración 30.º Aniversario de JCC Pokémon (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
