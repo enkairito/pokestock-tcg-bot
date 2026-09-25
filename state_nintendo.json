@@ -161,21 +161,25 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.911995+00:00",
-    "price": "519,99 €"
+    "price": "519,99 €",
+    "pending_price": "531,89 €",
+    "pending_price_count": 1
   },
   "ES:B0FYHMK8N2": {
     "name": "Nintendo Switch 2 + Donkey Kong Bananza",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912002+00:00",
-    "price": "527,99 €"
+    "price": "527,99 €",
+    "pending_price": "539,89 €",
+    "pending_price_count": 1
   },
   "ES:B0FBMLXK2D": {
     "name": "Pokemon Legends: Z-A: Nintendo Switch 2 Edition",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912008+00:00",
-    "price": "56,97 €"
+    "price": "56,86 €"
   },
   "ES:B071H4KD7W": {
     "name": "Nintendo Switch Consola Rojo Neón/Azul neón 32 GB + Mario Kart 8 Deluxe",
@@ -265,9 +269,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912091+00:00",
-    "price": "70,00 €",
-    "pending_price": "82,99 €",
-    "pending_price_count": 1
+    "price": "82,99 €"
   },
   "ES:B07VFTVVWX": {
     "name": "Nintendo Switch Joy-Con-Controller, links blau/rechts, neongelb [Videospiel]",
@@ -1410,7 +1412,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850724+00:00",
-    "price": "458,00 €"
+    "price": "458,00 €",
+    "pending_price": "467,00 €",
+    "pending_price_count": 1
   },
   "ES:B0F3P3X5P2": {
     "name": "Sandisk Micro SD Express Card for Nintendo Switch 2",
@@ -1431,9 +1435,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850805+00:00",
-    "price": "279,90 €",
-    "pending_price": "293,00 €",
-    "pending_price_count": 1
+    "price": "293,00 €"
   },
   "ES:B092JL5NS2": {
     "name": "Nintendo Switch Lite Azul",
@@ -1739,21 +1741,27 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688196+00:00",
-    "price": "514,99 €"
+    "price": "514,99 €",
+    "pending_price": "526,80 €",
+    "pending_price_count": 1
   },
   "ES:B0FYHK8329": {
     "name": "Nintendo Switch 2 + 25e eShop",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688211+00:00",
-    "price": "483,00 €"
+    "price": "483,00 €",
+    "pending_price": "494,90 €",
+    "pending_price_count": 1
   },
   "ES:B0HC3PYP2D": {
     "name": "Nintendo Switch 2 + Donkey Kong Bananza- Switch 2",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688228+00:00",
-    "price": "527,90 €"
+    "price": "527,90 €",
+    "pending_price": "539,80 €",
+    "pending_price_count": 1
   },
   "ES:B0FYTQ5XLG": {
     "name": "2 Piezas de Cubiertas Protectoras magnéticas para Switch2, Protectores Laterales contra arañazos, Protectores de los Bordes, Cubierta del Punto de conexión del Mango. (Azul-Naranja)",
@@ -1816,7 +1824,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688383+00:00",
-    "price": "50,99 €"
+    "price": "50,90 €"
   },
   "ES:B0H4RQCV8X": {
     "name": "Xenoblade Chronicles: Definitive Edition - Nintendo Switch 2",
@@ -1830,7 +1838,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688400+00:00",
-    "price": "201,15 €"
+    "price": "194,99 €"
   },
   "ES:B0FQWBC3ZT": {
     "name": "Hades II - Nintendo Switch 2 Edition",
@@ -1931,7 +1939,7 @@
     "price": "48,30 €"
   },
   "ES:B0FL2GS1CT": {
-    "name": "Survival Kids - Switch 2 [Nintendo Switch 2 - Key Card]",
+    "name": "Survival Kids - Switch 2",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688535+00:00",
@@ -2040,7 +2048,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688744+00:00",
-    "price": "66,86 €"
+    "price": "66,36 €"
   },
   "ES:B097F6916C": {
     "name": "Nintendo Game & Watch: The Legend of Zelda console de jeux portables Or, Vert",
@@ -2173,9 +2181,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689042+00:00",
-    "price": "341,99 €",
-    "pending_price": "344,99 €",
-    "pending_price_count": 1
+    "price": "344,99 €"
   },
   "ES:B09S4R3WT1": {
     "name": "The Legend of Zelda: Tears of the Kingdom",
@@ -3133,7 +3139,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T15:58:54.631826+00:00",
-    "price": "8,90 €"
+    "price": "8,90 €",
+    "pending_price": "9,89 €",
+    "pending_price_count": 1
   },
   "ES:B0DF2NF4H3": {
     "name": "Broken Sword - La Leyenda de los Templarios: Reforged - NINTENDO SWITCH",
@@ -3846,5 +3854,33 @@
     "stock": null,
     "first_seen": "2026-09-25T12:32:08.759879+00:00",
     "price": "21,99 €"
+  },
+  "ES:B0F845QNSN": {
+    "name": "Teyomi 2 Pieza Protector de pantalla compatible con Nintendo Switch 2, vidrio templado para Nintendo Switch 2 de alineación automática, película protectora fácil de instalar,antiarañazos, Sin burbujas",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T22:31:43.018408+00:00",
+    "price": "11,69 €"
+  },
+  "ES:B0GP16RL6G": {
+    "name": "Ph Pro Heat Funda para Nintendo Switch 2 Rígida con Correa y 2 Protectores | Maletín Protector con Espacio para Dock, Mandos, Cargador, Cables y hasta 20 Juegos",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T22:31:43.018471+00:00",
+    "price": "19,99 €"
+  },
+  "ES:B0G637YV7T": {
+    "name": "Dock Switch 2 Compatible con Nintendo(2025)/Joypad/OLED, 4K 60Hz HDMI TV Docking Station with Switch Base,3 en 1 Switch2 Cargador con USB-C PD Carga rápida e indicador LED",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T22:31:43.018484+00:00",
+    "price": "109,99 €"
+  },
+  "ES:B0F7RQ9M6R": {
+    "name": "playvital Funda Antipolvo Acrílica para Nintendo Switch 2 (2025) | Caja Protectora Impermeable, para Consola y Base de Carga, Caja de Presentación, Protección Antipolvo, Transparente",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T22:31:43.018498+00:00",
+    "price": "28,99 €"
   }
 }
