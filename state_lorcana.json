@@ -59,9 +59,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-07T17:41:42.887252+00:00",
-    "price": "60,89 €",
-    "pending_price": "60,91 €",
-    "pending_price_count": 1
+    "price": "60,91 €"
   },
   "ES:B0CFRBX7GW": {
     "name": "Disney Lorcana Trading Card Game: Set 4 – Starter Deck B",
@@ -122,7 +120,7 @@
   "ES:B0DDL6BJDS": {
     "name": "Ravensburger - Disney Lorcana TCG: Set 7 Archazias Island | Juegos De Cartas Adultos Y Niños con 60 Cartas Disney Lorcana | Juegos Niños 8 Años O Más Coleccionables | Regalos Originales",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "first_seen": "2026-09-07T17:42:38.445780+00:00",
     "price": "18,00 €"
   },
