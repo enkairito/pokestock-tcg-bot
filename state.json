@@ -1456,7 +1456,7 @@
   "US:B0G3CS6XB9": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Premium Poster Collection—Mega Lucario (1 Tarjeta Promocional de Aluminio, 1 póster de Doble Cara y 10 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "4",
     "first_seen": "2026-09-04T21:32:58.802847+00:00",
     "price": "227,27 €"
   },
@@ -1613,7 +1613,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "122,89 €"
+    "price": "122,88 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
