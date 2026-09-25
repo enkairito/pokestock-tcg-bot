@@ -265,7 +265,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912091+00:00",
-    "price": "74,99 €"
+    "price": "70,00 €"
   },
   "ES:B07VFTVVWX": {
     "name": "Nintendo Switch Joy-Con-Controller, links blau/rechts, neongelb [Videospiel]",
@@ -1081,7 +1081,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T12:20:51.137152+00:00",
-    "price": "24,25 €"
+    "price": "24,01 €"
   },
   "ES:B0F2TN43GH": {
     "name": "Nintendo Switch 2 - The Legend of Zelda Edition",
@@ -1512,9 +1512,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850955+00:00",
-    "price": "79,90 €",
-    "pending_price": "79,99 €",
-    "pending_price_count": 1
+    "price": "79,99 €"
   },
   "ES:B01MS7YUA7": {
     "name": "Agarre cómodo Joy-Con para Nintendo Switch: Negro",
@@ -1772,7 +1770,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688300+00:00",
-    "price": "48,99 €"
+    "price": "48,99 €",
+    "pending_price": "51,99 €",
+    "pending_price_count": 1
   },
   "ES:B0FQWJV77Z": {
     "name": "Hyrule Warriors: Age of Imprisonment - Switch 2",
@@ -1849,7 +1849,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688425+00:00",
-    "price": "55,73 €"
+    "price": "55,73 €",
+    "pending_price": "55,75 €",
+    "pending_price_count": 1
   },
   "ES:B0GRWHCZ4R": {
     "name": "Pokémon Edición Rojo Fuego Standard | Nintendo Switch - Código de descarga",
@@ -2063,9 +2065,10 @@
   },
   "ES:B084DDDNRP": {
     "name": "Nintendo - Switch - Animal Crossing: New Horizons Edition 32GB Console - Multi",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.688819+00:00"
+    "first_seen": "2026-09-17T00:32:50.688819+00:00",
+    "price": "440,37 €"
   },
   "ES:B0FQC3P2Y1": {
     "name": "Nintendo Switch Lite Blue + Animal Crossing New Horizons",
@@ -2170,7 +2173,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689042+00:00",
-    "price": "335,99 €"
+    "price": "335,99 €",
+    "pending_price": "341,99 €",
+    "pending_price_count": 1
   },
   "ES:B09S4R3WT1": {
     "name": "The Legend of Zelda: Tears of the Kingdom",
@@ -3128,7 +3133,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T15:58:54.631826+00:00",
-    "price": "8,93 €"
+    "price": "8,90 €"
   },
   "ES:B0DF2NF4H3": {
     "name": "Broken Sword - La Leyenda de los Templarios: Reforged - NINTENDO SWITCH",
@@ -3757,7 +3762,7 @@
     "stock": null,
     "first_seen": "2026-09-23T12:32:07.775720+00:00",
     "price": "37,15 €",
-    "pending_price": "38,22 €",
+    "pending_price": "38,64 €",
     "pending_price_count": 1
   },
   "ES:B0DJRCJ655": {
@@ -3808,5 +3813,33 @@
     "stock": null,
     "first_seen": "2026-09-25T00:32:05.359672+00:00",
     "price": "49,99 €"
+  },
+  "ES:B0GRWK895B": {
+    "name": "Pokémon Edición Verde Hoja Standard | Nintendo Switch - Código de descarga",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:34.910158+00:00",
+    "price": "19,99 €"
+  },
+  "ES:B07DDWXZFQ": {
+    "name": "Pokémon: Let's Go, Eevee!",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:34.910488+00:00",
+    "price": "49,99 €"
+  },
+  "ES:B0FTZQZTTQ": {
+    "name": "Sega Yakuza Kiwami - Switch2",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:34.910574+00:00",
+    "price": "24,90 €"
+  },
+  "ES:B0DCG837SM": {
+    "name": "Cat Quest: The Fur-tastic Trilogy - NINTENDO SWITCH",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T08:32:34.910648+00:00",
+    "price": "32,49 €"
   }
 }
