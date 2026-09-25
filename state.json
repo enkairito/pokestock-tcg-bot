@@ -1299,7 +1299,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "113,52 €"
+    "price": "113,52 €",
+    "pending_price": "114,19 €",
+    "pending_price_count": 1
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1517,7 +1519,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802915+00:00",
-    "price": "54,07 €"
+    "price": "54,01 €"
   },
   "US:B0D1RKJM6K": {
     "name": "Pokemon TCG: Scarlet & Violet - Paquete de refuerzo de destinos paldeanos",
@@ -1610,7 +1612,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "122,80 €"
+    "price": "122,79 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -2407,7 +2409,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-16T18:43:05.692265+00:00",
-    "price": "84,16 €"
+    "price": "84,16 €",
+    "pending_price": "84,86 €",
+    "pending_price_count": 1
   },
   "TRU:K1105105": {
     "name": "Pokémon - Escarlata y Púrpura: Rivales Predestinados - Sobre de Mejora - Español (Varios modelos)",
