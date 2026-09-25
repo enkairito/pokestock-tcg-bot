@@ -1615,7 +1615,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "122,86 €"
+    "price": "122,84 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -1948,11 +1948,9 @@
   "ES:B0H8SX832W": {
     "name": "Pokémon: Álbum para Colecciones de Celebración 30.º Aniversario de JCC Pokémon (1 álbum y 5 Sobres de Mejora)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-09-09T13:27:40.795579+00:00",
-    "price": "44,99 €",
-    "pending_price": "64,95 €",
-    "pending_price_count": 1
+    "price": "64,95 €"
   },
   "ES:B0H8T5GC4W": {
     "name": "Pokémon: Caja de Entrenador Élite de Celebración 30.º Aniversario de JCC Pokémon (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -2947,7 +2945,7 @@
   "UK:B0GNCGT9KK": {
     "name": "Pokemon: Pokemon TCG - Mega Zygarde EX - Premium Collection 2026 (TCG)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "first_seen": "2026-09-18T15:23:27.918742+00:00",
     "price": "102,32 €"
   },
