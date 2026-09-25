@@ -848,7 +848,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:21:08.267481+00:00",
-    "price": "45,48 €"
+    "price": "41,35 €"
   },
   "ES:B0FNY6N6XB": {
     "name": "BATTLEFIELD 6 Standard Edition | Xbox Series X|S - Código de descarga",
@@ -2366,9 +2366,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257447+00:00",
-    "price": "56,15 €",
-    "pending_price": "58,99 €",
-    "pending_price_count": 1
+    "price": "58,99 €"
   },
   "ES:B0GTBVX67G": {
     "name": "Turtle Beach Rematch Core Ghost Camo Negro - Mando con Cable - con Licencia para Xbox Series XS, Xbox One y PC - Sticks con efecto Hall, Botones de Audio, Motores de vibración y disparadores de Pulso",
@@ -3778,7 +3776,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579852+00:00",
-    "price": "13,59 €"
+    "price": "11,85 €"
   },
   "ES:B0C23V86YJ": {
     "name": "Destroy All Humans! 2 - Reprobed: Single Player Juego para Xbox One",
@@ -3982,7 +3980,7 @@
     "stock": null,
     "first_seen": "2026-09-22T16:31:37.525101+00:00",
     "price": "40,79 €",
-    "pending_price": "41,38 €",
+    "pending_price": "41,34 €",
     "pending_price_count": 1
   },
   "ES:B07R76NLYY": {
@@ -4357,9 +4355,10 @@
   },
   "ES:B0BKQ3HMK4": {
     "name": "playvital Pegatinas para Xbox Series X/S y One Botón Home, 60 Piezas",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-23T18:31:49.442024+00:00"
+    "first_seen": "2026-09-23T18:31:49.442024+00:00",
+    "price": "28,55 €"
   },
   "ES:B0FDWYTMMB": {
     "name": "La casa de munecas de Gabby: Listos para la fiesta - Xbox",
@@ -4505,7 +4504,7 @@
     "stock": null,
     "first_seen": "2026-09-24T14:31:53.505508+00:00",
     "price": "20,25 €",
-    "pending_price": "22,48 €",
+    "pending_price": "22,93 €",
     "pending_price_count": 1
   },
   "ES:B09867DNJ9": {
