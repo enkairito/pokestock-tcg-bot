@@ -258,7 +258,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616777+00:00",
-    "price": "83,29 €"
+    "price": "83,29 €",
+    "pending_price": "102,09 €",
+    "pending_price_count": 1
   },
   "ES:B0GYSKSSTH": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Meganium y Meowstic de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -312,7 +314,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018808+00:00",
-    "price": "19,99 €"
+    "price": "19,99 €",
+    "pending_price": "25,12 €",
+    "pending_price_count": 1
   },
   "ES:B09KTGP5C2": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition, PlayStation 4",
@@ -417,7 +421,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018932+00:00",
-    "price": "49,90 €"
+    "price": "44,90 €"
   },
   "ES:B0H4GT8TXL": {
     "name": "Halo: Campaign Evolved - Standard Edition – PlayStation®5 | Disco físico + descarga de contenido requerida",
@@ -2105,9 +2109,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498742+00:00",
-    "price": "23,49 €",
-    "pending_price": "34,23 €",
-    "pending_price_count": 1
+    "price": "34,23 €"
   },
   "ES:B097B1ZJ5T": {
     "name": "Nintendo Game & Watch: The Legend of Zelda",
@@ -2128,7 +2130,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498891+00:00",
-    "price": "28,40 €"
+    "price": "28,40 €",
+    "pending_price": "28,50 €",
+    "pending_price_count": 1
   },
   "ES:B07MWXG7QV": {
     "name": "Days Gone [Importación francesa]",
@@ -2298,7 +2302,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "24,79 €"
+    "price": "24,73 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2319,9 +2323,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499680+00:00",
-    "price": "14,99 €",
-    "pending_price": "21,32 €",
-    "pending_price_count": 1
+    "price": "21,32 €"
   },
   "ES:B00R10WZHS": {
     "name": "Final Fantasy X/X-2 HD Remaster",
@@ -2644,9 +2646,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500169+00:00",
-    "price": "34,99 €",
-    "pending_price": "38,35 €",
-    "pending_price_count": 1
+    "price": "38,35 €"
   },
   "ES:B0FQ6YD4MX": {
     "name": "Holilo Mando para PS-4, Mando Inalámbrico para P-S4/Slim/Pro Gamepad Joystick con Dual Vibración, 6 Axis Gyro Sensor, Turbo, Touch Panel, Audio Jack-Blanco",
@@ -2883,7 +2883,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:17.566486+00:00",
-    "price": "27,88 €"
+    "price": "27,87 €"
   },
   "ES:B07W7KWV2Y": {
     "name": "Logitech Brio 300 Full HD Webcam con Obturador de privacidad | Micrófono reducción ruido, USB-C, certificado Zoom/Teams/Google Meet, corrección de luz automática - Grafito",
@@ -3958,7 +3958,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T12:31:51.828132+00:00",
-    "price": "26,62 €"
+    "price": "26,62 €",
+    "pending_price": "26,72 €",
+    "pending_price_count": 1
   },
   "ES:B0FNR2YPLP": {
     "name": "LATEC Mando para PS4, Mando Inalámbrico PS4 con Bluetooth, 2 Botones de Programación Macro, 6-Axis Sensor Giroscópico, Doble Vibración, Panel Táctil, Rosa",
@@ -4029,5 +4031,19 @@
     "stock": null,
     "first_seen": "2026-09-24T18:32:02.970641+00:00",
     "price": "20,11 €"
+  },
+  "ES:B01649IVI8": {
+    "name": "Thrustmaster TFRP T.Flight Rudder Pedals - PS5, XBOX y PC | Alta precisión, sistema de frenado diferencial para simulación de vuelo, compatible con ecosistema Thrustmaster, versátil",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T04:32:16.015947+00:00",
+    "price": "89,99 €"
+  },
+  "ES:B0B7X8392G": {
+    "name": "SteelSeries Arctis Nova 1 - Cascos Gaming Con Cable Multisistema - Controladores Hi-Fi - Audio espacial 360° - Almohadillas de espuma con memoria - Ultraligeros - PC, PS5, PS4, Xbox - Blanco",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T04:32:16.016343+00:00",
+    "price": "39,99 €"
   }
 }
