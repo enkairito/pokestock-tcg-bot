@@ -220,9 +220,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616761+00:00",
-    "price": "589,00 €",
-    "pending_price": "633,99 €",
-    "pending_price_count": 1
+    "price": "633,99 €"
   },
   "ES:B0GYSGQ9R8": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Gallade y Goomy de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -419,7 +417,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018932+00:00",
-    "price": "56,40 €"
+    "price": "49,90 €"
   },
   "ES:B0H4GT8TXL": {
     "name": "Halo: Campaign Evolved - Standard Edition – PlayStation®5 | Disco físico + descarga de contenido requerida",
@@ -917,9 +915,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:25:09.102599+00:00",
-    "price": "33,95 €",
-    "pending_price": "33,96 €",
-    "pending_price_count": 1
+    "price": "33,95 €"
   },
   "ES:B0BWYYCT48": {
     "name": "Lies of P (PlayStation 4)",
@@ -2109,7 +2105,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498742+00:00",
-    "price": "23,49 €"
+    "price": "23,49 €",
+    "pending_price": "34,23 €",
+    "pending_price_count": 1
   },
   "ES:B097B1ZJ5T": {
     "name": "Nintendo Game & Watch: The Legend of Zelda",
@@ -2165,9 +2163,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499068+00:00",
-    "price": "33,64 €",
-    "pending_price": "34,07 €",
-    "pending_price_count": 1
+    "price": "34,07 €"
   },
   "ES:B08PM4PWDY": {
     "name": "Truck Simulator - On the Road Truck (PlayStation PS4): LKW - Simulator [Blu-ray]",
@@ -2188,7 +2184,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499167+00:00",
-    "price": "32,73 €"
+    "price": "32,73 €",
+    "pending_price": "40,33 €",
+    "pending_price_count": 1
   },
   "ES:B0CJG2KCBL": {
     "name": "Rise of the Tomb Raider 20 Year Celebration",
@@ -2300,7 +2298,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "24,85 €"
+    "price": "24,79 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2321,7 +2319,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499680+00:00",
-    "price": "14,99 €"
+    "price": "14,99 €",
+    "pending_price": "21,32 €",
+    "pending_price_count": 1
   },
   "ES:B00R10WZHS": {
     "name": "Final Fantasy X/X-2 HD Remaster",
@@ -2644,7 +2644,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500169+00:00",
-    "price": "34,99 €"
+    "price": "34,99 €",
+    "pending_price": "38,35 €",
+    "pending_price_count": 1
   },
   "ES:B0FQ6YD4MX": {
     "name": "Holilo Mando para PS-4, Mando Inalámbrico para P-S4/Slim/Pro Gamepad Joystick con Dual Vibración, 6 Axis Gyro Sensor, Turbo, Touch Panel, Audio Jack-Blanco",
