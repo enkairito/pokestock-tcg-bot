@@ -727,7 +727,7 @@
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
     "price": "227,63 €"
   },
@@ -1615,7 +1615,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "122,84 €"
+    "price": "122,83 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -1947,10 +1947,10 @@
   },
   "ES:B0H8SX832W": {
     "name": "Pokémon: Álbum para Colecciones de Celebración 30.º Aniversario de JCC Pokémon (1 álbum y 5 Sobres de Mejora)",
-    "status": "compra_directa",
-    "stock": "1",
+    "status": "invitacion",
+    "stock": null,
     "first_seen": "2026-09-09T13:27:40.795579+00:00",
-    "price": "64,95 €"
+    "price": "44,99 €"
   },
   "ES:B0H8T5GC4W": {
     "name": "Pokémon: Caja de Entrenador Élite de Celebración 30.º Aniversario de JCC Pokémon (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -3476,7 +3476,7 @@
   "US:B0FVFYXXQM": {
     "name": "Pokemon Chinese Gem Pack Volume 3 Booster Box - CBB3C",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-09-20T12:43:36.301545+00:00",
     "price": "115,58 €"
   },
