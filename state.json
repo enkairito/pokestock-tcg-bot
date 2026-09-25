@@ -266,9 +266,10 @@
   },
   "ES:B0GWDS3WTY": {
     "name": "Pokémon: Colección prémium Mega-Zygarde ex (1 Carta de promoción, 1 Carta de Gran tamaño con Efecto 3D, 1 Pegatina Especial y 8 Sobres de Mejora)",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-08-25T20:27:15.542174+00:00"
+    "status": "compra_directa",
+    "stock": "1",
+    "first_seen": "2026-08-25T20:27:15.542174+00:00",
+    "price": "46,99 €"
   },
   "ES:B0GGJ1QQNZ": {
     "name": "Pokémon: Lote de latas Poké Ball de JCC Pokémon: Poké, Honor y Acopio (9 Sobres de Mejora de JCC Pokémon y 6 Hojas con Pegatinas)",
@@ -1452,7 +1453,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802829+00:00",
-    "price": "93,56 €"
+    "price": "93,56 €",
+    "pending_price": "95,34 €",
+    "pending_price_count": 1
   },
   "US:B0G3CS6XB9": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Premium Poster Collection—Mega Lucario (1 Tarjeta Promocional de Aluminio, 1 póster de Doble Cara y 10 Paquetes de Refuerzo)",
@@ -3474,7 +3477,7 @@
   "US:B0FVFYXXQM": {
     "name": "Pokemon Chinese Gem Pack Volume 3 Booster Box - CBB3C",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-09-20T12:43:36.301545+00:00",
     "price": "115,58 €"
   },
@@ -3573,7 +3576,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-24T09:23:31.922756+00:00",
-    "price": "53,47 €"
+    "price": "53,45 €"
   },
   "US:B0DSSSRQVZ": {
     "name": "Pokemon TCG: Scarlet & Violet—Journey Together Enhanced Booster Display Box (36 Packs)",
