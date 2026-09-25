@@ -504,7 +504,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "211,88 €"
+    "price": "149,99 €"
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -1104,11 +1104,11 @@
     "price": "39,99 €"
   },
   "ES:B08M3S3VPY": {
-    "name": "eXtremeRate PlayVital Funda de Silicona para Xbox Series X/S Mando",
+    "name": "eXtremeRate PlayVital Funda de Silicona para Xbox Series X/S Mando | Suave al Tacto, Cubierta Protectora de Goma, Antideslizante, Incluye 2 Tapas para Joysticks, Edición Samurai, Negro",
     "status": "compra_directa",
     "stock": null,
-    "price": "13,99 €",
-    "first_seen": "2026-09-15T00:20:55.336221+00:00"
+    "first_seen": "2026-09-15T00:20:55.336221+00:00",
+    "price": "13,99 €"
   },
   "ES:B0DPCH9ZZ4": {
     "name": "Mcbazel Botones de Repuesto LB RB LT RT, Botones de Parachoques con Kit de Destornillador T6 T8 Compatible con Controlador Xbox Series X/S",
@@ -2366,7 +2366,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.257447+00:00",
-    "price": "56,15 €"
+    "price": "56,15 €",
+    "pending_price": "58,99 €",
+    "pending_price_count": 1
   },
   "ES:B0GTBVX67G": {
     "name": "Turtle Beach Rematch Core Ghost Camo Negro - Mando con Cable - con Licencia para Xbox Series XS, Xbox One y PC - Sticks con efecto Hall, Botones de Audio, Motores de vibración y disparadores de Pulso",
@@ -3776,9 +3778,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579852+00:00",
-    "price": "11,85 €",
-    "pending_price": "13,59 €",
-    "pending_price_count": 1
+    "price": "13,59 €"
   },
   "ES:B0C23V86YJ": {
     "name": "Destroy All Humans! 2 - Reprobed: Single Player Juego para Xbox One",
@@ -3960,7 +3960,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:37.525052+00:00",
-    "price": "11,58 €"
+    "price": "11,48 €"
   },
   "ES:B01F5D1MLC": {
     "name": "FIFA 17 - Standard Edition (Xbox One)",
@@ -3981,7 +3981,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:37.525101+00:00",
-    "price": "40,79 €"
+    "price": "40,79 €",
+    "pending_price": "41,38 €",
+    "pending_price_count": 1
   },
   "ES:B07R76NLYY": {
     "name": "F1 2019 Legends Edition (XBox ONE)",
@@ -4355,10 +4357,9 @@
   },
   "ES:B0BKQ3HMK4": {
     "name": "playvital Pegatinas para Xbox Series X/S y One Botón Home, 60 Piezas",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-23T18:31:49.442024+00:00",
-    "price": "28,55 €"
+    "first_seen": "2026-09-23T18:31:49.442024+00:00"
   },
   "ES:B0FDWYTMMB": {
     "name": "La casa de munecas de Gabby: Listos para la fiesta - Xbox",
@@ -4504,7 +4505,7 @@
     "stock": null,
     "first_seen": "2026-09-24T14:31:53.505508+00:00",
     "price": "20,25 €",
-    "pending_price": "23,07 €",
+    "pending_price": "22,48 €",
     "pending_price_count": 1
   },
   "ES:B09867DNJ9": {
@@ -4756,5 +4757,26 @@
     "stock": null,
     "first_seen": "2026-09-25T08:32:14.645172+00:00",
     "price": "22,71 €"
+  },
+  "ES:B0HD6KVGTV": {
+    "name": "8BitDo Ultimate Charging Dock for Xbox Controllers, X25 Special Edition | Officially Licensed, Wireless Charging, Keep Original Battery Door, XBOX Series X|S & XBOX One, Semi-Solid-State Battery",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T14:32:05.199871+00:00",
+    "price": "39,99 €"
+  },
+  "ES:B0CWS5461M": {
+    "name": "Turtle Beach Recon 70 Negro Xbox Auriculares Multiplataforma para Juegos for Xbox Series X o S, Xbox One, PS5, PS4, PC y Mobile",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T14:32:05.199966+00:00",
+    "price": "24,99 €"
+  },
+  "ES:B0DRVK61FN": {
+    "name": "TECKNET Cascos Gaming con Cable 3,5mm, Auriculares con Micrófono de Cancelación de Ruido, Sonido Estéreo 50mm, Luz LED, Over-Ear Ajustables, para PS5, PS4, Xbox Series X/S, Xbox One, PC, Switch, Mac",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T14:32:05.200046+00:00",
+    "price": "23,99 €"
   }
 }
