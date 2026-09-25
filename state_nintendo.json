@@ -1512,7 +1512,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850955+00:00",
-    "price": "79,90 €"
+    "price": "79,90 €",
+    "pending_price": "79,99 €",
+    "pending_price_count": 1
   },
   "ES:B01MS7YUA7": {
     "name": "Agarre cómodo Joy-Con para Nintendo Switch: Negro",
@@ -1931,7 +1933,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688535+00:00",
-    "price": "34,57 €"
+    "price": "33,85 €"
   },
   "ES:B0F3NKCYC4": {
     "name": "Super Mario Party: Jamboree - Nintendo Switch 2 Edition + Jamboree TV (Switch 2)",
@@ -2140,7 +2142,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688994+00:00",
-    "price": "183,00 €"
+    "price": "181,98 €"
   },
   "ES:B0CMDHWDP9": {
     "name": "Consola Switch - Color Azul Neón/Rojo Neón + Super Mario Bros. Wonder + Mario Kart 8 Deluxe",
@@ -2762,7 +2764,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.690017+00:00",
-    "price": "36,99 €"
+    "price": "33,99 €"
   },
   "ES:B0H36Q93T2": {
     "name": "Lemorele Adaptador USB-C a HDMI 2 m, 4K@60Hz, Compatible con Switch 2 | HDMI 2.0, PD hasta 100W y Plug & Play; compatible con Steam Deck y ROG Ally, requiere USB-C con DisplayPort Alt Mode",
@@ -3754,7 +3756,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T12:32:07.775720+00:00",
-    "price": "37,15 €"
+    "price": "37,15 €",
+    "pending_price": "38,22 €",
+    "pending_price_count": 1
   },
   "ES:B0DJRCJ655": {
     "name": "Phantom Breaker : Battle Grounds Ultimate - D1 Edition - NINTENDO SWITCH",
