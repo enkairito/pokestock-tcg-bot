@@ -715,18 +715,19 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
-    "price": "55,81 €"
+    "price": "55,44 €"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-08-30T20:46:19.644837+00:00"
+    "status": "compra_directa",
+    "stock": "1",
+    "first_seen": "2026-08-30T20:46:19.644837+00:00",
+    "price": "52,33 €"
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644840+00:00",
     "price": "227,63 €"
   },
@@ -765,9 +766,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644858+00:00",
-    "price": "71,11 €",
-    "pending_price": "78,75 €",
-    "pending_price_count": 1
+    "price": "78,75 €"
   },
   "US:B0DN98RVZM": {
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
@@ -800,7 +799,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "73,23 €"
   },
@@ -1636,7 +1635,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280869+00:00",
-    "price": "110,96 €"
+    "price": "110,94 €"
   },
   "UK:B0DG2XTYDP": {
     "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
