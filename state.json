@@ -1309,7 +1309,7 @@
   "UK:B0FSJXSPPX": {
     "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802653+00:00",
     "price": "89,60 €"
   },
@@ -1632,7 +1632,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280869+00:00",
-    "price": "111,02 €"
+    "price": "111,01 €"
   },
   "UK:B0DG2XTYDP": {
     "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
@@ -1716,7 +1716,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-06T13:57:50.628764+00:00",
-    "price": "21,55 €"
+    "price": "21,55 €",
+    "pending_price": "25,20 €",
+    "pending_price_count": 1
   },
   "UK:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
@@ -2411,7 +2413,7 @@
     "stock": "1",
     "first_seen": "2026-09-16T18:43:05.692265+00:00",
     "price": "84,16 €",
-    "pending_price": "85,57 €",
+    "pending_price": "84,86 €",
     "pending_price_count": 1
   },
   "TRU:K1105105": {
