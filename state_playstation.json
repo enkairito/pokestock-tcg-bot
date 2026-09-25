@@ -220,7 +220,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:03.616761+00:00",
-    "price": "589,00 €"
+    "price": "589,00 €",
+    "pending_price": "633,99 €",
+    "pending_price_count": 1
   },
   "ES:B0GYSGQ9R8": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Gallade y Goomy de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
@@ -312,7 +314,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018808+00:00",
-    "price": "25,12 €"
+    "price": "19,99 €"
   },
   "ES:B09KTGP5C2": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition, PlayStation 4",
@@ -711,9 +713,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T12:27:13.469347+00:00",
-    "price": "19,94 €",
-    "pending_price": "28,52 €",
-    "pending_price_count": 1
+    "price": "28,52 €"
   },
   "ES:B0D571R8PK": {
     "name": "Volante y Pedales Hori RWA con licencia Sony PlayStation 4/5 [Nuevo modelo compatible con PS4/PS5] + Gran Turismo 7 [Playstation 5]",
@@ -917,7 +917,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:25:09.102599+00:00",
-    "price": "33,95 €"
+    "price": "33,95 €",
+    "pending_price": "33,96 €",
+    "pending_price_count": 1
   },
   "ES:B0BWYYCT48": {
     "name": "Lies of P (PlayStation 4)",
@@ -993,7 +995,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T00:24:23.390556+00:00",
-    "price": "650,99 €"
+    "price": "624,99 €"
   },
   "ES:B07JH99TG6": {
     "name": "Playstation Uncharted Collection Hits - Versión 17",
@@ -1410,9 +1412,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:36:52.312460+00:00",
-    "price": "212,99 €",
-    "pending_price": "225,90 €",
-    "pending_price_count": 1
+    "price": "212,99 €"
   },
   "ES:B0GZVXB4DX": {
     "name": "Grand Theft Auto VI - Xbox Series X/S (Código de descarga)",
@@ -1878,7 +1878,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498076+00:00",
-    "price": "32,39 €"
+    "price": "31,47 €"
   },
   "ES:B09KCP7BS8": {
     "name": "Autobahn Police Simulator 2 (Nintendo Switch)",
@@ -2165,7 +2165,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499068+00:00",
-    "price": "33,64 €"
+    "price": "33,64 €",
+    "pending_price": "34,07 €",
+    "pending_price_count": 1
   },
   "ES:B08PM4PWDY": {
     "name": "Truck Simulator - On the Road Truck (PlayStation PS4): LKW - Simulator [Blu-ray]",
@@ -2298,7 +2300,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "24,91 €"
+    "price": "24,85 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2690,9 +2692,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500210+00:00",
-    "price": "25,72 €",
-    "pending_price": "29,99 €",
-    "pending_price_count": 1
+    "price": "29,99 €"
   },
   "ES:B0CZXX98X7": {
     "name": "Razer Blackshark V2 X (PlayStation) - Auriculares con Cable para Consola PlayStation (PS5) (240g, Micrófono cardioide, Diafragmas de 50mm, Cancelación pasiva del Ruido, Conector de 3,5 mm, PC) Negro",
@@ -3963,9 +3963,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T12:31:51.828236+00:00",
-    "price": "25,26 €",
-    "pending_price": "27,99 €",
-    "pending_price_count": 1
+    "price": "27,99 €"
   },
   "ES:B0B7X6PWMR": {
     "name": "SteelSeries Arctis Nova 1P - Cascos PS5 Con Cable y Multisistema - Controladores Hi-Fi - Audio espacial 360° - Almohadillas de espuma con memoria - PS5, PS4, PC, Xbox - Blanco",
