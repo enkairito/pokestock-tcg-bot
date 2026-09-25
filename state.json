@@ -1614,7 +1614,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "122,82 €"
+    "price": "122,80 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -1834,9 +1834,9 @@
   "UK:B09M48Z5NW": {
     "name": "Pokemon TCG: V Battle Deck: Lycanroc vs. Corviknight",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "4",
     "first_seen": "2026-09-08T14:34:56.335876+00:00",
-    "price": "58,70 €"
+    "price": "54,97 €"
   },
   "UK:B00TA6E3KI": {
     "name": "100 Assorted Basic Pokemon TCG Energy Cards",
@@ -3488,9 +3488,10 @@
   },
   "US:B0DLQL7GZF": {
     "name": "Pokémon TCG: Scarlet & Violet - Mini Lata de evoluciones prismáticas - Espeon",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-22T19:23:04.349991+00:00"
+    "first_seen": "2026-09-22T19:23:04.349991+00:00",
+    "price": "69,87 €"
   },
   "ECI:A200971036": {
     "name": "Sobre cartas Pokémon Expansion Chispas fulgurantes Pokémon Bandai modelos surtidos",
