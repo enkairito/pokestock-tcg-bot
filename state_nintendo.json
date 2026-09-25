@@ -265,7 +265,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912091+00:00",
-    "price": "70,00 €"
+    "price": "70,00 €",
+    "pending_price": "82,99 €",
+    "pending_price_count": 1
   },
   "ES:B07VFTVVWX": {
     "name": "Nintendo Switch Joy-Con-Controller, links blau/rechts, neongelb [Videospiel]",
@@ -513,7 +515,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478085+00:00",
-    "price": "53,99 €"
+    "price": "53,90 €"
   },
   "ES:B0F3P4FB73": {
     "name": "Samsung Micro SD Express Card for Nintendo Switch 2",
@@ -632,9 +634,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478316+00:00",
-    "price": "35,00 €",
-    "pending_price": "35,80 €",
-    "pending_price_count": 1
+    "price": "35,80 €"
   },
   "ES:B0FR451FFZ": {
     "name": "Nintendo Super Mario Galaxy + Super Mario Galaxy 2",
@@ -1751,9 +1751,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688228+00:00",
-    "price": "519,98 €",
-    "pending_price": "539,80 €",
-    "pending_price_count": 1
+    "price": "539,80 €"
   },
   "ES:B0FYTQ5XLG": {
     "name": "2 Piezas de Cubiertas Protectoras magnéticas para Switch2, Protectores Laterales contra arañazos, Protectores de los Bordes, Cubierta del Punto de conexión del Mango. (Azul-Naranja)",
@@ -1774,7 +1772,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688300+00:00",
-    "price": "51,99 €"
+    "price": "48,90 €"
   },
   "ES:B0FQWJV77Z": {
     "name": "Hyrule Warriors: Age of Imprisonment - Switch 2",
@@ -1865,7 +1863,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688441+00:00",
-    "price": "74,99 €"
+    "price": "74,90 €"
   },
   "ES:B0F3DP33ZG": {
     "name": "Story of Seasons: Grand Bazaar - Switch 2",
@@ -1879,7 +1877,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688467+00:00",
-    "price": "47,04 €"
+    "price": "42,46 €"
   },
   "ES:B0GRCY5LPK": {
     "name": "Pokémon Pokopia Standard | Nintendo Switch 2 - Código de descarga",
@@ -2026,7 +2024,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688704+00:00",
-    "price": "316,00 €"
+    "price": "316,00 €",
+    "pending_price": "339,99 €",
+    "pending_price_count": 1
   },
   "ES:B085SPRQSQ": {
     "name": "Nintendo Switch Lite - Consola Coral",
@@ -2076,7 +2076,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688827+00:00",
     "price": "329,90 €",
-    "pending_price": "375,58 €",
+    "pending_price": "364,39 €",
     "pending_price_count": 1
   },
   "ES:B09B85F56N": {
@@ -2105,7 +2105,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688897+00:00",
-    "price": "363,99 €"
+    "price": "363,90 €"
   },
   "ES:B0BDGSPP7H": {
     "name": "Nintendo Switch OLED Edición Limitada Pokémon Escarlata y Púrpura",
@@ -2191,9 +2191,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689114+00:00",
-    "price": "49,99 €",
-    "pending_price": "54,99 €",
-    "pending_price_count": 1
+    "price": "49,99 €"
   },
   "ES:B09GWPYXVH": {
     "name": "Kirby y la Tierra Olvidada",
