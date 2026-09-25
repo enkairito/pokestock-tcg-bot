@@ -191,11 +191,22 @@ ECI_PRICE_RE = re.compile(r"(\d{1,3}(?:\.\d{3})*,\d{2})\s*€")
 # La URL es la búsqueda "pokemon 30th aniversario" filtrada a la marca
 # Bandai, limpia de los parámetros de tracking de un anuncio de Google Ads
 # (gclid/gad_source/gbraid/etc., no aportan nada a la búsqueda en sí).
+# Carrefour está detrás de Cloudflare (bloquea con un reto 403 en modo
+# headless, incluso con cookies frescas). En modo headed (el que ya usa
+# producción vía xvfb-run) + cookies de una sesión real sí funciona —
+# confirmado el 2026-09-25 con 17 productos reales. La búsqueda usa el
+# mismo motor de terceros que ToysRUs (Empathy.co, endpoint propio en
+# ``carrefour.es/search-api/...``, por eso los parámetros "internal"/
+# "session=empathy" en la URL), pero al vivir en el propio dominio de
+# Carrefour sigue detrás de su Cloudflare, así que no vale llamarlo
+# directamente sin pasar por la página (a diferencia de la API de ToysRUs,
+# que está en un dominio de Empathy.co sin protección).
 CARREFOUR_STORE = {
     "code": "CAR",
     "flag": "",
     "store_label": "Carrefour",
     "tag": None,
+    "cookies_file": Path(__file__).parent / "carrefour_cookies.json",
     "pages": [
         ("Pokémon 30º Aniversario", "https://www.carrefour.es/?filter=brand%3Abandai&query=pokemon%2030th%20aniversario"),
     ],
@@ -682,6 +693,10 @@ async def new_context(browser):
     # GAME tampoco es un "marketplace" — mismo motivo que Fnac arriba.
     if GAME_STORE["cookies_file"].exists():
         raw_cookies = json.loads(GAME_STORE["cookies_file"].read_text(encoding="utf-8"))
+        await context.add_cookies(normalize_cookies(raw_cookies))
+    # Carrefour tampoco es un "marketplace" — mismo motivo que Fnac arriba.
+    if CARREFOUR_STORE["cookies_file"].exists():
+        raw_cookies = json.loads(CARREFOUR_STORE["cookies_file"].read_text(encoding="utf-8"))
         await context.add_cookies(normalize_cookies(raw_cookies))
     return context
 
