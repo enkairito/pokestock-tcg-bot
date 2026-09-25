@@ -265,7 +265,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912091+00:00",
-    "price": "70,00 €"
+    "price": "70,00 €",
+    "pending_price": "74,99 €",
+    "pending_price_count": 1
   },
   "ES:B07VFTVVWX": {
     "name": "Nintendo Switch Joy-Con-Controller, links blau/rechts, neongelb [Videospiel]",
@@ -349,9 +351,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912114+00:00",
-    "price": "22,48 €",
-    "pending_price": "24,91 €",
-    "pending_price_count": 1
+    "price": "24,91 €"
   },
   "ES:B0DHSCVFMT": {
     "name": "Konix Par de mandos Joypads para Nintendo Switch y Switch OLED - Compatible con Nintendo Switch 2 - Autonomía de 8 horas - Función de vibración - Verde y azul",
@@ -571,7 +571,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478229+00:00",
-    "price": "29,39 €"
+    "price": "29,39 €",
+    "pending_price": "34,90 €",
+    "pending_price_count": 1
   },
   "ES:B0BV27FTTF": {
     "name": "Aukuoy RCM Jig para Nintendo Switch, Herramientas de Cortocircuito de Herramienta RCM utilizadas para Cambiar el Juego de Archivo GBA/FBA",
@@ -1772,7 +1774,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688300+00:00",
-    "price": "52,99 €"
+    "price": "48,99 €"
   },
   "ES:B0FQWJV77Z": {
     "name": "Hyrule Warriors: Age of Imprisonment - Switch 2",
@@ -2562,9 +2564,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689840+00:00",
-    "price": "33,38 €",
-    "pending_price": "46,99 €",
-    "pending_price_count": 1
+    "price": "46,99 €"
   },
   "ES:B0F2FJK49G": {
     "name": "HEYSTOP Funda de Transporte para Consola Nintendo Switch 2, Estuche Protector de Viaje de Gran Capacidad con 12 Ranuras para Tarjetas de Juego para Accesorios de Nintendo Switch 2 2025 Últimos Modelos",
@@ -2652,18 +2652,17 @@
   },
   "ES:B0FCYHDC4R": {
     "name": "JSAUX Funda Protectora Dividida para Switch 2, Agarre y Cubierta Frontal | Anticaídas, Compatible con Dock, Agarre Ergonómico Antideslizante, Uso del Soporte, Cubierta PC, Marco TPU, 10 Tarjetas",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.689913+00:00"
+    "first_seen": "2026-09-17T00:32:50.689913+00:00",
+    "price": "29,99 €"
   },
   "ES:B00LG0I9ZQ": {
     "name": "8BitDo 64 Bluetooth Controller for Analogue 3D, Switch, Switch 2, Windows, and Android (Grey)",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689919+00:00",
-    "price": "30,00 €",
-    "pending_price": "38,89 €",
-    "pending_price_count": 1
+    "price": "30,00 €"
   },
   "ES:B0GF685PMY": {
     "name": "ZOZOVR COOWPS P2 - Carcasa para Nintendo Switch 2 con Agarre Antideslizante, Diseño Magnético Y Soporte Estable, Protección Completa, con 12 Ranuras para Tarjetas 2026 Última actualización",
@@ -2739,7 +2738,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689991+00:00",
-    "price": "75,71 €"
+    "price": "75,71 €",
+    "pending_price": "76,76 €",
+    "pending_price_count": 1
   },
   "ES:B0B69K1671": {
     "name": "Volante y pedales Hori para consola Switch pack Crash-Bandicoot Nitro Fueled (Liccencia oficial)",
@@ -3031,9 +3032,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:16.088111+00:00",
-    "price": "8,30 €",
-    "pending_price": "11,91 €",
-    "pending_price_count": 1
+    "price": "11,91 €"
   },
   "ES:B0H97L2P92": {
     "name": "AceGamer Hypershadow D4 2.4G Mando Inalámbrico Para PS4, PC, Switch, iOS, Android, Steam Deck, Joystick TMR, Gatillos Instantáneos, Botones Mecánicos, 4 Botones Traseros Macro, Giroscopio 6 Ejes",
@@ -3804,5 +3803,12 @@
     "stock": null,
     "first_seen": "2026-09-24T14:31:33.611775+00:00",
     "price": "39,99 €"
+  },
+  "ES:B0F3JNMQ8V": {
+    "name": "Joy-Con 2 (Izquierdo) -Azul Claro- Nintendo Switch 2",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T00:32:05.359672+00:00",
+    "price": "49,99 €"
   }
 }
