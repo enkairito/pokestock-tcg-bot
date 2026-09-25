@@ -1306,7 +1306,9 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802645+00:00",
-    "price": "79,87 €"
+    "price": "79,87 €",
+    "pending_price": "79,91 €",
+    "pending_price_count": 1
   },
   "UK:B0FSJXSPPX": {
     "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
@@ -1613,7 +1615,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "122,92 €"
+    "price": "122,91 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -1711,9 +1713,7 @@
     "status": "compra_directa",
     "stock": "4",
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "142,86 €",
-    "pending_price": "143,40 €",
-    "pending_price_count": 1
+    "price": "142,86 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
@@ -2945,7 +2945,7 @@
   "UK:B0GNCGT9KK": {
     "name": "Pokemon: Pokemon TCG - Mega Zygarde EX - Premium Collection 2026 (TCG)",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "3",
     "first_seen": "2026-09-18T15:23:27.918742+00:00",
     "price": "102,32 €"
   },
