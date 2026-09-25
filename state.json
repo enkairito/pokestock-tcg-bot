@@ -1306,7 +1306,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802645+00:00",
-    "price": "79,91 €"
+    "price": "79,87 €"
   },
   "UK:B0FSJXSPPX": {
     "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
@@ -1613,7 +1613,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "122,96 €"
+    "price": "122,95 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -3553,9 +3553,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T03:03:05.279782+00:00",
-    "price": "29,98 €",
-    "pending_price": "30,37 €",
-    "pending_price_count": 1
+    "price": "30,37 €"
   },
   "MM:184574546": {
     "name": "Cartas - POKÉMON Pokémon TCG 30 Aniversario Blíster 2 Sobres Sorpresa",
@@ -3587,10 +3585,9 @@
   },
   "ECI:A200804709": {
     "name": "Mini Lata Megaevolucion Caos Creciente JCC Pokémon Bandai Modelos surtidos",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-24T10:43:18.146669+00:00",
-    "price": "14,99 €"
+    "first_seen": "2026-09-24T10:43:18.146669+00:00"
   },
   "UK:B0DR25TJNN": {
     "name": "Pokémon 2024 TCG World Championships Deck",
@@ -3612,5 +3609,11 @@
     "stock": null,
     "first_seen": "2026-09-24T21:03:14.298681+00:00",
     "price": "97,61 €"
+  },
+  "ECI:A202035447": {
+    "name": "30TH Caja Colección ex Celebración 30.º Aniversario de JCC Pokémon. POKEMON. BANDAI. Modelos surtidos",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-25T11:23:25.256719+00:00"
   }
 }
