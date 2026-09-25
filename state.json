@@ -1715,9 +1715,11 @@
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-09-06T13:57:50.628764+00:00",
-    "price": "21,55 €"
+    "price": "21,55 €",
+    "pending_price": "21,65 €",
+    "pending_price_count": 1
   },
   "UK:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
@@ -1834,9 +1836,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-08T14:34:56.335876+00:00",
-    "price": "59,54 €",
-    "pending_price": "61,18 €",
-    "pending_price_count": 1
+    "price": "58,70 €"
   },
   "UK:B00TA6E3KI": {
     "name": "100 Assorted Basic Pokemon TCG Energy Cards",
@@ -3475,7 +3475,7 @@
   "US:B0FVFYXXQM": {
     "name": "Pokemon Chinese Gem Pack Volume 3 Booster Box - CBB3C",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-09-20T12:43:36.301545+00:00",
     "price": "115,58 €"
   },
