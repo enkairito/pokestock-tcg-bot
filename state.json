@@ -1312,9 +1312,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802653+00:00",
-    "price": "89,60 €",
-    "pending_price": "90,98 €",
-    "pending_price_count": 1
+    "price": "90,98 €"
   },
   "UK:B0CMZS84KP": {
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
@@ -1558,9 +1556,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802941+00:00",
-    "price": "73,46 €",
-    "pending_price": "74,49 €",
-    "pending_price_count": 1
+    "price": "74,49 €"
   },
   "US:B0D92YXKBH": {
     "name": "Pokemon TCG: Scarlet & Violet—151 Mini Tin – Electabuzz and Magnemite (2 Booster Packs, 1 Coin & 1 Art Card)",
@@ -1616,9 +1612,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "122,20 €",
-    "pending_price": "123,00 €",
-    "pending_price_count": 1
+    "price": "123,00 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -1840,7 +1834,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-08T14:34:56.335876+00:00",
-    "price": "59,54 €"
+    "price": "59,54 €",
+    "pending_price": "61,18 €",
+    "pending_price_count": 1
   },
   "UK:B00TA6E3KI": {
     "name": "100 Assorted Basic Pokemon TCG Energy Cards",
@@ -2930,9 +2926,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:43:57.912076+00:00",
-    "price": "98,09 €",
-    "pending_price": "98,14 €",
-    "pending_price_count": 1
+    "price": "98,14 €"
   },
   "US:B0DLQXNQDH": {
     "name": "Pokémon TCG: Scarlet & Violet - Prismatic Evolutions Mini Tin - Jolteon (2 Paquetes de Refuerzo y 1 Moneda)",
@@ -3567,9 +3561,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T03:23:36.529801+00:00",
-    "price": "27,48 €",
-    "pending_price": "64,81 €",
-    "pending_price_count": 1
+    "price": "64,81 €"
   },
   "UK:B0G5FWJ8NL": {
     "name": "Pokémon TCG: Mega Charizard Tin",
