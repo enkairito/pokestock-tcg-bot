@@ -720,7 +720,7 @@
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
     "price": "67,14 €"
   },
@@ -762,9 +762,10 @@
   },
   "US:B0GXJ8CSTY": {
     "name": "Pokémon TCG: Colección Premium Mega Greninja ex (1 Tarjeta Promocional Brillante, 1 Tarjeta lenticular de Gran tamaño y 8 Paquetes de Refuerzo)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-08-30T20:46:19.644858+00:00"
+    "first_seen": "2026-08-30T20:46:19.644858+00:00",
+    "price": "76,23 €"
   },
   "US:B0DN98RVZM": {
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
@@ -797,7 +798,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "73,23 €"
   },
@@ -1014,7 +1015,7 @@
   "US:B0H6DTXPK1": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Tin",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-30T23:03:24.893535+00:00",
     "price": "79,97 €"
   },
@@ -1612,7 +1613,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "122,79 €"
+    "price": "122,78 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -2943,10 +2944,9 @@
   },
   "UK:B0GNCGT9KK": {
     "name": "Pokemon: Pokemon TCG - Mega Zygarde EX - Premium Collection 2026 (TCG)",
-    "status": "compra_directa",
-    "stock": "1",
-    "first_seen": "2026-09-18T15:23:27.918742+00:00",
-    "price": "102,32 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-18T15:23:27.918742+00:00"
   },
   "UK:B0H2N248WM": {
     "name": "Pokemon TCG: Mega Evolution Chaos Rising Pokemon Center Elite Trainer Box | CR PKC ETB | Promoción exclusiva de Fennekin | 11 paquetes de refuerzo",
@@ -3532,9 +3532,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T22:23:24.398027+00:00",
-    "price": "56,17 €",
-    "pending_price": "56,94 €",
-    "pending_price_count": 1
+    "price": "56,94 €"
   },
   "UK:B0GHJP1TDX": {
     "name": "Pokemon Scorching Skies CS3.5C | Chino simplificado | Booster Box | Más de 15 años",
