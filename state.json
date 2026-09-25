@@ -763,9 +763,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644858+00:00",
-    "price": "78,57 €",
-    "pending_price": "78,70 €",
-    "pending_price_count": 1
+    "price": "78,70 €"
   },
   "US:B0DN98RVZM": {
     "name": "Pokémon TCG: Escarlata y Violeta - Paquete de Refuerzo de Prismatic Evolutions",
@@ -811,10 +809,9 @@
   },
   "US:B0GFZV1ZVV": {
     "name": "Pokémon TCG: Mega Evolution Order Elite Trainer Box",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-08-30T20:46:19.644915+00:00",
-    "price": "106,23 €"
+    "first_seen": "2026-08-30T20:46:19.644915+00:00"
   },
   "US:B0G3CY83L5": {
     "name": "Pokémon TCG: Caja de entrenamiento de élite de héroes ascendidos de Mega Evolution",
@@ -1300,9 +1297,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "112,23 €",
-    "pending_price": "113,52 €",
-    "pending_price_count": 1
+    "price": "113,52 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1316,7 +1311,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802653+00:00",
-    "price": "87,91 €"
+    "price": "87,91 €",
+    "pending_price": "89,60 €",
+    "pending_price_count": 1
   },
   "UK:B0CMZS84KP": {
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
@@ -1468,9 +1465,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802853+00:00",
-    "price": "136,50 €",
-    "pending_price": "138,45 €",
-    "pending_price_count": 1
+    "price": "138,45 €"
   },
   "US:B0G72SPRP6": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Mega Meganium ex Box (1 Tarjeta Promocional de Aluminio, 1 Tarjeta lenticular de Gran tamaño y 4 Paquetes de Refuerzo)",
@@ -2419,7 +2414,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-16T18:43:05.692265+00:00",
-    "price": "84,16 €"
+    "price": "84,16 €",
+    "pending_price": "97,38 €",
+    "pending_price_count": 1
   },
   "TRU:K1105105": {
     "name": "Pokémon - Escarlata y Púrpura: Rivales Predestinados - Sobre de Mejora - Español (Varios modelos)",
@@ -3471,8 +3468,8 @@
   },
   "TC:212173": {
     "name": "Reacondicionado: Coleccion Premium Zoroark de Hisui V-Astro Pokemon TCG (ES)",
-    "status": "no_disponible",
-    "stock": 0.0,
+    "status": "compra_directa",
+    "stock": 1.0,
     "first_seen": "2026-09-19T02:03:09.680776+00:00",
     "price": "59,95 €"
   },
