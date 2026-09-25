@@ -296,7 +296,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018779+00:00",
-    "price": "26,35 €"
+    "price": "18,90 €"
   },
   "ES:B0F6D5BS17": {
     "name": "PlayStation 5-Ghost of Yotei - Edición Estándar",
@@ -317,7 +317,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018821+00:00",
-    "price": "26,99 €"
+    "price": "22,60 €"
   },
   "ES:B07HNR4ZZD": {
     "name": "Sony PlayStation 4 Slim 500 Go, Avec 1 manette sans fil DUALSHOCK 4 V2, Châssis F, Noir (Jet Black) [Importación francesa]",
@@ -885,7 +885,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T18:25:09.102575+00:00",
-    "price": "33,90 €"
+    "price": "33,90 €",
+    "pending_price": "34,00 €",
+    "pending_price_count": 1
   },
   "ES:B098GSZ4Q9": {
     "name": "Streets of Rage 4. Anniversary Edition - Playstation 4",
@@ -1724,9 +1726,10 @@
   },
   "ES:B0BYDTWYQ2": {
     "name": "Playstation 5 Digital Consola + 2 Mandos Inalámbrico Dualsense blanco",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:37.287253+00:00"
+    "first_seen": "2026-09-17T00:32:37.287253+00:00",
+    "price": "699,00 €"
   },
   "ES:B0GCCZP7TN": {
     "name": "Pogriko Mando para PS4, Mando Inalámbrico con Luces RGB para PS4/Pro/Slim/PC, Joystick con Doble Vibración/Sensor De Giroscopio De 6 Ejes/Panel Táctil/Conector de Audio 3.5mm",
@@ -1872,9 +1875,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498076+00:00",
-    "price": "29,46 €",
-    "pending_price": "31,47 €",
-    "pending_price_count": 1
+    "price": "31,47 €"
   },
   "ES:B09KCP7BS8": {
     "name": "Autobahn Police Simulator 2 (Nintendo Switch)",
@@ -2007,7 +2008,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498377+00:00",
-    "price": "55,90 €"
+    "price": "55,90 €",
+    "pending_price": "55,99 €",
+    "pending_price_count": 1
   },
   "ES:B0G7L9ZPX1": {
     "name": "PRAGMATA - PS5",
@@ -2049,7 +2052,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498502+00:00",
-    "price": "21,70 €"
+    "price": "21,70 €",
+    "pending_price": "21,78 €",
+    "pending_price_count": 1
   },
   "ES:B0F2TGRRRK": {
     "name": "DRAGON QUEST I & II HD-2D Remake",
@@ -2224,9 +2229,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499345+00:00",
-    "price": "14,69 €",
-    "pending_price": "14,99 €",
-    "pending_price_count": 1
+    "price": "14,99 €"
   },
   "ES:B0C3VT9TFF": {
     "name": "Videojuego PlayStation 5 Warner Games",
@@ -2261,7 +2264,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499492+00:00",
-    "price": "24,59 €"
+    "price": "24,59 €",
+    "pending_price": "24,72 €",
+    "pending_price_count": 1
   },
   "ES:B07V9NP59C": {
     "name": "Remothered: Tormented Fathers",
@@ -2296,7 +2301,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "24,61 €"
+    "price": "24,53 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2702,7 +2707,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500223+00:00",
-    "price": "106,44 €"
+    "price": "88,80 €"
   },
   "ES:B0GDXWB1ZG": {
     "name": "SZPACMATE Mando Inalámbrico para PS4/PS3/Switch 1/PC/Steam Deck | Joystick Efecto Hall, Iluminación RGB 8 Colores, Batería 1000 mAh, Giroscopio 6 Ejes, Turbo, Doble Vibración, Programables",
@@ -2982,9 +2987,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:31:53.613339+00:00",
-    "price": "25,26 €",
-    "pending_price": "27,99 €",
-    "pending_price_count": 1
+    "price": "27,99 €"
   },
   "ES:B075YBBQMM": {
     "name": "OIVO - Cargador para Mando PS4, estación de Carga con Mando PS 4 con Chip de Carga de 1,8 Horas, estación Mando Sony PlayStation 4/PS4/Pro/slim",
@@ -3938,9 +3941,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T12:31:51.828004+00:00",
-    "price": "32,90 €",
-    "pending_price": "32,99 €",
-    "pending_price_count": 1
+    "price": "32,99 €"
   },
   "ES:B00JAHX55G": {
     "name": "Assassin's Creed: Unity",
