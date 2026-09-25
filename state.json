@@ -796,7 +796,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "73,23 €"
   },
@@ -1717,9 +1717,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-06T13:57:50.628764+00:00",
-    "price": "21,55 €",
-    "pending_price": "25,20 €",
-    "pending_price_count": 1
+    "price": "21,55 €"
   },
   "UK:B0DLTZPNR2": {
     "name": "Pokemon TCG Surging Spark – Single Booster Pack – Pack Art May Vary",
@@ -2411,9 +2409,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-16T18:43:05.692265+00:00",
-    "price": "84,16 €",
-    "pending_price": "84,86 €",
-    "pending_price_count": 1
+    "price": "84,86 €"
   },
   "TRU:K1105105": {
     "name": "Pokémon - Escarlata y Púrpura: Rivales Predestinados - Sobre de Mejora - Español (Varios modelos)",
@@ -2946,7 +2942,7 @@
   "UK:B0GNCGT9KK": {
     "name": "Pokemon: Pokemon TCG - Mega Zygarde EX - Premium Collection 2026 (TCG)",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "5",
     "first_seen": "2026-09-18T15:23:27.918742+00:00",
     "price": "102,32 €"
   },
@@ -3563,7 +3559,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T03:23:36.529801+00:00",
-    "price": "32,97 €"
+    "price": "27,48 €"
   },
   "UK:B0G5FWJ8NL": {
     "name": "Pokémon TCG: Mega Charizard Tin",
