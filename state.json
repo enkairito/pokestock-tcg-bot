@@ -1130,10 +1130,9 @@
   },
   "US:B0GR6N18F6": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box",
-    "status": "compra_directa",
-    "stock": "1",
-    "first_seen": "2026-08-31T17:55:22.065539+00:00",
-    "price": "107,12 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-31T17:55:22.065539+00:00"
   },
   "US:B09CQJ564T": {
     "name": "Pokemon SAS7 Evolving Skies Eliter Trainer Box - Azul",
@@ -1416,9 +1415,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-04T21:32:58.802795+00:00",
-    "price": "31,52 €",
-    "pending_price": "33,77 €",
-    "pending_price_count": 1
+    "price": "33,77 €"
   },
   "UK:B0BXJT92PT": {
     "name": "Pokémon- Origin Forme Palkia VSTAR Baraja de Batalla de la Liga, Multicolor (290-85236)",
