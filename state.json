@@ -1305,7 +1305,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802645+00:00",
-    "price": "79,91 €"
+    "price": "79,87 €"
   },
   "UK:B0FSJXSPPX": {
     "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
@@ -1661,9 +1661,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280980+00:00",
-    "price": "46,78 €",
-    "pending_price": "46,89 €",
-    "pending_price_count": 1
+    "price": "46,89 €"
   },
   "UK:B0FTSVL3Z6": {
     "name": "Pokemon Mega Brave m1L Caja Booster Coreana 30 Sobres Cartas Originales",
@@ -2411,7 +2409,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-16T18:43:05.692265+00:00",
-    "price": "82,03 €"
+    "price": "82,03 €",
+    "pending_price": "86,30 €",
+    "pending_price_count": 1
   },
   "TRU:K1105105": {
     "name": "Pokémon - Escarlata y Púrpura: Rivales Predestinados - Sobre de Mejora - Español (Varios modelos)",
@@ -3475,7 +3475,7 @@
   "US:B0FVFYXXQM": {
     "name": "Pokemon Chinese Gem Pack Volume 3 Booster Box - CBB3C",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-09-20T12:43:36.301545+00:00",
     "price": "115,58 €"
   },
