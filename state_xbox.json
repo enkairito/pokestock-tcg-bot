@@ -1294,7 +1294,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.318741+00:00",
-    "price": "830,22 €"
+    "price": "830,22 €",
+    "pending_price": "830,26 €",
+    "pending_price_count": 1
   },
   "ES:B08FCXLB8Z": {
     "name": "Xbox Play y Kit de Carga USB",
@@ -1847,7 +1849,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256348+00:00",
-    "price": "69,11 €"
+    "price": "69,11 €",
+    "pending_price": "71,99 €",
+    "pending_price_count": 1
   },
   "ES:B0F947WN6P": {
     "name": "Orcs Must Die! Deathtrap - Xbox Series X",
@@ -1896,7 +1900,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256416+00:00",
-    "price": "23,00 €"
+    "price": "22,00 €"
   },
   "ES:B0FT3K5S46": {
     "name": "Code Vein II",
@@ -1973,18 +1977,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256523+00:00",
-    "price": "13,25 €",
-    "pending_price": "18,77 €",
-    "pending_price_count": 1
+    "price": "18,77 €"
   },
   "ES:B083JL8CLF": {
     "name": "Corsair Scimitar Elite RGB Óptico MOBA/MMO Ratón para Juegos - Negro | 18.000 PPP Óptico Sensor, 17 Botones Programables, Retroiluminación RGB Dinámica en Cuatro Zonas, Forma Contorneada",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256532+00:00",
-    "price": "81,59 €",
-    "pending_price": "89,97 €",
-    "pending_price_count": 1
+    "price": "89,97 €"
   },
   "ES:B095PPY2KN": {
     "name": "Mars Gaming MCPX, Idioma Español, Combo Gaming 3en1 con Teclado H-Mech Iluminado, Ratón Ultraligero 10000 dpi con Software y Alfombrilla XXL, Compatible con PC, PS4, PS5, Xbox, Negro",
@@ -3066,9 +3066,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T08:31:31.238742+00:00",
-    "price": "17,98 €",
-    "pending_price": "18,11 €",
-    "pending_price_count": 1
+    "price": "17,93 €"
   },
   "ES:B0D6G1BKS3": {
     "name": "Alan Wake 2 Deluxe Edition - Xbox",
@@ -3778,7 +3776,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579852+00:00",
-    "price": "11,85 €"
+    "price": "11,85 €",
+    "pending_price": "13,62 €",
+    "pending_price_count": 1
   },
   "ES:B0C23V86YJ": {
     "name": "Destroy All Humans! 2 - Reprobed: Single Player Juego para Xbox One",
@@ -4600,6 +4600,8 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T22:31:41.897754+00:00",
-    "price": "16,62 €"
+    "price": "16,62 €",
+    "pending_price": "16,72 €",
+    "pending_price_count": 1
   }
 }
