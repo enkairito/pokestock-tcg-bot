@@ -722,13 +722,14 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
-    "price": "67,14 €"
+    "price": "52,33 €"
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-08-30T20:46:19.644840+00:00"
+    "status": "compra_directa",
+    "stock": "1",
+    "first_seen": "2026-08-30T20:46:19.644840+00:00",
+    "price": "227,63 €"
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
@@ -798,7 +799,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "73,23 €"
   },
@@ -1300,9 +1301,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "113,52 €",
-    "pending_price": "114,19 €",
-    "pending_price_count": 1
+    "price": "114,19 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -2410,9 +2409,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-16T18:43:05.692265+00:00",
-    "price": "84,16 €",
-    "pending_price": "84,86 €",
-    "pending_price_count": 1
+    "price": "84,16 €"
   },
   "TRU:K1105105": {
     "name": "Pokémon - Escarlata y Púrpura: Rivales Predestinados - Sobre de Mejora - Español (Varios modelos)",
@@ -3553,7 +3550,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T03:03:05.279782+00:00",
-    "price": "30,37 €"
+    "price": "30,36 €"
   },
   "MM:184574546": {
     "name": "Cartas - POKÉMON Pokémon TCG 30 Aniversario Blíster 2 Sobres Sorpresa",
