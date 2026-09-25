@@ -1782,16 +1782,21 @@ async def main():
             info["categories"] = assign_categories(info["name"])
             products[f"GAME:{product_id}"] = info
 
-        # MediaMarkt: mismo patrón que GAME, sin afiliación todavía.
+        # MediaMarkt: desactivado temporalmente a petición del usuario
+        # (2026-09-25) — no se descubren productos nuevos ni se actualiza su
+        # estado mientras esté así. Para reactivar, volver a poner el bucle
+        # de siempre (ver historial de git de esta línea).
         mediamarkt_products = {}
-        for label, url in MEDIAMARKT_STORE["pages"]:
-            print(f"🔍 Descubriendo productos en la tienda (MediaMarkt/{label})...")
-            try:
-                page_products = await discover_mediamarkt_products(page, label, url)
-                print(f"📦 [MediaMarkt/{label}] {len(page_products)} productos encontrados")
-                mediamarkt_products.update(page_products)
-            except Exception as e:
-                print(f"⚠️ No se pudo cargar la página de MediaMarkt ({label}), se omite esta vez: {e!r}")
+        MEDIAMARKT_ENABLED = False
+        if MEDIAMARKT_ENABLED:
+            for label, url in MEDIAMARKT_STORE["pages"]:
+                print(f"🔍 Descubriendo productos en la tienda (MediaMarkt/{label})...")
+                try:
+                    page_products = await discover_mediamarkt_products(page, label, url)
+                    print(f"📦 [MediaMarkt/{label}] {len(page_products)} productos encontrados")
+                    mediamarkt_products.update(page_products)
+                except Exception as e:
+                    print(f"⚠️ No se pudo cargar la página de MediaMarkt ({label}), se omite esta vez: {e!r}")
 
         mediamarkt_out_of_stock = {
             a for a, i in mediamarkt_products.items() if i["status"] == "no_disponible"
