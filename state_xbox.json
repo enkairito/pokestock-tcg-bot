@@ -128,9 +128,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.388338+00:00",
-    "price": "48,22 €",
-    "pending_price": "49,99 €",
-    "pending_price_count": 1
+    "price": "49,99 €"
   },
   "ES:B08KVH51VX": {
     "name": "NEED FOR SPEED HOT PURSUIT REMASTERED",
@@ -248,9 +246,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811467+00:00",
-    "price": "33,93 €",
-    "pending_price": "44,20 €",
-    "pending_price_count": 1
+    "price": "44,20 €"
   },
   "ES:B0CF2T3CQ2": {
     "name": "Videojuego Xbox One/Series X Activision Call of Duty: Modern Warfare 3 (FR)",
@@ -508,7 +504,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "149,99 €"
+    "price": "149,99 €",
+    "pending_price": "211,88 €",
+    "pending_price_count": 1
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -988,7 +986,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171617+00:00",
-    "price": "32,39 €"
+    "price": "32,36 €"
   },
   "ES:B074QMN4YW": {
     "name": "Microsoft - Adaptador Wireless (PC)",
@@ -1154,9 +1152,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T00:20:55.336240+00:00",
-    "price": "24,90 €",
-    "pending_price": "29,99 €",
-    "pending_price_count": 1
+    "price": "29,99 €"
   },
   "ES:B0DWL7FZ3W": {
     "name": "PowerA Controlador simétrico con cable para Xbox Series X|S - Azul, licencia oficial, diseño de palanca de pulgar en línea, compatible con Windows 10/11, motores duales Rumble, disparadores de impulso",
@@ -1363,7 +1359,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.318880+00:00",
-    "price": "129,99 €"
+    "price": "129,99 €",
+    "pending_price": "135,00 €",
+    "pending_price_count": 1
   },
   "ES:B09FGM3DVQ": {
     "name": "Mcbazel Cubierta antipolvo para consola Xbox Series X, funda protectora antiarañazos suave para consola Xbox Series X, color negro",
@@ -1487,9 +1485,10 @@
   },
   "ES:B08K3F3VQG": {
     "name": "Microsoft Console Xbox Series X 1TB (RRT-00010) (RRT00010)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:42.060954+00:00"
+    "first_seen": "2026-09-17T00:32:42.060954+00:00",
+    "price": "1218,19 €"
   },
   "ES:B0CL5CG6XM": {
     "name": "SERIES X Volante y Pedales Racing Overdrive Xbox One Licencia Oficial XBOX + Forza Motorsport",
@@ -1986,9 +1985,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256532+00:00",
-    "price": "89,97 €",
-    "pending_price": "89,99 €",
-    "pending_price_count": 1
+    "price": "89,99 €"
   },
   "ES:B095PPY2KN": {
     "name": "Mars Gaming MCPX, Idioma Español, Combo Gaming 3en1 con Teclado H-Mech Iluminado, Ratón Ultraligero 10000 dpi con Software y Alfombrilla XXL, Compatible con PC, PS4, PS5, Xbox, Negro",
@@ -2002,9 +1999,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256560+00:00",
-    "price": "58,99 €",
-    "pending_price": "59,95 €",
-    "pending_price_count": 1
+    "price": "59,95 €"
   },
   "ES:B08Z5H2H4F": {
     "name": "Venom Paquete doble de baterías recargables de alta capacidad de 1100 mAh, color negro (Xbox Series X y S/Xbox One)",
@@ -3123,7 +3118,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790594+00:00",
-    "price": "23,46 €"
+    "price": "23,46 €",
+    "pending_price": "23,48 €",
+    "pending_price_count": 1
   },
   "ES:B0CW3KL79L": {
     "name": "THQ Nordic Disney Epic Mickey Rebrushed, para Xbox Series X y S",
@@ -3785,9 +3782,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579852+00:00",
-    "price": "11,85 €",
-    "pending_price": "13,56 €",
-    "pending_price_count": 1
+    "price": "11,85 €"
   },
   "ES:B0C23V86YJ": {
     "name": "Destroy All Humans! 2 - Reprobed: Single Player Juego para Xbox One",
@@ -3969,7 +3964,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:37.525052+00:00",
-    "price": "11,77 €"
+    "price": "11,58 €"
   },
   "ES:B01F5D1MLC": {
     "name": "FIFA 17 - Standard Edition (Xbox One)",
@@ -4227,9 +4222,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-23T12:31:48.397184+00:00",
-    "price": "28,92 €",
-    "pending_price": "29,04 €",
-    "pending_price_count": 1
+    "price": "29,04 €"
   },
   "ES:B0GM1TGB9V": {
     "name": "Super Bomberman Collection – Xbox",
@@ -4515,7 +4508,7 @@
     "stock": null,
     "first_seen": "2026-09-24T14:31:53.505508+00:00",
     "price": "20,25 €",
-    "pending_price": "27,51 €",
+    "pending_price": "23,25 €",
     "pending_price_count": 1
   },
   "ES:B09867DNJ9": {
@@ -4703,7 +4696,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-25T08:32:14.644846+00:00",
-    "price": "55,96 €"
+    "price": "47,00 €"
   },
   "ES:B01AVGIGZI": {
     "name": "Warner Bros Mortal Kombat XL Xbox One Básico Xbox One Inglés vídeo - Juego (Xbox One, Lucha, Modo multijugador, M (Maduro))",
@@ -4731,7 +4724,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-25T08:32:14.644941+00:00",
-    "price": "32,94 €"
+    "price": "31,46 €"
   },
   "ES:B0DVZ9D58R": {
     "name": "Turtle Beach Stealth 600 Morado Xbox Auriculares de Juego Inalámbricos con 80hr Batería, Altavoces de 50 mm y Bluetooth para Xbox Series X o S, Xbox One y PC",
