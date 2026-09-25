@@ -504,9 +504,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "149,99 €",
-    "pending_price": "211,88 €",
-    "pending_price_count": 1
+    "price": "211,88 €"
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -1359,9 +1357,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.318880+00:00",
-    "price": "129,99 €",
-    "pending_price": "135,00 €",
-    "pending_price_count": 1
+    "price": "135,00 €"
   },
   "ES:B09FGM3DVQ": {
     "name": "Mcbazel Cubierta antipolvo para consola Xbox Series X, funda protectora antiarañazos suave para consola Xbox Series X, color negro",
@@ -3118,9 +3114,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790594+00:00",
-    "price": "23,46 €",
-    "pending_price": "23,48 €",
-    "pending_price_count": 1
+    "price": "23,48 €"
   },
   "ES:B0CW3KL79L": {
     "name": "THQ Nordic Disney Epic Mickey Rebrushed, para Xbox Series X y S",
@@ -3782,7 +3776,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T12:31:37.579852+00:00",
-    "price": "11,85 €"
+    "price": "11,85 €",
+    "pending_price": "13,59 €",
+    "pending_price_count": 1
   },
   "ES:B0C23V86YJ": {
     "name": "Destroy All Humans! 2 - Reprobed: Single Player Juego para Xbox One",
@@ -4508,7 +4504,7 @@
     "stock": null,
     "first_seen": "2026-09-24T14:31:53.505508+00:00",
     "price": "20,25 €",
-    "pending_price": "23,25 €",
+    "pending_price": "23,07 €",
     "pending_price_count": 1
   },
   "ES:B09867DNJ9": {
@@ -4717,7 +4713,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-25T08:32:14.644931+00:00",
-    "price": "22,45 €"
+    "price": "22,44 €"
   },
   "ES:B07YYVXMJ5": {
     "name": "Assassin's Creed III Remastered & Liberation Remastered",
