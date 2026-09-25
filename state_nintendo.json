@@ -266,7 +266,7 @@
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912091+00:00",
     "price": "70,00 €",
-    "pending_price": "85,77 €",
+    "pending_price": "82,99 €",
     "pending_price_count": 1
   },
   "ES:B07VFTVVWX": {
@@ -734,10 +734,9 @@
   },
   "ES:B0HJ91G9GH": {
     "name": "Zelda Ocarina Of Time - Nintendo Switch 2",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-12T06:29:23.379261+00:00",
-    "price": "59,90 €"
+    "first_seen": "2026-09-12T06:29:23.379261+00:00"
   },
   "ES:B0FTG4DGK7": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Fuegos Fantasmales de JCC Pokémon (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -1432,7 +1431,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850805+00:00",
-    "price": "279,90 €"
+    "price": "279,90 €",
+    "pending_price": "293,00 €",
+    "pending_price_count": 1
   },
   "ES:B092JL5NS2": {
     "name": "Nintendo Switch Lite Azul",
@@ -1515,7 +1516,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850955+00:00",
-    "price": "79,99 €"
+    "price": "79,90 €"
   },
   "ES:B01MS7YUA7": {
     "name": "Agarre cómodo Joy-Con para Nintendo Switch: Negro",
@@ -1843,7 +1844,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688418+00:00",
-    "price": "51,63 €"
+    "price": "51,53 €"
   },
   "ES:B0FN4F4L55": {
     "name": "Kirby Air Riders - Switch 2",
@@ -2025,9 +2026,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688704+00:00",
-    "price": "316,00 €",
-    "pending_price": "338,44 €",
-    "pending_price_count": 1
+    "price": "338,44 €"
   },
   "ES:B085SPRQSQ": {
     "name": "Nintendo Switch Lite - Consola Coral",
@@ -2104,9 +2103,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688897+00:00",
-    "price": "363,90 €",
-    "pending_price": "386,34 €",
-    "pending_price_count": 1
+    "price": "386,34 €"
   },
   "ES:B0BDGSPP7H": {
     "name": "Nintendo Switch OLED Edición Limitada Pokémon Escarlata y Púrpura",
@@ -2188,7 +2185,7 @@
     "price": "57,90 €"
   },
   "ES:B07NQR3LKW": {
-    "name": "The Legend of Zelda Links Awakening Remake",
+    "name": "Zelda Link's Awakening Remake",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689114+00:00",
@@ -2199,7 +2196,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689127+00:00",
-    "price": "49,99 €"
+    "price": "49,90 €"
   },
   "ES:B0HHNM4RM3": {
     "name": "Final Fantasy VII Revelation",
@@ -2311,7 +2308,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689356+00:00",
-    "price": "5,49 €"
+    "price": "3,79 €"
   },
   "ES:B09K4R4BLQ": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition",
@@ -2947,7 +2944,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T10:32:19.292339+00:00",
-    "price": "47,99 €"
+    "price": "41,30 €"
   },
   "ES:B0GHQX9W2G": {
     "name": "SAVAGE RAVEN by Skull & Co. Skin, CQC Thumb Grip Set Joystick Cap Analog Stick Cap for Nintendo Switch 2 Joy-con Controller - Light Purple+Light Green, 3 Pairs(6pcs)",
@@ -3480,9 +3477,10 @@
   },
   "ES:B0F472XCXY": {
     "name": "SAVAGE RAVEN by Skull & Co. Skin, CQC Thumb Grip Set Joystick Cap Analog Stick Cap for Nintendo Switch 2 Joy-con Controller - Black, 3 Pairs(6pcs)",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-19T12:31:57.854133+00:00"
+    "first_seen": "2026-09-19T12:31:57.854133+00:00",
+    "price": "11,99 €"
   },
   "ES:B0GXHDZ7HB": {
     "name": "Thryvix Funda Protectora Transparente Dockable, Carcasa Rígida Antigolpes,Compatible con Nintendo Switch 2, Dos Materiales PC y TPU, Resistente, para Niños, Viaje, Regalo Cumpleaños",
