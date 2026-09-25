@@ -11,7 +11,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:08:32.013738+00:00",
-    "price": "123,48 €"
+    "price": "123,48 €",
+    "pending_price": "124,07 €",
+    "pending_price_count": 1
   },
   "ES:B0HC7Q9P41": {
     "name": "Juego de cartas de una pieza ST-35 rojo y negro Sabo | Baraja de inicio, ST-35, rojo y negro, Sabo, juego de cartas coleccionables",
@@ -22,10 +24,9 @@
   },
   "ES:B0HC7FPQJM": {
     "name": "Juego de cartas de una pieza ST-31 Red Monkey.D.Luffy",
-    "status": "compra_directa",
-    "stock": "2",
-    "first_seen": "2026-08-29T18:08:43.440854+00:00",
-    "price": "35,20 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-29T18:08:43.440854+00:00"
   },
   "ES:B0HC746FKY": {
     "name": "Juego de cartas de una pieza ST-34 Purple Charlotte Katakuri | Baraja de inicio, ST-34, Charlotte Katakuri, morado, juego de cartas coleccionables",
