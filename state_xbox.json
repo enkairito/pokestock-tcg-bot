@@ -504,7 +504,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "149,99 €"
+    "price": "149,99 €",
+    "pending_price": "211,88 €",
+    "pending_price_count": 1
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -1385,7 +1387,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.318891+00:00",
-    "price": "103,00 €"
+    "price": "103,00 €",
+    "pending_price": "105,00 €",
+    "pending_price_count": 1
   },
   "ES:B08TWV3BXB": {
     "name": "JOREST Kit de Desmontar Xbox one/360/X PS4 PS5 PS3, 25pcs Set Limpieza, Herramienta Reparacion para Mando y Consola, con Destornillador PH0 y Torx T6 T8 T10, Palanca, Pinzas, Cepillo",
@@ -3958,7 +3962,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:37.525052+00:00",
-    "price": "11,48 €"
+    "price": "11,40 €"
   },
   "ES:B01F5D1MLC": {
     "name": "FIFA 17 - Standard Edition (Xbox One)",
@@ -3980,7 +3984,7 @@
     "stock": null,
     "first_seen": "2026-09-22T16:31:37.525101+00:00",
     "price": "40,79 €",
-    "pending_price": "41,34 €",
+    "pending_price": "41,30 €",
     "pending_price_count": 1
   },
   "ES:B07R76NLYY": {
@@ -4503,9 +4507,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T14:31:53.505508+00:00",
-    "price": "20,25 €",
-    "pending_price": "22,93 €",
-    "pending_price_count": 1
+    "price": "19,37 €"
   },
   "ES:B09867DNJ9": {
     "name": "DEMON SLAYER HINOKAMI.XONE/XSX",
@@ -4699,7 +4701,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-25T08:32:14.644855+00:00",
-    "price": "32,79 €"
+    "price": "32,79 €",
+    "pending_price": "33,10 €",
+    "pending_price_count": 1
   },
   "ES:B00ZSCCPTY": {
     "name": "Gears Of War 4 [Importación Francesa]",
@@ -4777,5 +4781,33 @@
     "stock": null,
     "first_seen": "2026-09-25T14:32:05.200046+00:00",
     "price": "23,99 €"
+  },
+  "ES:B0C5N9RC9K": {
+    "name": "MORTAL KOMBAT 1 Standard Edition (XBSX)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T18:31:50.951302+00:00",
+    "price": "30,92 €"
+  },
+  "ES:B0HF52DFF7": {
+    "name": "Hela: of Mice & Magic - Harmony Edition - Xbox Series x",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T18:31:50.951352+00:00",
+    "price": "36,99 €"
+  },
+  "ES:B0C9164THC": {
+    "name": "Sonic Superstars (輸入版:北米) - XboxOne and Xbox Series X",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T18:31:50.951369+00:00",
+    "price": "20,30 €"
+  },
+  "ES:B08KVH8N5S": {
+    "name": "Mortal Kombat 11 Ultimate (Xbox Series X) [Importación francesa]",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-25T18:31:50.951393+00:00",
+    "price": "43,64 €"
   }
 }
