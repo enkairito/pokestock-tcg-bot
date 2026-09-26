@@ -12,7 +12,7 @@
     "stock": null,
     "first_seen": "2026-08-29T18:08:32.013738+00:00",
     "price": "124,04 €",
-    "pending_price": "124,64 €",
+    "pending_price": "125,24 €",
     "pending_price_count": 1
   },
   "ES:B0HC7Q9P41": {
@@ -47,7 +47,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-29T18:09:04.551067+00:00",
-    "price": "69,59 €"
+    "price": "69,59 €",
+    "pending_price": "69,63 €",
+    "pending_price_count": 1
   },
   "ES:B0CRY385YN": {
     "name": "One Piece TCG: Two Legends - Booster Box (OP-08) (JP) (TCG)",
