@@ -1612,7 +1612,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "122,74 €"
+    "price": "122,73 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -1707,10 +1707,9 @@
   },
   "US:B0F6PMVQWQ": {
     "name": "Pokémon TCG Scarlet & Violet 10.5 Black Bolt Booster Set",
-    "status": "compra_directa",
-    "stock": "1",
-    "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "142,86 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-06T10:19:00.889053+00:00"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
