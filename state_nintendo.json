@@ -632,7 +632,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478316+00:00",
-    "price": "35,57 €"
+    "price": "35,35 €"
   },
   "ES:B0FR451FFZ": {
     "name": "Nintendo Super Mario Galaxy + Super Mario Galaxy 2",
@@ -1019,7 +1019,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T06:20:31.930101+00:00",
-    "price": "193,99 €"
+    "price": "193,99 €",
+    "pending_price": "257,49 €",
+    "pending_price_count": 1
   },
   "ES:B0FTG3C43P": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Fuegos Fantasmales de JCC Pokémon (6 Sobres de Mejora)",
@@ -1429,7 +1431,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850805+00:00",
-    "price": "286,00 €"
+    "price": "279,90 €"
   },
   "ES:B092JL5NS2": {
     "name": "Nintendo Switch Lite Azul",
@@ -3891,5 +3893,19 @@
     "stock": null,
     "first_seen": "2026-09-26T08:31:59.986162+00:00",
     "price": "20,95 €"
+  },
+  "ES:B0HK28LQ2D": {
+    "name": "Nintendo Switch + Mario Kart 8 Deluxe",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-26T12:31:58.891954+00:00",
+    "price": "199,99 €"
+  },
+  "ES:B0HK2CPTK8": {
+    "name": "Nintendo Switch Lite Turquesa + Tomodachi Life + 30dias NSO",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-26T12:31:58.892026+00:00",
+    "price": "219,99 €"
   }
 }
