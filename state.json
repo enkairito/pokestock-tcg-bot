@@ -1313,7 +1313,7 @@
   "UK:B0FSJXSPPX": {
     "name": "Caja Pokémon Monikis Zero - 30 Sobres (Japones)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802653+00:00",
     "price": "90,98 €"
   },
@@ -1614,7 +1614,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "122,83 €"
+    "price": "122,82 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -1635,7 +1635,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280869+00:00",
-    "price": "110,90 €"
+    "price": "110,88 €"
   },
   "UK:B0DG2XTYDP": {
     "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
@@ -1709,9 +1709,10 @@
   },
   "US:B0F6PMVQWQ": {
     "name": "Pokémon TCG Scarlet & Violet 10.5 Black Bolt Booster Set",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-09-06T10:19:00.889053+00:00"
+    "status": "compra_directa",
+    "stock": "1",
+    "first_seen": "2026-09-06T10:19:00.889053+00:00",
+    "price": "142,86 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
