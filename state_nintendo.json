@@ -161,18 +161,14 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.911995+00:00",
-    "price": "519,99 €",
-    "pending_price": "531,89 €",
-    "pending_price_count": 1
+    "price": "531,89 €"
   },
   "ES:B0FYHMK8N2": {
     "name": "Nintendo Switch 2 + Donkey Kong Bananza",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.912002+00:00",
-    "price": "527,99 €",
-    "pending_price": "539,89 €",
-    "pending_price_count": 1
+    "price": "539,89 €"
   },
   "ES:B0FBMLXK2D": {
     "name": "Pokemon Legends: Z-A: Nintendo Switch 2 Edition",
@@ -573,7 +569,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478229+00:00",
-    "price": "29,39 €"
+    "price": "29,39 €",
+    "pending_price": "34,90 €",
+    "pending_price_count": 1
   },
   "ES:B0BV27FTTF": {
     "name": "Aukuoy RCM Jig para Nintendo Switch, Herramientas de Cortocircuito de Herramienta RCM utilizadas para Cambiar el Juego de Archivo GBA/FBA",
@@ -1412,9 +1410,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850724+00:00",
-    "price": "458,00 €",
-    "pending_price": "467,00 €",
-    "pending_price_count": 1
+    "price": "467,00 €"
   },
   "ES:B0F3P3X5P2": {
     "name": "Sandisk Micro SD Express Card for Nintendo Switch 2",
@@ -1662,9 +1658,10 @@
   },
   "ES:B0H4RTWHD5": {
     "name": "Xenoblade Chronicles 2 - Nintendo Switch 2",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.318936+00:00"
+    "first_seen": "2026-09-17T00:32:50.318936+00:00",
+    "price": "59,90 €"
   },
   "ES:B0CQLNSGH4": {
     "name": "[Sin Deriva] GuliKit KK3 Max Controlador Bluetooth, Kingkong 3 Max Controlador Inalámbrico para Switch/Switch OLED, Joystick/Disparadores Efecto Hall, Maglev/rotor/vibración HD, Adaptador Hyperlink",
@@ -1741,27 +1738,21 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688196+00:00",
-    "price": "514,99 €",
-    "pending_price": "526,80 €",
-    "pending_price_count": 1
+    "price": "526,80 €"
   },
   "ES:B0FYHK8329": {
     "name": "Nintendo Switch 2 + 25e eShop",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688211+00:00",
-    "price": "483,00 €",
-    "pending_price": "494,90 €",
-    "pending_price_count": 1
+    "price": "494,90 €"
   },
   "ES:B0HC3PYP2D": {
     "name": "Nintendo Switch 2 + Donkey Kong Bananza- Switch 2",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688228+00:00",
-    "price": "527,90 €",
-    "pending_price": "539,80 €",
-    "pending_price_count": 1
+    "price": "539,80 €"
   },
   "ES:B0FYTQ5XLG": {
     "name": "2 Piezas de Cubiertas Protectoras magnéticas para Switch2, Protectores Laterales contra arañazos, Protectores de los Bordes, Cubierta del Punto de conexión del Mango. (Azul-Naranja)",
@@ -1943,7 +1934,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688535+00:00",
-    "price": "33,85 €"
+    "price": "33,85 €",
+    "pending_price": "34,57 €",
+    "pending_price_count": 1
   },
   "ES:B0F3NKCYC4": {
     "name": "Super Mario Party: Jamboree - Nintendo Switch 2 Edition + Jamboree TV (Switch 2)",
@@ -3139,9 +3132,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T15:58:54.631826+00:00",
-    "price": "8,90 €",
-    "pending_price": "9,89 €",
-    "pending_price_count": 1
+    "price": "9,89 €"
   },
   "ES:B0DF2NF4H3": {
     "name": "Broken Sword - La Leyenda de los Templarios: Reforged - NINTENDO SWITCH",
