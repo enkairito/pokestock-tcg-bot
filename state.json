@@ -720,11 +720,9 @@
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
-    "price": "52,33 €",
-    "pending_price": "67,14 €",
-    "pending_price_count": 1
+    "price": "52,33 €"
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -1616,7 +1614,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "122,67 €"
+    "price": "122,66 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -3477,10 +3475,9 @@
   },
   "US:B0FVFYXXQM": {
     "name": "Pokemon Chinese Gem Pack Volume 3 Booster Box - CBB3C",
-    "status": "compra_directa",
-    "stock": "2",
-    "first_seen": "2026-09-20T12:43:36.301545+00:00",
-    "price": "115,58 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-20T12:43:36.301545+00:00"
   },
   "UK:B0CS12GPTB": {
     "name": "Pokemon TCG: Sword & Shield - Paquete de Refuerzo de Estrellas Brillantes (10 Tarjetas por Paquete)",
