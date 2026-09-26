@@ -721,9 +721,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644837+00:00",
-    "price": "52,33 €",
-    "pending_price": "67,14 €",
-    "pending_price_count": 1
+    "price": "67,14 €"
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
@@ -1458,7 +1456,7 @@
   "US:B0G3CS6XB9": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Premium Poster Collection—Mega Lucario (1 Tarjeta Promocional de Aluminio, 1 póster de Doble Cara y 10 Paquetes de Refuerzo)",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": null,
     "first_seen": "2026-09-04T21:32:58.802847+00:00",
     "price": "227,27 €"
   },
@@ -1713,9 +1711,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "142,86 €",
-    "pending_price": "143,40 €",
-    "pending_price_count": 1
+    "price": "143,40 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
