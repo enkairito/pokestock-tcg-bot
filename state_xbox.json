@@ -380,9 +380,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811694+00:00",
-    "price": "37,94 €",
-    "pending_price": "44,99 €",
-    "pending_price_count": 1
+    "price": "37,94 €"
   },
   "ES:B0C7GW9F88": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Blanco)",
@@ -995,7 +993,7 @@
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
     "price": "30,39 €",
-    "pending_price": "35,75 €",
+    "pending_price": "35,67 €",
     "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
@@ -1390,9 +1388,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.318891+00:00",
-    "price": "105,00 €",
-    "pending_price": "106,00 €",
-    "pending_price_count": 1
+    "price": "106,00 €"
   },
   "ES:B08TWV3BXB": {
     "name": "JOREST Kit de Desmontar Xbox one/360/X PS4 PS5 PS3, 25pcs Set Limpieza, Herramienta Reparacion para Mando y Consola, con Destornillador PH0 y Torx T6 T8 T10, Palanca, Pinzas, Cepillo",
@@ -3107,9 +3103,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T12:31:56.790575+00:00",
-    "price": "17,00 €",
-    "pending_price": "17,80 €",
-    "pending_price_count": 1
+    "price": "17,80 €"
   },
   "ES:B0DN6CP9KP": {
     "name": "POPPY PLAYTIME TRIPLE PACK - XBOX SERIES X/ONE",
@@ -3988,7 +3982,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:37.525101+00:00",
-    "price": "40,80 €"
+    "price": "40,78 €"
   },
   "ES:B07R76NLYY": {
     "name": "F1 2019 Legends Edition (XBox ONE)",
@@ -4526,7 +4520,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T14:31:53.505577+00:00",
-    "price": "24,57 €"
+    "price": "24,57 €",
+    "pending_price": "25,94 €",
+    "pending_price_count": 1
   },
   "ES:B071JM1XZB": {
     "name": "Darksiders III - Xbox one",
@@ -4983,5 +4979,25 @@
     "stock": null,
     "first_seen": "2026-09-26T14:31:54.485866+00:00",
     "price": "13,99 €"
+  },
+  "ES:B0CXDT6MP7": {
+    "name": "The Last Faith - Xbox",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-26T16:31:53.475798+00:00"
+  },
+  "ES:B0DV9WFWV5": {
+    "name": "WWE 2K25 XB1/S",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-26T16:31:53.786779+00:00",
+    "price": "22,49 €"
+  },
+  "ES:B0FJSFBXCK": {
+    "name": "Reanimal Deluxe Edition XSRX",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-26T16:31:53.786813+00:00",
+    "price": "39,95 €"
   }
 }
