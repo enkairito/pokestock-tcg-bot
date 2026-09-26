@@ -485,9 +485,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018968+00:00",
-    "price": "228,98 €",
-    "pending_price": "229,00 €",
-    "pending_price_count": 1
+    "price": "229,00 €"
   },
   "ES:B01LBH9ILW": {
     "name": "Dualshock 4 Wireless Controller - Jet Black - PlayStation 4",
@@ -1286,9 +1284,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T20:34:33.327835+00:00",
-    "price": "19,00 €",
-    "pending_price": "19,90 €",
-    "pending_price_count": 1
+    "price": "19,90 €"
   },
   "ES:B0H3W5V1TN": {
     "name": "CONTROL Resonant - PS5 (Exclusiva Amazon)",
@@ -2293,7 +2289,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "23,91 €"
+    "price": "23,85 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -4122,7 +4118,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-26T08:32:22.750109+00:00",
-    "price": "29,57 €"
+    "price": "29,57 €",
+    "pending_price": "31,00 €",
+    "pending_price_count": 1
   },
   "ES:B08B285TM4": {
     "name": "Playstation Demon's Souls",
@@ -4193,5 +4191,18 @@
     "stock": null,
     "first_seen": "2026-09-26T10:32:07.714364+00:00",
     "price": "20,68 €"
+  },
+  "ES:B0CNH3DWMG": {
+    "name": "GRAUGEAR Disco duro externo de 8 TB en carcasa de aluminio para Playstation, diseño de disco duro formateado para PS4 y PS5, 8TB HDD de 3,5 pulgadas",
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-26T12:31:56.468128+00:00"
+  },
+  "ES:B0CP17WZNG": {
+    "name": "Bixolon SpP-C300 - Belegdrucker - Thermodirekt - 8cm Rolle - 203 Dpi - Bluetooth, UsB-C (spP-C300ik)",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-26T12:31:56.765371+00:00",
+    "price": "274,59 €"
   }
 }
