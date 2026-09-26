@@ -1610,9 +1610,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "122,65 €",
-    "pending_price": "122,95 €",
-    "pending_price_count": 1
+    "price": "122,95 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -1837,10 +1835,9 @@
   },
   "UK:B00TA6E3KI": {
     "name": "100 Assorted Basic Pokemon TCG Energy Cards",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-08T14:34:56.335882+00:00",
-    "price": "16,87 €"
+    "first_seen": "2026-09-08T14:34:56.335882+00:00"
   },
   "US:B0F1GXTFGL": {
     "name": "Pokémon Pokemon TCG: Scarlet & Violet—Journey Together Booster Display Box 36 Paquetes",
