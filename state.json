@@ -749,9 +749,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-30T20:46:19.644851+00:00",
-    "price": "34,40 €",
-    "pending_price": "57,37 €",
-    "pending_price_count": 1
+    "price": "57,37 €"
   },
   "US:B0G2FVLXVL": {
     "name": "Pokémon TCG: Colección del Día de Pokémon 2026",
@@ -2412,7 +2410,7 @@
     "stock": "1",
     "first_seen": "2026-09-16T18:43:05.692265+00:00",
     "price": "82,74 €",
-    "pending_price": "98,08 €",
+    "pending_price": "84,86 €",
     "pending_price_count": 1
   },
   "TRU:K1105105": {
