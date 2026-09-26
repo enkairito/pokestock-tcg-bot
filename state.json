@@ -1288,9 +1288,10 @@
   },
   "UK:B0DDYZX1TB": {
     "name": "Pokemon TCG: Scarlet & Violet - Surging Sparks Booster Bundle",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-04T21:32:58.802612+00:00"
+    "first_seen": "2026-09-04T21:32:58.802612+00:00",
+    "price": "105,09 €"
   },
   "UK:B0DB7C1Z26": {
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
@@ -1742,7 +1743,7 @@
     "stock": null,
     "first_seen": "2026-09-07T19:01:37.274384+00:00",
     "price": "76,90 €",
-    "pending_price": "77,69 €",
+    "pending_price": "78,78 €",
     "pending_price_count": 1
   },
   "UK:B0FJSCW2VH": {
@@ -2013,9 +2014,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T09:23:08.319159+00:00",
-    "price": "73,29 €",
-    "pending_price": "74,91 €",
-    "pending_price_count": 1
+    "price": "74,91 €"
   },
   "UK:B0F6PGX3SQ": {
     "name": "Pokémon TCG: Unova Mini Tin – Krookodile & Excadrill (2 Paquetes de Refuerzo y 1 Tarjeta Adhesiva)",
