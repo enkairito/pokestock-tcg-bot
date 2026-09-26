@@ -1448,7 +1448,7 @@
   "US:B0F2BCG1Y5": {
     "name": "Pokémon TCG: Scarlet & Violet—Destined Rivals Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "4",
     "first_seen": "2026-09-04T21:32:58.802829+00:00",
     "price": "95,34 €"
   },
@@ -1612,7 +1612,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "122,75 €"
+    "price": "122,74 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -3612,7 +3612,7 @@
   "US:B0H8SV3WJ8": {
     "name": "Pokémon TCG: 30th Celebration Elite Trainer Box (1 Tarjeta Promocional de Arte Completo, 9 Paquetes de Refuerzo y Accesorios Premium)",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": null,
     "first_seen": "2026-09-25T12:03:26.978532+00:00",
     "price": "239,10 €"
   }
