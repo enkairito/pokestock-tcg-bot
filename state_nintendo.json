@@ -569,7 +569,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478229+00:00",
-    "price": "29,39 €"
+    "price": "29,08 €"
   },
   "ES:B0BV27FTTF": {
     "name": "Aukuoy RCM Jig para Nintendo Switch, Herramientas de Cortocircuito de Herramienta RCM utilizadas para Cambiar el Juego de Archivo GBA/FBA",
@@ -632,7 +632,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478316+00:00",
-    "price": "35,73 €"
+    "price": "35,57 €"
   },
   "ES:B0FR451FFZ": {
     "name": "Nintendo Super Mario Galaxy + Super Mario Galaxy 2",
@@ -653,9 +653,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478344+00:00",
-    "price": "69,99 €",
-    "pending_price": "72,59 €",
-    "pending_price_count": 1
+    "price": "72,59 €"
   },
   "ES:B0F2FG3X9D": {
     "name": "HEYSTOP Funda para Nintendo Switch 2, Kit de Estuche Protector con Carcasa para PC y Carcasa de TPU para el Control de Switch 2, Diseño de Gran Capacidad para Accesorios de Nintendo Switch 2",
@@ -734,10 +732,9 @@
   },
   "ES:B0HJ91G9GH": {
     "name": "Zelda Ocarina Of Time - Nintendo Switch 2",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-12T06:29:23.379261+00:00",
-    "price": "59,90 €"
+    "first_seen": "2026-09-12T06:29:23.379261+00:00"
   },
   "ES:B0FTG4DGK7": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Fuegos Fantasmales de JCC Pokémon (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -1097,9 +1094,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T18:20:24.792627+00:00",
-    "price": "45,90 €",
-    "pending_price": "45,99 €",
-    "pending_price_count": 1
+    "price": "45,99 €"
   },
   "ES:B09S79RJN2": {
     "name": "NINTENDO Switch Sports",
@@ -1434,7 +1429,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850805+00:00",
-    "price": "293,18 €"
+    "price": "286,00 €"
   },
   "ES:B092JL5NS2": {
     "name": "Nintendo Switch Lite Azul",
@@ -1661,10 +1656,9 @@
   },
   "ES:B0H4RTWHD5": {
     "name": "Xenoblade Chronicles 2 - Nintendo Switch 2",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.318936+00:00",
-    "price": "59,90 €"
+    "first_seen": "2026-09-17T00:32:50.318936+00:00"
   },
   "ES:B0CQLNSGH4": {
     "name": "[Sin Deriva] GuliKit KK3 Max Controlador Bluetooth, Kingkong 3 Max Controlador Inalámbrico para Switch/Switch OLED, Joystick/Disparadores Efecto Hall, Maglev/rotor/vibración HD, Adaptador Hyperlink",
@@ -2147,7 +2141,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688994+00:00",
-    "price": "212,99 €"
+    "price": "183,00 €"
   },
   "ES:B0CMDHWDP9": {
     "name": "Consola Switch - Color Azul Neón/Rojo Neón + Super Mario Bros. Wonder + Mario Kart 8 Deluxe",
@@ -3693,9 +3687,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T18:31:43.446788+00:00",
-    "price": "58,81 €",
-    "pending_price": "68,28 €",
-    "pending_price_count": 1
+    "price": "68,28 €"
   },
   "ES:B0GKFMK3R8": {
     "name": "Resident Evil 9: Requiem - Switch 2",
