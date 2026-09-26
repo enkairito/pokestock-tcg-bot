@@ -798,7 +798,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "73,23 €"
   },
@@ -1319,7 +1319,7 @@
   "UK:B0CMZS84KP": {
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
     "status": "compra_directa",
-    "stock": "3",
+    "stock": "5",
     "first_seen": "2026-09-04T21:32:58.802660+00:00",
     "price": "117,84 €"
   },
@@ -1711,7 +1711,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "143,40 €"
+    "price": "142,86 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
