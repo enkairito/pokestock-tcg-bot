@@ -78,7 +78,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-08-25T20:27:54.285181+00:00",
-    "price": "63,98 €"
+    "price": "63,98 €",
+    "pending_price": "66,98 €",
+    "pending_price_count": 1
   },
   "ES:B0G4NQK15P": {
     "name": "Pokémon: Minilata Megaevolución-Héroes Ascendentes: Clefairy y Chikorita (1 Pegatina, 1 Tarjeta Pokémon ilustrada y 2 Sobres de Mejora)",
@@ -797,7 +799,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "4",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "73,23 €"
   },
@@ -1446,7 +1448,7 @@
   "US:B0F2BCG1Y5": {
     "name": "Pokémon TCG: Scarlet & Violet—Destined Rivals Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "first_seen": "2026-09-04T21:32:58.802829+00:00",
     "price": "95,34 €"
   },
@@ -1705,10 +1707,9 @@
   },
   "US:B0F6PMVQWQ": {
     "name": "Pokémon TCG Scarlet & Violet 10.5 Black Bolt Booster Set",
-    "status": "compra_directa",
-    "stock": "1",
-    "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "142,86 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-06T10:19:00.889053+00:00"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
@@ -2409,7 +2410,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-16T18:43:05.692265+00:00",
-    "price": "84,16 €"
+    "price": "83,44 €"
   },
   "TRU:K1105105": {
     "name": "Pokémon - Escarlata y Púrpura: Rivales Predestinados - Sobre de Mejora - Español (Varios modelos)",
