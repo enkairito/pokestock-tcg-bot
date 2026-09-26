@@ -310,14 +310,16 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018808+00:00",
-    "price": "18,90 €"
+    "price": "17,28 €"
   },
   "ES:B09KTGP5C2": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition, PlayStation 4",
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018821+00:00",
-    "price": "23,30 €"
+    "price": "23,30 €",
+    "pending_price": "26,99 €",
+    "pending_price_count": 1
   },
   "ES:B07HNR4ZZD": {
     "name": "Sony PlayStation 4 Slim 500 Go, Avec 1 manette sans fil DUALSHOCK 4 V2, Châssis F, Noir (Jet Black) [Importación francesa]",
@@ -2178,7 +2180,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499167+00:00",
-    "price": "32,73 €"
+    "price": "32,73 €",
+    "pending_price": "33,80 €",
+    "pending_price_count": 1
   },
   "ES:B0CJG2KCBL": {
     "name": "Rise of the Tomb Raider 20 Year Celebration",
@@ -2290,7 +2294,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "24,25 €"
+    "price": "24,19 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2724,7 +2728,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500241+00:00",
-    "price": "22,79 €"
+    "price": "22,79 €",
+    "pending_price": "22,91 €",
+    "pending_price_count": 1
   },
   "ES:B07G2D87BV": {
     "name": "Auriculares Gaming Stereo Sony Oficial PS4 Bigben Interactive - Compatible con PS5",
@@ -2759,7 +2765,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500260+00:00",
-    "price": "58,24 €"
+    "price": "58,24 €",
+    "pending_price": "60,95 €",
+    "pending_price_count": 1
   },
   "ES:B0DDFYW6QV": {
     "name": "Mcbazel Cable de Carga PS Vita Cable de Datos USB Cable de Reemplazo Compatible con PS Vita, PSVita 1000-1.2M",
@@ -3376,7 +3384,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T14:32:21.326608+00:00",
-    "price": "46,50 €"
+    "price": "40,89 €"
   },
   "ES:B0FFTLLS8R": {
     "name": "Turok Trilogy Bundle - PS5",
@@ -3594,7 +3602,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T14:31:41.680065+00:00",
-    "price": "587,02 €"
+    "price": "587,02 €",
+    "pending_price": "663,99 €",
+    "pending_price_count": 1
   },
   "ES:B0D5LMPBS4": {
     "name": "QRD Controlador inalámbrico Spark N5 para PS4 Pro Slim, PS3, PS2, Steam Deck, PC, Windows, Mac, iOS, Android TV Box, joystick de control de efecto Hall con altavoz y micrófono, macro N1 y N2, turbo",
