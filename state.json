@@ -484,7 +484,7 @@
   "ES:B0DT7D8W4N": {
     "name": "Pokémon Colección Especial Charizard ex (1 Carta holográfica de promoción, 2 Cartas holográficas, 1 Carta lenticular de Gran tamaño con Efecto 3D y 5 Sobres de Mejora)",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "5",
     "first_seen": "2026-08-27T14:04:51.386716+00:00",
     "price": "77,00 €"
   },
@@ -3516,7 +3516,7 @@
   "UK:B0FXVLH7QM": {
     "name": "Pokemon TCG: 1 Tarjeta Pokemon de Grado Aleatorio (Beckett, PSA o CGC), Grado 8 o Superior (inglés o japonés)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "4",
     "first_seen": "2026-09-23T19:03:39.712695+00:00",
     "price": "54,07 €"
   },
@@ -3571,10 +3571,9 @@
   },
   "US:B0DSSSRQVZ": {
     "name": "Pokemon TCG: Scarlet & Violet—Journey Together Enhanced Booster Display Box (36 Packs)",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-24T09:23:31.922784+00:00",
-    "price": "330,20 €"
+    "first_seen": "2026-09-24T09:23:31.922784+00:00"
   },
   "ECI:A200804709": {
     "name": "Mini Lata Megaevolucion Caos Creciente JCC Pokémon Bandai Modelos surtidos",
