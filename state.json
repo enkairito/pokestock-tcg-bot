@@ -225,9 +225,10 @@
   },
   "ES:B0GYSKFHBY": {
     "name": "Pokémon: Minilata Ciudad Luminalia: Feraligatr y Budew de JCC Pokémon (2 Sobres de Mejora, 1 Tarjeta ilustrada y 1 Pegatina)",
-    "status": "no_disponible",
+    "status": "invitacion",
     "stock": null,
-    "first_seen": "2026-08-25T20:27:54.285153+00:00"
+    "first_seen": "2026-08-25T20:27:54.285153+00:00",
+    "price": "10,99 €"
   },
   "ES:B0BMGR3QZW": {
     "name": "Pokémon: Baraja Combate De Liga De Mew VMAX (1 baraja de 60 Cartas Completa, 6 2 Cartas holográficas)",
@@ -2405,7 +2406,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-16T18:43:05.692265+00:00",
-    "price": "83,44 €"
+    "price": "83,44 €",
+    "pending_price": "86,29 €",
+    "pending_price_count": 1
   },
   "TRU:K1105105": {
     "name": "Pokémon - Escarlata y Púrpura: Rivales Predestinados - Sobre de Mejora - Español (Varios modelos)",
@@ -3543,7 +3546,7 @@
   "US:B0DC651JYB": {
     "name": "Pokémon TCG: ex Battle Deck (Tapu Koko ex OR Iron Leaves ex)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "2",
     "first_seen": "2026-09-24T03:03:05.279782+00:00",
     "price": "30,36 €"
   },
