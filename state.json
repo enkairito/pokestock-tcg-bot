@@ -716,7 +716,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-30T20:46:19.644833+00:00",
-    "price": "56,02 €"
+    "price": "56,00 €"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
@@ -798,7 +798,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "5",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "73,29 €"
   },
@@ -1133,7 +1133,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-08-31T17:55:22.065539+00:00",
-    "price": "107,12 €"
+    "price": "107,12 €",
+    "pending_price": "107,21 €",
+    "pending_price_count": 1
   },
   "US:B09CQJ564T": {
     "name": "Pokemon SAS7 Evolving Skies Eliter Trainer Box - Azul",
@@ -1288,10 +1290,9 @@
   },
   "UK:B0DDYZX1TB": {
     "name": "Pokemon TCG: Scarlet & Violet - Surging Sparks Booster Bundle",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-04T21:32:58.802612+00:00",
-    "price": "108,69 €"
+    "first_seen": "2026-09-04T21:32:58.802612+00:00"
   },
   "UK:B0DB7C1Z26": {
     "name": "Pokémon Juego de cartas Pokémon Escarlata y Violeta, paquete de expansión, caja de compañeros de batalla (30 paquetes en japonés)",
@@ -1447,7 +1448,7 @@
   "US:B0F2BCG1Y5": {
     "name": "Pokémon TCG: Scarlet & Violet—Destined Rivals Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "first_seen": "2026-09-04T21:32:58.802829+00:00",
     "price": "95,34 €"
   },
@@ -1488,7 +1489,7 @@
   "US:B0G5S61BHK": {
     "name": "Pokémon TCG: Mega Charizard Tin - Mega Charizard X ex (4 potenciadores y 1 Tarjeta Promocional de Aluminio)",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "4",
     "first_seen": "2026-09-04T21:32:58.802892+00:00",
     "price": "83,25 €"
   },
@@ -1611,7 +1612,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "122,95 €"
+    "price": "122,92 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -2015,7 +2016,7 @@
     "stock": null,
     "first_seen": "2026-09-12T09:23:08.319159+00:00",
     "price": "73,29 €",
-    "pending_price": "79,57 €",
+    "pending_price": "74,91 €",
     "pending_price_count": 1
   },
   "UK:B0F6PGX3SQ": {
