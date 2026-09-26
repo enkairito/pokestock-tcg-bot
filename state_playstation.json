@@ -310,7 +310,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018808+00:00",
-    "price": "17,28 €"
+    "price": "17,28 €",
+    "pending_price": "19,71 €",
+    "pending_price_count": 1
   },
   "ES:B09KTGP5C2": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition, PlayStation 4",
@@ -1870,7 +1872,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498076+00:00",
-    "price": "31,47 €"
+    "price": "29,93 €"
   },
   "ES:B09KCP7BS8": {
     "name": "Autobahn Police Simulator 2 (Nintendo Switch)",
@@ -1884,9 +1886,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498135+00:00",
-    "price": "69,90 €",
-    "pending_price": "69,99 €",
-    "pending_price_count": 1
+    "price": "69,99 €"
   },
   "ES:B0GYTZX1TW": {
     "name": "The Blood Of Dawnwalker Day 1 Edition",
@@ -2103,9 +2103,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498742+00:00",
-    "price": "23,49 €",
-    "pending_price": "34,23 €",
-    "pending_price_count": 1
+    "price": "34,23 €"
   },
   "ES:B097B1ZJ5T": {
     "name": "Nintendo Game & Watch: The Legend of Zelda",
@@ -2126,9 +2124,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498891+00:00",
-    "price": "28,50 €",
-    "pending_price": "28,60 €",
-    "pending_price_count": 1
+    "price": "28,60 €"
   },
   "ES:B07MWXG7QV": {
     "name": "Days Gone [Importación francesa]",
@@ -2185,7 +2181,7 @@
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499167+00:00",
     "price": "32,73 €",
-    "pending_price": "32,74 €",
+    "pending_price": "33,80 €",
     "pending_price_count": 1
   },
   "ES:B0CJG2KCBL": {
@@ -2193,7 +2189,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499236+00:00",
-    "price": "12,90 €"
+    "price": "12,90 €",
+    "pending_price": "16,99 €",
+    "pending_price_count": 1
   },
   "ES:B00DC267Z0": {
     "name": "Kingdom Hearts III (PlayStation PS4)",
@@ -2298,7 +2296,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "24,13 €"
+    "price": "24,05 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2732,9 +2730,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500241+00:00",
-    "price": "22,79 €",
-    "pending_price": "22,91 €",
-    "pending_price_count": 1
+    "price": "22,91 €"
   },
   "ES:B07G2D87BV": {
     "name": "Auriculares Gaming Stereo Sony Oficial PS4 Bigben Interactive - Compatible con PS5",
@@ -2769,9 +2765,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.500260+00:00",
-    "price": "58,24 €",
-    "pending_price": "60,95 €",
-    "pending_price_count": 1
+    "price": "60,95 €"
   },
   "ES:B0DDFYW6QV": {
     "name": "Mcbazel Cable de Carga PS Vita Cable de Datos USB Cable de Reemplazo Compatible con PS Vita, PSVita 1000-1.2M",
@@ -2890,7 +2884,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:31:53.613077+00:00",
-    "price": "47,99 €"
+    "price": "43,19 €"
   },
   "ES:B09NM9DTTC": {
     "name": "KIWIHOME Ventilador para PS5, Silencioso, Velocidad Automática, USB 3.0 | Apto para PS5 Disc/Digital sin Líneas de División en el Panel. No para PS5 Slim 2023 o Pro 2024. Blanco",
