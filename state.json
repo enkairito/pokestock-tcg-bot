@@ -714,9 +714,10 @@
   },
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-08-30T20:46:19.644833+00:00"
+    "status": "compra_directa",
+    "stock": "2",
+    "first_seen": "2026-08-30T20:46:19.644833+00:00",
+    "price": "60,06 €"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
@@ -727,10 +728,9 @@
   },
   "US:B0GZ9S9KDR": {
     "name": "Pokémon TCG: Mega Evoluzione - Caja de presentación Booster Black Pitch",
-    "status": "compra_directa",
-    "stock": "1",
-    "first_seen": "2026-08-30T20:46:19.644840+00:00",
-    "price": "227,63 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-30T20:46:19.644840+00:00"
   },
   "US:B0H2JVZYZZ": {
     "name": "Pokémon TCG: Colección de Ilustraciones para el Primer Partner — Serie 3",
@@ -1448,7 +1448,7 @@
   "US:B0F2BCG1Y5": {
     "name": "Pokémon TCG: Scarlet & Violet—Destined Rivals Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802829+00:00",
     "price": "95,34 €"
   },
