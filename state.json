@@ -1613,7 +1613,7 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "122,78 €"
+    "price": "122,75 €"
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -1711,9 +1711,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "142,86 €",
-    "pending_price": "143,40 €",
-    "pending_price_count": 1
+    "price": "143,40 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
@@ -3615,7 +3613,7 @@
   "US:B0H8SV3WJ8": {
     "name": "Pokémon TCG: 30th Celebration Elite Trainer Box (1 Tarjeta Promocional de Arte Completo, 9 Paquetes de Refuerzo y Accesorios Premium)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "first_seen": "2026-09-25T12:03:26.978532+00:00",
     "price": "239,10 €"
   }
