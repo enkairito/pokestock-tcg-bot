@@ -22,7 +22,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:20:15.362338+00:00",
-    "price": "44,99 €"
+    "price": "43,19 €"
   },
   "ES:B0GNB8B2NS": {
     "name": "Metal Gear Solid: Master Collection Volume 2 – Day One Edition - Xbox",
@@ -569,9 +569,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478229+00:00",
-    "price": "29,39 €",
-    "pending_price": "34,90 €",
-    "pending_price_count": 1
+    "price": "34,90 €"
   },
   "ES:B0BV27FTTF": {
     "name": "Aukuoy RCM Jig para Nintendo Switch, Herramientas de Cortocircuito de Herramienta RCM utilizadas para Cambiar el Juego de Archivo GBA/FBA",
@@ -1021,7 +1019,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T06:20:31.930101+00:00",
-    "price": "173,98 €"
+    "price": "173,98 €",
+    "pending_price": "193,99 €",
+    "pending_price_count": 1
   },
   "ES:B0FTG3C43P": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Fuegos Fantasmales de JCC Pokémon (6 Sobres de Mejora)",
@@ -1410,7 +1410,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850724+00:00",
-    "price": "467,00 €"
+    "price": "467,00 €",
+    "pending_price": "469,90 €",
+    "pending_price_count": 1
   },
   "ES:B0F3P3X5P2": {
     "name": "Sandisk Micro SD Express Card for Nintendo Switch 2",
@@ -1658,10 +1660,9 @@
   },
   "ES:B0H4RTWHD5": {
     "name": "Xenoblade Chronicles 2 - Nintendo Switch 2",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.318936+00:00",
-    "price": "59,90 €"
+    "first_seen": "2026-09-17T00:32:50.318936+00:00"
   },
   "ES:B0CQLNSGH4": {
     "name": "[Sin Deriva] GuliKit KK3 Max Controlador Bluetooth, Kingkong 3 Max Controlador Inalámbrico para Switch/Switch OLED, Joystick/Disparadores Efecto Hall, Maglev/rotor/vibración HD, Adaptador Hyperlink",
@@ -1934,9 +1935,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688535+00:00",
-    "price": "33,85 €",
-    "pending_price": "34,57 €",
-    "pending_price_count": 1
+    "price": "34,57 €"
   },
   "ES:B0F3NKCYC4": {
     "name": "Super Mario Party: Jamboree - Nintendo Switch 2 Edition + Jamboree TV (Switch 2)",
@@ -2027,7 +2026,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688704+00:00",
-    "price": "338,44 €"
+    "price": "338,44 €",
+    "pending_price": "338,52 €",
+    "pending_price_count": 1
   },
   "ES:B085SPRQSQ": {
     "name": "Nintendo Switch Lite - Consola Coral",
@@ -2104,7 +2105,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688897+00:00",
-    "price": "386,34 €"
+    "price": "386,34 €",
+    "pending_price": "386,42 €",
+    "pending_price_count": 1
   },
   "ES:B0BDGSPP7H": {
     "name": "Nintendo Switch OLED Edición Limitada Pokémon Escarlata y Púrpura",
@@ -2146,7 +2149,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688994+00:00",
-    "price": "181,98 €"
+    "price": "181,98 €",
+    "pending_price": "212,99 €",
+    "pending_price_count": 1
   },
   "ES:B0CMDHWDP9": {
     "name": "Consola Switch - Color Azul Neón/Rojo Neón + Super Mario Bros. Wonder + Mario Kart 8 Deluxe",
