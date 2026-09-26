@@ -583,7 +583,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478247+00:00",
-    "price": "27,64 €"
+    "price": "24,88 €"
   },
   "ES:B01N1081RO": {
     "name": "Nintendo Mario Kart 8 Deluxe Nintendo Switch",
@@ -632,7 +632,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478316+00:00",
-    "price": "35,35 €"
+    "price": "35,21 €"
   },
   "ES:B0FR451FFZ": {
     "name": "Nintendo Super Mario Galaxy + Super Mario Galaxy 2",
@@ -1019,9 +1019,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T06:20:31.930101+00:00",
-    "price": "193,99 €",
-    "pending_price": "257,49 €",
-    "pending_price_count": 1
+    "price": "257,49 €"
   },
   "ES:B0FTG3C43P": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Fuegos Fantasmales de JCC Pokémon (6 Sobres de Mejora)",
@@ -2301,10 +2299,9 @@
   },
   "ES:B0BSNS7Q74": {
     "name": "Nacon - V-RALLY 4 - Videojuego para Nintendo Switch - Código de descarga -[Versión Española]",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.689356+00:00",
-    "price": "3,79 €"
+    "first_seen": "2026-09-17T00:32:50.689356+00:00"
   },
   "ES:B09K4R4BLQ": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition",
