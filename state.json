@@ -799,7 +799,9 @@
     "status": "compra_directa",
     "stock": "4",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
-    "price": "73,23 €"
+    "price": "73,23 €",
+    "pending_price": "73,29 €",
+    "pending_price_count": 1
   },
   "US:B0GV6WRPRV": {
     "name": "Pokémon TCG: Lata Mega Moonlit",
@@ -1297,7 +1299,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "114,19 €"
+    "price": "114,19 €",
+    "pending_price": "116,40 €",
+    "pending_price_count": 1
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1311,7 +1315,9 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802653+00:00",
-    "price": "90,98 €"
+    "price": "90,98 €",
+    "pending_price": "92,72 €",
+    "pending_price_count": 1
   },
   "UK:B0CMZS84KP": {
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
@@ -1391,7 +1397,7 @@
   "UK:B0F634M6PY": {
     "name": "Pokemon TCG - Scarlet & Violet: Destined Rivals - Booster Pack - 10 Cards",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": null,
     "first_seen": "2026-09-04T21:32:58.802777+00:00",
     "price": "23,49 €"
   },
@@ -1610,7 +1616,9 @@
     "status": "compra_directa",
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
-    "price": "122,65 €"
+    "price": "122,65 €",
+    "pending_price": "122,97 €",
+    "pending_price_count": 1
   },
   "UK:B0CJM4MQTT": {
     "name": "Pokemon Scarlet EX Pantalla 30 coreana",
@@ -1631,7 +1639,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T05:18:07.280869+00:00",
-    "price": "110,92 €"
+    "price": "110,90 €"
   },
   "UK:B0DG2XTYDP": {
     "name": "Pokémon: Colección superprémium Charizard ex (3 Cartas holográficas de promoción, 1 Figura para exhibir una Carta y 10 Sobres de Mejora)",
@@ -1694,7 +1702,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-05T20:58:26.290849+00:00",
-    "price": "71,34 €"
+    "price": "70,89 €"
   },
   "UK:B0CGCYNCR5": {
     "name": "Pokemon - SV Paradox Rift - Booster Box 36 pcs (POK85399)",
@@ -2921,7 +2929,9 @@
     "status": "compra_directa",
     "stock": "5",
     "first_seen": "2026-09-17T00:43:57.912076+00:00",
-    "price": "98,12 €"
+    "price": "98,12 €",
+    "pending_price": "99,74 €",
+    "pending_price_count": 1
   },
   "US:B0DLQXNQDH": {
     "name": "Pokémon TCG: Scarlet & Violet - Prismatic Evolutions Mini Tin - Jolteon (2 Paquetes de Refuerzo y 1 Moneda)",
