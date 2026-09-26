@@ -1274,10 +1274,9 @@
   },
   "ES:B0FMYKCKK6": {
     "name": "Pokémon: Colección Poderes Supremos de JCC Pokémon: Terapagos ex (3 Cartas holográfica de promoción, 18 Paquetes de Mejora)",
-    "status": "compra_directa",
-    "stock": "2",
-    "first_seen": "2026-09-04T15:11:54.795786+00:00",
-    "price": "141,41 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-09-04T15:11:54.795786+00:00"
   },
   "US:B0BCN6HZR3": {
     "name": "Pokémon TCG: Caja de entrenador de élite Espada y Escudo Tempestad Plateada",
@@ -2410,9 +2409,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-16T18:43:05.692265+00:00",
-    "price": "82,74 €",
-    "pending_price": "84,16 €",
-    "pending_price_count": 1
+    "price": "84,16 €"
   },
   "TRU:K1105105": {
     "name": "Pokémon - Escarlata y Púrpura: Rivales Predestinados - Sobre de Mejora - Español (Varios modelos)",
@@ -2925,7 +2922,7 @@
   "UK:B0GP9QHQ3Y": {
     "name": "Pokemon Juego de Cartas Mega Expansion Pack Abyss Eye Box",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": "5",
     "first_seen": "2026-09-17T00:43:57.912076+00:00",
     "price": "98,12 €"
   },
