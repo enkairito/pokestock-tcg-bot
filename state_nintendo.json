@@ -732,9 +732,10 @@
   },
   "ES:B0HJ91G9GH": {
     "name": "Zelda Ocarina Of Time - Nintendo Switch 2",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-12T06:29:23.379261+00:00"
+    "first_seen": "2026-09-12T06:29:23.379261+00:00",
+    "price": "59,90 €"
   },
   "ES:B0FTG4DGK7": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Fuegos Fantasmales de JCC Pokémon (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -1429,7 +1430,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850805+00:00",
-    "price": "279,90 €"
+    "price": "279,90 €",
+    "pending_price": "286,00 €",
+    "pending_price_count": 1
   },
   "ES:B092JL5NS2": {
     "name": "Nintendo Switch Lite Azul",
@@ -1924,7 +1927,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688526+00:00",
-    "price": "48,30 €"
+    "price": "45,96 €"
   },
   "ES:B0FL2GS1CT": {
     "name": "Survival Kids - Switch 2",
@@ -2299,9 +2302,10 @@
   },
   "ES:B0BSNS7Q74": {
     "name": "Nacon - V-RALLY 4 - Videojuego para Nintendo Switch - Código de descarga -[Versión Española]",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.689356+00:00"
+    "first_seen": "2026-09-17T00:32:50.689356+00:00",
+    "price": "3,79 €"
   },
   "ES:B09K4R4BLQ": {
     "name": "Grand Theft Auto: The Trilogy – The Definitive Edition",
@@ -2315,7 +2319,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.689402+00:00",
-    "price": "53,03 €"
+    "price": "53,03 €",
+    "pending_price": "59,99 €",
+    "pending_price_count": 1
   },
   "ES:B0FKH81W82": {
     "name": "Operation Night Strikers Assault Edition NS",
