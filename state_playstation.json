@@ -485,7 +485,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:04.018968+00:00",
-    "price": "228,98 €"
+    "price": "228,98 €",
+    "pending_price": "229,00 €",
+    "pending_price_count": 1
   },
   "ES:B01LBH9ILW": {
     "name": "Dualshock 4 Wireless Controller - Jet Black - PlayStation 4",
@@ -1153,7 +1155,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-14T12:22:34.377710+00:00",
-    "price": "23,48 €"
+    "price": "23,45 €"
   },
   "ES:B0DPHGSSWH": {
     "name": "Fenolical Soporte Delgado para PS5/PS5 con Ventilador de Refrigeración Ajustable, Soporte de Cargador de Refrigeración Vertical PS5 para PS5/PS5 Slim, Estación de Refrigeración Delgada Multifuncional",
@@ -1284,7 +1286,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T20:34:33.327835+00:00",
-    "price": "19,00 €"
+    "price": "19,00 €",
+    "pending_price": "19,90 €",
+    "pending_price_count": 1
   },
   "ES:B0H3W5V1TN": {
     "name": "CONTROL Resonant - PS5 (Exclusiva Amazon)",
@@ -1351,10 +1355,9 @@
   },
   "ES:B0HF55Q11W": {
     "name": "PlayStation®5 Edición Digital: pack Ed. Limitada Marvel: Lobezno Amarillo de Combate",
-    "status": "compra_directa",
+    "status": "no_disponible",
     "stock": null,
-    "first_seen": "2026-09-16T04:35:55.955905+00:00",
-    "price": "729,91 €"
+    "first_seen": "2026-09-16T04:35:55.955905+00:00"
   },
   "ES:B0D8KXMCTC": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Naranja)",
@@ -1870,9 +1873,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.498076+00:00",
-    "price": "29,93 €",
-    "pending_price": "31,47 €",
-    "pending_price_count": 1
+    "price": "31,47 €"
   },
   "ES:B09KCP7BS8": {
     "name": "Autobahn Police Simulator 2 (Nintendo Switch)",
@@ -2292,7 +2293,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499625+00:00",
-    "price": "23,99 €"
+    "price": "23,91 €"
   },
   "ES:B01LCF27VQ": {
     "name": "Assassin's Creed The Ezio Collection [Importación Italiana]",
@@ -2350,7 +2351,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:37.499889+00:00",
-    "price": "37,88 €"
+    "price": "37,00 €"
   },
   "ES:B08TJGKN5J": {
     "name": "PS4 Horizon Forbidden West",
@@ -3091,9 +3092,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-18T06:31:41.555268+00:00",
-    "price": "15,86 €",
-    "pending_price": "16,87 €",
-    "pending_price_count": 1
+    "price": "16,87 €"
   },
   "ES:B0D669NGW7": {
     "name": "Alan Wake 2 Deluxe Edition - PS5",
@@ -4173,5 +4172,26 @@
     "stock": null,
     "first_seen": "2026-09-26T08:32:22.750599+00:00",
     "price": "699,00 €"
+  },
+  "ES:B08R3YDXQ7": {
+    "name": "Reloj Dogs Legion PS5 VF",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-26T10:32:07.714283+00:00",
+    "price": "14,76 €"
+  },
+  "ES:B0CY2WLXLV": {
+    "name": "MotoGP 24 Day One Edition PS4 PES",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-26T10:32:07.714343+00:00",
+    "price": "34,50 €"
+  },
+  "ES:B00V5ZJEC4": {
+    "name": "Assassin's Creed: Unity",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-26T10:32:07.714364+00:00",
+    "price": "20,68 €"
   }
 }
