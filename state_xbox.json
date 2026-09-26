@@ -379,7 +379,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811694+00:00",
-    "price": "37,94 €"
+    "price": "37,94 €",
+    "pending_price": "44,99 €",
+    "pending_price_count": 1
   },
   "ES:B0C7GW9F88": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Blanco)",
@@ -504,7 +506,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:10.760406+00:00",
-    "price": "211,88 €"
+    "price": "149,99 €"
   },
   "ES:B0GSSR9ZNS": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Caos Creciente (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -598,7 +600,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:11.204439+00:00",
-    "price": "30,94 €"
+    "price": "22,90 €"
   },
   "ES:B01M0I0K0E": {
     "name": "Assassin's Creed: The Ezio Collection - Xbox One",
@@ -1357,7 +1359,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:33.318880+00:00",
-    "price": "135,00 €"
+    "price": "129,99 €"
   },
   "ES:B09FGM3DVQ": {
     "name": "Mcbazel Cubierta antipolvo para consola Xbox Series X, funda protectora antiarañazos suave para consola Xbox Series X, color negro",
@@ -1806,9 +1808,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256278+00:00",
-    "price": "75,90 €",
-    "pending_price": "79,99 €",
-    "pending_price_count": 1
+    "price": "79,99 €"
   },
   "ES:B0FDBPPGND": {
     "name": "Borderlands 4 Standard Edition Xbox Series X",
@@ -3462,7 +3462,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T12:32:04.828246+00:00",
-    "price": "119,95 €"
+    "price": "79,99 €"
   },
   "ES:B0CCRX5NT7": {
     "name": "XIM Matrix Adaptador Multientrada para Teclado y Ratón, Convertidor de Puerto para PS5, Xbox Series X/S, Xbox One, PS4 y PC",
@@ -3982,7 +3982,7 @@
     "stock": null,
     "first_seen": "2026-09-22T16:31:37.525101+00:00",
     "price": "40,79 €",
-    "pending_price": "41,20 €",
+    "pending_price": "41,14 €",
     "pending_price_count": 1
   },
   "ES:B07R76NLYY": {
