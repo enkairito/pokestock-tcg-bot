@@ -280,9 +280,11 @@
   "ES:B0DSGB5Q6B": {
     "name": "Pokémon Colección Ursaluna Luna Carmesí (4 Cartas holográficas y 4 Paquetes de Mejora)",
     "status": "compra_directa",
-    "stock": "4",
+    "stock": null,
     "first_seen": "2026-08-25T20:27:15.542170+00:00",
-    "price": "38,00 €"
+    "price": "38,00 €",
+    "pending_price": "44,99 €",
+    "pending_price_count": 1
   },
   "ES:B0FXTY9D99": {
     "name": "Pokémon: Blíster de 3 Sobres de Mejora de Megaevolución-Caos Creciente (1 Carta holográfica de promoción y 3 Sobres de Mejora)",
@@ -470,9 +472,10 @@
   },
   "ES:B0C643MGKG": {
     "name": "Pokémon: Palkia Forma Origen de la Liga VSTAR",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-08-27T14:04:49.802902+00:00"
+    "first_seen": "2026-08-27T14:04:49.802902+00:00",
+    "price": "47,49 €"
   },
   "ES:B0FY3165VP": {
     "name": "Pokémon: Colección ultraprémium Mega-Charizard X ex (2 Cartas holográficas de promoción, 18 Sobres de Mejora y Accesorios prémium)",
