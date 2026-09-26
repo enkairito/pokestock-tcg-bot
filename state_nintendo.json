@@ -632,7 +632,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478316+00:00",
-    "price": "35,80 €"
+    "price": "35,73 €"
   },
   "ES:B0FR451FFZ": {
     "name": "Nintendo Super Mario Galaxy + Super Mario Galaxy 2",
@@ -653,7 +653,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478344+00:00",
-    "price": "69,99 €"
+    "price": "69,99 €",
+    "pending_price": "72,59 €",
+    "pending_price_count": 1
   },
   "ES:B0F2FG3X9D": {
     "name": "HEYSTOP Funda para Nintendo Switch 2, Kit de Estuche Protector con Carcasa para PC y Carcasa de TPU para el Control de Switch 2, Diseño de Gran Capacidad para Accesorios de Nintendo Switch 2",
@@ -732,9 +734,10 @@
   },
   "ES:B0HJ91G9GH": {
     "name": "Zelda Ocarina Of Time - Nintendo Switch 2",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-12T06:29:23.379261+00:00"
+    "first_seen": "2026-09-12T06:29:23.379261+00:00",
+    "price": "59,90 €"
   },
   "ES:B0FTG4DGK7": {
     "name": "Pokémon: Caja de Entrenador Élite de Megaevolución-Fuegos Fantasmales de JCC Pokémon (1 Carta de promoción con ilustración expandida, 9 Sobres de Mejora y Accesorios prémium)",
@@ -1094,7 +1097,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T18:20:24.792627+00:00",
-    "price": "45,90 €"
+    "price": "45,90 €",
+    "pending_price": "45,99 €",
+    "pending_price_count": 1
   },
   "ES:B09S79RJN2": {
     "name": "NINTENDO Switch Sports",
@@ -1656,9 +1661,10 @@
   },
   "ES:B0H4RTWHD5": {
     "name": "Xenoblade Chronicles 2 - Nintendo Switch 2",
-    "status": "no_disponible",
+    "status": "compra_directa",
     "stock": null,
-    "first_seen": "2026-09-17T00:32:50.318936+00:00"
+    "first_seen": "2026-09-17T00:32:50.318936+00:00",
+    "price": "59,90 €"
   },
   "ES:B0CQLNSGH4": {
     "name": "[Sin Deriva] GuliKit KK3 Max Controlador Bluetooth, Kingkong 3 Max Controlador Inalámbrico para Switch/Switch OLED, Joystick/Disparadores Efecto Hall, Maglev/rotor/vibración HD, Adaptador Hyperlink",
@@ -1847,9 +1853,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688425+00:00",
-    "price": "55,75 €",
-    "pending_price": "55,76 €",
-    "pending_price_count": 1
+    "price": "55,76 €"
   },
   "ES:B0GRWHCZ4R": {
     "name": "Pokémon Edición Rojo Fuego Standard | Nintendo Switch - Código de descarga",
@@ -3057,7 +3061,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:07:16.088140+00:00",
-    "price": "36,99 €"
+    "price": "31,71 €"
   },
   "ES:B0FB3P3MH7": {
     "name": "Teyomi Funda protectora de silicona compatible con Nintendo Switch 2, Carcasa para Nintendo Switch 2 con protector de pantalla de vidrio templado, Estuche con agarre ergonómico (Negro)",
@@ -3689,7 +3693,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T18:31:43.446788+00:00",
-    "price": "58,81 €"
+    "price": "58,81 €",
+    "pending_price": "68,28 €",
+    "pending_price_count": 1
   },
   "ES:B0GKFMK3R8": {
     "name": "Resident Evil 9: Requiem - Switch 2",
@@ -3872,5 +3878,26 @@
     "stock": null,
     "first_seen": "2026-09-25T22:31:43.018498+00:00",
     "price": "28,99 €"
+  },
+  "ES:B0F3NM4D9X": {
+    "name": "The Legend of Zelda: Breath of the Wild - Nintendo Switch 2 Edition",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-26T08:31:59.985875+00:00",
+    "price": "80,67 €"
+  },
+  "ES:B0CT3VHW3H": {
+    "name": "Golazo!2 Deluxe - Complete Edition - Nintendo Switch",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-26T08:31:59.986145+00:00",
+    "price": "14,97 €"
+  },
+  "ES:B0F4R8QCFQ": {
+    "name": "Victory Heat Rally - Champion Edition - Nintendo Switch",
+    "status": "compra_directa",
+    "stock": null,
+    "first_seen": "2026-09-26T08:31:59.986162+00:00",
+    "price": "20,95 €"
   }
 }
