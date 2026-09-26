@@ -1297,9 +1297,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "114,19 €",
-    "pending_price": "116,40 €",
-    "pending_price_count": 1
+    "price": "114,19 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1613,7 +1611,7 @@
     "stock": "3",
     "first_seen": "2026-09-05T00:38:53.462546+00:00",
     "price": "122,65 €",
-    "pending_price": "122,96 €",
+    "pending_price": "122,95 €",
     "pending_price_count": 1
   },
   "UK:B0CJM4MQTT": {
