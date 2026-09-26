@@ -569,7 +569,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-12T00:28:58.478229+00:00",
-    "price": "34,90 €"
+    "price": "29,39 €"
   },
   "ES:B0BV27FTTF": {
     "name": "Aukuoy RCM Jig para Nintendo Switch, Herramientas de Cortocircuito de Herramienta RCM utilizadas para Cambiar el Juego de Archivo GBA/FBA",
@@ -1019,9 +1019,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T06:20:31.930101+00:00",
-    "price": "173,98 €",
-    "pending_price": "193,99 €",
-    "pending_price_count": 1
+    "price": "193,99 €"
   },
   "ES:B0FTG3C43P": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Fuegos Fantasmales de JCC Pokémon (6 Sobres de Mejora)",
@@ -1083,7 +1081,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-13T12:20:51.137152+00:00",
-    "price": "24,01 €"
+    "price": "24,01 €",
+    "pending_price": "24,42 €",
+    "pending_price_count": 1
   },
   "ES:B0F2TN43GH": {
     "name": "Nintendo Switch 2 - The Legend of Zelda Edition",
@@ -1293,7 +1293,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-15T00:23:08.150021+00:00",
-    "price": "35,82 €"
+    "price": "35,80 €"
   },
   "ES:B0GSSQYPK3": {
     "name": "Pokémon: Lote de Sobres de Mejora de Megaevolución-Caos Creciente (6 Sobres de Mejora)",
@@ -1410,9 +1410,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850724+00:00",
-    "price": "467,00 €",
-    "pending_price": "469,90 €",
-    "pending_price_count": 1
+    "price": "469,90 €"
   },
   "ES:B0F3P3X5P2": {
     "name": "Sandisk Micro SD Express Card for Nintendo Switch 2",
@@ -1433,7 +1431,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-16T10:34:14.850805+00:00",
-    "price": "293,00 €"
+    "price": "293,00 €",
+    "pending_price": "293,18 €",
+    "pending_price_count": 1
   },
   "ES:B092JL5NS2": {
     "name": "Nintendo Switch Lite Azul",
@@ -1935,7 +1935,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688535+00:00",
-    "price": "34,57 €"
+    "price": "33,85 €"
   },
   "ES:B0F3NKCYC4": {
     "name": "Super Mario Party: Jamboree - Nintendo Switch 2 Edition + Jamboree TV (Switch 2)",
@@ -2026,9 +2026,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688704+00:00",
-    "price": "338,44 €",
-    "pending_price": "338,52 €",
-    "pending_price_count": 1
+    "price": "338,52 €"
   },
   "ES:B085SPRQSQ": {
     "name": "Nintendo Switch Lite - Consola Coral",
@@ -2105,9 +2103,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688897+00:00",
-    "price": "386,34 €",
-    "pending_price": "386,42 €",
-    "pending_price_count": 1
+    "price": "386,42 €"
   },
   "ES:B0BDGSPP7H": {
     "name": "Nintendo Switch OLED Edición Limitada Pokémon Escarlata y Púrpura",
@@ -2149,9 +2145,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:50.688994+00:00",
-    "price": "181,98 €",
-    "pending_price": "212,99 €",
-    "pending_price_count": 1
+    "price": "212,99 €"
   },
   "ES:B0CMDHWDP9": {
     "name": "Consola Switch - Color Azul Neón/Rojo Neón + Super Mario Bros. Wonder + Mario Kart 8 Deluxe",
@@ -3116,7 +3110,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T14:31:33.624547+00:00",
-    "price": "34,27 €"
+    "price": "34,22 €"
   },
   "ES:B0DMTLFG2X": {
     "name": "Little Kitty, Big City - Switch",
@@ -3442,7 +3436,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-19T12:31:57.853818+00:00",
-    "price": "36,99 €"
+    "price": "34,90 €"
   },
   "ES:B0FG3HRVSQ": {
     "name": "DORA Rescate en el Bosque Tropical",
@@ -3632,7 +3626,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-20T18:31:38.420892+00:00",
-    "price": "371,99 €"
+    "price": "371,99 €",
+    "pending_price": "374,99 €",
+    "pending_price_count": 1
   },
   "ES:B0FLJPDK1Y": {
     "name": "BKELHS Slim Cover for Nintendo Switch 2 Case, Joy-con Split Design, Hard Slim Lightweight Anti-Scratch Full Protective Dockable Switch 2 Controller Case Shockproof Non-Slip for Switch 2 Accessories",
