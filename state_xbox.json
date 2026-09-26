@@ -380,9 +380,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-11T19:25:04.811694+00:00",
-    "price": "37,94 €",
-    "pending_price": "44,99 €",
-    "pending_price_count": 1
+    "price": "37,94 €"
   },
   "ES:B0C7GW9F88": {
     "name": "GameSir G7 SE Mando con Cable para Xbox Series X|S, Xbox One & Windows 10/11, Plug and Play Gamepad para Juegos con Joysticks de Efecto Hall, Conector de Audio de 3,5 mm (Blanco)",
@@ -995,7 +993,7 @@
     "stock": null,
     "first_seen": "2026-09-14T12:21:25.171665+00:00",
     "price": "30,39 €",
-    "pending_price": "35,89 €",
+    "pending_price": "35,82 €",
     "pending_price_count": 1
   },
   "ES:B0F7RNNYZY": {
@@ -1909,7 +1907,9 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-17T00:32:42.256426+00:00",
-    "price": "33,88 €"
+    "price": "33,88 €",
+    "pending_price": "39,00 €",
+    "pending_price_count": 1
   },
   "ES:B0FPMNXV7V": {
     "name": "007 First Light Specialist Edition - XSRX",
@@ -3984,7 +3984,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-22T16:31:37.525101+00:00",
-    "price": "40,92 €"
+    "price": "40,86 €"
   },
   "ES:B07R76NLYY": {
     "name": "F1 2019 Legends Edition (XBox ONE)",
@@ -4508,7 +4508,7 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-24T14:31:53.505508+00:00",
-    "price": "18,79 €"
+    "price": "18,74 €"
   },
   "ES:B09867DNJ9": {
     "name": "DEMON SLAYER HINOKAMI.XONE/XSX",
