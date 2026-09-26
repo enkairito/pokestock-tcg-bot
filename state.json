@@ -1314,7 +1314,9 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802653+00:00",
-    "price": "90,98 €"
+    "price": "90,98 €",
+    "pending_price": "92,72 €",
+    "pending_price_count": 1
   },
   "UK:B0CMZS84KP": {
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
@@ -2412,7 +2414,9 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-16T18:43:05.692265+00:00",
-    "price": "82,74 €"
+    "price": "82,74 €",
+    "pending_price": "98,08 €",
+    "pending_price_count": 1
   },
   "TRU:K1105105": {
     "name": "Pokémon - Escarlata y Púrpura: Rivales Predestinados - Sobre de Mejora - Español (Varios modelos)",
@@ -2927,7 +2931,9 @@
     "status": "compra_directa",
     "stock": "4",
     "first_seen": "2026-09-17T00:43:57.912076+00:00",
-    "price": "98,12 €"
+    "price": "98,12 €",
+    "pending_price": "99,74 €",
+    "pending_price_count": 1
   },
   "US:B0DLQXNQDH": {
     "name": "Pokémon TCG: Scarlet & Violet - Prismatic Evolutions Mini Tin - Jolteon (2 Paquetes de Refuerzo y 1 Moneda)",
