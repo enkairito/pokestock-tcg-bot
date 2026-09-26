@@ -2406,9 +2406,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-16T18:43:05.692265+00:00",
-    "price": "83,44 €",
-    "pending_price": "86,29 €",
-    "pending_price_count": 1
+    "price": "86,29 €"
   },
   "TRU:K1105105": {
     "name": "Pokémon - Escarlata y Púrpura: Rivales Predestinados - Sobre de Mejora - Español (Varios modelos)",
@@ -3616,6 +3614,6 @@
     "status": "compra_directa",
     "stock": null,
     "first_seen": "2026-09-25T12:03:26.978532+00:00",
-    "price": "239,42 €"
+    "price": "239,10 €"
   }
 }
