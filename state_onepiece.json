@@ -29,9 +29,11 @@
   "ES:B0HC746FKY": {
     "name": "Juego de cartas de una pieza ST-34 Purple Charlotte Katakuri | Baraja de inicio, ST-34, Charlotte Katakuri, morado, juego de cartas coleccionables",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": null,
     "first_seen": "2026-08-29T18:08:49.282666+00:00",
-    "price": "30,00 €"
+    "price": "30,00 €",
+    "pending_price": "43,66 €",
+    "pending_price_count": 1
   },
   "ES:B0CRKK3D43": {
     "name": "One Piece TCG: 500 Years In The Future - Booster Pack (OP-07) (JP) (TCG)",
