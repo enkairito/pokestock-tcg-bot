@@ -712,9 +712,10 @@
   },
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-08-30T20:46:19.644833+00:00"
+    "status": "compra_directa",
+    "stock": "1",
+    "first_seen": "2026-08-30T20:46:19.644833+00:00",
+    "price": "56,02 €"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
@@ -796,7 +797,7 @@
   "US:B0GG11K25W": {
     "name": "Pokémon TCG: Mega Evolution Order Booster Bundle (6 Booster Packs)",
     "status": "compra_directa",
-    "stock": "1",
+    "stock": "4",
     "first_seen": "2026-08-30T20:46:19.644876+00:00",
     "price": "73,23 €"
   },
@@ -1273,9 +1274,10 @@
   },
   "ES:B0FMYKCKK6": {
     "name": "Pokémon: Colección Poderes Supremos de JCC Pokémon: Terapagos ex (3 Cartas holográfica de promoción, 18 Paquetes de Mejora)",
-    "status": "no_disponible",
-    "stock": null,
-    "first_seen": "2026-09-04T15:11:54.795786+00:00"
+    "status": "compra_directa",
+    "stock": "2",
+    "first_seen": "2026-09-04T15:11:54.795786+00:00",
+    "price": "141,41 €"
   },
   "US:B0BCN6HZR3": {
     "name": "Pokémon TCG: Caja de entrenador de élite Espada y Escudo Tempestad Plateada",
@@ -1486,11 +1488,9 @@
   "US:B0G5S61BHK": {
     "name": "Pokémon TCG: Mega Charizard Tin - Mega Charizard X ex (4 potenciadores y 1 Tarjeta Promocional de Aluminio)",
     "status": "compra_directa",
-    "stock": null,
+    "stock": "5",
     "first_seen": "2026-09-04T21:32:58.802892+00:00",
-    "price": "83,18 €",
-    "pending_price": "83,25 €",
-    "pending_price_count": 1
+    "price": "83,25 €"
   },
   "US:B0F6PQLR16": {
     "name": "Pokemon TCG Scarlet & Violet 10.5 White Flare Binder Collection Box - 5 Packs",
@@ -2411,7 +2411,7 @@
     "stock": "1",
     "first_seen": "2026-09-16T18:43:05.692265+00:00",
     "price": "82,74 €",
-    "pending_price": "84,86 €",
+    "pending_price": "84,16 €",
     "pending_price_count": 1
   },
   "TRU:K1105105": {
