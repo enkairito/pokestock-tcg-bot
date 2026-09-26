@@ -714,10 +714,9 @@
   },
   "US:B0GYTRYV7P": {
     "name": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
-    "status": "compra_directa",
-    "stock": "1",
-    "first_seen": "2026-08-30T20:46:19.644833+00:00",
-    "price": "56,00 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-30T20:46:19.644833+00:00"
   },
   "US:B0GR6Q72ND": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle",
@@ -1133,7 +1132,7 @@
   "US:B0GR6N18F6": {
     "name": "Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box",
     "status": "compra_directa",
-    "stock": "2",
+    "stock": "1",
     "first_seen": "2026-08-31T17:55:22.065539+00:00",
     "price": "107,12 €"
   },
@@ -1711,7 +1710,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-06T10:19:00.889053+00:00",
-    "price": "143,40 €"
+    "price": "142,86 €"
   },
   "UK:B0GWCSP6MR": {
     "name": "Pokémon TCG: Mega Evolution - Chaos Rising 1 x Booster Pack, juego de cartas coleccionables",
@@ -3613,7 +3612,7 @@
   "US:B0H8SV3WJ8": {
     "name": "Pokémon TCG: 30th Celebration Elite Trainer Box (1 Tarjeta Promocional de Arte Completo, 9 Paquetes de Refuerzo y Accesorios Premium)",
     "status": "compra_directa",
-    "stock": "5",
+    "stock": "4",
     "first_seen": "2026-09-25T12:03:26.978532+00:00",
     "price": "239,10 €"
   }
