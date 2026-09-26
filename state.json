@@ -1014,10 +1014,9 @@
   },
   "US:B0H6DTXPK1": {
     "name": "Pokémon TCG: Mega Evolution—Ascended Heroes Tin",
-    "status": "compra_directa",
-    "stock": "1",
-    "first_seen": "2026-08-30T23:03:24.893535+00:00",
-    "price": "79,97 €"
+    "status": "no_disponible",
+    "stock": null,
+    "first_seen": "2026-08-30T23:03:24.893535+00:00"
   },
   "ES:B0D6WLDCZF": {
     "name": "BANDAI PC50533 Pokémon TCG: Back to School Collector's Chest, Multicolor, Collectible for Anime Lovers, Spanish Version",
@@ -1300,9 +1299,7 @@
     "status": "compra_directa",
     "stock": "1",
     "first_seen": "2026-09-04T21:32:58.802636+00:00",
-    "price": "114,19 €",
-    "pending_price": "116,40 €",
-    "pending_price_count": 1
+    "price": "114,19 €"
   },
   "UK:B0DC2BK8QG": {
     "name": "Pokemon TCG: 2024 Trainer’s Toolkit",
@@ -1316,9 +1313,7 @@
     "status": "compra_directa",
     "stock": "2",
     "first_seen": "2026-09-04T21:32:58.802653+00:00",
-    "price": "90,98 €",
-    "pending_price": "92,72 €",
-    "pending_price_count": 1
+    "price": "90,98 €"
   },
   "UK:B0CMZS84KP": {
     "name": "Pokémon - Expansion Pack: Cyber Judge Booster Box",
@@ -2933,9 +2928,7 @@
     "status": "compra_directa",
     "stock": "4",
     "first_seen": "2026-09-17T00:43:57.912076+00:00",
-    "price": "98,12 €",
-    "pending_price": "99,74 €",
-    "pending_price_count": 1
+    "price": "98,12 €"
   },
   "US:B0DLQXNQDH": {
     "name": "Pokémon TCG: Scarlet & Violet - Prismatic Evolutions Mini Tin - Jolteon (2 Paquetes de Refuerzo y 1 Moneda)",
